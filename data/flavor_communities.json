@@ -34,13 +34,13 @@
     ]
   },
   {
-    "head": "lemon",
+    "head": "pomegranate",
     "size": 5,
     "members": [
-      "lemon",
-      "sugar_syrup",
-      "gin",
-      "soda_water",
+      "pomegranate",
+      "grenadine",
+      "dark_rum",
+      "pineapple",
       "egg_white"
     ]
   },
@@ -65,6 +65,16 @@
     ]
   },
   {
+    "head": "lemon",
+    "size": 4,
+    "members": [
+      "lemon",
+      "sugar_syrup",
+      "gin",
+      "soda_water"
+    ]
+  },
+  {
     "head": "lime",
     "size": 4,
     "members": [
@@ -75,6 +85,26 @@
     ]
   },
   {
+    "head": "orange",
+    "size": 4,
+    "members": [
+      "orange",
+      "cherry",
+      "coconut",
+      "coconut_liqueur"
+    ]
+  },
+  {
+    "head": "sparkling_wine",
+    "size": 4,
+    "members": [
+      "sparkling_wine",
+      "blackcurrant",
+      "creme_de_cassis",
+      "absinthe"
+    ]
+  },
+  {
     "head": "tequila",
     "size": 4,
     "members": [
@@ -82,33 +112,6 @@
       "cola",
       "peach",
       "salt"
-    ]
-  },
-  {
-    "head": "grenadine",
-    "size": 3,
-    "members": [
-      "grenadine",
-      "dark_rum",
-      "pineapple"
-    ]
-  },
-  {
-    "head": "orange",
-    "size": 3,
-    "members": [
-      "orange",
-      "cherry",
-      "coconut_liqueur"
-    ]
-  },
-  {
-    "head": "sparkling_wine",
-    "size": 3,
-    "members": [
-      "sparkling_wine",
-      "creme_de_cassis",
-      "absinthe"
     ]
   },
   {

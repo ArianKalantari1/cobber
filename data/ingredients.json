@@ -1270,22 +1270,6 @@
     "source": "Provisional entry; see notes."
   },
   {
-    "id": "grenadine",
-    "display_name": "Grenadine",
-    "type": "raw",
-    "role": "sweet",
-    "compounds": [],
-    "descriptors": [
-      "sweet",
-      "pomegranate",
-      "red"
-    ],
-    "is_native": false,
-    "season": null,
-    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
-  },
-  {
     "id": "soda_water",
     "display_name": "Soda water",
     "type": "raw",
@@ -1486,5 +1470,82 @@
     "flavor_forward": [
       "almond"
     ]
+  },
+  {
+    "id": "coconut",
+    "display_name": "Coconut",
+    "type": "raw",
+    "role": "fruit",
+    "compounds": [
+      "delta_decalactone"
+    ],
+    "descriptors": [
+      "coconut",
+      "creamy",
+      "sweet"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Creamy lactone (delta-decalactone) profile; shares the lactone family with cream. TODO: verify",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "blackcurrant",
+    "display_name": "Blackcurrant",
+    "type": "raw",
+    "role": "fruit",
+    "compounds": [
+      "beta_damascenone",
+      "beta_ionone"
+    ],
+    "descriptors": [
+      "blackcurrant",
+      "tart",
+      "berry"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Cassis berry; ionone/damascenone berry-floral notes shared with raspberry. TODO: verify",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "pomegranate",
+    "display_name": "Pomegranate",
+    "type": "raw",
+    "role": "fruit",
+    "compounds": [
+      "hexanal",
+      "beta_damascenone"
+    ],
+    "descriptors": [
+      "pomegranate",
+      "tart",
+      "red"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Mild fruity-tart aroma; flavour is more tart/sweet than aromatic. TODO: verify",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "apricot",
+    "display_name": "Apricot",
+    "type": "raw",
+    "role": "fruit",
+    "compounds": [
+      "gamma_decalactone",
+      "beta_ionone",
+      "linalool",
+      "beta_damascenone"
+    ],
+    "descriptors": [
+      "apricot",
+      "stone-fruit",
+      "sweet"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Stone fruit; lactone + ionone profile, near-identical to peach (why peach was the old proxy). TODO: verify",
+    "source": "Common aroma-chemistry references; provisional."
   }
 ]

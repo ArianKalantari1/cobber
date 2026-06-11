@@ -135,7 +135,6 @@
 1	pineapple syrup
 1	pink lemonade
 1	pisang ambon
-1	pomegranate
 1	red chili flake
 1	ros sweetened lime
 1	rose

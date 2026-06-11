@@ -214,7 +214,8 @@
   {
     "drink": "Boxcar",
     "implied": [
-      "orange"
+      "orange",
+      "pomegranate"
     ],
     "literal": [
       "egg_white",
@@ -341,7 +342,8 @@
   {
     "drink": "English Rose Cocktail",
     "implied": [
-      "peach"
+      "apricot",
+      "pomegranate"
     ],
     "literal": [
       "apricot_brandy",
@@ -438,7 +440,9 @@
   },
   {
     "drink": "Gin Daisy",
-    "implied": [],
+    "implied": [
+      "pomegranate"
+    ],
     "literal": [
       "cherry",
       "gin",
@@ -493,7 +497,9 @@
   },
   {
     "drink": "Gin Squirt",
-    "implied": [],
+    "implied": [
+      "pomegranate"
+    ],
     "literal": [
       "gin",
       "grenadine",
@@ -557,7 +563,8 @@
   {
     "drink": "Grass Skirt",
     "implied": [
-      "orange"
+      "orange",
+      "pomegranate"
     ],
     "literal": [
       "gin",
@@ -629,7 +636,9 @@
   },
   {
     "drink": "Jack Rose Cocktail",
-    "implied": [],
+    "implied": [
+      "pomegranate"
+    ],
     "literal": [
       "grenadine",
       "lime"
@@ -822,7 +831,9 @@
   },
   {
     "drink": "Pink Lady",
-    "implied": [],
+    "implied": [
+      "pomegranate"
+    ],
     "literal": [
       "cream",
       "egg_white",
@@ -875,7 +886,9 @@
   },
   {
     "drink": "Queen Charlotte",
-    "implied": [],
+    "implied": [
+      "pomegranate"
+    ],
     "literal": [
       "grenadine",
       "red_wine"
@@ -1078,7 +1091,7 @@
   {
     "drink": "Stone Sour",
     "implied": [
-      "peach"
+      "apricot"
     ],
     "literal": [
       "apricot_brandy",
@@ -1088,7 +1101,8 @@
   {
     "drink": "Tequila Fizz",
     "implied": [
-      "ginger"
+      "ginger",
+      "pomegranate"
     ],
     "literal": [
       "egg_white",
@@ -1152,7 +1166,7 @@
   {
     "drink": "Valencia Cocktail",
     "implied": [
-      "peach"
+      "apricot"
     ],
     "literal": [
       "apricot_brandy",
@@ -1170,7 +1184,9 @@
   },
   {
     "drink": "Vermouth Cassis",
-    "implied": [],
+    "implied": [
+      "blackcurrant"
+    ],
     "literal": [
       "creme_de_cassis",
       "dry_vermouth",
@@ -1240,7 +1256,9 @@
   },
   {
     "drink": "Afterglow",
-    "implied": [],
+    "implied": [
+      "pomegranate"
+    ],
     "literal": [
       "grenadine",
       "orange",
@@ -1249,7 +1267,9 @@
   },
   {
     "drink": "Bora Bora",
-    "implied": [],
+    "implied": [
+      "pomegranate"
+    ],
     "literal": [
       "grenadine",
       "lemon",
@@ -1834,7 +1854,9 @@
   },
   {
     "drink": "Tequila Sunrise",
-    "implied": [],
+    "implied": [
+      "pomegranate"
+    ],
     "literal": [
       "grenadine",
       "orange",
@@ -1852,7 +1874,9 @@
   },
   {
     "drink": "Kir Royale",
-    "implied": [],
+    "implied": [
+      "blackcurrant"
+    ],
     "literal": [
       "creme_de_cassis",
       "sparkling_wine"
@@ -2060,7 +2084,9 @@
   },
   {
     "drink": "Orange Push-up",
-    "implied": [],
+    "implied": [
+      "pomegranate"
+    ],
     "literal": [
       "dark_rum",
       "grenadine",
@@ -2070,6 +2096,7 @@
   {
     "drink": "151 Florida Bushwacker",
     "implied": [
+      "coconut",
       "orange"
     ],
     "literal": [
@@ -2124,7 +2151,8 @@
   {
     "drink": "Grim Reaper",
     "implied": [
-      "coffee"
+      "coffee",
+      "pomegranate"
     ],
     "literal": [
       "coffee_liqueur",
@@ -2248,7 +2276,9 @@
   },
   {
     "drink": "San Francisco",
-    "implied": [],
+    "implied": [
+      "pomegranate"
+    ],
     "literal": [
       "grenadine",
       "orange",
@@ -2257,7 +2287,10 @@
   },
   {
     "drink": "Space Odyssey",
-    "implied": [],
+    "implied": [
+      "coconut",
+      "pomegranate"
+    ],
     "literal": [
       "cherry",
       "coconut_liqueur",
@@ -2333,6 +2366,7 @@
   {
     "drink": "Grand Blue",
     "implied": [
+      "coconut",
       "orange",
       "peach"
     ],
@@ -2380,7 +2414,9 @@
   },
   {
     "drink": "Zoksel",
-    "implied": [],
+    "implied": [
+      "blackcurrant"
+    ],
     "literal": [
       "cola",
       "creme_de_cassis",
@@ -2491,7 +2527,9 @@
   },
   {
     "drink": "Jitterbug",
-    "implied": [],
+    "implied": [
+      "pomegranate"
+    ],
     "literal": [
       "gin",
       "grenadine",
@@ -2503,7 +2541,9 @@
   },
   {
     "drink": "Moranguito",
-    "implied": [],
+    "implied": [
+      "pomegranate"
+    ],
     "literal": [
       "absinthe",
       "grenadine",
@@ -2512,7 +2552,9 @@
   },
   {
     "drink": "Rum Runner",
-    "implied": [],
+    "implied": [
+      "coconut"
+    ],
     "literal": [
       "coconut_liqueur",
       "cranberry",
@@ -2596,6 +2638,7 @@
   {
     "drink": "Radioactive Long Island Iced Tea",
     "implied": [
+      "coconut",
       "orange",
       "raspberry"
     ],
@@ -2702,7 +2745,9 @@
   },
   {
     "drink": "Ruby Tuesday",
-    "implied": [],
+    "implied": [
+      "pomegranate"
+    ],
     "literal": [
       "cranberry",
       "gin",
@@ -2820,7 +2865,9 @@
   },
   {
     "drink": "Clover Club",
-    "implied": [],
+    "implied": [
+      "pomegranate"
+    ],
     "literal": [
       "egg_white",
       "gin",
@@ -2838,7 +2885,9 @@
   },
   {
     "drink": "Mary Pickford",
-    "implied": [],
+    "implied": [
+      "pomegranate"
+    ],
     "literal": [
       "cherry",
       "grenadine",
@@ -2849,7 +2898,9 @@
   },
   {
     "drink": "Monkey Gland",
-    "implied": [],
+    "implied": [
+      "pomegranate"
+    ],
     "literal": [
       "benedictine",
       "gin",
@@ -2860,7 +2911,7 @@
   {
     "drink": "Paradise",
     "implied": [
-      "peach"
+      "apricot"
     ],
     "literal": [
       "apricot_brandy",
@@ -2977,7 +3028,9 @@
   },
   {
     "drink": "Kir",
-    "implied": [],
+    "implied": [
+      "blackcurrant"
+    ],
     "literal": [
       "creme_de_cassis",
       "sparkling_wine"
@@ -3023,7 +3076,8 @@
   {
     "drink": "Rose",
     "implied": [
-      "peach"
+      "apricot",
+      "pomegranate"
     ],
     "literal": [
       "apricot_brandy",
@@ -3081,7 +3135,9 @@
   },
   {
     "drink": "Russian Spring Punch",
-    "implied": [],
+    "implied": [
+      "blackcurrant"
+    ],
     "literal": [
       "creme_de_cassis",
       "lemon",
@@ -3134,7 +3190,8 @@
   {
     "drink": "A1",
     "implied": [
-      "orange"
+      "orange",
+      "pomegranate"
     ],
     "literal": [
       "gin",
@@ -3145,7 +3202,9 @@
   },
   {
     "drink": "Ace",
-    "implied": [],
+    "implied": [
+      "pomegranate"
+    ],
     "literal": [
       "cream",
       "egg_white",
@@ -3173,7 +3232,9 @@
   },
   {
     "drink": "Gin Rickey",
-    "implied": [],
+    "implied": [
+      "pomegranate"
+    ],
     "literal": [
       "gin",
       "grenadine",
@@ -3193,7 +3254,9 @@
   },
   {
     "drink": "Zombie",
-    "implied": [],
+    "implied": [
+      "pomegranate"
+    ],
     "literal": [
       "angostura_bitters",
       "dark_rum",
@@ -3319,7 +3382,9 @@
   },
   {
     "drink": "Bahama Mama",
-    "implied": [],
+    "implied": [
+      "pomegranate"
+    ],
     "literal": [
       "dark_rum",
       "grenadine",
@@ -3499,6 +3564,7 @@
     "implied": [],
     "literal": [
       "lemon",
+      "pomegranate",
       "soda_water",
       "white_rum"
     ]
@@ -3531,7 +3597,9 @@
   },
   {
     "drink": "Lazy Coconut Paloma",
-    "implied": [],
+    "implied": [
+      "coconut"
+    ],
     "literal": [
       "coconut_liqueur",
       "grapefruit",
@@ -3657,7 +3725,9 @@
   },
   {
     "drink": "Pink Moon",
-    "implied": [],
+    "implied": [
+      "coconut"
+    ],
     "literal": [
       "coconut_liqueur",
       "gin",
@@ -3773,7 +3843,9 @@
   },
   {
     "drink": "Planter’s Punch",
-    "implied": [],
+    "implied": [
+      "pomegranate"
+    ],
     "literal": [
       "angostura_bitters",
       "dark_rum",
@@ -3785,7 +3857,9 @@
   },
   {
     "drink": "Adam",
-    "implied": [],
+    "implied": [
+      "pomegranate"
+    ],
     "literal": [
       "dark_rum",
       "grenadine",

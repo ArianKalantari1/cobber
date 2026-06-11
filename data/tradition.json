@@ -212,12 +212,32 @@
   {
     "pair": [
       "gin",
+      "pomegranate"
+    ],
+    "tradition": 0.719996,
+    "count": 14,
+    "confidence": "solid",
+    "npmi": 0.209663
+  },
+  {
+    "pair": [
+      "gin",
       "grenadine"
     ],
     "tradition": 0.719996,
     "count": 14,
     "confidence": "solid",
     "npmi": 0.219636
+  },
+  {
+    "pair": [
+      "orange",
+      "pomegranate"
+    ],
+    "tradition": 0.68195,
+    "count": 12,
+    "confidence": "solid",
+    "npmi": 0.096878
   },
   {
     "pair": [
@@ -278,6 +298,16 @@
     "count": 11,
     "confidence": "solid",
     "npmi": 0.130788
+  },
+  {
+    "pair": [
+      "lemon",
+      "pomegranate"
+    ],
+    "tradition": 0.660669,
+    "count": 11,
+    "confidence": "solid",
+    "npmi": 0.064436
   },
   {
     "pair": [
@@ -461,6 +491,16 @@
   },
   {
     "pair": [
+      "pineapple",
+      "pomegranate"
+    ],
+    "tradition": 0.584182,
+    "count": 8,
+    "confidence": "moderate",
+    "npmi": 0.351789
+  },
+  {
+    "pair": [
       "lime",
       "soda_water"
     ],
@@ -531,16 +571,6 @@
   },
   {
     "pair": [
-      "orange",
-      "peach"
-    ],
-    "tradition": 0.552866,
-    "count": 7,
-    "confidence": "moderate",
-    "npmi": 0.14805
-  },
-  {
-    "pair": [
       "lime",
       "vodka"
     ],
@@ -578,6 +608,16 @@
     "count": 7,
     "confidence": "moderate",
     "npmi": 0.041415
+  },
+  {
+    "pair": [
+      "dark_rum",
+      "pomegranate"
+    ],
+    "tradition": 0.552866,
+    "count": 7,
+    "confidence": "moderate",
+    "npmi": 0.287116
   },
   {
     "pair": [
@@ -851,6 +891,16 @@
   },
   {
     "pair": [
+      "pomegranate",
+      "sugar_syrup"
+    ],
+    "tradition": 0.47638,
+    "count": 5,
+    "confidence": "moderate",
+    "npmi": -0.089464
+  },
+  {
+    "pair": [
       "mint",
       "white_rum"
     ],
@@ -958,6 +1008,16 @@
     "count": 5,
     "confidence": "moderate",
     "npmi": -0.215783
+  },
+  {
+    "pair": [
+      "egg_white",
+      "pomegranate"
+    ],
+    "tradition": 0.47638,
+    "count": 5,
+    "confidence": "moderate",
+    "npmi": 0.322949
   },
   {
     "pair": [
@@ -1072,6 +1132,16 @@
   {
     "pair": [
       "coconut_liqueur",
+      "orange"
+    ],
+    "tradition": 0.47638,
+    "count": 5,
+    "confidence": "moderate",
+    "npmi": 0.219123
+  },
+  {
+    "pair": [
+      "coconut",
       "orange"
     ],
     "tradition": 0.47638,
@@ -1241,6 +1311,26 @@
   },
   {
     "pair": [
+      "pomegranate",
+      "white_rum"
+    ],
+    "tradition": 0.427905,
+    "count": 4,
+    "confidence": "moderate",
+    "npmi": -0.03218
+  },
+  {
+    "pair": [
+      "pomegranate",
+      "soda_water"
+    ],
+    "tradition": 0.427905,
+    "count": 4,
+    "confidence": "moderate",
+    "npmi": 0.053219
+  },
+  {
+    "pair": [
       "pineapple",
       "sugar_syrup"
     ],
@@ -1257,7 +1347,7 @@
     "tradition": 0.427905,
     "count": 4,
     "confidence": "moderate",
-    "npmi": 0.096915
+    "npmi": 0.194222
   },
   {
     "pair": [
@@ -1278,6 +1368,16 @@
     "count": 4,
     "confidence": "moderate",
     "npmi": 0.159211
+  },
+  {
+    "pair": [
+      "orange",
+      "peach"
+    ],
+    "tradition": 0.427905,
+    "count": 4,
+    "confidence": "moderate",
+    "npmi": 0.103863
   },
   {
     "pair": [
@@ -1318,6 +1418,16 @@
     "count": 4,
     "confidence": "moderate",
     "npmi": 0.225002
+  },
+  {
+    "pair": [
+      "lime",
+      "pomegranate"
+    ],
+    "tradition": 0.427905,
+    "count": 4,
+    "confidence": "moderate",
+    "npmi": -0.047375
   },
   {
     "pair": [
@@ -1672,6 +1782,16 @@
   {
     "pair": [
       "cherry",
+      "pomegranate"
+    ],
+    "tradition": 0.427905,
+    "count": 4,
+    "confidence": "moderate",
+    "npmi": 0.07133
+  },
+  {
+    "pair": [
+      "cherry",
       "orange_bitters"
     ],
     "tradition": 0.427905,
@@ -1891,6 +2011,26 @@
   },
   {
     "pair": [
+      "pomegranate",
+      "triple_sec"
+    ],
+    "tradition": 0.368578,
+    "count": 3,
+    "confidence": "moderate",
+    "npmi": 0.039424
+  },
+  {
+    "pair": [
+      "pomegranate",
+      "tequila"
+    ],
+    "tradition": 0.368578,
+    "count": 3,
+    "confidence": "moderate",
+    "npmi": 0.182983
+  },
+  {
+    "pair": [
       "pineapple",
       "triple_sec"
     ],
@@ -2032,16 +2172,6 @@
   {
     "pair": [
       "lemon",
-      "peach"
-    ],
-    "tradition": 0.368578,
-    "count": 3,
-    "confidence": "moderate",
-    "npmi": -0.057361
-  },
-  {
-    "pair": [
-      "lemon",
       "orange_bitters"
     ],
     "tradition": 0.368578,
@@ -2148,16 +2278,6 @@
     "count": 3,
     "confidence": "moderate",
     "npmi": -0.105466
-  },
-  {
-    "pair": [
-      "gin",
-      "peach"
-    ],
-    "tradition": 0.368578,
-    "count": 3,
-    "confidence": "moderate",
-    "npmi": -0.011634
   },
   {
     "pair": [
@@ -2391,6 +2511,26 @@
   },
   {
     "pair": [
+      "apricot",
+      "orange"
+    ],
+    "tradition": 0.368578,
+    "count": 3,
+    "confidence": "moderate",
+    "npmi": 0.15983
+  },
+  {
+    "pair": [
+      "apricot",
+      "gin"
+    ],
+    "tradition": 0.368578,
+    "count": 3,
+    "confidence": "moderate",
+    "npmi": 0.201613
+  },
+  {
+    "pair": [
       "apple",
       "orange"
     ],
@@ -2581,6 +2721,16 @@
   },
   {
     "pair": [
+      "pomegranate",
+      "vodka"
+    ],
+    "tradition": 0.292091,
+    "count": 2,
+    "confidence": "sparse",
+    "npmi": -0.200242
+  },
+  {
+    "pair": [
       "peach_schnapps",
       "vodka"
     ],
@@ -2748,16 +2898,6 @@
     "count": 2,
     "confidence": "sparse",
     "npmi": -0.193977
-  },
-  {
-    "pair": [
-      "grenadine",
-      "peach"
-    ],
-    "tradition": 0.292091,
-    "count": 2,
-    "confidence": "sparse",
-    "npmi": 0.110784
   },
   {
     "pair": [
@@ -3002,12 +3142,12 @@
   {
     "pair": [
       "dry_vermouth",
-      "peach"
+      "pomegranate"
     ],
     "tradition": 0.292091,
     "count": 2,
     "confidence": "sparse",
-    "npmi": 0.178933
+    "npmi": 0.027048
   },
   {
     "pair": [
@@ -3162,6 +3302,16 @@
   {
     "pair": [
       "cream",
+      "pomegranate"
+    ],
+    "tradition": 0.292091,
+    "count": 2,
+    "confidence": "sparse",
+    "npmi": -0.118571
+  },
+  {
+    "pair": [
+      "cream",
       "lemon"
     ],
     "tradition": 0.292091,
@@ -3227,7 +3377,7 @@
     "tradition": 0.292091,
     "count": 2,
     "confidence": "sparse",
-    "npmi": 0.256403
+    "npmi": 0.340823
   },
   {
     "pair": [
@@ -3237,7 +3387,7 @@
     "tradition": 0.292091,
     "count": 2,
     "confidence": "sparse",
-    "npmi": 0.256403
+    "npmi": 0.340823
   },
   {
     "pair": [
@@ -3322,6 +3472,46 @@
   {
     "pair": [
       "coconut_liqueur",
+      "dark_rum"
+    ],
+    "tradition": 0.292091,
+    "count": 2,
+    "confidence": "sparse",
+    "npmi": 0.263352
+  },
+  {
+    "pair": [
+      "coconut",
+      "white_rum"
+    ],
+    "tradition": 0.292091,
+    "count": 2,
+    "confidence": "sparse",
+    "npmi": 0.123966
+  },
+  {
+    "pair": [
+      "coconut",
+      "pineapple"
+    ],
+    "tradition": 0.292091,
+    "count": 2,
+    "confidence": "sparse",
+    "npmi": 0.278057
+  },
+  {
+    "pair": [
+      "coconut",
+      "gin"
+    ],
+    "tradition": 0.292091,
+    "count": 2,
+    "confidence": "sparse",
+    "npmi": 0.044234
+  },
+  {
+    "pair": [
+      "coconut",
       "dark_rum"
     ],
     "tradition": 0.292091,
@@ -3561,6 +3751,26 @@
   },
   {
     "pair": [
+      "blackcurrant",
+      "sparkling_wine"
+    ],
+    "tradition": 0.292091,
+    "count": 2,
+    "confidence": "sparse",
+    "npmi": 0.482582
+  },
+  {
+    "pair": [
+      "blackcurrant",
+      "lemon"
+    ],
+    "tradition": 0.292091,
+    "count": 2,
+    "confidence": "sparse",
+    "npmi": 0.066338
+  },
+  {
+    "pair": [
       "benedictine",
       "lemon"
     ],
@@ -3592,6 +3802,16 @@
   {
     "pair": [
       "apricot_brandy",
+      "pomegranate"
+    ],
+    "tradition": 0.292091,
+    "count": 2,
+    "confidence": "sparse",
+    "npmi": 0.301245
+  },
+  {
+    "pair": [
+      "apricot_brandy",
       "lemon"
     ],
     "tradition": 0.292091,
@@ -3612,6 +3832,46 @@
   {
     "pair": [
       "apricot_brandy",
+      "dry_vermouth"
+    ],
+    "tradition": 0.292091,
+    "count": 2,
+    "confidence": "sparse",
+    "npmi": 0.375658
+  },
+  {
+    "pair": [
+      "apricot",
+      "pomegranate"
+    ],
+    "tradition": 0.292091,
+    "count": 2,
+    "confidence": "sparse",
+    "npmi": 0.301245
+  },
+  {
+    "pair": [
+      "apricot",
+      "lemon"
+    ],
+    "tradition": 0.292091,
+    "count": 2,
+    "confidence": "sparse",
+    "npmi": 0.066338
+  },
+  {
+    "pair": [
+      "apricot",
+      "grenadine"
+    ],
+    "tradition": 0.292091,
+    "count": 2,
+    "confidence": "sparse",
+    "npmi": 0.30751
+  },
+  {
+    "pair": [
+      "apricot",
       "dry_vermouth"
     ],
     "tradition": 0.292091,
@@ -3738,6 +3998,16 @@
     "count": 2,
     "confidence": "sparse",
     "npmi": -0.066819
+  },
+  {
+    "pair": [
+      "angostura_bitters",
+      "pomegranate"
+    ],
+    "tradition": 0.292091,
+    "count": 2,
+    "confidence": "sparse",
+    "npmi": -0.027918
   },
   {
     "pair": [
@@ -4151,6 +4421,26 @@
   },
   {
     "pair": [
+      "pomegranate",
+      "strawberry"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.186715
+  },
+  {
+    "pair": [
+      "pomegranate",
+      "red_wine"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.069766
+  },
+  {
+    "pair": [
       "pineapple",
       "vodka"
     ],
@@ -4307,17 +4597,7 @@
     "tradition": 0.184289,
     "count": 1,
     "confidence": "sparse",
-    "npmi": 0.057944
-  },
-  {
-    "pair": [
-      "peach",
-      "sugar_syrup"
-    ],
-    "tradition": 0.184289,
-    "count": 1,
-    "confidence": "sparse",
-    "npmi": -0.202595
+    "npmi": 0.132491
   },
   {
     "pair": [
@@ -4327,7 +4607,7 @@
     "tradition": 0.184289,
     "count": 1,
     "confidence": "sparse",
-    "npmi": 0.135477
+    "npmi": 0.210024
   },
   {
     "pair": [
@@ -4337,7 +4617,7 @@
     "tradition": 0.184289,
     "count": 1,
     "confidence": "sparse",
-    "npmi": 0.203888
+    "npmi": 0.278434
   },
   {
     "pair": [
@@ -4347,7 +4627,7 @@
     "tradition": 0.184289,
     "count": 1,
     "confidence": "sparse",
-    "npmi": 0.252426
+    "npmi": 0.326973
   },
   {
     "pair": [
@@ -4357,7 +4637,7 @@
     "tradition": 0.184289,
     "count": 1,
     "confidence": "sparse",
-    "npmi": 0.252426
+    "npmi": 0.326973
   },
   {
     "pair": [
@@ -4378,6 +4658,16 @@
     "count": 1,
     "confidence": "sparse",
     "npmi": 0.346845
+  },
+  {
+    "pair": [
+      "passionfruit",
+      "pomegranate"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.186715
   },
   {
     "pair": [
@@ -4428,16 +4718,6 @@
     "count": 1,
     "confidence": "sparse",
     "npmi": 0.192247
-  },
-  {
-    "pair": [
-      "orange_bitters",
-      "peach"
-    ],
-    "tradition": 0.184289,
-    "count": 1,
-    "confidence": "sparse",
-    "npmi": 0.166239
   },
   {
     "pair": [
@@ -4641,6 +4921,16 @@
   },
   {
     "pair": [
+      "milk",
+      "pomegranate"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": -0.084832
+  },
+  {
+    "pair": [
       "maraschino",
       "triple_sec"
     ],
@@ -4668,6 +4958,16 @@
     "count": 1,
     "confidence": "sparse",
     "npmi": 0.463794
+  },
+  {
+    "pair": [
+      "maraschino",
+      "pomegranate"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.001355
   },
   {
     "pair": [
@@ -4838,6 +5138,16 @@
     "count": 1,
     "confidence": "sparse",
     "npmi": 0.096229
+  },
+  {
+    "pair": [
+      "lemon",
+      "peach"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": -0.157542
   },
   {
     "pair": [
@@ -5262,6 +5572,16 @@
   {
     "pair": [
       "ginger_ale",
+      "pomegranate"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.001355
+  },
+  {
+    "pair": [
+      "ginger_ale",
       "pineapple"
     ],
     "tradition": 0.184289,
@@ -5338,6 +5658,16 @@
     "count": 1,
     "confidence": "sparse",
     "npmi": -0.009193
+  },
+  {
+    "pair": [
+      "ginger",
+      "pomegranate"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": -0.067055
   },
   {
     "pair": [
@@ -5517,7 +5847,7 @@
     "tradition": 0.184289,
     "count": 1,
     "confidence": "sparse",
-    "npmi": 0.252426
+    "npmi": 0.326973
   },
   {
     "pair": [
@@ -5942,6 +6272,16 @@
   {
     "pair": [
       "cranberry",
+      "pomegranate"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": -0.024653
+  },
+  {
+    "pair": [
+      "cranberry",
       "lime"
     ],
     "tradition": 0.184289,
@@ -6172,6 +6512,16 @@
   {
     "pair": [
       "coffee_liqueur",
+      "pomegranate"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": -0.100913
+  },
+  {
+    "pair": [
+      "coffee_liqueur",
       "nutmeg"
     ],
     "tradition": 0.184289,
@@ -6242,6 +6592,16 @@
   {
     "pair": [
       "coffee",
+      "pomegranate"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": -0.201781
+  },
+  {
+    "pair": [
+      "coffee",
       "peach_schnapps"
     ],
     "tradition": 0.184289,
@@ -6257,7 +6617,7 @@
     "tradition": 0.184289,
     "count": 1,
     "confidence": "sparse",
-    "npmi": -0.067659
+    "npmi": 0.006888
   },
   {
     "pair": [
@@ -6372,6 +6732,16 @@
   {
     "pair": [
       "coconut_liqueur",
+      "pomegranate"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.092296
+  },
+  {
+    "pair": [
+      "coconut_liqueur",
       "peach_schnapps"
     ],
     "tradition": 0.184289,
@@ -6387,7 +6757,7 @@
     "tradition": 0.184289,
     "count": 1,
     "confidence": "sparse",
-    "npmi": 0.226417
+    "npmi": 0.300964
   },
   {
     "pair": [
@@ -6452,6 +6822,166 @@
   {
     "pair": [
       "coconut_liqueur",
+      "cointreau"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.400136
+  },
+  {
+    "pair": [
+      "coconut",
+      "vodka"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": -0.042702
+  },
+  {
+    "pair": [
+      "coconut",
+      "triple_sec"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.097828
+  },
+  {
+    "pair": [
+      "coconut",
+      "tequila"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.214777
+  },
+  {
+    "pair": [
+      "coconut",
+      "soda_water"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.057944
+  },
+  {
+    "pair": [
+      "coconut",
+      "raspberry_liqueur"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.369375
+  },
+  {
+    "pair": [
+      "coconut",
+      "raspberry"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.369375
+  },
+  {
+    "pair": [
+      "coconut",
+      "pomegranate"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.092296
+  },
+  {
+    "pair": [
+      "coconut",
+      "peach_schnapps"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.343366
+  },
+  {
+    "pair": [
+      "coconut",
+      "peach"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.300964
+  },
+  {
+    "pair": [
+      "coconut",
+      "milk"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.166239
+  },
+  {
+    "pair": [
+      "coconut",
+      "lime"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": -0.019121
+  },
+  {
+    "pair": [
+      "coconut",
+      "grenadine"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.097828
+  },
+  {
+    "pair": [
+      "coconut",
+      "grapefruit"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.300964
+  },
+  {
+    "pair": [
+      "coconut",
+      "creme_de_cacao"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.343366
+  },
+  {
+    "pair": [
+      "coconut",
+      "cranberry"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.226417
+  },
+  {
+    "pair": [
+      "coconut",
       "cointreau"
     ],
     "tradition": 0.184289,
@@ -6662,16 +7192,6 @@
   {
     "pair": [
       "cherry",
-      "peach"
-    ],
-    "tradition": 0.184289,
-    "count": 1,
-    "confidence": "sparse",
-    "npmi": -0.04513
-  },
-  {
-    "pair": [
-      "cherry",
       "orgeat"
     ],
     "tradition": 0.184289,
@@ -6733,6 +7253,16 @@
     "pair": [
       "cherry",
       "coconut_liqueur"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.071819
+  },
+  {
+    "pair": [
+      "cherry",
+      "coconut"
     ],
     "tradition": 0.184289,
     "count": 1,
@@ -7317,7 +7847,7 @@
     "tradition": 0.184289,
     "count": 1,
     "confidence": "sparse",
-    "npmi": 0.252426
+    "npmi": 0.326973
   },
   {
     "pair": [
@@ -7382,12 +7912,72 @@
   {
     "pair": [
       "blue_curacao",
+      "coconut"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.369375
+  },
+  {
+    "pair": [
+      "blue_curacao",
       "cherry"
     ],
     "tradition": 0.184289,
     "count": 1,
     "confidence": "sparse",
     "npmi": 0.097828
+  },
+  {
+    "pair": [
+      "blackcurrant",
+      "vodka"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.014068
+  },
+  {
+    "pair": [
+      "blackcurrant",
+      "sugar_syrup"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": -0.028876
+  },
+  {
+    "pair": [
+      "blackcurrant",
+      "soda_water"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.114714
+  },
+  {
+    "pair": [
+      "blackcurrant",
+      "dry_vermouth"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.214777
+  },
+  {
+    "pair": [
+      "blackcurrant",
+      "cola"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.283187
   },
   {
     "pair": [
@@ -7452,6 +8042,16 @@
   {
     "pair": [
       "benedictine",
+      "pomegranate"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.149066
+  },
+  {
+    "pair": [
+      "benedictine",
       "orange"
     ],
     "tradition": 0.184289,
@@ -7512,6 +8112,36 @@
   {
     "pair": [
       "apricot_brandy",
+      "cherry"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.128589
+  },
+  {
+    "pair": [
+      "apricot",
+      "sugar_syrup"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": -0.028876
+  },
+  {
+    "pair": [
+      "apricot",
+      "orange_bitters"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.339958
+  },
+  {
+    "pair": [
+      "apricot",
       "cherry"
     ],
     "tradition": 0.184289,
@@ -7657,7 +8287,7 @@
     "tradition": 0.184289,
     "count": 1,
     "confidence": "sparse",
-    "npmi": 0.121972
+    "npmi": 0.196519
   },
   {
     "pair": [
@@ -8158,6 +8788,16 @@
     "count": 1,
     "confidence": "sparse",
     "npmi": 0.395383
+  },
+  {
+    "pair": [
+      "absinthe",
+      "pomegranate"
+    ],
+    "tradition": 0.184289,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.235253
   },
   {
     "pair": [

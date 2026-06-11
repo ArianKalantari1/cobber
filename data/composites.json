@@ -535,7 +535,7 @@
     "type": "composite",
     "role": "sweet",
     "botanicals": [
-      "peach"
+      "apricot"
     ],
     "descriptors": [
       "stone-fruit",
@@ -543,10 +543,10 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Stone-fruit profile proxied on peach. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "notes": "Stone-fruit profile PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
     "source": "Provisional entry; see notes.",
     "flavor_forward": [
-      "peach"
+      "apricot"
     ]
   },
   {
@@ -673,22 +673,29 @@
     "display_name": "Creme de cassis",
     "type": "composite",
     "role": "sweet",
-    "botanicals": [],
+    "botanicals": [
+      "blackcurrant"
+    ],
     "descriptors": [
       "blackcurrant",
       "sweet"
     ],
     "is_native": false,
     "season": null,
-    "notes": "Blackcurrant compounds not yet in vocabulary. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "notes": "Blackcurrant compounds PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "blackcurrant"
+    ]
   },
   {
     "id": "coconut_liqueur",
     "display_name": "Coconut liqueur",
     "type": "composite",
     "role": "sweet",
-    "botanicals": [],
+    "botanicals": [
+      "coconut"
+    ],
     "descriptors": [
       "coconut",
       "sweet"
@@ -696,7 +703,10 @@
     "is_native": false,
     "season": null,
     "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "coconut"
+    ]
   },
   {
     "id": "raspberry_liqueur",
@@ -908,6 +918,27 @@
     "is_native": false,
     "season": null,
     "notes": "Flavoured spirit; decomposes to base + flavour for co-occurrence. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "grenadine",
+    "display_name": "Grenadine",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "pomegranate"
+    ],
+    "flavor_forward": [
+      "pomegranate"
+    ],
+    "descriptors": [
+      "sweet",
+      "pomegranate",
+      "red"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Pomegranate syrup; decomposes to pomegranate for co-occurrence.",
     "source": "Provisional entry; see notes."
   }
 ]
