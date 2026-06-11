@@ -1,0 +1,242 @@
+[
+  {
+    "id": "gin",
+    "display_name": "London dry gin",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": ["juniper", "coriander_seed", "lemon", "orris_root", "angelica_root"],
+    "descriptors": ["juniper", "citrus", "pine"],
+    "notes": "Generic London dry profile; juniper-forward with citrus lift.",
+    "source": "Standard London dry botanical bill."
+  },
+  {
+    "id": "vodka",
+    "display_name": "Vodka",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [],
+    "descriptors": ["neutral", "clean"],
+    "notes": "Neutral spirit; deliberately carries no botanical aroma, so it bridges to nothing.",
+    "source": "N/A (neutral spirit by definition)."
+  },
+  {
+    "id": "white_rum",
+    "display_name": "White rum",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": ["vanilla"],
+    "descriptors": ["sweet", "light", "cane"],
+    "notes": "Light cane spirit; modelled minimally via vanilla/ester sweetness.",
+    "source": "TODO: verify (rum aroma is mainly fermentation esters not modelled here)."
+  },
+  {
+    "id": "dark_rum",
+    "display_name": "Dark rum",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": ["vanilla", "clove", "cinnamon"],
+    "descriptors": ["molasses", "warm", "spice"],
+    "notes": "Aged/molasses rum; warm-spice and vanilla oak notes.",
+    "source": "TODO: verify (molasses + barrel approximation)."
+  },
+  {
+    "id": "tequila",
+    "display_name": "Tequila (blanco)",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": ["agave"],
+    "descriptors": ["agave", "earthy", "vegetal"],
+    "notes": "Cooked-agave blanco.",
+    "source": "TODO: verify (cooked-agave volatiles not fully modelled)."
+  },
+  {
+    "id": "mezcal",
+    "display_name": "Mezcal",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": ["agave"],
+    "descriptors": ["agave", "smoke", "earthy"],
+    "notes": "Smoky agave spirit; smoke phenols are not modelled in V1.",
+    "source": "TODO: verify (smoke/guaiacol fraction omitted)."
+  },
+  {
+    "id": "bourbon",
+    "display_name": "Bourbon",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": ["vanilla", "cinnamon", "cherry"],
+    "descriptors": ["sweet", "oak", "corn"],
+    "notes": "Corn whiskey with charred-oak vanilla/spice.",
+    "source": "TODO: verify (barrel-derived vanillin/oak-lactone approximation)."
+  },
+  {
+    "id": "rye_whiskey",
+    "display_name": "Rye whiskey",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": ["vanilla", "black_pepper", "clove"],
+    "descriptors": ["spicy", "oak", "grain"],
+    "notes": "Higher-rye whiskey; peppery spice over oak.",
+    "source": "TODO: verify (rye spice + barrel approximation)."
+  },
+  {
+    "id": "brandy",
+    "display_name": "Brandy",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": ["grape", "vanilla"],
+    "descriptors": ["fruity", "oak", "warm"],
+    "notes": "Grape spirit with barrel vanilla.",
+    "source": "TODO: verify (grape base + barrel approximation)."
+  },
+  {
+    "id": "triple_sec",
+    "display_name": "Triple sec",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": ["orange", "bitter_orange_peel"],
+    "descriptors": ["orange", "sweet", "citrus"],
+    "notes": "Orange-peel liqueur; sweet citrus.",
+    "source": "Orange-peel maceration."
+  },
+  {
+    "id": "cointreau",
+    "display_name": "Cointreau",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": ["orange", "bitter_orange_peel"],
+    "descriptors": ["orange", "citrus", "clean"],
+    "notes": "Sweet + bitter orange-peel triple sec; crisper than generic.",
+    "source": "Sweet and bitter orange-peel blend."
+  },
+  {
+    "id": "sweet_vermouth",
+    "display_name": "Sweet vermouth",
+    "type": "composite",
+    "role": "aromatic",
+    "botanicals": ["wormwood", "gentian", "vanilla", "cinnamon"],
+    "descriptors": ["herbal", "sweet", "bitter"],
+    "notes": "Fortified aromatised wine; herbal-sweet.",
+    "source": "TODO: verify (proprietary botanical blends; representative bill)."
+  },
+  {
+    "id": "dry_vermouth",
+    "display_name": "Dry vermouth",
+    "type": "composite",
+    "role": "aromatic",
+    "botanicals": ["wormwood", "coriander_seed", "lemon"],
+    "descriptors": ["herbal", "dry", "citrus"],
+    "notes": "Dry aromatised wine; lighter, more citrus-herbal.",
+    "source": "TODO: verify (proprietary blends; representative bill)."
+  },
+  {
+    "id": "campari",
+    "display_name": "Campari",
+    "type": "composite",
+    "role": "bitter",
+    "botanicals": ["bitter_orange_peel", "gentian"],
+    "descriptors": ["bitter", "orange", "herbal"],
+    "notes": "Red bitter aperitivo; orange-forward bitterness.",
+    "source": "TODO: verify (secret recipe; bitter-orange + gentian representative)."
+  },
+  {
+    "id": "aperol",
+    "display_name": "Aperol",
+    "type": "composite",
+    "role": "bitter",
+    "botanicals": ["bitter_orange_peel", "gentian", "orange"],
+    "descriptors": ["bitter", "orange", "sweet"],
+    "notes": "Lighter, sweeter, lower-proof aperitivo than Campari.",
+    "source": "TODO: verify (secret recipe; representative bill)."
+  },
+  {
+    "id": "st_germain",
+    "display_name": "Elderflower liqueur",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": ["elderflower"],
+    "descriptors": ["floral", "sweet", "honey"],
+    "notes": "Elderflower liqueur (St-Germain style).",
+    "source": "Elderflower maceration."
+  },
+  {
+    "id": "maraschino",
+    "display_name": "Maraschino liqueur",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": ["cherry", "almond"],
+    "descriptors": ["cherry", "almond", "nutty"],
+    "notes": "Marasca cherry + pits; benzaldehyde-forward.",
+    "source": "Marasca cherry distillate (whole fruit incl. stones)."
+  },
+  {
+    "id": "amaretto",
+    "display_name": "Amaretto",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": ["almond"],
+    "descriptors": ["almond", "sweet", "marzipan"],
+    "notes": "Sweet almond/apricot-kernel liqueur.",
+    "source": "Benzaldehyde-led almond liqueur."
+  },
+  {
+    "id": "coffee_liqueur",
+    "display_name": "Coffee liqueur",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": ["coffee", "vanilla"],
+    "descriptors": ["coffee", "sweet", "roasted"],
+    "notes": "Sweetened coffee liqueur (Kahlua style).",
+    "source": "Coffee extract + vanilla."
+  },
+  {
+    "id": "green_chartreuse",
+    "display_name": "Green Chartreuse",
+    "type": "composite",
+    "role": "aromatic",
+    "botanicals": ["anise", "mint", "thyme"],
+    "descriptors": ["herbal", "anise", "complex"],
+    "notes": "Intensely herbal monastic liqueur.",
+    "source": "TODO: verify (130 secret botanicals; tiny representative subset)."
+  },
+  {
+    "id": "limoncello",
+    "display_name": "Limoncello",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": ["lemon"],
+    "descriptors": ["lemon", "sweet", "citrus"],
+    "notes": "Sweet lemon-peel liqueur.",
+    "source": "Lemon-peel maceration."
+  },
+  {
+    "id": "angostura_bitters",
+    "display_name": "Angostura bitters",
+    "type": "composite",
+    "role": "bitter",
+    "botanicals": ["gentian", "clove", "cinnamon", "cardamom"],
+    "descriptors": ["bitter", "spice", "warm"],
+    "notes": "Aromatic spiced bitters; a few dashes per drink.",
+    "source": "TODO: verify (secret recipe; gentian + baking-spice representative)."
+  },
+  {
+    "id": "peychauds_bitters",
+    "display_name": "Peychaud's bitters",
+    "type": "composite",
+    "role": "bitter",
+    "botanicals": ["anise", "gentian", "cherry", "mint"],
+    "descriptors": ["anise", "bitter", "floral"],
+    "notes": "Lighter, anise-and-cherry-leaning bitters; the Sazerac bitter.",
+    "source": "TODO: verify (secret recipe; anise-forward representative bill)."
+  },
+  {
+    "id": "orange_bitters",
+    "display_name": "Orange bitters",
+    "type": "composite",
+    "role": "bitter",
+    "botanicals": ["bitter_orange_peel", "cardamom", "coriander_seed"],
+    "descriptors": ["orange", "bitter", "spice"],
+    "notes": "Citrus-led cocktail bitters.",
+    "source": "Bitter-orange peel + warm spice."
+  }
+]
