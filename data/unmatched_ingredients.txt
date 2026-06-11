@@ -89,6 +89,7 @@
 3	wine
 2	100 proof vodka
 2	allspice liqueur
+2	amaro nonino
 2	apricot nectar
 2	aquavit
 2	aromatic bitter
@@ -112,7 +113,6 @@
 2	creme de violette
 2	fruit punch
 2	gin and ginger ale
-2	ginger syrup
 2	gold tequila
 2	grapefruit flavored vodka
 2	green olive
@@ -158,7 +158,6 @@
 1	almond flavoring
 1	almond milk
 1	almond or orgeat syrup
-1	amaro nonino
 1	amer picon or torani amer
 1	amontillado sherry
 1	anejo rum
@@ -273,6 +272,7 @@
 1	ginger ale or soda water
 1	ginger ale strawberry
 1	ginger beer 1 oz
+1	ginger syrup
 1	gingerbread liqueur
 1	godiva liqueur
 1	gold rum

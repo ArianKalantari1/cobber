@@ -63,6 +63,23 @@ first for the project's thinking; this file is "where we are and what's next".*
 - Token usage at runtime is a non-issue: the MCP server loads data into
   process memory; the host Claude only ever sees small tool results.
 
+## Adding recipes by hand (the craft corpus)
+
+`data/raw/craft_recipes.json` is the hand-curated corpus: competition winners,
+modern classics, Ari's own specs. Append an entry (name / creator / origin /
+ingredients with optional oz), rerun the pipeline, done. Hand-curated recipes
+win dedupe over every scraped corpus. Seeded with Penicillin, Paper Plane,
+Naked & Famous.
+
+**Open design decision for bulk frontier data:** if many competition/craft
+recipes land, should they feed `tradition` the same as the canon corpora?
+Probably not — one World Class winner using a pairing doesn't make it
+"traditional", and counting it would *lower* that pairing's novelty score,
+hiding exactly what we want to surface. Likely answer: tag corpora canon vs
+frontier; tradition from canon; frontier kept as separate evidence ("rarely
+done, but champion X has done it" — validated novelty). Decide when the
+frontier corpus has real volume.
+
 ## NEXT TASK (Ari's call): savoury / taste-axes
 
 Goal: model what aroma can't — sweet / sour / bitter / salty / umami / fat /

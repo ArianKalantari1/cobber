@@ -1,5 +1,40 @@
 [
   {
+    "drink": "Penicillin",
+    "implied": [],
+    "literal": [
+      "ginger",
+      "honey",
+      "lemon",
+      "scotch"
+    ],
+    "muted": [],
+    "source": "craft"
+  },
+  {
+    "drink": "Paper Plane",
+    "implied": [],
+    "literal": [
+      "aperol",
+      "bourbon",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "craft"
+  },
+  {
+    "drink": "Naked and Famous",
+    "implied": [],
+    "literal": [
+      "aperol",
+      "green_chartreuse",
+      "lime",
+      "mezcal"
+    ],
+    "muted": [],
+    "source": "craft"
+  },
+  {
     "drink": "Vesper",
     "implied": [],
     "literal": [
@@ -14555,17 +14590,6 @@
       "green_chartreuse",
       "irish_whiskey",
       "sweet_vermouth"
-    ],
-    "muted": [],
-    "source": "thecocktaildb"
-  },
-  {
-    "drink": "Penicillin",
-    "implied": [],
-    "literal": [
-      "honey",
-      "lemon",
-      "scotch"
     ],
     "muted": [],
     "source": "thecocktaildb"

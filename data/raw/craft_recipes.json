@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Penicillin",
+    "creator": "Sam Ross, Milk & Honey NYC",
+    "origin": "modern-classic",
+    "ingredients": [
+      {"name": "blended scotch", "oz": 2.0},
+      {"name": "lemon juice", "oz": 0.75},
+      {"name": "honey syrup", "oz": 0.75},
+      {"name": "ginger", "oz": 0.25},
+      {"name": "islay single malt scotch", "oz": 0.25}
+    ]
+  },
+  {
+    "name": "Paper Plane",
+    "creator": "Sam Ross",
+    "origin": "modern-classic",
+    "ingredients": [
+      {"name": "bourbon", "oz": 0.75},
+      {"name": "aperol", "oz": 0.75},
+      {"name": "amaro nonino", "oz": 0.75},
+      {"name": "lemon juice", "oz": 0.75}
+    ]
+  },
+  {
+    "name": "Naked and Famous",
+    "creator": "Joaquin Simo, Death & Co",
+    "origin": "modern-classic",
+    "ingredients": [
+      {"name": "mezcal", "oz": 0.75},
+      {"name": "yellow chartreuse", "oz": 0.75},
+      {"name": "aperol", "oz": 0.75},
+      {"name": "lime juice", "oz": 0.75}
+    ]
+  }
+]

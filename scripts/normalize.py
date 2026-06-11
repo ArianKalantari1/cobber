@@ -36,6 +36,7 @@ ROOT = Path(__file__).resolve().parents[1]
 COCKTAILDB_RECIPES = ROOT / "data" / "raw" / "thecocktaildb.json"
 IBA_RECIPES = ROOT / "data" / "raw" / "iba.json"
 BOSTON_RECIPES = ROOT / "data" / "raw" / "boston_cocktails.csv"
+CRAFT_RECIPES = ROOT / "data" / "raw" / "craft_recipes.json"
 INGREDIENTS_PATH = ROOT / "data" / "ingredients.json"
 COMPOSITES_PATH = ROOT / "data" / "composites.json"
 ALIASES_PATH = ROOT / "data" / "ingredient_aliases.json"
@@ -337,6 +338,35 @@ def _iter_boston() -> list[dict]:
     ]
 
 
+def _iter_craft() -> list[dict]:
+    """Yield hand-curated recipes from data/raw/craft_recipes.json.
+
+    The human-curated corpus: competition winners, modern classics from the
+    craft-bar books, Ari's own specs. Format per entry:
+    ``{"name": ..., "creator": ..., "origin": ...,
+       "ingredients": [{"name": ..., "oz": ...}, ...]}``
+    (``oz`` optional — omit when unknown). Anything unmatchable still lands in
+    the unmatched list for review; curation does not bypass the no-guessing rule.
+    """
+    if not CRAFT_RECIPES.exists():
+        return []
+    payload = _load_json(CRAFT_RECIPES)
+    if not isinstance(payload, list):
+        raise ValueError("data/raw/craft_recipes.json must contain a JSON list.")
+    drinks = []
+    for drink in payload:
+        if not isinstance(drink, dict):
+            continue
+        items = []
+        for item in drink.get("ingredients", []):
+            if not isinstance(item, dict) or not str(item.get("name", "")).strip():
+                continue
+            volume = float(item["oz"]) if isinstance(item.get("oz"), (int, float)) else None
+            items.append(([str(item["name"]).strip()], volume))
+        drinks.append({"name": str(drink.get("name", "")), "source": "craft", "items": items})
+    return drinks
+
+
 def _dedupe_key(drink_name: str) -> str:
     return re.sub(r"[^a-z0-9]", "", drink_name.lower())
 
@@ -366,10 +396,10 @@ def normalize_recipes(
                 return chosen_id
         return None
 
-    # Priority order for cross-corpus duplicates: the IBA official recipe wins,
-    # then Mr. Boston (a bartender's guide), then TheCocktailDB.
+    # Priority order for cross-corpus duplicates: hand-curated recipes win,
+    # then the IBA official recipe, then Mr. Boston, then TheCocktailDB.
     seen_names: set[str] = set()
-    for drink in [*_iter_iba(), *_iter_boston(), *_iter_cocktaildb()]:
+    for drink in [*_iter_craft(), *_iter_iba(), *_iter_boston(), *_iter_cocktaildb()]:
         key = _dedupe_key(drink["name"])
         if key and key in seen_names:
             continue
