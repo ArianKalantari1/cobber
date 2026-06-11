@@ -37,6 +37,15 @@
   },
   {
     "pair": [
+      "orgeat",
+      "pink_peppercorn"
+    ],
+    "count": 1,
+    "npmi": 0.773134,
+    "tradition": 0.773134
+  },
+  {
+    "pair": [
       "elderflower",
       "lavender"
     ],
@@ -244,6 +253,15 @@
   },
   {
     "pair": [
+      "orgeat",
+      "strawberry"
+    ],
+    "count": 1,
+    "npmi": 0.546269,
+    "tradition": 0.546269
+  },
+  {
+    "pair": [
       "amaro_montenegro",
       "port"
     ],
@@ -322,6 +340,15 @@
     "count": 1,
     "npmi": 0.494869,
     "tradition": 0.494869
+  },
+  {
+    "pair": [
+      "almond",
+      "pink_peppercorn"
+    ],
+    "count": 1,
+    "npmi": 0.483586,
+    "tradition": 0.483586
   },
   {
     "pair": [
@@ -1378,15 +1405,6 @@
   },
   {
     "pair": [
-      "almond",
-      "cream"
-    ],
-    "count": 11,
-    "npmi": 0.303157,
-    "tradition": 0.303157
-  },
-  {
-    "pair": [
       "cream",
       "nutmeg"
     ],
@@ -1420,6 +1438,15 @@
     "count": 1,
     "npmi": 0.299457,
     "tradition": 0.299457
+  },
+  {
+    "pair": [
+      "almond",
+      "cream"
+    ],
+    "count": 11,
+    "npmi": 0.297626,
+    "tradition": 0.297626
   },
   {
     "pair": [
@@ -1504,15 +1531,6 @@
   },
   {
     "pair": [
-      "calvados",
-      "orgeat"
-    ],
-    "count": 1,
-    "npmi": 0.291836,
-    "tradition": 0.291836
-  },
-  {
-    "pair": [
       "citron_vodka",
       "cranberry"
     ],
@@ -1582,15 +1600,6 @@
     "count": 2,
     "npmi": 0.286535,
     "tradition": 0.286535
-  },
-  {
-    "pair": [
-      "grapefruit",
-      "orgeat"
-    ],
-    "count": 1,
-    "npmi": 0.284606,
-    "tradition": 0.284606
   },
   {
     "pair": [
@@ -1963,6 +1972,15 @@
   },
   {
     "pair": [
+      "calvados",
+      "orgeat"
+    ],
+    "count": 1,
+    "npmi": 0.260382,
+    "tradition": 0.260382
+  },
+  {
+    "pair": [
       "maraschino",
       "rye_whiskey"
     ],
@@ -2017,6 +2035,15 @@
   },
   {
     "pair": [
+      "almond",
+      "strawberry"
+    ],
+    "count": 1,
+    "npmi": 0.25672,
+    "tradition": 0.25672
+  },
+  {
+    "pair": [
       "cachaca",
       "lime"
     ],
@@ -2046,15 +2073,6 @@
     "pair": [
       "cola",
       "peach_schnapps"
-    ],
-    "count": 1,
-    "npmi": 0.255999,
-    "tradition": 0.255999
-  },
-  {
-    "pair": [
-      "apple",
-      "orgeat"
     ],
     "count": 1,
     "npmi": 0.255999,
@@ -2098,12 +2116,12 @@
   },
   {
     "pair": [
-      "almond",
-      "cranberry"
+      "grapefruit",
+      "orgeat"
     ],
-    "count": 4,
-    "npmi": 0.252586,
-    "tradition": 0.252586
+    "count": 1,
+    "npmi": 0.253152,
+    "tradition": 0.253152
   },
   {
     "pair": [
@@ -2149,6 +2167,15 @@
     "count": 2,
     "npmi": 0.248224,
     "tradition": 0.248224
+  },
+  {
+    "pair": [
+      "almond",
+      "cranberry"
+    ],
+    "count": 4,
+    "npmi": 0.248035,
+    "tradition": 0.248035
   },
   {
     "pair": [
@@ -2230,15 +2257,6 @@
     "count": 2,
     "npmi": 0.244459,
     "tradition": 0.244459
-  },
-  {
-    "pair": [
-      "lime",
-      "orgeat"
-    ],
-    "count": 3,
-    "npmi": 0.242626,
-    "tradition": 0.242626
   },
   {
     "pair": [
@@ -2494,15 +2512,6 @@
   },
   {
     "pair": [
-      "dark_rum",
-      "orgeat"
-    ],
-    "count": 1,
-    "npmi": 0.229821,
-    "tradition": 0.229821
-  },
-  {
-    "pair": [
       "blue_curacao",
       "irish_cream"
     ],
@@ -2602,6 +2611,15 @@
   },
   {
     "pair": [
+      "apple",
+      "orgeat"
+    ],
+    "count": 1,
+    "npmi": 0.224545,
+    "tradition": 0.224545
+  },
+  {
+    "pair": [
       "drambuie",
       "dry_vermouth"
     ],
@@ -2622,6 +2640,15 @@
     "pair": [
       "orange_bitters",
       "strawberry"
+    ],
+    "count": 1,
+    "npmi": 0.221697,
+    "tradition": 0.221697
+  },
+  {
+    "pair": [
+      "orange_bitters",
+      "orgeat"
     ],
     "count": 1,
     "npmi": 0.221697,
@@ -2689,15 +2716,6 @@
     "count": 2,
     "npmi": 0.216442,
     "tradition": 0.216442
-  },
-  {
-    "pair": [
-      "orgeat",
-      "triple_sec"
-    ],
-    "count": 2,
-    "npmi": 0.214128,
-    "tradition": 0.214128
   },
   {
     "pair": [
@@ -2788,24 +2806,6 @@
     "count": 3,
     "npmi": 0.212349,
     "tradition": 0.212349
-  },
-  {
-    "pair": [
-      "bourbon",
-      "orgeat"
-    ],
-    "count": 1,
-    "npmi": 0.211897,
-    "tradition": 0.211897
-  },
-  {
-    "pair": [
-      "orgeat",
-      "white_rum"
-    ],
-    "count": 2,
-    "npmi": 0.211094,
-    "tradition": 0.211094
   },
   {
     "pair": [
@@ -2926,12 +2926,12 @@
   },
   {
     "pair": [
-      "almond",
-      "irish_cream"
+      "lime",
+      "orgeat"
     ],
-    "count": 2,
-    "npmi": 0.205681,
-    "tradition": 0.205681
+    "count": 3,
+    "npmi": 0.205408,
+    "tradition": 0.205408
   },
   {
     "pair": [
@@ -2998,6 +2998,15 @@
   },
   {
     "pair": [
+      "almond",
+      "irish_cream"
+    ],
+    "count": 2,
+    "npmi": 0.201623,
+    "tradition": 0.201623
+  },
+  {
+    "pair": [
       "raspberry_liqueur",
       "vodka"
     ],
@@ -3040,6 +3049,15 @@
     "count": 3,
     "npmi": 0.199659,
     "tradition": 0.199659
+  },
+  {
+    "pair": [
+      "dark_rum",
+      "orgeat"
+    ],
+    "count": 1,
+    "npmi": 0.198367,
+    "tradition": 0.198367
   },
   {
     "pair": [
@@ -3422,6 +3440,15 @@
   {
     "pair": [
       "bourbon",
+      "orgeat"
+    ],
+    "count": 1,
+    "npmi": 0.180443,
+    "tradition": 0.180443
+  },
+  {
+    "pair": [
+      "bourbon",
       "elderflower"
     ],
     "count": 1,
@@ -3439,21 +3466,21 @@
   },
   {
     "pair": [
-      "almond",
-      "dark_rum"
-    ],
-    "count": 5,
-    "npmi": 0.180234,
-    "tradition": 0.180234
-  },
-  {
-    "pair": [
       "ginger",
       "passionfruit"
     ],
     "count": 1,
     "npmi": 0.180023,
     "tradition": 0.180023
+  },
+  {
+    "pair": [
+      "orgeat",
+      "triple_sec"
+    ],
+    "count": 2,
+    "npmi": 0.179267,
+    "tradition": 0.179267
   },
   {
     "pair": [
@@ -3520,6 +3547,15 @@
   },
   {
     "pair": [
+      "orgeat",
+      "white_rum"
+    ],
+    "count": 2,
+    "npmi": 0.176234,
+    "tradition": 0.176234
+  },
+  {
+    "pair": [
       "cherry_liqueur",
       "cranberry"
     ],
@@ -3535,6 +3571,15 @@
     "count": 21,
     "npmi": 0.175541,
     "tradition": 0.175541
+  },
+  {
+    "pair": [
+      "almond",
+      "dark_rum"
+    ],
+    "count": 5,
+    "npmi": 0.175499,
+    "tradition": 0.175499
   },
   {
     "pair": [
@@ -3826,15 +3871,6 @@
   },
   {
     "pair": [
-      "almond",
-      "coconut"
-    ],
-    "count": 1,
-    "npmi": 0.162676,
-    "tradition": 0.162676
-  },
-  {
-    "pair": [
       "olive",
       "sweet_vermouth"
     ],
@@ -3868,6 +3904,15 @@
     "count": 6,
     "npmi": 0.159706,
     "tradition": 0.159706
+  },
+  {
+    "pair": [
+      "almond",
+      "coconut"
+    ],
+    "count": 1,
+    "npmi": 0.159015,
+    "tradition": 0.159015
   },
   {
     "pair": [
@@ -4789,15 +4834,6 @@
   },
   {
     "pair": [
-      "orange",
-      "orgeat"
-    ],
-    "count": 2,
-    "npmi": 0.124242,
-    "tradition": 0.124242
-  },
-  {
-    "pair": [
       "anise",
       "peychauds_bitters"
     ],
@@ -5104,15 +5140,6 @@
   },
   {
     "pair": [
-      "almond",
-      "bourbon"
-    ],
-    "count": 4,
-    "npmi": 0.111818,
-    "tradition": 0.111818
-  },
-  {
-    "pair": [
       "grenadine",
       "strawberry"
     ],
@@ -5299,6 +5326,15 @@
     "count": 3,
     "npmi": 0.107285,
     "tradition": 0.107285
+  },
+  {
+    "pair": [
+      "almond",
+      "bourbon"
+    ],
+    "count": 4,
+    "npmi": 0.107267,
+    "tradition": 0.107267
   },
   {
     "pair": [
@@ -5860,6 +5896,15 @@
   },
   {
     "pair": [
+      "orange",
+      "orgeat"
+    ],
+    "count": 2,
+    "npmi": 0.089382,
+    "tradition": 0.089382
+  },
+  {
+    "pair": [
       "cherry",
       "coconut_liqueur"
     ],
@@ -6139,15 +6184,6 @@
   },
   {
     "pair": [
-      "almond",
-      "irish_whiskey"
-    ],
-    "count": 1,
-    "npmi": 0.079822,
-    "tradition": 0.079822
-  },
-  {
-    "pair": [
       "brandy",
       "sweet_vermouth"
     ],
@@ -6298,6 +6334,15 @@
     "count": 2,
     "npmi": 0.076489,
     "tradition": 0.076489
+  },
+  {
+    "pair": [
+      "almond",
+      "irish_whiskey"
+    ],
+    "count": 1,
+    "npmi": 0.076161,
+    "tradition": 0.076161
   },
   {
     "pair": [
@@ -6508,15 +6553,6 @@
   },
   {
     "pair": [
-      "almond",
-      "grapefruit"
-    ],
-    "count": 2,
-    "npmi": 0.072006,
-    "tradition": 0.072006
-  },
-  {
-    "pair": [
       "lime",
       "sugar_syrup"
     ],
@@ -6631,6 +6667,15 @@
     "count": 19,
     "npmi": 0.068557,
     "tradition": 0.068557
+  },
+  {
+    "pair": [
+      "almond",
+      "grapefruit"
+    ],
+    "count": 2,
+    "npmi": 0.067948,
+    "tradition": 0.067948
   },
   {
     "pair": [
@@ -7219,12 +7264,12 @@
   },
   {
     "pair": [
-      "almond",
-      "pineapple"
+      "lemon",
+      "orgeat"
     ],
-    "count": 3,
-    "npmi": 0.051165,
-    "tradition": 0.051165
+    "count": 2,
+    "npmi": 0.050888,
+    "tradition": 0.050888
   },
   {
     "pair": [
@@ -7288,15 +7333,6 @@
     "count": 6,
     "npmi": 0.050314,
     "tradition": 0.050314
-  },
-  {
-    "pair": [
-      "almond",
-      "creme_de_cacao"
-    ],
-    "count": 2,
-    "npmi": 0.050172,
-    "tradition": 0.050172
   },
   {
     "pair": [
@@ -7399,6 +7435,15 @@
   },
   {
     "pair": [
+      "almond",
+      "pineapple"
+    ],
+    "count": 3,
+    "npmi": 0.046833,
+    "tradition": 0.046833
+  },
+  {
+    "pair": [
       "cachaca",
       "dry_vermouth"
     ],
@@ -7414,6 +7459,15 @@
     "count": 10,
     "npmi": 0.046137,
     "tradition": 0.046137
+  },
+  {
+    "pair": [
+      "almond",
+      "creme_de_cacao"
+    ],
+    "count": 2,
+    "npmi": 0.046114,
+    "tradition": 0.046114
   },
   {
     "pair": [
@@ -8353,15 +8407,6 @@
   },
   {
     "pair": [
-      "almond",
-      "coffee"
-    ],
-    "count": 2,
-    "npmi": 0.022256,
-    "tradition": 0.022256
-  },
-  {
-    "pair": [
       "maraschino",
       "tequila"
     ],
@@ -8521,6 +8566,15 @@
     "count": 3,
     "npmi": 0.018266,
     "tradition": 0.018266
+  },
+  {
+    "pair": [
+      "almond",
+      "coffee"
+    ],
+    "count": 2,
+    "npmi": 0.018198,
+    "tradition": 0.018198
   },
   {
     "pair": [
@@ -9136,15 +9190,6 @@
   },
   {
     "pair": [
-      "almond",
-      "white_rum"
-    ],
-    "count": 5,
-    "npmi": 0.002959,
-    "tradition": 0.002959
-  },
-  {
-    "pair": [
       "benedictine",
       "triple_sec"
     ],
@@ -9294,6 +9339,15 @@
     ],
     "count": 2,
     "npmi": -0.001676,
+    "tradition": 0.0
+  },
+  {
+    "pair": [
+      "almond",
+      "white_rum"
+    ],
+    "count": 5,
+    "npmi": -0.001777,
     "tradition": 0.0
   },
   {
@@ -9775,15 +9829,6 @@
   },
   {
     "pair": [
-      "lemon",
-      "orgeat"
-    ],
-    "count": 1,
-    "npmi": -0.020335,
-    "tradition": 0.0
-  },
-  {
-    "pair": [
       "aperol",
       "sweet_vermouth"
     ],
@@ -9888,15 +9933,6 @@
     ],
     "count": 4,
     "npmi": -0.022675,
-    "tradition": 0.0
-  },
-  {
-    "pair": [
-      "almond",
-      "vodka"
-    ],
-    "count": 5,
-    "npmi": -0.023131,
     "tradition": 0.0
   },
   {
@@ -10009,24 +10045,6 @@
   },
   {
     "pair": [
-      "almond",
-      "coffee_liqueur"
-    ],
-    "count": 1,
-    "npmi": -0.025505,
-    "tradition": 0.0
-  },
-  {
-    "pair": [
-      "almond",
-      "calvados"
-    ],
-    "count": 1,
-    "npmi": -0.025505,
-    "tradition": 0.0
-  },
-  {
-    "pair": [
       "gin",
       "whole_egg"
     ],
@@ -10077,6 +10095,15 @@
     ],
     "count": 4,
     "npmi": -0.027525,
+    "tradition": 0.0
+  },
+  {
+    "pair": [
+      "almond",
+      "vodka"
+    ],
+    "count": 5,
+    "npmi": -0.027867,
     "tradition": 0.0
   },
   {
@@ -10171,6 +10198,33 @@
   },
   {
     "pair": [
+      "almond",
+      "coffee_liqueur"
+    ],
+    "count": 1,
+    "npmi": -0.029166,
+    "tradition": 0.0
+  },
+  {
+    "pair": [
+      "almond",
+      "calvados"
+    ],
+    "count": 1,
+    "npmi": -0.029166,
+    "tradition": 0.0
+  },
+  {
+    "pair": [
+      "gin",
+      "orgeat"
+    ],
+    "count": 1,
+    "npmi": -0.029451,
+    "tradition": 0.0
+  },
+  {
+    "pair": [
       "cointreau",
       "gin"
     ],
@@ -10230,15 +10284,6 @@
     ],
     "count": 1,
     "npmi": -0.031618,
-    "tradition": 0.0
-  },
-  {
-    "pair": [
-      "almond",
-      "brandy"
-    ],
-    "count": 3,
-    "npmi": -0.031635,
     "tradition": 0.0
   },
   {
@@ -10351,24 +10396,6 @@
   },
   {
     "pair": [
-      "almond",
-      "creme_de_menthe"
-    ],
-    "count": 1,
-    "npmi": -0.032735,
-    "tradition": 0.0
-  },
-  {
-    "pair": [
-      "almond",
-      "triple_sec"
-    ],
-    "count": 4,
-    "npmi": -0.032848,
-    "tradition": 0.0
-  },
-  {
-    "pair": [
       "bourbon",
       "orange"
     ],
@@ -10450,6 +10477,15 @@
   },
   {
     "pair": [
+      "almond",
+      "brandy"
+    ],
+    "count": 3,
+    "npmi": -0.035967,
+    "tradition": 0.0
+  },
+  {
+    "pair": [
       "sweet_vermouth",
       "white_rum"
     ],
@@ -10477,15 +10513,6 @@
   },
   {
     "pair": [
-      "almond",
-      "scotch"
-    ],
-    "count": 1,
-    "npmi": -0.036216,
-    "tradition": 0.0
-  },
-  {
-    "pair": [
       "apricot",
       "white_rum"
     ],
@@ -10500,6 +10527,15 @@
     ],
     "count": 2,
     "npmi": -0.036383,
+    "tradition": 0.0
+  },
+  {
+    "pair": [
+      "almond",
+      "creme_de_menthe"
+    ],
+    "count": 1,
+    "npmi": -0.036397,
     "tradition": 0.0
   },
   {
@@ -10567,6 +10603,15 @@
   },
   {
     "pair": [
+      "almond",
+      "triple_sec"
+    ],
+    "count": 4,
+    "npmi": -0.037399,
+    "tradition": 0.0
+  },
+  {
+    "pair": [
       "peach_schnapps",
       "pomegranate"
     ],
@@ -10590,6 +10635,15 @@
     ],
     "count": 1,
     "npmi": -0.039613,
+    "tradition": 0.0
+  },
+  {
+    "pair": [
+      "almond",
+      "scotch"
+    ],
+    "count": 1,
+    "npmi": -0.039877,
     "tradition": 0.0
   },
   {
@@ -10801,15 +10855,6 @@
   },
   {
     "pair": [
-      "almond",
-      "soda_water"
-    ],
-    "count": 1,
-    "npmi": -0.04617,
-    "tradition": 0.0
-  },
-  {
-    "pair": [
       "bourbon",
       "port"
     ],
@@ -10893,6 +10938,15 @@
     "pair": [
       "salt",
       "white_rum"
+    ],
+    "count": 1,
+    "npmi": -0.049832,
+    "tradition": 0.0
+  },
+  {
+    "pair": [
+      "almond",
+      "soda_water"
     ],
     "count": 1,
     "npmi": -0.049832,
@@ -11233,15 +11287,6 @@
   },
   {
     "pair": [
-      "almond",
-      "apple"
-    ],
-    "count": 1,
-    "npmi": -0.061342,
-    "tradition": 0.0
-  },
-  {
-    "pair": [
       "lime",
       "sherry"
     ],
@@ -11368,6 +11413,15 @@
   },
   {
     "pair": [
+      "almond",
+      "apple"
+    ],
+    "count": 1,
+    "npmi": -0.065003,
+    "tradition": 0.0
+  },
+  {
+    "pair": [
       "mint",
       "vodka"
     ],
@@ -11409,6 +11463,15 @@
     ],
     "count": 20,
     "npmi": -0.067832,
+    "tradition": 0.0
+  },
+  {
+    "pair": [
+      "almond",
+      "orange_bitters"
+    ],
+    "count": 1,
+    "npmi": -0.067851,
     "tradition": 0.0
   },
   {
@@ -11890,15 +11953,6 @@
   },
   {
     "pair": [
-      "almond",
-      "mint"
-    ],
-    "count": 1,
-    "npmi": -0.082659,
-    "tradition": 0.0
-  },
-  {
-    "pair": [
       "gin",
       "ginger_ale"
     ],
@@ -12043,6 +12097,15 @@
   },
   {
     "pair": [
+      "almond",
+      "mint"
+    ],
+    "count": 1,
+    "npmi": -0.086321,
+    "tradition": 0.0
+  },
+  {
+    "pair": [
       "dry_vermouth",
       "irish_whiskey"
     ],
@@ -12111,15 +12174,6 @@
     ],
     "count": 4,
     "npmi": -0.088853,
-    "tradition": 0.0
-  },
-  {
-    "pair": [
-      "almond",
-      "lime"
-    ],
-    "count": 4,
-    "npmi": -0.089159,
     "tradition": 0.0
   },
   {
@@ -12246,6 +12300,15 @@
     ],
     "count": 9,
     "npmi": -0.093706,
+    "tradition": 0.0
+  },
+  {
+    "pair": [
+      "almond",
+      "lime"
+    ],
+    "count": 4,
+    "npmi": -0.09371,
     "tradition": 0.0
   },
   {
@@ -12421,15 +12484,6 @@
   },
   {
     "pair": [
-      "almond",
-      "orange"
-    ],
-    "count": 5,
-    "npmi": -0.098402,
-    "tradition": 0.0
-  },
-  {
-    "pair": [
       "maraschino",
       "pomegranate"
     ],
@@ -12525,6 +12579,15 @@
     ],
     "count": 1,
     "npmi": -0.102874,
+    "tradition": 0.0
+  },
+  {
+    "pair": [
+      "almond",
+      "orange"
+    ],
+    "count": 5,
+    "npmi": -0.103138,
     "tradition": 0.0
   },
   {
@@ -13582,6 +13645,15 @@
   },
   {
     "pair": [
+      "almond",
+      "lemon"
+    ],
+    "count": 5,
+    "npmi": -0.148062,
+    "tradition": 0.0
+  },
+  {
+    "pair": [
       "brandy",
       "cranberry"
     ],
@@ -13672,15 +13744,6 @@
   },
   {
     "pair": [
-      "almond",
-      "tequila"
-    ],
-    "count": 1,
-    "npmi": -0.150142,
-    "tradition": 0.0
-  },
-  {
-    "pair": [
       "anise",
       "pineapple"
     ],
@@ -13731,6 +13794,15 @@
     ],
     "count": 2,
     "npmi": -0.153577,
+    "tradition": 0.0
+  },
+  {
+    "pair": [
+      "almond",
+      "tequila"
+    ],
+    "count": 1,
+    "npmi": -0.153803,
     "tradition": 0.0
   },
   {
@@ -14050,15 +14122,6 @@
   },
   {
     "pair": [
-      "almond",
-      "grenadine"
-    ],
-    "count": 1,
-    "npmi": -0.17533,
-    "tradition": 0.0
-  },
-  {
-    "pair": [
       "amaretto",
       "pomegranate"
     ],
@@ -14087,24 +14150,15 @@
   {
     "pair": [
       "almond",
-      "lemon"
+      "grenadine"
     ],
-    "count": 4,
-    "npmi": -0.176817,
+    "count": 1,
+    "npmi": -0.178991,
     "tradition": 0.0
   },
   {
     "pair": [
       "coffee_liqueur",
-      "pomegranate"
-    ],
-    "count": 1,
-    "npmi": -0.179123,
-    "tradition": 0.0
-  },
-  {
-    "pair": [
-      "almond",
       "pomegranate"
     ],
     "count": 1,
@@ -14123,15 +14177,6 @@
   {
     "pair": [
       "calvados",
-      "sugar_syrup"
-    ],
-    "count": 3,
-    "npmi": -0.18124,
-    "tradition": 0.0
-  },
-  {
-    "pair": [
-      "almond",
       "sugar_syrup"
     ],
     "count": 3,
@@ -14185,6 +14230,15 @@
   },
   {
     "pair": [
+      "almond",
+      "pomegranate"
+    ],
+    "count": 1,
+    "npmi": -0.182784,
+    "tradition": 0.0
+  },
+  {
+    "pair": [
       "grapefruit",
       "orange"
     ],
@@ -14199,6 +14253,15 @@
     ],
     "count": 15,
     "npmi": -0.185148,
+    "tradition": 0.0
+  },
+  {
+    "pair": [
+      "almond",
+      "sugar_syrup"
+    ],
+    "count": 3,
+    "npmi": -0.185572,
     "tradition": 0.0
   },
   {
@@ -14320,15 +14383,6 @@
   },
   {
     "pair": [
-      "almond",
-      "sweet_vermouth"
-    ],
-    "count": 1,
-    "npmi": -0.195587,
-    "tradition": 0.0
-  },
-  {
-    "pair": [
       "sweet_vermouth",
       "tequila"
     ],
@@ -14361,6 +14415,15 @@
     ],
     "count": 2,
     "npmi": -0.197076,
+    "tradition": 0.0
+  },
+  {
+    "pair": [
+      "almond",
+      "sweet_vermouth"
+    ],
+    "count": 1,
+    "npmi": -0.199248,
     "tradition": 0.0
   },
   {
@@ -14788,6 +14851,15 @@
   },
   {
     "pair": [
+      "almond",
+      "gin"
+    ],
+    "count": 2,
+    "npmi": -0.245257,
+    "tradition": 0.0
+  },
+  {
+    "pair": [
       "coffee",
       "lime"
     ],
@@ -15036,15 +15108,6 @@
     ],
     "count": 1,
     "npmi": -0.315263,
-    "tradition": 0.0
-  },
-  {
-    "pair": [
-      "almond",
-      "gin"
-    ],
-    "count": 1,
-    "npmi": -0.315338,
     "tradition": 0.0
   },
   {

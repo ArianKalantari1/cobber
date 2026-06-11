@@ -76,10 +76,13 @@
     "name": "Strawberry & Pink Peppercorn Sour",
     "creator": "Ari",
     "origin": "ari",
-    "notes": "One ingredient lost in voice transcription ('strawberry boulgias...') - to be confirmed.",
+    "notes": "House syrup: strawberry & pink peppercorn orgeat - listed here as its components (orgeat implies almond via flavor_forward).",
     "ingredients": [
       {
         "name": "gin"
+      },
+      {
+        "name": "orgeat"
       },
       {
         "name": "strawberry"

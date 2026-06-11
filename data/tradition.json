@@ -1547,7 +1547,7 @@
     "tradition": 0.512967,
     "count": 11,
     "confidence": "solid",
-    "npmi": 0.303157
+    "npmi": 0.297626
   },
   {
     "pair": [
@@ -4137,7 +4137,7 @@
     "tradition": 0.369878,
     "count": 5,
     "confidence": "moderate",
-    "npmi": 0.002959
+    "npmi": -0.001777
   },
   {
     "pair": [
@@ -4147,7 +4147,7 @@
     "tradition": 0.369878,
     "count": 5,
     "confidence": "moderate",
-    "npmi": -0.023131
+    "npmi": -0.027867
   },
   {
     "pair": [
@@ -4157,7 +4157,17 @@
     "tradition": 0.369878,
     "count": 5,
     "confidence": "moderate",
-    "npmi": -0.098402
+    "npmi": -0.103138
+  },
+  {
+    "pair": [
+      "almond",
+      "lemon"
+    ],
+    "tradition": 0.369878,
+    "count": 5,
+    "confidence": "moderate",
+    "npmi": -0.148062
   },
   {
     "pair": [
@@ -4167,7 +4177,7 @@
     "tradition": 0.369878,
     "count": 5,
     "confidence": "moderate",
-    "npmi": 0.180234
+    "npmi": 0.175499
   },
   {
     "pair": [
@@ -5207,7 +5217,7 @@
     "tradition": 0.332241,
     "count": 4,
     "confidence": "moderate",
-    "npmi": -0.032848
+    "npmi": -0.037399
   },
   {
     "pair": [
@@ -5217,17 +5227,7 @@
     "tradition": 0.332241,
     "count": 4,
     "confidence": "moderate",
-    "npmi": -0.089159
-  },
-  {
-    "pair": [
-      "almond",
-      "lemon"
-    ],
-    "tradition": 0.332241,
-    "count": 4,
-    "confidence": "moderate",
-    "npmi": -0.176817
+    "npmi": -0.09371
   },
   {
     "pair": [
@@ -5237,7 +5237,7 @@
     "tradition": 0.332241,
     "count": 4,
     "confidence": "moderate",
-    "npmi": 0.252586
+    "npmi": 0.248035
   },
   {
     "pair": [
@@ -5247,7 +5247,7 @@
     "tradition": 0.332241,
     "count": 4,
     "confidence": "moderate",
-    "npmi": 0.111818
+    "npmi": 0.107267
   },
   {
     "pair": [
@@ -5567,7 +5567,7 @@
     "tradition": 0.286177,
     "count": 3,
     "confidence": "moderate",
-    "npmi": 0.242626
+    "npmi": 0.205408
   },
   {
     "pair": [
@@ -6617,7 +6617,7 @@
     "tradition": 0.286177,
     "count": 3,
     "confidence": "moderate",
-    "npmi": -0.18124
+    "npmi": -0.185572
   },
   {
     "pair": [
@@ -6627,7 +6627,7 @@
     "tradition": 0.286177,
     "count": 3,
     "confidence": "moderate",
-    "npmi": 0.051165
+    "npmi": 0.046833
   },
   {
     "pair": [
@@ -6637,7 +6637,7 @@
     "tradition": 0.286177,
     "count": 3,
     "confidence": "moderate",
-    "npmi": -0.031635
+    "npmi": -0.035967
   },
   {
     "pair": [
@@ -6967,7 +6967,7 @@
     "tradition": 0.22679,
     "count": 2,
     "confidence": "sparse",
-    "npmi": 0.211094
+    "npmi": 0.176234
   },
   {
     "pair": [
@@ -6977,7 +6977,7 @@
     "tradition": 0.22679,
     "count": 2,
     "confidence": "sparse",
-    "npmi": 0.214128
+    "npmi": 0.179267
   },
   {
     "pair": [
@@ -7017,7 +7017,7 @@
     "tradition": 0.22679,
     "count": 2,
     "confidence": "sparse",
-    "npmi": 0.124242
+    "npmi": 0.089382
   },
   {
     "pair": [
@@ -7178,6 +7178,16 @@
     "count": 2,
     "confidence": "sparse",
     "npmi": 0.085749
+  },
+  {
+    "pair": [
+      "lemon",
+      "orgeat"
+    ],
+    "tradition": 0.22679,
+    "count": 2,
+    "confidence": "sparse",
+    "npmi": 0.050888
   },
   {
     "pair": [
@@ -9177,7 +9187,7 @@
     "tradition": 0.22679,
     "count": 2,
     "confidence": "sparse",
-    "npmi": 0.205681
+    "npmi": 0.201623
   },
   {
     "pair": [
@@ -9187,7 +9197,17 @@
     "tradition": 0.22679,
     "count": 2,
     "confidence": "sparse",
-    "npmi": 0.072006
+    "npmi": 0.067948
+  },
+  {
+    "pair": [
+      "almond",
+      "gin"
+    ],
+    "tradition": 0.22679,
+    "count": 2,
+    "confidence": "sparse",
+    "npmi": -0.245257
   },
   {
     "pair": [
@@ -9197,7 +9217,7 @@
     "tradition": 0.22679,
     "count": 2,
     "confidence": "sparse",
-    "npmi": 0.050172
+    "npmi": 0.046114
   },
   {
     "pair": [
@@ -9207,7 +9227,7 @@
     "tradition": 0.22679,
     "count": 2,
     "confidence": "sparse",
-    "npmi": 0.022256
+    "npmi": 0.018198
   },
   {
     "pair": [
@@ -10181,6 +10201,26 @@
   },
   {
     "pair": [
+      "orgeat",
+      "strawberry"
+    ],
+    "tradition": 0.143088,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.546269
+  },
+  {
+    "pair": [
+      "orgeat",
+      "pink_peppercorn"
+    ],
+    "tradition": 0.143088,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.773134
+  },
+  {
+    "pair": [
       "orange_bitters",
       "vodka"
     ],
@@ -10248,6 +10288,16 @@
     "count": 1,
     "confidence": "sparse",
     "npmi": 0.448563
+  },
+  {
+    "pair": [
+      "orange_bitters",
+      "orgeat"
+    ],
+    "tradition": 0.143088,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.221697
   },
   {
     "pair": [
@@ -10831,16 +10881,6 @@
   },
   {
     "pair": [
-      "lemon",
-      "orgeat"
-    ],
-    "tradition": 0.143088,
-    "count": 1,
-    "confidence": "sparse",
-    "npmi": -0.020335
-  },
-  {
-    "pair": [
       "lavender",
       "st_germain"
     ],
@@ -11327,7 +11367,7 @@
     "tradition": 0.143088,
     "count": 1,
     "confidence": "sparse",
-    "npmi": 0.284606
+    "npmi": 0.253152
   },
   {
     "pair": [
@@ -11578,6 +11618,16 @@
     "count": 1,
     "confidence": "sparse",
     "npmi": -0.127157
+  },
+  {
+    "pair": [
+      "gin",
+      "orgeat"
+    ],
+    "tradition": 0.143088,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": -0.029451
   },
   {
     "pair": [
@@ -12167,7 +12217,7 @@
     "tradition": 0.143088,
     "count": 1,
     "confidence": "sparse",
-    "npmi": 0.229821
+    "npmi": 0.198367
   },
   {
     "pair": [
@@ -14207,7 +14257,7 @@
     "tradition": 0.143088,
     "count": 1,
     "confidence": "sparse",
-    "npmi": 0.291836
+    "npmi": 0.260382
   },
   {
     "pair": [
@@ -14697,7 +14747,7 @@
     "tradition": 0.143088,
     "count": 1,
     "confidence": "sparse",
-    "npmi": 0.211897
+    "npmi": 0.180443
   },
   {
     "pair": [
@@ -15517,7 +15567,7 @@
     "tradition": 0.143088,
     "count": 1,
     "confidence": "sparse",
-    "npmi": 0.255999
+    "npmi": 0.224545
   },
   {
     "pair": [
@@ -16427,7 +16477,7 @@
     "tradition": 0.143088,
     "count": 1,
     "confidence": "sparse",
-    "npmi": -0.150142
+    "npmi": -0.153803
   },
   {
     "pair": [
@@ -16437,7 +16487,17 @@
     "tradition": 0.143088,
     "count": 1,
     "confidence": "sparse",
-    "npmi": -0.195587
+    "npmi": -0.199248
+  },
+  {
+    "pair": [
+      "almond",
+      "strawberry"
+    ],
+    "tradition": 0.143088,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.25672
   },
   {
     "pair": [
@@ -16447,7 +16507,7 @@
     "tradition": 0.143088,
     "count": 1,
     "confidence": "sparse",
-    "npmi": -0.04617
+    "npmi": -0.049832
   },
   {
     "pair": [
@@ -16457,7 +16517,7 @@
     "tradition": 0.143088,
     "count": 1,
     "confidence": "sparse",
-    "npmi": -0.036216
+    "npmi": -0.039877
   },
   {
     "pair": [
@@ -16467,7 +16527,27 @@
     "tradition": 0.143088,
     "count": 1,
     "confidence": "sparse",
-    "npmi": -0.179123
+    "npmi": -0.182784
+  },
+  {
+    "pair": [
+      "almond",
+      "pink_peppercorn"
+    ],
+    "tradition": 0.143088,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": 0.483586
+  },
+  {
+    "pair": [
+      "almond",
+      "orange_bitters"
+    ],
+    "tradition": 0.143088,
+    "count": 1,
+    "confidence": "sparse",
+    "npmi": -0.067851
   },
   {
     "pair": [
@@ -16477,7 +16557,7 @@
     "tradition": 0.143088,
     "count": 1,
     "confidence": "sparse",
-    "npmi": -0.082659
+    "npmi": -0.086321
   },
   {
     "pair": [
@@ -16487,7 +16567,7 @@
     "tradition": 0.143088,
     "count": 1,
     "confidence": "sparse",
-    "npmi": 0.079822
+    "npmi": 0.076161
   },
   {
     "pair": [
@@ -16497,17 +16577,7 @@
     "tradition": 0.143088,
     "count": 1,
     "confidence": "sparse",
-    "npmi": -0.17533
-  },
-  {
-    "pair": [
-      "almond",
-      "gin"
-    ],
-    "tradition": 0.143088,
-    "count": 1,
-    "confidence": "sparse",
-    "npmi": -0.315338
+    "npmi": -0.178991
   },
   {
     "pair": [
@@ -16517,7 +16587,7 @@
     "tradition": 0.143088,
     "count": 1,
     "confidence": "sparse",
-    "npmi": -0.032735
+    "npmi": -0.036397
   },
   {
     "pair": [
@@ -16527,7 +16597,7 @@
     "tradition": 0.143088,
     "count": 1,
     "confidence": "sparse",
-    "npmi": -0.025505
+    "npmi": -0.029166
   },
   {
     "pair": [
@@ -16537,7 +16607,7 @@
     "tradition": 0.143088,
     "count": 1,
     "confidence": "sparse",
-    "npmi": 0.162676
+    "npmi": 0.159015
   },
   {
     "pair": [
@@ -16547,7 +16617,7 @@
     "tradition": 0.143088,
     "count": 1,
     "confidence": "sparse",
-    "npmi": -0.025505
+    "npmi": -0.029166
   },
   {
     "pair": [
@@ -16557,7 +16627,7 @@
     "tradition": 0.143088,
     "count": 1,
     "confidence": "sparse",
-    "npmi": -0.061342
+    "npmi": -0.065003
   },
   {
     "pair": [

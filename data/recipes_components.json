@@ -36,11 +36,14 @@
   },
   {
     "drink": "Strawberry & Pink Peppercorn Sour",
-    "implied": [],
+    "implied": [
+      "almond"
+    ],
     "literal": [
       "gin",
       "lemon",
       "orange_bitters",
+      "orgeat",
       "pink_peppercorn",
       "strawberry"
     ],

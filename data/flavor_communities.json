@@ -84,6 +84,16 @@
     ]
   },
   {
+    "head": "apple",
+    "size": 4,
+    "members": [
+      "apple",
+      "soda_water",
+      "orgeat",
+      "strawberry"
+    ]
+  },
+  {
     "head": "coconut",
     "size": 4,
     "members": [
@@ -111,15 +121,6 @@
       "red_wine",
       "cinnamon",
       "clove"
-    ]
-  },
-  {
-    "head": "apple",
-    "size": 3,
-    "members": [
-      "apple",
-      "soda_water",
-      "strawberry"
     ]
   },
   {
