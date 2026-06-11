@@ -35,6 +35,10 @@ files — no LLM calls, no network, no database at runtime.
 - `data/recipes_components.json` — per-drink literal/implied/muted components
   (audit trail for the decomposition).
 - `data/flavor_communities.json` — diagnostic flavour-family clusters.
+- `data/frontier_evidence.json` — pairings from the frontier corpus (craft
+  bartenders, competitions) with attribution. Deliberately NOT in tradition:
+  validated-novel evidence, not canon.
+- `data/raw/craft_recipes.json` — hand-curated recipes (append by hand).
 
 ## Build pipeline (offline; outputs are committed)
 
@@ -42,6 +46,7 @@ files — no LLM calls, no network, no database at runtime.
 python3 scripts/fetch_recipes.py      # TheCocktailDB -> data/raw/thecocktaildb.json
 python3 scripts/fetch_iba.py          # IBA official  -> data/raw/iba.json
 python3 scripts/fetch_boston.py       # Mr. Boston    -> data/raw/boston_cocktails.csv
+python3 scripts/fetch_hotaling.py     # Hotaling craft -> data/raw/hotaling_cocktails.csv (frontier)
 python3 scripts/normalize.py          # -> recipes_normalized/components, aliases, unmatched
 python3 scripts/compute_npmi.py       # -> tradition_npmi.json
 python3 scripts/write_tradition.py    # -> tradition.json

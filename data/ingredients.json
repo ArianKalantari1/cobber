@@ -1581,5 +1581,27 @@
     "season": null,
     "notes": "Texture/richness more than aroma; flips and nogs. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
     "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "pink_peppercorn",
+    "display_name": "Pink peppercorn",
+    "type": "raw",
+    "role": "aromatic",
+    "compounds": [
+      "limonene",
+      "myrcene",
+      "beta_caryophyllene",
+      "beta_phellandrene"
+    ],
+    "descriptors": [
+      "peppery",
+      "floral",
+      "resinous",
+      "bright"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Baie rose (Schinus) — terpene-rich, not true pepper; bridges citrus and gin botanicals. TODO: verify",
+    "source": "Common aroma-chemistry references; provisional."
   }
 ]

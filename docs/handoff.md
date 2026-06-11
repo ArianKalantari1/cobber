@@ -71,14 +71,15 @@ ingredients with optional oz), rerun the pipeline, done. Hand-curated recipes
 win dedupe over every scraped corpus. Seeded with Penicillin, Paper Plane,
 Naked & Famous.
 
-**Open design decision for bulk frontier data:** if many competition/craft
-recipes land, should they feed `tradition` the same as the canon corpora?
-Probably not — one World Class winner using a pairing doesn't make it
-"traditional", and counting it would *lower* that pairing's novelty score,
-hiding exactly what we want to surface. Likely answer: tag corpora canon vs
-frontier; tradition from canon; frontier kept as separate evidence ("rarely
-done, but champion X has done it" — validated novelty). Decide when the
-frontier corpus has real volume.
+**Canon-vs-frontier: DECIDED and implemented.** Corpora are classed in
+normalize.py (`SOURCE_CLASS`): canon (IBA, Mr. Boston, TheCocktailDB, the
+hand-curated craft file) feeds tradition; frontier (Hotaling & Co craft
+dataset, 552 normalized drinks with bartender attribution) feeds
+`data/frontier_evidence.json` — pair-level evidence with named examples
+("gin + honey, x12, e.g. 'Happiness' by Danny Louie"). The engine does not
+read it yet; a future tool should surface it as "rarely done, but..."
+support. Frontier unmatched names (house syrups, brands) dominate the
+unmatched list now — mine it for aliases gradually, no need to clear it.
 
 ## NEXT TASK (Ari's call): savoury / taste-axes
 

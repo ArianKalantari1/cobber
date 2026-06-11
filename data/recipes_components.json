@@ -35,6 +35,19 @@
     "source": "craft"
   },
   {
+    "drink": "Strawberry & Pink Peppercorn Sour",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "orange_bitters",
+      "pink_peppercorn",
+      "strawberry"
+    ],
+    "muted": [],
+    "source": "craft"
+  },
+  {
     "drink": "Vesper",
     "implied": [],
     "literal": [
@@ -15111,5 +15124,6999 @@
     ],
     "muted": [],
     "source": "thecocktaildb"
+  },
+  {
+    "creator": "Kelly McCarthy",
+    "drink": "Flor de Amaras",
+    "implied": [],
+    "literal": [
+      "lime",
+      "mezcal",
+      "soda_water",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Elizabeth Montana",
+    "drink": "The Happy Place",
+    "implied": [],
+    "literal": [
+      "cranberry",
+      "dry_vermouth",
+      "gin",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jon Morales",
+    "drink": "Bon Voyage Pisco Punch",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "pisco",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Daniel Braganca",
+    "drink": "Still Life of a Pineapple",
+    "implied": [
+      "elderflower"
+    ],
+    "literal": [
+      "dry_vermouth",
+      "pisco",
+      "st_germain"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Nik Virrey",
+    "drink": "The Bittered Valley",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "maraschino",
+      "pisco"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kevin Diedrich",
+    "drink": "OH Snap!",
+    "implied": [],
+    "literal": [
+      "absinthe",
+      "gin",
+      "lemon",
+      "sherry",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Phillip Ricafort",
+    "drink": "Wabash Avenue Sour",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "bourbon",
+      "cherry_liqueur",
+      "egg_white",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jon Ruiz",
+    "drink": "IPA Mule",
+    "implied": [],
+    "literal": [
+      "lime",
+      "sugar_syrup",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Dale DeGroff",
+    "drink": "Ritz Cocktail",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "brandy",
+      "cointreau",
+      "lemon",
+      "maraschino",
+      "sparkling_wine"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Danny Louie",
+    "drink": "Happiness",
+    "implied": [],
+    "literal": [
+      "gin",
+      "honey",
+      "lime"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Caterina Miltenberger",
+    "drink": "West Coast Punch",
+    "implied": [],
+    "literal": [
+      "gin",
+      "mint",
+      "pineapple"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Caterina Miltenberger",
+    "drink": "Mille Miglia",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "basil",
+      "cherry_liqueur",
+      "lime",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Caterina Miltenberger",
+    "drink": "Paradiso Sun",
+    "implied": [],
+    "literal": [
+      "gin",
+      "orange"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Caterina Miltenberger",
+    "drink": "Lux Orchard Lemonade",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "gin",
+      "lemon",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The King's Spring Daisy",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kevin Diedrich",
+    "drink": "War of the Roses",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "gin",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kate KaiKaew",
+    "drink": "A.Nise",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "orange_bitters",
+      "pineapple",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Elmer Mejicano",
+    "drink": "Down the Rabbit Hole",
+    "implied": [],
+    "literal": [
+      "gin",
+      "honey",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kate Grutman",
+    "drink": "Peace Daiquiri",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "grapefruit",
+      "lime",
+      "maraschino",
+      "sugar_syrup",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The Mad King",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "honey"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The Robert Baratheon",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "dry_vermouth",
+      "maraschino",
+      "scotch"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Naomi Levy",
+    "drink": "Lux Shandy",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "orange",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Chris Morris",
+    "drink": "Fiona Graham",
+    "implied": [],
+    "literal": [
+      "orange_bitters",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Toby Cecchini",
+    "drink": "Le Sang et Sable",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "orange"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Martinez",
+    "implied": [],
+    "literal": [
+      "gin",
+      "maraschino"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Scott Baird",
+    "drink": "Amaretto Sour BV-Style",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "bourbon",
+      "egg_white",
+      "lime",
+      "pineapple"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Calvin Marty",
+    "drink": "Julia's Child",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "gin",
+      "lemon",
+      "sugar_syrup",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The Bitter King",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Luis Hernandez",
+    "drink": "La Maracuja",
+    "implied": [],
+    "literal": [
+      "milk",
+      "passionfruit",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Matt Grippo",
+    "drink": "San Francisco Strong (Skrong)",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "gin",
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "David Ruiz",
+    "drink": "Nuestra Julep",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "lime"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Pisco Punch",
+    "implied": [],
+    "literal": [
+      "lime",
+      "pineapple",
+      "pisco",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Paul Sauter",
+    "drink": "La Batida Loca",
+    "implied": [],
+    "literal": [
+      "milk",
+      "passionfruit"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Tony Abou-Ganim",
+    "drink": "Neighborhood Negroni",
+    "implied": [],
+    "literal": [
+      "campari",
+      "gin"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jay Zimmerman",
+    "drink": "Angel's Face",
+    "implied": [
+      "apple"
+    ],
+    "literal": [
+      "calvados",
+      "gin"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brian Miller",
+    "drink": "Kiss",
+    "implied": [],
+    "literal": [
+      "gin",
+      "maraschino",
+      "sweet_vermouth"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Franky Marshall",
+    "drink": "The Cappa",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "gin",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jared Schubert",
+    "drink": "The Inside Job",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "bourbon",
+      "maraschino",
+      "sugar_syrup"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jim Meehan",
+    "drink": "The Sun Also Rises",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "grapefruit",
+      "lime",
+      "maraschino",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Phil Ward",
+    "drink": "Trato Hecho",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "green_chartreuse",
+      "lime",
+      "maraschino",
+      "mezcal"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "David Ruiz",
+    "drink": "Nick & Janae",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Matthew Polzin",
+    "drink": "On the Wings of Eagles",
+    "implied": [],
+    "literal": [
+      "green_chartreuse",
+      "rye_whiskey"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Ryan Chetiyawardana",
+    "drink": "Mule Pigeon",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "ginger_ale",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Cuba Liberation",
+    "implied": [],
+    "literal": [
+      "cola",
+      "lime",
+      "sugar_syrup",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Off the Radar",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "maraschino",
+      "tonic_water"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Caterina Miltenberger",
+    "drink": "Maraschino Side Car",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "lemon",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The Royal Buck",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "soda_water",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Christopher Buono",
+    "drink": "Rx Hot Toddy",
+    "implied": [],
+    "literal": [
+      "campari",
+      "lemon",
+      "rye_whiskey"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Chilcano",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "ginger_ale",
+      "lime",
+      "pisco"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Kir Royale",
+    "implied": [
+      "blackcurrant"
+    ],
+    "literal": [
+      "creme_de_cassis",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Bermuda Highball",
+    "implied": [],
+    "literal": [
+      "gin",
+      "soda_water",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Lux Cherry Sparkler",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "cherry_liqueur",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jim Meehan",
+    "drink": "French Maid",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "ginger_ale",
+      "lime",
+      "mint",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Karlsson's Mule",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "ginger_ale",
+      "lime",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brian Means",
+    "drink": "Creek Ran Dry",
+    "implied": [],
+    "literal": [
+      "brandy",
+      "dry_vermouth"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Morgan Schick",
+    "drink": "Redondo Beach",
+    "implied": [],
+    "literal": [
+      "lime",
+      "sherry",
+      "sugar_syrup",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kate Grutman",
+    "drink": "Pink Ribbon",
+    "implied": [],
+    "literal": [
+      "brown_sugar",
+      "peychauds_bitters",
+      "sparkling_wine",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brian Means",
+    "drink": "Short Round II",
+    "implied": [],
+    "literal": [
+      "cachaca",
+      "lime",
+      "sugar_syrup",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Rebecca Burkart",
+    "drink": "A Gift from Zara",
+    "implied": [
+      "elderflower"
+    ],
+    "literal": [
+      "gin",
+      "st_germain"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Karri Cormican",
+    "drink": "Gin Made Me Do It",
+    "implied": [],
+    "literal": [
+      "absinthe",
+      "angostura_bitters",
+      "gin"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Linda Salinas",
+    "drink": "Clearly Bitter",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Short Round",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Scott Brody",
+    "drink": "Ypioca Yellow Card",
+    "implied": [],
+    "literal": [
+      "pineapple",
+      "soda_water",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Morgan Schick",
+    "drink": "Buzzard's Bay",
+    "implied": [],
+    "literal": [
+      "cranberry",
+      "gin",
+      "lime"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Kick the Pigeon",
+    "implied": [
+      "elderflower"
+    ],
+    "literal": [
+      "lemon",
+      "sparkling_wine",
+      "st_germain",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Ken Luciano",
+    "drink": "Croatia Firing Squad",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Pink Pigeon Punch",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "agave",
+      "ginger_ale",
+      "lemon",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Kentucky Garrigue",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "bourbon",
+      "cherry_liqueur",
+      "strawberry",
+      "tonic_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Justin Ware",
+    "drink": "Bitter Valencia",
+    "implied": [],
+    "literal": [
+      "gin",
+      "milk",
+      "orange_bitters",
+      "vanilla"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Marvin Allen",
+    "drink": "Chilcano (variation)",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "agave",
+      "ginger_ale",
+      "lime",
+      "pisco"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Claire & Chad",
+    "drink": "Little Ground Tapper",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Morgan Schick",
+    "drink": "Prince of Humbugs",
+    "implied": [],
+    "literal": [
+      "anisette",
+      "bourbon",
+      "coffee",
+      "peychauds_bitters"
+    ],
+    "muted": [
+      "anise"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Nate Jimenez",
+    "drink": "The Big Picture",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jim Romdall",
+    "drink": "Rita's Song",
+    "implied": [],
+    "literal": [
+      "sherry",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Luxardo Maraschino Simple Spritz",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "lime",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Pasha Morshedi",
+    "drink": "La Chiara",
+    "implied": [],
+    "literal": [
+      "maraschino",
+      "pisco"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Negroni",
+    "implied": [],
+    "literal": [
+      "campari",
+      "gin",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Robert Krueger",
+    "drink": "Nellie Fer' Toddy",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "orange",
+      "peychauds_bitters",
+      "scotch"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kevin Diedrich",
+    "drink": "Almond Crusta",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "gin",
+      "orgeat"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Benedict Simpson",
+    "drink": "Mexico Mule",
+    "implied": [],
+    "literal": [
+      "lime",
+      "mezcal",
+      "raspberry"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Bird is the Word",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "green_chartreuse",
+      "lime",
+      "maraschino",
+      "pineapple",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Laura Maddox",
+    "drink": "Jammie Dodger Fizz",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "cream",
+      "egg_white",
+      "lemon",
+      "lime",
+      "orgeat"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jeramy Campbell",
+    "drink": "Heard It Through The Grapevine",
+    "implied": [],
+    "literal": [
+      "benedictine",
+      "port"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brian Means",
+    "drink": "Snow Bunny",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "honey",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Russell Davis",
+    "drink": "Drops of Jupiter",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "gin",
+      "honey"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Alex Quesada",
+    "drink": "Mother Superior",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Alan Kropf",
+    "drink": "Round Pond Aperitif",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Alan Kropf",
+    "drink": "Across The Pond",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "soda_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Tom Cavazos",
+    "drink": "Fizzy Rhubarb Mule",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "gin",
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kevin Diedrich",
+    "drink": "Charente Royale",
+    "implied": [
+      "elderflower"
+    ],
+    "literal": [
+      "absinthe",
+      "sparkling_wine",
+      "st_germain"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Bonnie Wilson",
+    "drink": "Peachy Keane",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "bourbon",
+      "egg_white",
+      "honey",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Russell Davis",
+    "drink": "Hopped-Up Mary",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "tomato",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Michael Esposito",
+    "drink": "The Palace Cellar",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "soda_water",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sean McClure",
+    "drink": "Swedish Royal",
+    "implied": [
+      "apricot"
+    ],
+    "literal": [
+      "apricot_brandy",
+      "dry_vermouth",
+      "sweet_vermouth",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sean McClure",
+    "drink": "Gold Spritz",
+    "implied": [],
+    "literal": [
+      "soda_water",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Enrique Sanchez",
+    "drink": "La Madrugada",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "maraschino"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The Rickenbacker",
+    "implied": [],
+    "literal": [
+      "maraschino",
+      "salt",
+      "vodka"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Mo Hodges & Brian Felley",
+    "drink": "The Douglas Tilden",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "absinthe",
+      "gin",
+      "maraschino",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Carl Wenger",
+    "drink": "Willow",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "rye_whiskey"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "John Codd",
+    "drink": "Sahara Glowing Heart",
+    "implied": [
+      "pomegranate"
+    ],
+    "literal": [
+      "absinthe",
+      "gin",
+      "grenadine"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Anthony Parks",
+    "drink": "Nori & Islay",
+    "implied": [],
+    "literal": [
+      "gin",
+      "scotch"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Chippendale Rosetone",
+    "implied": [],
+    "literal": [
+      "apple",
+      "dry_vermouth",
+      "gin",
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "La Hops Vie",
+    "implied": [],
+    "literal": [
+      "basil",
+      "grapefruit",
+      "lemon",
+      "orange_bitters",
+      "sugar_syrup",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Tyler Chauvin",
+    "drink": "Cap't of the Seven Seas",
+    "implied": [],
+    "literal": [
+      "coconut",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Caitlin Laman",
+    "drink": "Chapman Cobbler",
+    "implied": [
+      "almond",
+      "apple"
+    ],
+    "literal": [
+      "calvados",
+      "lemon",
+      "orgeat",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "John Weyrich",
+    "drink": "Peter Pumpkin",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "gin",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Danny Louie",
+    "drink": "A Botanical Garden",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "sugar_syrup",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Chris Lane",
+    "drink": "The Bossa Nova",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "lemon",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Lynnette Marrero",
+    "drink": "See ya Amaro!",
+    "implied": [],
+    "literal": [
+      "apricot",
+      "lemon",
+      "maraschino"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Lynnette Marrero",
+    "drink": "Rose Sangria",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "cinnamon",
+      "honey",
+      "lemon",
+      "nutmeg",
+      "pomegranate",
+      "strawberry",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Robby Cook",
+    "drink": "White Tie",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "gin",
+      "maraschino",
+      "orange_bitters"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Hal Brock",
+    "drink": "The Italian Diplomat",
+    "implied": [],
+    "literal": [
+      "pisco",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Bunny Poison",
+    "implied": [],
+    "literal": [
+      "gin",
+      "grapefruit",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jon Morales",
+    "drink": "See You T'Amaro",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Cut To The Chase",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Russell Davis",
+    "drink": "The Lover's Quarrel",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "orange",
+      "soda_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Hophead Dirty Martini",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "olive",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Russell Davis",
+    "drink": "West Coast Vesper",
+    "implied": [],
+    "literal": [
+      "gin",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Hophead Old Fashioned",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "sugar_syrup",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Harold Madison",
+    "drink": "Bacio Romana",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "dry_vermouth",
+      "maraschino",
+      "pisco"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "3 Degrees",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lime",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Russell David",
+    "drink": "Jack Cherry Sour (2001 Remix)",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "cherry_liqueur",
+      "lemon",
+      "orange_bitters",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kim Rosselle",
+    "drink": "Spring Forward",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lime",
+      "pineapple",
+      "sparkling_wine",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Three Flips",
+    "implied": [
+      "egg_white",
+      "egg_yolk"
+    ],
+    "literal": [
+      "gin",
+      "honey",
+      "whole_egg"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Matt Solario",
+    "drink": "Buenaventura",
+    "implied": [],
+    "literal": [
+      "lime",
+      "pisco",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sean McClure",
+    "drink": "Nieux Carré",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "benedictine",
+      "brandy",
+      "peychauds_bitters",
+      "sweet_vermouth",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sean McClure",
+    "drink": "L.E.S. Is More",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "sugar_syrup",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Christa Havican",
+    "drink": "La Perle de Verre",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "orange_bitters"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brian Means",
+    "drink": "A Tall Tell",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Cut and Run",
+    "implied": [],
+    "literal": [
+      "ginger",
+      "honey",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Vince Toscano",
+    "drink": "The Stand By",
+    "implied": [
+      "coconut"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "coconut_liqueur",
+      "gin",
+      "peychauds_bitters"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Patrick Poelvoorde",
+    "drink": "Second City Sour",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jeff Hollinger",
+    "drink": "California's Callin'",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "gin",
+      "grapefruit",
+      "lemon",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jeff Hollinger",
+    "drink": "Hopped-Up Mule",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "ginger_ale",
+      "lime",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Bay City Shandy",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "orange_bitters",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "San Fran Shandy",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "egg_white",
+      "honey",
+      "lemon",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Megan Daniel",
+    "drink": "San Francisco Harvest",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "pineapple",
+      "sherry",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kevin Martin",
+    "drink": "Don't Rock the Boat Punch",
+    "implied": [],
+    "literal": [
+      "gin",
+      "honey"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brian Quinn",
+    "drink": "Miyagikyo Kick",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "lime",
+      "orgeat"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kevin Martin",
+    "drink": "King's Toddy",
+    "implied": [],
+    "literal": [
+      "gin",
+      "honey",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Picadilly",
+    "implied": [],
+    "literal": [
+      "basil",
+      "gin",
+      "lime",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jeff Kinder",
+    "drink": "The Canevari Cocktail",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "gin"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Arien Chabolla",
+    "drink": "Shroud of the Inca",
+    "implied": [],
+    "literal": [
+      "pisco",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Richard Bailey",
+    "drink": "New Beginnings",
+    "implied": [],
+    "literal": [
+      "gin",
+      "tonic_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The Cliffdiver",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "ginger_ale",
+      "lime",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Ari & Micah Wilder",
+    "drink": "Irish Goodbye",
+    "implied": [
+      "cream"
+    ],
+    "literal": [
+      "absinthe",
+      "coffee",
+      "irish_cream"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Beachcomber",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "cointreau",
+      "lime",
+      "maraschino",
+      "sugar_syrup",
+      "white_rum"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kelly McCarthy",
+    "drink": "Old Tom and The Sea",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "cherry_liqueur",
+      "gin",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Salty Swede",
+    "implied": [],
+    "literal": [
+      "grapefruit",
+      "soda_water",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kim Rosselle",
+    "drink": "The Last Tango",
+    "implied": [
+      "elderflower"
+    ],
+    "literal": [
+      "cherry",
+      "gin",
+      "lime",
+      "st_germain"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Pink & Black",
+    "implied": [],
+    "literal": [
+      "cola",
+      "lime",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Pink & Ginger",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "ginger_ale",
+      "lime",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Amy Lewis",
+    "drink": "A Regal Air",
+    "implied": [],
+    "literal": [
+      "orange",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Daniel Romero",
+    "drink": "King's Mule",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "soda_water",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kate Grutman",
+    "drink": "Bubbly Bird",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "sparkling_wine",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Cristina Bini",
+    "drink": "Framboise de Pigeon",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "sugar_syrup",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brian Means",
+    "drink": "Far From the Tree",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "egg_white",
+      "lemon",
+      "orgeat"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Adam Fortuna",
+    "drink": "Luxardo Sour",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "egg_white",
+      "lemon",
+      "rye_whiskey"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The Molino",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "egg_white",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The King's Egg Nog",
+    "implied": [
+      "egg_white",
+      "egg_yolk"
+    ],
+    "literal": [
+      "cream",
+      "gin",
+      "milk",
+      "sugar_syrup",
+      "white_rum",
+      "whole_egg"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "White Walker Flip",
+    "implied": [
+      "egg_white",
+      "egg_yolk"
+    ],
+    "literal": [
+      "green_chartreuse",
+      "whole_egg"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Naren Young",
+    "drink": "Hibiscus Pisco Sour",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "lime",
+      "pisco"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Carlo Splendorini",
+    "drink": "Lux Japanese Lemonade",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "gin",
+      "lemon",
+      "limoncello"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Ryan Chetiyawardana",
+    "drink": "Flip and Flight",
+    "implied": [
+      "egg_white",
+      "egg_yolk",
+      "pomegranate"
+    ],
+    "literal": [
+      "grenadine",
+      "sherry",
+      "white_rum",
+      "whole_egg"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Ryan Chetiyawardana",
+    "drink": "Dry Mauritian Sour",
+    "implied": [],
+    "literal": [
+      "campari",
+      "egg_white",
+      "lemon",
+      "orange",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Natasha David",
+    "drink": "Platonic Snuggle",
+    "implied": [
+      "egg_white",
+      "egg_yolk"
+    ],
+    "literal": [
+      "cream",
+      "white_rum",
+      "whole_egg"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brian Floyd",
+    "drink": "The Brightside",
+    "implied": [],
+    "literal": [
+      "orange",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jupiter Olympus",
+    "drink": "The King's Froth & Frizz",
+    "implied": [],
+    "literal": [
+      "brandy",
+      "egg_white",
+      "lemon",
+      "pisco"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The Queen's A Redhead",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "lemon",
+      "pink_peppercorn",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Ken Luciano",
+    "drink": "Delicious Sour",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kevin Diedrich",
+    "drink": "Jalapeño Sour",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "green_chartreuse",
+      "lime",
+      "pineapple",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "St. John Frizell",
+    "drink": "Hanny's Hot Apple Toddy",
+    "implied": [],
+    "literal": [
+      "cinnamon",
+      "cream"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Tineke Triggs",
+    "drink": "The Alpine Mist",
+    "implied": [],
+    "literal": [
+      "lime",
+      "mezcal",
+      "mint"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Phil Ward",
+    "drink": "Division Bell",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "aperol",
+      "lime",
+      "maraschino",
+      "mezcal"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Golden Gun",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "grapefruit",
+      "lime",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Grown-Up Shirley Temple",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "soda_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Japanese Cocktail",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "orgeat"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sean McClure",
+    "drink": "Vinterpäls",
+    "implied": [],
+    "literal": [
+      "benedictine",
+      "honey",
+      "orange",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Julian Miller",
+    "drink": "A Southern Jackass",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "soda_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Pacific Kick",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "lemon",
+      "orgeat"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Citrus Quo (Adapted)",
+    "implied": [
+      "lemon"
+    ],
+    "literal": [
+      "gin",
+      "limoncello",
+      "tonic_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The Mayan Premonition",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "cherry_liqueur",
+      "lime",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Club Med",
+    "implied": [
+      "elderflower"
+    ],
+    "literal": [
+      "pisco",
+      "soda_water",
+      "st_germain"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Pisco Sour",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "egg_white",
+      "lime",
+      "pisco",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Caitlin Laman",
+    "drink": "Jamaica Paloma",
+    "implied": [],
+    "literal": [
+      "grapefruit",
+      "lime",
+      "mezcal"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Lauren Sanchez",
+    "drink": "Ypioca Chile Punch",
+    "implied": [],
+    "literal": [
+      "agave",
+      "lime"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Lauren Sanchez",
+    "drink": "Prata Punch",
+    "implied": [],
+    "literal": [
+      "agave",
+      "lime",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brian Van Flandern",
+    "drink": "Engaged and Cant-Aloupe",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "lime",
+      "pisco"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Mauritian Made",
+    "implied": [],
+    "literal": [
+      "lime",
+      "sugar_syrup",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Enrique Sanchez",
+    "drink": "Hotaling Old Tom Gin",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Andrew Grala",
+    "drink": "Blind Luck",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The King's Cranberry Sauce",
+    "implied": [],
+    "literal": [
+      "brown_sugar",
+      "cinnamon",
+      "clove",
+      "cranberry",
+      "orange"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Mexican Sazerac",
+    "implied": [],
+    "literal": [
+      "peychauds_bitters",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Roasted Cherry Colada",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "cherry_liqueur",
+      "coconut",
+      "demerara",
+      "lime",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sean McClure",
+    "drink": "Root Down",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "ginger_ale",
+      "lemon",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sean McClure",
+    "drink": "Chilli Vanilli",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "sherry",
+      "sugar_syrup",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sean McClure",
+    "drink": "Pear and Cranberry Fizz",
+    "implied": [],
+    "literal": [
+      "cranberry",
+      "lemon",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sean McClure",
+    "drink": "Asian Affair",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "ginger_ale",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sean McClure",
+    "drink": "Pumpkin and Spice",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "ginger_ale",
+      "sherry",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sean McClure",
+    "drink": "Tambourine",
+    "implied": [],
+    "literal": [
+      "lime",
+      "pineapple",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sean McClure",
+    "drink": "Eden's Apple",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sean McClure",
+    "drink": "Swedish 75",
+    "implied": [],
+    "literal": [
+      "sparkling_wine",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Barbary Coast Bulldog",
+    "implied": [],
+    "literal": [
+      "cola",
+      "cream",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sean McClure",
+    "drink": "Apple Shrub Spritz",
+    "implied": [],
+    "literal": [
+      "soda_water",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Clint Rogers",
+    "drink": "Goat Town Swizzle",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "lemon",
+      "orange_bitters",
+      "orgeat",
+      "rye_whiskey"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The No.3 Winter Cup",
+    "implied": [],
+    "literal": [
+      "gin",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jaymee Mandeville",
+    "drink": "La La Land",
+    "implied": [],
+    "literal": [
+      "aperol",
+      "lemon",
+      "mint",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Vieux Carré",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "benedictine",
+      "peychauds_bitters",
+      "rye_whiskey"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Mariel Bordas",
+    "drink": "Mack's Apple",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "mezcal"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kate Grutman",
+    "drink": "The Ladybird",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "cherry_liqueur",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jason Fendick",
+    "drink": "Passionate Pigeon",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "ginger_ale",
+      "lime",
+      "passionfruit",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Ronaldo Colli",
+    "drink": "Mayan Decadence",
+    "implied": [
+      "anise"
+    ],
+    "literal": [
+      "anisette",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The No.3 Winter Punch",
+    "implied": [],
+    "literal": [
+      "gin",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Raul Ayala",
+    "drink": "Xmas in Juniper",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "egg_white",
+      "gin",
+      "lemon",
+      "orgeat"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Joaquin Simo",
+    "drink": "Muddled Mission",
+    "implied": [
+      "elderflower"
+    ],
+    "literal": [
+      "gin",
+      "green_chartreuse",
+      "lemon",
+      "st_germain",
+      "strawberry"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The Southside",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "mint",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Apricot Blush",
+    "implied": [],
+    "literal": [
+      "mint",
+      "sparkling_wine",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Honey Basil Smash",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "basil",
+      "ginger_ale",
+      "honey",
+      "lime"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Juniperotivo",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lime",
+      "mint",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Desmond's Choice",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "creme_de_cacao",
+      "triple_sec"
+    ],
+    "muted": [
+      "orange"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brian Floyd",
+    "drink": "Cafe Creole",
+    "implied": [],
+    "literal": [
+      "cream",
+      "sugar_syrup",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "La Nueva Moda (The New Fashion)",
+    "implied": [],
+    "literal": [
+      "agave",
+      "maraschino",
+      "mezcal",
+      "sugar_syrup",
+      "tequila"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "drink": "And The Cherry On Top Is...",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "lemon",
+      "maraschino",
+      "soda_water",
+      "sugar_syrup",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sean McClure",
+    "drink": "Phad Thai",
+    "implied": [],
+    "literal": [
+      "sugar_syrup",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Zachary Brian Taylor",
+    "drink": "The Swedish",
+    "implied": [],
+    "literal": [
+      "benedictine",
+      "black_pepper",
+      "honey",
+      "lemon",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Spring Cleanse",
+    "implied": [],
+    "literal": [
+      "apple",
+      "ginger"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Edgar & Joselino Solis",
+    "drink": "Prickly Pear Margarita",
+    "implied": [],
+    "literal": [
+      "agave",
+      "lime",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Joy Richards",
+    "drink": "The Sixth Sense",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "coconut",
+      "gin",
+      "lime",
+      "pineapple"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Pink Punch",
+    "implied": [
+      "ginger",
+      "pomegranate"
+    ],
+    "literal": [
+      "ginger_ale",
+      "grenadine",
+      "lime",
+      "orange",
+      "pineapple",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Raul Ayala",
+    "drink": "The 42nd Round",
+    "implied": [],
+    "literal": [
+      "gin",
+      "orange_bitters",
+      "scotch"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Raul Ayala",
+    "drink": "The Nutty Sensation",
+    "implied": [],
+    "literal": [
+      "gin",
+      "orange_bitters"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Maria Canevari Punch",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "lemon",
+      "maraschino",
+      "peach",
+      "soda_water",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Trip to Jarnac",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "lemon",
+      "orange",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Matthew Biancaniello",
+    "drink": "Clover Holiday Cocktail",
+    "implied": [],
+    "literal": [
+      "cinnamon",
+      "honey",
+      "lime",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Nusan Brounstein",
+    "drink": "Barrel Aged Ginger Negroni",
+    "implied": [],
+    "literal": [
+      "campari",
+      "gin",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Amaretto Bourbon Punch",
+    "implied": [],
+    "literal": [
+      "apple",
+      "bourbon",
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Josh Trabulsi",
+    "drink": "Merry Sherry Cobbler",
+    "implied": [],
+    "literal": [
+      "orange_bitters",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "French 75",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "sparkling_wine",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "A Mi Manera (My Way) Pisco Punch",
+    "implied": [],
+    "literal": [
+      "lime",
+      "pisco"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kevin Mabry",
+    "drink": "You're Bitter Than That",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "cherry_liqueur",
+      "lime",
+      "sugar_syrup",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kate Grutman",
+    "drink": "On the Flipside",
+    "implied": [],
+    "literal": [
+      "lime",
+      "mint",
+      "sugar_syrup",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Calvin Marty",
+    "drink": "Farmer's Gold",
+    "implied": [],
+    "literal": [
+      "basil",
+      "lemon",
+      "orange_bitters",
+      "sugar_syrup",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kate Grutman",
+    "drink": "Winter Swizzle",
+    "implied": [],
+    "literal": [
+      "lime",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Lost at Sea",
+    "implied": [],
+    "literal": [
+      "lime",
+      "soda_water",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Rafa García Febles",
+    "drink": "Feingold",
+    "implied": [],
+    "literal": [
+      "brandy",
+      "cherry",
+      "cherry_liqueur"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Matthew Biancaniello",
+    "drink": "Lovage In The Garden",
+    "implied": [],
+    "literal": [
+      "agave",
+      "lime",
+      "tomato",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Andy Minchow",
+    "drink": "Georgia Old Fashioned",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "lemon",
+      "orange",
+      "orange_bitters",
+      "peach"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Tyler Chauvin",
+    "drink": "Stroll Through the Park",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "mint",
+      "orange",
+      "pisco",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Ginger Pigeon",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "ginger_ale",
+      "lemon",
+      "pineapple",
+      "sugar_syrup",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Spice and Stormy",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "ginger_ale",
+      "lemon",
+      "pineapple",
+      "sugar_syrup",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Caterina Miltenberger",
+    "drink": "Stone Fruit Patch V2",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "lime",
+      "maraschino",
+      "peach",
+      "raspberry",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Caterina Miltenberger",
+    "drink": "Stone Fruit Patch V1",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "lime",
+      "maraschino",
+      "peach",
+      "raspberry"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Mint Garden",
+    "implied": [],
+    "literal": [
+      "black_pepper",
+      "grapefruit",
+      "lemon",
+      "mint",
+      "sugar_syrup",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Lynnette Marrero",
+    "drink": "Rhapsody in Red",
+    "implied": [],
+    "literal": [
+      "agave",
+      "lime",
+      "strawberry",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Cherry Old Fashioned",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "demerara",
+      "maraschino",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Basil Gin and Tonic",
+    "implied": [],
+    "literal": [
+      "basil",
+      "gin",
+      "lime",
+      "tonic_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Mystique Green (Adapted)",
+    "implied": [
+      "elderflower"
+    ],
+    "literal": [
+      "gin",
+      "lime",
+      "st_germain"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Eduardo Val Naval",
+    "drink": "Nara Mule",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "egg_white",
+      "ginger_ale",
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jeff Hollinger",
+    "drink": "The Reserved King",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Duggan McDonnell",
+    "drink": "Buccaneer",
+    "implied": [],
+    "literal": [
+      "campari",
+      "gin",
+      "lime",
+      "pineapple",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brian Means",
+    "drink": "Sage & Sound",
+    "implied": [
+      "egg_white",
+      "egg_yolk"
+    ],
+    "literal": [
+      "gin",
+      "lemon",
+      "port",
+      "sage",
+      "whole_egg"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Bruce Cole",
+    "drink": "Japonais No.3",
+    "implied": [],
+    "literal": [
+      "gin",
+      "orange",
+      "raspberry",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "William Golde",
+    "drink": "PDA",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The Proverb",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "maraschino"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Raspberry Batida",
+    "implied": [],
+    "literal": [
+      "coconut",
+      "creme_de_cacao",
+      "milk",
+      "raspberry"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Junipero Gin and Tonic",
+    "implied": [],
+    "literal": [
+      "gin",
+      "tonic_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "L'Aviation",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "gin",
+      "lemon",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Marvin Allen",
+    "drink": "The Kings Mule",
+    "implied": [],
+    "literal": [
+      "orange_bitters",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "The Bacchus Cocktail",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "grape",
+      "lemon",
+      "pisco"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Garrison's New Fashioned",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Pina Del Este",
+    "implied": [],
+    "literal": [
+      "lime",
+      "pisco",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Vida Verde (Adapted)",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "maraschino",
+      "mint",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Culebra",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "cola",
+      "lime",
+      "mint"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Morlacco Julep",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "cherry_liqueur",
+      "mint"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Sorrentino",
+    "implied": [
+      "lemon"
+    ],
+    "literal": [
+      "limoncello",
+      "soda_water",
+      "thyme"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "SOMA Fizz",
+    "implied": [],
+    "literal": [
+      "cream",
+      "gin",
+      "lemon",
+      "orange_bitters",
+      "soda_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Brazilian Mai Tai",
+    "implied": [],
+    "literal": [
+      "soda_water",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Sorriso (Adapted)",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "cherry_liqueur",
+      "gin",
+      "sherry",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Blood & Sand",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "cherry_liqueur",
+      "orange"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Taylor Wright",
+    "drink": "Harms' Way",
+    "implied": [],
+    "literal": [
+      "benedictine",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Amaretto Rose",
+    "implied": [],
+    "literal": [
+      "lime",
+      "soda_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Maxwell Britten",
+    "drink": "La Capilla",
+    "implied": [],
+    "literal": [
+      "grapefruit",
+      "lime",
+      "mezcal"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Palais Royal",
+    "implied": [],
+    "literal": [
+      "cherry_liqueur",
+      "lemon",
+      "sparkling_wine"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Rothes Julep",
+    "implied": [],
+    "literal": [
+      "mint",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Fernet Frappe",
+    "implied": [],
+    "literal": [
+      "cola",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Red Bud Trail",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "cherry_liqueur",
+      "dry_vermouth",
+      "gin"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The Twinger",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "ginger_ale"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "No.3 & T",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "tonic_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "3 & Tree",
+    "implied": [],
+    "literal": [
+      "gin",
+      "tonic_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Crooked Kilt",
+    "implied": [],
+    "literal": [
+      "green_chartreuse",
+      "lime",
+      "pineapple"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Devin Hardy",
+    "drink": "San Fran Soda",
+    "implied": [],
+    "literal": [
+      "lime",
+      "soda_water",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sophie",
+    "drink": "Château Montifaud Creation",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "lemon",
+      "orgeat",
+      "triple_sec"
+    ],
+    "muted": [
+      "orange"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Elodie",
+    "drink": "Château Montifaud Pink Love",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "raspberry",
+      "sparkling_wine",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Duke's Classic Dry Martini",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Glimpse of Seduction",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "lemon",
+      "maraschino",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Kentucky Likker",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "orange_bitters",
+      "soda_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Catherine",
+    "drink": "Château Montifaud Lady Touch Triple Sec",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "lemon",
+      "mint",
+      "sugar_syrup",
+      "triple_sec"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Pink Colada",
+    "implied": [],
+    "literal": [
+      "coconut",
+      "pineapple",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Profundo",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "bourbon",
+      "cherry_liqueur"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Laurent",
+    "drink": "Château Montifaud on Mint",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "mint",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Tyler Chauvin",
+    "drink": "Tequila Sunflare",
+    "implied": [],
+    "literal": [
+      "sweet_vermouth",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Kiss Of Persuasion",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "cardamom",
+      "cream",
+      "maraschino",
+      "pear"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Loris Melis",
+    "drink": "Marchesa",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "bourbon",
+      "cherry_liqueur",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Lauren Sanchez",
+    "drink": "Brazilian Mule Punch",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "ginger_ale",
+      "lime",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Coco Batida",
+    "implied": [],
+    "literal": [
+      "coconut",
+      "milk"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Peach Batida",
+    "implied": [],
+    "literal": [
+      "milk",
+      "peach"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Karlsson's Old Fashioned",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "brown_sugar",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Leilani Brennan",
+    "drink": "Gold Rush",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "basil",
+      "egg_white",
+      "lime",
+      "pineapple",
+      "sugar_syrup",
+      "sweet_vermouth",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The Improved Sazerac",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "maraschino",
+      "peychauds_bitters",
+      "sugar_syrup"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Luxardo Fresco",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "lemon",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Matt Tocco",
+    "drink": "Stranger in the Alps",
+    "implied": [],
+    "literal": [
+      "campari",
+      "gin",
+      "salt"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Corpse Reviver No.2",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Luke Ridge",
+    "drink": "The Last Marasca",
+    "implied": [
+      "almond",
+      "cherry"
+    ],
+    "literal": [
+      "absinthe",
+      "gin",
+      "lemon",
+      "maraschino",
+      "orgeat"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Josh Ruiz",
+    "drink": "Seersucker Sunshine",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Diego Sanchez",
+    "drink": "Wooster 53",
+    "implied": [],
+    "literal": [
+      "gin",
+      "grapefruit",
+      "honey",
+      "lime",
+      "tonic_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Diego Sanchez",
+    "drink": "Mango No. 3",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "gin",
+      "lemon",
+      "mango"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Vintage Reserve Sour",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The King's Queen",
+    "implied": [],
+    "literal": [
+      "ginger",
+      "lime",
+      "strawberry"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Misty Kalkofen",
+    "drink": "Space Age Pop",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "lemon",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brian Floyd",
+    "drink": "The House of Duncan",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "cherry_liqueur"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The King and Tonic",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "tonic_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brian Floyd",
+    "drink": "Big and Bright",
+    "implied": [],
+    "literal": [
+      "gin",
+      "grapefruit",
+      "honey",
+      "lime",
+      "soda_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Nick Jones",
+    "drink": "Bakko & Zengo",
+    "implied": [
+      "egg_white",
+      "egg_yolk"
+    ],
+    "literal": [
+      "cream",
+      "sugar_syrup",
+      "whole_egg"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Tamaulipas Margarita",
+    "implied": [],
+    "literal": [
+      "agave",
+      "lime",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Long Island Limoncello Martini",
+    "implied": [
+      "vodka"
+    ],
+    "literal": [
+      "citron_vodka",
+      "lemon",
+      "limoncello"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Chad Philips",
+    "drink": "Endless Summer",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "maraschino"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jacyara de Oliveira",
+    "drink": "Yes, Queen!",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "honey"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "John deBarry",
+    "drink": "Northern Hemisphere (Nikka 12 Edition)",
+    "implied": [
+      "pomegranate"
+    ],
+    "literal": [
+      "grenadine",
+      "lemon",
+      "pineapple",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Italian Riviera Mojito",
+    "implied": [],
+    "literal": [
+      "lime",
+      "mint",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Eric Quilty",
+    "drink": "On the Fritz",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "gin",
+      "ginger_ale",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Enrique Sanchez",
+    "drink": "Bajo Control",
+    "implied": [],
+    "literal": [
+      "agave",
+      "dry_vermouth",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Keli Rivers",
+    "drink": "Cock-tail",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "drambuie",
+      "gin",
+      "ginger",
+      "sugar_syrup"
+    ],
+    "muted": [
+      "honey"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Stuart McCloskey",
+    "drink": "Tea Party Cocktail",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jessica Maria",
+    "drink": "Delicious in Mauritius",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "ginger_ale",
+      "lemon",
+      "peach",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Gina Scheurte",
+    "drink": "Oaxacan Martini",
+    "implied": [],
+    "literal": [
+      "lime",
+      "mezcal",
+      "olive"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Geaux Geaux Cup",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "gin",
+      "ginger_ale",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Creole Cobbler",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "orange_bitters"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "7th Heaven",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "gin",
+      "grapefruit",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Amaretto Sourball",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "orange",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jonathan Pogash",
+    "drink": "Santa Patricia",
+    "implied": [],
+    "literal": [
+      "grapefruit",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Banana's Froster",
+    "implied": [],
+    "literal": [
+      "cream",
+      "gin"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "P.T. Barnum Cocktail",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "gin",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "No.3 Bramble",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "gin",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kate Bolton",
+    "drink": "Tahitian Fix",
+    "implied": [],
+    "literal": [
+      "agave",
+      "lemon",
+      "pisco",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Enrique Sanchez",
+    "drink": "Pisco Punch (Adaptation by The Commissary)",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "pisco"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Dave Guest",
+    "drink": "The King Merlet Sidecar",
+    "implied": [],
+    "literal": [
+      "apple",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Dave Guest",
+    "drink": "3AM",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lime"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Apricot Lady",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "lime",
+      "triple_sec",
+      "white_rum"
+    ],
+    "muted": [
+      "orange"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Essence No.5 (Adapted)",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lime",
+      "raspberry"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Last Word",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "gin",
+      "green_chartreuse",
+      "lime",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "White Lady (Classic) (Adapted)",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "gin",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Toasted Drop",
+    "implied": [
+      "lemon",
+      "vodka"
+    ],
+    "literal": [
+      "citron_vodka",
+      "egg_white",
+      "limoncello"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The Windtalker",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "egg_white",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Arapa Cocktail",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "pisco"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Kay Pacha Mi Pacha",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "gin",
+      "lemon",
+      "maraschino",
+      "orange_bitters",
+      "pisco"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Creole Summer",
+    "implied": [
+      "lemon"
+    ],
+    "literal": [
+      "egg_white",
+      "limoncello",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Pontchartrain Punch",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lime"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Carlos Yturria",
+    "drink": "Junipero Jolly",
+    "implied": [],
+    "literal": [
+      "gin",
+      "honey",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "BC Hoffman",
+    "drink": "Mayan Mule",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "gin",
+      "ginger_ale",
+      "grapefruit",
+      "lime",
+      "mezcal"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sergio Leanza",
+    "drink": "Assemble Mule",
+    "implied": [],
+    "literal": [
+      "agave",
+      "lime",
+      "mezcal",
+      "mint",
+      "scotch",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Joaquin Simo",
+    "drink": "Solera Sidecar",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "sugar_syrup",
+      "triple_sec"
+    ],
+    "muted": [
+      "orange"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Flamenco",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "lemon",
+      "orange",
+      "orgeat",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kevin Diedrich",
+    "drink": "Orchard Malt Mule",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "ginger_ale",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Chelsea Little",
+    "drink": "#106 Cocktail",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kevin Diedrich",
+    "drink": "Figge bout it",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "lemon",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Gabriele Modica",
+    "drink": "10 to 7",
+    "implied": [
+      "cherry",
+      "elderflower"
+    ],
+    "literal": [
+      "gin",
+      "lemon",
+      "maraschino",
+      "st_germain"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brian Floyd",
+    "drink": "Frankie and Johnnie",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "orange"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sam Treadway",
+    "drink": "Flight to Peru",
+    "implied": [],
+    "literal": [
+      "grapefruit",
+      "maraschino",
+      "pisco",
+      "sugar_syrup"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Duane Fernandez",
+    "drink": "Floral Summer",
+    "implied": [],
+    "literal": [
+      "gin",
+      "honey"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Daisy Mae",
+    "implied": [],
+    "literal": [
+      "gin",
+      "green_chartreuse",
+      "lime",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Paul Taylor",
+    "drink": "Neko Colada",
+    "implied": [],
+    "literal": [
+      "lime",
+      "orange"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brian Miller",
+    "drink": "Opaka Raka",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lime",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Johel Huaman Barbosa & Christian Hurtado",
+    "drink": "Chingerito",
+    "implied": [],
+    "literal": [
+      "grape",
+      "lime",
+      "pisco",
+      "pomegranate"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kevin Diedrich",
+    "drink": "Tokyo Tea",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "milk"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Morgan Schick",
+    "drink": "Knockemdown Key",
+    "implied": [],
+    "literal": [
+      "lime",
+      "maraschino",
+      "sugar_syrup",
+      "white_rum"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Andy Warhol",
+    "implied": [],
+    "literal": [
+      "gin",
+      "grapefruit",
+      "soda_water",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Tricia Alley",
+    "drink": "Ginger Drop",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sean Gleason",
+    "drink": "Pants off Dance off",
+    "implied": [
+      "pomegranate"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "gin",
+      "grenadine",
+      "lime"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Gin n' Celery",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "salt",
+      "tonic_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Paul Taylor",
+    "drink": "“Prepare for Destiny! Where’s my Pizza?”",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lime",
+      "maraschino"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Paul Taylor",
+    "drink": "Eat, Drink and Be Cherry",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "cherry_liqueur",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Tiki Dave",
+    "drink": "Bird to Buck",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "benedictine",
+      "lime",
+      "orgeat",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Lainey Collum",
+    "drink": "Palermo Breeze",
+    "implied": [],
+    "literal": [
+      "lime",
+      "passionfruit"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Nola '75",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Aviation (Adapted)",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "gin",
+      "lemon",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Vesper's Sister",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin",
+      "st_germain",
+      "vodka"
+    ],
+    "muted": [
+      "elderflower"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "John Davis",
+    "drink": "The French Connection",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Pistachio Follies",
+    "implied": [],
+    "literal": [
+      "cream",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Smoke On The Dock",
+    "implied": [],
+    "literal": [
+      "mezcal",
+      "pomegranate"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Abano Sour",
+    "implied": [],
+    "literal": [
+      "agave",
+      "egg_white",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Singapore Sling (1915 Recipe)",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "cherry_liqueur",
+      "gin",
+      "lime",
+      "pineapple"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Windtalker",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "egg_white",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Del Prado",
+    "drink": "Cherry Orchard",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "cherry_liqueur",
+      "grapefruit",
+      "lemon",
+      "maraschino",
+      "peychauds_bitters",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Tropical Bronzer",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Padova Collins",
+    "implied": [
+      "lemon"
+    ],
+    "literal": [
+      "limoncello",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Black Jam",
+    "implied": [],
+    "literal": [
+      "honey",
+      "lemon",
+      "tonic_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Lynnette Marrero",
+    "drink": "Americana Fizz (Layered Cocktail)",
+    "implied": [],
+    "literal": [
+      "gin",
+      "grapefruit",
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Dutch Stories",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "maraschino"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jennifer Costello, Charles Lintott, Sarah Holmes",
+    "drink": "Strike No.3",
+    "implied": [
+      "almond",
+      "elderflower"
+    ],
+    "literal": [
+      "gin",
+      "lemon",
+      "orgeat",
+      "st_germain"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Douglas Ford",
+    "drink": "Final Ward",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "green_chartreuse",
+      "lemon",
+      "maraschino",
+      "rye_whiskey"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Douglas Ford",
+    "drink": "Dernier Mot",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "green_chartreuse",
+      "lime",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Douglas Ford",
+    "drink": "The Asterisk",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "brandy",
+      "green_chartreuse",
+      "lemon",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Morgan Schick",
+    "drink": "Phineas Flip",
+    "implied": [
+      "egg_white",
+      "egg_yolk"
+    ],
+    "literal": [
+      "white_rum",
+      "whole_egg"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Luxardo Sling",
+    "implied": [],
+    "literal": [
+      "cherry_liqueur",
+      "gin",
+      "grapefruit",
+      "soda_water"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "drink": "White Lady",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "gin",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Blue 88",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "maraschino"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Cherries St. James",
+    "implied": [],
+    "literal": [
+      "cherry_liqueur",
+      "gin",
+      "lemon",
+      "maraschino"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "James Martin",
+    "drink": "Bachelor's Bait",
+    "implied": [
+      "pomegranate"
+    ],
+    "literal": [
+      "egg_white",
+      "gin",
+      "grenadine",
+      "orange_bitters"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jillian Vose",
+    "drink": "Boomin' Granny",
+    "implied": [],
+    "literal": [
+      "apple",
+      "honey",
+      "lime",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sam Treadway",
+    "drink": "Basilway Daquiri",
+    "implied": [],
+    "literal": [
+      "lime",
+      "maraschino",
+      "white_rum"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The Pink Pussycat",
+    "implied": [],
+    "literal": [
+      "cream",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Ryan Hall",
+    "drink": "Double Trouble",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "peychauds_bitters",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Morgan Schick",
+    "drink": "Yawkey Way",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "orange_bitters",
+      "strawberry"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Cream of the Crop",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "mezcal"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Hemingway Daiquiri",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "grapefruit",
+      "lime",
+      "maraschino",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Amaretto Sour (Modern)",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Amaretto Sour",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jason Westplate",
+    "drink": "Red Letters",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "absinthe",
+      "lime",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jason Littrell",
+    "drink": "Almond Brother",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "lime",
+      "orgeat",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "French 33",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lime",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "20th Century",
+    "implied": [],
+    "literal": [
+      "creme_de_cacao",
+      "gin",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Vesper",
+    "implied": [],
+    "literal": [
+      "gin",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The Seniorita",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "coconut",
+      "lime",
+      "orange",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Rafael Jimenez Rivera",
+    "drink": "Champs Élysées",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "green_chartreuse",
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jeff Bell",
+    "drink": "The Double Crown",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "honey",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kate Grutman",
+    "drink": "Flip the Bird",
+    "implied": [],
+    "literal": [
+      "cream",
+      "egg_yolk",
+      "sugar_syrup",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Mauritius Sour",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "bourbon",
+      "lemon",
+      "sugar_syrup",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Carlo Splendorini",
+    "drink": "I'm Only Happy when it Rains",
+    "implied": [],
+    "literal": [
+      "cherry_liqueur",
+      "lemon",
+      "rye_whiskey"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Karri Cormican",
+    "drink": "Hippi Hill",
+    "implied": [],
+    "literal": [
+      "cranberry",
+      "lime",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Ryan Fitzgerald",
+    "drink": "Buster Crusta",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "lemon",
+      "maraschino",
+      "orange"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kelly O'Hare",
+    "drink": "Bird On",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "lime"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Iron Tonic",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "lime",
+      "maraschino",
+      "tonic_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jackie Goldstein",
+    "drink": "Where's the Orgeat?",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "lemon",
+      "orgeat"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Fortune & Glory",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "lime",
+      "orgeat",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Pisco Punch (Adaptation by The Comstock Saloon)",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "pisco"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Cupid's Carrier Pigeon",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "apple",
+      "gin",
+      "lime",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Nicole Hassoun",
+    "drink": "The Fall 75",
+    "implied": [],
+    "literal": [
+      "gin",
+      "honey",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Kentucky Mai Tai",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "bourbon",
+      "lemon",
+      "mezcal",
+      "orgeat"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Zachary Pearson",
+    "drink": "Drink Lab #16",
+    "implied": [
+      "almond",
+      "cherry"
+    ],
+    "literal": [
+      "brandy",
+      "cherry_liqueur",
+      "lemon",
+      "orgeat"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jason Westplate",
+    "drink": "Grey Anchor",
+    "implied": [
+      "elderflower"
+    ],
+    "literal": [
+      "lime",
+      "maraschino",
+      "st_germain",
+      "vodka"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The Red Anchor",
+    "implied": [],
+    "literal": [
+      "gin",
+      "grapefruit",
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jason Patz",
+    "drink": "Holland House",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "dry_vermouth",
+      "lemon",
+      "maraschino",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Nate Matson",
+    "drink": "Last Samurai",
+    "implied": [
+      "cherry",
+      "orange"
+    ],
+    "literal": [
+      "cointreau",
+      "gin",
+      "maraschino",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brandon Weiss",
+    "drink": "Long Division",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "aperol",
+      "lime",
+      "maraschino",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kevin Diedrich",
+    "drink": "Spiced Marmalade",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "orange",
+      "orange_bitters",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kevin Diedrich",
+    "drink": "Mezcal Witch",
+    "implied": [],
+    "literal": [
+      "lime",
+      "mezcal",
+      "mint",
+      "salt",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Italian Margarita",
+    "implied": [],
+    "literal": [
+      "lime",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brian Means",
+    "drink": "A Bloody Shame",
+    "implied": [],
+    "literal": [
+      "lime",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Julian Cox",
+    "drink": "Donaji",
+    "implied": [],
+    "literal": [
+      "agave",
+      "lemon",
+      "lime",
+      "mezcal"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Monkey Gland",
+    "implied": [
+      "pomegranate"
+    ],
+    "literal": [
+      "gin",
+      "grenadine",
+      "orange"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sarah Ruiz",
+    "drink": "Just Beet It",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "gin",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Matt Orth",
+    "drink": "Nectar of the Amazon",
+    "implied": [],
+    "literal": [
+      "milk",
+      "passionfruit"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Lisa Brier",
+    "drink": "Thyme for Bed",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "cherry_liqueur",
+      "lime",
+      "sugar_syrup",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Leo Robitschek",
+    "drink": "Mott and Mulberry",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kate Grutman",
+    "drink": "Carrier Pigeon (an Airmail with Pink Pigeon)",
+    "implied": [],
+    "literal": [
+      "honey",
+      "lime",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The King's Mulled Wine",
+    "implied": [],
+    "literal": [
+      "cinnamon",
+      "lemon",
+      "nutmeg",
+      "orange",
+      "red_wine",
+      "star_anise"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Andrew Kalini",
+    "drink": "Tea & Sympathy",
+    "implied": [],
+    "literal": [
+      "cachaca",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kate Grutman",
+    "drink": "Huntsman",
+    "implied": [],
+    "literal": [
+      "brown_sugar",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Josh Bearden",
+    "drink": "The Callas Cocktail",
+    "implied": [],
+    "literal": [
+      "gin",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Mauritian Buck",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "absinthe",
+      "apple",
+      "ginger_ale",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The Cavalier White Lady",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "gin",
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Michael Blum",
+    "drink": "Winter Season",
+    "implied": [
+      "almond",
+      "orange"
+    ],
+    "literal": [
+      "blue_curacao",
+      "gin",
+      "lemon",
+      "maraschino",
+      "orgeat"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Green and Gold",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Coly Den",
+    "drink": "El Mustavo",
+    "implied": [],
+    "literal": [
+      "campari",
+      "mezcal",
+      "orange_bitters"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Nandini Khaund",
+    "drink": "Temple of the Moon",
+    "implied": [],
+    "literal": [
+      "absinthe",
+      "gin",
+      "pisco",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Toby Cecchini",
+    "drink": "Espèce de Sazerac",
+    "implied": [],
+    "literal": [
+      "peychauds_bitters",
+      "rye_whiskey",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Kanazawa",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "dry_vermouth",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Frisco San",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "benedictine"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Phil Ward",
+    "drink": "Sidewinder",
+    "implied": [
+      "apple"
+    ],
+    "literal": [
+      "benedictine",
+      "calvados",
+      "green_chartreuse",
+      "peychauds_bitters"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brian Miller",
+    "drink": "Conference",
+    "implied": [
+      "apple"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "bourbon",
+      "calvados",
+      "rye_whiskey"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Improved Whisky Cocktail",
+    "implied": [],
+    "literal": [
+      "anisette",
+      "maraschino"
+    ],
+    "muted": [
+      "anise",
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Eric Quilty",
+    "drink": "Day For Night",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Josh Trabulsi",
+    "drink": "Cherry Bark Martinez",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "gin",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brian Means",
+    "drink": "Polish Penance",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "peychauds_bitters"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "50/50 Split",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin",
+      "orange_bitters"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brian Means",
+    "drink": "Mayahuel's Revenge",
+    "implied": [],
+    "literal": [
+      "sweet_vermouth",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Alaska Cocktail",
+    "implied": [],
+    "literal": [
+      "gin",
+      "green_chartreuse",
+      "orange_bitters"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Bushido Cocktail",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "Peruvian Wish (Adapted)",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "maraschino",
+      "pisco"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "The Awen",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "irish_whiskey",
+      "maraschino",
+      "orange_bitters"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kate Grutman",
+    "drink": "Bird on a Wire",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "maraschino",
+      "peychauds_bitters",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jacques",
+    "drink": "Kind of Fancy",
+    "implied": [],
+    "literal": [
+      "green_chartreuse",
+      "port"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Ryan Chetiyawardana",
+    "drink": "The Pink Aperitivo",
+    "implied": [],
+    "literal": [
+      "peychauds_bitters",
+      "sweet_vermouth",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Astoria",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin",
+      "orange_bitters"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Cherry Champagne Cocktail",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "maraschino",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Ian Scalzo",
+    "drink": "The Chief",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "gin"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Francesco Lafranconi",
+    "drink": "The Lady Whisper",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "cherry_liqueur",
+      "rye_whiskey",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Thad Vogler",
+    "drink": "Improved Calvados Cocktail",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "benedictine",
+      "green_chartreuse"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brian Means",
+    "drink": "Dirt Nap",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Cherry Blossom Martini",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "maraschino",
+      "vodka"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jim Meehan",
+    "drink": "Pineapple Express",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brian Means",
+    "drink": "Iron Fist in a Velvet Glove",
+    "implied": [],
+    "literal": [
+      "cachaca",
+      "pisco"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Ryan Lotz",
+    "drink": "The Fritz",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "gin",
+      "maraschino",
+      "peychauds_bitters"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Douglas Ford",
+    "drink": "The Silver Cocktail",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin",
+      "maraschino",
+      "orange_bitters"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Obituary Cocktail",
+    "implied": [],
+    "literal": [
+      "absinthe",
+      "dry_vermouth",
+      "gin"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Bourbon Crusta",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "bourbon",
+      "lemon",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "International Mistress",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "lemon",
+      "mezcal",
+      "orgeat",
+      "soda_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Scotch Joplin",
+    "implied": [],
+    "literal": [
+      "orange",
+      "orange_bitters"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Virgil St.",
+    "implied": [],
+    "literal": [
+      "gin",
+      "mezcal"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The Hollinger Manhattan",
+    "implied": [],
+    "literal": [
+      "maraschino",
+      "sweet_vermouth"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "drink": "The Claridge",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "cointreau",
+      "dry_vermouth",
+      "gin"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Venetian",
+    "implied": [],
+    "literal": [
+      "campari",
+      "dry_vermouth"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brandon Wise",
+    "drink": "The Professor",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "dry_vermouth"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Doctor's Orders",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kevin Diedrich",
+    "drink": "Creole",
+    "implied": [],
+    "literal": [
+      "orange_bitters",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Morgan Schick",
+    "drink": "Swedish Nightingale",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "gin",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kate Grutman",
+    "drink": "Pink Mojito",
+    "implied": [],
+    "literal": [
+      "cranberry",
+      "lime",
+      "mint",
+      "soda_water",
+      "sugar_syrup",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sean McClure",
+    "drink": "Karlsson's Winter Punch",
+    "implied": [],
+    "literal": [
+      "aperol",
+      "clove",
+      "cranberry",
+      "orange",
+      "pomegranate",
+      "star_anise",
+      "sugar_syrup",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Alex Smith",
+    "drink": "The Boys of Summer Cup",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "orange",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Johel Huaman Barbosa & Christian Hurtado",
+    "drink": "Brisa del Sur",
+    "implied": [],
+    "literal": [
+      "lime",
+      "pisco",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Vieja Moda",
+    "implied": [],
+    "literal": [
+      "grapefruit",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Flambeed Brandy Alexander",
+    "implied": [],
+    "literal": [
+      "cream",
+      "creme_de_cacao"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sean McClure",
+    "drink": "PB&K Old Fashioned",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "benedictine",
+      "brandy",
+      "peychauds_bitters",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Lucia Stucki",
+    "drink": "Fiery Clydesdale",
+    "implied": [],
+    "literal": [
+      "lime",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Mister Gingy",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Hung Nguyen",
+    "drink": "Negroni Sorbetto",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Sean McClure",
+    "drink": "Bloody Swede",
+    "implied": [],
+    "literal": [
+      "black_pepper",
+      "lemon",
+      "olive",
+      "tomato",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kate Grutman",
+    "drink": "Ju-Ju Hurricane",
+    "implied": [
+      "blackcurrant"
+    ],
+    "literal": [
+      "creme_de_cassis",
+      "gin",
+      "grapefruit",
+      "pineapple",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kate Grutman",
+    "drink": "Bay Shandy",
+    "implied": [],
+    "literal": [
+      "orange",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Ann Maynard",
+    "drink": "II Piacere",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "cherry_liqueur",
+      "egg_white",
+      "lemon",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Naomi Levy",
+    "drink": "True Dish",
+    "implied": [
+      "egg_white",
+      "egg_yolk"
+    ],
+    "literal": [
+      "gin",
+      "honey",
+      "limoncello",
+      "whole_egg"
+    ],
+    "muted": [
+      "lemon"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Liz Pearce",
+    "drink": "The Fifth Star",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brittini Rae",
+    "drink": "California Aurora",
+    "implied": [],
+    "literal": [
+      "honey",
+      "lemon",
+      "sage"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "KJ Williams",
+    "drink": "Plum Loco",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "gin",
+      "grapefruit",
+      "limoncello"
+    ],
+    "muted": [
+      "lemon"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Michael Jack Pazdon",
+    "drink": "Port's North Fogcutter Cup",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "gin",
+      "lemon",
+      "orgeat",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Reza Esmaili",
+    "drink": "The Shah's Shandy",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Elderfashion",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "bourbon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Michael Parish",
+    "drink": "Lychee & 3",
+    "implied": [],
+    "literal": [
+      "basil",
+      "dry_vermouth",
+      "gin",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Mauritian Sunrise",
+    "implied": [],
+    "literal": [
+      "orange",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "My Spicy Valentine",
+    "implied": [],
+    "literal": [
+      "creme_de_cacao",
+      "milk",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Five Star Cocktail",
+    "implied": [],
+    "literal": [
+      "grapefruit",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Nick Meyer",
+    "drink": "Motel Nacional",
+    "implied": [],
+    "literal": [
+      "lime",
+      "pineapple",
+      "soda_water",
+      "sugar_syrup",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kevin Diedrich",
+    "drink": "Southside Fizz",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lime",
+      "mint",
+      "soda_water",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kevin Diedrich",
+    "drink": "Champagne Sidecar",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "sparkling_wine",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kevin Diedrich",
+    "drink": "Pisco Sling",
+    "implied": [
+      "cherry",
+      "pomegranate"
+    ],
+    "literal": [
+      "benedictine",
+      "cherry_liqueur",
+      "grenadine",
+      "lime",
+      "pineapple",
+      "pisco"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kevin Diedrich",
+    "drink": "T&T",
+    "implied": [],
+    "literal": [
+      "tequila",
+      "tonic_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Scottish Fruit Tart",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "cherry_liqueur",
+      "orange",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Morgan Schick",
+    "drink": "The Greatest Punch on Earth",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "orange_bitters",
+      "pisco",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "3 & Tree Tonic",
+    "implied": [],
+    "literal": [
+      "gin",
+      "tonic_water"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Kevin Diedrich",
+    "drink": "Kerouac",
+    "implied": [],
+    "literal": [
+      "grapefruit",
+      "lime",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Margarita",
+    "implied": [],
+    "literal": [
+      "lime",
+      "mezcal"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "drink": "Paloma",
+    "implied": [],
+    "literal": [
+      "lime",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Enrique Sanchez",
+    "drink": "Margarita Ahumeada",
+    "implied": [],
+    "literal": [
+      "agave",
+      "lime",
+      "mezcal"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Brandon Bigalke",
+    "drink": "An Oaxacan Christmas",
+    "implied": [],
+    "literal": [
+      "campari",
+      "green_chartreuse",
+      "mezcal",
+      "orange_bitters"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Ashley Wacker",
+    "drink": "Im(pear)ed Fashioned",
+    "implied": [],
+    "literal": [
+      "brandy",
+      "lemon",
+      "pisco"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Ashley Rose Conway",
+    "drink": "Spring Fling Sipper",
+    "implied": [],
+    "literal": [
+      "gin",
+      "grapefruit",
+      "lemon",
+      "soda_water",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Theo Sabatini",
+    "drink": "Potrero Hill",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "brandy",
+      "gin",
+      "ginger_ale",
+      "grapefruit",
+      "lemon",
+      "sugar_syrup",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Revae Schneider",
+    "drink": "No3",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "strawberry",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jarred Weigand",
+    "drink": "Match Grip Julep",
+    "implied": [],
+    "literal": [
+      "demerara",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jacyara de Oliveira",
+    "drink": "The Dry Cruise",
+    "implied": [],
+    "literal": [
+      "honey",
+      "lemon",
+      "sherry",
+      "sparkling_wine",
+      "st_germain"
+    ],
+    "muted": [
+      "elderflower"
+    ],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Patrick Halloran",
+    "drink": "Red Hook",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "maraschino",
+      "rye_whiskey"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
+    "creator": "Jason Patz",
+    "drink": "Union Jack",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "green_chartreuse",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "hotaling"
   }
 ]
