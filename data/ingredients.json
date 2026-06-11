@@ -1603,5 +1603,23 @@
     "season": null,
     "notes": "Baie rose (Schinus) — terpene-rich, not true pepper; bridges citrus and gin botanicals. TODO: verify",
     "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "maple_syrup",
+    "display_name": "Maple syrup",
+    "type": "raw",
+    "role": "sweet",
+    "compounds": [
+      "sotolon"
+    ],
+    "descriptors": [
+      "maple",
+      "caramel",
+      "sweet"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Sotolon is the signature maple/fenugreek note. TODO: verify",
+    "source": "Provisional entry; see notes."
   }
 ]

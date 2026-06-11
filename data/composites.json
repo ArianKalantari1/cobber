@@ -1105,5 +1105,131 @@
     "flavor_forward": [
       "anise"
     ]
+  },
+  {
+    "id": "cynar",
+    "display_name": "Cynar",
+    "type": "composite",
+    "role": "bitter",
+    "botanicals": [
+      "gentian"
+    ],
+    "descriptors": [
+      "bitter",
+      "vegetal",
+      "caramel"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Artichoke amaro; artichoke not yet a raw ingredient, botanical bill is a placeholder. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "fernet",
+    "display_name": "Fernet",
+    "type": "composite",
+    "role": "bitter",
+    "botanicals": [
+      "mint",
+      "gentian"
+    ],
+    "descriptors": [
+      "bitter",
+      "menthol",
+      "medicinal"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "averna",
+    "display_name": "Amaro Averna",
+    "type": "composite",
+    "role": "bitter",
+    "botanicals": [
+      "bitter_orange_peel",
+      "gentian",
+      "vanilla"
+    ],
+    "descriptors": [
+      "bitter",
+      "citrus",
+      "caramel"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "falernum",
+    "display_name": "Falernum",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "lime",
+      "clove",
+      "almond",
+      "ginger"
+    ],
+    "descriptors": [
+      "spiced",
+      "lime",
+      "almond"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Flavour-dense tiki syrup; always implies its components. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "lime",
+      "clove",
+      "almond",
+      "ginger"
+    ],
+    "imply_min_oz": 0.0
+  },
+  {
+    "id": "ginger_liqueur",
+    "display_name": "Ginger liqueur",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "ginger"
+    ],
+    "descriptors": [
+      "ginger",
+      "sweet"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "ginger"
+    ]
+  },
+  {
+    "id": "allspice_dram",
+    "display_name": "Allspice dram",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "allspice"
+    ],
+    "descriptors": [
+      "spiced",
+      "warm"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Flavour-dense pimento liqueur; always implies. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "allspice"
+    ],
+    "imply_min_oz": 0.0
   }
 ]

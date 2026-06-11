@@ -6,10 +6,15 @@ first for the project's thinking; this file is "where we are and what's next".*
 
 ## Status snapshot
 
-- **Corpus:** 1,202 normalized recipes — 75 IBA official + 858 Mr. Boston +
-  269 TheCocktailDB (cross-corpus duplicates deduped; IBA recipe wins, then
-  Mr. Boston, then TheCocktailDB).
-- **Pairs:** 1,672 scored pairs in `data/tradition.json`.
+- **Canon corpus:** 4,582 recipes — Difford's 3,539 + Mr. Boston 733 +
+  TheCocktailDB 231 + IBA 75 + hand-curated 4 (dedupe priority:
+  craft > IBA > Difford's > Mr. Boston > TheCocktailDB).
+- **Frontier corpus:** ~5,900 craft drinks (Kindred 5,310 + Hotaling 589) →
+  3,304 attributed pairs in `data/frontier_evidence.json` (NOT in tradition).
+- **Pairs:** 2,532 scored pairs in `data/tradition.json` (627 solid).
+- Difford's + Kindred come from the cocktailApp CRAN package (LGPL-3,
+  scraped 2017-18 by its author who disclaims copyright; we mirror it as a
+  published research dataset — provenance noted in fetch_cocktailapp.py).
 - **Tests:** 12 passing (`python -m pytest tests/ -q`).
 - **Flavour families:** 22 diagnostic clusters in `data/flavor_communities.json`
   that read like a bar menu (daiquiri/mojito family, martini family,

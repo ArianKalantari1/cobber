@@ -47,6 +47,7 @@ python3 scripts/fetch_recipes.py      # TheCocktailDB -> data/raw/thecocktaildb.
 python3 scripts/fetch_iba.py          # IBA official  -> data/raw/iba.json
 python3 scripts/fetch_boston.py       # Mr. Boston    -> data/raw/boston_cocktails.csv
 python3 scripts/fetch_hotaling.py     # Hotaling craft -> data/raw/hotaling_cocktails.csv (frontier)
+python3 scripts/fetch_cocktailapp.py  # Difford's+Kindred (cocktailApp/CRAN) -> data/raw/cocktailapp_recipes.json
 python3 scripts/normalize.py          # -> recipes_normalized/components, aliases, unmatched
 python3 scripts/compute_npmi.py       # -> tradition_npmi.json
 python3 scripts/write_tradition.py    # -> tradition.json
@@ -54,7 +55,8 @@ python3 scripts/flavor_communities.py # -> flavor_communities.json (diagnostic)
 python3 scripts/render_graph.py       # -> flavor_graph.html (interactive picture)
 ```
 
-Cross-corpus dedupe priority: IBA > Mr. Boston > TheCocktailDB.
+Canon dedupe priority: hand-curated craft > IBA > Difford's > Mr. Boston > TheCocktailDB.
+Frontier corpora (Hotaling, Kindred) feed data/frontier_evidence.json, not tradition.
 
 ## Working notes
 

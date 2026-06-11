@@ -4,25 +4,39 @@
     "size": 8,
     "members": [
       "lime",
+      "orange",
       "white_rum",
+      "pineapple",
+      "pomegranate",
+      "grenadine",
       "tequila",
-      "grapefruit",
-      "sparkling_wine",
-      "campari",
-      "agave",
-      "passionfruit"
+      "agave"
     ]
   },
   {
-    "head": "cherry",
+    "head": "sugar_syrup",
+    "size": 8,
+    "members": [
+      "sugar_syrup",
+      "lemon",
+      "egg_white",
+      "soda_water",
+      "egg_yolk",
+      "whole_egg",
+      "port",
+      "nutmeg"
+    ]
+  },
+  {
+    "head": "cream",
     "size": 6,
     "members": [
-      "cherry",
-      "green_chartreuse",
-      "rye_whiskey",
-      "aperol",
-      "mezcal",
-      "st_germain"
+      "cream",
+      "coffee",
+      "coffee_liqueur",
+      "milk",
+      "irish_cream",
+      "sambuca"
     ]
   },
   {
@@ -30,23 +44,11 @@
     "size": 6,
     "members": [
       "gin",
-      "sweet_vermouth",
       "dry_vermouth",
-      "apricot_brandy",
+      "orange_bitters",
       "apricot",
-      "calvados"
-    ]
-  },
-  {
-    "head": "lemon",
-    "size": 6,
-    "members": [
-      "lemon",
-      "sugar_syrup",
-      "egg_white",
-      "egg_yolk",
-      "whole_egg",
-      "port"
+      "sherry",
+      "lime_vodka"
     ]
   },
   {
@@ -55,32 +57,42 @@
     "members": [
       "vodka",
       "cranberry",
-      "peach",
-      "blue_curacao",
-      "cola",
-      "peach_schnapps"
+      "sparkling_wine",
+      "creme_de_cacao",
+      "raspberry_liqueur",
+      "raspberry"
+    ]
+  },
+  {
+    "head": "cherry",
+    "size": 5,
+    "members": [
+      "cherry",
+      "maraschino",
+      "grapefruit",
+      "green_chartreuse",
+      "irish_whiskey"
+    ]
+  },
+  {
+    "head": "cherry_liqueur",
+    "size": 5,
+    "members": [
+      "cherry_liqueur",
+      "fernet",
+      "rye_whiskey",
+      "mezcal",
+      "aperol"
     ]
   },
   {
     "head": "angostura_bitters",
-    "size": 5,
+    "size": 4,
     "members": [
       "angostura_bitters",
-      "dark_rum",
-      "black_pepper",
-      "elderflower",
-      "pisco"
-    ]
-  },
-  {
-    "head": "maraschino",
-    "size": 5,
-    "members": [
-      "maraschino",
-      "orange_bitters",
-      "scotch",
-      "honey",
-      "irish_whiskey"
+      "bourbon",
+      "calvados",
+      "maple_syrup"
     ]
   },
   {
@@ -88,130 +100,142 @@
     "size": 4,
     "members": [
       "apple",
-      "soda_water",
-      "orgeat",
-      "strawberry"
-    ]
-  },
-  {
-    "head": "coconut",
-    "size": 4,
-    "members": [
-      "coconut",
-      "coconut_liqueur",
-      "raspberry_liqueur",
-      "cointreau"
-    ]
-  },
-  {
-    "head": "cream",
-    "size": 4,
-    "members": [
-      "cream",
-      "coffee",
-      "creme_de_cacao",
-      "creme_de_menthe"
-    ]
-  },
-  {
-    "head": "ginger",
-    "size": 4,
-    "members": [
-      "ginger",
-      "red_wine",
-      "cinnamon",
-      "clove"
-    ]
-  },
-  {
-    "head": "coffee_liqueur",
-    "size": 3,
-    "members": [
-      "coffee_liqueur",
-      "irish_cream",
-      "sambuca"
-    ]
-  },
-  {
-    "head": "pomegranate",
-    "size": 3,
-    "members": [
-      "pomegranate",
-      "grenadine",
-      "pineapple"
-    ]
-  },
-  {
-    "head": "triple_sec",
-    "size": 3,
-    "members": [
-      "triple_sec",
-      "citron_vodka",
-      "limoncello"
-    ]
-  },
-  {
-    "head": "absinthe",
-    "size": 2,
-    "members": [
-      "absinthe",
-      "peychauds_bitters"
-    ]
-  },
-  {
-    "head": "anise",
-    "size": 2,
-    "members": [
-      "anise",
-      "vanilla"
-    ]
-  },
-  {
-    "head": "bourbon",
-    "size": 2,
-    "members": [
-      "bourbon",
-      "benedictine"
+      "elderflower",
+      "passionfruit",
+      "brown_sugar"
     ]
   },
   {
     "head": "brandy",
-    "size": 2,
+    "size": 4,
     "members": [
       "brandy",
-      "anisette"
+      "absinthe",
+      "benedictine",
+      "peychauds_bitters"
     ]
   },
   {
-    "head": "milk",
-    "size": 2,
+    "head": "peach",
+    "size": 4,
     "members": [
-      "milk",
-      "nutmeg"
+      "peach",
+      "peach_schnapps",
+      "blue_curacao",
+      "rosemary"
+    ]
+  },
+  {
+    "head": "almond",
+    "size": 3,
+    "members": [
+      "almond",
+      "ginger",
+      "clove"
+    ]
+  },
+  {
+    "head": "anise",
+    "size": 3,
+    "members": [
+      "anise",
+      "creme_de_menthe",
+      "vanilla"
+    ]
+  },
+  {
+    "head": "citron_vodka",
+    "size": 3,
+    "members": [
+      "citron_vodka",
+      "galliano",
+      "limoncello"
+    ]
+  },
+  {
+    "head": "coconut",
+    "size": 3,
+    "members": [
+      "coconut",
+      "coconut_liqueur",
+      "cointreau"
+    ]
+  },
+  {
+    "head": "orgeat",
+    "size": 3,
+    "members": [
+      "orgeat",
+      "strawberry",
+      "pink_peppercorn"
+    ]
+  },
+  {
+    "head": "red_wine",
+    "size": 3,
+    "members": [
+      "red_wine",
+      "cinnamon",
+      "cardamom"
     ]
   },
   {
     "head": "salt",
-    "size": 2,
+    "size": 3,
     "members": [
       "salt",
+      "black_pepper",
       "tomato"
     ]
   },
   {
-    "head": "sherry",
-    "size": 2,
+    "head": "scotch",
+    "size": 3,
     "members": [
-      "sherry",
-      "lime_vodka"
+      "scotch",
+      "honey",
+      "drambuie"
     ]
   },
   {
-    "head": "tonic_water",
+    "head": "sweet_vermouth",
+    "size": 3,
+    "members": [
+      "sweet_vermouth",
+      "campari",
+      "cynar"
+    ]
+  },
+  {
+    "head": "cachaca",
     "size": 2,
     "members": [
-      "tonic_water",
-      "rosemary"
+      "cachaca",
+      "demerara"
+    ]
+  },
+  {
+    "head": "dark_rum",
+    "size": 2,
+    "members": [
+      "dark_rum",
+      "falernum"
+    ]
+  },
+  {
+    "head": "ginger_ale",
+    "size": 2,
+    "members": [
+      "ginger_ale",
+      "cola"
+    ]
+  },
+  {
+    "head": "st_germain",
+    "size": 2,
+    "members": [
+      "st_germain",
+      "tonic_water"
     ]
   }
 ]

@@ -38,6 +38,7 @@ IBA_RECIPES = ROOT / "data" / "raw" / "iba.json"
 BOSTON_RECIPES = ROOT / "data" / "raw" / "boston_cocktails.csv"
 CRAFT_RECIPES = ROOT / "data" / "raw" / "craft_recipes.json"
 HOTALING_RECIPES = ROOT / "data" / "raw" / "hotaling_cocktails.csv"
+COCKTAILAPP_RECIPES = ROOT / "data" / "raw" / "cocktailapp_recipes.json"
 INGREDIENTS_PATH = ROOT / "data" / "ingredients.json"
 COMPOSITES_PATH = ROOT / "data" / "composites.json"
 ALIASES_PATH = ROOT / "data" / "ingredient_aliases.json"
@@ -54,9 +55,11 @@ FRONTIER_PATH = ROOT / "data" / "frontier_evidence.json"
 SOURCE_CLASS = {
     "craft": "canon",
     "iba": "canon",
+    "diffords": "canon",
     "mrboston": "canon",
     "thecocktaildb": "canon",
     "hotaling": "frontier",
+    "kindred": "frontier",
 }
 
 # Below this pour (in oz), a composite is a modifier dose and its
@@ -455,6 +458,52 @@ def _iter_hotaling() -> list[dict]:
     return drinks
 
 
+def _iter_cocktailapp() -> list[dict]:
+    """Yield Difford's (canon) and Kindred (frontier) drinks.
+
+    From the cocktailApp dataset extract (see fetch_cocktailapp.py). Amounts
+    are already numeric: fl oz directly, dashes/pinches as splash volumes.
+    """
+    if not COCKTAILAPP_RECIPES.exists():
+        return []
+    payload = _load_json(COCKTAILAPP_RECIPES)
+    if not isinstance(payload, list):
+        raise ValueError("data/raw/cocktailapp_recipes.json must contain a JSON list.")
+    drinks = []
+    for drink in payload:
+        if not isinstance(drink, dict):
+            continue
+        items = []
+        for item in drink.get("ingredients", []):
+            name = str(item.get("name", "")).strip()
+            if not name:
+                continue
+            candidates = [name]
+            full_name = str(item.get("full_name", "")).strip()
+            if full_name and full_name.lower() != name.lower():
+                candidates.append(full_name)
+            amt = item.get("amt")
+            unit = item.get("unit")
+            volume = None
+            if isinstance(amt, (int, float)):
+                if unit == "fl oz":
+                    volume = float(amt)
+                elif unit in ("dash", "drop"):
+                    volume = float(amt) * 0.03
+                elif unit == "pinch":
+                    volume = float(amt) * 0.02
+                elif unit in ("teaspoon", "tsp", "bar spoon"):
+                    volume = float(amt) / 6
+            items.append((candidates, volume))
+        drinks.append({
+            "name": str(drink.get("name", "")),
+            "source": str(drink.get("source", "diffords")),
+            "creator": drink.get("attribution") or None,
+            "items": items,
+        })
+    return drinks
+
+
 def _dedupe_key(drink_name: str) -> str:
     return re.sub(r"[^a-z0-9]", "", drink_name.lower())
 
@@ -488,10 +537,15 @@ def normalize_recipes(
         return None
 
     # Priority order for cross-corpus duplicates: hand-curated recipes win,
-    # then the IBA official recipe, then Mr. Boston, then TheCocktailDB.
-    # Frontier corpora (Hotaling) are deduped only among themselves.
+    # then IBA official, then Difford's, then Mr. Boston, then TheCocktailDB.
+    # Frontier corpora (Hotaling, Kindred) are deduped only among themselves.
+    cocktailapp = _iter_cocktailapp()
+    diffords = [d for d in cocktailapp if d["source"] == "diffords"]
+    kindred = [d for d in cocktailapp if d["source"] == "kindred"]
     seen_names: set[str] = set()
-    for drink in [*_iter_craft(), *_iter_iba(), *_iter_boston(), *_iter_cocktaildb(), *_iter_hotaling()]:
+    frontier_seen: set[str] = set()
+    for drink in [*_iter_craft(), *_iter_iba(), *diffords, *_iter_boston(),
+                  *_iter_cocktaildb(), *_iter_hotaling(), *kindred]:
         corpus_class = SOURCE_CLASS.get(drink["source"], "canon")
         key = _dedupe_key(drink["name"])
         if corpus_class == "canon":
@@ -499,6 +553,11 @@ def normalize_recipes(
                 continue
             if key:
                 seen_names.add(key)
+        else:
+            if key and key in frontier_seen:
+                continue
+            if key:
+                frontier_seen.add(key)
 
         matched: dict[str, float | None] = {}
         for candidates, volume in drink["items"]:
