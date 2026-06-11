@@ -1,0 +1,237 @@
+51	sugar
+36	ice
+31	grenadine
+31	light rum
+28	water
+26	powdered sugar
+23	lemon peel
+23	milk
+19	kahlua
+19	rum
+19	soda water
+16	bailey irish cream
+15	151 proof rum
+14	bitter
+14	maraschino cherry
+13	cranberry
+13	scotch
+12	carbonated water
+12	coca cola
+12	ginger ale
+12	light cream
+10	salt
+10	vanilla extract
+9	orange peel
+9	red wine
+8	sambuca
+8	sweet and sour
+8	tonic water
+8	yoghurt
+7	blended whiskey
+7	champagne
+7	club soda
+7	egg
+7	peach schnapp
+6	beer
+6	blue curacao
+6	chambord raspberry liqueur
+6	creme de cacao
+6	galliano
+6	grand marnier
+6	lemonade
+5	7 up
+5	apricot brandy
+5	benedictine
+5	creme de cassis
+5	irish whiskey
+5	lemon lime soda
+5	malibu rum
+5	olive
+5	port
+5	prosecco
+5	whipped cream
+4	cherry brandy
+4	chocolate
+4	crown royal
+4	elderflower cordial
+4	goldschlager
+4	j germeister
+4	jack daniel
+4	midori melon liqueur
+4	sherry
+4	sour mix
+4	sprite
+4	tea
+4	wild turkey
+3	absinthe
+3	absolut citron
+3	anis
+3	bacardi limon
+3	blackberry brandy
+3	cachaca
+3	chocolate syrup
+3	cocoa powder
+3	coconut liqueur
+3	cognac
+3	condensed milk
+3	egg yolk
+3	espresso
+3	everclear
+3	frangelico
+3	fruit
+3	half and half
+3	heavy cream
+3	kiwi
+3	kool aid
+3	lager
+3	orange spiral
+3	orgeat syrup
+3	pepper
+3	root beer
+3	sloe gin
+3	southern comfort
+3	spiced rum
+3	tomato
+3	vanilla ice cream
+3	vermouth
+3	whiskey
+3	white creme de menthe
+3	wine
+2	apple brandy
+2	applejack
+2	banana
+2	banana liqueur
+2	blackberry
+2	brown sugar
+2	cherry heering
+2	chocolate liqueur
+2	corona
+2	creme de banane
+2	drambuie
+2	fruit punch
+2	ginger beer
+2	green creme de menthe
+2	hot damn
+2	irish cream
+2	jim beam
+2	lillet blanc
+2	lime peel
+2	orange curacao
+2	passoa
+2	peach bitter
+2	peach vodka
+2	pepsi cola
+2	pisco
+2	raspberry syrup
+2	ricard
+2	rosemary syrup
+2	schweppe russchian
+2	sherbet
+2	surge
+2	tabasco sauce
+2	whipping cream
+2	zima
+1	absolut kurant
+1	absolut peppar
+1	absolut vodka
+1	advocaat
+1	almond flavoring
+1	amaro montenegro
+1	anisette
+1	apfelkorn
+1	apricot nectar
+1	asafoetida
+1	bitter lemon
+1	black sambuca
+1	blackcurrant cordial
+1	blackstrap rum
+1	blended scotch
+1	blood orange
+1	blueberry schnapp
+1	butter
+1	butterscotch schnapp
+1	caramel coloring
+1	carbonated soft drink
+1	cayenne pepper
+1	celery salt
+1	cherry liqueur
+1	cider
+1	coconut milk
+1	coconut syrup
+1	coffee brandy
+1	coriander
+1	corn syrup
+1	cranberry vodka
+1	cream coconut
+1	creme de mure
+1	cucumber
+1	cumin seed
+1	daiquiri mix
+1	dark creme de cacao
+1	demerara sugar
+1	dr pepper
+1	dubonnet rouge
+1	ejo rum
+1	falernum
+1	fig
+1	firewater
+1	fresca
+1	ginger syrup
+1	godiva liqueur
+1	gold rum
+1	grain alcohol
+1	grape soda
+1	guinness stout
+1	honey syrup
+1	hot chocolate
+1	hot sauce
+1	iced tea
+1	islay single malt scotch
+1	jagermeister
+1	jello
+1	johnnie walker
+1	kiwi liqueur
+1	lillet
+1	lime vodka
+1	limeade
+1	maple syrup
+1	marshmallow
+1	melon liqueur
+1	mint syrup
+1	mountain dew
+1	olive brine
+1	oreo cookie
+1	ouzo
+1	papaya
+1	passion fruit syrup
+1	peach brandy
+1	peach nectar
+1	peachtree schnapp
+1	pernod
+1	pina colada mix
+1	pineapple syrup
+1	pink lemonade
+1	pisang ambon
+1	pomegranate
+1	raspberry liqueur
+1	raspberry vodka
+1	red chili flake
+1	ros sweetened lime
+1	rose
+1	rosso vermouth
+1	ruby port
+1	rumple minze
+1	sarsaparilla
+1	sirup ros
+1	soy sauce
+1	strawberry liqueur
+1	strawberry schnapp
+1	tennessee whiskey
+1	tia maria
+1	vanilla syrup
+1	vanilla vodka
+1	whisky
+1	white wine
+1	worcestershire sauce
+1	yellow chartreuse
+1	yukon jack
