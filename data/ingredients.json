@@ -1547,5 +1547,23 @@
     "season": null,
     "notes": "Stone fruit; lactone + ionone profile, near-identical to peach (why peach was the old proxy). TODO: verify",
     "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "tomato",
+    "display_name": "Tomato",
+    "type": "raw",
+    "role": "fruit",
+    "compounds": [
+      "hexanal"
+    ],
+    "descriptors": [
+      "savoury",
+      "umami",
+      "fresh"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Bloody Mary base; savoury/umami side is a V2 taste-axis job. TODO: verify",
+    "source": "Common aroma-chemistry references; provisional."
   }
 ]

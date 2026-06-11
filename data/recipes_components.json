@@ -1,14 +1,37 @@
 [
   {
-    "drink": "Mojito",
+    "drink": "Vesper",
     "implied": [],
     "literal": [
+      "gin",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Bacardi",
+    "implied": [],
+    "literal": [
+      "grenadine",
       "lime",
-      "mint",
-      "soda_water",
-      "sugar_syrup",
       "white_rum"
-    ]
+    ],
+    "muted": [
+      "pomegranate"
+    ],
+    "source": "iba"
+  },
+  {
+    "drink": "Negroni",
+    "implied": [],
+    "literal": [
+      "campari",
+      "gin",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "iba"
   },
   {
     "drink": "Old Fashioned",
@@ -17,7 +40,917 @@
       "angostura_bitters",
       "bourbon",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Tuxedo",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "absinthe",
+      "dry_vermouth",
+      "gin",
+      "maraschino",
+      "orange_bitters"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Mojito",
+    "implied": [],
+    "literal": [
+      "lime",
+      "mint",
+      "soda_water",
+      "sugar_syrup",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Horse's Neck",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "brandy",
+      "ginger_ale"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Planter's Punch",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "dark_rum",
+      "grenadine",
+      "lemon",
+      "orange",
+      "pineapple",
+      "sugar_syrup"
+    ],
+    "muted": [
+      "pomegranate"
+    ],
+    "source": "iba"
+  },
+  {
+    "drink": "Sea Breeze",
+    "implied": [],
+    "literal": [
+      "cranberry",
+      "grapefruit",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Pisco Sour",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "lemon",
+      "pisco",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Long Island Iced Tea",
+    "implied": [],
+    "literal": [
+      "cola",
+      "gin",
+      "lemon",
+      "sugar_syrup",
+      "tequila",
+      "triple_sec",
+      "vodka",
+      "white_rum"
+    ],
+    "muted": [
+      "orange"
+    ],
+    "source": "iba"
+  },
+  {
+    "drink": "Clover Club",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "gin",
+      "lemon",
+      "raspberry"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Angel Face",
+    "implied": [
+      "apple",
+      "apricot"
+    ],
+    "literal": [
+      "apricot_brandy",
+      "calvados",
+      "gin"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Mimosa",
+    "implied": [],
+    "literal": [
+      "orange",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Whiskey Sour",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Screwdriver",
+    "implied": [],
+    "literal": [
+      "orange",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Cuba Libre",
+    "implied": [],
+    "literal": [
+      "cola",
+      "lime",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Manhattan",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "rye_whiskey",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Porto Flip",
+    "implied": [],
+    "literal": [
+      "brandy",
+      "port"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Gin Fizz",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "soda_water",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Espresso Martini",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "coffee_liqueur",
+      "sugar_syrup",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Margarita",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "cointreau",
+      "lime",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "French 75",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "sparkling_wine",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Yellow Bird",
+    "implied": [],
+    "literal": [
+      "galliano",
+      "lime",
+      "triple_sec",
+      "white_rum"
+    ],
+    "muted": [
+      "anise",
+      "orange",
+      "vanilla"
+    ],
+    "source": "iba"
+  },
+  {
+    "drink": "Pina Colada",
+    "implied": [],
+    "literal": [
+      "coconut",
+      "pineapple",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Aviation",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "maraschino"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "iba"
+  },
+  {
+    "drink": "Bellini",
+    "implied": [],
+    "literal": [
+      "peach",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Grasshopper",
+    "implied": [
+      "mint"
+    ],
+    "literal": [
+      "cream",
+      "creme_de_cacao",
+      "creme_de_menthe"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Tequila Sunrise",
+    "implied": [],
+    "literal": [
+      "grenadine",
+      "orange",
+      "tequila"
+    ],
+    "muted": [
+      "pomegranate"
+    ],
+    "source": "iba"
+  },
+  {
+    "drink": "Daiquiri",
+    "implied": [],
+    "literal": [
+      "lime",
+      "sugar_syrup",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Rusty Nail",
+    "implied": [
+      "honey"
+    ],
+    "literal": [
+      "drambuie",
+      "scotch"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "B52",
+    "implied": [
+      "coffee",
+      "cream",
+      "orange"
+    ],
+    "literal": [
+      "coffee_liqueur",
+      "irish_cream",
+      "triple_sec"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Stinger",
+    "implied": [
+      "mint"
+    ],
+    "literal": [
+      "brandy",
+      "creme_de_menthe"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Golden Dream",
+    "implied": [
+      "anise",
+      "vanilla"
+    ],
+    "literal": [
+      "cream",
+      "galliano",
+      "orange",
+      "triple_sec"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "God Mother",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "amaretto",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Spritz Veneziano",
+    "implied": [],
+    "literal": [
+      "aperol",
+      "soda_water",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Bramble",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Alexander",
+    "implied": [],
+    "literal": [
+      "brandy",
+      "cream",
+      "creme_de_cacao"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Lemon Drop Martini",
+    "implied": [
+      "orange",
+      "vodka"
+    ],
+    "literal": [
+      "citron_vodka",
+      "lemon",
+      "triple_sec"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "French Martini",
+    "implied": [],
+    "literal": [
+      "pineapple",
+      "raspberry_liqueur",
+      "vodka"
+    ],
+    "muted": [
+      "raspberry"
+    ],
+    "source": "iba"
+  },
+  {
+    "drink": "Black Russian",
+    "implied": [
+      "coffee"
+    ],
+    "literal": [
+      "coffee_liqueur",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Bloody Mary",
+    "implied": [],
+    "literal": [
+      "black_pepper",
+      "lemon",
+      "salt",
+      "tomato",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Mai-tai",
+    "implied": [],
+    "literal": [
+      "dark_rum",
+      "lime",
+      "orgeat",
+      "triple_sec",
+      "white_rum"
+    ],
+    "muted": [
+      "almond",
+      "orange"
+    ],
+    "source": "iba"
+  },
+  {
+    "drink": "Barracuda",
+    "implied": [],
+    "literal": [
+      "dark_rum",
+      "galliano",
+      "lime",
+      "pineapple",
+      "sparkling_wine"
+    ],
+    "muted": [
+      "anise",
+      "vanilla"
+    ],
+    "source": "iba"
+  },
+  {
+    "drink": "Sex on the Beach",
+    "implied": [
+      "peach"
+    ],
+    "literal": [
+      "cranberry",
+      "orange",
+      "peach_schnapps",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Monkey Gland",
+    "implied": [
+      "pomegranate"
+    ],
+    "literal": [
+      "absinthe",
+      "gin",
+      "grenadine",
+      "orange"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Derby",
+    "implied": [],
+    "literal": [
+      "gin",
+      "mint"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Sidecar",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "brandy",
+      "lemon",
+      "triple_sec"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Irish Coffee",
+    "implied": [],
+    "literal": [
+      "brown_sugar",
+      "coffee",
+      "cream",
+      "irish_whiskey"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Sazerac",
+    "implied": [],
+    "literal": [
+      "absinthe",
+      "brandy",
+      "peychauds_bitters",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Americano",
+    "implied": [],
+    "literal": [
+      "campari",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Singapore Sling",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "benedictine",
+      "cherry_liqueur",
+      "cointreau",
+      "gin",
+      "grenadine",
+      "lime",
+      "pineapple"
+    ],
+    "muted": [
+      "cherry",
+      "orange",
+      "pomegranate"
+    ],
+    "source": "iba"
+  },
+  {
+    "drink": "French Connection",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "amaretto",
+      "brandy"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Moscow Mule",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "ginger_ale",
+      "lime",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "John Collins",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "soda_water",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Mint Julep",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "mint",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Tommy's Margarita",
+    "implied": [],
+    "literal": [
+      "lime",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Paradise",
+    "implied": [
+      "apricot"
+    ],
+    "literal": [
+      "apricot_brandy",
+      "gin",
+      "orange"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Dirty Martini",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "olive",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Champagne Cocktail",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "brandy",
+      "sparkling_wine",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Mary Pickford",
+    "implied": [],
+    "literal": [
+      "grenadine",
+      "maraschino",
+      "pineapple",
+      "white_rum"
+    ],
+    "muted": [
+      "cherry",
+      "pomegranate"
+    ],
+    "source": "iba"
+  },
+  {
+    "drink": "Hemingway Special",
+    "implied": [],
+    "literal": [
+      "grapefruit",
+      "lime",
+      "maraschino",
+      "white_rum"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "iba"
+  },
+  {
+    "drink": "Dark 'n' Stormy",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "dark_rum",
+      "ginger_ale"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Ramos Fizz",
+    "implied": [],
+    "literal": [
+      "cream",
+      "egg_white",
+      "gin",
+      "lemon",
+      "lime",
+      "soda_water",
+      "sugar_syrup",
+      "vanilla"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Russian Spring Punch",
+    "implied": [],
+    "literal": [
+      "creme_de_cassis",
+      "lemon",
+      "sugar_syrup",
+      "vodka"
+    ],
+    "muted": [
+      "blackcurrant"
+    ],
+    "source": "iba"
+  },
+  {
+    "drink": "God Father",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "amaretto",
+      "scotch"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Cosmopolitan",
+    "implied": [
+      "lemon",
+      "vodka"
+    ],
+    "literal": [
+      "citron_vodka",
+      "cointreau",
+      "cranberry",
+      "lime"
+    ],
+    "muted": [
+      "orange"
+    ],
+    "source": "iba"
+  },
+  {
+    "drink": "Dry Martini",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Between the Sheets",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "brandy",
+      "lemon",
+      "triple_sec",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Casino",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "maraschino",
+      "orange_bitters"
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "iba"
+  },
+  {
+    "drink": "Caipirinha",
+    "implied": [],
+    "literal": [
+      "cachaca",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Vampiro",
+    "implied": [],
+    "literal": [
+      "honey",
+      "lime",
+      "orange",
+      "salt",
+      "tequila",
+      "tomato"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Kamikaze",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "lime",
+      "triple_sec",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "White Lady",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "gin",
+      "lemon",
+      "triple_sec"
+    ],
+    "muted": [],
+    "source": "iba"
+  },
+  {
+    "drink": "Harvey Wallbanger",
+    "implied": [],
+    "literal": [
+      "galliano",
+      "orange",
+      "vodka"
+    ],
+    "muted": [
+      "anise",
+      "vanilla"
+    ],
+    "source": "iba"
   },
   {
     "drink": "Long Island Tea",
@@ -29,87 +962,9 @@
       "tequila",
       "vodka",
       "white_rum"
-    ]
-  },
-  {
-    "drink": "Negroni",
-    "implied": [],
-    "literal": [
-      "campari",
-      "gin",
-      "sweet_vermouth"
-    ]
-  },
-  {
-    "drink": "Whiskey Sour",
-    "implied": [],
-    "literal": [
-      "cherry",
-      "lemon",
-      "sugar_syrup"
-    ]
-  },
-  {
-    "drink": "Dry Martini",
-    "implied": [],
-    "literal": [
-      "dry_vermouth",
-      "gin",
-      "olive"
-    ]
-  },
-  {
-    "drink": "Daiquiri",
-    "implied": [],
-    "literal": [
-      "lime",
-      "sugar_syrup",
-      "white_rum"
-    ]
-  },
-  {
-    "drink": "Margarita",
-    "implied": [
-      "orange"
     ],
-    "literal": [
-      "lime",
-      "salt",
-      "tequila",
-      "triple_sec"
-    ]
-  },
-  {
-    "drink": "Manhattan",
-    "implied": [],
-    "literal": [
-      "angostura_bitters",
-      "bourbon",
-      "cherry",
-      "orange",
-      "sweet_vermouth"
-    ]
-  },
-  {
-    "drink": "Moscow Mule",
-    "implied": [
-      "ginger"
-    ],
-    "literal": [
-      "ginger_ale",
-      "lime",
-      "vodka"
-    ]
-  },
-  {
-    "drink": "Alexander",
-    "implied": [],
-    "literal": [
-      "cream",
-      "creme_de_cacao",
-      "gin",
-      "nutmeg"
-    ]
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Algonquin",
@@ -117,7 +972,9 @@
     "literal": [
       "dry_vermouth",
       "pineapple"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Allegheny",
@@ -126,7 +983,9 @@
       "bourbon",
       "dry_vermouth",
       "lemon"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Almeria",
@@ -137,7 +996,9 @@
       "coffee_liqueur",
       "dark_rum",
       "egg_white"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Applecar",
@@ -147,7 +1008,9 @@
     "literal": [
       "lemon",
       "triple_sec"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Artillery",
@@ -156,7 +1019,9 @@
       "angostura_bitters",
       "gin",
       "sweet_vermouth"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Balmoral",
@@ -166,7 +1031,9 @@
       "dry_vermouth",
       "scotch",
       "sweet_vermouth"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Blackthorn",
@@ -174,13 +1041,13 @@
     "literal": [
       "lemon",
       "sweet_vermouth"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Bluebird",
-    "implied": [
-      "orange"
-    ],
+    "implied": [],
     "literal": [
       "angostura_bitters",
       "blue_curacao",
@@ -188,7 +1055,11 @@
       "gin",
       "lemon",
       "triple_sec"
-    ]
+    ],
+    "muted": [
+      "orange"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Boomerang",
@@ -199,7 +1070,9 @@
       "dry_vermouth",
       "gin",
       "maraschino"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Boston Sour",
@@ -209,13 +1082,14 @@
       "egg_white",
       "lemon",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Boxcar",
     "implied": [
-      "orange",
-      "pomegranate"
+      "orange"
     ],
     "literal": [
       "egg_white",
@@ -223,41 +1097,40 @@
       "grenadine",
       "lemon",
       "triple_sec"
-    ]
-  },
-  {
-    "drink": "Caipirinha",
-    "implied": [],
-    "literal": [
-      "cachaca",
-      "lime",
-      "sugar_syrup"
-    ]
+    ],
+    "muted": [
+      "pomegranate"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Casa Blanca",
-    "implied": [
-      "cherry",
-      "orange"
-    ],
+    "implied": [],
     "literal": [
       "lime",
       "maraschino",
       "triple_sec",
       "white_rum"
-    ]
+    ],
+    "muted": [
+      "cherry",
+      "orange"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Casino Royale",
-    "implied": [
-      "cherry"
-    ],
+    "implied": [],
     "literal": [
       "gin",
       "lemon",
       "maraschino",
       "orange_bitters"
-    ]
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Cherry Rum",
@@ -265,7 +1138,9 @@
     "literal": [
       "cream",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Chicago Fizz",
@@ -277,27 +1152,22 @@
       "soda_water",
       "sugar_syrup",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "City Slicker",
-    "implied": [
-      "orange"
-    ],
+    "implied": [],
     "literal": [
       "brandy",
       "lemon",
       "triple_sec"
-    ]
-  },
-  {
-    "drink": "Cuba Libre",
-    "implied": [],
-    "literal": [
-      "cola",
-      "lime",
-      "white_rum"
-    ]
+    ],
+    "muted": [
+      "orange"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Dragonfly",
@@ -308,7 +1178,9 @@
       "gin",
       "ginger_ale",
       "lime"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Dry Rob Roy",
@@ -317,7 +1189,9 @@
       "dry_vermouth",
       "lemon",
       "scotch"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Dubonnet Cocktail",
@@ -326,7 +1200,9 @@
       "angostura_bitters",
       "gin",
       "lemon"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "English Highball",
@@ -337,13 +1213,14 @@
       "lemon",
       "soda_water",
       "sweet_vermouth"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "English Rose Cocktail",
     "implied": [
-      "apricot",
-      "pomegranate"
+      "apricot"
     ],
     "literal": [
       "apricot_brandy",
@@ -352,17 +1229,23 @@
       "gin",
       "grenadine",
       "lemon"
-    ]
+    ],
+    "muted": [
+      "pomegranate"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Flying Dutchman",
-    "implied": [
-      "orange"
-    ],
+    "implied": [],
     "literal": [
       "gin",
       "triple_sec"
-    ]
+    ],
+    "muted": [
+      "orange"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Flying Scotchman",
@@ -372,18 +1255,22 @@
       "scotch",
       "sugar_syrup",
       "sweet_vermouth"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Foxy Lady",
-    "implied": [
-      "almond"
-    ],
+    "implied": [],
     "literal": [
       "amaretto",
       "cream",
       "creme_de_cacao"
-    ]
+    ],
+    "muted": [
+      "almond"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Frisco Sour",
@@ -392,20 +1279,24 @@
       "benedictine",
       "lemon",
       "lime"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Frozen Daiquiri",
-    "implied": [
-      "orange"
-    ],
+    "implied": [],
     "literal": [
       "cherry",
       "lime",
       "sugar_syrup",
       "triple_sec",
       "white_rum"
-    ]
+    ],
+    "muted": [
+      "orange"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Frozen Mint Daiquiri",
@@ -415,7 +1306,9 @@
       "mint",
       "sugar_syrup",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Frozen Pineapple Daiquiri",
@@ -425,7 +1318,9 @@
       "pineapple",
       "sugar_syrup",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Gin Cooler",
@@ -436,13 +1331,13 @@
       "orange",
       "soda_water",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Gin Daisy",
-    "implied": [
-      "pomegranate"
-    ],
+    "implied": [],
     "literal": [
       "cherry",
       "gin",
@@ -450,17 +1345,11 @@
       "lemon",
       "orange",
       "sugar_syrup"
-    ]
-  },
-  {
-    "drink": "Gin Fizz",
-    "implied": [],
-    "literal": [
-      "gin",
-      "lemon",
-      "soda_water",
-      "sugar_syrup"
-    ]
+    ],
+    "muted": [
+      "pomegranate"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Gin Sling",
@@ -470,7 +1359,9 @@
       "lemon",
       "orange",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Gin Smash",
@@ -482,7 +1373,9 @@
       "orange",
       "soda_water",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Gin Sour",
@@ -493,13 +1386,13 @@
       "lemon",
       "orange",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Gin Squirt",
-    "implied": [
-      "pomegranate"
-    ],
+    "implied": [],
     "literal": [
       "gin",
       "grenadine",
@@ -507,7 +1400,11 @@
       "soda_water",
       "strawberry",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [
+      "pomegranate"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Gin Swizzle",
@@ -518,7 +1415,9 @@
       "lime",
       "soda_water",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Gin Toddy",
@@ -527,7 +1426,9 @@
       "gin",
       "lemon",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Godchild",
@@ -538,52 +1439,25 @@
       "amaretto",
       "cream",
       "vodka"
-    ]
-  },
-  {
-    "drink": "Godfather",
-    "implied": [
-      "almond"
     ],
-    "literal": [
-      "amaretto",
-      "scotch"
-    ]
-  },
-  {
-    "drink": "Godmother",
-    "implied": [
-      "almond"
-    ],
-    "literal": [
-      "amaretto",
-      "vodka"
-    ]
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Grass Skirt",
     "implied": [
-      "orange",
-      "pomegranate"
+      "orange"
     ],
     "literal": [
       "gin",
       "grenadine",
       "pineapple",
       "triple_sec"
-    ]
-  },
-  {
-    "drink": "Harvey Wallbanger",
-    "implied": [
-      "anise",
-      "vanilla"
     ],
-    "literal": [
-      "galliano",
-      "orange",
-      "vodka"
-    ]
+    "muted": [
+      "pomegranate"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Havana Cocktail",
@@ -592,18 +1466,22 @@
       "lemon",
       "pineapple",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Hawaiian Cocktail",
-    "implied": [
-      "orange"
-    ],
+    "implied": [],
     "literal": [
       "gin",
       "pineapple",
       "triple_sec"
-    ]
+    ],
+    "muted": [
+      "orange"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Highland Fling Cocktail",
@@ -613,7 +1491,9 @@
       "orange_bitters",
       "scotch",
       "sweet_vermouth"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Imperial Fizz",
@@ -623,7 +1503,9 @@
       "soda_water",
       "sugar_syrup",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Irish Spring",
@@ -632,17 +1514,21 @@
       "cherry",
       "irish_whiskey",
       "orange"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Jack Rose Cocktail",
-    "implied": [
-      "pomegranate"
-    ],
+    "implied": [],
     "literal": [
       "grenadine",
       "lime"
-    ]
+    ],
+    "muted": [
+      "pomegranate"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Japanese Fizz",
@@ -653,7 +1539,9 @@
       "port",
       "soda_water",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Jewel Of The Nile",
@@ -661,30 +1549,9 @@
     "literal": [
       "gin",
       "green_chartreuse"
-    ]
-  },
-  {
-    "drink": "John Collins",
-    "implied": [],
-    "literal": [
-      "bourbon",
-      "cherry",
-      "lemon",
-      "orange",
-      "soda_water",
-      "sugar_syrup"
-    ]
-  },
-  {
-    "drink": "Kamikaze",
-    "implied": [
-      "orange"
     ],
-    "literal": [
-      "lime",
-      "triple_sec",
-      "vodka"
-    ]
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Kentucky B And B",
@@ -692,7 +1559,9 @@
     "literal": [
       "benedictine",
       "bourbon"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Kentucky Colonel",
@@ -701,7 +1570,9 @@
       "benedictine",
       "bourbon",
       "lemon"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Lady Love Fizz",
@@ -713,27 +1584,36 @@
       "lemon",
       "soda_water",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Loch Lomond",
     "implied": [],
     "literal": [
+      "drambuie",
       "dry_vermouth",
       "lemon",
       "scotch"
-    ]
+    ],
+    "muted": [
+      "honey"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "London Town",
-    "implied": [
-      "cherry"
-    ],
+    "implied": [],
     "literal": [
       "gin",
       "maraschino",
       "orange_bitters"
-    ]
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Lone Tree Cocktail",
@@ -741,7 +1621,9 @@
     "literal": [
       "gin",
       "sweet_vermouth"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Lone Tree Cooler",
@@ -753,20 +1635,9 @@
       "orange",
       "soda_water",
       "sugar_syrup"
-    ]
-  },
-  {
-    "drink": "Mai Tai",
-    "implied": [
-      "almond",
-      "orange"
     ],
-    "literal": [
-      "cherry",
-      "orgeat",
-      "triple_sec",
-      "white_rum"
-    ]
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Martini",
@@ -775,7 +1646,9 @@
       "dry_vermouth",
       "gin",
       "olive"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Monkey Wrench",
@@ -784,7 +1657,9 @@
       "angostura_bitters",
       "grapefruit",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "New York Sour",
@@ -794,7 +1669,9 @@
       "lemon",
       "red_wine",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Orange Oasis",
@@ -805,21 +1682,25 @@
       "gin",
       "ginger_ale",
       "orange"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Orgasm",
-    "implied": [
-      "almond",
-      "orange"
-    ],
+    "implied": [],
     "literal": [
       "amaretto",
       "cream",
       "creme_de_cacao",
       "triple_sec",
       "vodka"
-    ]
+    ],
+    "muted": [
+      "almond",
+      "orange"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Pink Gin",
@@ -827,19 +1708,23 @@
     "literal": [
       "angostura_bitters",
       "gin"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Pink Lady",
-    "implied": [
-      "pomegranate"
-    ],
+    "implied": [],
     "literal": [
       "cream",
       "egg_white",
       "gin",
       "grenadine"
-    ]
+    ],
+    "muted": [
+      "pomegranate"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Poppy Cocktail",
@@ -847,7 +1732,22 @@
     "literal": [
       "creme_de_cacao",
       "gin"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
+  },
+  {
+    "drink": "Port And Starboard",
+    "implied": [],
+    "literal": [
+      "creme_de_menthe",
+      "grenadine"
+    ],
+    "muted": [
+      "mint",
+      "pomegranate"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Port Wine Cocktail",
@@ -855,7 +1755,9 @@
     "literal": [
       "brandy",
       "port"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Port Wine Flip",
@@ -865,7 +1767,9 @@
       "nutmeg",
       "port",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Quaker's Cocktail",
@@ -873,8 +1777,11 @@
     "literal": [
       "brandy",
       "lemon",
+      "raspberry",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Quarter Deck Cocktail",
@@ -882,7 +1789,9 @@
     "literal": [
       "lime",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Queen Charlotte",
@@ -892,7 +1801,9 @@
     "literal": [
       "grenadine",
       "red_wine"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Queen Elizabeth",
@@ -901,19 +1812,23 @@
       "benedictine",
       "dry_vermouth",
       "gin"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Quentin",
-    "implied": [
-      "coffee"
-    ],
+    "implied": [],
     "literal": [
       "coffee_liqueur",
       "cream",
       "dark_rum",
       "nutmeg"
-    ]
+    ],
+    "muted": [
+      "coffee"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Royal Fizz",
@@ -921,7 +1836,9 @@
     "literal": [
       "cola",
       "gin"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Royal Gin Fizz",
@@ -931,7 +1848,9 @@
       "lemon",
       "soda_water",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Rum Cobbler",
@@ -943,7 +1862,9 @@
       "orange",
       "soda_water",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Rum Cooler",
@@ -951,7 +1872,9 @@
     "literal": [
       "lemon",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Rum Milk Punch",
@@ -961,7 +1884,9 @@
       "nutmeg",
       "sugar_syrup",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Rum Old-fashioned",
@@ -972,7 +1897,9 @@
       "lime",
       "sugar_syrup",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Rum Screwdriver",
@@ -980,7 +1907,9 @@
     "literal": [
       "orange",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Rum Sour",
@@ -991,7 +1920,9 @@
       "orange",
       "sugar_syrup",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Rum Toddy",
@@ -1000,15 +1931,9 @@
       "lemon",
       "sugar_syrup",
       "white_rum"
-    ]
-  },
-  {
-    "drink": "Rusty Nail",
-    "implied": [],
-    "literal": [
-      "lemon",
-      "scotch"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Salty Dog",
@@ -1017,17 +1942,9 @@
       "gin",
       "grapefruit",
       "salt"
-    ]
-  },
-  {
-    "drink": "Sazerac",
-    "implied": [],
-    "literal": [
-      "bourbon",
-      "lemon",
-      "peychauds_bitters",
-      "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Scooter",
@@ -1038,7 +1955,9 @@
       "amaretto",
       "brandy",
       "cream"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Scotch Sour",
@@ -1049,15 +1968,9 @@
       "lime",
       "scotch",
       "sugar_syrup"
-    ]
-  },
-  {
-    "drink": "Screwdriver",
-    "implied": [],
-    "literal": [
-      "orange",
-      "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Sherry Eggnog",
@@ -1066,7 +1979,9 @@
       "milk",
       "nutmeg",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Sherry Flip",
@@ -1075,18 +1990,9 @@
       "cream",
       "nutmeg",
       "sugar_syrup"
-    ]
-  },
-  {
-    "drink": "Sidecar",
-    "implied": [
-      "orange"
     ],
-    "literal": [
-      "brandy",
-      "cointreau",
-      "lemon"
-    ]
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Stone Sour",
@@ -1096,7 +2002,9 @@
     "literal": [
       "apricot_brandy",
       "orange"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Tequila Fizz",
@@ -1110,7 +2018,9 @@
       "grenadine",
       "lemon",
       "tequila"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Tequila Sour",
@@ -1120,7 +2030,9 @@
       "lemon",
       "sugar_syrup",
       "tequila"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Thriller",
@@ -1128,7 +2040,9 @@
     "literal": [
       "orange",
       "scotch"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Tom Collins",
@@ -1140,7 +2054,9 @@
       "orange",
       "soda_water",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Turf Cocktail",
@@ -1150,7 +2066,9 @@
       "dry_vermouth",
       "gin",
       "orange"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Tuxedo Cocktail",
@@ -1161,7 +2079,9 @@
       "gin",
       "maraschino",
       "orange_bitters"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Valencia Cocktail",
@@ -1172,7 +2092,9 @@
       "apricot_brandy",
       "orange",
       "orange_bitters"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Van Vleet",
@@ -1180,7 +2102,9 @@
     "literal": [
       "lemon",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Vermouth Cassis",
@@ -1191,7 +2115,9 @@
       "creme_de_cassis",
       "dry_vermouth",
       "soda_water"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Vesuvio",
@@ -1202,7 +2128,9 @@
       "sugar_syrup",
       "sweet_vermouth",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Victor",
@@ -1211,7 +2139,9 @@
       "brandy",
       "gin",
       "sweet_vermouth"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Victory Collins",
@@ -1222,7 +2152,9 @@
       "orange",
       "sugar_syrup",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Vodka And Tonic",
@@ -1230,7 +2162,9 @@
     "literal": [
       "tonic_water",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Waikiki Beachcomber",
@@ -1241,7 +2175,9 @@
       "gin",
       "pineapple",
       "triple_sec"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "White Russian",
@@ -1252,7 +2188,9 @@
       "coffee_liqueur",
       "cream",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Afterglow",
@@ -1263,19 +2201,23 @@
       "grenadine",
       "orange",
       "pineapple"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Bora Bora",
-    "implied": [
-      "pomegranate"
-    ],
+    "implied": [],
     "literal": [
       "grenadine",
       "lemon",
       "passionfruit",
       "pineapple"
-    ]
+    ],
+    "muted": [
+      "pomegranate"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Orangeade",
@@ -1285,7 +2227,9 @@
       "orange",
       "soda_water",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Rail Splitter",
@@ -1296,7 +2240,9 @@
       "ginger_ale",
       "lemon",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Egg Cream",
@@ -1304,7 +2250,9 @@
     "literal": [
       "milk",
       "soda_water"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Fruit Cooler",
@@ -1315,7 +2263,9 @@
       "soda_water",
       "strawberry",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Lassi - A South Indian Drink",
@@ -1323,7 +2273,9 @@
     "literal": [
       "mint",
       "salt"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Lassi Raita",
@@ -1332,7 +2284,9 @@
       "lime",
       "salt",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Lassi - Sweet",
@@ -1341,7 +2295,9 @@
       "lemon",
       "salt",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Lassi - Mango",
@@ -1349,7 +2305,9 @@
     "literal": [
       "mango",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Lemouroudji",
@@ -1358,7 +2316,9 @@
       "ginger",
       "lemon",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Limeade",
@@ -1367,7 +2327,9 @@
       "lime",
       "soda_water",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Imperial Cocktail",
@@ -1376,7 +2338,9 @@
       "aperol",
       "gin",
       "lime"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Pineapple Gingerale Smoothie",
@@ -1384,7 +2348,9 @@
     "literal": [
       "ginger",
       "pineapple"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Kill the cold Smoothie",
@@ -1392,7 +2358,9 @@
     "literal": [
       "ginger",
       "lemon"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Sweet Bananas",
@@ -1400,7 +2368,20 @@
     "literal": [
       "honey",
       "milk"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
+  },
+  {
+    "drink": "Tomato Tang",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "salt",
+      "tomato"
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Drinking Chocolate",
@@ -1410,7 +2391,9 @@
       "cream",
       "milk",
       "vanilla"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Hot Chocolate to Die for",
@@ -1418,7 +2401,9 @@
     "literal": [
       "cream",
       "vanilla"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Nuked Hot Chocolate",
@@ -1427,31 +2412,38 @@
       "milk",
       "sugar_syrup",
       "vanilla"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Orange Scented Hot Chocolate",
     "implied": [],
     "literal": [
+      "coffee",
       "milk",
       "nutmeg",
       "orange"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Lemon Shot",
-    "implied": [
-      "anise",
-      "vanilla",
-      "vodka"
-    ],
+    "implied": [],
     "literal": [
       "citron_vodka",
       "dark_rum",
       "galliano",
       "lemon",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [
+      "anise",
+      "vanilla",
+      "vodka"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Gagliardo",
@@ -1465,7 +2457,9 @@
       "galliano",
       "lemon",
       "peach_vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Happy Skipper",
@@ -1476,7 +2470,9 @@
       "dark_rum",
       "ginger_ale",
       "lime"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Frappé",
@@ -1485,7 +2481,9 @@
       "coffee",
       "milk",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Iced Coffee",
@@ -1494,7 +2492,9 @@
       "coffee",
       "milk",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Iced Coffee Fillip",
@@ -1502,7 +2502,9 @@
     "literal": [
       "coffee",
       "coffee_liqueur"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Masala Chai",
@@ -1515,7 +2517,19 @@
       "ginger",
       "milk",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
+  },
+  {
+    "drink": "Melya",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "honey"
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Thai Coffee",
@@ -1523,9 +2537,12 @@
     "literal": [
       "cardamom",
       "coffee",
+      "coriander_leaf",
       "cream",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Thai Iced Coffee",
@@ -1535,7 +2552,9 @@
       "coffee",
       "cream",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Coffee Liqueur",
@@ -1545,7 +2564,9 @@
       "sugar_syrup",
       "vanilla",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Coffee-Vodka",
@@ -1555,7 +2576,9 @@
       "sugar_syrup",
       "vanilla",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Irish Cream",
@@ -1563,7 +2586,9 @@
     "literal": [
       "cream",
       "scotch"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Tia-Maria",
@@ -1573,7 +2598,9 @@
       "coffee",
       "vanilla",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Cranberry Punch",
@@ -1585,7 +2612,9 @@
       "ginger_ale",
       "pineapple",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Egg Nog #4",
@@ -1600,7 +2629,9 @@
       "sugar_syrup",
       "vanilla",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Egg-Nog - Classic Cooked",
@@ -1610,7 +2641,9 @@
       "salt",
       "sugar_syrup",
       "vanilla"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Egg Nog - Healthy",
@@ -1621,7 +2654,9 @@
       "sugar_syrup",
       "vanilla",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Gluehwein",
@@ -1632,7 +2667,9 @@
       "lemon",
       "red_wine",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Mulled Wine",
@@ -1644,7 +2681,9 @@
       "lemon",
       "red_wine",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Sangria",
@@ -1656,7 +2695,9 @@
       "orange",
       "red_wine",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Sweet Sangria",
@@ -1668,7 +2709,9 @@
       "orange",
       "red_wine",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Wine Punch",
@@ -1678,16 +2721,23 @@
       "orange",
       "pineapple",
       "red_wine"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Popped cherry",
-    "implied": [],
+    "implied": [
+      "cherry"
+    ],
     "literal": [
+      "cherry_liqueur",
       "cranberry",
       "orange",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Kool-Aid Shot",
@@ -1700,19 +2750,23 @@
       "cranberry",
       "triple_sec",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "National Aquarium",
-    "implied": [
-      "orange"
-    ],
+    "implied": [],
     "literal": [
       "blue_curacao",
       "gin",
       "vodka",
       "white_rum"
-    ]
+    ],
+    "muted": [
+      "orange"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Long vodka",
@@ -1722,7 +2776,9 @@
       "lime",
       "tonic_water",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Quick F**K",
@@ -1733,7 +2789,9 @@
     "literal": [
       "coffee_liqueur",
       "irish_cream"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Flaming Dr. Pepper",
@@ -1744,7 +2802,9 @@
       "amaretto",
       "dark_rum",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "New York Lemonade",
@@ -1757,7 +2817,9 @@
       "lemon",
       "soda_water",
       "triple_sec"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Caipirissima",
@@ -1766,48 +2828,36 @@
       "lime",
       "sugar_syrup",
       "white_rum"
-    ]
-  },
-  {
-    "drink": "Pisco Sour",
-    "implied": [],
-    "literal": [
-      "egg_white",
-      "lemon",
-      "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Chocolate Milk",
-    "implied": [
-      "almond"
-    ],
+    "implied": [],
     "literal": [
       "amaretto",
       "milk"
-    ]
+    ],
+    "muted": [
+      "almond"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "B-53",
-    "implied": [
-      "anise",
-      "coffee",
-      "orange"
-    ],
+    "implied": [],
     "literal": [
       "coffee_liqueur",
       "sambuca",
       "triple_sec"
-    ]
-  },
-  {
-    "drink": "Sea breeze",
-    "implied": [],
-    "literal": [
-      "cranberry",
-      "grapefruit",
-      "vodka"
-    ]
+    ],
+    "muted": [
+      "anise",
+      "coffee",
+      "orange"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Oreo Mudslide",
@@ -1819,7 +2869,9 @@
       "coffee_liqueur",
       "irish_cream",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "ABC",
@@ -1831,7 +2883,9 @@
       "amaretto",
       "brandy",
       "irish_cream"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Ice Pick",
@@ -1839,7 +2893,9 @@
     "literal": [
       "lemon",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "410 Gone",
@@ -1850,18 +2906,9 @@
     "literal": [
       "cola",
       "peach_vodka"
-    ]
-  },
-  {
-    "drink": "Tequila Sunrise",
-    "implied": [
-      "pomegranate"
     ],
-    "literal": [
-      "grenadine",
-      "orange",
-      "tequila"
-    ]
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Cuba Libra",
@@ -1870,7 +2917,9 @@
       "cola",
       "dark_rum",
       "lime"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Kir Royale",
@@ -1880,7 +2929,9 @@
     "literal": [
       "creme_de_cassis",
       "sparkling_wine"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Jackhammer",
@@ -1890,7 +2941,9 @@
     "literal": [
       "amaretto",
       "bourbon"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Nutty Irishman",
@@ -1900,7 +2953,9 @@
     "literal": [
       "irish_cream",
       "milk"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "3 Wise Men",
@@ -1908,7 +2963,9 @@
     "literal": [
       "bourbon",
       "scotch"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "AT&T",
@@ -1917,7 +2974,9 @@
       "gin",
       "tonic_water",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "69 Special",
@@ -1925,17 +2984,9 @@
     "literal": [
       "gin",
       "lemon"
-    ]
-  },
-  {
-    "drink": "Irish Coffee",
-    "implied": [],
-    "literal": [
-      "coffee",
-      "cream",
-      "irish_whiskey",
-      "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "57 Chevy with a White License Plate",
@@ -1943,7 +2994,9 @@
     "literal": [
       "creme_de_cacao",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Zippy's Revenge",
@@ -1953,7 +3006,9 @@
     "literal": [
       "amaretto",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Red Snapper",
@@ -1963,7 +3018,9 @@
     "literal": [
       "amaretto",
       "cranberry"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Jamaica Kiss",
@@ -1974,7 +3031,9 @@
       "coffee_liqueur",
       "milk",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Ziemes Martini Apfelsaft",
@@ -1982,7 +3041,9 @@
     "literal": [
       "apple",
       "sweet_vermouth"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Vodka Martini",
@@ -1991,19 +3052,23 @@
       "dry_vermouth",
       "olive",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Cafe Savoy",
-    "implied": [
-      "orange"
-    ],
+    "implied": [],
     "literal": [
       "brandy",
       "coffee",
       "milk",
       "triple_sec"
-    ]
+    ],
+    "muted": [
+      "orange"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Mocha-Berry",
@@ -2014,18 +3079,22 @@
       "coffee",
       "cream",
       "raspberry_liqueur"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "747",
-    "implied": [
-      "coffee",
-      "cream"
-    ],
+    "implied": [],
     "literal": [
       "coffee_liqueur",
       "irish_cream"
-    ]
+    ],
+    "muted": [
+      "coffee",
+      "cream"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Lemon Drop",
@@ -2036,7 +3105,9 @@
       "cointreau",
       "lemon",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Lunch Box",
@@ -2046,7 +3117,9 @@
     "literal": [
       "amaretto",
       "orange"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Dirty Nipple",
@@ -2059,39 +3132,50 @@
       "coffee_liqueur",
       "irish_cream",
       "sambuca"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Darkwood Sling",
-    "implied": [],
+    "implied": [
+      "cherry"
+    ],
     "literal": [
+      "cherry_liqueur",
       "orange",
       "soda_water"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Bumble Bee",
-    "implied": [
-      "anise",
-      "coffee",
-      "cream"
-    ],
+    "implied": [],
     "literal": [
       "coffee_liqueur",
       "irish_cream",
       "sambuca"
-    ]
+    ],
+    "muted": [
+      "anise",
+      "coffee",
+      "cream"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Orange Push-up",
-    "implied": [
-      "pomegranate"
-    ],
+    "implied": [],
     "literal": [
       "dark_rum",
       "grenadine",
       "orange"
-    ]
+    ],
+    "muted": [
+      "pomegranate"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "151 Florida Bushwacker",
@@ -2106,7 +3190,9 @@
       "dark_rum",
       "milk",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Zizi Coin-coin",
@@ -2116,7 +3202,9 @@
     "literal": [
       "cointreau",
       "lemon"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "50/50",
@@ -2128,7 +3216,9 @@
       "orange",
       "triple_sec",
       "vanilla_vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Cream Soda",
@@ -2138,7 +3228,9 @@
     "literal": [
       "dark_rum",
       "ginger_ale"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "ACID",
@@ -2146,29 +3238,36 @@
     "literal": [
       "bourbon",
       "dark_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Grim Reaper",
     "implied": [
-      "coffee",
-      "pomegranate"
+      "coffee"
     ],
     "literal": [
       "coffee_liqueur",
       "dark_rum",
       "grenadine"
-    ]
+    ],
+    "muted": [
+      "pomegranate"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Freddy Kruger",
-    "implied": [
-      "anise"
-    ],
+    "implied": [],
     "literal": [
       "sambuca",
       "vodka"
-    ]
+    ],
+    "muted": [
+      "anise"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Bubble Gum",
@@ -2179,7 +3278,9 @@
       "orange",
       "peach_schnapps",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Hot Creamy Bush",
@@ -2190,15 +3291,22 @@
       "coffee",
       "irish_cream",
       "irish_whiskey"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Midnight Mint",
-    "implied": [],
+    "implied": [
+      "mint"
+    ],
     "literal": [
       "cream",
+      "creme_de_menthe",
       "irish_cream"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Talos Coffee",
@@ -2208,7 +3316,9 @@
     "literal": [
       "coffee",
       "triple_sec"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Rum Punch",
@@ -2219,7 +3329,9 @@
       "ginger_ale",
       "orange",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Turkeyball",
@@ -2230,7 +3342,9 @@
       "amaretto",
       "bourbon",
       "pineapple"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Kiss me Quick",
@@ -2241,19 +3355,24 @@
     "literal": [
       "apple",
       "cranberry_vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Royal Flush",
     "implied": [
-      "peach",
-      "raspberry"
+      "peach"
     ],
     "literal": [
       "cranberry",
       "peach_schnapps",
       "raspberry_liqueur"
-    ]
+    ],
+    "muted": [
+      "raspberry"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Pysch Vitamin Light",
@@ -2262,7 +3381,9 @@
       "apple",
       "orange",
       "pineapple"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Apello",
@@ -2272,7 +3393,9 @@
       "cherry",
       "grapefruit",
       "orange"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "San Francisco",
@@ -2283,7 +3406,9 @@
       "grenadine",
       "orange",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Space Odyssey",
@@ -2298,7 +3423,9 @@
       "grenadine",
       "orange",
       "pineapple"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Avalon",
@@ -2307,7 +3434,9 @@
       "apple",
       "lemon",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "252",
@@ -2315,13 +3444,13 @@
     "literal": [
       "bourbon",
       "dark_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "3-Mile Long Island Iced Tea",
-    "implied": [
-      "orange"
-    ],
+    "implied": [],
     "literal": [
       "angostura_bitters",
       "cola",
@@ -2331,18 +3460,26 @@
       "triple_sec",
       "vodka",
       "white_rum"
-    ]
+    ],
+    "muted": [
+      "orange"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Zorro",
     "implied": [
       "anise",
-      "cream"
+      "cream",
+      "mint"
     ],
     "literal": [
+      "creme_de_menthe",
       "irish_cream",
       "sambuca"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Orange Crush",
@@ -2351,7 +3488,9 @@
       "orange",
       "triple_sec",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "155 Belmont",
@@ -2361,20 +3500,24 @@
       "orange",
       "vodka",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Grand Blue",
-    "implied": [
-      "coconut",
-      "orange",
-      "peach"
-    ],
+    "implied": [],
     "literal": [
       "blue_curacao",
       "coconut_liqueur",
       "peach_schnapps"
-    ]
+    ],
+    "muted": [
+      "coconut",
+      "orange",
+      "peach"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Baby Eskimo",
@@ -2384,7 +3527,9 @@
     "literal": [
       "coffee_liqueur",
       "milk"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Tennesee Mud",
@@ -2396,21 +3541,25 @@
       "bourbon",
       "coffee",
       "cream"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Texas Sling",
-    "implied": [
-      "almond",
-      "coffee"
-    ],
+    "implied": [],
     "literal": [
       "amaretto",
       "coffee_liqueur",
       "cream",
       "dark_rum",
       "irish_cream"
-    ]
+    ],
+    "muted": [
+      "almond",
+      "coffee"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Zoksel",
@@ -2421,7 +3570,9 @@
       "cola",
       "creme_de_cassis",
       "lemon"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Fuzzy Asshole",
@@ -2431,7 +3582,9 @@
     "literal": [
       "coffee",
       "peach_schnapps"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Quick-sand",
@@ -2441,7 +3594,9 @@
     "literal": [
       "orange",
       "sambuca"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Jamaican Coffee",
@@ -2450,7 +3605,9 @@
       "coffee",
       "cream",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Mojito Extra",
@@ -2461,30 +3618,9 @@
       "lemon",
       "mint",
       "soda_water"
-    ]
-  },
-  {
-    "drink": "B-52",
-    "implied": [
-      "coffee",
-      "cream",
-      "orange"
     ],
-    "literal": [
-      "coffee_liqueur",
-      "irish_cream",
-      "triple_sec"
-    ]
-  },
-  {
-    "drink": "Americano",
-    "implied": [],
-    "literal": [
-      "campari",
-      "lemon",
-      "orange",
-      "sweet_vermouth"
-    ]
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "GG",
@@ -2496,7 +3632,9 @@
     "literal": [
       "galliano",
       "ginger_ale"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Mudslinger",
@@ -2504,7 +3642,9 @@
     "literal": [
       "cola",
       "orange"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "9 1/2 Weeks",
@@ -2514,8 +3654,11 @@
     ],
     "literal": [
       "citron_vodka",
-      "orange"
-    ]
+      "orange",
+      "triple_sec"
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Whitecap Margarita",
@@ -2523,13 +3666,13 @@
     "literal": [
       "lime",
       "tequila"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Jitterbug",
-    "implied": [
-      "pomegranate"
-    ],
+    "implied": [],
     "literal": [
       "gin",
       "grenadine",
@@ -2537,7 +3680,11 @@
       "soda_water",
       "sugar_syrup",
       "vodka"
-    ]
+    ],
+    "muted": [
+      "pomegranate"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Moranguito",
@@ -2548,7 +3695,9 @@
       "absinthe",
       "grenadine",
       "tequila"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Rum Runner",
@@ -2560,7 +3709,9 @@
       "cranberry",
       "orange",
       "pineapple"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "H.D.",
@@ -2570,7 +3721,9 @@
     "literal": [
       "coffee",
       "irish_cream"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Jack's Vanilla Coke",
@@ -2579,7 +3732,9 @@
       "bourbon",
       "cola",
       "vanilla"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Avalanche",
@@ -2589,7 +3744,9 @@
     "literal": [
       "coffee_liqueur",
       "cream"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Flaming Lamborghini",
@@ -2604,7 +3761,9 @@
       "coffee_liqueur",
       "irish_cream",
       "sambuca"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Zipperhead",
@@ -2615,7 +3774,9 @@
       "raspberry_liqueur",
       "soda_water",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Kioki Coffee",
@@ -2624,7 +3785,9 @@
       "brandy",
       "coffee",
       "coffee_liqueur"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Vodka Fizz",
@@ -2633,7 +3796,9 @@
       "cream",
       "nutmeg",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Radioactive Long Island Iced Tea",
@@ -2650,17 +3815,21 @@
       "triple_sec",
       "vodka",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Bible Belt",
-    "implied": [
-      "orange"
-    ],
+    "implied": [],
     "literal": [
       "lime",
       "triple_sec"
-    ]
+    ],
+    "muted": [
+      "orange"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Irish Curdling Cow",
@@ -2672,7 +3841,9 @@
       "irish_cream",
       "orange",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Downshift",
@@ -2680,7 +3851,9 @@
     "literal": [
       "dark_rum",
       "tequila"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Pink Penocha",
@@ -2692,7 +3865,9 @@
       "orange",
       "peach_schnapps",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Orange Whip",
@@ -2702,7 +3877,9 @@
       "orange",
       "vodka",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Irish Russian",
@@ -2713,7 +3890,9 @@
       "coffee_liqueur",
       "cola",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Homemade Kahlua",
@@ -2723,7 +3902,9 @@
       "sugar_syrup",
       "vanilla",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "501 Blue",
@@ -2733,7 +3914,9 @@
     "literal": [
       "blue_curacao",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Coke and Drops",
@@ -2741,18 +3924,22 @@
     "literal": [
       "cola",
       "lemon"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Ruby Tuesday",
-    "implied": [
-      "pomegranate"
-    ],
+    "implied": [],
     "literal": [
       "cranberry",
       "gin",
       "grenadine"
-    ]
+    ],
+    "muted": [
+      "pomegranate"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Brain Fart",
@@ -2761,7 +3948,9 @@
       "lemon",
       "vodka",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Citrus Coke",
@@ -2772,7 +3961,9 @@
     "literal": [
       "cola",
       "lemon_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Smut",
@@ -2784,7 +3975,9 @@
       "orange",
       "peach_schnapps",
       "red_wine"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Ipamena",
@@ -2796,7 +3989,9 @@
       "ginger_ale",
       "lime",
       "passionfruit"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Dark Caipirinha",
@@ -2805,345 +4000,52 @@
       "cachaca",
       "demerara",
       "lime"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Jam Donut",
     "implied": [
-      "cream",
-      "raspberry"
+      "cream"
     ],
     "literal": [
       "irish_cream",
       "raspberry_liqueur",
       "sugar_syrup"
-    ]
-  },
-  {
-    "drink": "Aviation",
-    "implied": [
-      "cherry"
     ],
-    "literal": [
-      "gin",
-      "lemon",
-      "maraschino"
-    ]
-  },
-  {
-    "drink": "Dirty Martini",
-    "implied": [],
-    "literal": [
-      "dry_vermouth",
-      "lemon",
-      "olive",
-      "vodka"
-    ]
+    "muted": [
+      "raspberry"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Duchamp's Punch",
-    "implied": [
-      "elderflower"
-    ],
+    "implied": [],
     "literal": [
       "angostura_bitters",
+      "black_pepper",
       "lavender",
       "lime",
+      "pisco",
       "st_germain"
-    ]
-  },
-  {
-    "drink": "Casino",
-    "implied": [],
-    "literal": [
-      "cherry",
-      "gin",
-      "lemon",
-      "maraschino",
-      "orange_bitters"
-    ]
-  },
-  {
-    "drink": "Clover Club",
-    "implied": [
-      "pomegranate"
     ],
-    "literal": [
-      "egg_white",
-      "gin",
-      "grenadine",
-      "lemon"
-    ]
-  },
-  {
-    "drink": "Derby",
-    "implied": [],
-    "literal": [
-      "gin",
-      "mint"
-    ]
-  },
-  {
-    "drink": "Mary Pickford",
-    "implied": [
-      "pomegranate"
+    "muted": [
+      "elderflower"
     ],
-    "literal": [
-      "cherry",
-      "grenadine",
-      "maraschino",
-      "pineapple",
-      "white_rum"
-    ]
+    "source": "thecocktaildb"
   },
   {
-    "drink": "Monkey Gland",
-    "implied": [
-      "pomegranate"
-    ],
-    "literal": [
-      "benedictine",
-      "gin",
-      "grenadine",
-      "orange"
-    ]
-  },
-  {
-    "drink": "Paradise",
-    "implied": [
-      "apricot"
-    ],
-    "literal": [
-      "apricot_brandy",
-      "gin",
-      "orange"
-    ]
-  },
-  {
-    "drink": "Planter's Punch",
-    "implied": [
-      "almond"
-    ],
-    "literal": [
-      "dark_rum",
-      "orange",
-      "orgeat",
-      "pineapple"
-    ]
-  },
-  {
-    "drink": "Porto flip",
-    "implied": [],
-    "literal": [
-      "brandy",
-      "port"
-    ]
-  },
-  {
-    "drink": "White Lady",
-    "implied": [
-      "orange"
-    ],
-    "literal": [
-      "gin",
-      "lemon",
-      "triple_sec"
-    ]
-  },
-  {
-    "drink": "Bellini",
-    "implied": [
-      "peach"
-    ],
-    "literal": [
-      "peach_schnapps",
-      "sparkling_wine"
-    ]
-  },
-  {
-    "drink": "Cosmopolitan",
-    "implied": [
-      "orange"
-    ],
-    "literal": [
-      "cointreau",
-      "cranberry",
-      "lime",
-      "vodka"
-    ]
-  },
-  {
-    "drink": "French 75",
-    "implied": [],
-    "literal": [
-      "cherry",
-      "gin",
-      "lemon",
-      "orange",
-      "sparkling_wine",
-      "sugar_syrup"
-    ]
-  },
-  {
-    "drink": "French Connection",
-    "implied": [
-      "almond"
-    ],
-    "literal": [
-      "amaretto",
-      "brandy"
-    ]
-  },
-  {
-    "drink": "Grasshopper",
-    "implied": [],
-    "literal": [
-      "cream",
-      "creme_de_cacao"
-    ]
-  },
-  {
-    "drink": "Hemingway Special",
-    "implied": [
-      "cherry"
-    ],
-    "literal": [
-      "grapefruit",
-      "lime",
-      "maraschino",
-      "white_rum"
-    ]
-  },
-  {
-    "drink": "Horse's Neck",
+    "drink": "Dark and Stormy",
     "implied": [
       "ginger"
     ],
     "literal": [
-      "angostura_bitters",
-      "brandy",
-      "ginger_ale",
-      "lemon"
-    ]
-  },
-  {
-    "drink": "Kir",
-    "implied": [
-      "blackcurrant"
+      "dark_rum",
+      "ginger_ale"
     ],
-    "literal": [
-      "creme_de_cassis",
-      "sparkling_wine"
-    ]
-  },
-  {
-    "drink": "Long Island Iced Tea",
-    "implied": [],
-    "literal": [
-      "cola",
-      "gin",
-      "lemon",
-      "tequila",
-      "vodka",
-      "white_rum"
-    ]
-  },
-  {
-    "drink": "Mimosa",
-    "implied": [],
-    "literal": [
-      "orange",
-      "sparkling_wine"
-    ]
-  },
-  {
-    "drink": "Mint Julep",
-    "implied": [],
-    "literal": [
-      "bourbon",
-      "mint",
-      "sugar_syrup"
-    ]
-  },
-  {
-    "drink": "Pina Colada",
-    "implied": [],
-    "literal": [
-      "pineapple",
-      "white_rum"
-    ]
-  },
-  {
-    "drink": "Rose",
-    "implied": [
-      "apricot",
-      "pomegranate"
-    ],
-    "literal": [
-      "apricot_brandy",
-      "dry_vermouth",
-      "gin",
-      "grenadine",
-      "lemon",
-      "sugar_syrup"
-    ]
-  },
-  {
-    "drink": "Barracuda",
-    "implied": [
-      "anise",
-      "vanilla"
-    ],
-    "literal": [
-      "galliano",
-      "lime",
-      "pineapple",
-      "sparkling_wine",
-      "white_rum"
-    ]
-  },
-  {
-    "drink": "Bramble",
-    "implied": [],
-    "literal": [
-      "gin",
-      "lemon",
-      "sugar_syrup"
-    ]
-  },
-  {
-    "drink": "Espresso Martini",
-    "implied": [
-      "coffee"
-    ],
-    "literal": [
-      "coffee_liqueur",
-      "sugar_syrup",
-      "vodka"
-    ]
-  },
-  {
-    "drink": "French Martini",
-    "implied": [
-      "raspberry"
-    ],
-    "literal": [
-      "pineapple",
-      "raspberry_liqueur",
-      "vodka"
-    ]
-  },
-  {
-    "drink": "Russian Spring Punch",
-    "implied": [
-      "blackcurrant"
-    ],
-    "literal": [
-      "creme_de_cassis",
-      "lemon",
-      "sugar_syrup",
-      "vodka"
-    ]
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Spritz",
@@ -3152,53 +4054,25 @@
       "campari",
       "soda_water",
       "sparkling_wine"
-    ]
-  },
-  {
-    "drink": "Vampiro",
-    "implied": [],
-    "literal": [
-      "lime",
-      "orange",
-      "salt",
-      "sugar_syrup",
-      "tequila"
-    ]
-  },
-  {
-    "drink": "Vesper",
-    "implied": [],
-    "literal": [
-      "gin",
-      "vodka"
-    ]
-  },
-  {
-    "drink": "Yellow Bird",
-    "implied": [
-      "anise",
-      "orange",
-      "vanilla"
     ],
-    "literal": [
-      "galliano",
-      "lime",
-      "triple_sec",
-      "white_rum"
-    ]
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "A1",
     "implied": [
-      "orange",
-      "pomegranate"
+      "orange"
     ],
     "literal": [
       "gin",
       "grenadine",
       "lemon",
       "triple_sec"
-    ]
+    ],
+    "muted": [
+      "pomegranate"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Ace",
@@ -3211,7 +4085,9 @@
       "gin",
       "grenadine",
       "milk"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Addington",
@@ -3220,7 +4096,9 @@
       "dry_vermouth",
       "soda_water",
       "sweet_vermouth"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Addison",
@@ -3228,20 +4106,24 @@
     "literal": [
       "gin",
       "sweet_vermouth"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Gin Rickey",
-    "implied": [
-      "pomegranate"
-    ],
+    "implied": [],
     "literal": [
       "gin",
       "grenadine",
       "lemon",
       "lime",
       "soda_water"
-    ]
+    ],
+    "muted": [
+      "pomegranate"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Hunter's Moon",
@@ -3250,42 +4132,50 @@
       "cherry",
       "sugar_syrup",
       "sweet_vermouth"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Zombie",
-    "implied": [
-      "pomegranate"
-    ],
+    "implied": [],
     "literal": [
       "angostura_bitters",
       "dark_rum",
       "grenadine",
       "lime",
       "white_rum"
-    ]
+    ],
+    "muted": [
+      "pomegranate"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Rosemary Blue",
-    "implied": [
-      "orange"
-    ],
+    "implied": [],
     "literal": [
       "blue_curacao",
       "gin",
       "rosemary",
       "tonic_water"
-    ]
+    ],
+    "muted": [
+      "orange"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Empellón Cocina's Fat-Washed Mezcal",
-    "implied": [
-      "coffee"
-    ],
+    "implied": [],
     "literal": [
       "coffee_liqueur",
       "mezcal"
-    ]
+    ],
+    "muted": [
+      "coffee"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "The Last Word",
@@ -3297,7 +4187,9 @@
       "green_chartreuse",
       "lime",
       "maraschino"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "French Negroni",
@@ -3306,17 +4198,24 @@
       "gin",
       "orange",
       "sweet_vermouth"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Pegu Club",
-    "implied": [],
+    "implied": [
+      "orange"
+    ],
     "literal": [
       "angostura_bitters",
       "gin",
       "lime",
-      "orange_bitters"
-    ]
+      "orange_bitters",
+      "triple_sec"
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Corpse Reviver",
@@ -3328,7 +4227,9 @@
       "gin",
       "lemon",
       "triple_sec"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Greyhound",
@@ -3336,7 +4237,9 @@
     "literal": [
       "grapefruit",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Bijou",
@@ -3346,7 +4249,9 @@
       "green_chartreuse",
       "orange_bitters",
       "sweet_vermouth"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Gimlet",
@@ -3355,19 +4260,23 @@
       "gin",
       "lime",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Martinez 2",
-    "implied": [
-      "cherry"
-    ],
+    "implied": [],
     "literal": [
       "angostura_bitters",
       "gin",
       "maraschino",
       "sweet_vermouth"
-    ]
+    ],
+    "muted": [
+      "cherry"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Oatmeal Cookie",
@@ -3378,7 +4287,9 @@
     "literal": [
       "coffee_liqueur",
       "irish_cream"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Bahama Mama",
@@ -3391,7 +4302,9 @@
       "orange",
       "pineapple",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "The Laverstoke",
@@ -3403,7 +4316,21 @@
       "mint",
       "sweet_vermouth",
       "tonic_water"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
+  },
+  {
+    "drink": "Brigadier",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "cherry_liqueur",
+      "green_chartreuse"
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "The Jimmy Conway",
@@ -3414,7 +4341,9 @@
       "amaretto",
       "cranberry",
       "irish_whiskey"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Old Pal",
@@ -3423,7 +4352,9 @@
       "campari",
       "dry_vermouth",
       "rye_whiskey"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Tipperary",
@@ -3432,7 +4363,9 @@
       "green_chartreuse",
       "irish_whiskey",
       "sweet_vermouth"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Penicillin",
@@ -3441,7 +4374,9 @@
       "honey",
       "lemon",
       "scotch"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Corn n Oil",
@@ -3449,7 +4384,9 @@
     "literal": [
       "angostura_bitters",
       "lime"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Espresso Rumtini",
@@ -3457,7 +4394,9 @@
     "literal": [
       "coffee",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Brooklyn",
@@ -3468,7 +4407,9 @@
       "dry_vermouth",
       "maraschino",
       "rye_whiskey"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Broadside",
@@ -3478,7 +4419,9 @@
       "dark_rum",
       "scotch",
       "wormwood"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Halloween Punch",
@@ -3489,16 +4432,23 @@
       "ginger",
       "orange",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Munich Mule",
-    "implied": [],
+    "implied": [
+      "ginger"
+    ],
     "literal": [
       "gin",
+      "ginger_ale",
       "lemon",
       "lime"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Honey Bee",
@@ -3507,7 +4457,9 @@
       "honey",
       "lemon",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "747 Drink",
@@ -3515,7 +4467,9 @@
     "literal": [
       "cranberry",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Spice 75",
@@ -3527,7 +4481,9 @@
       "sparkling_wine",
       "sugar_syrup",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Passion Fruit Martini",
@@ -3536,7 +4492,9 @@
       "passionfruit",
       "sugar_syrup",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "White Wine Sangria",
@@ -3547,17 +4505,22 @@
       "lime",
       "soda_water",
       "strawberry"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Pineapple Paloma",
     "implied": [],
     "literal": [
+      "black_pepper",
       "grapefruit",
       "lime",
       "pineapple",
       "tequila"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Funk and Soul",
@@ -3567,7 +4530,9 @@
       "pomegranate",
       "soda_water",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "The Philosopher",
@@ -3577,15 +4542,20 @@
       "lemon",
       "orange_bitters",
       "sparkling_wine"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Raspberry Julep",
     "implied": [],
     "literal": [
       "bourbon",
-      "mint"
-    ]
+      "mint",
+      "raspberry"
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Death in the Afternoon",
@@ -3593,7 +4563,9 @@
     "literal": [
       "absinthe",
       "sparkling_wine"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Lazy Coconut Paloma",
@@ -3604,7 +4576,9 @@
       "coconut_liqueur",
       "grapefruit",
       "soda_water"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Pure Passion",
@@ -3613,7 +4587,9 @@
       "lime",
       "mint",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Orange Rosemary Collins",
@@ -3624,7 +4600,9 @@
       "orange",
       "rosemary",
       "soda_water"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Gin and Soda",
@@ -3633,7 +4611,19 @@
       "gin",
       "lime",
       "soda_water"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
+  },
+  {
+    "drink": "Michelada",
+    "implied": [],
+    "literal": [
+      "lime",
+      "tomato"
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Figgy Thyme",
@@ -3644,7 +4634,9 @@
       "thyme",
       "tonic_water",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Hot Toddy",
@@ -3654,7 +4646,9 @@
       "clove",
       "honey",
       "lemon"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Elderflower Caipirinha",
@@ -3662,7 +4656,9 @@
     "literal": [
       "cachaca",
       "lime"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Winter Rita",
@@ -3673,17 +4669,22 @@
       "orange",
       "salt",
       "tequila"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Winter Paloma",
     "implied": [],
     "literal": [
       "agave",
+      "black_pepper",
       "grapefruit",
       "lime",
       "tequila"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Snowday",
@@ -3694,7 +4695,9 @@
       "orange",
       "port",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Abilene",
@@ -3702,7 +4705,9 @@
     "literal": [
       "dark_rum",
       "orange"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "The Galah",
@@ -3712,7 +4717,9 @@
       "dark_rum",
       "lime",
       "pineapple"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Frosé",
@@ -3721,7 +4728,9 @@
       "lemon",
       "strawberry",
       "sugar_syrup"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Pink Moon",
@@ -3732,7 +4741,9 @@
       "coconut_liqueur",
       "gin",
       "lime"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Pornstar Martini",
@@ -3742,7 +4753,9 @@
       "passionfruit",
       "sparkling_wine",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Mango Mojito",
@@ -3753,7 +4766,9 @@
       "mint",
       "soda_water",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Kiwi Martini",
@@ -3761,13 +4776,13 @@
     "literal": [
       "sugar_syrup",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Acapulco",
-    "implied": [
-      "orange"
-    ],
+    "implied": [],
     "literal": [
       "egg_white",
       "lime",
@@ -3775,7 +4790,11 @@
       "sugar_syrup",
       "triple_sec",
       "white_rum"
-    ]
+    ],
+    "muted": [
+      "orange"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Lemon Elderflower Spritzer",
@@ -3784,7 +4803,9 @@
       "lemon",
       "soda_water",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Vodka Slime",
@@ -3792,7 +4813,9 @@
     "literal": [
       "lime",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Vodka Lemon",
@@ -3800,7 +4823,9 @@
     "literal": [
       "lemon",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Vodka Tonic",
@@ -3809,7 +4834,9 @@
       "lemon",
       "tonic_water",
       "vodka"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Gin Tonic",
@@ -3818,7 +4845,9 @@
       "gin",
       "lemon",
       "tonic_water"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Gin Lemon",
@@ -3826,7 +4855,9 @@
     "literal": [
       "gin",
       "lemon"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Ramos Gin Fizz",
@@ -3839,32 +4870,22 @@
       "soda_water",
       "sugar_syrup",
       "vanilla"
-    ]
-  },
-  {
-    "drink": "Planter’s Punch",
-    "implied": [
-      "pomegranate"
     ],
-    "literal": [
-      "angostura_bitters",
-      "dark_rum",
-      "grenadine",
-      "orange",
-      "pineapple",
-      "sugar_syrup"
-    ]
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Adam",
-    "implied": [
-      "pomegranate"
-    ],
+    "implied": [],
     "literal": [
       "dark_rum",
       "grenadine",
       "lemon"
-    ]
+    ],
+    "muted": [
+      "pomegranate"
+    ],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Old Cuban",
@@ -3875,7 +4896,9 @@
       "sparkling_wine",
       "sugar_syrup",
       "white_rum"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Affair",
@@ -3884,7 +4907,9 @@
       "cranberry",
       "orange",
       "soda_water"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   },
   {
     "drink": "Affinity",
@@ -3894,6 +4919,8 @@
       "orange_bitters",
       "scotch",
       "sweet_vermouth"
-    ]
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
   }
 ]

@@ -940,5 +940,107 @@
     "season": null,
     "notes": "Pomegranate syrup; decomposes to pomegranate for co-occurrence.",
     "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "creme_de_menthe",
+    "display_name": "Creme de menthe",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "mint"
+    ],
+    "descriptors": [
+      "mint",
+      "sweet",
+      "cool"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "mint"
+    ]
+  },
+  {
+    "id": "cherry_liqueur",
+    "display_name": "Cherry liqueur (Heering-style)",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "cherry"
+    ],
+    "descriptors": [
+      "cherry",
+      "sweet",
+      "dark"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "cherry"
+    ]
+  },
+  {
+    "id": "pisco",
+    "display_name": "Pisco",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "grape"
+    ],
+    "descriptors": [
+      "grape",
+      "floral",
+      "clean"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "drambuie",
+    "display_name": "Drambuie",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "honey"
+    ],
+    "descriptors": [
+      "honey",
+      "herbal",
+      "scotch"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "honey"
+    ]
+  },
+  {
+    "id": "calvados",
+    "display_name": "Calvados",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "apple"
+    ],
+    "descriptors": [
+      "apple",
+      "oak",
+      "orchard"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "apple"
+    ]
   }
 ]
