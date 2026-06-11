@@ -686,7 +686,8 @@
     "source": "Provisional entry; see notes.",
     "flavor_forward": [
       "blackcurrant"
-    ]
+    ],
+    "imply_min_oz": 0.0
   },
   {
     "id": "coconut_liqueur",
@@ -939,7 +940,8 @@
     "is_native": false,
     "season": null,
     "notes": "Pomegranate syrup; decomposes to pomegranate for co-occurrence.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "imply_min_oz": 0.0
   },
   {
     "id": "creme_de_menthe",
@@ -960,7 +962,8 @@
     "source": "Provisional entry; see notes.",
     "flavor_forward": [
       "mint"
-    ]
+    ],
+    "imply_min_oz": 0.0
   },
   {
     "id": "cherry_liqueur",
@@ -1041,6 +1044,66 @@
     "source": "Provisional entry; see notes.",
     "flavor_forward": [
       "apple"
+    ]
+  },
+  {
+    "id": "whole_egg",
+    "display_name": "Whole egg",
+    "type": "composite",
+    "role": "dairy",
+    "botanicals": [
+      "egg_white",
+      "egg_yolk"
+    ],
+    "descriptors": [
+      "rich",
+      "silky"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Decomposes to white + yolk (flips, nogs).",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "egg_white",
+      "egg_yolk"
+    ]
+  },
+  {
+    "id": "sherry",
+    "display_name": "Sherry",
+    "type": "composite",
+    "role": "aromatic",
+    "botanicals": [
+      "grape"
+    ],
+    "descriptors": [
+      "nutty",
+      "oxidative",
+      "grape"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "anisette",
+    "display_name": "Anisette",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "anise"
+    ],
+    "descriptors": [
+      "anise",
+      "sweet"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "anise"
     ]
   }
 ]

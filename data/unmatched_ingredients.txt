@@ -1,149 +1,455 @@
 34	ice
-27	water
+33	water
+21	blended whiskey
+8	cucumber
+8	lemonade
 8	yoghurt
-7	egg
+7	creme de banana
+7	lemon lime soda
+7	peach bitter
 7	sweet and sour
+7	worcestershire sauce
+6	7 up
+6	amaro
+6	anejo tequila
 6	beer
-6	blended whiskey
-6	lemonade
-5	7 up
+6	jamaica rum
+6	maple syrup
+6	old thompson blended whiskey
+6	orange flavored gin
+6	orange flavored vodka
+6	orgeat or almond syrup
+6	vanilla ice cream
+5	canadian whisky
+5	demerara syrup
+5	dubonnet rouge
+5	hot shot tropical fruit liqueur
 5	jagermeister
-5	lemon lime soda
-4	cherry brandy
+5	kummel
+5	lemon or lime
+5	madeira
+5	melon liqueur
+5	sake
+5	sour mix
+5	sweet cream
+4	absinthe or pastis
+4	blackberry flavored brandy
 4	chocolate
 4	crown royal
+4	cynar
 4	elderflower cordial
 4	goldschlager
+4	hot red pepper sauce
+4	lemon superfine sugar
+4	lime superfine sugar
 4	midori melon liqueur
-4	sherry
-4	sour mix
+4	rock and rye
+4	root beer
+4	single malt scotch whisky
 4	sprite
+4	swedish punch
 4	tea
-3	anis
-3	blackberry brandy
+4	vanilla liqueur
+3	aged rhum agricole
+3	apple cider
+3	banana
+3	black raspberry liqueur
+3	blood orange
+3	butterscotch schnapp
+3	cayenne pepper
 3	chocolate syrup
 3	cocoa powder
+3	coconut flavored rum
 3	condensed milk
-3	egg yolk
+3	creme yvette
+3	curacao
 3	everclear
+3	falernum
+3	fernet branca
+3	forbidden fruit
 3	frangelico
 3	fruit
+3	ginger liqueur
+3	grapefruit bitter
+3	honey liqueur
 3	kiwi
 3	kool aid
 3	lager
-3	root beer
-3	sloe gin
+3	lemon flavored vodka
+3	light or dark rum
+3	mandarine napoleon liqueur
+3	raspberry flavored liqueur
+3	rose water
+3	rye or bourbon whiskey
 3	southern comfort
-3	vanilla ice cream
+3	strawberry schnapp
+3	strega
+3	vinegar
 3	whiskey
 3	wine
-3	worcestershire sauce
-2	apple brandy
-2	applejack
-2	banana
+2	100 proof vodka
+2	allspice liqueur
+2	apricot nectar
+2	aquavit
+2	aromatic bitter
 2	banana liqueur
+2	black cherry flavored vodka
 2	blackberry
+2	blackberry brandy
+2	blackberry liqueur
+2	cherry vodka
+2	chilled stout
 2	chocolate liqueur
+2	cilantro
+2	cinnamon schnapp
+2	coconut rum
+2	cold beef bouillon
+2	cold brewed coffee
+2	concord grape
 2	corona
-2	creme de banane
+2	cream coconut
+2	creme de noyaux
+2	creme de violette
 2	fruit punch
+2	gin and ginger ale
+2	ginger syrup
+2	gold tequila
+2	grapefruit flavored vodka
+2	green olive
+2	hard cider
 2	hot damn
+2	iced tea
+2	kirschwasser
+2	lemon twist
+2	light sweet cream
+2	lillet rouge
+2	lime coarse salt
+2	manzanilla sherry
+2	mint flavored gin
+2	mint syrup
+2	mr boston five star brandy
+2	mr boston rum
+2	mr boston triple sec
+2	mr boston vodka
+2	palo cortado or oloroso sherry
 2	passoa
-2	peach bitter
+2	peach flavored brandy
+2	pomegranate molass
+2	punt e mes
+2	ramazzotti amaro
+2	rhubarb bitter
 2	rosemary syrup
 2	schweppe russchian
 2	sherbet
+2	strawberry liqueur
 2	surge
 2	tabasco sauce
+2	tomato catsup
+2	unsweetened grape
+2	white port wine
 2	zima
+1	17 year old j wray and nephew ltd rum
 1	absolut kurant
+1	acai berry flavored vodka
 1	advocaat
-1	agave nectar
+1	african rum
+1	agave nectar strawberry
+1	almond extract
 1	almond flavoring
+1	almond milk
+1	almond or orgeat syrup
+1	amaro nonino
+1	amer picon or torani amer
+1	amontillado sherry
 1	anejo rum
-1	anisette
+1	angostura bitter flamed lemon twist
+1	angostura bitter lime wheel
 1	apfelkorn
-1	apricot nectar
+1	apple flavored brandy
+1	apple schnapp
+1	apple schnapp grapefruit twist
+1	aquavit or vodka
+1	armagnac
 1	asafoetida
+1	b and b
+1	bacardi rum
+1	balsamic vinegar
+1	batavia arrack or light rum
+1	becherovka
+1	bing cherry
+1	bison grass vodka
 1	bitter lemon
-1	blackberry liqueur
+1	bitter lemon soda
+1	bitter truth s jerry thoma own decanter bitter
+1	black cherry
 1	blackcurrant cordial
 1	blackstrap rum
-1	blood orange
+1	blood orange liqueur
+1	blueberry
 1	blueberry schnapp
+1	brandy preferably spanish
+1	brown sugar such as demerara
 1	butter
-1	butterscotch schnapp
+1	calvado apple brandy or applejack
+1	canned coconut milk
 1	caramel coloring
 1	carbonated soft drink
-1	cayenne pepper
+1	carrot
+1	catsup
+1	celery
+1	champagne chopped fresh mint
+1	champagne or sparkling wine mint
+1	cherry tomato
+1	chile syrup
+1	chilled moscato d asti or sweet sparkling wine
+1	chilled passion fruit
+1	chilled rhine wine or sauterne
+1	chilled sparkling wine
+1	chilled sparkling wine or champagne
+1	chocolate bitter
 1	cider
+1	cinnamon stick
+1	clam
+1	claret
+1	clementine or mandarin orange
+1	coarse salt
 1	coconut syrup
-1	coffee brandy
+1	coffee flavored liqueur
+1	cointreau triple sec
+1	cold brewed black tea preferably japanese
+1	cold brewed chai tea
+1	cold brewed espresso coffee
+1	cold brewed green tea
+1	cold water
 1	corn syrup
-1	cream coconut
-1	cucumber
+1	cranberry juice lemon wheel
+1	crema di limoncello
+1	creme de banane
+1	creme de peche
+1	creme fraiche
+1	creole shrubb
+1	crushed ice
+1	crushed pineapple
+1	cucumber chopped
 1	cumin seed
 1	daiquiri mix
+1	danish cherry wine
+1	dark rum preferably jamaican
+1	dill pickle brine
 1	dr pepper
+1	dried orange peel
 1	dry white wine
-1	dubonnet rouge
-1	falernum
+1	each citrus flavored vodka and orange flavored vodka
+1	each cranberry juice and orange
+1	each cranberry juice orange juice pineapple juice lemon
+1	each cranberry juice orange juice spiced rum
+1	each dark rum light rum
+1	each fresh lemon juice and cranberry
+1	each fresh lemon juice angostura bitter
+1	each fresh lemon juice fresh lime
+1	each fresh lemon juice simple syrup 1 lime wheel
+1	each fresh lemon juice triple sec
+1	each fresh lime juice jamaica rum grenadine
+1	each fresh lime juice lemon juice pineapple juie and passion fruit syrup
+1	each fresh orange juice pineapple juice cranberry
+1	each light rum gin vodka blanco tequila blue curacao
+1	each lillet blanc and lillet rouge
+1	each orange juice and simple syrup
+1	each orange juice and sweet sherry
+1	each simple syrup angostura bitter
+1	each simple syrup grenadine
+1	each simple syrup light rum dark rum
+1	each triple sec simple syrup
+1	each vodka tequila blanco triple sec
+1	each worcestershire sauce salt ground black pepper
+1	egg yolk 1 oz
 1	fig
 1	firewater
+1	for glass lemon coarse salt
 1	fresca
 1	fresh red hot chili pepper
-1	ginger syrup
+1	freshly ground black pepper
+1	georgia moon corn whiskey
+1	ginger ale or soda water
+1	ginger ale strawberry
+1	ginger beer 1 oz
+1	gingerbread liqueur
 1	godiva liqueur
 1	gold rum
 1	grain alcohol
-1	grape soda
+1	grape vodka
+1	grapefruit marmalade
+1	grapefruit soda
+1	grapefruit twist
+1	grenadine lime wheel
+1	grenadine maraschino cherry
+1	guava puree
 1	guinness stout
+1	heavy cream whipped
+1	hennessy v s cognac
+1	honey currant syrup
+1	hot black coffee
 1	hot chocolate
 1	hot sauce
-1	iced tea
+1	hot tea
+1	imported rum
+1	irish cream liqueur
+1	italian preserved cherry
+1	jalapeno hot pepper sauce cucumber
+1	jalapeno infused tequila
 1	jello
+1	ketchup
 1	kirsch
 1	kiwi liqueur
-1	lillet
-1	lillet blanc
+1	lavender syrup
+1	lemon and lime wheel
+1	lemon celery salt
+1	lemon cinnamon sugar
+1	lemon coarse salt
+1	lemon juice and 3 oz
+1	lemon juice lemon twiste fresh pomegranate seed
+1	lemon or orange sherbet
+1	lemon superfine sugar long wide spiral orange zest
+1	lemon wheel coarse salt
+1	light cream 1 2 oz
+1	light vermouth
 1	lillet blonde
 1	lime cut into 4
 1	lime in highball glass
+1	lime juice coarse salt
+1	lime juice lime wheel
+1	lime juice whole strawberry
+1	lime liqueur
+1	lime pink sanding sugar
+1	lime superfine sugar or coarse salt
+1	lime sweet chili powder
 1	limeade
-1	maple syrup
+1	long thyme
+1	lump sugar
+1	lychee liqueur
+1	mango flavored vodka
+1	mango nectar
+1	margarita mix
 1	marshmallow
-1	melon liqueur
-1	mint syrup
+1	medium egg
+1	minced ginger
+1	mole bitter 1 oz
 1	mountain dew
+1	mr boston apricot flavored brandy
+1	mr boston creme de menthe
+1	mr boston creme de noyaux
+1	muscatel wine
+1	old kentucky tavern bourbon whiskey
+1	old tom gin
+1	oloroso sherry
 1	onion finely chopped
+1	orange blossom water
 1	orange flower water
+1	orange half wheel
+1	orange juice and orange wheel
+1	orange liqueur
+1	orange marmalade grapefruit twist
+1	orange twist green olive
+1	orange wheel
 1	oreo cookie
 1	ouzo
 1	papaya
-1	passion fruit syrup
+1	passion fruit juice basil
+1	pastis
 1	peach brandy
+1	peach flavored vodka
+1	peach liqueur
 1	peach nectar
-1	pernod
+1	peach skinned
+1	pear brandy
+1	pear flavored vodka
+1	pear liqueur
+1	pedro ximenez sherry
+1	peeled and chopped fresh ginger
+1	peeled fresh ginger
+1	peppermint schnapp
+1	pimm s no 1 cup
 1	pina colada mix
+1	pineapple maraschino cherry
+1	pineapple or grapefruit
 1	pineapple syrup
 1	pink lemonade
 1	pisang ambon
+1	pomegranate syrup
+1	prepared horseradish
+1	raspberry and strawberry 2 peach maraschino cherry
+1	raspberry flavored vodka
+1	raspberry ice cream
+1	raspberry lemon twist
+1	raspberry yogurt
 1	red chili flake
+1	red grape
+1	reposado blanco tequila
+1	rhubarb syrup
 1	ricard
+1	ripe pear
+1	rock candy syrup or simple syrup
+1	ros lime
 1	ros sweetened lime
 1	rose
+1	rose s lime
+1	ruby red grapefruit
 1	rumple minze
 1	sarsaparilla
+1	simple syrup 3 4 oz
+1	simple syrup scant
 1	sirup ros
+1	smoky scotch such as laphroaig
+1	smoky scotch whisky such as islay or skye
+1	smoky scotch whisky such as laphroaig
+1	soda water orange and lemon wheel maraschino cherry
 1	soy sauce
+1	sparkling apple cider
+1	sparkling wine raspberry and cucumber
 1	splash soda water
-1	strawberry liqueur
-1	strawberry schnapp
+1	splash triple sec
+1	spring mint
+1	straight rye whisky
+1	strawberry chopped
+1	strawberry cut in half
+1	strawberry cut in halve
+1	strawberry cut into halve
 1	strawberry syrup
+1	superfine sugar
+1	sweet pickle
+1	sweet pickle brine
+1	sweet sherry
+1	sweet sherry preferably pedro ximenez
 1	tabasco
+1	tanqueray gin
+1	thin peeled fresh ginger
 1	tia maria
+1	tiki bitter such as bittermen s elemakule
+1	tiki or angostura bitter garnish fresh mint
+1	tomato clam
+1	tropical fruit schnapp
+1	unsprayed rose petal
+1	v8 cocktail
+1	vanilla flavored vodka
+1	vanilla infused bourbon
+1	vanilla liqueur and 3 oz
 1	vanilla syrup
+1	vanilla syrup preferably b reynold s
+1	vs cognac
+1	whiskey barrel bitter
 1	whisky
+1	white chocolate liqueur
+1	white curacao
+1	white curacao or triple sec
+1	white grape
+1	white or dark creme de cacao
+1	white or ruby red grapefruit
+1	white whiskey
 1	white wine
-1	yellow chartreuse
+1	whole egg and grated nutmet
+1	whole milk
+1	whole strawberry
+1	whole strawberry hulled
+1	wide spiral lemon zest
+1	wild cherry flavored brandy
 1	yukon jack

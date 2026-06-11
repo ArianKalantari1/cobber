@@ -1469,7 +1469,8 @@
     "source": "Provisional entry; see notes.",
     "flavor_forward": [
       "almond"
-    ]
+    ],
+    "imply_min_oz": 0.0
   },
   {
     "id": "coconut",
@@ -1565,5 +1566,20 @@
     "season": null,
     "notes": "Bloody Mary base; savoury/umami side is a V2 taste-axis job. TODO: verify",
     "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "egg_yolk",
+    "display_name": "Egg yolk",
+    "type": "raw",
+    "role": "dairy",
+    "compounds": [],
+    "descriptors": [
+      "rich",
+      "custard"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Texture/richness more than aroma; flips and nogs. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
   }
 ]

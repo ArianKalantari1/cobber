@@ -35,6 +35,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 COCKTAILDB_RECIPES = ROOT / "data" / "raw" / "thecocktaildb.json"
 IBA_RECIPES = ROOT / "data" / "raw" / "iba.json"
+BOSTON_RECIPES = ROOT / "data" / "raw" / "boston_cocktails.csv"
 INGREDIENTS_PATH = ROOT / "data" / "ingredients.json"
 COMPOSITES_PATH = ROOT / "data" / "composites.json"
 ALIASES_PATH = ROOT / "data" / "ingredient_aliases.json"
@@ -43,8 +44,12 @@ NORMALIZED_RECIPES_PATH = ROOT / "data" / "recipes_normalized.json"
 COMPONENTS_PATH = ROOT / "data" / "recipes_components.json"
 
 # Below this pour (in oz), a composite is a modifier dose and its
-# flavor_forward components are not implied into the recipe.
-DEFAULT_IMPLY_MIN_OZ = 0.6
+# flavor_forward components are not implied into the recipe. Set so that only
+# true splashes (dashes, teaspoons, drops) are muted: a 1.5 cl / 0.5 oz pour
+# of orgeat or curacao in a Mai-Tai is a deliberate flavour statement and must
+# survive. Entries can override per-ingredient via "imply_min_oz" (e.g. 0.0
+# for flavour-dense syrups where even a splash carries the note).
+DEFAULT_IMPLY_MIN_OZ = 0.45
 
 TRAILING_PHRASES = (
     "freshly squeezed",
@@ -177,13 +182,14 @@ def normalize_name(name: str) -> str:
     return " ".join(tokens).strip()
 
 
-def _build_known_maps() -> tuple[set[str], dict[str, str], dict[str, list[str]]]:
+def _build_known_maps() -> tuple[set[str], dict[str, str], dict[str, list[str]], dict[str, float]]:
     ingredients = _load_json(INGREDIENTS_PATH)
     composites = _load_json(COMPOSITES_PATH)
 
     canonical_ids: set[str] = set()
     name_to_id: dict[str, str] = {}
     flavor_forward: dict[str, list[str]] = {}
+    imply_overrides: dict[str, float] = {}
     for entry in [*ingredients, *composites]:
         ingredient_id = entry["id"]
         canonical_ids.add(ingredient_id)
@@ -196,7 +202,9 @@ def _build_known_maps() -> tuple[set[str], dict[str, str], dict[str, list[str]]]
         forward = entry.get("flavor_forward")
         if isinstance(forward, list) and forward:
             flavor_forward[ingredient_id] = [str(item) for item in forward]
-    return canonical_ids, name_to_id, flavor_forward
+        if isinstance(entry.get("imply_min_oz"), (int, float)):
+            imply_overrides[ingredient_id] = float(entry["imply_min_oz"])
+    return canonical_ids, name_to_id, flavor_forward, imply_overrides
 
 
 def _choose_fuzzy_match(normalized_raw: str, known_names: dict[str, str], cutoff: float = 0.93) -> str | None:
@@ -296,6 +304,39 @@ def _iter_iba() -> list[dict]:
     return drinks
 
 
+def _iter_boston() -> list[dict]:
+    """Yield Mr. Boston drink records grouped from the per-ingredient CSV.
+
+    Brand-prefixed names ("Old Mr. Boston Dry Gin") also offer the de-branded
+    remainder as a match candidate, and "Juice of a Lemon"-style phrasings are
+    reordered to the plain ingredient.
+    """
+    if not BOSTON_RECIPES.exists():
+        return []
+    import csv
+
+    drinks: dict[str, list] = {}
+    with BOSTON_RECIPES.open(encoding="utf-8") as handle:
+        for row in csv.DictReader(handle):
+            name = (row.get("name") or "").strip()
+            ingredient = (row.get("ingredient") or "").strip()
+            if not name or not ingredient:
+                continue
+            candidates = [ingredient]
+            cleaned = _clean_text(ingredient)
+            if cleaned.startswith("old mr boston "):
+                candidates.append(cleaned[len("old mr boston ") :])
+            juice_of = re.match(r"juice of (?:a|an|\d+(?:/\d+)?)?\s*(.+)", cleaned)
+            if juice_of:
+                candidates.append(juice_of.group(1))
+            volume = parse_measure_oz(row.get("measure"))
+            drinks.setdefault(name, []).append((candidates, volume))
+    return [
+        {"name": name, "source": "mrboston", "items": items}
+        for name, items in drinks.items()
+    ]
+
+
 def _dedupe_key(drink_name: str) -> str:
     return re.sub(r"[^a-z0-9]", "", drink_name.lower())
 
@@ -303,7 +344,7 @@ def _dedupe_key(drink_name: str) -> str:
 def normalize_recipes(
     imply_min_oz: float = DEFAULT_IMPLY_MIN_OZ,
 ) -> tuple[list[list[str]], list[dict], dict[str, str], Counter[str]]:
-    canonical_ids, known_names, flavor_forward = _build_known_maps()
+    canonical_ids, known_names, flavor_forward, imply_overrides = _build_known_maps()
     alias_map = _load_aliases()
     learned_aliases: dict[str, str] = {}
     unmatched = Counter()
@@ -325,10 +366,10 @@ def normalize_recipes(
                 return chosen_id
         return None
 
-    # IBA first: when the same drink exists in both corpora, the official
-    # recipe wins and the duplicate is skipped rather than double-counted.
+    # Priority order for cross-corpus duplicates: the IBA official recipe wins,
+    # then Mr. Boston (a bartender's guide), then TheCocktailDB.
     seen_names: set[str] = set()
-    for drink in [*_iter_iba(), *_iter_cocktaildb()]:
+    for drink in [*_iter_iba(), *_iter_boston(), *_iter_cocktaildb()]:
         key = _dedupe_key(drink["name"])
         if key and key in seen_names:
             continue
@@ -362,7 +403,8 @@ def normalize_recipes(
                 components = flavor_forward.get(ingredient_id)
                 if not components:
                     continue
-                target = muted if (volume is not None and volume < imply_min_oz) else implied
+                threshold = imply_overrides.get(ingredient_id, imply_min_oz)
+                target = muted if (volume is not None and volume < threshold) else implied
                 target.update(c for c in components if c not in matched)
             implied -= set(matched)
             muted -= set(matched) | implied
