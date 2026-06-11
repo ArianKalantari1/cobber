@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cobber"
+version = "0.1.0"
+description = "Cobber the Mixologist — a local, deterministic flavour-chemistry MCP server for inventing cocktails."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Arian Kalantari" }]
+keywords = ["mcp", "cocktails", "flavour", "chemistry", "bartending"]
+dependencies = [
+    "mcp>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[project.scripts]
+cobber = "cobber.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cobber"]
+
+# The JSON data lives outside the package (in <repo>/data) and is read at runtime
+# via a path relative to the source tree. Include it in the sdist for completeness.
+[tool.hatch.build.targets.sdist]
+include = ["src/cobber", "data", "tests", "README.md"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
