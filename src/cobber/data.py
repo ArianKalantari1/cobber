@@ -29,6 +29,7 @@ VALID_ROLES = {
     "herb",
     "dairy",
 }
+VALID_CONFIDENCE = {"solid", "moderate", "sparse"}
 
 
 @dataclass(frozen=True)
@@ -163,6 +164,7 @@ def load_pantry() -> Pantry:
     # works regardless of argument order. Unknown ids here are tolerated (the
     # default tradition is 0 anyway), so this table never blocks a load.
     for row in tradition_entries:
+        _validate_tradition_row(row)
         a, b = row["pair"]
         pantry.tradition[frozenset((a, b))] = float(row["tradition"])
 
@@ -177,3 +179,36 @@ def _validate_role(entry: dict) -> None:
             f"Ingredient {entry.get('id')!r} has invalid role {role!r}; "
             f"valid roles are {sorted(VALID_ROLES)}."
         )
+
+
+def _validate_tradition_row(row: dict) -> None:
+    """Raise ``ValueError`` if one tradition row is structurally invalid."""
+    pair = row.get("pair")
+    if not isinstance(pair, list) or len(pair) != 2:
+        raise ValueError("Each tradition row must include pair: [a, b].")
+
+    a, b = pair
+    if not isinstance(a, str) or not isinstance(b, str) or not a or not b:
+        raise ValueError("Tradition pair ids must be non-empty strings.")
+    if a == b:
+        raise ValueError("Tradition pair ids must contain two distinct ingredients.")
+
+    try:
+        tradition_value = float(row["tradition"])
+    except (KeyError, TypeError, ValueError) as error:
+        raise ValueError("Each tradition row must include numeric 'tradition'.") from error
+    if not 0.0 <= tradition_value <= 1.0:
+        raise ValueError("Tradition score must be in [0.0, 1.0].")
+
+    if "count" in row:
+        count = row["count"]
+        if not isinstance(count, int) or count < 1:
+            raise ValueError("Tradition row 'count' must be an integer >= 1.")
+
+    if "confidence" in row:
+        confidence = row["confidence"]
+        if confidence not in VALID_CONFIDENCE:
+            raise ValueError(
+                f"Tradition row confidence {confidence!r} is invalid; "
+                f"must be one of {sorted(VALID_CONFIDENCE)}."
+            )

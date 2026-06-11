@@ -78,3 +78,19 @@ def test_native_twist_attaches_a_swap_when_no_native_present():
     # None of these ingredients is native, so at least the top result should carry
     # a bridging native suggestion.
     assert any(r["native_swap"] is not None for r in results)
+
+
+def test_classic_pair_has_positive_tradition():
+    """A classic pairing from the corpus should produce a positive tradition score."""
+    assert engine.tradition("tequila", "lime") > 0.1
+
+
+def test_unlisted_pair_defaults_to_zero_tradition():
+    """Pairs missing from the co-occurrence table should return zero tradition."""
+    assert engine.tradition("wattleseed", "cointreau") == 0.0
+
+
+def test_tradition_file_with_extra_fields_loads_cleanly():
+    """Tradition rows with additive fields (count/confidence) should load and validate."""
+    pantry = load_pantry()
+    assert pantry.tradition
