@@ -81,8 +81,23 @@ def test_native_twist_attaches_a_swap_when_no_native_present():
 
 
 def test_classic_pair_has_positive_tradition():
-    """A classic pairing from the corpus should produce a positive tradition score."""
-    assert engine.tradition("tequila", "lime") > 0.1
+    """The spec's canonical pair (gin + lime) must score clearly positive.
+
+    Under the old raw-NPMI score this landed at 0.0 — gin and lime are both so
+    common that co-occurring 12 times is no better than chance. The log-prevalence
+    score reflects how often the pairing is actually made, so a gimlet ranks high.
+    """
+    assert engine.tradition("gin", "lime") > 0.3
+
+
+def test_ubiquitous_classic_outranks_a_one_off_pair():
+    """A pair made in many recipes must out-score one seen in a single recipe.
+
+    This pins the fix for the NPMI inversion: lavender + St-Germain appeared in
+    exactly one recipe (raw NPMI = 1.0), yet must rank below the daiquiri's
+    lime + white rum, which the corpus makes constantly.
+    """
+    assert engine.tradition("white_rum", "lime") > engine.tradition("lavender", "st_germain")
 
 
 def test_unlisted_pair_defaults_to_zero_tradition():

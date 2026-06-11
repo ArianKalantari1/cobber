@@ -1,17 +1,23 @@
 [
   [
     "lime",
-    "mint"
+    "mint",
+    "soda_water",
+    "sugar_syrup",
+    "white_rum"
   ],
   [
     "angostura_bitters",
-    "bourbon"
+    "bourbon",
+    "sugar_syrup"
   ],
   [
+    "cola",
     "gin",
     "lemon",
     "tequila",
-    "vodka"
+    "vodka",
+    "white_rum"
   ],
   [
     "campari",
@@ -20,27 +26,40 @@
   ],
   [
     "cherry",
-    "lemon"
+    "lemon",
+    "sugar_syrup"
   ],
   [
     "dry_vermouth",
-    "gin"
+    "gin",
+    "olive"
   ],
   [
     "lime",
+    "sugar_syrup",
+    "white_rum"
+  ],
+  [
+    "lime",
+    "salt",
     "tequila",
     "triple_sec"
   ],
   [
     "angostura_bitters",
     "bourbon",
+    "cherry",
+    "orange",
     "sweet_vermouth"
   ],
   [
+    "ginger_ale",
     "lime",
     "vodka"
   ],
   [
+    "cream",
+    "creme_de_cacao",
     "gin",
     "nutmeg"
   ],
@@ -54,6 +73,7 @@
     "lemon"
   ],
   [
+    "coffee_liqueur",
     "dark_rum",
     "egg_white"
   ],
@@ -62,18 +82,31 @@
     "triple_sec"
   ],
   [
+    "angostura_bitters",
     "gin",
     "sweet_vermouth"
   ],
   [
+    "angostura_bitters",
     "dry_vermouth",
+    "scotch",
     "sweet_vermouth"
   ],
   [
+    "lemon",
+    "sweet_vermouth"
+  ],
+  [
+    "angostura_bitters",
+    "blue_curacao",
+    "cherry",
     "gin",
+    "lemon",
     "triple_sec"
   ],
   [
+    "angostura_bitters",
+    "cherry",
     "dry_vermouth",
     "gin",
     "maraschino"
@@ -81,18 +114,26 @@
   [
     "cherry",
     "egg_white",
-    "lemon"
+    "lemon",
+    "sugar_syrup"
   ],
   [
     "egg_white",
     "gin",
+    "grenadine",
     "lemon",
     "triple_sec"
   ],
   [
+    "cachaca",
+    "lime",
+    "sugar_syrup"
+  ],
+  [
     "lime",
     "maraschino",
-    "triple_sec"
+    "triple_sec",
+    "white_rum"
   ],
   [
     "gin",
@@ -101,8 +142,16 @@
     "orange_bitters"
   ],
   [
+    "cream",
+    "white_rum"
+  ],
+  [
     "egg_white",
-    "lemon"
+    "lemon",
+    "port",
+    "soda_water",
+    "sugar_syrup",
+    "white_rum"
   ],
   [
     "brandy",
@@ -110,18 +159,38 @@
     "triple_sec"
   ],
   [
+    "cola",
+    "lime",
+    "white_rum"
+  ],
+  [
     "gin",
+    "ginger_ale",
     "lime"
+  ],
+  [
+    "dry_vermouth",
+    "lemon",
+    "scotch"
+  ],
+  [
+    "angostura_bitters",
+    "gin",
+    "lemon"
   ],
   [
     "brandy",
     "gin",
+    "lemon",
+    "soda_water",
     "sweet_vermouth"
   ],
   [
+    "apricot_brandy",
     "cherry",
     "dry_vermouth",
     "gin",
+    "grenadine",
     "lemon"
   ],
   [
@@ -129,79 +198,130 @@
     "triple_sec"
   ],
   [
+    "angostura_bitters",
+    "scotch",
     "sugar_syrup",
     "sweet_vermouth"
   ],
   [
+    "amaretto",
+    "cream",
+    "creme_de_cacao"
+  ],
+  [
+    "benedictine",
     "lemon",
     "lime"
   ],
   [
     "cherry",
     "lime",
-    "triple_sec"
+    "sugar_syrup",
+    "triple_sec",
+    "white_rum"
   ],
   [
     "lime",
-    "mint"
+    "mint",
+    "sugar_syrup",
+    "white_rum"
   ],
   [
     "lime",
-    "pineapple"
+    "pineapple",
+    "sugar_syrup",
+    "white_rum"
   ],
   [
     "gin",
     "lemon",
-    "orange"
+    "orange",
+    "soda_water",
+    "sugar_syrup"
+  ],
+  [
+    "cherry",
+    "gin",
+    "grenadine",
+    "lemon",
+    "orange",
+    "sugar_syrup"
   ],
   [
     "gin",
-    "lemon"
+    "lemon",
+    "soda_water",
+    "sugar_syrup"
   ],
   [
     "gin",
-    "lemon"
+    "lemon",
+    "orange",
+    "sugar_syrup"
   ],
   [
     "cherry",
     "gin",
     "mint",
-    "orange"
+    "orange",
+    "soda_water",
+    "sugar_syrup"
+  ],
+  [
+    "cherry",
+    "gin",
+    "lemon",
+    "orange",
+    "sugar_syrup"
+  ],
+  [
+    "gin",
+    "grenadine",
+    "pineapple",
+    "soda_water",
+    "strawberry",
+    "sugar_syrup"
+  ],
+  [
+    "angostura_bitters",
+    "gin",
+    "lime",
+    "soda_water",
+    "sugar_syrup"
   ],
   [
     "gin",
     "lemon",
-    "orange"
+    "sugar_syrup"
   ],
   [
-    "gin",
-    "pineapple",
-    "strawberry"
+    "amaretto",
+    "cream",
+    "vodka"
   ],
   [
-    "gin",
-    "lime"
+    "amaretto",
+    "scotch"
   ],
   [
     "amaretto",
     "vodka"
   ],
   [
-    "amaretto",
-    "vodka"
-  ],
-  [
     "gin",
+    "grenadine",
     "pineapple",
     "triple_sec"
   ],
   [
+    "galliano",
     "orange",
     "vodka"
   ],
   [
     "lemon",
-    "pineapple"
+    "pineapple",
+    "white_rum"
   ],
   [
     "gin",
@@ -209,16 +329,32 @@
     "triple_sec"
   ],
   [
+    "olive",
     "orange_bitters",
+    "scotch",
     "sweet_vermouth"
   ],
   [
+    "lemon",
+    "soda_water",
+    "sugar_syrup",
+    "white_rum"
+  ],
+  [
     "cherry",
+    "irish_whiskey",
     "orange"
   ],
   [
+    "grenadine",
+    "lime"
+  ],
+  [
     "egg_white",
-    "lemon"
+    "lemon",
+    "port",
+    "soda_water",
+    "sugar_syrup"
   ],
   [
     "gin",
@@ -226,8 +362,11 @@
   ],
   [
     "bourbon",
+    "cherry",
     "lemon",
-    "orange"
+    "orange",
+    "soda_water",
+    "sugar_syrup"
   ],
   [
     "lime",
@@ -235,9 +374,26 @@
     "vodka"
   ],
   [
+    "benedictine",
+    "bourbon"
+  ],
+  [
+    "benedictine",
+    "bourbon",
+    "lemon"
+  ],
+  [
+    "cream",
     "egg_white",
     "gin",
-    "lemon"
+    "lemon",
+    "soda_water",
+    "sugar_syrup"
+  ],
+  [
+    "dry_vermouth",
+    "lemon",
+    "scotch"
   ],
   [
     "gin",
@@ -250,101 +406,225 @@
   ],
   [
     "dry_vermouth",
-    "gin"
+    "gin",
+    "lemon",
+    "orange",
+    "soda_water",
+    "sugar_syrup"
   ],
   [
     "cherry",
-    "triple_sec"
+    "orgeat",
+    "triple_sec",
+    "white_rum"
   ],
   [
     "dry_vermouth",
-    "gin"
+    "gin",
+    "olive"
+  ],
+  [
+    "angostura_bitters",
+    "grapefruit",
+    "white_rum"
   ],
   [
     "cherry",
-    "lemon"
+    "lemon",
+    "red_wine",
+    "sugar_syrup"
   ],
   [
     "gin",
+    "ginger_ale",
     "orange"
   ],
   [
     "amaretto",
+    "cream",
+    "creme_de_cacao",
     "triple_sec",
     "vodka"
   ],
   [
+    "angostura_bitters",
+    "gin"
+  ],
+  [
+    "cream",
     "egg_white",
+    "gin",
+    "grenadine"
+  ],
+  [
+    "creme_de_cacao",
     "gin"
   ],
   [
     "brandy",
-    "lemon"
+    "port"
   ],
   [
+    "cream",
+    "nutmeg",
+    "port",
+    "sugar_syrup"
+  ],
+  [
+    "brandy",
+    "lemon",
+    "white_rum"
+  ],
+  [
+    "lime",
+    "white_rum"
+  ],
+  [
+    "grenadine",
+    "red_wine"
+  ],
+  [
+    "benedictine",
     "dry_vermouth",
     "gin"
   ],
   [
+    "coffee_liqueur",
+    "cream",
     "dark_rum",
     "nutmeg"
   ],
   [
-    "gin",
-    "lemon"
+    "cola",
+    "gin"
   ],
   [
+    "gin",
+    "lemon",
+    "soda_water",
+    "sugar_syrup"
+  ],
+  [
+    "cherry",
     "dark_rum",
     "lemon",
-    "orange"
+    "orange",
+    "soda_water",
+    "sugar_syrup"
   ],
   [
     "lemon",
-    "orange"
+    "white_rum"
   ],
   [
-    "gin",
-    "grapefruit"
+    "milk",
+    "nutmeg",
+    "sugar_syrup",
+    "white_rum"
   ],
   [
-    "bourbon",
-    "peychauds_bitters"
+    "angostura_bitters",
+    "dark_rum",
+    "lime",
+    "sugar_syrup",
+    "white_rum"
   ],
   [
-    "amaretto",
-    "brandy"
+    "orange",
+    "white_rum"
   ],
   [
     "cherry",
     "lemon",
-    "lime"
+    "orange",
+    "sugar_syrup",
+    "white_rum"
+  ],
+  [
+    "lemon",
+    "sugar_syrup",
+    "white_rum"
+  ],
+  [
+    "lemon",
+    "scotch"
+  ],
+  [
+    "gin",
+    "grapefruit",
+    "salt"
+  ],
+  [
+    "bourbon",
+    "lemon",
+    "peychauds_bitters",
+    "sugar_syrup"
+  ],
+  [
+    "amaretto",
+    "brandy",
+    "cream"
+  ],
+  [
+    "cherry",
+    "lemon",
+    "lime",
+    "scotch",
+    "sugar_syrup"
   ],
   [
     "orange",
     "vodka"
   ],
   [
+    "milk",
+    "nutmeg",
+    "sugar_syrup"
+  ],
+  [
+    "cream",
+    "nutmeg",
+    "sugar_syrup"
+  ],
+  [
+    "brandy",
     "cointreau",
     "lemon"
   ],
   [
+    "apricot_brandy",
+    "orange"
+  ],
+  [
     "egg_white",
+    "ginger_ale",
+    "grenadine",
     "lemon",
     "tequila"
   ],
   [
     "cherry",
     "lemon",
+    "sugar_syrup",
     "tequila"
   ],
   [
-    "gin",
-    "lemon",
-    "orange"
+    "orange",
+    "scotch"
   ],
   [
+    "cherry",
+    "gin",
+    "lemon",
+    "orange",
+    "soda_water",
+    "sugar_syrup"
+  ],
+  [
+    "angostura_bitters",
     "dry_vermouth",
-    "gin"
+    "gin",
+    "orange"
   ],
   [
     "cherry",
@@ -354,13 +634,25 @@
     "orange_bitters"
   ],
   [
+    "apricot_brandy",
     "orange",
     "orange_bitters"
   ],
   [
+    "lemon",
+    "white_rum"
+  ],
+  [
+    "creme_de_cassis",
+    "dry_vermouth",
+    "soda_water"
+  ],
+  [
     "egg_white",
     "lemon",
-    "sweet_vermouth"
+    "sugar_syrup",
+    "sweet_vermouth",
+    "white_rum"
   ],
   [
     "brandy",
@@ -371,6 +663,11 @@
     "grape",
     "lemon",
     "orange",
+    "sugar_syrup",
+    "vodka"
+  ],
+  [
+    "tonic_water",
     "vodka"
   ],
   [
@@ -380,13 +677,16 @@
   ],
   [
     "coffee_liqueur",
+    "cream",
     "vodka"
   ],
   [
+    "grenadine",
     "orange",
     "pineapple"
   ],
   [
+    "grenadine",
     "lemon",
     "passionfruit",
     "pineapple"
@@ -394,20 +694,52 @@
   [
     "lemon",
     "orange",
+    "soda_water",
     "sugar_syrup"
   ],
   [
+    "ginger_ale",
     "lemon",
     "sugar_syrup"
+  ],
+  [
+    "milk",
+    "soda_water"
   ],
   [
     "apple",
     "lemon",
-    "strawberry"
+    "soda_water",
+    "strawberry",
+    "sugar_syrup"
+  ],
+  [
+    "mint",
+    "salt"
+  ],
+  [
+    "lime",
+    "salt",
+    "sugar_syrup"
+  ],
+  [
+    "lemon",
+    "salt",
+    "sugar_syrup"
+  ],
+  [
+    "mango",
+    "sugar_syrup"
   ],
   [
     "ginger",
-    "lemon"
+    "lemon",
+    "sugar_syrup"
+  ],
+  [
+    "lime",
+    "soda_water",
+    "sugar_syrup"
   ],
   [
     "aperol",
@@ -423,123 +755,322 @@
     "lemon"
   ],
   [
+    "honey",
+    "milk"
+  ],
+  [
     "cinnamon",
+    "cream",
+    "milk",
     "vanilla"
+  ],
+  [
+    "cream",
+    "vanilla"
+  ],
+  [
+    "milk",
+    "sugar_syrup",
+    "vanilla"
+  ],
+  [
+    "milk",
+    "nutmeg",
+    "orange"
+  ],
+  [
+    "dark_rum",
+    "galliano",
+    "lemon",
+    "sugar_syrup"
+  ],
+  [
+    "galliano",
+    "lemon"
+  ],
+  [
+    "ginger_ale",
+    "lime"
+  ],
+  [
+    "coffee",
+    "milk",
+    "sugar_syrup"
+  ],
+  [
+    "coffee",
+    "milk",
+    "sugar_syrup"
+  ],
+  [
+    "coffee",
+    "coffee_liqueur"
   ],
   [
     "black_pepper",
     "cardamom",
     "cinnamon",
     "clove",
-    "ginger"
+    "ginger",
+    "milk",
+    "sugar_syrup"
   ],
   [
     "cardamom",
-    "coffee"
+    "coffee",
+    "cream",
+    "sugar_syrup"
   ],
   [
     "cardamom",
     "coffee",
-    "cream"
+    "cream",
+    "sugar_syrup"
   ],
   [
     "coffee",
-    "vodka"
-  ],
-  [
-    "coffee",
+    "sugar_syrup",
     "vanilla",
     "vodka"
   ],
   [
+    "coffee",
+    "sugar_syrup",
+    "vanilla",
+    "vodka"
+  ],
+  [
+    "cream",
+    "scotch"
+  ],
+  [
+    "brown_sugar",
+    "coffee",
+    "vanilla",
+    "white_rum"
+  ],
+  [
+    "cranberry",
+    "ginger_ale",
+    "pineapple",
+    "sugar_syrup"
+  ],
+  [
     "bourbon",
+    "cream",
     "egg_white",
-    "nutmeg"
+    "milk",
+    "nutmeg",
+    "salt",
+    "sugar_syrup",
+    "vanilla",
+    "white_rum"
   ],
   [
-    "cinnamon",
-    "clove"
+    "milk",
+    "salt",
+    "sugar_syrup",
+    "vanilla"
   ],
   [
-    "brandy",
-    "cinnamon",
-    "clove"
+    "milk",
+    "nutmeg",
+    "sugar_syrup",
+    "vanilla",
+    "white_rum"
   ],
   [
     "cinnamon",
     "clove",
     "lemon",
-    "orange"
+    "red_wine",
+    "sugar_syrup"
+  ],
+  [
+    "brandy",
+    "cinnamon",
+    "clove",
+    "lemon",
+    "red_wine",
+    "sugar_syrup"
+  ],
+  [
+    "cinnamon",
+    "clove",
+    "lemon",
+    "orange",
+    "red_wine",
+    "sugar_syrup"
   ],
   [
     "apple",
     "lemon",
     "lime",
-    "orange"
+    "orange",
+    "red_wine",
+    "sugar_syrup"
   ],
   [
     "lemon",
     "orange",
-    "pineapple"
+    "pineapple",
+    "red_wine"
   ],
   [
+    "cranberry",
     "orange",
     "vodka"
   ],
   [
     "amaretto",
+    "cranberry",
     "triple_sec",
     "vodka"
   ],
   [
+    "blue_curacao",
     "gin",
-    "vodka"
+    "vodka",
+    "white_rum"
   ],
   [
     "angostura_bitters",
     "lime",
+    "tonic_water",
     "vodka"
+  ],
+  [
+    "coffee_liqueur",
+    "irish_cream"
   ],
   [
     "amaretto",
+    "dark_rum",
     "vodka"
   ],
   [
+    "lemon",
+    "soda_water",
+    "triple_sec"
+  ],
+  [
     "lime",
+    "sugar_syrup",
     "white_rum"
   ],
   [
     "egg_white",
-    "lemon"
+    "lemon",
+    "sugar_syrup"
   ],
   [
+    "amaretto",
+    "milk"
+  ],
+  [
+    "coffee_liqueur",
+    "sambuca",
+    "triple_sec"
+  ],
+  [
+    "cranberry",
     "grapefruit",
     "vodka"
+  ],
+  [
+    "coffee_liqueur",
+    "irish_cream",
+    "vodka"
+  ],
+  [
+    "amaretto",
+    "brandy",
+    "irish_cream"
   ],
   [
     "lemon",
     "vodka"
   ],
   [
+    "grenadine",
     "orange",
     "tequila"
   ],
   [
+    "cola",
     "dark_rum",
     "lime"
+  ],
+  [
+    "creme_de_cassis",
+    "sparkling_wine"
+  ],
+  [
+    "amaretto",
+    "bourbon"
+  ],
+  [
+    "irish_cream",
+    "milk"
+  ],
+  [
+    "bourbon",
+    "scotch"
+  ],
+  [
+    "gin",
+    "tonic_water"
   ],
   [
     "gin",
     "lemon"
   ],
   [
+    "coffee",
+    "cream",
+    "irish_whiskey",
+    "sugar_syrup"
+  ],
+  [
+    "creme_de_cacao",
+    "vodka"
+  ],
+  [
+    "amaretto",
+    "white_rum"
+  ],
+  [
+    "amaretto",
+    "cranberry"
+  ],
+  [
+    "coffee_liqueur",
+    "milk",
+    "white_rum"
+  ],
+  [
+    "apple",
+    "sweet_vermouth"
+  ],
+  [
     "dry_vermouth",
+    "olive",
     "vodka"
   ],
   [
     "brandy",
     "coffee",
+    "milk",
     "triple_sec"
+  ],
+  [
+    "coffee",
+    "cream",
+    "raspberry_liqueur"
+  ],
+  [
+    "coffee_liqueur",
+    "irish_cream"
   ],
   [
     "cointreau",
@@ -549,6 +1080,32 @@
   [
     "amaretto",
     "orange"
+  ],
+  [
+    "coffee_liqueur",
+    "irish_cream",
+    "sambuca"
+  ],
+  [
+    "orange",
+    "soda_water"
+  ],
+  [
+    "coffee_liqueur",
+    "irish_cream",
+    "sambuca"
+  ],
+  [
+    "grenadine",
+    "orange"
+  ],
+  [
+    "coconut_liqueur",
+    "cointreau",
+    "creme_de_cacao",
+    "dark_rum",
+    "milk",
+    "white_rum"
   ],
   [
     "cointreau",
@@ -556,11 +1113,53 @@
   ],
   [
     "orange",
+    "triple_sec"
+  ],
+  [
+    "bourbon",
+    "dark_rum"
+  ],
+  [
+    "coffee_liqueur",
+    "dark_rum",
+    "grenadine"
+  ],
+  [
+    "sambuca",
     "vodka"
   ],
   [
+    "orange",
+    "peach_schnapps",
+    "vodka"
+  ],
+  [
+    "coffee",
+    "irish_cream",
+    "irish_whiskey"
+  ],
+  [
+    "cream",
+    "irish_cream"
+  ],
+  [
+    "coffee",
+    "triple_sec"
+  ],
+  [
+    "ginger_ale",
+    "orange",
+    "white_rum"
+  ],
+  [
     "amaretto",
+    "bourbon",
     "pineapple"
+  ],
+  [
+    "cranberry",
+    "peach_schnapps",
+    "raspberry_liqueur"
   ],
   [
     "apple",
@@ -569,15 +1168,20 @@
   ],
   [
     "apple",
+    "cherry",
     "grapefruit",
     "orange"
   ],
   [
+    "grenadine",
     "orange",
     "vodka"
   ],
   [
     "cherry",
+    "coconut_liqueur",
+    "dark_rum",
+    "grenadine",
     "orange",
     "pineapple"
   ],
@@ -587,11 +1191,22 @@
     "vodka"
   ],
   [
+    "bourbon",
+    "dark_rum"
+  ],
+  [
+    "angostura_bitters",
+    "cola",
     "gin",
     "lemon",
     "tequila",
     "triple_sec",
-    "vodka"
+    "vodka",
+    "white_rum"
+  ],
+  [
+    "irish_cream",
+    "sambuca"
   ],
   [
     "orange",
@@ -601,25 +1216,74 @@
   [
     "dark_rum",
     "orange",
-    "vodka"
+    "vodka",
+    "white_rum"
+  ],
+  [
+    "blue_curacao",
+    "coconut_liqueur",
+    "peach_schnapps"
+  ],
+  [
+    "coffee_liqueur",
+    "milk"
   ],
   [
     "amaretto",
-    "coffee"
-  ],
-  [
-    "amaretto",
+    "bourbon",
+    "coffee",
     "cream"
+  ],
+  [
+    "amaretto",
+    "coffee_liqueur",
+    "cream",
+    "dark_rum",
+    "irish_cream"
+  ],
+  [
+    "cola",
+    "creme_de_cassis",
+    "lemon"
+  ],
+  [
+    "coffee",
+    "peach_schnapps"
+  ],
+  [
+    "orange",
+    "sambuca"
+  ],
+  [
+    "coffee",
+    "cream",
+    "white_rum"
   ],
   [
     "angostura_bitters",
     "dark_rum",
     "lemon",
-    "mint"
+    "mint",
+    "soda_water"
+  ],
+  [
+    "coffee_liqueur",
+    "irish_cream",
+    "triple_sec"
   ],
   [
     "campari",
+    "lemon",
+    "orange",
     "sweet_vermouth"
+  ],
+  [
+    "galliano",
+    "ginger_ale"
+  ],
+  [
+    "cola",
+    "orange"
   ],
   [
     "lime",
@@ -627,27 +1291,65 @@
   ],
   [
     "gin",
+    "grenadine",
     "lime",
+    "soda_water",
     "sugar_syrup",
     "vodka"
   ],
   [
+    "absinthe",
+    "grenadine",
+    "tequila"
+  ],
+  [
+    "coconut_liqueur",
+    "cranberry",
     "orange",
     "pineapple"
   ],
   [
-    "brandy",
-    "coffee"
+    "coffee",
+    "irish_cream"
   ],
   [
+    "bourbon",
+    "cola",
+    "vanilla"
+  ],
+  [
+    "coffee_liqueur",
+    "cream"
+  ],
+  [
+    "blue_curacao",
+    "coffee_liqueur",
+    "irish_cream",
+    "sambuca"
+  ],
+  [
+    "raspberry_liqueur",
+    "soda_water",
+    "vodka"
+  ],
+  [
+    "brandy",
+    "coffee",
+    "coffee_liqueur"
+  ],
+  [
+    "cream",
     "nutmeg",
     "vodka"
   ],
   [
+    "coconut_liqueur",
     "gin",
+    "raspberry_liqueur",
     "tequila",
     "triple_sec",
-    "vodka"
+    "vodka",
+    "white_rum"
   ],
   [
     "lime",
@@ -655,29 +1357,76 @@
   ],
   [
     "bourbon",
+    "irish_cream",
     "orange",
     "vodka"
   ],
   [
+    "dark_rum",
+    "tequila"
+  ],
+  [
+    "cranberry",
     "orange",
+    "peach_schnapps",
     "vodka"
   ],
   [
     "cream",
     "orange",
+    "vodka",
+    "white_rum"
+  ],
+  [
+    "coffee_liqueur",
+    "cola",
     "vodka"
   ],
   [
     "coffee",
+    "sugar_syrup",
+    "vanilla",
     "vodka"
+  ],
+  [
+    "blue_curacao",
+    "vodka"
+  ],
+  [
+    "cola",
+    "lemon"
+  ],
+  [
+    "cranberry",
+    "gin",
+    "grenadine"
   ],
   [
     "lemon",
-    "vodka"
+    "vodka",
+    "white_rum"
   ],
   [
+    "cola",
+    "orange",
+    "peach_schnapps",
+    "red_wine"
+  ],
+  [
+    "brown_sugar",
+    "ginger_ale",
     "lime",
     "passionfruit"
+  ],
+  [
+    "cachaca",
+    "demerara",
+    "lime"
+  ],
+  [
+    "irish_cream",
+    "raspberry_liqueur",
+    "sugar_syrup"
   ],
   [
     "gin",
@@ -687,6 +1436,7 @@
   [
     "dry_vermouth",
     "lemon",
+    "olive",
     "vodka"
   ],
   [
@@ -705,6 +1455,7 @@
   [
     "egg_white",
     "gin",
+    "grenadine",
     "lemon"
   ],
   [
@@ -712,21 +1463,32 @@
     "mint"
   ],
   [
+    "cherry",
+    "grenadine",
     "maraschino",
-    "pineapple"
+    "pineapple",
+    "white_rum"
   ],
   [
+    "benedictine",
     "gin",
+    "grenadine",
     "orange"
   ],
   [
+    "apricot_brandy",
     "gin",
     "orange"
   ],
   [
     "dark_rum",
     "orange",
+    "orgeat",
     "pineapple"
+  ],
+  [
+    "brandy",
+    "port"
   ],
   [
     "gin",
@@ -734,37 +1496,82 @@
     "triple_sec"
   ],
   [
+    "peach_schnapps",
+    "sparkling_wine"
+  ],
+  [
     "cointreau",
+    "cranberry",
     "lime",
     "vodka"
   ],
   [
+    "cherry",
     "gin",
     "lemon",
-    "orange"
+    "orange",
+    "sparkling_wine",
+    "sugar_syrup"
+  ],
+  [
+    "amaretto",
+    "brandy"
+  ],
+  [
+    "cream",
+    "creme_de_cacao"
   ],
   [
     "grapefruit",
     "lime",
-    "maraschino"
+    "maraschino",
+    "white_rum"
   ],
   [
-    "gin",
-    "tequila",
-    "vodka"
-  ],
-  [
-    "bourbon",
-    "mint"
-  ],
-  [
-    "dry_vermouth",
-    "gin",
+    "angostura_bitters",
+    "brandy",
+    "ginger_ale",
     "lemon"
   ],
   [
+    "creme_de_cassis",
+    "sparkling_wine"
+  ],
+  [
+    "cola",
+    "gin",
+    "lemon",
+    "tequila",
+    "vodka",
+    "white_rum"
+  ],
+  [
+    "orange",
+    "sparkling_wine"
+  ],
+  [
+    "bourbon",
+    "mint",
+    "sugar_syrup"
+  ],
+  [
+    "pineapple",
+    "white_rum"
+  ],
+  [
+    "apricot_brandy",
+    "dry_vermouth",
+    "gin",
+    "grenadine",
+    "lemon",
+    "sugar_syrup"
+  ],
+  [
+    "galliano",
     "lime",
-    "pineapple"
+    "pineapple",
+    "sparkling_wine",
+    "white_rum"
   ],
   [
     "gin",
@@ -772,21 +1579,30 @@
     "sugar_syrup"
   ],
   [
+    "coffee_liqueur",
     "sugar_syrup",
     "vodka"
   ],
   [
     "pineapple",
+    "raspberry_liqueur",
     "vodka"
   ],
   [
+    "creme_de_cassis",
     "lemon",
     "sugar_syrup",
     "vodka"
   ],
   [
+    "campari",
+    "soda_water",
+    "sparkling_wine"
+  ],
+  [
     "lime",
     "orange",
+    "salt",
     "sugar_syrup",
     "tequila"
   ],
@@ -795,34 +1611,57 @@
     "vodka"
   ],
   [
+    "galliano",
     "lime",
     "triple_sec",
     "white_rum"
   ],
   [
     "gin",
-    "lemon"
+    "grenadine",
+    "lemon",
+    "triple_sec"
   ],
   [
+    "cream",
     "egg_white",
-    "gin"
+    "gin",
+    "grenadine",
+    "milk"
   ],
   [
     "dry_vermouth",
+    "soda_water",
     "sweet_vermouth"
   ],
   [
     "gin",
-    "lemon",
-    "lime"
-  ],
-  [
-    "angostura_bitters",
-    "lime"
+    "sweet_vermouth"
   ],
   [
     "gin",
-    "rosemary"
+    "grenadine",
+    "lemon",
+    "lime",
+    "soda_water"
+  ],
+  [
+    "cherry",
+    "sugar_syrup",
+    "sweet_vermouth"
+  ],
+  [
+    "angostura_bitters",
+    "dark_rum",
+    "grenadine",
+    "lime",
+    "white_rum"
+  ],
+  [
+    "blue_curacao",
+    "gin",
+    "rosemary",
+    "tonic_water"
   ],
   [
     "coffee_liqueur",
@@ -836,6 +1675,7 @@
   ],
   [
     "gin",
+    "orange",
     "sweet_vermouth"
   ],
   [
@@ -845,6 +1685,7 @@
     "orange_bitters"
   ],
   [
+    "absinthe",
     "gin",
     "lemon",
     "triple_sec"
@@ -871,15 +1712,28 @@
     "sweet_vermouth"
   ],
   [
+    "coffee_liqueur",
+    "irish_cream"
+  ],
+  [
     "dark_rum",
+    "grenadine",
     "orange",
-    "pineapple"
+    "pineapple",
+    "white_rum"
   ],
   [
     "gin",
     "ginger",
     "lime",
-    "mint"
+    "mint",
+    "sweet_vermouth",
+    "tonic_water"
+  ],
+  [
+    "amaretto",
+    "cranberry",
+    "irish_whiskey"
   ],
   [
     "campari",
@@ -888,22 +1742,40 @@
   ],
   [
     "green_chartreuse",
+    "irish_whiskey",
     "sweet_vermouth"
+  ],
+  [
+    "honey",
+    "lemon",
+    "scotch"
   ],
   [
     "angostura_bitters",
     "lime"
   ],
   [
+    "coffee",
+    "white_rum"
+  ],
+  [
     "angostura_bitters",
+    "cherry",
     "dry_vermouth",
     "maraschino",
     "rye_whiskey"
   ],
   [
+    "angostura_bitters",
+    "dark_rum",
+    "scotch",
+    "wormwood"
+  ],
+  [
     "cherry",
     "clove",
     "ginger",
+    "orange",
     "vodka"
   ],
   [
@@ -917,8 +1789,16 @@
     "white_rum"
   ],
   [
+    "cranberry",
+    "vodka"
+  ],
+  [
     "allspice",
-    "lime"
+    "lime",
+    "orange",
+    "sparkling_wine",
+    "sugar_syrup",
+    "white_rum"
   ],
   [
     "passionfruit",
@@ -929,6 +1809,7 @@
     "apple",
     "lemon",
     "lime",
+    "soda_water",
     "strawberry"
   ],
   [
@@ -938,32 +1819,51 @@
     "tequila"
   ],
   [
+    "lemon",
+    "soda_water",
+    "white_rum"
+  ],
+  [
     "gin",
     "lemon",
-    "orange_bitters"
+    "orange_bitters",
+    "sparkling_wine"
   ],
   [
     "bourbon",
     "mint"
   ],
   [
+    "absinthe",
+    "sparkling_wine"
+  ],
+  [
+    "coconut_liqueur",
+    "grapefruit",
+    "soda_water"
+  ],
+  [
     "lime",
-    "mint"
+    "mint",
+    "white_rum"
   ],
   [
     "gin",
     "lemon",
     "orange",
-    "rosemary"
+    "rosemary",
+    "soda_water"
   ],
   [
     "gin",
-    "lime"
+    "lime",
+    "soda_water"
   ],
   [
     "angostura_bitters",
     "honey",
     "thyme",
+    "tonic_water",
     "vodka"
   ],
   [
@@ -973,9 +1873,14 @@
     "lemon"
   ],
   [
+    "cachaca",
+    "lime"
+  ],
+  [
     "campari",
     "lime",
     "orange",
+    "salt",
     "tequila"
   ],
   [
@@ -985,7 +1890,10 @@
     "tequila"
   ],
   [
+    "amaro_montenegro",
     "angostura_bitters",
+    "orange",
+    "port",
     "vodka"
   ],
   [
@@ -1000,21 +1908,25 @@
   ],
   [
     "lemon",
-    "strawberry"
+    "strawberry",
+    "sugar_syrup"
   ],
   [
+    "coconut_liqueur",
     "gin",
     "lime"
   ],
   [
     "lime",
     "passionfruit",
+    "sparkling_wine",
     "vodka"
   ],
   [
     "lime",
     "mango",
     "mint",
+    "soda_water",
     "white_rum"
   ],
   [
@@ -1025,10 +1937,13 @@
     "egg_white",
     "lime",
     "mint",
-    "triple_sec"
+    "sugar_syrup",
+    "triple_sec",
+    "white_rum"
   ],
   [
     "lemon",
+    "soda_water",
     "vodka"
   ],
   [
@@ -1038,6 +1953,16 @@
   [
     "lemon",
     "vodka"
+  ],
+  [
+    "lemon",
+    "tonic_water",
+    "vodka"
+  ],
+  [
+    "gin",
+    "lemon",
+    "tonic_water"
   ],
   [
     "gin",
@@ -1048,28 +1973,39 @@
     "egg_white",
     "gin",
     "lemon",
-    "sugar_syrup"
+    "soda_water",
+    "sugar_syrup",
+    "vanilla"
   ],
   [
     "angostura_bitters",
     "dark_rum",
+    "grenadine",
     "orange",
     "pineapple",
     "sugar_syrup"
   ],
   [
     "dark_rum",
+    "grenadine",
     "lemon"
   ],
   [
     "angostura_bitters",
     "lime",
+    "sparkling_wine",
     "sugar_syrup",
     "white_rum"
   ],
   [
+    "cranberry",
+    "orange",
+    "soda_water"
+  ],
+  [
     "dry_vermouth",
     "orange_bitters",
+    "scotch",
     "sweet_vermouth"
   ]
 ]

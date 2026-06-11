@@ -28,6 +28,7 @@ VALID_ROLES = {
     "fruit",
     "herb",
     "dairy",
+    "mixer",
 }
 VALID_CONFIDENCE = {"solid", "moderate", "sparse"}
 
