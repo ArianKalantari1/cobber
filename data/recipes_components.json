@@ -1,0 +1,3825 @@
+[
+  {
+    "drink": "Mojito",
+    "implied": [],
+    "literal": [
+      "lime",
+      "mint",
+      "soda_water",
+      "sugar_syrup",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Old Fashioned",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "bourbon",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Long Island Tea",
+    "implied": [],
+    "literal": [
+      "cola",
+      "gin",
+      "lemon",
+      "tequila",
+      "vodka",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Negroni",
+    "implied": [],
+    "literal": [
+      "campari",
+      "gin",
+      "sweet_vermouth"
+    ]
+  },
+  {
+    "drink": "Whiskey Sour",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "lemon",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Dry Martini",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin",
+      "olive"
+    ]
+  },
+  {
+    "drink": "Daiquiri",
+    "implied": [],
+    "literal": [
+      "lime",
+      "sugar_syrup",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Margarita",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "lime",
+      "salt",
+      "tequila",
+      "triple_sec"
+    ]
+  },
+  {
+    "drink": "Manhattan",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "bourbon",
+      "cherry",
+      "orange",
+      "sweet_vermouth"
+    ]
+  },
+  {
+    "drink": "Moscow Mule",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "ginger_ale",
+      "lime",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Alexander",
+    "implied": [],
+    "literal": [
+      "cream",
+      "creme_de_cacao",
+      "gin",
+      "nutmeg"
+    ]
+  },
+  {
+    "drink": "Algonquin",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "pineapple"
+    ]
+  },
+  {
+    "drink": "Allegheny",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "dry_vermouth",
+      "lemon"
+    ]
+  },
+  {
+    "drink": "Almeria",
+    "implied": [
+      "coffee"
+    ],
+    "literal": [
+      "coffee_liqueur",
+      "dark_rum",
+      "egg_white"
+    ]
+  },
+  {
+    "drink": "Applecar",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "lemon",
+      "triple_sec"
+    ]
+  },
+  {
+    "drink": "Artillery",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "gin",
+      "sweet_vermouth"
+    ]
+  },
+  {
+    "drink": "Balmoral",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "dry_vermouth",
+      "scotch",
+      "sweet_vermouth"
+    ]
+  },
+  {
+    "drink": "Blackthorn",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "sweet_vermouth"
+    ]
+  },
+  {
+    "drink": "Bluebird",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "blue_curacao",
+      "cherry",
+      "gin",
+      "lemon",
+      "triple_sec"
+    ]
+  },
+  {
+    "drink": "Boomerang",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "cherry",
+      "dry_vermouth",
+      "gin",
+      "maraschino"
+    ]
+  },
+  {
+    "drink": "Boston Sour",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "egg_white",
+      "lemon",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Boxcar",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "egg_white",
+      "gin",
+      "grenadine",
+      "lemon",
+      "triple_sec"
+    ]
+  },
+  {
+    "drink": "Caipirinha",
+    "implied": [],
+    "literal": [
+      "cachaca",
+      "lime",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Casa Blanca",
+    "implied": [
+      "cherry",
+      "orange"
+    ],
+    "literal": [
+      "lime",
+      "maraschino",
+      "triple_sec",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Casino Royale",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "gin",
+      "lemon",
+      "maraschino",
+      "orange_bitters"
+    ]
+  },
+  {
+    "drink": "Cherry Rum",
+    "implied": [],
+    "literal": [
+      "cream",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Chicago Fizz",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "lemon",
+      "port",
+      "soda_water",
+      "sugar_syrup",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "City Slicker",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "brandy",
+      "lemon",
+      "triple_sec"
+    ]
+  },
+  {
+    "drink": "Cuba Libre",
+    "implied": [],
+    "literal": [
+      "cola",
+      "lime",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Dragonfly",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "gin",
+      "ginger_ale",
+      "lime"
+    ]
+  },
+  {
+    "drink": "Dry Rob Roy",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "lemon",
+      "scotch"
+    ]
+  },
+  {
+    "drink": "Dubonnet Cocktail",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "gin",
+      "lemon"
+    ]
+  },
+  {
+    "drink": "English Highball",
+    "implied": [],
+    "literal": [
+      "brandy",
+      "gin",
+      "lemon",
+      "soda_water",
+      "sweet_vermouth"
+    ]
+  },
+  {
+    "drink": "English Rose Cocktail",
+    "implied": [
+      "peach"
+    ],
+    "literal": [
+      "apricot_brandy",
+      "cherry",
+      "dry_vermouth",
+      "gin",
+      "grenadine",
+      "lemon"
+    ]
+  },
+  {
+    "drink": "Flying Dutchman",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "gin",
+      "triple_sec"
+    ]
+  },
+  {
+    "drink": "Flying Scotchman",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "scotch",
+      "sugar_syrup",
+      "sweet_vermouth"
+    ]
+  },
+  {
+    "drink": "Foxy Lady",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "amaretto",
+      "cream",
+      "creme_de_cacao"
+    ]
+  },
+  {
+    "drink": "Frisco Sour",
+    "implied": [],
+    "literal": [
+      "benedictine",
+      "lemon",
+      "lime"
+    ]
+  },
+  {
+    "drink": "Frozen Daiquiri",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "cherry",
+      "lime",
+      "sugar_syrup",
+      "triple_sec",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Frozen Mint Daiquiri",
+    "implied": [],
+    "literal": [
+      "lime",
+      "mint",
+      "sugar_syrup",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Frozen Pineapple Daiquiri",
+    "implied": [],
+    "literal": [
+      "lime",
+      "pineapple",
+      "sugar_syrup",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Gin Cooler",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "orange",
+      "soda_water",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Gin Daisy",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "gin",
+      "grenadine",
+      "lemon",
+      "orange",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Gin Fizz",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "soda_water",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Gin Sling",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "orange",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Gin Smash",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "gin",
+      "mint",
+      "orange",
+      "soda_water",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Gin Sour",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "gin",
+      "lemon",
+      "orange",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Gin Squirt",
+    "implied": [],
+    "literal": [
+      "gin",
+      "grenadine",
+      "pineapple",
+      "soda_water",
+      "strawberry",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Gin Swizzle",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "gin",
+      "lime",
+      "soda_water",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Gin Toddy",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Godchild",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "amaretto",
+      "cream",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Godfather",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "amaretto",
+      "scotch"
+    ]
+  },
+  {
+    "drink": "Godmother",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "amaretto",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Grass Skirt",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "gin",
+      "grenadine",
+      "pineapple",
+      "triple_sec"
+    ]
+  },
+  {
+    "drink": "Harvey Wallbanger",
+    "implied": [
+      "anise",
+      "vanilla"
+    ],
+    "literal": [
+      "galliano",
+      "orange",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Havana Cocktail",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "pineapple",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Hawaiian Cocktail",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "gin",
+      "pineapple",
+      "triple_sec"
+    ]
+  },
+  {
+    "drink": "Highland Fling Cocktail",
+    "implied": [],
+    "literal": [
+      "olive",
+      "orange_bitters",
+      "scotch",
+      "sweet_vermouth"
+    ]
+  },
+  {
+    "drink": "Imperial Fizz",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "soda_water",
+      "sugar_syrup",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Irish Spring",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "irish_whiskey",
+      "orange"
+    ]
+  },
+  {
+    "drink": "Jack Rose Cocktail",
+    "implied": [],
+    "literal": [
+      "grenadine",
+      "lime"
+    ]
+  },
+  {
+    "drink": "Japanese Fizz",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "lemon",
+      "port",
+      "soda_water",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Jewel Of The Nile",
+    "implied": [],
+    "literal": [
+      "gin",
+      "green_chartreuse"
+    ]
+  },
+  {
+    "drink": "John Collins",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "cherry",
+      "lemon",
+      "orange",
+      "soda_water",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Kamikaze",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "lime",
+      "triple_sec",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Kentucky B And B",
+    "implied": [],
+    "literal": [
+      "benedictine",
+      "bourbon"
+    ]
+  },
+  {
+    "drink": "Kentucky Colonel",
+    "implied": [],
+    "literal": [
+      "benedictine",
+      "bourbon",
+      "lemon"
+    ]
+  },
+  {
+    "drink": "Lady Love Fizz",
+    "implied": [],
+    "literal": [
+      "cream",
+      "egg_white",
+      "gin",
+      "lemon",
+      "soda_water",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Loch Lomond",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "lemon",
+      "scotch"
+    ]
+  },
+  {
+    "drink": "London Town",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "gin",
+      "maraschino",
+      "orange_bitters"
+    ]
+  },
+  {
+    "drink": "Lone Tree Cocktail",
+    "implied": [],
+    "literal": [
+      "gin",
+      "sweet_vermouth"
+    ]
+  },
+  {
+    "drink": "Lone Tree Cooler",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin",
+      "lemon",
+      "orange",
+      "soda_water",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Mai Tai",
+    "implied": [
+      "almond",
+      "orange"
+    ],
+    "literal": [
+      "cherry",
+      "orgeat",
+      "triple_sec",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Martini",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin",
+      "olive"
+    ]
+  },
+  {
+    "drink": "Monkey Wrench",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "grapefruit",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "New York Sour",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "lemon",
+      "red_wine",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Orange Oasis",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "gin",
+      "ginger_ale",
+      "orange"
+    ]
+  },
+  {
+    "drink": "Orgasm",
+    "implied": [
+      "almond",
+      "orange"
+    ],
+    "literal": [
+      "amaretto",
+      "cream",
+      "creme_de_cacao",
+      "triple_sec",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Pink Gin",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "gin"
+    ]
+  },
+  {
+    "drink": "Pink Lady",
+    "implied": [],
+    "literal": [
+      "cream",
+      "egg_white",
+      "gin",
+      "grenadine"
+    ]
+  },
+  {
+    "drink": "Poppy Cocktail",
+    "implied": [],
+    "literal": [
+      "creme_de_cacao",
+      "gin"
+    ]
+  },
+  {
+    "drink": "Port Wine Cocktail",
+    "implied": [],
+    "literal": [
+      "brandy",
+      "port"
+    ]
+  },
+  {
+    "drink": "Port Wine Flip",
+    "implied": [],
+    "literal": [
+      "cream",
+      "nutmeg",
+      "port",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Quaker's Cocktail",
+    "implied": [],
+    "literal": [
+      "brandy",
+      "lemon",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Quarter Deck Cocktail",
+    "implied": [],
+    "literal": [
+      "lime",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Queen Charlotte",
+    "implied": [],
+    "literal": [
+      "grenadine",
+      "red_wine"
+    ]
+  },
+  {
+    "drink": "Queen Elizabeth",
+    "implied": [],
+    "literal": [
+      "benedictine",
+      "dry_vermouth",
+      "gin"
+    ]
+  },
+  {
+    "drink": "Quentin",
+    "implied": [
+      "coffee"
+    ],
+    "literal": [
+      "coffee_liqueur",
+      "cream",
+      "dark_rum",
+      "nutmeg"
+    ]
+  },
+  {
+    "drink": "Royal Fizz",
+    "implied": [],
+    "literal": [
+      "cola",
+      "gin"
+    ]
+  },
+  {
+    "drink": "Royal Gin Fizz",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "soda_water",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Rum Cobbler",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "dark_rum",
+      "lemon",
+      "orange",
+      "soda_water",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Rum Cooler",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Rum Milk Punch",
+    "implied": [],
+    "literal": [
+      "milk",
+      "nutmeg",
+      "sugar_syrup",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Rum Old-fashioned",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "dark_rum",
+      "lime",
+      "sugar_syrup",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Rum Screwdriver",
+    "implied": [],
+    "literal": [
+      "orange",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Rum Sour",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "lemon",
+      "orange",
+      "sugar_syrup",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Rum Toddy",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "sugar_syrup",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Rusty Nail",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "scotch"
+    ]
+  },
+  {
+    "drink": "Salty Dog",
+    "implied": [],
+    "literal": [
+      "gin",
+      "grapefruit",
+      "salt"
+    ]
+  },
+  {
+    "drink": "Sazerac",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "lemon",
+      "peychauds_bitters",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Scooter",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "amaretto",
+      "brandy",
+      "cream"
+    ]
+  },
+  {
+    "drink": "Scotch Sour",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "lemon",
+      "lime",
+      "scotch",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Screwdriver",
+    "implied": [],
+    "literal": [
+      "orange",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Sherry Eggnog",
+    "implied": [],
+    "literal": [
+      "milk",
+      "nutmeg",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Sherry Flip",
+    "implied": [],
+    "literal": [
+      "cream",
+      "nutmeg",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Sidecar",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "brandy",
+      "cointreau",
+      "lemon"
+    ]
+  },
+  {
+    "drink": "Stone Sour",
+    "implied": [
+      "peach"
+    ],
+    "literal": [
+      "apricot_brandy",
+      "orange"
+    ]
+  },
+  {
+    "drink": "Tequila Fizz",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "egg_white",
+      "ginger_ale",
+      "grenadine",
+      "lemon",
+      "tequila"
+    ]
+  },
+  {
+    "drink": "Tequila Sour",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "lemon",
+      "sugar_syrup",
+      "tequila"
+    ]
+  },
+  {
+    "drink": "Thriller",
+    "implied": [],
+    "literal": [
+      "orange",
+      "scotch"
+    ]
+  },
+  {
+    "drink": "Tom Collins",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "gin",
+      "lemon",
+      "orange",
+      "soda_water",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Turf Cocktail",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "dry_vermouth",
+      "gin",
+      "orange"
+    ]
+  },
+  {
+    "drink": "Tuxedo Cocktail",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "dry_vermouth",
+      "gin",
+      "maraschino",
+      "orange_bitters"
+    ]
+  },
+  {
+    "drink": "Valencia Cocktail",
+    "implied": [
+      "peach"
+    ],
+    "literal": [
+      "apricot_brandy",
+      "orange",
+      "orange_bitters"
+    ]
+  },
+  {
+    "drink": "Van Vleet",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Vermouth Cassis",
+    "implied": [],
+    "literal": [
+      "creme_de_cassis",
+      "dry_vermouth",
+      "soda_water"
+    ]
+  },
+  {
+    "drink": "Vesuvio",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "lemon",
+      "sugar_syrup",
+      "sweet_vermouth",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Victor",
+    "implied": [],
+    "literal": [
+      "brandy",
+      "gin",
+      "sweet_vermouth"
+    ]
+  },
+  {
+    "drink": "Victory Collins",
+    "implied": [],
+    "literal": [
+      "grape",
+      "lemon",
+      "orange",
+      "sugar_syrup",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Vodka And Tonic",
+    "implied": [],
+    "literal": [
+      "tonic_water",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Waikiki Beachcomber",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "gin",
+      "pineapple",
+      "triple_sec"
+    ]
+  },
+  {
+    "drink": "White Russian",
+    "implied": [
+      "coffee"
+    ],
+    "literal": [
+      "coffee_liqueur",
+      "cream",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Afterglow",
+    "implied": [],
+    "literal": [
+      "grenadine",
+      "orange",
+      "pineapple"
+    ]
+  },
+  {
+    "drink": "Bora Bora",
+    "implied": [],
+    "literal": [
+      "grenadine",
+      "lemon",
+      "passionfruit",
+      "pineapple"
+    ]
+  },
+  {
+    "drink": "Orangeade",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "orange",
+      "soda_water",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Rail Splitter",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "ginger_ale",
+      "lemon",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Egg Cream",
+    "implied": [],
+    "literal": [
+      "milk",
+      "soda_water"
+    ]
+  },
+  {
+    "drink": "Fruit Cooler",
+    "implied": [],
+    "literal": [
+      "apple",
+      "lemon",
+      "soda_water",
+      "strawberry",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Lassi - A South Indian Drink",
+    "implied": [],
+    "literal": [
+      "mint",
+      "salt"
+    ]
+  },
+  {
+    "drink": "Lassi Raita",
+    "implied": [],
+    "literal": [
+      "lime",
+      "salt",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Lassi - Sweet",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "salt",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Lassi - Mango",
+    "implied": [],
+    "literal": [
+      "mango",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Lemouroudji",
+    "implied": [],
+    "literal": [
+      "ginger",
+      "lemon",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Limeade",
+    "implied": [],
+    "literal": [
+      "lime",
+      "soda_water",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Imperial Cocktail",
+    "implied": [],
+    "literal": [
+      "aperol",
+      "gin",
+      "lime"
+    ]
+  },
+  {
+    "drink": "Pineapple Gingerale Smoothie",
+    "implied": [],
+    "literal": [
+      "ginger",
+      "pineapple"
+    ]
+  },
+  {
+    "drink": "Kill the cold Smoothie",
+    "implied": [],
+    "literal": [
+      "ginger",
+      "lemon"
+    ]
+  },
+  {
+    "drink": "Sweet Bananas",
+    "implied": [],
+    "literal": [
+      "honey",
+      "milk"
+    ]
+  },
+  {
+    "drink": "Drinking Chocolate",
+    "implied": [],
+    "literal": [
+      "cinnamon",
+      "cream",
+      "milk",
+      "vanilla"
+    ]
+  },
+  {
+    "drink": "Hot Chocolate to Die for",
+    "implied": [],
+    "literal": [
+      "cream",
+      "vanilla"
+    ]
+  },
+  {
+    "drink": "Nuked Hot Chocolate",
+    "implied": [],
+    "literal": [
+      "milk",
+      "sugar_syrup",
+      "vanilla"
+    ]
+  },
+  {
+    "drink": "Orange Scented Hot Chocolate",
+    "implied": [],
+    "literal": [
+      "milk",
+      "nutmeg",
+      "orange"
+    ]
+  },
+  {
+    "drink": "Lemon Shot",
+    "implied": [
+      "anise",
+      "vanilla",
+      "vodka"
+    ],
+    "literal": [
+      "citron_vodka",
+      "dark_rum",
+      "galliano",
+      "lemon",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Gagliardo",
+    "implied": [
+      "anise",
+      "peach",
+      "vanilla",
+      "vodka"
+    ],
+    "literal": [
+      "galliano",
+      "lemon",
+      "peach_vodka"
+    ]
+  },
+  {
+    "drink": "Happy Skipper",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "dark_rum",
+      "ginger_ale",
+      "lime"
+    ]
+  },
+  {
+    "drink": "Frappé",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "milk",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Iced Coffee",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "milk",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Iced Coffee Fillip",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "coffee_liqueur"
+    ]
+  },
+  {
+    "drink": "Masala Chai",
+    "implied": [],
+    "literal": [
+      "black_pepper",
+      "cardamom",
+      "cinnamon",
+      "clove",
+      "ginger",
+      "milk",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Thai Coffee",
+    "implied": [],
+    "literal": [
+      "cardamom",
+      "coffee",
+      "cream",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Thai Iced Coffee",
+    "implied": [],
+    "literal": [
+      "cardamom",
+      "coffee",
+      "cream",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Coffee Liqueur",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "sugar_syrup",
+      "vanilla",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Coffee-Vodka",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "sugar_syrup",
+      "vanilla",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Irish Cream",
+    "implied": [],
+    "literal": [
+      "cream",
+      "scotch"
+    ]
+  },
+  {
+    "drink": "Tia-Maria",
+    "implied": [],
+    "literal": [
+      "brown_sugar",
+      "coffee",
+      "vanilla",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Cranberry Punch",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "cranberry",
+      "ginger_ale",
+      "pineapple",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Egg Nog #4",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "cream",
+      "egg_white",
+      "milk",
+      "nutmeg",
+      "salt",
+      "sugar_syrup",
+      "vanilla",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Egg-Nog - Classic Cooked",
+    "implied": [],
+    "literal": [
+      "milk",
+      "salt",
+      "sugar_syrup",
+      "vanilla"
+    ]
+  },
+  {
+    "drink": "Egg Nog - Healthy",
+    "implied": [],
+    "literal": [
+      "milk",
+      "nutmeg",
+      "sugar_syrup",
+      "vanilla",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Gluehwein",
+    "implied": [],
+    "literal": [
+      "cinnamon",
+      "clove",
+      "lemon",
+      "red_wine",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Mulled Wine",
+    "implied": [],
+    "literal": [
+      "brandy",
+      "cinnamon",
+      "clove",
+      "lemon",
+      "red_wine",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Sangria",
+    "implied": [],
+    "literal": [
+      "cinnamon",
+      "clove",
+      "lemon",
+      "orange",
+      "red_wine",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Sweet Sangria",
+    "implied": [],
+    "literal": [
+      "apple",
+      "lemon",
+      "lime",
+      "orange",
+      "red_wine",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Wine Punch",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "orange",
+      "pineapple",
+      "red_wine"
+    ]
+  },
+  {
+    "drink": "Popped cherry",
+    "implied": [],
+    "literal": [
+      "cranberry",
+      "orange",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Kool-Aid Shot",
+    "implied": [
+      "almond",
+      "orange"
+    ],
+    "literal": [
+      "amaretto",
+      "cranberry",
+      "triple_sec",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "National Aquarium",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "blue_curacao",
+      "gin",
+      "vodka",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Long vodka",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "lime",
+      "tonic_water",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Quick F**K",
+    "implied": [
+      "coffee",
+      "cream"
+    ],
+    "literal": [
+      "coffee_liqueur",
+      "irish_cream"
+    ]
+  },
+  {
+    "drink": "Flaming Dr. Pepper",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "amaretto",
+      "dark_rum",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "New York Lemonade",
+    "implied": [
+      "orange",
+      "vodka"
+    ],
+    "literal": [
+      "citron_vodka",
+      "lemon",
+      "soda_water",
+      "triple_sec"
+    ]
+  },
+  {
+    "drink": "Caipirissima",
+    "implied": [],
+    "literal": [
+      "lime",
+      "sugar_syrup",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Pisco Sour",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "lemon",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Chocolate Milk",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "amaretto",
+      "milk"
+    ]
+  },
+  {
+    "drink": "B-53",
+    "implied": [
+      "anise",
+      "coffee",
+      "orange"
+    ],
+    "literal": [
+      "coffee_liqueur",
+      "sambuca",
+      "triple_sec"
+    ]
+  },
+  {
+    "drink": "Sea breeze",
+    "implied": [],
+    "literal": [
+      "cranberry",
+      "grapefruit",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Oreo Mudslide",
+    "implied": [
+      "coffee",
+      "cream"
+    ],
+    "literal": [
+      "coffee_liqueur",
+      "irish_cream",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "ABC",
+    "implied": [
+      "almond",
+      "cream"
+    ],
+    "literal": [
+      "amaretto",
+      "brandy",
+      "irish_cream"
+    ]
+  },
+  {
+    "drink": "Ice Pick",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "410 Gone",
+    "implied": [
+      "peach",
+      "vodka"
+    ],
+    "literal": [
+      "cola",
+      "peach_vodka"
+    ]
+  },
+  {
+    "drink": "Tequila Sunrise",
+    "implied": [],
+    "literal": [
+      "grenadine",
+      "orange",
+      "tequila"
+    ]
+  },
+  {
+    "drink": "Cuba Libra",
+    "implied": [],
+    "literal": [
+      "cola",
+      "dark_rum",
+      "lime"
+    ]
+  },
+  {
+    "drink": "Kir Royale",
+    "implied": [],
+    "literal": [
+      "creme_de_cassis",
+      "sparkling_wine"
+    ]
+  },
+  {
+    "drink": "Jackhammer",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "amaretto",
+      "bourbon"
+    ]
+  },
+  {
+    "drink": "Nutty Irishman",
+    "implied": [
+      "cream"
+    ],
+    "literal": [
+      "irish_cream",
+      "milk"
+    ]
+  },
+  {
+    "drink": "3 Wise Men",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "scotch"
+    ]
+  },
+  {
+    "drink": "AT&T",
+    "implied": [],
+    "literal": [
+      "gin",
+      "tonic_water",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "69 Special",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon"
+    ]
+  },
+  {
+    "drink": "Irish Coffee",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "cream",
+      "irish_whiskey",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "57 Chevy with a White License Plate",
+    "implied": [],
+    "literal": [
+      "creme_de_cacao",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Zippy's Revenge",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "amaretto",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Red Snapper",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "amaretto",
+      "cranberry"
+    ]
+  },
+  {
+    "drink": "Jamaica Kiss",
+    "implied": [
+      "coffee"
+    ],
+    "literal": [
+      "coffee_liqueur",
+      "milk",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Ziemes Martini Apfelsaft",
+    "implied": [],
+    "literal": [
+      "apple",
+      "sweet_vermouth"
+    ]
+  },
+  {
+    "drink": "Vodka Martini",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "olive",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Cafe Savoy",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "brandy",
+      "coffee",
+      "milk",
+      "triple_sec"
+    ]
+  },
+  {
+    "drink": "Mocha-Berry",
+    "implied": [
+      "raspberry"
+    ],
+    "literal": [
+      "coffee",
+      "cream",
+      "raspberry_liqueur"
+    ]
+  },
+  {
+    "drink": "747",
+    "implied": [
+      "coffee",
+      "cream"
+    ],
+    "literal": [
+      "coffee_liqueur",
+      "irish_cream"
+    ]
+  },
+  {
+    "drink": "Lemon Drop",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "cointreau",
+      "lemon",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Lunch Box",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "amaretto",
+      "orange"
+    ]
+  },
+  {
+    "drink": "Dirty Nipple",
+    "implied": [
+      "anise",
+      "coffee",
+      "cream"
+    ],
+    "literal": [
+      "coffee_liqueur",
+      "irish_cream",
+      "sambuca"
+    ]
+  },
+  {
+    "drink": "Darkwood Sling",
+    "implied": [],
+    "literal": [
+      "orange",
+      "soda_water"
+    ]
+  },
+  {
+    "drink": "Bumble Bee",
+    "implied": [
+      "anise",
+      "coffee",
+      "cream"
+    ],
+    "literal": [
+      "coffee_liqueur",
+      "irish_cream",
+      "sambuca"
+    ]
+  },
+  {
+    "drink": "Orange Push-up",
+    "implied": [],
+    "literal": [
+      "dark_rum",
+      "grenadine",
+      "orange"
+    ]
+  },
+  {
+    "drink": "151 Florida Bushwacker",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "coconut_liqueur",
+      "cointreau",
+      "creme_de_cacao",
+      "dark_rum",
+      "milk",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Zizi Coin-coin",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "cointreau",
+      "lemon"
+    ]
+  },
+  {
+    "drink": "50/50",
+    "implied": [
+      "vanilla",
+      "vodka"
+    ],
+    "literal": [
+      "orange",
+      "triple_sec",
+      "vanilla_vodka"
+    ]
+  },
+  {
+    "drink": "Cream Soda",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "dark_rum",
+      "ginger_ale"
+    ]
+  },
+  {
+    "drink": "ACID",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "dark_rum"
+    ]
+  },
+  {
+    "drink": "Grim Reaper",
+    "implied": [
+      "coffee"
+    ],
+    "literal": [
+      "coffee_liqueur",
+      "dark_rum",
+      "grenadine"
+    ]
+  },
+  {
+    "drink": "Freddy Kruger",
+    "implied": [
+      "anise"
+    ],
+    "literal": [
+      "sambuca",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Bubble Gum",
+    "implied": [
+      "peach"
+    ],
+    "literal": [
+      "orange",
+      "peach_schnapps",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Hot Creamy Bush",
+    "implied": [
+      "cream"
+    ],
+    "literal": [
+      "coffee",
+      "irish_cream",
+      "irish_whiskey"
+    ]
+  },
+  {
+    "drink": "Midnight Mint",
+    "implied": [],
+    "literal": [
+      "cream",
+      "irish_cream"
+    ]
+  },
+  {
+    "drink": "Talos Coffee",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "coffee",
+      "triple_sec"
+    ]
+  },
+  {
+    "drink": "Rum Punch",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "ginger_ale",
+      "orange",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Turkeyball",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "amaretto",
+      "bourbon",
+      "pineapple"
+    ]
+  },
+  {
+    "drink": "Kiss me Quick",
+    "implied": [
+      "cranberry",
+      "vodka"
+    ],
+    "literal": [
+      "apple",
+      "cranberry_vodka"
+    ]
+  },
+  {
+    "drink": "Royal Flush",
+    "implied": [
+      "peach",
+      "raspberry"
+    ],
+    "literal": [
+      "cranberry",
+      "peach_schnapps",
+      "raspberry_liqueur"
+    ]
+  },
+  {
+    "drink": "Pysch Vitamin Light",
+    "implied": [],
+    "literal": [
+      "apple",
+      "orange",
+      "pineapple"
+    ]
+  },
+  {
+    "drink": "Apello",
+    "implied": [],
+    "literal": [
+      "apple",
+      "cherry",
+      "grapefruit",
+      "orange"
+    ]
+  },
+  {
+    "drink": "San Francisco",
+    "implied": [],
+    "literal": [
+      "grenadine",
+      "orange",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Space Odyssey",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "coconut_liqueur",
+      "dark_rum",
+      "grenadine",
+      "orange",
+      "pineapple"
+    ]
+  },
+  {
+    "drink": "Avalon",
+    "implied": [],
+    "literal": [
+      "apple",
+      "lemon",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "252",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "dark_rum"
+    ]
+  },
+  {
+    "drink": "3-Mile Long Island Iced Tea",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "cola",
+      "gin",
+      "lemon",
+      "tequila",
+      "triple_sec",
+      "vodka",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Zorro",
+    "implied": [
+      "anise",
+      "cream"
+    ],
+    "literal": [
+      "irish_cream",
+      "sambuca"
+    ]
+  },
+  {
+    "drink": "Orange Crush",
+    "implied": [],
+    "literal": [
+      "orange",
+      "triple_sec",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "155 Belmont",
+    "implied": [],
+    "literal": [
+      "dark_rum",
+      "orange",
+      "vodka",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Grand Blue",
+    "implied": [
+      "orange",
+      "peach"
+    ],
+    "literal": [
+      "blue_curacao",
+      "coconut_liqueur",
+      "peach_schnapps"
+    ]
+  },
+  {
+    "drink": "Baby Eskimo",
+    "implied": [
+      "coffee"
+    ],
+    "literal": [
+      "coffee_liqueur",
+      "milk"
+    ]
+  },
+  {
+    "drink": "Tennesee Mud",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "amaretto",
+      "bourbon",
+      "coffee",
+      "cream"
+    ]
+  },
+  {
+    "drink": "Texas Sling",
+    "implied": [
+      "almond",
+      "coffee"
+    ],
+    "literal": [
+      "amaretto",
+      "coffee_liqueur",
+      "cream",
+      "dark_rum",
+      "irish_cream"
+    ]
+  },
+  {
+    "drink": "Zoksel",
+    "implied": [],
+    "literal": [
+      "cola",
+      "creme_de_cassis",
+      "lemon"
+    ]
+  },
+  {
+    "drink": "Fuzzy Asshole",
+    "implied": [
+      "peach"
+    ],
+    "literal": [
+      "coffee",
+      "peach_schnapps"
+    ]
+  },
+  {
+    "drink": "Quick-sand",
+    "implied": [
+      "anise"
+    ],
+    "literal": [
+      "orange",
+      "sambuca"
+    ]
+  },
+  {
+    "drink": "Jamaican Coffee",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "cream",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Mojito Extra",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "dark_rum",
+      "lemon",
+      "mint",
+      "soda_water"
+    ]
+  },
+  {
+    "drink": "B-52",
+    "implied": [
+      "coffee",
+      "cream",
+      "orange"
+    ],
+    "literal": [
+      "coffee_liqueur",
+      "irish_cream",
+      "triple_sec"
+    ]
+  },
+  {
+    "drink": "Americano",
+    "implied": [],
+    "literal": [
+      "campari",
+      "lemon",
+      "orange",
+      "sweet_vermouth"
+    ]
+  },
+  {
+    "drink": "GG",
+    "implied": [
+      "anise",
+      "ginger",
+      "vanilla"
+    ],
+    "literal": [
+      "galliano",
+      "ginger_ale"
+    ]
+  },
+  {
+    "drink": "Mudslinger",
+    "implied": [],
+    "literal": [
+      "cola",
+      "orange"
+    ]
+  },
+  {
+    "drink": "9 1/2 Weeks",
+    "implied": [
+      "lemon",
+      "vodka"
+    ],
+    "literal": [
+      "citron_vodka",
+      "orange"
+    ]
+  },
+  {
+    "drink": "Whitecap Margarita",
+    "implied": [],
+    "literal": [
+      "lime",
+      "tequila"
+    ]
+  },
+  {
+    "drink": "Jitterbug",
+    "implied": [],
+    "literal": [
+      "gin",
+      "grenadine",
+      "lime",
+      "soda_water",
+      "sugar_syrup",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Moranguito",
+    "implied": [],
+    "literal": [
+      "absinthe",
+      "grenadine",
+      "tequila"
+    ]
+  },
+  {
+    "drink": "Rum Runner",
+    "implied": [],
+    "literal": [
+      "coconut_liqueur",
+      "cranberry",
+      "orange",
+      "pineapple"
+    ]
+  },
+  {
+    "drink": "H.D.",
+    "implied": [
+      "cream"
+    ],
+    "literal": [
+      "coffee",
+      "irish_cream"
+    ]
+  },
+  {
+    "drink": "Jack's Vanilla Coke",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "cola",
+      "vanilla"
+    ]
+  },
+  {
+    "drink": "Avalanche",
+    "implied": [
+      "coffee"
+    ],
+    "literal": [
+      "coffee_liqueur",
+      "cream"
+    ]
+  },
+  {
+    "drink": "Flaming Lamborghini",
+    "implied": [
+      "anise",
+      "coffee",
+      "cream",
+      "orange"
+    ],
+    "literal": [
+      "blue_curacao",
+      "coffee_liqueur",
+      "irish_cream",
+      "sambuca"
+    ]
+  },
+  {
+    "drink": "Zipperhead",
+    "implied": [
+      "raspberry"
+    ],
+    "literal": [
+      "raspberry_liqueur",
+      "soda_water",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Kioki Coffee",
+    "implied": [],
+    "literal": [
+      "brandy",
+      "coffee",
+      "coffee_liqueur"
+    ]
+  },
+  {
+    "drink": "Vodka Fizz",
+    "implied": [],
+    "literal": [
+      "cream",
+      "nutmeg",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Radioactive Long Island Iced Tea",
+    "implied": [
+      "orange",
+      "raspberry"
+    ],
+    "literal": [
+      "coconut_liqueur",
+      "gin",
+      "raspberry_liqueur",
+      "tequila",
+      "triple_sec",
+      "vodka",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Bible Belt",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "lime",
+      "triple_sec"
+    ]
+  },
+  {
+    "drink": "Irish Curdling Cow",
+    "implied": [
+      "cream"
+    ],
+    "literal": [
+      "bourbon",
+      "irish_cream",
+      "orange",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Downshift",
+    "implied": [],
+    "literal": [
+      "dark_rum",
+      "tequila"
+    ]
+  },
+  {
+    "drink": "Pink Penocha",
+    "implied": [
+      "peach"
+    ],
+    "literal": [
+      "cranberry",
+      "orange",
+      "peach_schnapps",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Orange Whip",
+    "implied": [],
+    "literal": [
+      "cream",
+      "orange",
+      "vodka",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Irish Russian",
+    "implied": [
+      "coffee"
+    ],
+    "literal": [
+      "coffee_liqueur",
+      "cola",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Homemade Kahlua",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "sugar_syrup",
+      "vanilla",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "501 Blue",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "blue_curacao",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Coke and Drops",
+    "implied": [],
+    "literal": [
+      "cola",
+      "lemon"
+    ]
+  },
+  {
+    "drink": "Ruby Tuesday",
+    "implied": [],
+    "literal": [
+      "cranberry",
+      "gin",
+      "grenadine"
+    ]
+  },
+  {
+    "drink": "Brain Fart",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "vodka",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Citrus Coke",
+    "implied": [
+      "lemon",
+      "white_rum"
+    ],
+    "literal": [
+      "cola",
+      "lemon_rum"
+    ]
+  },
+  {
+    "drink": "Smut",
+    "implied": [
+      "peach"
+    ],
+    "literal": [
+      "cola",
+      "orange",
+      "peach_schnapps",
+      "red_wine"
+    ]
+  },
+  {
+    "drink": "Ipamena",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "brown_sugar",
+      "ginger_ale",
+      "lime",
+      "passionfruit"
+    ]
+  },
+  {
+    "drink": "Dark Caipirinha",
+    "implied": [],
+    "literal": [
+      "cachaca",
+      "demerara",
+      "lime"
+    ]
+  },
+  {
+    "drink": "Jam Donut",
+    "implied": [
+      "cream",
+      "raspberry"
+    ],
+    "literal": [
+      "irish_cream",
+      "raspberry_liqueur",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Aviation",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "gin",
+      "lemon",
+      "maraschino"
+    ]
+  },
+  {
+    "drink": "Dirty Martini",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "lemon",
+      "olive",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Duchamp's Punch",
+    "implied": [
+      "elderflower"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "lavender",
+      "lime",
+      "st_germain"
+    ]
+  },
+  {
+    "drink": "Casino",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "gin",
+      "lemon",
+      "maraschino",
+      "orange_bitters"
+    ]
+  },
+  {
+    "drink": "Clover Club",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "gin",
+      "grenadine",
+      "lemon"
+    ]
+  },
+  {
+    "drink": "Derby",
+    "implied": [],
+    "literal": [
+      "gin",
+      "mint"
+    ]
+  },
+  {
+    "drink": "Mary Pickford",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "grenadine",
+      "maraschino",
+      "pineapple",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Monkey Gland",
+    "implied": [],
+    "literal": [
+      "benedictine",
+      "gin",
+      "grenadine",
+      "orange"
+    ]
+  },
+  {
+    "drink": "Paradise",
+    "implied": [
+      "peach"
+    ],
+    "literal": [
+      "apricot_brandy",
+      "gin",
+      "orange"
+    ]
+  },
+  {
+    "drink": "Planter's Punch",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "dark_rum",
+      "orange",
+      "orgeat",
+      "pineapple"
+    ]
+  },
+  {
+    "drink": "Porto flip",
+    "implied": [],
+    "literal": [
+      "brandy",
+      "port"
+    ]
+  },
+  {
+    "drink": "White Lady",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "gin",
+      "lemon",
+      "triple_sec"
+    ]
+  },
+  {
+    "drink": "Bellini",
+    "implied": [
+      "peach"
+    ],
+    "literal": [
+      "peach_schnapps",
+      "sparkling_wine"
+    ]
+  },
+  {
+    "drink": "Cosmopolitan",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "cointreau",
+      "cranberry",
+      "lime",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "French 75",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "gin",
+      "lemon",
+      "orange",
+      "sparkling_wine",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "French Connection",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "amaretto",
+      "brandy"
+    ]
+  },
+  {
+    "drink": "Grasshopper",
+    "implied": [],
+    "literal": [
+      "cream",
+      "creme_de_cacao"
+    ]
+  },
+  {
+    "drink": "Hemingway Special",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "grapefruit",
+      "lime",
+      "maraschino",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Horse's Neck",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "brandy",
+      "ginger_ale",
+      "lemon"
+    ]
+  },
+  {
+    "drink": "Kir",
+    "implied": [],
+    "literal": [
+      "creme_de_cassis",
+      "sparkling_wine"
+    ]
+  },
+  {
+    "drink": "Long Island Iced Tea",
+    "implied": [],
+    "literal": [
+      "cola",
+      "gin",
+      "lemon",
+      "tequila",
+      "vodka",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Mimosa",
+    "implied": [],
+    "literal": [
+      "orange",
+      "sparkling_wine"
+    ]
+  },
+  {
+    "drink": "Mint Julep",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "mint",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Pina Colada",
+    "implied": [],
+    "literal": [
+      "pineapple",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Rose",
+    "implied": [
+      "peach"
+    ],
+    "literal": [
+      "apricot_brandy",
+      "dry_vermouth",
+      "gin",
+      "grenadine",
+      "lemon",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Barracuda",
+    "implied": [
+      "anise",
+      "vanilla"
+    ],
+    "literal": [
+      "galliano",
+      "lime",
+      "pineapple",
+      "sparkling_wine",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Bramble",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Espresso Martini",
+    "implied": [
+      "coffee"
+    ],
+    "literal": [
+      "coffee_liqueur",
+      "sugar_syrup",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "French Martini",
+    "implied": [
+      "raspberry"
+    ],
+    "literal": [
+      "pineapple",
+      "raspberry_liqueur",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Russian Spring Punch",
+    "implied": [],
+    "literal": [
+      "creme_de_cassis",
+      "lemon",
+      "sugar_syrup",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Spritz",
+    "implied": [],
+    "literal": [
+      "campari",
+      "soda_water",
+      "sparkling_wine"
+    ]
+  },
+  {
+    "drink": "Vampiro",
+    "implied": [],
+    "literal": [
+      "lime",
+      "orange",
+      "salt",
+      "sugar_syrup",
+      "tequila"
+    ]
+  },
+  {
+    "drink": "Vesper",
+    "implied": [],
+    "literal": [
+      "gin",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Yellow Bird",
+    "implied": [
+      "anise",
+      "orange",
+      "vanilla"
+    ],
+    "literal": [
+      "galliano",
+      "lime",
+      "triple_sec",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "A1",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "gin",
+      "grenadine",
+      "lemon",
+      "triple_sec"
+    ]
+  },
+  {
+    "drink": "Ace",
+    "implied": [],
+    "literal": [
+      "cream",
+      "egg_white",
+      "gin",
+      "grenadine",
+      "milk"
+    ]
+  },
+  {
+    "drink": "Addington",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "soda_water",
+      "sweet_vermouth"
+    ]
+  },
+  {
+    "drink": "Addison",
+    "implied": [],
+    "literal": [
+      "gin",
+      "sweet_vermouth"
+    ]
+  },
+  {
+    "drink": "Gin Rickey",
+    "implied": [],
+    "literal": [
+      "gin",
+      "grenadine",
+      "lemon",
+      "lime",
+      "soda_water"
+    ]
+  },
+  {
+    "drink": "Hunter's Moon",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "sugar_syrup",
+      "sweet_vermouth"
+    ]
+  },
+  {
+    "drink": "Zombie",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "dark_rum",
+      "grenadine",
+      "lime",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Rosemary Blue",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "blue_curacao",
+      "gin",
+      "rosemary",
+      "tonic_water"
+    ]
+  },
+  {
+    "drink": "Empellón Cocina's Fat-Washed Mezcal",
+    "implied": [
+      "coffee"
+    ],
+    "literal": [
+      "coffee_liqueur",
+      "mezcal"
+    ]
+  },
+  {
+    "drink": "The Last Word",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "gin",
+      "green_chartreuse",
+      "lime",
+      "maraschino"
+    ]
+  },
+  {
+    "drink": "French Negroni",
+    "implied": [],
+    "literal": [
+      "gin",
+      "orange",
+      "sweet_vermouth"
+    ]
+  },
+  {
+    "drink": "Pegu Club",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "gin",
+      "lime",
+      "orange_bitters"
+    ]
+  },
+  {
+    "drink": "Corpse Reviver",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "absinthe",
+      "gin",
+      "lemon",
+      "triple_sec"
+    ]
+  },
+  {
+    "drink": "Greyhound",
+    "implied": [],
+    "literal": [
+      "grapefruit",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Bijou",
+    "implied": [],
+    "literal": [
+      "gin",
+      "green_chartreuse",
+      "orange_bitters",
+      "sweet_vermouth"
+    ]
+  },
+  {
+    "drink": "Gimlet",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lime",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Martinez 2",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "gin",
+      "maraschino",
+      "sweet_vermouth"
+    ]
+  },
+  {
+    "drink": "Oatmeal Cookie",
+    "implied": [
+      "coffee",
+      "cream"
+    ],
+    "literal": [
+      "coffee_liqueur",
+      "irish_cream"
+    ]
+  },
+  {
+    "drink": "Bahama Mama",
+    "implied": [],
+    "literal": [
+      "dark_rum",
+      "grenadine",
+      "orange",
+      "pineapple",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "The Laverstoke",
+    "implied": [],
+    "literal": [
+      "gin",
+      "ginger",
+      "lime",
+      "mint",
+      "sweet_vermouth",
+      "tonic_water"
+    ]
+  },
+  {
+    "drink": "The Jimmy Conway",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "amaretto",
+      "cranberry",
+      "irish_whiskey"
+    ]
+  },
+  {
+    "drink": "Old Pal",
+    "implied": [],
+    "literal": [
+      "campari",
+      "dry_vermouth",
+      "rye_whiskey"
+    ]
+  },
+  {
+    "drink": "Tipperary",
+    "implied": [],
+    "literal": [
+      "green_chartreuse",
+      "irish_whiskey",
+      "sweet_vermouth"
+    ]
+  },
+  {
+    "drink": "Penicillin",
+    "implied": [],
+    "literal": [
+      "honey",
+      "lemon",
+      "scotch"
+    ]
+  },
+  {
+    "drink": "Corn n Oil",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "lime"
+    ]
+  },
+  {
+    "drink": "Espresso Rumtini",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Brooklyn",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "cherry",
+      "dry_vermouth",
+      "maraschino",
+      "rye_whiskey"
+    ]
+  },
+  {
+    "drink": "Broadside",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "dark_rum",
+      "scotch",
+      "wormwood"
+    ]
+  },
+  {
+    "drink": "Halloween Punch",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "clove",
+      "ginger",
+      "orange",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Munich Mule",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "lime"
+    ]
+  },
+  {
+    "drink": "Honey Bee",
+    "implied": [],
+    "literal": [
+      "honey",
+      "lemon",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "747 Drink",
+    "implied": [],
+    "literal": [
+      "cranberry",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Spice 75",
+    "implied": [],
+    "literal": [
+      "allspice",
+      "lime",
+      "orange",
+      "sparkling_wine",
+      "sugar_syrup",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Passion Fruit Martini",
+    "implied": [],
+    "literal": [
+      "passionfruit",
+      "sugar_syrup",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "White Wine Sangria",
+    "implied": [],
+    "literal": [
+      "apple",
+      "lemon",
+      "lime",
+      "soda_water",
+      "strawberry"
+    ]
+  },
+  {
+    "drink": "Pineapple Paloma",
+    "implied": [],
+    "literal": [
+      "grapefruit",
+      "lime",
+      "pineapple",
+      "tequila"
+    ]
+  },
+  {
+    "drink": "Funk and Soul",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "soda_water",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "The Philosopher",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "orange_bitters",
+      "sparkling_wine"
+    ]
+  },
+  {
+    "drink": "Raspberry Julep",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "mint"
+    ]
+  },
+  {
+    "drink": "Death in the Afternoon",
+    "implied": [],
+    "literal": [
+      "absinthe",
+      "sparkling_wine"
+    ]
+  },
+  {
+    "drink": "Lazy Coconut Paloma",
+    "implied": [],
+    "literal": [
+      "coconut_liqueur",
+      "grapefruit",
+      "soda_water"
+    ]
+  },
+  {
+    "drink": "Pure Passion",
+    "implied": [],
+    "literal": [
+      "lime",
+      "mint",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Orange Rosemary Collins",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "orange",
+      "rosemary",
+      "soda_water"
+    ]
+  },
+  {
+    "drink": "Gin and Soda",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lime",
+      "soda_water"
+    ]
+  },
+  {
+    "drink": "Figgy Thyme",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "honey",
+      "thyme",
+      "tonic_water",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Hot Toddy",
+    "implied": [],
+    "literal": [
+      "cinnamon",
+      "clove",
+      "honey",
+      "lemon"
+    ]
+  },
+  {
+    "drink": "Elderflower Caipirinha",
+    "implied": [],
+    "literal": [
+      "cachaca",
+      "lime"
+    ]
+  },
+  {
+    "drink": "Winter Rita",
+    "implied": [],
+    "literal": [
+      "campari",
+      "lime",
+      "orange",
+      "salt",
+      "tequila"
+    ]
+  },
+  {
+    "drink": "Winter Paloma",
+    "implied": [],
+    "literal": [
+      "agave",
+      "grapefruit",
+      "lime",
+      "tequila"
+    ]
+  },
+  {
+    "drink": "Snowday",
+    "implied": [],
+    "literal": [
+      "amaro_montenegro",
+      "angostura_bitters",
+      "orange",
+      "port",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Abilene",
+    "implied": [],
+    "literal": [
+      "dark_rum",
+      "orange"
+    ]
+  },
+  {
+    "drink": "The Galah",
+    "implied": [],
+    "literal": [
+      "campari",
+      "dark_rum",
+      "lime",
+      "pineapple"
+    ]
+  },
+  {
+    "drink": "Frosé",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "strawberry",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Pink Moon",
+    "implied": [],
+    "literal": [
+      "coconut_liqueur",
+      "gin",
+      "lime"
+    ]
+  },
+  {
+    "drink": "Pornstar Martini",
+    "implied": [],
+    "literal": [
+      "lime",
+      "passionfruit",
+      "sparkling_wine",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Mango Mojito",
+    "implied": [],
+    "literal": [
+      "lime",
+      "mango",
+      "mint",
+      "soda_water",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Kiwi Martini",
+    "implied": [],
+    "literal": [
+      "sugar_syrup",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Acapulco",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "egg_white",
+      "lime",
+      "mint",
+      "sugar_syrup",
+      "triple_sec",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Lemon Elderflower Spritzer",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "soda_water",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Vodka Slime",
+    "implied": [],
+    "literal": [
+      "lime",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Vodka Lemon",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Vodka Tonic",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "tonic_water",
+      "vodka"
+    ]
+  },
+  {
+    "drink": "Gin Tonic",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon",
+      "tonic_water"
+    ]
+  },
+  {
+    "drink": "Gin Lemon",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon"
+    ]
+  },
+  {
+    "drink": "Ramos Gin Fizz",
+    "implied": [],
+    "literal": [
+      "cream",
+      "egg_white",
+      "gin",
+      "lemon",
+      "soda_water",
+      "sugar_syrup",
+      "vanilla"
+    ]
+  },
+  {
+    "drink": "Planter’s Punch",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "dark_rum",
+      "grenadine",
+      "orange",
+      "pineapple",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "drink": "Adam",
+    "implied": [],
+    "literal": [
+      "dark_rum",
+      "grenadine",
+      "lemon"
+    ]
+  },
+  {
+    "drink": "Old Cuban",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "lime",
+      "sparkling_wine",
+      "sugar_syrup",
+      "white_rum"
+    ]
+  },
+  {
+    "drink": "Affair",
+    "implied": [],
+    "literal": [
+      "cranberry",
+      "orange",
+      "soda_water"
+    ]
+  },
+  {
+    "drink": "Affinity",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "orange_bitters",
+      "scotch",
+      "sweet_vermouth"
+    ]
+  }
+]

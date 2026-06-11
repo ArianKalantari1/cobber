@@ -166,7 +166,10 @@
       "citrus"
     ],
     "notes": "Orange-peel liqueur; sweet citrus.",
-    "source": "Orange-peel maceration."
+    "source": "Orange-peel maceration.",
+    "flavor_forward": [
+      "orange"
+    ]
   },
   {
     "id": "cointreau",
@@ -183,7 +186,10 @@
       "clean"
     ],
     "notes": "Sweet + bitter orange-peel triple sec; crisper than generic.",
-    "source": "Sweet and bitter orange-peel blend."
+    "source": "Sweet and bitter orange-peel blend.",
+    "flavor_forward": [
+      "orange"
+    ]
   },
   {
     "id": "sweet_vermouth",
@@ -271,7 +277,10 @@
       "honey"
     ],
     "notes": "Elderflower liqueur (St-Germain style).",
-    "source": "Elderflower maceration."
+    "source": "Elderflower maceration.",
+    "flavor_forward": [
+      "elderflower"
+    ]
   },
   {
     "id": "maraschino",
@@ -288,7 +297,10 @@
       "nutty"
     ],
     "notes": "Marasca cherry + pits; benzaldehyde-forward.",
-    "source": "Marasca cherry distillate (whole fruit incl. stones)."
+    "source": "Marasca cherry distillate (whole fruit incl. stones).",
+    "flavor_forward": [
+      "cherry"
+    ]
   },
   {
     "id": "amaretto",
@@ -304,7 +316,10 @@
       "marzipan"
     ],
     "notes": "Sweet almond/apricot-kernel liqueur.",
-    "source": "Benzaldehyde-led almond liqueur."
+    "source": "Benzaldehyde-led almond liqueur.",
+    "flavor_forward": [
+      "almond"
+    ]
   },
   {
     "id": "coffee_liqueur",
@@ -321,7 +336,10 @@
       "roasted"
     ],
     "notes": "Sweetened coffee liqueur (Kahlua style).",
-    "source": "Coffee extract + vanilla."
+    "source": "Coffee extract + vanilla.",
+    "flavor_forward": [
+      "coffee"
+    ]
   },
   {
     "id": "green_chartreuse",
@@ -355,7 +373,10 @@
       "citrus"
     ],
     "notes": "Sweet lemon-peel liqueur.",
-    "source": "Lemon-peel maceration."
+    "source": "Lemon-peel maceration.",
+    "flavor_forward": [
+      "lemon"
+    ]
   },
   {
     "id": "angostura_bitters",
@@ -483,7 +504,10 @@
     "is_native": false,
     "season": null,
     "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "cream"
+    ]
   },
   {
     "id": "peach_schnapps",
@@ -500,7 +524,10 @@
     "is_native": false,
     "season": null,
     "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "peach"
+    ]
   },
   {
     "id": "apricot_brandy",
@@ -517,7 +544,10 @@
     "is_native": false,
     "season": null,
     "notes": "Stone-fruit profile proxied on peach. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "peach"
+    ]
   },
   {
     "id": "sambuca",
@@ -534,7 +564,10 @@
     "is_native": false,
     "season": null,
     "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "anise"
+    ]
   },
   {
     "id": "absinthe",
@@ -591,7 +624,11 @@
     "is_native": false,
     "season": null,
     "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "vanilla",
+      "anise"
+    ]
   },
   {
     "id": "blue_curacao",
@@ -609,7 +646,10 @@
     "is_native": false,
     "season": null,
     "notes": "Same orange bill as triple sec; colour aside. TODO: verify",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "orange"
+    ]
   },
   {
     "id": "creme_de_cacao",
@@ -673,7 +713,10 @@
     "is_native": false,
     "season": null,
     "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "raspberry"
+    ]
   },
   {
     "id": "amaro_montenegro",
@@ -693,6 +736,178 @@
     "is_native": false,
     "season": null,
     "notes": "Soft/sweet/rosy amaro; priority coverage item. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "citron_vodka",
+    "display_name": "Citron (lemon) vodka",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "lemon"
+    ],
+    "flavor_forward": [
+      "vodka",
+      "lemon"
+    ],
+    "descriptors": [
+      "citrus",
+      "lemon",
+      "clean"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Flavoured spirit; decomposes to base + flavour for co-occurrence. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "lime_vodka",
+    "display_name": "Lime vodka",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "lime"
+    ],
+    "flavor_forward": [
+      "vodka",
+      "lime"
+    ],
+    "descriptors": [
+      "citrus",
+      "lime",
+      "clean"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Flavoured spirit; decomposes to base + flavour for co-occurrence. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "peach_vodka",
+    "display_name": "Peach vodka",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "peach"
+    ],
+    "flavor_forward": [
+      "vodka",
+      "peach"
+    ],
+    "descriptors": [
+      "peach",
+      "clean"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Flavoured spirit; decomposes to base + flavour for co-occurrence. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "raspberry_vodka",
+    "display_name": "Raspberry vodka",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "raspberry"
+    ],
+    "flavor_forward": [
+      "vodka",
+      "raspberry"
+    ],
+    "descriptors": [
+      "raspberry",
+      "clean"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Flavoured spirit; decomposes to base + flavour for co-occurrence. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "cranberry_vodka",
+    "display_name": "Cranberry vodka",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "cranberry"
+    ],
+    "flavor_forward": [
+      "vodka",
+      "cranberry"
+    ],
+    "descriptors": [
+      "tart",
+      "red",
+      "clean"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Flavoured spirit; decomposes to base + flavour for co-occurrence. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "vanilla_vodka",
+    "display_name": "Vanilla vodka",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "vanilla"
+    ],
+    "flavor_forward": [
+      "vodka",
+      "vanilla"
+    ],
+    "descriptors": [
+      "vanilla",
+      "clean"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Flavoured spirit; decomposes to base + flavour for co-occurrence. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "pepper_vodka",
+    "display_name": "Pepper vodka",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "black_pepper"
+    ],
+    "flavor_forward": [
+      "vodka",
+      "black_pepper"
+    ],
+    "descriptors": [
+      "spicy",
+      "clean"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Flavoured spirit; decomposes to base + flavour for co-occurrence. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "lemon_rum",
+    "display_name": "Lemon white rum",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "lemon"
+    ],
+    "flavor_forward": [
+      "white_rum",
+      "lemon"
+    ],
+    "descriptors": [
+      "citrus",
+      "lemon",
+      "cane"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Flavoured spirit; decomposes to base + flavour for co-occurrence. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
     "source": "Provisional entry; see notes."
   }
 ]

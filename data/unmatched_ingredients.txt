@@ -19,9 +19,7 @@
 4	sour mix
 4	sprite
 4	tea
-3	absolut citron
 3	anis
-3	bacardi limon
 3	blackberry brandy
 3	chocolate syrup
 3	cocoa powder
@@ -38,7 +36,6 @@
 3	root beer
 3	sloe gin
 3	southern comfort
-3	spiced rum
 3	tomato
 3	vanilla ice cream
 3	whiskey
@@ -62,7 +59,6 @@
 2	orange curacao
 2	passoa
 2	peach bitter
-2	peach vodka
 2	pisco
 2	raspberry syrup
 2	ricard
@@ -73,8 +69,6 @@
 2	tabasco sauce
 2	zima
 1	absolut kurant
-1	absolut peppar
-1	absolut vodka
 1	advocaat
 1	almond flavoring
 1	anisette
@@ -99,7 +93,6 @@
 1	coffee brandy
 1	coriander
 1	corn syrup
-1	cranberry vodka
 1	cream coconut
 1	creme de mure
 1	cucumber
@@ -125,7 +118,6 @@
 1	jello
 1	kiwi liqueur
 1	lillet
-1	lime vodka
 1	limeade
 1	maple syrup
 1	marshmallow
@@ -144,7 +136,6 @@
 1	pink lemonade
 1	pisang ambon
 1	pomegranate
-1	raspberry vodka
 1	red chili flake
 1	ros sweetened lime
 1	rose
@@ -156,7 +147,6 @@
 1	strawberry schnapp
 1	tia maria
 1	vanilla syrup
-1	vanilla vodka
 1	whisky
 1	white wine
 1	worcestershire sauce

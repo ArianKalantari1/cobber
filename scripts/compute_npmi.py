@@ -13,6 +13,26 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 RECIPES_PATH = ROOT / "data" / "recipes_normalized.json"
 OUTPUT_PATH = ROOT / "data" / "tradition_npmi.json"
+INGREDIENTS_PATH = ROOT / "data" / "ingredients.json"
+COMPOSITES_PATH = ROOT / "data" / "composites.json"
+
+
+def _load_excluded_pairs() -> set[frozenset[str]]:
+    """Pairs of a composite and its own flavor_forward component.
+
+    Since normalization implies these components into every recipe containing
+    the composite, the pair co-occurs by construction (amaretto + almond,
+    citron vodka + vodka). Scoring them as "tradition" would be circular, so
+    they are excluded from the pair counts.
+    """
+    excluded: set[frozenset[str]] = set()
+    for path in (INGREDIENTS_PATH, COMPOSITES_PATH):
+        with path.open(encoding="utf-8") as handle:
+            entries = json.load(handle)
+        for entry in entries:
+            for component in entry.get("flavor_forward", []):
+                excluded.add(frozenset((entry["id"], str(component))))
+    return excluded
 
 
 def _load_recipes(path: Path) -> list[list[str]]:
@@ -42,8 +62,11 @@ def compute_npmi(recipes: list[list[str]]) -> list[dict[str, object]]:
         ingredient_counts.update(recipe)
         pair_counts.update(combinations(recipe, 2))
 
+    excluded_pairs = _load_excluded_pairs()
     rows: list[dict[str, object]] = []
     for (a, b), pair_count in pair_counts.items():
+        if frozenset((a, b)) in excluded_pairs:
+            continue
         p_x = ingredient_counts[a] / total_recipes
         p_y = ingredient_counts[b] / total_recipes
         p_xy = pair_count / total_recipes

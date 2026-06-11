@@ -17,6 +17,7 @@ COMPOSITES_PATH = ROOT / "data" / "composites.json"
 ALIASES_PATH = ROOT / "data" / "ingredient_aliases.json"
 UNMATCHED_PATH = ROOT / "data" / "unmatched_ingredients.txt"
 NORMALIZED_RECIPES_PATH = ROOT / "data" / "recipes_normalized.json"
+COMPONENTS_PATH = ROOT / "data" / "recipes_components.json"
 
 TRAILING_PHRASES = (
     "freshly squeezed",
@@ -80,12 +81,13 @@ def normalize_name(name: str) -> str:
     return " ".join(tokens).strip()
 
 
-def _build_known_maps() -> tuple[set[str], dict[str, str]]:
+def _build_known_maps() -> tuple[set[str], dict[str, str], dict[str, list[str]]]:
     ingredients = _load_json(INGREDIENTS_PATH)
     composites = _load_json(COMPOSITES_PATH)
 
     canonical_ids: set[str] = set()
     name_to_id: dict[str, str] = {}
+    flavor_forward: dict[str, list[str]] = {}
     for entry in [*ingredients, *composites]:
         ingredient_id = entry["id"]
         canonical_ids.add(ingredient_id)
@@ -95,7 +97,10 @@ def _build_known_maps() -> tuple[set[str], dict[str, str]]:
         name_to_id.setdefault(id_text, ingredient_id)
         if display_name:
             name_to_id.setdefault(display_name, ingredient_id)
-    return canonical_ids, name_to_id
+        forward = entry.get("flavor_forward")
+        if isinstance(forward, list) and forward:
+            flavor_forward[ingredient_id] = [str(item) for item in forward]
+    return canonical_ids, name_to_id, flavor_forward
 
 
 def _extract_raw_ingredients(drink: dict) -> list[str]:
@@ -139,16 +144,17 @@ def _load_aliases() -> dict[str, str]:
     return aliases
 
 
-def normalize_recipes() -> tuple[list[list[str]], dict[str, str], Counter[str]]:
+def normalize_recipes() -> tuple[list[list[str]], list[dict], dict[str, str], Counter[str]]:
     raw_recipes = _load_json(RAW_RECIPES)
     if not isinstance(raw_recipes, list):
         raise ValueError("data/raw/thecocktaildb.json must contain a JSON list.")
 
-    canonical_ids, known_names = _build_known_maps()
+    canonical_ids, known_names, flavor_forward = _build_known_maps()
     alias_map = _load_aliases()
     learned_aliases: dict[str, str] = {}
     unmatched = Counter()
     normalized_recipes: list[list[str]] = []
+    component_records: list[dict] = []
 
     for drink in raw_recipes:
         if not isinstance(drink, dict):
@@ -172,11 +178,27 @@ def normalize_recipes() -> tuple[list[list[str]], dict[str, str], Counter[str]]:
             learned_aliases.setdefault(normalized_raw, chosen_id)
             matched_ids.add(chosen_id)
 
+        # A drink qualifies on its literal matches; flavour components are then
+        # implied from each composite's flavor_forward bill (the Cosmopolitan
+        # principle: citron vodka puts both vodka and lemon in the glass).
         if len(matched_ids) >= 2:
-            normalized_recipes.append(sorted(matched_ids))
+            implied = {
+                component
+                for ingredient_id in matched_ids
+                for component in flavor_forward.get(ingredient_id, [])
+                if component not in matched_ids
+            }
+            normalized_recipes.append(sorted(matched_ids | implied))
+            component_records.append(
+                {
+                    "drink": str(drink.get("strDrink", "")),
+                    "literal": sorted(matched_ids),
+                    "implied": sorted(implied),
+                }
+            )
 
     final_aliases = {**alias_map, **learned_aliases}
-    return normalized_recipes, final_aliases, unmatched
+    return normalized_recipes, component_records, final_aliases, unmatched
 
 
 def _write_json(path: Path, payload: object) -> None:
@@ -197,12 +219,14 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Normalize raw cocktail ingredients to Cobber ids.")
     parser.parse_args()
 
-    normalized_recipes, aliases, unmatched = normalize_recipes()
+    normalized_recipes, component_records, aliases, unmatched = normalize_recipes()
     _write_json(NORMALIZED_RECIPES_PATH, normalized_recipes)
+    _write_json(COMPONENTS_PATH, component_records)
     _write_json(ALIASES_PATH, aliases)
     _write_unmatched(UNMATCHED_PATH, unmatched)
 
     print(f"Wrote {len(normalized_recipes)} normalized recipes to {NORMALIZED_RECIPES_PATH}")
+    print(f"Wrote {len(component_records)} component records to {COMPONENTS_PATH}")
     print(f"Wrote {len(aliases)} aliases to {ALIASES_PATH}")
     print(f"Wrote {sum(unmatched.values())} unmatched ingredient mentions to {UNMATCHED_PATH}")
 

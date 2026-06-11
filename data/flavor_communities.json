@@ -1,0 +1,178 @@
+[
+  {
+    "head": "vodka",
+    "size": 6,
+    "members": [
+      "vodka",
+      "cranberry",
+      "tonic_water",
+      "peach_schnapps",
+      "raspberry_liqueur",
+      "honey"
+    ]
+  },
+  {
+    "head": "angostura_bitters",
+    "size": 5,
+    "members": [
+      "angostura_bitters",
+      "sweet_vermouth",
+      "dry_vermouth",
+      "scotch",
+      "olive"
+    ]
+  },
+  {
+    "head": "cream",
+    "size": 5,
+    "members": [
+      "cream",
+      "coffee",
+      "coffee_liqueur",
+      "irish_cream",
+      "sambuca"
+    ]
+  },
+  {
+    "head": "lemon",
+    "size": 5,
+    "members": [
+      "lemon",
+      "sugar_syrup",
+      "gin",
+      "soda_water",
+      "egg_white"
+    ]
+  },
+  {
+    "head": "almond",
+    "size": 4,
+    "members": [
+      "almond",
+      "amaretto",
+      "brandy",
+      "port"
+    ]
+  },
+  {
+    "head": "ginger",
+    "size": 4,
+    "members": [
+      "ginger",
+      "red_wine",
+      "cinnamon",
+      "clove"
+    ]
+  },
+  {
+    "head": "lime",
+    "size": 4,
+    "members": [
+      "lime",
+      "white_rum",
+      "mint",
+      "cachaca"
+    ]
+  },
+  {
+    "head": "tequila",
+    "size": 4,
+    "members": [
+      "tequila",
+      "cola",
+      "peach",
+      "salt"
+    ]
+  },
+  {
+    "head": "grenadine",
+    "size": 3,
+    "members": [
+      "grenadine",
+      "dark_rum",
+      "pineapple"
+    ]
+  },
+  {
+    "head": "orange",
+    "size": 3,
+    "members": [
+      "orange",
+      "cherry",
+      "coconut_liqueur"
+    ]
+  },
+  {
+    "head": "sparkling_wine",
+    "size": 3,
+    "members": [
+      "sparkling_wine",
+      "creme_de_cassis",
+      "absinthe"
+    ]
+  },
+  {
+    "head": "apple",
+    "size": 2,
+    "members": [
+      "apple",
+      "strawberry"
+    ]
+  },
+  {
+    "head": "bourbon",
+    "size": 2,
+    "members": [
+      "bourbon",
+      "benedictine"
+    ]
+  },
+  {
+    "head": "galliano",
+    "size": 2,
+    "members": [
+      "galliano",
+      "citron_vodka"
+    ]
+  },
+  {
+    "head": "ginger_ale",
+    "size": 2,
+    "members": [
+      "ginger_ale",
+      "passionfruit"
+    ]
+  },
+  {
+    "head": "irish_whiskey",
+    "size": 2,
+    "members": [
+      "irish_whiskey",
+      "green_chartreuse"
+    ]
+  },
+  {
+    "head": "maraschino",
+    "size": 2,
+    "members": [
+      "maraschino",
+      "orange_bitters"
+    ]
+  },
+  {
+    "head": "milk",
+    "size": 2,
+    "members": [
+      "milk",
+      "nutmeg"
+    ]
+  },
+  {
+    "head": "vanilla",
+    "size": 2,
+    "members": [
+      "vanilla",
+      "anise"
+    ]
+  }
+]

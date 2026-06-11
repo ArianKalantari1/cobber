@@ -1346,7 +1346,10 @@
     "is_native": false,
     "season": null,
     "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "ginger"
+    ]
   },
   {
     "id": "cranberry",
@@ -1479,6 +1482,9 @@
     "is_native": false,
     "season": null,
     "notes": "Almond syrup; benzaldehyde from almond. TODO: verify",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "almond"
+    ]
   }
 ]
