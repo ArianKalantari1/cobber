@@ -46,6 +46,7 @@ python3 scripts/normalize.py          # -> recipes_normalized/components, aliase
 python3 scripts/compute_npmi.py       # -> tradition_npmi.json
 python3 scripts/write_tradition.py    # -> tradition.json
 python3 scripts/flavor_communities.py # -> flavor_communities.json (diagnostic)
+python3 scripts/render_graph.py       # -> flavor_graph.html (interactive picture)
 ```
 
 Cross-corpus dedupe priority: IBA > Mr. Boston > TheCocktailDB.
