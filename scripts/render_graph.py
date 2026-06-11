@@ -175,12 +175,125 @@ def build_graph_payload(min_count: int, min_pair_count: int) -> tuple[dict, int]
     return payload, len(recipes)
 
 
+def _spring_layout(payload: dict, iterations: int = 800) -> dict[str, tuple[float, float]]:
+    """Deterministic Fruchterman-Reingold layout, stdlib only.
+
+    Edges pull proportionally to tradition; all nodes repel; a weak gravity
+    keeps stragglers on the canvas. Attraction is degree-normalised — this
+    graph is dense (every node averages ~18 edges) and without normalisation
+    the hubs crush the whole layout into a blob. Seeded so the same data
+    always produces the same picture; coordinates are rescaled to fill the
+    frame at the end.
+    """
+    import math
+    import random
+
+    rng = random.Random(7)
+    ids = [n["id"] for n in payload["nodes"]]
+    pos = {i: (rng.uniform(-1, 1), rng.uniform(-1, 1)) for i in ids}
+    edges = [(l["source"], l["target"], l["tradition"]) for l in payload["links"]]
+    degree: dict[str, int] = {i: 1 for i in ids}
+    for a, b, _ in edges:
+        degree[a] += 1
+        degree[b] += 1
+    k = 2.0 / math.sqrt(len(ids))
+
+    for step in range(iterations):
+        temp = 0.35 * (1 - step / iterations) ** 1.5 + 0.002
+        disp = {i: [0.0, 0.0] for i in ids}
+        for idx, a in enumerate(ids):
+            ax, ay = pos[a]
+            for b in ids[idx + 1 :]:
+                dx, dy = ax - pos[b][0], ay - pos[b][1]
+                dist2 = dx * dx + dy * dy + 1e-6
+                f = k * k / dist2
+                disp[a][0] += dx * f; disp[a][1] += dy * f
+                disp[b][0] -= dx * f; disp[b][1] -= dy * f
+        for a, b, w in edges:
+            dx, dy = pos[a][0] - pos[b][0], pos[a][1] - pos[b][1]
+            dist = math.sqrt(dx * dx + dy * dy) + 1e-6
+            f = (dist * dist / k) * (0.25 + 0.75 * w) / math.sqrt(degree[a] * degree[b])
+            fx, fy = dx / dist * f, dy / dist * f
+            disp[a][0] -= fx; disp[a][1] -= fy
+            disp[b][0] += fx; disp[b][1] += fy
+        for i in ids:
+            dx, dy = disp[i]
+            # weak gravity toward the centre so loners stay in frame
+            dx -= pos[i][0] * 0.02
+            dy -= pos[i][1] * 0.02
+            d = math.sqrt(dx * dx + dy * dy) + 1e-6
+            step_len = min(d, temp)
+            pos[i] = (pos[i][0] + dx / d * step_len, pos[i][1] + dy / d * step_len)
+
+    xs = sorted(p[0] for p in pos.values())
+    ys = sorted(p[1] for p in pos.values())
+    lo_x, hi_x = xs[0], xs[-1]
+    lo_y, hi_y = ys[0], ys[-1]
+    span_x = (hi_x - lo_x) or 1.0
+    span_y = (hi_y - lo_y) or 1.0
+    return {
+        i: ((x - lo_x) / span_x * 2 - 1, (y - lo_y) / span_y * 2 - 1)
+        for i, (x, y) in pos.items()
+    }
+
+
+PALETTE = ["#e4b363", "#7fb069", "#d05f5f", "#6fa8dc", "#b58ed2", "#5fc9c1", "#e98ab5",
+           "#c9c45f", "#8d9c6b", "#de9151", "#9aa9e0", "#74c69d", "#c97b84", "#bfa46f",
+           "#7fc5dc", "#d2a0e8", "#a3b562", "#e0a899", "#86b8a2", "#cfae5e", "#9d8ec9", "#dd8866"]
+
+
+def render_static(payload: dict, n_recipes: int, output: Path) -> None:
+    """Write a static PNG of the graph (needs matplotlib; build-time only)."""
+    import math
+
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+
+    # Nodes with no edge at this threshold would drift to the frame edges and
+    # squash the real structure; leave them to the interactive view.
+    connected = {l["source"] for l in payload["links"]} | {l["target"] for l in payload["links"]}
+    payload = {
+        **payload,
+        "nodes": [n for n in payload["nodes"] if n["id"] in connected],
+    }
+    pos = _spring_layout(payload)
+    head_color = {c["head"]: PALETTE[i % len(PALETTE)] for i, c in enumerate(payload["communities"])}
+
+    fig, ax = plt.subplots(figsize=(16, 12), dpi=150)
+    fig.patch.set_facecolor("#14110f"); ax.set_facecolor("#14110f"); ax.axis("off")
+
+    for l in payload["links"]:
+        (x1, y1), (x2, y2) = pos[l["source"]], pos[l["target"]]
+        ax.plot([x1, x2], [y1, y2], color="#8a7a64",
+                alpha=0.08 + 0.55 * l["tradition"], lw=0.4 + 2.6 * l["tradition"], zorder=1)
+    for n in payload["nodes"]:
+        x, y = pos[n["id"]]
+        size = 28 + n["count"] * 5.5
+        ax.scatter([x], [y], s=size, color=head_color[n["community"]],
+                   edgecolors="#14110f", linewidths=0.8, zorder=2)
+        if n["count"] >= 8:
+            ax.annotate(n["id"], (x, y), textcoords="offset points",
+                        xytext=(0, 5 + math.sqrt(size) / 2), ha="center",
+                        color="#e8e0d4", fontsize=7.5, zorder=3,
+                        path_effects=None)
+    ax.set_title(
+        f"Cobber — the flavour graph   ·   {len(payload['nodes'])} ingredients, "
+        f"{len(payload['links'])} pairings, {n_recipes} recipes",
+        color="#e8e0d4", fontsize=13, pad=14)
+    fig.tight_layout()
+    fig.savefig(output, facecolor=fig.get_facecolor(), bbox_inches="tight")
+    print(f"static image -> {output}")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Render the flavour graph to interactive HTML.")
     parser.add_argument("--min-count", type=int, default=3,
                         help="Minimum recipe appearances for an ingredient (default: 3).")
     parser.add_argument("--min-pair-count", type=int, default=2,
                         help="Minimum recipe support for an edge (default: 2).")
+    parser.add_argument("--png", type=Path, default=None,
+                        help="Also write a static PNG snapshot here (requires matplotlib).")
     args = parser.parse_args()
 
     payload, n_recipes = build_graph_payload(args.min_count, args.min_pair_count)
@@ -193,6 +306,9 @@ def main() -> None:
     )
     OUTPUT_PATH.write_text(html, encoding="utf-8")
     print(f"{len(payload['nodes'])} nodes, {len(payload['links'])} edges -> {OUTPUT_PATH}")
+
+    if args.png is not None:
+        render_static(payload, n_recipes, args.png)
 
 
 if __name__ == "__main__":
