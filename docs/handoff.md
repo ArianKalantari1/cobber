@@ -176,14 +176,29 @@ unmatched list now — mine it for aliases gradually, no need to clear it.
 - Both drinks await Ari's tasting verdict — first entries for the future
   tasting-feedback loop.
 
-## Next candidates (Ari to choose)
+## Roadmap: "what makes Cobber a real mixologist" (agreed direction)
 
-1. **Verification / citation pass (Part B)** — the provisional compound
-   profiles (all flagged in `notes`) verified against FlavorDB/literature
-   with citations; includes the native ingredients before any public claim.
-2. **Live test** — branch is ready for Claude Desktop (mandarin-winter brief
-   + a savoury brief); the run report drives the next reprioritisation.
-3. **Ratios/proportions** — the cocktailApp extract carries per-drink
-   proportions (unused so far); proportion-based dose gating (pour-culture
-   independent) and a first strength/dilution model.
-4. **Register dial** (summery↔wintery) per design notes §4.
+Priority order set with Ari after the two live runs:
+
+1. **Ratios / proportion templates (NEXT).** The cocktailApp extract holds
+   exact proportions for ~98k pours, unused. Cluster recipes by proportion
+   structure to learn the canonical templates (sour 2:1:1, Old Fashioned,
+   equal-thirds Negroni, highball...) so suggestions come with measured
+   ratios ("this wants the sour template: 45/25/20"), not host-invented
+   numbers. Also makes dose-gating proportion-based (kills the US/AU pour
+   issue) and is the foundation for texture + strength modelling.
+2. **Technique mining.** TheCocktailDB instructions + IBA preparation fields
+   are unmined: learn ingredient↔technique associations (citrus+egg→shake,
+   spirit-only→stir, cream+acid→clarify-or-avoid). Design notes call this
+   the biggest conceptual gap; it is also the chef-crossover dimension.
+3. **Tasting-feedback loop.** Started informally: Ari's verdicts on The
+   Broth Decision and Myrcene Season are the first entries. Formalize as
+   data/tasting_log.json once a few verdicts exist; verdicts should be able
+   to adjust pairing confidence. Long-term this is the most defensible asset
+   (a model tuned by a working bartender's palate).
+4. **Part B verification/citation pass** — parallel track for
+   research-flavoured sessions; REQUIRED before any public claim. Includes
+   the natives and the taste-provenance idea (bitterness from amarogentin,
+   not just "bitter 0.8").
+5. **Register dial** (summery↔wintery) — after 1+2, since it weights taste +
+   texture + technique.
