@@ -82,6 +82,11 @@ class Pantry:
     # attribution. Deliberately separate from tradition — "a champion did it"
     # is validation for a novel pairing, not canon.
     frontier: dict[frozenset[str], dict] = field(default_factory=dict)
+    # Proportion templates: structural shapes discovered from ~8k cocktail recipes
+    # (sour, old fashioned, negroni-style, highball, ...). Build-time derived,
+    # committed to data/proportion_templates.json. Naming is PROVISIONAL — Ari
+    # reviews and renames before the engine treats these as canonical.
+    templates: list[dict] = field(default_factory=list)
 
     def get(self, ingredient_id: str) -> Ingredient | None:
         """Return the ingredient with this id, or ``None`` if it is unknown."""
@@ -206,6 +211,14 @@ def load_pantry() -> Pantry:
                         "count": int(row.get("count", 0)),
                         "examples": list(row.get("examples", [])),
                     }
+
+    # Pass 5: proportion templates, if the file exists. PROVISIONAL names until
+    # Ari's bartender review; the engine reads the centroids and recipe counts.
+    templates_path = DATA_DIR / "proportion_templates.json"
+    if templates_path.exists():
+        with templates_path.open(encoding="utf-8") as handle:
+            templates_data = json.load(handle)
+        pantry.templates = templates_data.get("templates", [])
 
     return pantry
 

@@ -173,3 +173,83 @@ def test_provisional_flag_is_loaded_from_notes():
     pantry = load_pantry()
     assert pantry.get("miso").provisional is True
     assert pantry.get("lemon").provisional is False
+
+
+# ---------------------------------------------------------------------------
+# Proportion template tests
+# ---------------------------------------------------------------------------
+
+def test_templates_are_loaded():
+    """Pantry must load proportion templates from the JSON file."""
+    from cobber.data import load_pantry
+    pantry = load_pantry()
+    assert pantry.templates, "proportion_templates.json should load non-empty templates"
+    # Each template must have the required keys
+    for t in pantry.templates:
+        assert "id" in t
+        assert "centroid" in t
+        assert "recipe_count" in t
+
+
+def test_sour_template_matches_daiquiri_ingredients():
+    """A spirit + acid + sweet combination should suggest the Sour template."""
+    t = engine.suggest_template(["white_rum", "lime", "sugar_syrup"])
+    assert t is not None
+    assert "sour" in t["suggested_name"].lower(), (
+        f"Expected Sour template for daiquiri ingredients, got: {t['suggested_name']!r}"
+    )
+
+
+def test_negroni_template_matches_negroni_ingredients():
+    """A spirit + amaro + vermouth combination should suggest the Negroni template."""
+    t = engine.suggest_template(["gin", "campari", "sweet_vermouth"])
+    assert t is not None
+    assert "negroni" in t["suggested_name"].lower(), (
+        f"Expected Negroni-style template, got: {t['suggested_name']!r}"
+    )
+
+
+def test_spirit_forward_template_for_old_fashioned():
+    """A spirit + bitters + small-sweet combination (no acid) should be Spirit-Forward."""
+    t = engine.suggest_template(["bourbon", "angostura_bitters", "sugar_syrup"])
+    assert t is not None
+    # The Sour template has structural acid; Old Fashioned has none, so Sour
+    # must be filtered out and the spirit-forward template wins.
+    assert "sour" not in t["suggested_name"].lower(), (
+        f"Old Fashioned must not match Sour template, got: {t['suggested_name']!r}"
+    )
+    assert "spirit" in t["suggested_name"].lower(), (
+        f"Expected Spirit-Forward template, got: {t['suggested_name']!r}"
+    )
+
+
+def test_highball_template_for_spirit_plus_lengthener():
+    """A spirit + carbonated lengthener combination should suggest Highball."""
+    t = engine.suggest_template(["gin", "soda_water"])
+    assert t is not None
+    assert "highball" in t["suggested_name"].lower(), (
+        f"Expected Highball template for gin+soda, got: {t['suggested_name']!r}"
+    )
+
+
+def test_template_proportions_sum_to_at_most_one():
+    """Ingredient proportions from a template must sum to ≤ 1.0 (may be < 1 if some
+    ingredients are unrecognised or in 'other' role)."""
+    t = engine.suggest_template(["gin", "lime", "sugar_syrup"])
+    assert t is not None
+    total = sum(t["ingredient_proportions"].values())
+    assert total <= 1.01, f"Ingredient proportions sum to {total}, expected ≤ 1.0"
+    assert total > 0.5, f"Ingredient proportions sum to {total}, too low — mapping may be broken"
+
+
+def test_template_in_build_around_output():
+    """build_around must include a template field in each suggestion."""
+    pantry = ["gin", "lime", "sugar_syrup", "lemon_myrtle"]
+    results = engine.build_around(pantry, ["gin", "lime"], n=3)
+    assert results
+    for result in results:
+        assert "template" in result, "Each build_around result must include a template"
+        t = result["template"]
+        if t is not None:
+            assert "id" in t
+            assert "ingredient_proportions" in t

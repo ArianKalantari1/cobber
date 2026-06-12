@@ -15,6 +15,7 @@ why the public signatures take plain ids rather than a pantry argument.
 
 from __future__ import annotations
 
+import math
 from itertools import combinations
 
 from . import data
@@ -218,6 +219,154 @@ def balance(ingredient_ids: list[str]) -> dict:
     }
 
 
+# ---------------------------------------------------------------------------
+# Proportion template matching
+# ---------------------------------------------------------------------------
+
+# The templates use a different role vocabulary from Cobber's ingredient roles
+# (which are designed for taste-balance rather than structural shape). This
+# mapping bridges them. Per-ingredient overrides handle the cases where a
+# Cobber role maps to two distinct template roles (e.g. "bitter" covers both
+# aromatic bitters like Angostura and amaro-class modifiers like Campari).
+_TEMPLATE_ROLE_BY_COBBER_ROLE: dict[str, str] = {
+    "spirit":    "spirit",
+    "sour":      "acid",
+    "sweet":     "sweet",       # syrups, honey; some liqueurs also here (see overrides)
+    "bitter":    "amaro",       # composites: Campari, Fernet, Cynar, etc.
+    "dairy":     "egg_cream",
+    "mixer":     "lengthener",
+    "fruit":     "juice_mixer",
+    "aromatic":  "vermouth_fortified",  # vermouths, aromatized wines
+    "herb":      "other",
+    "seasoning": "other",
+}
+
+# Per-ingredient overrides for cases the role mapping can't distinguish.
+# Cobber's "bitter" role includes both small-dose aromatic bitters (which are
+# excluded from the template vector as seasoning) and amaro-class modifiers;
+# Cobber's "sweet" role includes both syrups and spirit-based liqueurs.
+_TEMPLATE_ROLE_OVERRIDES: dict[str, str] = {
+    # Small-dose aromatic bitters: excluded from template vector
+    "angostura_bitters":        "bitter",
+    "peychauds_bitters":        "bitter",
+    "orange_bitters":           "bitter",
+    "celery_bitters":           "bitter",
+    # Cobber "sweet"-role composites that are liqueurs, not syrups
+    "triple_sec":               "liqueur",
+    "cointreau":                "liqueur",
+    "maraschino":               "liqueur",
+    "coffee_liqueur":           "liqueur",
+    "elderflower_liqueur":      "liqueur",
+    "sloe_gin":                 "liqueur",
+    "benedictine":              "liqueur",
+    "yellow_chartreuse":        "amaro",   # chartreuse is amaro-class
+}
+
+# Template roles that are tracked but excluded from distance matching
+# (they are seasoning/trace elements in real drinks).
+_TEMPLATE_ROLES_EXCLUDED = {"bitter", "other"}
+
+# The 9 template roles in the same order as proportion_templates.json centroid
+_TEMPLATE_ROLE_ORDER = [
+    "spirit", "liqueur", "amaro", "vermouth_fortified",
+    "acid", "sweet", "juice_mixer", "lengthener", "egg_cream",
+]
+
+
+def _ingredient_template_role(ingredient_id: str) -> str:
+    """Map a Cobber ingredient id to its structural template role."""
+    if ingredient_id in _TEMPLATE_ROLE_OVERRIDES:
+        return _TEMPLATE_ROLE_OVERRIDES[ingredient_id]
+    ingredient = PANTRY.get(ingredient_id)
+    if ingredient is None:
+        return "other"
+    return _TEMPLATE_ROLE_BY_COBBER_ROLE.get(ingredient.role, "other")
+
+
+def suggest_template(ingredient_ids: list[str]) -> dict | None:
+    """Return the best-matching proportion template for this ingredient set.
+
+    Maps each ingredient to a template role and finds the nearest template
+    centroid in role space, using equal proportions as the prior (since the
+    engine doesn't know actual poured volumes).
+
+    Returns a dict with the matched template's id, name, centroid proportions,
+    and suggested ingredient-level proportions, or ``None`` if no templates
+    are loaded or all ingredients are in excluded roles.
+    """
+    if not PANTRY.templates:
+        return None
+
+    # Build the role distribution assuming equal proportions
+    role_counts: dict[str, float] = {}
+    for ing_id in ingredient_ids:
+        role = _ingredient_template_role(ing_id)
+        if role not in _TEMPLATE_ROLES_EXCLUDED:
+            role_counts[role] = role_counts.get(role, 0.0) + 1.0
+
+    if not role_counts:
+        return None
+
+    total = sum(role_counts.values())
+    input_vec = {r: role_counts.get(r, 0.0) / total for r in _TEMPLATE_ROLE_ORDER}
+
+    # Pre-filter: exclude templates whose centroid contains a role at ≥ 10%
+    # that is entirely absent from the input combination.  Without this, a
+    # spirit-only/spirit+sweet build (Old Fashioned) matches the Sour template
+    # because no acid in the input means the Sour's acid centroid goes
+    # "unpenalised" in direction while the spirit column happens to align.
+    roles_absent = {r for r in _TEMPLATE_ROLE_ORDER if input_vec.get(r, 0.0) < 0.01}
+
+    best_template: dict | None = None
+    best_dist = float("inf")
+
+    for template in PANTRY.templates:
+        centroid = template.get("centroid", {})
+        # Skip any template that requires a role ≥ 10% which is absent here
+        if any(centroid.get(r, 0.0) >= 0.10 for r in roles_absent):
+            continue
+        dist = math.sqrt(
+            sum(
+                (input_vec.get(r, 0.0) - centroid.get(r, 0.0)) ** 2
+                for r in _TEMPLATE_ROLE_ORDER
+            )
+        )
+        if dist < best_dist:
+            best_dist = dist
+            best_template = template
+
+    if best_template is None:
+        return None
+
+    centroid = best_template["centroid"]
+
+    # Map centroid role proportions back to specific ingredients.
+    # When multiple ingredients share a role, divide the role's proportion equally.
+    role_to_ings: dict[str, list[str]] = {}
+    for ing_id in ingredient_ids:
+        role = _ingredient_template_role(ing_id)
+        if role not in _TEMPLATE_ROLES_EXCLUDED and role in centroid:
+            role_to_ings.setdefault(role, []).append(ing_id)
+
+    ingredient_proportions: dict[str, float] = {}
+    for role, ings in role_to_ings.items():
+        role_share = centroid.get(role, 0.0)
+        per_ing = round(role_share / len(ings), 3)
+        for ing_id in ings:
+            ingredient_proportions[ing_id] = per_ing
+
+    return {
+        "id": best_template["id"],
+        "suggested_name": best_template["suggested_name"],
+        "recipe_count": best_template["recipe_count"],
+        "role_proportions": {r: v for r, v in centroid.items() if v >= 0.02},
+        "ingredient_proportions": ingredient_proportions,
+        "ratio": best_template["dominant_ratio"],
+        "dominant_roles": best_template["dominant_roles"],
+        "notes": best_template.get("notes", ""),
+    }
+
+
 def validate_anchors(anchors: list[str]) -> str | None:
     """Return a human-readable error if the anchor list is the wrong size, else None.
 
@@ -370,6 +519,7 @@ def build_around(
                     "scores": scores,
                     "why": _why(ingredient_ids),
                     "balance": balance(ingredient_ids),
+                    "template": suggest_template(ingredient_ids),
                     "native_swap": native_swap,
                     "_rank": rank,
                 }

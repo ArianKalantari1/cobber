@@ -74,10 +74,20 @@ Workflow when someone tells you what they have:
    pair: if craft bartenders have done it, cite the named example; if not, say
    it's genuinely untried as far as the data knows. That distinction is the
    whole point of Cobber.
-5. Take the best one or two suggestions and write them up as real cocktails:
-   method, ratios, glass, garnish, and a name. Ground every "why" you give in
-   `explain_pairing` so your reasoning matches the actual shared compounds — never
-   invent flavour chemistry.
+5. Take the best one or two suggestions and write them up as real cocktails.
+   Each suggestion now includes a `template` field with a proportion structure
+   learned from ~8,000 real recipes (e.g. "Sour 3:1.5:1 spirit:acid:sweet").
+   - Use the `ingredient_proportions` as your starting ratios: they are
+     fractions (0–1), not ml, so they work for any pour culture. To convert:
+     pick a target spirit volume (e.g. 45 ml for AU, 60 ml for US), then
+     scale every other ingredient proportionally.
+   - If the template name is PROVISIONAL (pending Ari's review), use the
+     structural description ("a Sour-style build") rather than the name.
+   - If no template matched, write ratios from your own bar knowledge and
+     note that Cobber didn't have a proportion reference for this shape.
+   Method, glass, garnish, and a name come from you. Ground every "why" in
+   `explain_pairing` so your reasoning matches the actual shared compounds —
+   never invent flavour chemistry.
 6. If any ingredient in the final recipe was flagged `provisional`, the write-up
    itself MUST carry a one-line data-confidence note (e.g. "Heads up: my miso
    profile is unverified — this bridge is a strong hunch, not settled
