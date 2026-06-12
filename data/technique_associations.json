@@ -220,9 +220,11 @@
       "glass": "rocks",
       "ice_in_glass": true,
       "ice_note": "A large single ice cube keeps dilution slow while chilling the cream — preferred over cracked/cubed for White Russian-style builds.",
-      "rationale": "Cream without acid (White Russian) is built over ice — no emulsification needed, and shaking over-aerates the dairy.",
+      "rationale": "Cream without acid is built over ice when it's a long sipper (White Russian) — no emulsification needed.",
       "data_confidence": 0.28,
       "data_support": 65,
+      "ambiguous": true,
+      "ambiguity_note": "Cream-without-acid splits two ways: build over ice for long sippers (White Russian), or shake and serve up for dessert cocktails (Brandy Alexander, Grasshopper). Default here is build; if the drink is a frothy dessert cocktail, shake it and serve up instead.",
       "notes": "'Cream' in many classic recipes means half-and-half (half milk, half cream), not pure heavy cream; either works for the build method."
     },
     {

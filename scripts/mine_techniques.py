@@ -373,11 +373,23 @@ def build_rules(freq: dict[str, Counter], glass_freq: dict[str, Counter]) -> lis
             "preferred over cracked/cubed for White Russian-style builds."
         ),
         "rationale": (
-            "Cream without acid (White Russian) is built over ice — no "
-            "emulsification needed, and shaking over-aerates the dairy."
+            "Cream without acid is built over ice when it's a long sipper "
+            "(White Russian) — no emulsification needed."
         ),
         "data_confidence": conf,
         "data_support": sup,
+        # The corpus is genuinely split here (~shake 31% / build 28%): cream-
+        # without-acid covers both built sippers (White Russian, Sombrero) and
+        # shaken dessert cocktails (Brandy Alexander, Grasshopper). We default to
+        # build (Ari's White Russian call) but flag the ambiguity rather than
+        # invent a heuristic the data doesn't support — the host picks.
+        "ambiguous": True,
+        "ambiguity_note": (
+            "Cream-without-acid splits two ways: build over ice for long sippers "
+            "(White Russian), or shake and serve up for dessert cocktails "
+            "(Brandy Alexander, Grasshopper). Default here is build; if the drink "
+            "is a frothy dessert cocktail, shake it and serve up instead."
+        ),
         "notes": (
             "'Cream' in many classic recipes means half-and-half (half milk, half "
             "cream), not pure heavy cream; either works for the build method."

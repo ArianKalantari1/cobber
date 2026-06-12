@@ -51,20 +51,18 @@ first for the project's thinking; this file is "where we are and what's next".*
   Negroni→stir/rocks, Old Fashioned→stir/rocks, G&T→build/highball,
   Whiskey Sour+egg→dry_shake+shake/coupe, Tom Collins→shake+top/highball,
   Mojito→muddle+build+top/highball, White Russian→build/rocks (after the dairy split).
-- **OPEN — cream-without-acid is genuinely ambiguous (needs Ari's call).** The
-  corpus splits this family almost evenly: shake 31% / build 28% / blend 15% /
-  layer 15% / stir 11% — no dominant technique. Two real sub-families share the
-  same ingredient signature:
-  - *Built sippers* — White Russian, Sombrero, Mudslide (coffee liqueur + cream,
-    long on the rocks) → build/rocks.
-  - *Shaken dessert cocktails* — Brandy Alexander, Grasshopper, Pink Squirrel
-    (crème liqueur + cream) → shake/up.
-  Current `dairy_build` rule forces build/rocks (honours Ari's explicit White
-  Russian correction) but would mis-handle the Alexander/Grasshopper family.
-  Decision needed: (a) accept build/rocks as the default and let the host
-  override for dessert cocktails; (b) split on coffee-liqueur vs crème-liqueur;
-  (c) return an explicit "ambiguous" technique that flags both paths. Flagged,
-  not silently coerced.
+- **RESOLVED — cream-without-acid ambiguity (deliberately NOT over-engineered).**
+  The corpus splits this family almost evenly: shake 31% / build 28% / blend 15%
+  / layer 15% / stir 11% — i.e. no signal. Two real sub-families share the same
+  ingredient signature: built sippers (White Russian, Sombrero → build/rocks)
+  and shaken dessert cocktails (Brandy Alexander, Grasshopper → shake/up).
+  Decision (Ari): the `dairy_build` rule defaults to build/rocks (Ari's White
+  Russian call) and carries an `ambiguous: true` flag + `ambiguity_note` that
+  tells the host to shake-and-serve-up for dessert cocktails. We deliberately did
+  NOT build a coffee-vs-crème-liqueur heuristic — when the data has no signal,
+  inventing a deterministic rule fakes confidence the data doesn't support (same
+  failure mode as a fabricated recipe). The host already knows the difference;
+  the flag just makes the engine honest about it. One flag, not a taxonomy.
 - **Naming-accuracy pass:** removed a fabricated cream "White Lady" (the classic
   is gin + Cointreau + lemon, no cream) and an incorrect "Irish Coffee" example
   (it's a hot, cream-floated drink, not a built-over-ice one); corrected the

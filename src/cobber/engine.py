@@ -487,6 +487,11 @@ def suggest_technique(ingredient_ids: list[str]) -> dict | None:
                 result["carbonation_note"] = rule["carbonation_note"]
             if rule.get("ice_note"):
                 result["ice_note"] = rule["ice_note"]
+            if rule.get("ambiguous"):
+                # The data has no clear technique here; tell the host to decide
+                # rather than presenting a coin-flip default as confident.
+                result["ambiguous"] = True
+                result["ambiguity_note"] = rule.get("ambiguity_note", "")
             if rule.get("notes"):
                 result["rule_notes"] = rule["notes"]
             return result
