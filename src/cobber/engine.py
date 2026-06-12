@@ -433,8 +433,8 @@ def _detect_technique_signals(ingredient_ids: list[str]) -> dict[str, bool]:
 
     return {
         "has_egg_white":            has_egg_white,
-        # Dairy split: cream+acid → shake (White Lady, Ramos);
-        # cream alone → build over rocks (White Russian, Irish Coffee).
+        # Dairy split: cream+acid → shake (cream sours, emulsify the dairy);
+        # cream alone → build over rocks (White Russian).
         "has_dairy_and_acid":       has_dairy and has_acid and not has_egg_white,
         "has_dairy_no_acid":        has_dairy and not has_acid and not has_egg_white,
         "has_herb_acid_and_carb":   has_herb and has_acid and has_carb,
@@ -459,10 +459,10 @@ def suggest_technique(ingredient_ids: list[str]) -> dict | None:
       2.  highball_build      → build, carbonation only (Highball, G&T)
       3.  mojito_muddle_build → muddle + build + top w/ soda (Mojito family)
       4.  sour_highball       → shake base + top w/ soda, highball (Collins)
-      5.  dairy_acid_shake    → shake, up/coupe (White Lady, Ramos)
-      6.  dairy_build         → build, rocks/big ice (White Russian family)
-      7.  acid_shake          → shake, up/coupe (Daiquiri, Sour)
-      8.  herb_muddle_build   → muddle + build, rocks (Smash)
+      5.  dairy_acid_shake    → shake, up/coupe (cream sours)
+      6.  dairy_build         → build, rocks/big ice (White Russian)
+      7.  acid_shake          → shake, up/coupe (Daiquiri, Whiskey Sour)
+      8.  herb_muddle_build   → muddle + build, rocks (Mint Julep)
       9.  spirit_only_stir    → stir, rocks (Old Fashioned, Negroni, Manhattan)
       10. default             → build, rocks
     """

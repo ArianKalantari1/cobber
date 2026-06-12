@@ -363,11 +363,12 @@ def _suggest_name(centroid: dict[str, float]) -> str:
     if lengthener > 0.45:
         return "Highball"
 
-    # Flip / egg sour
+    # Egg drinks: with acid it's an egg sour (Clover Club, Boston Sour);
+    # without acid it's a flip (spirit + whole egg + sugar, no citrus).
     if egg > 0.08:
         if acid > 0.10:
-            return "Flip / Egg Sour"
-        return "Cream Build"
+            return "Egg Sour"
+        return "Flip / Cream Build"
 
     # Sour: structural acid present, no lengthener
     if spirit > 0.35 and acid > 0.15 and lengthener < 0.15:
@@ -389,7 +390,9 @@ def _suggest_name(centroid: dict[str, float]) -> str:
     if amaro > 0.18 and verm > 0.12 and spirit > 0.18:
         return "Negroni-Style"
 
-    # Amaro-forward without vermouth (Paper Plane family, amaro sours)
+    # Amaro-forward without vermouth (amaro sours, amaro-driven builds).
+    # NB: the Paper Plane is NOT here — with Aperol reclassified as a liqueur
+    # it lands in the four-way equal-parts overlay (see the overlay cleanup).
     if amaro > 0.30 and spirit > 0.12:
         return "Amaro Build"
 

@@ -29,30 +29,47 @@ first for the project's thinking; this file is "where we are and what's next".*
   → 486 annotated recipes, 32 unparseable.
 - **Script:** `scripts/mine_techniques.py` → `data/technique_associations.json`.
   Outputs per-recipe annotations (audit trail), signal→technique frequency tables,
-  and 9 priority-ordered rules.
+  and 10 priority-ordered rules.
 - **Rules (priority order):**
   1. `egg_white` → dry_shake + shake, coupe up (data: 80% of egg-white recipes shake)
-  2. `carb_only` (spirit + soda, no acid) → build, highball
-  3. `herb+acid+carb` (Mojito/Smash Fizz) → muddle + build, highball, top w/soda
-  4. `acid+carb`, no herb (Collins/Fizz) → shake base, highball, top w/soda
-  5. `dairy` (no egg white) → shake, coupe up (data: 31% — noisy; hot/layered drinks dilute)
-  6. `acid`, no carb → shake, coupe up (data: 49% — noisy, same reason)
-  7. `herb`, no acid (Smash) → muddle + build, rocks
-  8. `spirit_only` → stir, rocks (data: 41%)
-  9. `default` → build, rocks
+  2. `carb_only` (spirit + soda, no acid) → build, highball (G&T, Highball)
+  3. `herb+acid+carb` (Mojito) → muddle + build, highball, top w/soda
+  4. `acid+carb`, no herb (Collins, Gin Fizz) → shake base, highball, top w/soda
+  5. `dairy+acid` (cream sour) → shake, coupe up (data: 29% — noisy)
+  6. `dairy`, no acid (White Russian) → build, rocks/big ice cube (data: 28%)
+  7. `acid`, no carb (Daiquiri, Whiskey Sour) → shake, coupe up (data: 49% — noisy)
+  8. `herb`, no acid (Mint Julep) → muddle + build, rocks (data: 40%)
+  9. `spirit_only` (Old Fashioned, Negroni, Manhattan) → stir, rocks (data: 41%)
+  10. `default` → build, rocks
 - **Engine:** `suggest_technique(ingredient_ids)` in engine.py; `_detect_technique_signals()`
   maps Cobber ingredient IDs to signals (role + specific ID checks for carbonated ingredients,
   which span multiple roles: soda_water=mixer, tonic_water=bitter, ginger_ale=sweet,
   sparkling_wine=aromatic). `build_around()` now includes `technique` field alongside `template`.
 - **MCP tool:** `suggest_technique` exposed as standalone tool; server INSTRUCTIONS step 5
   updated to relay technique + service + pre_steps to Cobber.
-- **Spot-checked:** Daiquiri→shake/coupe, Negroni→stir/rocks, Old Fashioned→stir/rocks,
-  G&T→build/highball, Whiskey Sour+egg→dry_shake+shake/coupe, Tom Collins→shake+top/highball,
-  Mojito→muddle+build+top/highball. **Known limitation:** White Russian (vodka+kahlua+cream)
-  gets "shake+coupe" but correct practice is "build+rocks" — dairy rule defaults to up service
-  because it's optimised for cream cocktails served up (Brandy Alexander, Grasshopper). Low
-  priority to fix since this affects classification of existing classics, not new creation.
-- **Tests:** 7 new technique tests; 40 total passing.
+- **Spot-checked (all verified against real recipes):** Daiquiri→shake/coupe,
+  Negroni→stir/rocks, Old Fashioned→stir/rocks, G&T→build/highball,
+  Whiskey Sour+egg→dry_shake+shake/coupe, Tom Collins→shake+top/highball,
+  Mojito→muddle+build+top/highball, White Russian→build/rocks (after the dairy split).
+- **OPEN — cream-without-acid is genuinely ambiguous (needs Ari's call).** The
+  corpus splits this family almost evenly: shake 31% / build 28% / blend 15% /
+  layer 15% / stir 11% — no dominant technique. Two real sub-families share the
+  same ingredient signature:
+  - *Built sippers* — White Russian, Sombrero, Mudslide (coffee liqueur + cream,
+    long on the rocks) → build/rocks.
+  - *Shaken dessert cocktails* — Brandy Alexander, Grasshopper, Pink Squirrel
+    (crème liqueur + cream) → shake/up.
+  Current `dairy_build` rule forces build/rocks (honours Ari's explicit White
+  Russian correction) but would mis-handle the Alexander/Grasshopper family.
+  Decision needed: (a) accept build/rocks as the default and let the host
+  override for dessert cocktails; (b) split on coffee-liqueur vs crème-liqueur;
+  (c) return an explicit "ambiguous" technique that flags both paths. Flagged,
+  not silently coerced.
+- **Naming-accuracy pass:** removed a fabricated cream "White Lady" (the classic
+  is gin + Cointreau + lemon, no cream) and an incorrect "Irish Coffee" example
+  (it's a hot, cream-floated drink, not a built-over-ice one); corrected the
+  no-acid herb example from "Smash" (has citrus → shaken) to "Mint Julep".
+- **Tests:** 9 new technique tests; 42 total passing.
 - PROVISIONAL — Ari to review rule priorities and rationale text.
 
 ## Decisions made this session (12 June 2026) — proportion templates

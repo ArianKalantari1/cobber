@@ -133,7 +133,7 @@ def detect_signals(ingredient_names: list[str]) -> dict[str, bool]:
 
     return {
         "has_egg_white":             has_egg_white,
-        # Dairy split: cream+acid (cream sour, Ramos) → shake;
+        # Dairy split: cream+acid (cream sours) → shake;
         # cream alone (White Russian) → build over a big rock.
         "has_dairy_and_acid":        has_dairy and has_acid and not has_egg_white,
         "has_dairy_no_acid":         has_dairy and not has_acid and not has_egg_white,
@@ -284,7 +284,7 @@ def build_rules(freq: dict[str, Counter], glass_freq: dict[str, Counter]) -> lis
         "data_support": sup,
     })
 
-    # Rule 3: Herb + acid + carbonation (Mojito / Smash Fizz family)
+    # Rule 3: Herb + acid + carbonation (Mojito family)
     # Muddle herbs first; then build over ice; top with soda. Never shake after
     # muddling — bruises herbs and turns the drink bitter and cloudy.
     rules.append({
@@ -301,7 +301,8 @@ def build_rules(freq: dict[str, Counter], glass_freq: dict[str, Counter]) -> lis
             "add spirit; fill with ice; top with carbonation."
         ),
         "rationale": (
-            "Muddled-herb carbonated builds (Mojito, Smash Fizz): gentle muddling "
+            "Muddled-herb carbonated builds (Mojito and other muddled "
+            "mint-and-soda drinks): gentle muddling "
             "releases essential oils without bitterness; shaking after muddling "
             "bruises the herbs and clouds the drink."
         ),
@@ -333,7 +334,7 @@ def build_rules(freq: dict[str, Counter], glass_freq: dict[str, Counter]) -> lis
         ),
     })
 
-    # Rule 5: Dairy + acid → shake, served up (cream sours: cream sour, Ramos base)
+    # Rule 5: Dairy + acid → shake, served up (cream sours)
     conf, sup = _confidence(freq["has_dairy_and_acid"], "shake")
     rules.append({
         "id": "dairy_acid_shake",
@@ -346,14 +347,14 @@ def build_rules(freq: dict[str, Counter], glass_freq: dict[str, Counter]) -> lis
         "ice_in_glass": False,
         "rationale": (
             "Cream + citrus requires vigorous shaking to emulsify the dairy "
-            "and integrate the acid (cream sour, Ramos Gin Fizz base)."
+            "and integrate the acid (cream sours)."
         ),
         "data_confidence": conf,
         "data_support": sup,
     })
 
     # Rule 6: Dairy, no acid → build over a large ice cube, rocks glass
-    # (White Russian, Irish Coffee with cream, etc.)
+    # (White Russian and other coffee-liqueur-and-cream builds).
     # Note: 'cream' in many recipes means half-and-half, not pure heavy cream —
     # the build method works for both; shaking heavy cream without acid
     # risks over-aeration and a foamy texture that doesn't suit these drinks.
@@ -372,8 +373,8 @@ def build_rules(freq: dict[str, Counter], glass_freq: dict[str, Counter]) -> lis
             "preferred over cracked/cubed for White Russian-style builds."
         ),
         "rationale": (
-            "Cream without acid (White Russian, Irish Coffee cream) is built over "
-            "ice — no emulsification needed, and shaking over-aerates the dairy."
+            "Cream without acid (White Russian) is built over ice — no "
+            "emulsification needed, and shaking over-aerates the dairy."
         ),
         "data_confidence": conf,
         "data_support": sup,
@@ -403,7 +404,9 @@ def build_rules(freq: dict[str, Counter], glass_freq: dict[str, Counter]) -> lis
         ),
     })
 
-    # Rule 8: Fresh herb, no acid → muddle then build (Smash family)
+    # Rule 8: Fresh herb, no acid → muddle then build (Mint Julep family)
+    # NB: a Whiskey Smash has citrus, so it shakes (acid_shake); the no-acid
+    # muddled-herb build is the Julep (bourbon, mint, sugar — no lemon).
     conf, sup = _confidence(freq["has_herb_no_acid"], "muddle_build")
     rules.append({
         "id": "herb_muddle_build",
@@ -415,8 +418,8 @@ def build_rules(freq: dict[str, Counter], glass_freq: dict[str, Counter]) -> lis
         "glass": "rocks",
         "ice_in_glass": True,
         "rationale": (
-            "Fresh herbs are muddled gently to release essential oils; "
-            "the drink is then built over crushed or cubed ice."
+            "Fresh herbs are muddled gently to release essential oils; the drink "
+            "is then built over crushed ice (Mint Julep: bourbon, mint, sugar)."
         ),
         "data_confidence": conf,
         "data_support": sup,

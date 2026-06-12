@@ -178,7 +178,7 @@
       "glass": "highball",
       "ice_in_glass": true,
       "carbonation_note": "Muddle herbs gently with citrus and sweet in the glass; add spirit; fill with ice; top with carbonation.",
-      "rationale": "Muddled-herb carbonated builds (Mojito, Smash Fizz): gentle muddling releases essential oils without bitterness; shaking after muddling bruises the herbs and clouds the drink.",
+      "rationale": "Muddled-herb carbonated builds (Mojito and other muddled mint-and-soda drinks): gentle muddling releases essential oils without bitterness; shaking after muddling bruises the herbs and clouds the drink.",
       "data_confidence": null,
       "data_support": null
     },
@@ -206,7 +206,7 @@
       "service": "up",
       "glass": "coupe",
       "ice_in_glass": false,
-      "rationale": "Cream + citrus requires vigorous shaking to emulsify the dairy and integrate the acid (cream sour, Ramos Gin Fizz base).",
+      "rationale": "Cream + citrus requires vigorous shaking to emulsify the dairy and integrate the acid (cream sours).",
       "data_confidence": 0.29,
       "data_support": 7
     },
@@ -220,7 +220,7 @@
       "glass": "rocks",
       "ice_in_glass": true,
       "ice_note": "A large single ice cube keeps dilution slow while chilling the cream — preferred over cracked/cubed for White Russian-style builds.",
-      "rationale": "Cream without acid (White Russian, Irish Coffee cream) is built over ice — no emulsification needed, and shaking over-aerates the dairy.",
+      "rationale": "Cream without acid (White Russian) is built over ice — no emulsification needed, and shaking over-aerates the dairy.",
       "data_confidence": 0.28,
       "data_support": 65,
       "notes": "'Cream' in many classic recipes means half-and-half (half milk, half cream), not pure heavy cream; either works for the build method."
@@ -250,7 +250,7 @@
       "service": "rocks",
       "glass": "rocks",
       "ice_in_glass": true,
-      "rationale": "Fresh herbs are muddled gently to release essential oils; the drink is then built over crushed or cubed ice.",
+      "rationale": "Fresh herbs are muddled gently to release essential oils; the drink is then built over crushed ice (Mint Julep: bourbon, mint, sugar).",
       "data_confidence": 0.4,
       "data_support": 10
     },

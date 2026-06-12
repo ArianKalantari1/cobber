@@ -247,6 +247,8 @@ def test_paper_plane_style_matches_four_way_equal_parts():
 
     Aperol is a sweet-bright aperitivo (11% ABV, sweet 0.5/bitter 0.5) — it fills
     the liqueur slot in Paper Plane-style builds, not the amaro slot that Campari fills.
+    The real Paper Plane uses Amaro Nonino; averna stands in here as the amaro since
+    Nonino is not in the pantry — the equal-parts structure is what is under test.
     """
     t = engine.suggest_template(["bourbon", "aperol", "averna", "lemon"])
     assert t is not None
@@ -340,11 +342,11 @@ def test_sour_highball_gets_highball_service():
 
 
 def test_dairy_with_acid_shakes():
-    """Cream + citrus (e.g. Ramos-style build without egg) should shake, not build."""
+    """A cream sour (cream + citrus, no egg) should shake to emulsify, not build."""
     t = engine.suggest_technique(["gin", "lemon", "sugar_syrup", "cream"])
     assert t is not None
     assert t["method"] == "shake", (
-        f"Cream + citrus must shake (cream sour family), got {t['method']!r}"
+        f"Cream + citrus must shake (cream sour), got {t['method']!r}"
     )
     assert t["service"] == "up"
 
