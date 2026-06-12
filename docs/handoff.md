@@ -156,6 +156,26 @@ unmatched list now — mine it for aliases gradually, no need to clear it.
    ingredient as present; the dose gate only mutes *implied decomposition*.
    If we later model aroma intensity, floats may warrant an override.
 
+## Live test findings (two runs, this session)
+
+- **Run 1 (mezcal+miso, "The Broth Decision"):** chemistry claims all faithful
+  to the engine; frontier honesty correct; the savoury/no-acid trap was caught
+  by the taste layer and lime pulled in. MISS: provisional flags returned by
+  tools but dropped from the final write-up → instructions step 6 now makes
+  the data-confidence note a mandatory part of any recipe (patched).
+- **Run 2 (grapefruit+pink peppercorn, "Myrcene Season"):** all compound
+  claims verified true, including the sharp one (gin carries beta-phellandrene
+  as a pink-peppercorn bridge; tequila/mezcal genuinely share nothing).
+  Data-confidence note appeared IN the recipe — the step-6 patch works.
+  BUG found+fixed: runtime resolver silently coerced "rose water" →
+  soda_water at fuzzy cutoff 0.7; cutoff now 0.84 and any fuzzy match is
+  disclosed via `fuzzy_matched` (regression-tested in tests/test_server.py).
+  Minor fidelity slip: host quoted slightly-off taste-axis numbers and called
+  the structure "Negroni-adjacent" where the engine read sour-balanced —
+  watch, not yet worth machinery.
+- Both drinks await Ari's tasting verdict — first entries for the future
+  tasting-feedback loop.
+
 ## Next candidates (Ari to choose)
 
 1. **Verification / citation pass (Part B)** — the provisional compound

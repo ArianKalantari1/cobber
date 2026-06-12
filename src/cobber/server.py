@@ -87,28 +87,34 @@ Workflow when someone tells you what they have:
 mcp = FastMCP("Cobber the Mixologist", instructions=INSTRUCTIONS)
 
 
-def _resolve_one(name: str) -> str | None:
-    """Map a single free-text name to a known ingredient id, or None.
+def _resolve_one(name: str) -> tuple[str | None, bool]:
+    """Map a single free-text name to ``(ingredient id or None, via_fuzzy)``.
 
     Tries, in order: an exact id match, an exact display-name match (case- and
     space-insensitive), then a fuzzy match against ids and display names. This is
     the single seam that turns messy human input into ids — the future photo
     shelf-scan feature is meant to plug in right here.
+
+    The fuzzy cutoff is deliberately high (0.84): it still catches typos
+    ("campri" -> campari) but refuses sound-alike coercions — the first live
+    test of this resolver silently turned "rose water" into soda water at the
+    old 0.7 cutoff, which is exactly the never-guess rule being broken at
+    runtime. Any fuzzy match that does fire is reported, not hidden.
     """
     needle = name.strip().lower()
     if not needle:
-        return None
+        return None, False
 
     # Exact id match (e.g. the caller already passed "lemon_myrtle").
     if needle in PANTRY.ingredients:
-        return needle
+        return needle, False
 
     # Exact display-name match, ignoring case and spacing/underscores.
     flat_needle = needle.replace(" ", "").replace("_", "")
     for ingredient in PANTRY.ingredients.values():
         flat_display = ingredient.display_name.lower().replace(" ", "").replace("_", "")
         if flat_needle == flat_display:
-            return ingredient.id
+            return ingredient.id, False
 
     # Fuzzy fallback against both ids and display names.
     candidates: dict[str, str] = {}
@@ -116,11 +122,11 @@ def _resolve_one(name: str) -> str | None:
         candidates[ingredient.id.replace("_", " ")] = ingredient.id
         candidates[ingredient.display_name.lower()] = ingredient.id
     matches = difflib.get_close_matches(
-        needle.replace("_", " "), list(candidates), n=1, cutoff=0.7
+        needle.replace("_", " "), list(candidates), n=1, cutoff=0.84
     )
     if matches:
-        return candidates[matches[0]]
-    return None
+        return candidates[matches[0]], True
+    return None, False
 
 
 def _describe(ingredient: Ingredient) -> dict:
@@ -157,17 +163,21 @@ def resolve_ingredients(names: list[str]) -> dict:
     resolved: dict[str, str] = {}
     unknown: list[str] = []
     substitutions: list[dict] = []
+    fuzzy_matched: dict[str, str] = {}
     for name in names:
-        ingredient_id = _resolve_one(name)
+        ingredient_id, via_fuzzy = _resolve_one(name)
         proxy = PROXY_NOTES.get(name.strip().lower())
         if ingredient_id is None and proxy is not None:
             # A known category proxy (Dubonnet -> sweet vermouth): resolve it to
             # the stand-in rather than calling it unknown, and announce the swap.
             ingredient_id = proxy["served_as"]
+            via_fuzzy = False
         if ingredient_id is None:
             unknown.append(name)
         else:
             resolved[name] = ingredient_id
+            if via_fuzzy:
+                fuzzy_matched[name] = ingredient_id
         if proxy is not None:
             substitutions.append({"input": name, "served_as": proxy["served_as"], "note": proxy["note"]})
     return {
@@ -179,6 +189,8 @@ def resolve_ingredients(names: list[str]) -> dict:
         # Conscious category swaps to announce ("no exact Dubonnet - scoring as
         # sweet vermouth"), not to hide.
         "substitutions": substitutions,
+        # Approximate (typo-level) matches: confirm with the user if surprising.
+        "fuzzy_matched": fuzzy_matched,
     }
 
 
