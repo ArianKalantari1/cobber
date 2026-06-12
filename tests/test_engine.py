@@ -149,3 +149,27 @@ def test_balance_still_returns_original_keys():
     result = engine.balance(["gin", "lime", "sugar_syrup"])
     assert result["ok"] is True
     assert "roles_present" in result and "warning" in result
+
+
+def test_frontier_support_returns_attributed_evidence():
+    """A pairing seen in the craft corpus comes back with count and examples."""
+    evidence = engine.frontier_support("gin", "honey")
+    assert evidence is not None
+    assert evidence["count"] >= 1
+    assert evidence["examples"] and "drink" in evidence["examples"][0]
+
+
+def test_frontier_support_is_separate_from_tradition():
+    """Frontier evidence must not have leaked into the tradition score's corpus.
+
+    miso never appears in a canon recipe, so any pairing with it has zero
+    tradition — even if a craft bartender someday uses it (frontier channel).
+    """
+    assert engine.tradition("miso", "bourbon") == 0.0
+
+
+def test_provisional_flag_is_loaded_from_notes():
+    """Entries flagged TODO-verify/PROVISIONAL in notes carry provisional=True."""
+    pantry = load_pantry()
+    assert pantry.get("miso").provisional is True
+    assert pantry.get("lemon").provisional is False

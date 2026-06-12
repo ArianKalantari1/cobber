@@ -66,6 +66,10 @@ class Ingredient:
     # the role instead. A deliberately neutral entry (egg white: texture, not
     # taste) declares an axis at 0.0, which is explicit and blocks fallback.
     taste: tuple[tuple[str, float], ...] = ()
+    # True when the entry's notes flag it as unverified (PROVISIONAL /
+    # TODO: verify). Surfaced by every tool so Cobber announces when his
+    # grounding is a guess instead of relying on the host model to notice.
+    provisional: bool = False
 
 
 @dataclass
@@ -74,6 +78,10 @@ class Pantry:
 
     ingredients: dict[str, Ingredient] = field(default_factory=dict)
     tradition: dict[frozenset[str], float] = field(default_factory=dict)
+    # Frontier evidence: pairings seen in the craft/competition corpora, with
+    # attribution. Deliberately separate from tradition — "a champion did it"
+    # is validation for a novel pairing, not canon.
+    frontier: dict[frozenset[str], dict] = field(default_factory=dict)
 
     def get(self, ingredient_id: str) -> Ingredient | None:
         """Return the ingredient with this id, or ``None`` if it is unknown."""
@@ -146,6 +154,7 @@ def load_pantry() -> Pantry:
             source=entry.get("source", ""),
             season=entry.get("season"),
             taste=_validate_taste(entry),
+            provisional=_is_provisional(entry),
         )
 
     # Pass 2: composites. Their compound profile is derived, not declared.
@@ -174,6 +183,7 @@ def load_pantry() -> Pantry:
             botanicals=tuple(botanicals),
             season=entry.get("season"),
             taste=_validate_taste(entry),
+            provisional=_is_provisional(entry),
         )
 
     # Pass 3: the tradition table. Stored keyed by an unordered pair so a lookup
@@ -184,7 +194,25 @@ def load_pantry() -> Pantry:
         a, b = row["pair"]
         pantry.tradition[frozenset((a, b))] = float(row["tradition"])
 
+    # Pass 4: frontier evidence, if the file exists. Same tolerance as
+    # tradition: unknown ids never block a load.
+    frontier_path = DATA_DIR / "frontier_evidence.json"
+    if frontier_path.exists():
+        with frontier_path.open(encoding="utf-8") as handle:
+            for row in json.load(handle):
+                pair = row.get("pair")
+                if isinstance(pair, list) and len(pair) == 2:
+                    pantry.frontier[frozenset(pair)] = {
+                        "count": int(row.get("count", 0)),
+                        "examples": list(row.get("examples", [])),
+                    }
+
     return pantry
+
+
+def _is_provisional(entry: dict) -> bool:
+    notes = str(entry.get("notes", "")).lower()
+    return "provisional" in notes or "todo: verify" in notes
 
 
 def _validate_taste(entry: dict) -> tuple[tuple[str, float], ...]:

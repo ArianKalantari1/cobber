@@ -103,14 +103,29 @@ unmatched list now — mine it for aliases gradually, no need to clear it.
   frontier corpus already shows cynar+salt x21, celery_bitters+gin x12.
 - 18 tests passing.
 
+## MCP tool exposure: DONE (this session)
+
+- `Pantry.frontier` loads `frontier_evidence.json`; `engine.frontier_support(a,b)`.
+- New `frontier_support` MCP tool; `score_pairing` includes frontier evidence
+  and provisional flags; `explain_pairing` cites frontier support both for
+  novel bridges AND for no-shared-compound contrast pairs (gin+honey: "no
+  bridge — but craft bartenders have done it 62x, e.g. 'Happiness' by Danny
+  Louie"), and appends a provisional-data caveat.
+- Confidence honesty is now systematic: `Ingredient.provisional` (parsed from
+  notes), surfaced by resolve/score/suggest/explain — Cobber announces when
+  he's guessing instead of relying on the host model to notice (fixes the
+  first live test's biggest structural worry).
+- INSTRUCTIONS teach the bartender's order (aroma -> layering -> balance),
+  relay of taste_notes hazards, and the frontier-support cite-or-say-untried
+  step. 21 tests passing.
+
 ## Next candidates (Ari to choose)
 
 1. **Verification / citation pass (Part B)** — the provisional compound
    profiles (all flagged in `notes`) verified against FlavorDB/literature
    with citations; includes the native ingredients before any public claim.
-2. **Expose frontier evidence + taste layer through MCP tools** — a
-   `frontier_support(a,b)` tool ("rarely done, but X did it in Y"), and
-   surface `structure`/`taste_notes` in suggest/explain outputs.
+2. **Live test** — branch is ready for Claude Desktop (mandarin-winter brief
+   + a savoury brief); the run report drives the next reprioritisation.
 3. **Ratios/proportions** — the cocktailApp extract carries per-drink
    proportions (unused so far); proportion-based dose gating (pour-culture
    independent) and a first strength/dilution model.

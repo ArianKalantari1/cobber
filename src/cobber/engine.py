@@ -77,6 +77,19 @@ def novelty(a: str, b: str) -> float:
     return harmony(a, b)[0] * (1.0 - tradition(a, b))
 
 
+def frontier_support(a: str, b: str) -> dict | None:
+    """Return craft-corpus evidence for a pairing, or ``None`` if there is none.
+
+    The frontier table holds pairings seen in the craft/competition corpora
+    with attribution (``{"count": int, "examples": [{"drink", "bartender"?}]}``).
+    It deliberately does not feed the tradition score: a working bartender
+    using a pairing is *validation* that a novel idea works in a glass, not
+    evidence that it is canon. High novelty + frontier support is the
+    strongest recommendation Cobber can make.
+    """
+    return PANTRY.frontier.get(frozenset((a, b)))
+
+
 # Coarse taste prior per role, used when an ingredient has no curated `taste`
 # field. Deliberately conservative: spirits/aromatics/herbs/mixers contribute
 # nothing rather than a guess. Derived values are flagged in balance() output.
