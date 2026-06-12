@@ -1,5 +1,26 @@
 #!/usr/bin/env python3
-"""Normalize raw cocktail ingredients into canonical Cobber ingredient ids."""
+"""Normalize raw cocktail recipes into canonical Cobber ingredient ids.
+
+Reads every corpus under ``data/raw/`` (TheCocktailDB dump + the IBA official
+list), maps raw ingredient names to Cobber ids via the alias map and
+exact/fuzzy matching, and writes the normalised recipe lists the NPMI step
+consumes. Three behaviours matter beyond plain name-matching:
+
+- **Label-first matching (IBA).** IBA entries often pair a generic ingredient
+  ("Syrup", "Cherry liqueur", "Vermouth") with a ``label`` carrying the real
+  identity ("Grenadine", "Maraschino", "Dry vermouth"). The label is matched
+  first, falling back to the generic name.
+- **Flavour decomposition.** Composites with a ``flavor_forward`` bill imply
+  those components into the recipe (citron vodka puts vodka *and* lemon in the
+  glass — the Cosmopolitan principle).
+- **Dose gating.** A small pour is a modifier, not a flavour statement: half
+  of all orange-liqueur pours in the corpus are <= 0.5 oz. When a composite's
+  measure is known and below the threshold, its components are NOT implied
+  (recorded as ``muted`` for review). Unknown measures imply as before.
+
+Anything that can't be confidently matched is never guessed; it lands in
+``data/unmatched_ingredients.txt`` with a count, for human review.
+"""
 
 from __future__ import annotations
 
@@ -7,16 +28,47 @@ import argparse
 import difflib
 import json
 import re
+import unicodedata
 from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-RAW_RECIPES = ROOT / "data" / "raw" / "thecocktaildb.json"
+COCKTAILDB_RECIPES = ROOT / "data" / "raw" / "thecocktaildb.json"
+IBA_RECIPES = ROOT / "data" / "raw" / "iba.json"
+BOSTON_RECIPES = ROOT / "data" / "raw" / "boston_cocktails.csv"
+CRAFT_RECIPES = ROOT / "data" / "raw" / "craft_recipes.json"
+HOTALING_RECIPES = ROOT / "data" / "raw" / "hotaling_cocktails.csv"
+COCKTAILAPP_RECIPES = ROOT / "data" / "raw" / "cocktailapp_recipes.json"
 INGREDIENTS_PATH = ROOT / "data" / "ingredients.json"
 COMPOSITES_PATH = ROOT / "data" / "composites.json"
 ALIASES_PATH = ROOT / "data" / "ingredient_aliases.json"
 UNMATCHED_PATH = ROOT / "data" / "unmatched_ingredients.txt"
 NORMALIZED_RECIPES_PATH = ROOT / "data" / "recipes_normalized.json"
+COMPONENTS_PATH = ROOT / "data" / "recipes_components.json"
+FRONTIER_PATH = ROOT / "data" / "frontier_evidence.json"
+
+# Which corpus feeds which signal. Canon corpora build the tradition score;
+# frontier corpora (working craft bartenders, competitions) feed
+# frontier_evidence.json instead — one champion using a pairing doesn't make
+# it traditional, and counting it would lower its novelty score, hiding
+# exactly what Cobber exists to surface.
+SOURCE_CLASS = {
+    "craft": "canon",
+    "iba": "canon",
+    "diffords": "canon",
+    "mrboston": "canon",
+    "thecocktaildb": "canon",
+    "hotaling": "frontier",
+    "kindred": "frontier",
+}
+
+# Below this pour (in oz), a composite is a modifier dose and its
+# flavor_forward components are not implied into the recipe. Set so that only
+# true splashes (dashes, teaspoons, drops) are muted: a 1.5 cl / 0.5 oz pour
+# of orgeat or curacao in a Mai-Tai is a deliberate flavour statement and must
+# survive. Entries can override per-ingredient via "imply_min_oz" (e.g. 0.0
+# for flavour-dense syrups where even a splash carries the note).
+DEFAULT_IMPLY_MIN_OZ = 0.45
 
 TRAILING_PHRASES = (
     "freshly squeezed",
@@ -36,6 +88,38 @@ STOP_WORDS = {
     "wedges",
     "piece",
     "pieces",
+    "sprig",
+    "sprigs",
+    "leaf",
+    "leaves",
+    "cube",
+    "cubes",
+}
+# Leading tokens stripped (repeatedly) from IBA free-text "special" entries
+# such as "2 dashes Angostura Bitters" or "6 Mint sprigs" before matching.
+SPECIAL_FILLER = {
+    "dash", "dashes", "drop", "drops", "splash", "splashes", "teaspoon",
+    "teaspoons", "tablespoon", "tablespoons", "bar", "spoon", "spoons",
+    "cube", "cubes", "sprig", "sprigs", "leaf", "leaves", "few", "fresh",
+    "raw", "plain", "top", "with", "to", "or", "small", "short", "strong",
+    "clear", "half", "cut", "into", "and",
+}
+
+_FRACTION = r"\d+\s+\d+/\d+|\d+/\d+|\d*\.?\d+"
+_MEASURE_RE = re.compile(
+    rf"({_FRACTION})\s*(oz|ounce|ounces|cl|ml|tsp|teaspoon|teaspoons|"
+    rf"tblsp|tbsp|tablespoon|tablespoons|shot|shots|part|parts|jigger|cup|cups|"
+    rf"dash|dashes|splash|splashes|drop|drops)\b"
+)
+_UNIT_TO_OZ = {
+    "oz": 1.0, "ounce": 1.0, "ounces": 1.0,
+    "cl": 1 / 3, "ml": 1 / 30,
+    "tsp": 1 / 6, "teaspoon": 1 / 6, "teaspoons": 1 / 6,
+    "tblsp": 0.5, "tbsp": 0.5, "tablespoon": 0.5, "tablespoons": 0.5,
+    "shot": 1.5, "shots": 1.5, "part": 1.0, "parts": 1.0, "jigger": 1.5,
+    "cup": 8.0, "cups": 8.0,
+    "dash": 0.03, "dashes": 0.03, "splash": 0.25, "splashes": 0.25,
+    "drop": 0.01, "drops": 0.01,
 }
 
 
@@ -44,7 +128,44 @@ def _load_json(path: Path) -> object:
         return json.load(handle)
 
 
+def _fraction_to_float(text: str) -> float:
+    text = text.strip()
+    if " " in text and "/" in text:
+        whole, frac = text.split(None, 1)
+        num, den = frac.split("/")
+        return float(whole) + float(num) / float(den)
+    if "/" in text:
+        num, den = text.split("/")
+        return float(num) / float(den)
+    return float(text)
+
+
+def parse_measure_oz(measure: str | None) -> float | None:
+    """Best-effort conversion of a free-text measure to ounces.
+
+    Returns ``None`` when nothing parseable is found — the caller treats an
+    unknown volume as "assume it matters" rather than guessing small.
+    """
+    if not measure:
+        return None
+    total = 0.0
+    found = False
+    for amount, unit in _MEASURE_RE.findall(measure.lower()):
+        try:
+            value = _fraction_to_float(amount)
+        except (ValueError, ZeroDivisionError):
+            continue
+        total += value * _UNIT_TO_OZ[unit]
+        found = True
+    return total if found else None
+
+
 def _clean_text(value: str) -> str:
+    # Fold accents (Créme -> Creme, Curaçao -> Curacao) before stripping
+    # non-ascii, or accented characters silently corrupt the token.
+    value = unicodedata.normalize("NFKD", value)
+    value = value.encode("ascii", "ignore").decode("ascii")
+    value = re.sub(r"\([^)]*\)", " ", value)  # "(small egg)", "(optional)"
     value = value.lower().strip()
     value = value.replace("&", " and ")
     value = re.sub(r"[^a-z0-9\s]", " ", value)
@@ -80,12 +201,14 @@ def normalize_name(name: str) -> str:
     return " ".join(tokens).strip()
 
 
-def _build_known_maps() -> tuple[set[str], dict[str, str]]:
+def _build_known_maps() -> tuple[set[str], dict[str, str], dict[str, list[str]], dict[str, float]]:
     ingredients = _load_json(INGREDIENTS_PATH)
     composites = _load_json(COMPOSITES_PATH)
 
     canonical_ids: set[str] = set()
     name_to_id: dict[str, str] = {}
+    flavor_forward: dict[str, list[str]] = {}
+    imply_overrides: dict[str, float] = {}
     for entry in [*ingredients, *composites]:
         ingredient_id = entry["id"]
         canonical_ids.add(ingredient_id)
@@ -95,19 +218,12 @@ def _build_known_maps() -> tuple[set[str], dict[str, str]]:
         name_to_id.setdefault(id_text, ingredient_id)
         if display_name:
             name_to_id.setdefault(display_name, ingredient_id)
-    return canonical_ids, name_to_id
-
-
-def _extract_raw_ingredients(drink: dict) -> list[str]:
-    names: list[str] = []
-    for i in range(1, 16):
-        key = f"strIngredient{i}"
-        value = drink.get(key)
-        if isinstance(value, str):
-            stripped = value.strip()
-            if stripped:
-                names.append(stripped)
-    return names
+        forward = entry.get("flavor_forward")
+        if isinstance(forward, list) and forward:
+            flavor_forward[ingredient_id] = [str(item) for item in forward]
+        if isinstance(entry.get("imply_min_oz"), (int, float)):
+            imply_overrides[ingredient_id] = float(entry["imply_min_oz"])
+    return canonical_ids, name_to_id, flavor_forward, imply_overrides
 
 
 def _choose_fuzzy_match(normalized_raw: str, known_names: dict[str, str], cutoff: float = 0.93) -> str | None:
@@ -139,44 +255,383 @@ def _load_aliases() -> dict[str, str]:
     return aliases
 
 
-def normalize_recipes() -> tuple[list[list[str]], dict[str, str], Counter[str]]:
-    raw_recipes = _load_json(RAW_RECIPES)
-    if not isinstance(raw_recipes, list):
-        raise ValueError("data/raw/thecocktaildb.json must contain a JSON list.")
+def _special_candidates(text: str) -> list[str]:
+    """Candidate ingredient strings for an IBA free-text "special" entry.
 
-    canonical_ids, known_names = _build_known_maps()
+    Strips leading quantities and filler ("2 dashes ", "6 ", "Top with ")
+    one token at a time, yielding each remainder, so "3 dashes Strawberry
+    syrup" offers "strawberry syrup" without ever guessing at the middle.
+    """
+    cleaned = _clean_text(text)
+    tokens = cleaned.split(" ")
+    candidates = [cleaned]
+    while tokens and (tokens[0].replace("/", "").isdigit() or tokens[0] in SPECIAL_FILLER):
+        tokens = tokens[1:]
+        if tokens:
+            candidates.append(" ".join(tokens))
+    return candidates
+
+
+def _iter_cocktaildb() -> list[dict]:
+    """Yield drink records: {name, source, items: [(candidate_names, oz)]}."""
+    payload = _load_json(COCKTAILDB_RECIPES)
+    if not isinstance(payload, list):
+        raise ValueError("data/raw/thecocktaildb.json must contain a JSON list.")
+    drinks = []
+    for drink in payload:
+        if not isinstance(drink, dict):
+            continue
+        items = []
+        for i in range(1, 16):
+            value = drink.get(f"strIngredient{i}")
+            if not isinstance(value, str) or not value.strip():
+                continue
+            volume = parse_measure_oz(drink.get(f"strMeasure{i}"))
+            items.append(([value.strip()], volume))
+        drinks.append({"name": str(drink.get("strDrink", "")), "source": "thecocktaildb", "items": items})
+    return drinks
+
+
+def _iter_iba() -> list[dict]:
+    """Yield IBA drink records, matching labels before generic names."""
+    if not IBA_RECIPES.exists():
+        return []
+    payload = _load_json(IBA_RECIPES)
+    if not isinstance(payload, list):
+        raise ValueError("data/raw/iba.json must contain a JSON list.")
+    drinks = []
+    for drink in payload:
+        if not isinstance(drink, dict):
+            continue
+        items = []
+        for item in drink.get("ingredients", []):
+            if not isinstance(item, dict):
+                continue
+            if "ingredient" in item:
+                candidates = []
+                label = item.get("label")
+                if isinstance(label, str) and label.strip():
+                    candidates.append(label.strip())
+                candidates.append(str(item["ingredient"]).strip())
+                volume = None
+                if item.get("unit") == "cl" and isinstance(item.get("amount"), (int, float)):
+                    volume = float(item["amount"]) / 3  # 3 cl to the bar ounce
+                items.append((candidates, volume))
+            elif "special" in item:
+                items.append((_special_candidates(str(item["special"])), None))
+        drinks.append({"name": str(drink.get("name", "")), "source": "iba", "items": items})
+    return drinks
+
+
+def _iter_boston() -> list[dict]:
+    """Yield Mr. Boston drink records grouped from the per-ingredient CSV.
+
+    Brand-prefixed names ("Old Mr. Boston Dry Gin") also offer the de-branded
+    remainder as a match candidate, and "Juice of a Lemon"-style phrasings are
+    reordered to the plain ingredient.
+    """
+    if not BOSTON_RECIPES.exists():
+        return []
+    import csv
+
+    drinks: dict[str, list] = {}
+    with BOSTON_RECIPES.open(encoding="utf-8") as handle:
+        for row in csv.DictReader(handle):
+            name = (row.get("name") or "").strip()
+            ingredient = (row.get("ingredient") or "").strip()
+            if not name or not ingredient:
+                continue
+            candidates = [ingredient]
+            cleaned = _clean_text(ingredient)
+            if cleaned.startswith("old mr boston "):
+                candidates.append(cleaned[len("old mr boston ") :])
+            juice_of = re.match(r"juice of (?:a|an|\d+(?:/\d+)?)?\s*(.+)", cleaned)
+            if juice_of:
+                candidates.append(juice_of.group(1))
+            volume = parse_measure_oz(row.get("measure"))
+            drinks.setdefault(name, []).append((candidates, volume))
+    return [
+        {"name": name, "source": "mrboston", "items": items}
+        for name, items in drinks.items()
+    ]
+
+
+def _iter_craft() -> list[dict]:
+    """Yield hand-curated recipes from data/raw/craft_recipes.json.
+
+    The human-curated corpus: competition winners, modern classics from the
+    craft-bar books, Ari's own specs. Format per entry:
+    ``{"name": ..., "creator": ..., "origin": ...,
+       "ingredients": [{"name": ..., "oz": ...}, ...]}``
+    (``oz`` optional — omit when unknown). Anything unmatchable still lands in
+    the unmatched list for review; curation does not bypass the no-guessing rule.
+    """
+    if not CRAFT_RECIPES.exists():
+        return []
+    payload = _load_json(CRAFT_RECIPES)
+    if not isinstance(payload, list):
+        raise ValueError("data/raw/craft_recipes.json must contain a JSON list.")
+    drinks = []
+    for drink in payload:
+        if not isinstance(drink, dict):
+            continue
+        items = []
+        for item in drink.get("ingredients", []):
+            if not isinstance(item, dict) or not str(item.get("name", "")).strip():
+                continue
+            volume = float(item["oz"]) if isinstance(item.get("oz"), (int, float)) else None
+            items.append(([str(item["name"]).strip()], volume))
+        drinks.append({"name": str(drink.get("name", "")), "source": "craft", "items": items})
+    return drinks
+
+
+# Generic category words that may not stand alone as a de-branded suffix
+# match: "House-made Cranberry Syrup" must NOT collapse to plain "syrup"
+# (= sugar_syrup) — that would erase the flavour. Full names and aliases are
+# unaffected; this only constrains the suffix fallback for branded names.
+GENERIC_HEADS = {
+    "syrup", "liqueur", "liquor", "juice", "bitter", "bitters", "puree",
+    "cordial", "shrub", "mix", "cream", "soda", "water", "wine", "tea",
+    "extract", "tincture", "infusion", "oil", "sugar", "salt", "honey",
+}
+HOTALING_FILLER = SPECIAL_FILLER | {
+    "oz", "ml", "cl", "float", "mist", "rinse", "barspoon", "barspoons",
+    "pinch", "each", "whole", "muddled", "heavy", "scant", "about",
+}
+
+
+def _hotaling_candidates(part: str) -> list[str]:
+    """Match candidates for one branded ingredient phrase.
+
+    Tries the full de-measured name first ("junipero gin"), then word-suffixes
+    ("gin") so brand prefixes fall away — but a suffix that is just a generic
+    category word (GENERIC_HEADS) is skipped rather than guessed.
+    """
+    cleaned = _clean_text(part)
+    tokens = cleaned.split(" ")
+    while tokens and (tokens[0].replace("/", "").replace(".", "").isdigit()
+                      or tokens[0] in HOTALING_FILLER):
+        tokens = tokens[1:]
+    if not tokens:
+        return []
+    candidates = [" ".join(tokens)]
+    for start in range(1, len(tokens)):
+        suffix = tokens[start:]
+        if len(suffix) == 1 and suffix[0] in GENERIC_HEADS:
+            continue
+        candidates.append(" ".join(suffix))
+    return candidates
+
+
+def _iter_hotaling() -> list[dict]:
+    """Yield Hotaling craft drinks (frontier corpus) from the CSV."""
+    if not HOTALING_RECIPES.exists():
+        return []
+    import csv
+
+    drinks = []
+    seen: set[str] = set()
+    with HOTALING_RECIPES.open(encoding="utf-8") as handle:
+        for row in csv.DictReader(handle):
+            name = (row.get("Cocktail Name") or "").strip()
+            ingredients = (row.get("Ingredients") or "").strip()
+            if not name or not ingredients:
+                continue
+            key = _dedupe_key(name)
+            if key in seen:
+                continue
+            seen.add(key)
+            items = []
+            for part in ingredients.split(","):
+                part = part.strip()
+                if not part:
+                    continue
+                candidates = _hotaling_candidates(part)
+                if candidates:
+                    items.append((candidates, parse_measure_oz(part)))
+            drinks.append({
+                "name": name,
+                "source": "hotaling",
+                "creator": (row.get("Bartender") or "").strip() or None,
+                "items": items,
+            })
+    return drinks
+
+
+def _iter_cocktailapp() -> list[dict]:
+    """Yield Difford's (canon) and Kindred (frontier) drinks.
+
+    From the cocktailApp dataset extract (see fetch_cocktailapp.py). Amounts
+    are already numeric: fl oz directly, dashes/pinches as splash volumes.
+    """
+    if not COCKTAILAPP_RECIPES.exists():
+        return []
+    payload = _load_json(COCKTAILAPP_RECIPES)
+    if not isinstance(payload, list):
+        raise ValueError("data/raw/cocktailapp_recipes.json must contain a JSON list.")
+    drinks = []
+    for drink in payload:
+        if not isinstance(drink, dict):
+            continue
+        items = []
+        for item in drink.get("ingredients", []):
+            name = str(item.get("name", "")).strip()
+            if not name:
+                continue
+            candidates = [name]
+            full_name = str(item.get("full_name", "")).strip()
+            if full_name and full_name.lower() != name.lower():
+                candidates.append(full_name)
+            amt = item.get("amt")
+            unit = item.get("unit")
+            volume = None
+            if isinstance(amt, (int, float)):
+                if unit == "fl oz":
+                    volume = float(amt)
+                elif unit in ("dash", "drop"):
+                    volume = float(amt) * 0.03
+                elif unit == "pinch":
+                    volume = float(amt) * 0.02
+                elif unit in ("teaspoon", "tsp", "bar spoon"):
+                    volume = float(amt) / 6
+            items.append((candidates, volume))
+        drinks.append({
+            "name": str(drink.get("name", "")),
+            "source": str(drink.get("source", "diffords")),
+            "creator": drink.get("attribution") or None,
+            "items": items,
+        })
+    return drinks
+
+
+def _dedupe_key(drink_name: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", drink_name.lower())
+
+
+def normalize_recipes(
+    imply_min_oz: float = DEFAULT_IMPLY_MIN_OZ,
+) -> tuple[list[list[str]], list[dict], list[dict], dict[str, str], Counter[str]]:
+    canonical_ids, known_names, flavor_forward, imply_overrides = _build_known_maps()
     alias_map = _load_aliases()
     learned_aliases: dict[str, str] = {}
     unmatched = Counter()
     normalized_recipes: list[list[str]] = []
+    component_records: list[dict] = []
+    frontier_pairs: dict[frozenset[str], dict] = {}
 
-    for drink in raw_recipes:
-        if not isinstance(drink, dict):
-            continue
-        matched_ids: set[str] = set()
-        for raw_name in _extract_raw_ingredients(drink):
+    def match_one(candidates: list[str]) -> str | None:
+        # Exact/alias matching for every candidate; fuzzy only for the first
+        # (full) name — suffix fallbacks must not be fuzzy-guessed.
+        for index, raw_name in enumerate(candidates):
             normalized_raw = normalize_name(raw_name)
             if not normalized_raw:
                 continue
-
             chosen_id = alias_map.get(normalized_raw)
             if chosen_id is None:
                 chosen_id = known_names.get(normalized_raw)
-            if chosen_id is None:
+            if chosen_id is None and index == 0:
                 chosen_id = _choose_fuzzy_match(normalized_raw, known_names)
+            if chosen_id is not None and chosen_id in canonical_ids:
+                learned_aliases.setdefault(normalized_raw, chosen_id)
+                return chosen_id
+        return None
 
-            if chosen_id is None or chosen_id not in canonical_ids:
-                unmatched[normalized_raw] += 1
+    # Priority order for cross-corpus duplicates: hand-curated recipes win,
+    # then IBA official, then Difford's, then Mr. Boston, then TheCocktailDB.
+    # Frontier corpora (Hotaling, Kindred) are deduped only among themselves.
+    cocktailapp = _iter_cocktailapp()
+    diffords = [d for d in cocktailapp if d["source"] == "diffords"]
+    kindred = [d for d in cocktailapp if d["source"] == "kindred"]
+    seen_names: set[str] = set()
+    frontier_seen: set[str] = set()
+    for drink in [*_iter_craft(), *_iter_iba(), *diffords, *_iter_boston(),
+                  *_iter_cocktaildb(), *_iter_hotaling(), *kindred]:
+        corpus_class = SOURCE_CLASS.get(drink["source"], "canon")
+        key = _dedupe_key(drink["name"])
+        if corpus_class == "canon":
+            if key and key in seen_names:
                 continue
+            if key:
+                seen_names.add(key)
+        else:
+            if key and key in frontier_seen:
+                continue
+            if key:
+                frontier_seen.add(key)
 
-            learned_aliases.setdefault(normalized_raw, chosen_id)
-            matched_ids.add(chosen_id)
+        matched: dict[str, float | None] = {}
+        for candidates, volume in drink["items"]:
+            chosen_id = match_one(candidates)
+            if chosen_id is None:
+                primary = normalize_name(candidates[-1])
+                if primary:
+                    unmatched[primary] += 1
+                continue
+            # The same id twice (e.g. two syrups): keep the larger pour.
+            if chosen_id in matched:
+                old = matched[chosen_id]
+                if old is not None and (volume is None or volume > old):
+                    matched[chosen_id] = volume
+            else:
+                matched[chosen_id] = volume
 
-        if len(matched_ids) >= 2:
-            normalized_recipes.append(sorted(matched_ids))
+        # A drink qualifies on its literal matches; flavour components are then
+        # implied from each composite's flavor_forward bill — unless the pour
+        # is a known modifier dose (below the threshold), in which case the
+        # flavour is muted rather than implied.
+        if len(matched) >= 2:
+            implied: set[str] = set()
+            muted: set[str] = set()
+            for ingredient_id, volume in matched.items():
+                components = flavor_forward.get(ingredient_id)
+                if not components:
+                    continue
+                threshold = imply_overrides.get(ingredient_id, imply_min_oz)
+                target = muted if (volume is not None and volume < threshold) else implied
+                target.update(c for c in components if c not in matched)
+            implied -= set(matched)
+            muted -= set(matched) | implied
+            full_set = sorted(set(matched) | implied)
+            record = {
+                "drink": drink["name"],
+                "source": drink["source"],
+                "literal": sorted(matched),
+                "implied": sorted(implied),
+                "muted": sorted(muted),
+            }
+            if drink.get("creator"):
+                record["creator"] = drink["creator"]
+            component_records.append(record)
+
+            if corpus_class == "canon":
+                normalized_recipes.append(full_set)
+            else:
+                # Frontier: accumulate pair-level evidence with attribution,
+                # skipping composite<->own-component pairs (they co-occur by
+                # construction, not by a bartender's choice).
+                from itertools import combinations
+
+                for a, b in combinations(full_set, 2):
+                    if b in flavor_forward.get(a, []) or a in flavor_forward.get(b, []):
+                        continue
+                    row = frontier_pairs.setdefault(
+                        frozenset((a, b)), {"count": 0, "examples": []}
+                    )
+                    row["count"] += 1
+                    if len(row["examples"]) < 3:
+                        example = {"drink": drink["name"]}
+                        if drink.get("creator"):
+                            example["bartender"] = drink["creator"]
+                        row["examples"].append(example)
+
+    frontier_rows = [
+        {"pair": sorted(pair), "count": row["count"], "examples": row["examples"]}
+        for pair, row in frontier_pairs.items()
+    ]
+    frontier_rows.sort(key=lambda r: (-r["count"], r["pair"]))
 
     final_aliases = {**alias_map, **learned_aliases}
-    return normalized_recipes, final_aliases, unmatched
+    return normalized_recipes, component_records, frontier_rows, final_aliases, unmatched
 
 
 def _write_json(path: Path, payload: object) -> None:
@@ -195,14 +650,29 @@ def _write_unmatched(path: Path, unmatched: Counter[str]) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Normalize raw cocktail ingredients to Cobber ids.")
-    parser.parse_args()
+    parser.add_argument(
+        "--imply-min-oz",
+        type=float,
+        default=DEFAULT_IMPLY_MIN_OZ,
+        help=f"Minimum pour (oz) for a composite to imply its flavour components "
+        f"(default: {DEFAULT_IMPLY_MIN_OZ}).",
+    )
+    args = parser.parse_args()
 
-    normalized_recipes, aliases, unmatched = normalize_recipes()
+    normalized_recipes, component_records, frontier_rows, aliases, unmatched = normalize_recipes(
+        args.imply_min_oz
+    )
     _write_json(NORMALIZED_RECIPES_PATH, normalized_recipes)
+    _write_json(COMPONENTS_PATH, component_records)
+    _write_json(FRONTIER_PATH, frontier_rows)
     _write_json(ALIASES_PATH, aliases)
     _write_unmatched(UNMATCHED_PATH, unmatched)
 
-    print(f"Wrote {len(normalized_recipes)} normalized recipes to {NORMALIZED_RECIPES_PATH}")
+    sources = Counter(record["source"] for record in component_records)
+    muted_count = sum(1 for record in component_records if record["muted"])
+    print(f"Wrote {len(normalized_recipes)} canon recipes to {NORMALIZED_RECIPES_PATH} ({dict(sources)})")
+    print(f"Wrote {len(component_records)} component records to {COMPONENTS_PATH} ({muted_count} with muted doses)")
+    print(f"Wrote {len(frontier_rows)} frontier evidence pairs to {FRONTIER_PATH}")
     print(f"Wrote {len(aliases)} aliases to {ALIASES_PATH}")
     print(f"Wrote {sum(unmatched.values())} unmatched ingredient mentions to {UNMATCHED_PATH}")
 

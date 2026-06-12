@@ -4,8 +4,18 @@
     "display_name": "London dry gin",
     "type": "composite",
     "role": "spirit",
-    "botanicals": ["juniper", "coriander_seed", "lemon", "orris_root", "angelica_root"],
-    "descriptors": ["juniper", "citrus", "pine"],
+    "botanicals": [
+      "juniper",
+      "coriander_seed",
+      "lemon",
+      "orris_root",
+      "angelica_root"
+    ],
+    "descriptors": [
+      "juniper",
+      "citrus",
+      "pine"
+    ],
     "notes": "Generic London dry profile; juniper-forward with citrus lift.",
     "source": "Standard London dry botanical bill."
   },
@@ -15,7 +25,10 @@
     "type": "composite",
     "role": "spirit",
     "botanicals": [],
-    "descriptors": ["neutral", "clean"],
+    "descriptors": [
+      "neutral",
+      "clean"
+    ],
     "notes": "Neutral spirit; deliberately carries no botanical aroma, so it bridges to nothing.",
     "source": "N/A (neutral spirit by definition)."
   },
@@ -24,8 +37,14 @@
     "display_name": "White rum",
     "type": "composite",
     "role": "spirit",
-    "botanicals": ["vanilla"],
-    "descriptors": ["sweet", "light", "cane"],
+    "botanicals": [
+      "vanilla"
+    ],
+    "descriptors": [
+      "sweet",
+      "light",
+      "cane"
+    ],
     "notes": "Light cane spirit; modelled minimally via vanilla/ester sweetness.",
     "source": "TODO: verify (rum aroma is mainly fermentation esters not modelled here)."
   },
@@ -34,8 +53,16 @@
     "display_name": "Dark rum",
     "type": "composite",
     "role": "spirit",
-    "botanicals": ["vanilla", "clove", "cinnamon"],
-    "descriptors": ["molasses", "warm", "spice"],
+    "botanicals": [
+      "vanilla",
+      "clove",
+      "cinnamon"
+    ],
+    "descriptors": [
+      "molasses",
+      "warm",
+      "spice"
+    ],
     "notes": "Aged/molasses rum; warm-spice and vanilla oak notes.",
     "source": "TODO: verify (molasses + barrel approximation)."
   },
@@ -44,8 +71,14 @@
     "display_name": "Tequila (blanco)",
     "type": "composite",
     "role": "spirit",
-    "botanicals": ["agave"],
-    "descriptors": ["agave", "earthy", "vegetal"],
+    "botanicals": [
+      "agave"
+    ],
+    "descriptors": [
+      "agave",
+      "earthy",
+      "vegetal"
+    ],
     "notes": "Cooked-agave blanco.",
     "source": "TODO: verify (cooked-agave volatiles not fully modelled)."
   },
@@ -54,8 +87,14 @@
     "display_name": "Mezcal",
     "type": "composite",
     "role": "spirit",
-    "botanicals": ["agave"],
-    "descriptors": ["agave", "smoke", "earthy"],
+    "botanicals": [
+      "agave"
+    ],
+    "descriptors": [
+      "agave",
+      "smoke",
+      "earthy"
+    ],
     "notes": "Smoky agave spirit; smoke phenols are not modelled in V1.",
     "source": "TODO: verify (smoke/guaiacol fraction omitted)."
   },
@@ -64,8 +103,16 @@
     "display_name": "Bourbon",
     "type": "composite",
     "role": "spirit",
-    "botanicals": ["vanilla", "cinnamon", "cherry"],
-    "descriptors": ["sweet", "oak", "corn"],
+    "botanicals": [
+      "vanilla",
+      "cinnamon",
+      "cherry"
+    ],
+    "descriptors": [
+      "sweet",
+      "oak",
+      "corn"
+    ],
     "notes": "Corn whiskey with charred-oak vanilla/spice.",
     "source": "TODO: verify (barrel-derived vanillin/oak-lactone approximation)."
   },
@@ -74,8 +121,16 @@
     "display_name": "Rye whiskey",
     "type": "composite",
     "role": "spirit",
-    "botanicals": ["vanilla", "black_pepper", "clove"],
-    "descriptors": ["spicy", "oak", "grain"],
+    "botanicals": [
+      "vanilla",
+      "black_pepper",
+      "clove"
+    ],
+    "descriptors": [
+      "spicy",
+      "oak",
+      "grain"
+    ],
     "notes": "Higher-rye whiskey; peppery spice over oak.",
     "source": "TODO: verify (rye spice + barrel approximation)."
   },
@@ -84,8 +139,15 @@
     "display_name": "Brandy",
     "type": "composite",
     "role": "spirit",
-    "botanicals": ["grape", "vanilla"],
-    "descriptors": ["fruity", "oak", "warm"],
+    "botanicals": [
+      "grape",
+      "vanilla"
+    ],
+    "descriptors": [
+      "fruity",
+      "oak",
+      "warm"
+    ],
     "notes": "Grape spirit with barrel vanilla.",
     "source": "TODO: verify (grape base + barrel approximation)."
   },
@@ -94,108 +156,222 @@
     "display_name": "Triple sec",
     "type": "composite",
     "role": "sweet",
-    "botanicals": ["orange", "bitter_orange_peel"],
-    "descriptors": ["orange", "sweet", "citrus"],
+    "botanicals": [
+      "orange",
+      "bitter_orange_peel"
+    ],
+    "descriptors": [
+      "orange",
+      "sweet",
+      "citrus"
+    ],
     "notes": "Orange-peel liqueur; sweet citrus.",
-    "source": "Orange-peel maceration."
+    "source": "Orange-peel maceration.",
+    "flavor_forward": [
+      "orange"
+    ]
   },
   {
     "id": "cointreau",
     "display_name": "Cointreau",
     "type": "composite",
     "role": "sweet",
-    "botanicals": ["orange", "bitter_orange_peel"],
-    "descriptors": ["orange", "citrus", "clean"],
+    "botanicals": [
+      "orange",
+      "bitter_orange_peel"
+    ],
+    "descriptors": [
+      "orange",
+      "citrus",
+      "clean"
+    ],
     "notes": "Sweet + bitter orange-peel triple sec; crisper than generic.",
-    "source": "Sweet and bitter orange-peel blend."
+    "source": "Sweet and bitter orange-peel blend.",
+    "flavor_forward": [
+      "orange"
+    ]
   },
   {
     "id": "sweet_vermouth",
     "display_name": "Sweet vermouth",
     "type": "composite",
     "role": "aromatic",
-    "botanicals": ["wormwood", "gentian", "vanilla", "cinnamon"],
-    "descriptors": ["herbal", "sweet", "bitter"],
+    "botanicals": [
+      "wormwood",
+      "gentian",
+      "vanilla",
+      "cinnamon"
+    ],
+    "descriptors": [
+      "herbal",
+      "sweet",
+      "bitter"
+    ],
     "notes": "Fortified aromatised wine; herbal-sweet.",
-    "source": "TODO: verify (proprietary botanical blends; representative bill)."
+    "source": "TODO: verify (proprietary botanical blends; representative bill).",
+    "taste": {
+      "sweet": 0.6,
+      "bitter": 0.3
+    }
   },
   {
     "id": "dry_vermouth",
     "display_name": "Dry vermouth",
     "type": "composite",
     "role": "aromatic",
-    "botanicals": ["wormwood", "coriander_seed", "lemon"],
-    "descriptors": ["herbal", "dry", "citrus"],
+    "botanicals": [
+      "wormwood",
+      "coriander_seed",
+      "lemon"
+    ],
+    "descriptors": [
+      "herbal",
+      "dry",
+      "citrus"
+    ],
     "notes": "Dry aromatised wine; lighter, more citrus-herbal.",
-    "source": "TODO: verify (proprietary blends; representative bill)."
+    "source": "TODO: verify (proprietary blends; representative bill).",
+    "taste": {
+      "sour": 0.2,
+      "bitter": 0.2
+    }
   },
   {
     "id": "campari",
     "display_name": "Campari",
     "type": "composite",
     "role": "bitter",
-    "botanicals": ["bitter_orange_peel", "gentian"],
-    "descriptors": ["bitter", "orange", "herbal"],
+    "botanicals": [
+      "bitter_orange_peel",
+      "gentian"
+    ],
+    "descriptors": [
+      "bitter",
+      "orange",
+      "herbal"
+    ],
     "notes": "Red bitter aperitivo; orange-forward bitterness.",
-    "source": "TODO: verify (secret recipe; bitter-orange + gentian representative)."
+    "source": "TODO: verify (secret recipe; bitter-orange + gentian representative).",
+    "taste": {
+      "bitter": 0.8,
+      "sweet": 0.4
+    }
   },
   {
     "id": "aperol",
     "display_name": "Aperol",
     "type": "composite",
     "role": "bitter",
-    "botanicals": ["bitter_orange_peel", "gentian", "orange"],
-    "descriptors": ["bitter", "orange", "sweet"],
+    "botanicals": [
+      "bitter_orange_peel",
+      "gentian",
+      "orange"
+    ],
+    "descriptors": [
+      "bitter",
+      "orange",
+      "sweet"
+    ],
     "notes": "Lighter, sweeter, lower-proof aperitivo than Campari.",
-    "source": "TODO: verify (secret recipe; representative bill)."
+    "source": "TODO: verify (secret recipe; representative bill).",
+    "taste": {
+      "bitter": 0.5,
+      "sweet": 0.5
+    }
   },
   {
     "id": "st_germain",
     "display_name": "Elderflower liqueur",
     "type": "composite",
     "role": "sweet",
-    "botanicals": ["elderflower"],
-    "descriptors": ["floral", "sweet", "honey"],
+    "botanicals": [
+      "elderflower"
+    ],
+    "descriptors": [
+      "floral",
+      "sweet",
+      "honey"
+    ],
     "notes": "Elderflower liqueur (St-Germain style).",
-    "source": "Elderflower maceration."
+    "source": "Elderflower maceration.",
+    "flavor_forward": [
+      "elderflower"
+    ]
   },
   {
     "id": "maraschino",
     "display_name": "Maraschino liqueur",
     "type": "composite",
     "role": "sweet",
-    "botanicals": ["cherry", "almond"],
-    "descriptors": ["cherry", "almond", "nutty"],
+    "botanicals": [
+      "cherry",
+      "almond"
+    ],
+    "descriptors": [
+      "cherry",
+      "almond",
+      "nutty"
+    ],
     "notes": "Marasca cherry + pits; benzaldehyde-forward.",
-    "source": "Marasca cherry distillate (whole fruit incl. stones)."
+    "source": "Marasca cherry distillate (whole fruit incl. stones).",
+    "flavor_forward": [
+      "cherry"
+    ]
   },
   {
     "id": "amaretto",
     "display_name": "Amaretto",
     "type": "composite",
     "role": "sweet",
-    "botanicals": ["almond"],
-    "descriptors": ["almond", "sweet", "marzipan"],
+    "botanicals": [
+      "almond"
+    ],
+    "descriptors": [
+      "almond",
+      "sweet",
+      "marzipan"
+    ],
     "notes": "Sweet almond/apricot-kernel liqueur.",
-    "source": "Benzaldehyde-led almond liqueur."
+    "source": "Benzaldehyde-led almond liqueur.",
+    "flavor_forward": [
+      "almond"
+    ]
   },
   {
     "id": "coffee_liqueur",
     "display_name": "Coffee liqueur",
     "type": "composite",
     "role": "sweet",
-    "botanicals": ["coffee", "vanilla"],
-    "descriptors": ["coffee", "sweet", "roasted"],
+    "botanicals": [
+      "coffee",
+      "vanilla"
+    ],
+    "descriptors": [
+      "coffee",
+      "sweet",
+      "roasted"
+    ],
     "notes": "Sweetened coffee liqueur (Kahlua style).",
-    "source": "Coffee extract + vanilla."
+    "source": "Coffee extract + vanilla.",
+    "flavor_forward": [
+      "coffee"
+    ]
   },
   {
     "id": "green_chartreuse",
     "display_name": "Green Chartreuse",
     "type": "composite",
     "role": "aromatic",
-    "botanicals": ["anise", "mint", "thyme"],
-    "descriptors": ["herbal", "anise", "complex"],
+    "botanicals": [
+      "anise",
+      "mint",
+      "thyme"
+    ],
+    "descriptors": [
+      "herbal",
+      "anise",
+      "complex"
+    ],
     "notes": "Intensely herbal monastic liqueur.",
     "source": "TODO: verify (130 secret botanicals; tiny representative subset)."
   },
@@ -204,28 +380,58 @@
     "display_name": "Limoncello",
     "type": "composite",
     "role": "sweet",
-    "botanicals": ["lemon"],
-    "descriptors": ["lemon", "sweet", "citrus"],
+    "botanicals": [
+      "lemon"
+    ],
+    "descriptors": [
+      "lemon",
+      "sweet",
+      "citrus"
+    ],
     "notes": "Sweet lemon-peel liqueur.",
-    "source": "Lemon-peel maceration."
+    "source": "Lemon-peel maceration.",
+    "flavor_forward": [
+      "lemon"
+    ]
   },
   {
     "id": "angostura_bitters",
     "display_name": "Angostura bitters",
     "type": "composite",
     "role": "bitter",
-    "botanicals": ["gentian", "clove", "cinnamon", "cardamom"],
-    "descriptors": ["bitter", "spice", "warm"],
+    "botanicals": [
+      "gentian",
+      "clove",
+      "cinnamon",
+      "cardamom"
+    ],
+    "descriptors": [
+      "bitter",
+      "spice",
+      "warm"
+    ],
     "notes": "Aromatic spiced bitters; a few dashes per drink.",
-    "source": "TODO: verify (secret recipe; gentian + baking-spice representative)."
+    "source": "TODO: verify (secret recipe; gentian + baking-spice representative).",
+    "taste": {
+      "bitter": 0.9
+    }
   },
   {
     "id": "peychauds_bitters",
     "display_name": "Peychaud's bitters",
     "type": "composite",
     "role": "bitter",
-    "botanicals": ["anise", "gentian", "cherry", "mint"],
-    "descriptors": ["anise", "bitter", "floral"],
+    "botanicals": [
+      "anise",
+      "gentian",
+      "cherry",
+      "mint"
+    ],
+    "descriptors": [
+      "anise",
+      "bitter",
+      "floral"
+    ],
     "notes": "Lighter, anise-and-cherry-leaning bitters; the Sazerac bitter.",
     "source": "TODO: verify (secret recipe; anise-forward representative bill)."
   },
@@ -234,9 +440,924 @@
     "display_name": "Orange bitters",
     "type": "composite",
     "role": "bitter",
-    "botanicals": ["bitter_orange_peel", "cardamom", "coriander_seed"],
-    "descriptors": ["orange", "bitter", "spice"],
+    "botanicals": [
+      "bitter_orange_peel",
+      "cardamom",
+      "coriander_seed"
+    ],
+    "descriptors": [
+      "orange",
+      "bitter",
+      "spice"
+    ],
     "notes": "Citrus-led cocktail bitters.",
     "source": "Bitter-orange peel + warm spice."
+  },
+  {
+    "id": "scotch",
+    "display_name": "Scotch whisky",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "vanilla"
+    ],
+    "descriptors": [
+      "malt",
+      "smoke",
+      "oak"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Peat/smoke compounds not yet in vocabulary. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "irish_whiskey",
+    "display_name": "Irish whiskey",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "vanilla"
+    ],
+    "descriptors": [
+      "malt",
+      "smooth",
+      "oak"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "cachaca",
+    "display_name": "Cachaca",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [],
+    "descriptors": [
+      "grassy",
+      "funky",
+      "cane"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Grassy sugarcane notes not yet in vocabulary. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "irish_cream",
+    "display_name": "Irish cream",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "vanilla",
+      "cream",
+      "coffee"
+    ],
+    "descriptors": [
+      "creamy",
+      "sweet",
+      "coffee"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "cream"
+    ],
+    "taste": {
+      "fat": 0.6,
+      "sweet": 0.6
+    }
+  },
+  {
+    "id": "peach_schnapps",
+    "display_name": "Peach schnapps",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "peach"
+    ],
+    "descriptors": [
+      "peach",
+      "sweet"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "peach"
+    ]
+  },
+  {
+    "id": "apricot_brandy",
+    "display_name": "Apricot brandy",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "apricot"
+    ],
+    "descriptors": [
+      "stone-fruit",
+      "sweet"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Stone-fruit profile PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "apricot"
+    ]
+  },
+  {
+    "id": "sambuca",
+    "display_name": "Sambuca",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "anise"
+    ],
+    "descriptors": [
+      "anise",
+      "sweet"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "anise"
+    ]
+  },
+  {
+    "id": "absinthe",
+    "display_name": "Absinthe",
+    "type": "composite",
+    "role": "aromatic",
+    "botanicals": [
+      "anise",
+      "wormwood",
+      "mint"
+    ],
+    "descriptors": [
+      "anise",
+      "herbal",
+      "high-proof"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "benedictine",
+    "display_name": "Benedictine",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "vanilla"
+    ],
+    "descriptors": [
+      "herbal",
+      "honeyed",
+      "sweet"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Herbal bill not fully decomposed. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "galliano",
+    "display_name": "Galliano",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "vanilla",
+      "anise"
+    ],
+    "descriptors": [
+      "vanilla",
+      "anise",
+      "herbal"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "vanilla",
+      "anise"
+    ]
+  },
+  {
+    "id": "blue_curacao",
+    "display_name": "Blue curacao",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "orange",
+      "bitter_orange_peel"
+    ],
+    "descriptors": [
+      "orange",
+      "sweet"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Same orange bill as triple sec; colour aside. TODO: verify",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "orange"
+    ]
+  },
+  {
+    "id": "creme_de_cacao",
+    "display_name": "Creme de cacao",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "vanilla"
+    ],
+    "descriptors": [
+      "chocolate",
+      "sweet"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Cocoa compounds not yet in vocabulary. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "creme_de_cassis",
+    "display_name": "Creme de cassis",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "blackcurrant"
+    ],
+    "descriptors": [
+      "blackcurrant",
+      "sweet"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Blackcurrant compounds PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "blackcurrant"
+    ],
+    "imply_min_oz": 0.0
+  },
+  {
+    "id": "coconut_liqueur",
+    "display_name": "Coconut liqueur",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "coconut"
+    ],
+    "descriptors": [
+      "coconut",
+      "sweet"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "coconut"
+    ]
+  },
+  {
+    "id": "raspberry_liqueur",
+    "display_name": "Raspberry liqueur",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "raspberry"
+    ],
+    "descriptors": [
+      "raspberry",
+      "sweet"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "raspberry"
+    ]
+  },
+  {
+    "id": "amaro_montenegro",
+    "display_name": "Amaro Montenegro",
+    "type": "composite",
+    "role": "bitter",
+    "botanicals": [
+      "bitter_orange_peel",
+      "gentian",
+      "orange"
+    ],
+    "descriptors": [
+      "soft-bitter",
+      "rosy",
+      "orange"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Soft/sweet/rosy amaro; priority coverage item. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "citron_vodka",
+    "display_name": "Citron (lemon) vodka",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "lemon"
+    ],
+    "flavor_forward": [
+      "vodka",
+      "lemon"
+    ],
+    "descriptors": [
+      "citrus",
+      "lemon",
+      "clean"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Flavoured spirit; decomposes to base + flavour for co-occurrence. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "lime_vodka",
+    "display_name": "Lime vodka",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "lime"
+    ],
+    "flavor_forward": [
+      "vodka",
+      "lime"
+    ],
+    "descriptors": [
+      "citrus",
+      "lime",
+      "clean"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Flavoured spirit; decomposes to base + flavour for co-occurrence. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "peach_vodka",
+    "display_name": "Peach vodka",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "peach"
+    ],
+    "flavor_forward": [
+      "vodka",
+      "peach"
+    ],
+    "descriptors": [
+      "peach",
+      "clean"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Flavoured spirit; decomposes to base + flavour for co-occurrence. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "raspberry_vodka",
+    "display_name": "Raspberry vodka",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "raspberry"
+    ],
+    "flavor_forward": [
+      "vodka",
+      "raspberry"
+    ],
+    "descriptors": [
+      "raspberry",
+      "clean"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Flavoured spirit; decomposes to base + flavour for co-occurrence. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "cranberry_vodka",
+    "display_name": "Cranberry vodka",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "cranberry"
+    ],
+    "flavor_forward": [
+      "vodka",
+      "cranberry"
+    ],
+    "descriptors": [
+      "tart",
+      "red",
+      "clean"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Flavoured spirit; decomposes to base + flavour for co-occurrence. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "vanilla_vodka",
+    "display_name": "Vanilla vodka",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "vanilla"
+    ],
+    "flavor_forward": [
+      "vodka",
+      "vanilla"
+    ],
+    "descriptors": [
+      "vanilla",
+      "clean"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Flavoured spirit; decomposes to base + flavour for co-occurrence. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "pepper_vodka",
+    "display_name": "Pepper vodka",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "black_pepper"
+    ],
+    "flavor_forward": [
+      "vodka",
+      "black_pepper"
+    ],
+    "descriptors": [
+      "spicy",
+      "clean"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Flavoured spirit; decomposes to base + flavour for co-occurrence. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "lemon_rum",
+    "display_name": "Lemon white rum",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "lemon"
+    ],
+    "flavor_forward": [
+      "white_rum",
+      "lemon"
+    ],
+    "descriptors": [
+      "citrus",
+      "lemon",
+      "cane"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Flavoured spirit; decomposes to base + flavour for co-occurrence. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "grenadine",
+    "display_name": "Grenadine",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "pomegranate"
+    ],
+    "flavor_forward": [
+      "pomegranate"
+    ],
+    "descriptors": [
+      "sweet",
+      "pomegranate",
+      "red"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Pomegranate syrup; decomposes to pomegranate for co-occurrence.",
+    "source": "Provisional entry; see notes.",
+    "imply_min_oz": 0.0
+  },
+  {
+    "id": "creme_de_menthe",
+    "display_name": "Creme de menthe",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "mint"
+    ],
+    "descriptors": [
+      "mint",
+      "sweet",
+      "cool"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "mint"
+    ],
+    "imply_min_oz": 0.0
+  },
+  {
+    "id": "cherry_liqueur",
+    "display_name": "Cherry liqueur (Heering-style)",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "cherry"
+    ],
+    "descriptors": [
+      "cherry",
+      "sweet",
+      "dark"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "cherry"
+    ]
+  },
+  {
+    "id": "pisco",
+    "display_name": "Pisco",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "grape"
+    ],
+    "descriptors": [
+      "grape",
+      "floral",
+      "clean"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "drambuie",
+    "display_name": "Drambuie",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "honey"
+    ],
+    "descriptors": [
+      "honey",
+      "herbal",
+      "scotch"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "honey"
+    ]
+  },
+  {
+    "id": "calvados",
+    "display_name": "Calvados",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "apple"
+    ],
+    "descriptors": [
+      "apple",
+      "oak",
+      "orchard"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "apple"
+    ]
+  },
+  {
+    "id": "whole_egg",
+    "display_name": "Whole egg",
+    "type": "composite",
+    "role": "dairy",
+    "botanicals": [
+      "egg_white",
+      "egg_yolk"
+    ],
+    "descriptors": [
+      "rich",
+      "silky"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Decomposes to white + yolk (flips, nogs).",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "egg_white",
+      "egg_yolk"
+    ],
+    "taste": {
+      "fat": 0.5
+    }
+  },
+  {
+    "id": "sherry",
+    "display_name": "Sherry",
+    "type": "composite",
+    "role": "aromatic",
+    "botanicals": [
+      "grape"
+    ],
+    "descriptors": [
+      "nutty",
+      "oxidative",
+      "grape"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "anisette",
+    "display_name": "Anisette",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "anise"
+    ],
+    "descriptors": [
+      "anise",
+      "sweet"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "anise"
+    ]
+  },
+  {
+    "id": "cynar",
+    "display_name": "Cynar",
+    "type": "composite",
+    "role": "bitter",
+    "botanicals": [
+      "gentian"
+    ],
+    "descriptors": [
+      "bitter",
+      "vegetal",
+      "caramel"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Artichoke amaro; artichoke not yet a raw ingredient, botanical bill is a placeholder. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "bitter": 0.7,
+      "sweet": 0.3,
+      "umami": 0.1
+    }
+  },
+  {
+    "id": "fernet",
+    "display_name": "Fernet",
+    "type": "composite",
+    "role": "bitter",
+    "botanicals": [
+      "mint",
+      "gentian"
+    ],
+    "descriptors": [
+      "bitter",
+      "menthol",
+      "medicinal"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "bitter": 0.9
+    }
+  },
+  {
+    "id": "averna",
+    "display_name": "Amaro Averna",
+    "type": "composite",
+    "role": "bitter",
+    "botanicals": [
+      "bitter_orange_peel",
+      "gentian",
+      "vanilla"
+    ],
+    "descriptors": [
+      "bitter",
+      "citrus",
+      "caramel"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "bitter": 0.6,
+      "sweet": 0.5
+    }
+  },
+  {
+    "id": "falernum",
+    "display_name": "Falernum",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "lime",
+      "clove",
+      "almond",
+      "ginger"
+    ],
+    "descriptors": [
+      "spiced",
+      "lime",
+      "almond"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Flavour-dense tiki syrup; always implies its components. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "lime",
+      "clove",
+      "almond",
+      "ginger"
+    ],
+    "imply_min_oz": 0.0
+  },
+  {
+    "id": "ginger_liqueur",
+    "display_name": "Ginger liqueur",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "ginger"
+    ],
+    "descriptors": [
+      "ginger",
+      "sweet"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "ginger"
+    ]
+  },
+  {
+    "id": "allspice_dram",
+    "display_name": "Allspice dram",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "allspice"
+    ],
+    "descriptors": [
+      "spiced",
+      "warm"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Flavour-dense pimento liqueur; always implies. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "allspice"
+    ],
+    "imply_min_oz": 0.0
+  },
+  {
+    "id": "celery_bitters",
+    "display_name": "Celery bitters",
+    "type": "composite",
+    "role": "bitter",
+    "botanicals": [
+      "celery"
+    ],
+    "flavor_forward": [
+      "celery"
+    ],
+    "taste": {
+      "bitter": 0.6
+    },
+    "descriptors": [
+      "savoury",
+      "green",
+      "bitter"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Dash doses are usually muted by the dose gate; evidence still counts the bitters itself. TODO: verify (Part B citation pass).",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "yellow_chartreuse",
+    "display_name": "Yellow Chartreuse",
+    "type": "composite",
+    "role": "aromatic",
+    "botanicals": [
+      "anise",
+      "thyme"
+    ],
+    "descriptors": [
+      "herbal",
+      "honeyed",
+      "saffron",
+      "milder"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Distinct from green Chartreuse: milder, sweeter, honey/saffron-led, lower proof. Was previously proxied to green_chartreuse (Ari: 'a completely different thing'). Botanical bill here is a placeholder subset — full aroma profile is PROVISIONAL, needs research.",
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "sweet": 0.5,
+      "bitter": 0.2
+    }
+  },
+  {
+    "id": "sloe_gin",
+    "display_name": "Sloe gin",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "juniper"
+    ],
+    "descriptors": [
+      "berry",
+      "plum",
+      "stone-fruit"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "A blackthorn-berry liqueur, NOT a gin (Ari). Plum/stone-fruit character; the berry profile is not yet captured. PROVISIONAL — needs research.",
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "sweet": 0.6,
+      "sour": 0.3
+    }
+  },
+  {
+    "id": "spiced_rum",
+    "display_name": "Spiced rum",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "vanilla",
+      "cinnamon",
+      "clove"
+    ],
+    "descriptors": [
+      "spiced",
+      "vanilla",
+      "warm"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "A middle between white and dark rum: lighter body than dark, with added baking spice (Ari). Shares dark rum's spice botanicals; body/lightness not modelled. PROVISIONAL.",
+    "source": "Provisional entry; see notes."
   }
 ]

@@ -4,32 +4,65 @@
     "display_name": "Lemon",
     "type": "raw",
     "role": "sour",
-    "compounds": ["limonene", "citral", "beta_pinene", "gamma_terpinene"],
-    "descriptors": ["citrus", "lemon", "sour"],
+    "compounds": [
+      "limonene",
+      "citral",
+      "beta_pinene",
+      "gamma_terpinene"
+    ],
+    "descriptors": [
+      "citrus",
+      "lemon",
+      "sour"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Limonene-rich peel; citral gives the sharp lemon top note.",
-    "source": "Flavornet / common citrus essential-oil profiles (limonene-dominant peel oil)."
+    "source": "Flavornet / common citrus essential-oil profiles (limonene-dominant peel oil).",
+    "taste": {
+      "sour": 0.9
+    }
   },
   {
     "id": "lime",
     "display_name": "Lime",
     "type": "raw",
     "role": "sour",
-    "compounds": ["limonene", "citral", "beta_pinene", "terpineol"],
-    "descriptors": ["citrus", "lime", "sour"],
+    "compounds": [
+      "limonene",
+      "citral",
+      "beta_pinene",
+      "terpineol"
+    ],
+    "descriptors": [
+      "citrus",
+      "lime",
+      "sour"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Similar to lemon but with more terpineol and pinene lift.",
-    "source": "Citrus aurantifolia peel oil profiles (limonene + terpene mix)."
+    "source": "Citrus aurantifolia peel oil profiles (limonene + terpene mix).",
+    "taste": {
+      "sour": 0.9
+    }
   },
   {
     "id": "orange",
     "display_name": "Orange",
     "type": "raw",
     "role": "fruit",
-    "compounds": ["limonene", "myrcene", "linalool", "octanal"],
-    "descriptors": ["citrus", "orange", "sweet"],
+    "compounds": [
+      "limonene",
+      "myrcene",
+      "linalool",
+      "octanal"
+    ],
+    "descriptors": [
+      "citrus",
+      "orange",
+      "sweet"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Sweet citrus; limonene >90% of peel oil with aldehyde sweetness.",
@@ -40,20 +73,42 @@
     "display_name": "Grapefruit",
     "type": "raw",
     "role": "sour",
-    "compounds": ["limonene", "myrcene", "nootkatone"],
-    "descriptors": ["citrus", "grapefruit", "bitter"],
+    "compounds": [
+      "limonene",
+      "myrcene",
+      "nootkatone"
+    ],
+    "descriptors": [
+      "citrus",
+      "grapefruit",
+      "bitter"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Nootkatone is the characteristic grapefruit/bitter marker.",
-    "source": "Grapefruit (Citrus paradisi) oil; nootkatone as the impact compound."
+    "source": "Grapefruit (Citrus paradisi) oil; nootkatone as the impact compound.",
+    "taste": {
+      "sour": 0.6,
+      "bitter": 0.3,
+      "sweet": 0.2
+    }
   },
   {
     "id": "bitter_orange_peel",
     "display_name": "Bitter orange peel",
     "type": "raw",
     "role": "bitter",
-    "compounds": ["limonene", "linalool", "decanal", "myrcene"],
-    "descriptors": ["citrus", "bitter", "floral"],
+    "compounds": [
+      "limonene",
+      "linalool",
+      "decanal",
+      "myrcene"
+    ],
+    "descriptors": [
+      "citrus",
+      "bitter",
+      "floral"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Seville/bitter orange peel; the bittering citrus in many liqueurs.",
@@ -64,8 +119,16 @@
     "display_name": "Lemongrass",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["citral", "geraniol", "myrcene"],
-    "descriptors": ["citrus", "lemon", "grassy"],
+    "compounds": [
+      "citral",
+      "geraniol",
+      "myrcene"
+    ],
+    "descriptors": [
+      "citrus",
+      "lemon",
+      "grassy"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Citral-dominant grass; bridges to any lemon-type ingredient.",
@@ -76,8 +139,16 @@
     "display_name": "Mint",
     "type": "raw",
     "role": "herb",
-    "compounds": ["menthol", "menthone", "limonene"],
-    "descriptors": ["mint", "cool", "herbal"],
+    "compounds": [
+      "menthol",
+      "menthone",
+      "limonene"
+    ],
+    "descriptors": [
+      "mint",
+      "cool",
+      "herbal"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Peppermint-type; menthol gives the cooling note.",
@@ -88,8 +159,16 @@
     "display_name": "Basil",
     "type": "raw",
     "role": "herb",
-    "compounds": ["linalool", "eugenol", "estragole"],
-    "descriptors": ["herbal", "sweet", "anise"],
+    "compounds": [
+      "linalool",
+      "eugenol",
+      "estragole"
+    ],
+    "descriptors": [
+      "herbal",
+      "sweet",
+      "anise"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Sweet basil; estragole and linalool dominate.",
@@ -100,8 +179,16 @@
     "display_name": "Rosemary",
     "type": "raw",
     "role": "herb",
-    "compounds": ["eucalyptol", "alpha_pinene", "camphor"],
-    "descriptors": ["herbal", "pine", "resinous"],
+    "compounds": [
+      "eucalyptol",
+      "alpha_pinene",
+      "camphor"
+    ],
+    "descriptors": [
+      "herbal",
+      "pine",
+      "resinous"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Cineole/camphor herb; bridges to pine-forward spirits.",
@@ -112,8 +199,15 @@
     "display_name": "Thyme",
     "type": "raw",
     "role": "herb",
-    "compounds": ["thymol", "carvacrol", "alpha_pinene"],
-    "descriptors": ["herbal", "savoury"],
+    "compounds": [
+      "thymol",
+      "carvacrol",
+      "alpha_pinene"
+    ],
+    "descriptors": [
+      "herbal",
+      "savoury"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Thymol-dominant; sharp savoury herb.",
@@ -124,8 +218,16 @@
     "display_name": "Coriander leaf (cilantro)",
     "type": "raw",
     "role": "herb",
-    "compounds": ["decanal", "linalool", "dodecanal"],
-    "descriptors": ["herbal", "citrus", "green"],
+    "compounds": [
+      "decanal",
+      "linalool",
+      "dodecanal"
+    ],
+    "descriptors": [
+      "herbal",
+      "citrus",
+      "green"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Aldehyde-driven leaf; distinct from the seed.",
@@ -136,8 +238,15 @@
     "display_name": "Sage",
     "type": "raw",
     "role": "herb",
-    "compounds": ["eucalyptol", "thujone", "camphor"],
-    "descriptors": ["herbal", "savoury"],
+    "compounds": [
+      "eucalyptol",
+      "thujone",
+      "camphor"
+    ],
+    "descriptors": [
+      "herbal",
+      "savoury"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Thujone-bearing herb; bridges to wormwood-based amari.",
@@ -148,8 +257,14 @@
     "display_name": "Lavender",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["linalool", "linalyl_acetate"],
-    "descriptors": ["floral", "herbal"],
+    "compounds": [
+      "linalool",
+      "linalyl_acetate"
+    ],
+    "descriptors": [
+      "floral",
+      "herbal"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Linalool/linalyl acetate floral; use sparingly.",
@@ -160,8 +275,15 @@
     "display_name": "Cinnamon",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["cinnamaldehyde", "eugenol"],
-    "descriptors": ["warm", "sweet", "spice"],
+    "compounds": [
+      "cinnamaldehyde",
+      "eugenol"
+    ],
+    "descriptors": [
+      "warm",
+      "sweet",
+      "spice"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Cinnamaldehyde is the dominant warm-spice marker.",
@@ -172,8 +294,14 @@
     "display_name": "Cassia",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["cinnamaldehyde", "coumarin"],
-    "descriptors": ["warm", "spice"],
+    "compounds": [
+      "cinnamaldehyde",
+      "coumarin"
+    ],
+    "descriptors": [
+      "warm",
+      "spice"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Cassia bark; higher cinnamaldehyde and coumarin than true cinnamon.",
@@ -184,8 +312,15 @@
     "display_name": "Clove",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["eugenol", "beta_caryophyllene"],
-    "descriptors": ["warm", "pungent", "spice"],
+    "compounds": [
+      "eugenol",
+      "beta_caryophyllene"
+    ],
+    "descriptors": [
+      "warm",
+      "pungent",
+      "spice"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Eugenol >80%; the canonical clove note.",
@@ -196,8 +331,16 @@
     "display_name": "Ginger",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["gingerol", "zingiberene", "alpha_pinene"],
-    "descriptors": ["pungent", "warm", "spice"],
+    "compounds": [
+      "gingerol",
+      "zingiberene",
+      "alpha_pinene"
+    ],
+    "descriptors": [
+      "pungent",
+      "warm",
+      "spice"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Gingerol/zingiberene pungency.",
@@ -208,8 +351,16 @@
     "display_name": "Black pepper",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["alpha_pinene", "limonene", "beta_caryophyllene"],
-    "descriptors": ["pungent", "woody", "spice"],
+    "compounds": [
+      "alpha_pinene",
+      "limonene",
+      "beta_caryophyllene"
+    ],
+    "descriptors": [
+      "pungent",
+      "woody",
+      "spice"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Caryophyllene/pinene woody pungency; bridges to native pepperberry.",
@@ -220,8 +371,16 @@
     "display_name": "Cardamom",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["eucalyptol", "terpinyl_acetate", "linalool"],
-    "descriptors": ["warm", "citrus", "spice"],
+    "compounds": [
+      "eucalyptol",
+      "terpinyl_acetate",
+      "linalool"
+    ],
+    "descriptors": [
+      "warm",
+      "citrus",
+      "spice"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Cineole + terpinyl acetate; warm-citrus spice.",
@@ -232,8 +391,15 @@
     "display_name": "Star anise",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["anethole", "limonene"],
-    "descriptors": ["anise", "sweet", "liquorice"],
+    "compounds": [
+      "anethole",
+      "limonene"
+    ],
+    "descriptors": [
+      "anise",
+      "sweet",
+      "liquorice"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Anethole-dominant; interchangeable aroma with aniseed.",
@@ -244,8 +410,15 @@
     "display_name": "Aniseed",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["anethole", "estragole"],
-    "descriptors": ["anise", "liquorice", "sweet"],
+    "compounds": [
+      "anethole",
+      "estragole"
+    ],
+    "descriptors": [
+      "anise",
+      "liquorice",
+      "sweet"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Anethole-dominant seed; botanical for anise liqueurs.",
@@ -256,8 +429,16 @@
     "display_name": "Nutmeg",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["sabinene", "alpha_pinene", "myristicin"],
-    "descriptors": ["warm", "woody", "spice"],
+    "compounds": [
+      "sabinene",
+      "alpha_pinene",
+      "myristicin"
+    ],
+    "descriptors": [
+      "warm",
+      "woody",
+      "spice"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Myristicin-bearing warm spice.",
@@ -268,8 +449,14 @@
     "display_name": "Vanilla",
     "type": "raw",
     "role": "sweet",
-    "compounds": ["vanillin"],
-    "descriptors": ["sweet", "vanilla", "creamy"],
+    "compounds": [
+      "vanillin"
+    ],
+    "descriptors": [
+      "sweet",
+      "vanilla",
+      "creamy"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Vanillin-dominant; also the oak-derived note in aged spirits.",
@@ -280,8 +467,15 @@
     "display_name": "Allspice (pimento)",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["eugenol", "beta_caryophyllene", "eucalyptol"],
-    "descriptors": ["warm", "spice"],
+    "compounds": [
+      "eugenol",
+      "beta_caryophyllene",
+      "eucalyptol"
+    ],
+    "descriptors": [
+      "warm",
+      "spice"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Eugenol-led; reads as clove-cinnamon-nutmeg at once.",
@@ -292,8 +486,14 @@
     "display_name": "Caraway",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["carvone", "limonene"],
-    "descriptors": ["caraway", "spice"],
+    "compounds": [
+      "carvone",
+      "limonene"
+    ],
+    "descriptors": [
+      "caraway",
+      "spice"
+    ],
     "is_native": false,
     "season": null,
     "notes": "S-carvone (vs spearmint's R-carvone) + limonene.",
@@ -304,8 +504,17 @@
     "display_name": "Juniper",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["alpha_pinene", "myrcene", "limonene", "sabinene"],
-    "descriptors": ["pine", "resinous", "citrus"],
+    "compounds": [
+      "alpha_pinene",
+      "myrcene",
+      "limonene",
+      "sabinene"
+    ],
+    "descriptors": [
+      "pine",
+      "resinous",
+      "citrus"
+    ],
     "is_native": false,
     "season": null,
     "notes": "The defining gin botanical; pinene-forward resinous pine.",
@@ -316,8 +525,16 @@
     "display_name": "Coriander seed",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["linalool", "geraniol", "limonene"],
-    "descriptors": ["citrus", "floral", "spice"],
+    "compounds": [
+      "linalool",
+      "geraniol",
+      "limonene"
+    ],
+    "descriptors": [
+      "citrus",
+      "floral",
+      "spice"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Linalool >60%; the citrus-floral lift in gin.",
@@ -328,8 +545,15 @@
     "display_name": "Orris root",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["irone", "ionone"],
-    "descriptors": ["floral", "violet", "powdery"],
+    "compounds": [
+      "irone",
+      "ionone"
+    ],
+    "descriptors": [
+      "floral",
+      "violet",
+      "powdery"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Irone-bearing fixative; violet/powdery floral.",
@@ -340,8 +564,16 @@
     "display_name": "Angelica root",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["alpha_pinene", "beta_phellandrene", "limonene"],
-    "descriptors": ["earthy", "woody", "herbal"],
+    "compounds": [
+      "alpha_pinene",
+      "beta_phellandrene",
+      "limonene"
+    ],
+    "descriptors": [
+      "earthy",
+      "woody",
+      "herbal"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Earthy-woody gin/vermouth botanical and fixative.",
@@ -352,8 +584,14 @@
     "display_name": "Gentian root",
     "type": "raw",
     "role": "bitter",
-    "compounds": ["gentiopicroside", "amarogentin"],
-    "descriptors": ["bitter", "earthy"],
+    "compounds": [
+      "gentiopicroside",
+      "amarogentin"
+    ],
+    "descriptors": [
+      "bitter",
+      "earthy"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Pure bittering principle; intentionally shares little aroma with anything.",
@@ -364,8 +602,15 @@
     "display_name": "Wormwood",
     "type": "raw",
     "role": "bitter",
-    "compounds": ["thujone", "chamazulene", "sabinene"],
-    "descriptors": ["bitter", "herbal"],
+    "compounds": [
+      "thujone",
+      "chamazulene",
+      "sabinene"
+    ],
+    "descriptors": [
+      "bitter",
+      "herbal"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Thujone-bearing bittering herb; defines vermouth and absinthe.",
@@ -376,8 +621,16 @@
     "display_name": "Elderflower",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["linalool", "rose_oxide", "nerol_oxide"],
-    "descriptors": ["floral", "honey", "fruity"],
+    "compounds": [
+      "linalool",
+      "rose_oxide",
+      "nerol_oxide"
+    ],
+    "descriptors": [
+      "floral",
+      "honey",
+      "fruity"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Rose/nerol-oxide floral with linalool; the St-Germain note.",
@@ -388,8 +641,14 @@
     "display_name": "Almond",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["benzaldehyde"],
-    "descriptors": ["nutty", "almond", "marzipan"],
+    "compounds": [
+      "benzaldehyde"
+    ],
+    "descriptors": [
+      "nutty",
+      "almond",
+      "marzipan"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Benzaldehyde is the bitter-almond/marzipan marker.",
@@ -400,20 +659,37 @@
     "display_name": "Coffee",
     "type": "raw",
     "role": "bitter",
-    "compounds": ["furfural", "pyrazine", "2_furfurylthiol"],
-    "descriptors": ["roasted", "bitter", "chocolate"],
+    "compounds": [
+      "furfural",
+      "pyrazine",
+      "2_furfurylthiol"
+    ],
+    "descriptors": [
+      "roasted",
+      "bitter",
+      "chocolate"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Roast pyrazines/furans; bridges to roasted wattleseed.",
-    "source": "Roasted coffee volatile literature (furans, pyrazines, furfurylthiol)."
+    "source": "Roasted coffee volatile literature (furans, pyrazines, furfurylthiol).",
+    "taste": {
+      "bitter": 0.7
+    }
   },
   {
     "id": "grape",
     "display_name": "Grape",
     "type": "raw",
     "role": "fruit",
-    "compounds": ["methyl_anthranilate", "beta_damascenone"],
-    "descriptors": ["fruity", "sweet"],
+    "compounds": [
+      "methyl_anthranilate",
+      "beta_damascenone"
+    ],
+    "descriptors": [
+      "fruity",
+      "sweet"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Methyl anthranilate (foxy grape) + damascenone; base of brandy.",
@@ -424,8 +700,16 @@
     "display_name": "Apple",
     "type": "raw",
     "role": "fruit",
-    "compounds": ["hexanal", "beta_damascenone", "ethyl_2_methylbutyrate"],
-    "descriptors": ["fruity", "fresh", "crisp"],
+    "compounds": [
+      "hexanal",
+      "beta_damascenone",
+      "ethyl_2_methylbutyrate"
+    ],
+    "descriptors": [
+      "fruity",
+      "fresh",
+      "crisp"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Green hexanal + estery damascenone.",
@@ -436,8 +720,15 @@
     "display_name": "Pear",
     "type": "raw",
     "role": "fruit",
-    "compounds": ["ethyl_decadienoate", "hexyl_acetate", "beta_damascenone"],
-    "descriptors": ["fruity", "soft"],
+    "compounds": [
+      "ethyl_decadienoate",
+      "hexyl_acetate",
+      "beta_damascenone"
+    ],
+    "descriptors": [
+      "fruity",
+      "soft"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Decadienoate ester gives the unmistakable pear note.",
@@ -448,8 +739,16 @@
     "display_name": "Pineapple",
     "type": "raw",
     "role": "fruit",
-    "compounds": ["ethyl_butyrate", "furaneol", "allyl_hexanoate"],
-    "descriptors": ["fruity", "tropical", "sweet"],
+    "compounds": [
+      "ethyl_butyrate",
+      "furaneol",
+      "allyl_hexanoate"
+    ],
+    "descriptors": [
+      "fruity",
+      "tropical",
+      "sweet"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Allyl hexanoate + furaneol tropical sweetness.",
@@ -460,8 +759,16 @@
     "display_name": "Strawberry",
     "type": "raw",
     "role": "fruit",
-    "compounds": ["furaneol", "ethyl_butyrate", "methyl_cinnamate", "beta_damascenone"],
-    "descriptors": ["fruity", "sweet"],
+    "compounds": [
+      "furaneol",
+      "ethyl_butyrate",
+      "methyl_cinnamate",
+      "beta_damascenone"
+    ],
+    "descriptors": [
+      "fruity",
+      "sweet"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Furaneol is the impact compound; bridges to strawberry gum.",
@@ -472,8 +779,15 @@
     "display_name": "Raspberry",
     "type": "raw",
     "role": "fruit",
-    "compounds": ["raspberry_ketone", "beta_ionone", "beta_damascenone"],
-    "descriptors": ["fruity", "floral"],
+    "compounds": [
+      "raspberry_ketone",
+      "beta_ionone",
+      "beta_damascenone"
+    ],
+    "descriptors": [
+      "fruity",
+      "floral"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Raspberry ketone + ionone floral-fruity.",
@@ -484,8 +798,16 @@
     "display_name": "Peach",
     "type": "raw",
     "role": "fruit",
-    "compounds": ["gamma_decalactone", "benzaldehyde", "beta_ionone"],
-    "descriptors": ["fruity", "stone", "sweet"],
+    "compounds": [
+      "gamma_decalactone",
+      "benzaldehyde",
+      "beta_ionone"
+    ],
+    "descriptors": [
+      "fruity",
+      "stone",
+      "sweet"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Gamma-decalactone is the creamy-peach marker.",
@@ -496,8 +818,16 @@
     "display_name": "Cherry",
     "type": "raw",
     "role": "fruit",
-    "compounds": ["benzaldehyde", "beta_damascenone", "eugenol"],
-    "descriptors": ["fruity", "almond", "stone"],
+    "compounds": [
+      "benzaldehyde",
+      "beta_damascenone",
+      "eugenol"
+    ],
+    "descriptors": [
+      "fruity",
+      "almond",
+      "stone"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Benzaldehyde links cherry to almond and stone fruit.",
@@ -508,8 +838,16 @@
     "display_name": "Passionfruit",
     "type": "raw",
     "role": "fruit",
-    "compounds": ["ethyl_butyrate", "hexyl_butyrate", "beta_ionone"],
-    "descriptors": ["tropical", "fruity", "tart"],
+    "compounds": [
+      "ethyl_butyrate",
+      "hexyl_butyrate",
+      "beta_ionone"
+    ],
+    "descriptors": [
+      "tropical",
+      "fruity",
+      "tart"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Sulfur esters dominate fresh fruit; modelled here via fruity esters + ionone.",
@@ -520,8 +858,15 @@
     "display_name": "Mango",
     "type": "raw",
     "role": "fruit",
-    "compounds": ["myrcene", "ethyl_butyrate", "gamma_decalactone"],
-    "descriptors": ["tropical", "fruity"],
+    "compounds": [
+      "myrcene",
+      "ethyl_butyrate",
+      "gamma_decalactone"
+    ],
+    "descriptors": [
+      "tropical",
+      "fruity"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Myrcene-forward terpenic tropical fruit.",
@@ -533,35 +878,57 @@
     "type": "raw",
     "role": "sweet",
     "compounds": [],
-    "descriptors": ["sweet"],
+    "descriptors": [
+      "sweet"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Sucrose has no aroma volatiles; it contributes balance, not chemistry.",
-    "source": "N/A (sucrose is essentially odourless)."
+    "source": "N/A (sucrose is essentially odourless).",
+    "taste": {
+      "sweet": 1.0
+    }
   },
   {
     "id": "honey",
     "display_name": "Honey",
     "type": "raw",
     "role": "sweet",
-    "compounds": ["phenylacetaldehyde", "methyl_anthranilate", "furaneol"],
-    "descriptors": ["sweet", "floral"],
+    "compounds": [
+      "phenylacetaldehyde",
+      "methyl_anthranilate",
+      "furaneol"
+    ],
+    "descriptors": [
+      "sweet",
+      "floral"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Phenylacetaldehyde floral-honey note (varies by floral source).",
-    "source": "Honey volatile literature; TODO: verify (varies widely by source)."
+    "source": "Honey volatile literature; TODO: verify (varies widely by source).",
+    "taste": {
+      "sweet": 0.9
+    }
   },
   {
     "id": "agave",
     "display_name": "Agave syrup",
     "type": "raw",
     "role": "sweet",
-    "compounds": ["furaneol"],
-    "descriptors": ["sweet"],
+    "compounds": [
+      "furaneol"
+    ],
+    "descriptors": [
+      "sweet"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Mild cooked-sugar sweetness.",
-    "source": "Agave syrup; TODO: verify volatile content (largely sweet, low aroma)."
+    "source": "Agave syrup; TODO: verify volatile content (largely sweet, low aroma).",
+    "taste": {
+      "sweet": 0.9
+    }
   },
   {
     "id": "egg_white",
@@ -569,31 +936,55 @@
     "type": "raw",
     "role": "dairy",
     "compounds": [],
-    "descriptors": ["neutral"],
+    "descriptors": [
+      "neutral"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Texture/foam only; essentially no aroma contribution.",
-    "source": "N/A (functional, not aromatic)."
+    "source": "N/A (functional, not aromatic).",
+    "taste": {
+      "fat": 0.0
+    }
   },
   {
     "id": "cream",
     "display_name": "Cream",
     "type": "raw",
     "role": "dairy",
-    "compounds": ["diacetyl", "delta_decalactone"],
-    "descriptors": ["creamy", "dairy"],
+    "compounds": [
+      "diacetyl",
+      "delta_decalactone"
+    ],
+    "descriptors": [
+      "creamy",
+      "dairy"
+    ],
     "is_native": false,
     "season": null,
     "notes": "Diacetyl + lactones give the dairy-buttery note.",
-    "source": "Dairy cream volatile literature."
+    "source": "Dairy cream volatile literature.",
+    "taste": {
+      "fat": 0.8,
+      "sweet": 0.1
+    }
   },
   {
     "id": "finger_lime",
     "display_name": "Finger lime",
     "type": "raw",
     "role": "sour",
-    "compounds": ["limonene", "citral", "beta_pinene", "isomenthone"],
-    "descriptors": ["citrus", "lime", "sour"],
+    "compounds": [
+      "limonene",
+      "citral",
+      "beta_pinene",
+      "isomenthone"
+    ],
+    "descriptors": [
+      "citrus",
+      "lime",
+      "sour"
+    ],
     "is_native": true,
     "season": null,
     "notes": "Citrus australasica; limonene/citral citrus with a unique caviar texture. Bridges to lime and lemon.",
@@ -604,8 +995,15 @@
     "display_name": "Desert lime",
     "type": "raw",
     "role": "sour",
-    "compounds": ["limonene", "citral"],
-    "descriptors": ["citrus", "lime", "sour"],
+    "compounds": [
+      "limonene",
+      "citral"
+    ],
+    "descriptors": [
+      "citrus",
+      "lime",
+      "sour"
+    ],
     "is_native": true,
     "season": null,
     "notes": "Citrus glauca; intense limonene-citral citrus.",
@@ -616,8 +1014,16 @@
     "display_name": "Lemon myrtle",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["citral", "geraniol", "linalool"],
-    "descriptors": ["citrus", "lemon", "floral"],
+    "compounds": [
+      "citral",
+      "geraniol",
+      "linalool"
+    ],
+    "descriptors": [
+      "citrus",
+      "lemon",
+      "floral"
+    ],
     "is_native": true,
     "season": null,
     "notes": "Backhousia citriodora; citral-dominant (>90%), behaves like an intense lemon/lemongrass.",
@@ -628,8 +1034,16 @@
     "display_name": "Lemon aspen",
     "type": "raw",
     "role": "sour",
-    "compounds": ["citral", "limonene", "linalool"],
-    "descriptors": ["citrus", "lemon", "honey"],
+    "compounds": [
+      "citral",
+      "limonene",
+      "linalool"
+    ],
+    "descriptors": [
+      "citrus",
+      "lemon",
+      "honey"
+    ],
     "is_native": true,
     "season": null,
     "notes": "Acronychia acidula; tart citrus-honey fruit.",
@@ -640,8 +1054,15 @@
     "display_name": "Anise myrtle",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["anethole", "estragole"],
-    "descriptors": ["anise", "liquorice", "sweet"],
+    "compounds": [
+      "anethole",
+      "estragole"
+    ],
+    "descriptors": [
+      "anise",
+      "liquorice",
+      "sweet"
+    ],
     "is_native": true,
     "season": null,
     "notes": "Syzygium anisatum; anethole-rich, a native stand-in for aniseed/star anise.",
@@ -652,8 +1073,15 @@
     "display_name": "Cinnamon myrtle",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["cinnamaldehyde", "eugenol"],
-    "descriptors": ["warm", "cinnamon", "spice"],
+    "compounds": [
+      "cinnamaldehyde",
+      "eugenol"
+    ],
+    "descriptors": [
+      "warm",
+      "cinnamon",
+      "spice"
+    ],
     "is_native": true,
     "season": null,
     "notes": "Backhousia myrtifolia; cinnamaldehyde-bearing, a native cinnamon analogue.",
@@ -664,8 +1092,16 @@
     "display_name": "Riberry (lilly pilly)",
     "type": "raw",
     "role": "fruit",
-    "compounds": ["eugenol", "cinnamaldehyde", "methyl_cinnamate"],
-    "descriptors": ["clove", "cinnamon", "fruity"],
+    "compounds": [
+      "eugenol",
+      "cinnamaldehyde",
+      "methyl_cinnamate"
+    ],
+    "descriptors": [
+      "clove",
+      "cinnamon",
+      "fruity"
+    ],
     "is_native": true,
     "season": null,
     "notes": "Syzygium luehmannii; small tart berry with a clove-cinnamon aroma.",
@@ -676,8 +1112,16 @@
     "display_name": "Tasmanian pepperberry",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["alpha_pinene", "beta_caryophyllene", "polygodial"],
-    "descriptors": ["pepper", "pungent", "woody"],
+    "compounds": [
+      "alpha_pinene",
+      "beta_caryophyllene",
+      "polygodial"
+    ],
+    "descriptors": [
+      "pepper",
+      "pungent",
+      "woody"
+    ],
     "is_native": true,
     "season": null,
     "notes": "Tasmannia lanceolata; polygodial gives the slow-building heat. Bridges to black pepper.",
@@ -688,8 +1132,16 @@
     "display_name": "Wattleseed",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["pyrazine", "furfural", "2_acetylpyrrole"],
-    "descriptors": ["roasted", "coffee", "chocolate"],
+    "compounds": [
+      "pyrazine",
+      "furfural",
+      "2_acetylpyrrole"
+    ],
+    "descriptors": [
+      "roasted",
+      "coffee",
+      "chocolate"
+    ],
     "is_native": true,
     "season": null,
     "notes": "Roasted Acacia seed; coffee/chocolate/hazelnut from roasting. Deliberately shares nothing with raw citrus.",
@@ -700,8 +1152,15 @@
     "display_name": "Davidson plum",
     "type": "raw",
     "role": "sour",
-    "compounds": ["beta_damascenone", "ethyl_butyrate"],
-    "descriptors": ["plum", "tart", "fruity"],
+    "compounds": [
+      "beta_damascenone",
+      "ethyl_butyrate"
+    ],
+    "descriptors": [
+      "plum",
+      "tart",
+      "fruity"
+    ],
     "is_native": true,
     "season": null,
     "notes": "Davidsonia; intensely sour dark-plum fruit.",
@@ -712,8 +1171,16 @@
     "display_name": "Quandong",
     "type": "raw",
     "role": "fruit",
-    "compounds": ["gamma_decalactone", "benzaldehyde", "beta_ionone"],
-    "descriptors": ["peach", "apricot", "tart"],
+    "compounds": [
+      "gamma_decalactone",
+      "benzaldehyde",
+      "beta_ionone"
+    ],
+    "descriptors": [
+      "peach",
+      "apricot",
+      "tart"
+    ],
     "is_native": true,
     "season": null,
     "notes": "Santalum acuminatum; the 'native peach', tart stone-fruit notes.",
@@ -724,8 +1191,16 @@
     "display_name": "Muntries",
     "type": "raw",
     "role": "fruit",
-    "compounds": ["beta_damascenone", "hexanal", "eugenol"],
-    "descriptors": ["apple", "spice", "fruity"],
+    "compounds": [
+      "beta_damascenone",
+      "hexanal",
+      "eugenol"
+    ],
+    "descriptors": [
+      "apple",
+      "spice",
+      "fruity"
+    ],
     "is_native": true,
     "season": null,
     "notes": "Kunzea pomifera; 'native cranberry/apple', spiced-apple character.",
@@ -736,8 +1211,15 @@
     "display_name": "Bush tomato (kutjera)",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["sotolon", "furaneol"],
-    "descriptors": ["caramel", "tomato", "savoury"],
+    "compounds": [
+      "sotolon",
+      "furaneol"
+    ],
+    "descriptors": [
+      "caramel",
+      "tomato",
+      "savoury"
+    ],
     "is_native": true,
     "season": null,
     "notes": "Solanum centrale; dried, with caramel/tamarillo/sun-dried-tomato notes.",
@@ -748,8 +1230,16 @@
     "display_name": "Strawberry gum",
     "type": "raw",
     "role": "aromatic",
-    "compounds": ["furaneol", "ethyl_butyrate", "beta_damascenone"],
-    "descriptors": ["strawberry", "passionfruit", "fruity"],
+    "compounds": [
+      "furaneol",
+      "ethyl_butyrate",
+      "beta_damascenone"
+    ],
+    "descriptors": [
+      "strawberry",
+      "passionfruit",
+      "fruity"
+    ],
     "is_native": true,
     "season": null,
     "notes": "Eucalyptus olida; vivid strawberry/passionfruit aroma. Bridges to strawberry.",
@@ -760,11 +1250,671 @@
     "display_name": "Native river mint",
     "type": "raw",
     "role": "herb",
-    "compounds": ["menthol", "menthone", "carvone"],
-    "descriptors": ["mint", "cool", "herbal"],
+    "compounds": [
+      "menthol",
+      "menthone",
+      "carvone"
+    ],
+    "descriptors": [
+      "mint",
+      "cool",
+      "herbal"
+    ],
     "is_native": true,
     "season": null,
     "notes": "Mentha australis; a genuine native mint. Bridges to common mint.",
     "source": "Mentha australis oil; TODO: verify chemotype (menthol vs pulegone varies)."
+  },
+  {
+    "id": "brown_sugar",
+    "display_name": "Brown sugar",
+    "type": "raw",
+    "role": "sweet",
+    "compounds": [
+      "sotolon"
+    ],
+    "descriptors": [
+      "sweet",
+      "molasses"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Molasses note (sotolon) distinguishes it from plain syrup. TODO: verify",
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "sweet": 0.9
+    }
+  },
+  {
+    "id": "demerara",
+    "display_name": "Demerara sugar",
+    "type": "raw",
+    "role": "sweet",
+    "compounds": [
+      "sotolon"
+    ],
+    "descriptors": [
+      "sweet",
+      "caramel"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Raw-cane caramel/molasses character; distinct from white sugar. TODO: verify",
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "sweet": 0.9
+    }
+  },
+  {
+    "id": "soda_water",
+    "display_name": "Soda water",
+    "type": "raw",
+    "role": "mixer",
+    "compounds": [],
+    "descriptors": [
+      "carbonated",
+      "neutral"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "tonic_water",
+    "display_name": "Tonic water",
+    "type": "raw",
+    "role": "bitter",
+    "compounds": [],
+    "descriptors": [
+      "bitter",
+      "quinine",
+      "carbonated"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "cola",
+    "display_name": "Cola",
+    "type": "raw",
+    "role": "sweet",
+    "compounds": [],
+    "descriptors": [
+      "sweet",
+      "spiced",
+      "carbonated"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "ginger_ale",
+    "display_name": "Ginger ale",
+    "type": "raw",
+    "role": "sweet",
+    "compounds": [],
+    "descriptors": [
+      "sweet",
+      "ginger",
+      "carbonated"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "ginger"
+    ]
+  },
+  {
+    "id": "cranberry",
+    "display_name": "Cranberry",
+    "type": "raw",
+    "role": "fruit",
+    "compounds": [],
+    "descriptors": [
+      "tart",
+      "red",
+      "berry"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "milk",
+    "display_name": "Milk",
+    "type": "raw",
+    "role": "dairy",
+    "compounds": [
+      "diacetyl"
+    ],
+    "descriptors": [
+      "creamy",
+      "dairy"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "fat": 0.4,
+      "sweet": 0.1
+    }
+  },
+  {
+    "id": "salt",
+    "display_name": "Salt",
+    "type": "raw",
+    "role": "seasoning",
+    "compounds": [],
+    "descriptors": [
+      "salty"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Salty taste axis is a V2 feature; role is a placeholder. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "salty": 1.0
+    }
+  },
+  {
+    "id": "olive",
+    "display_name": "Olive",
+    "type": "raw",
+    "role": "seasoning",
+    "compounds": [],
+    "descriptors": [
+      "savoury",
+      "briny"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "salty": 0.7,
+      "umami": 0.4,
+      "fat": 0.3
+    }
+  },
+  {
+    "id": "red_wine",
+    "display_name": "Red wine",
+    "type": "raw",
+    "role": "aromatic",
+    "compounds": [
+      "beta_damascenone"
+    ],
+    "descriptors": [
+      "grape",
+      "tannic",
+      "fruity"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "port",
+    "display_name": "Port",
+    "type": "raw",
+    "role": "aromatic",
+    "compounds": [
+      "beta_damascenone"
+    ],
+    "descriptors": [
+      "grape",
+      "sweet",
+      "fortified"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "sparkling_wine",
+    "display_name": "Sparkling wine",
+    "type": "raw",
+    "role": "aromatic",
+    "compounds": [
+      "beta_damascenone"
+    ],
+    "descriptors": [
+      "grape",
+      "crisp",
+      "effervescent"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes."
+  },
+  {
+    "id": "orgeat",
+    "display_name": "Orgeat",
+    "type": "raw",
+    "role": "sweet",
+    "compounds": [
+      "benzaldehyde"
+    ],
+    "descriptors": [
+      "almond",
+      "sweet"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Almond syrup; benzaldehyde from almond. TODO: verify",
+    "source": "Provisional entry; see notes.",
+    "flavor_forward": [
+      "almond"
+    ],
+    "imply_min_oz": 0.0
+  },
+  {
+    "id": "coconut",
+    "display_name": "Coconut",
+    "type": "raw",
+    "role": "fruit",
+    "compounds": [
+      "delta_decalactone"
+    ],
+    "descriptors": [
+      "coconut",
+      "creamy",
+      "sweet"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Creamy lactone (delta-decalactone) profile; shares the lactone family with cream. TODO: verify",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "blackcurrant",
+    "display_name": "Blackcurrant",
+    "type": "raw",
+    "role": "fruit",
+    "compounds": [
+      "beta_damascenone",
+      "beta_ionone"
+    ],
+    "descriptors": [
+      "blackcurrant",
+      "tart",
+      "berry"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Cassis berry; ionone/damascenone berry-floral notes shared with raspberry. TODO: verify",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "pomegranate",
+    "display_name": "Pomegranate",
+    "type": "raw",
+    "role": "fruit",
+    "compounds": [
+      "hexanal",
+      "beta_damascenone"
+    ],
+    "descriptors": [
+      "pomegranate",
+      "tart",
+      "red"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Mild fruity-tart aroma; flavour is more tart/sweet than aromatic. TODO: verify",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "apricot",
+    "display_name": "Apricot",
+    "type": "raw",
+    "role": "fruit",
+    "compounds": [
+      "gamma_decalactone",
+      "beta_ionone",
+      "linalool",
+      "beta_damascenone"
+    ],
+    "descriptors": [
+      "apricot",
+      "stone-fruit",
+      "sweet"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Stone fruit; lactone + ionone profile, near-identical to peach (why peach was the old proxy). TODO: verify",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "tomato",
+    "display_name": "Tomato",
+    "type": "raw",
+    "role": "fruit",
+    "compounds": [
+      "hexanal"
+    ],
+    "descriptors": [
+      "savoury",
+      "umami",
+      "fresh"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Bloody Mary base; savoury/umami side is a V2 taste-axis job. TODO: verify",
+    "source": "Common aroma-chemistry references; provisional.",
+    "taste": {
+      "umami": 0.6,
+      "sour": 0.4,
+      "sweet": 0.3
+    }
+  },
+  {
+    "id": "egg_yolk",
+    "display_name": "Egg yolk",
+    "type": "raw",
+    "role": "dairy",
+    "compounds": [],
+    "descriptors": [
+      "rich",
+      "custard"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Texture/richness more than aroma; flips and nogs. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "fat": 0.7
+    }
+  },
+  {
+    "id": "pink_peppercorn",
+    "display_name": "Pink peppercorn",
+    "type": "raw",
+    "role": "aromatic",
+    "compounds": [
+      "limonene",
+      "myrcene",
+      "beta_caryophyllene",
+      "beta_phellandrene"
+    ],
+    "descriptors": [
+      "peppery",
+      "floral",
+      "resinous",
+      "bright"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Baie rose (Schinus) — terpene-rich, not true pepper; bridges citrus and gin botanicals. TODO: verify",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "maple_syrup",
+    "display_name": "Maple syrup",
+    "type": "raw",
+    "role": "sweet",
+    "compounds": [
+      "sotolon"
+    ],
+    "descriptors": [
+      "maple",
+      "caramel",
+      "sweet"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Sotolon is the signature maple/fenugreek note. TODO: verify",
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "sweet": 0.85
+    }
+  },
+  {
+    "id": "miso",
+    "display_name": "Miso",
+    "type": "raw",
+    "role": "seasoning",
+    "compounds": [
+      "sotolon",
+      "furaneol",
+      "pyrazine"
+    ],
+    "taste": {
+      "umami": 0.8,
+      "salty": 0.6,
+      "sweet": 0.2,
+      "funk": 0.5
+    },
+    "descriptors": [
+      "umami",
+      "salty",
+      "fermented",
+      "nutty"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Fermented soy paste; sotolon/furaneol from aging, pyrazines roasty. TODO: verify (Part B citation pass).",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "shio_koji",
+    "display_name": "Shio koji",
+    "type": "raw",
+    "role": "seasoning",
+    "compounds": [
+      "furaneol"
+    ],
+    "taste": {
+      "umami": 0.6,
+      "salty": 0.5,
+      "sweet": 0.3,
+      "funk": 0.2
+    },
+    "descriptors": [
+      "umami",
+      "gentle",
+      "sweet-ferment"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Koji-cultured rice + salt; gentler than miso, rounds and seasons. TODO: verify (Part B citation pass).",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "soy_sauce",
+    "display_name": "Soy sauce",
+    "type": "raw",
+    "role": "seasoning",
+    "compounds": [
+      "sotolon",
+      "methional",
+      "furaneol"
+    ],
+    "taste": {
+      "umami": 0.9,
+      "salty": 0.9,
+      "funk": 0.4
+    },
+    "descriptors": [
+      "umami",
+      "salty",
+      "roasted"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Methional + sotolon are the key fermented-soy odorants. TODO: verify (Part B citation pass).",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "worcestershire",
+    "display_name": "Worcestershire sauce",
+    "type": "raw",
+    "role": "seasoning",
+    "compounds": [
+      "sotolon",
+      "eugenol"
+    ],
+    "taste": {
+      "umami": 0.7,
+      "salty": 0.5,
+      "sour": 0.4,
+      "sweet": 0.3,
+      "funk": 0.4
+    },
+    "descriptors": [
+      "umami",
+      "tangy",
+      "spiced"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Anchovy-tamarind-clove ferment; eugenol gives the clove bridge. TODO: verify (Part B citation pass).",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "fish_sauce",
+    "display_name": "Fish sauce",
+    "type": "raw",
+    "role": "seasoning",
+    "compounds": [
+      "methional"
+    ],
+    "taste": {
+      "umami": 1.0,
+      "salty": 0.9,
+      "funk": 0.8
+    },
+    "descriptors": [
+      "umami",
+      "funky",
+      "saline"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Drops only; the deepest umami/funk lever on the shelf. TODO: verify (Part B citation pass).",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "celery",
+    "display_name": "Celery",
+    "type": "raw",
+    "role": "herb",
+    "compounds": [
+      "sedanolide"
+    ],
+    "taste": {
+      "bitter": 0.2,
+      "salty": 0.1
+    },
+    "descriptors": [
+      "green",
+      "savoury",
+      "fresh"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Sedanolide/phthalides are celery's signature aroma. TODO: verify (Part B citation pass).",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "butter",
+    "display_name": "Butter",
+    "type": "raw",
+    "role": "dairy",
+    "compounds": [
+      "diacetyl",
+      "delta_decalactone"
+    ],
+    "taste": {
+      "fat": 0.9,
+      "sweet": 0.1
+    },
+    "descriptors": [
+      "rich",
+      "creamy",
+      "lactic"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Diacetyl is the butter note; fat-washing carries it into spirits. TODO: verify (Part B citation pass).",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "mushroom",
+    "display_name": "Dried mushroom",
+    "type": "raw",
+    "role": "seasoning",
+    "compounds": [
+      "1_octen_3_ol"
+    ],
+    "taste": {
+      "umami": 0.7
+    },
+    "descriptors": [
+      "earthy",
+      "umami",
+      "woodsy"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "1-octen-3-ol is the mushroom alcohol; shiitake/porcini infusions. TODO: verify (Part B citation pass).",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "tamarind",
+    "display_name": "Tamarind",
+    "type": "raw",
+    "role": "sour",
+    "compounds": [
+      "furfural"
+    ],
+    "taste": {
+      "sour": 0.7,
+      "sweet": 0.3,
+      "umami": 0.2
+    },
+    "descriptors": [
+      "tangy",
+      "dark-fruit",
+      "tropical"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Sour-sweet pulp; ties to falernum and Worcestershire territory. TODO: verify (Part B citation pass).",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "hot_sauce",
+    "display_name": "Hot sauce",
+    "type": "raw",
+    "role": "seasoning",
+    "compounds": [
+      "capsaicin"
+    ],
+    "taste": {
+      "sour": 0.4,
+      "salty": 0.3
+    },
+    "descriptors": [
+      "hot",
+      "piquant",
+      "vinegar"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Capsaicin heat is trigeminal, not a taste axis yet; vinegar base gives sour. TODO: verify (Part B citation pass).",
+    "source": "Common aroma-chemistry references; provisional."
   }
 ]

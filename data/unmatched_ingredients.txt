@@ -1,237 +1,2569 @@
-51	sugar
-36	ice
-31	grenadine
-31	light rum
-28	water
-26	powdered sugar
-23	lemon peel
-23	milk
-19	kahlua
-19	rum
-19	soda water
-16	bailey irish cream
-15	151 proof rum
-14	bitter
-14	maraschino cherry
-13	cranberry
-13	scotch
-12	carbonated water
-12	coca cola
-12	ginger ale
-12	light cream
-10	salt
-10	vanilla extract
-9	orange peel
-9	red wine
-8	sambuca
-8	sweet and sour
-8	tonic water
+351	chilled water
+168	bitter bittermen xocolatl mole
+85	water
+83	bacardi carta oro rum
+78	special ingredient 1
+77	capucana cachaca
+77	licor 43
+76	giffard orgeat syrup
+74	pedro ximenez sherry
+73	orange flower water
+72	ramazzotti
+68	amontillado sherry
+68	bitter fee brother whiskey barrel aged
+68	bonal gentiane quina
+68	rittenhouse bottled in bond
+65	bailey irish cream liqueur
+64	ketel one citroen vodka
+63	amaro nonino
+62	virgin island rum cruzan blackstrap
+60	grapefruit bitter
+60	pierre ferrand curacao
+59	rose s lime cordial
+58	curacao
+58	melon liqueur
+57	lejay creme de cassis
+56	galliano l autentico liqueur
+56	pimm s no 1 cup
+55	lagavulin 16yo islay single malt whisky
+53	hine
+53	lejay curacao bleu
+51	giffard banane du bresil
+51	gran classico
+51	suze
+50	genever bol
+49	anejo rum
+49	aquariva agave syrup
+49	curacao pierre ferrand dry curacao
+49	rutte old simon genever
+48	cassis
+48	original peachtree liqueur
+48	rose water
+48	vanilla syrup
+48	warre s otima 10yo tawny port
+47	barsol mosto verde italia pisco
+47	patron silver tequila
+47	southern comfort
+47	zubrowka bison vodka
+46	apple cider
+46	frangelico liqueur
+46	ice
+45	cane syrup
+45	oloroso sherry
+45	sauvignon blanc white wine
+44	genever
+44	strega
+43	becherovka
+43	suze saveur dautrefois
+43	three cent ginger beer
+42	batavia arrack van oosten
+42	berentzen apple schnapp
+42	coconut rum liqueur
+42	del maguey vida mezcal
+42	king s ginger liqueur
+42	martini prosecco d o c
+42	pear eau de vie
+42	pineapple syrup
+42	vanilla infused ketel one vodka
+41	aperol aperitivo
+41	bianco
+41	creme de violette
+41	monin vanilla syrup
+40	gabriel boudier dark creme de cacao
+40	kirschwasser
+40	lemonade sprite 7 up
+40	pallini limoncello
+40	sipsmith sloe gin
+39	ciociaro
+39	dubonnet red
+39	giffard menthe pastille
+38	blood orange
+38	caster sugar
+37	demerara rum lemon hart 151
+37	jack daniel s old no 7 brand
+37	jagermeister
+36	coconut water
+36	grade b maple syrup
+36	manzanilla sherry
+35	cardamaro
+35	junmai ginjo sake
+35	sorel liqueur
+35	white overproof rum
+34	anejo tequila
+34	bitter bittermen elemakule tiki
+34	navy rum
+33	amaro meletti
+33	peach bitter
+32	bitter fee brother old fashion
+32	bob s chocolate bitter
+32	luxardo bitter
+31	aquavit
+31	bianco vermouth
+31	bitter bitter truth jerry thoma own decanter
+31	bitter boker s
+31	carpano antica formula
+31	creme yvette
+31	rich demerara syrup 2 1
+31	saschira
+31	sherry lustau east india solera
+31	sparkling white wine
+30	bitter fee brother black walnut
+30	ginger honey syrup
+30	islay scotch laphroaig 10
+29	bitter bittermen burlesque
+29	dubonnet rouge
+29	old tom gin
+29	old tom gin hayman s
+29	orange liqueur clement creole shrubb
+29	warnink advocaat liqueur
+28	cider
+28	islay scotch
+28	lejay creme de framboise
+28	madeira
+28	rhubarb bitter
+28	seltzer water
+27	creme de cacao tempus fugit
+27	old tom gin ransom
+27	pernod anise
+27	rich simple syrup 2 1
+27	walnut liqueur nux alpina
+26	abano
+26	byrrh grand quinquina
+26	chocolate bitter
+26	hot pepper sauce
+26	islay scotch laphroaig
+26	mandarine napoleon liqueur
+25	crushed ice
+25	kummel
+25	kwai feh lychee liqueur
+25	skino mastiha
+25	tanqueray old tom gin
+24	amer picon
+24	ancho reye ancho chile liqueur
+24	bacardi carta negra
+24	bigallet china china
+24	lejay creme de mure
+24	lemonade
+24	nocino
+24	tea
+24	triplum
+24	whisky
+23	aquavit linie
+23	boiling water
+23	creme de violette liqueur
+23	raspberry flavoured vodka
+23	soda from siphon
+23	swedish punsch
+23	teichenne butterscotch schnapp
+23	zucca
+22	amaro nardini
+22	bittermen hopped grapefruit bitter
+22	byrrh
+22	cinnamon schnapp
+22	dry apricot brandy blume marillen
+22	pastis herbsaint
+22	rhum agricole
+22	yo
+22	zirbenz stone pine liqueur
+21	bison grass vodka
+21	cucumber
+21	lejay creme de fraise
+21	lemon bitter
+21	martini bianco vermouth
+21	old krupnik
+21	pineapple rum plantation stiggin s fancy
+21	punt e mes
+21	swedish punsch liqueur
+20	belle de brillet pear liqueur
+20	bitter dr adam elmegirab s orinoco bitter
+20	branca menta
+20	creme de banane giffard
+20	demerara rum
+20	patron anejo tequila
+19	aromatized wine lillet rose
+19	blended whiskey
+19	cream coconut
+19	creme de peche liqueur
+19	de kuyper creme de menthe
+19	herbal liqueur pernod
+19	lillet rouge
+19	navy strength rum smith and cross
+19	orange liqueur
+19	reserve
+19	shiraz red wine
+19	sour apple liqueur
+19	vanilla ice cream
+19	vanilla liqueur
+18	amaro abano luxardo
+18	demerara sugar syrup
+18	english cucumber peeled
+18	english orange marmalade
+18	g miclo kirsch vieux eau de vie
+18	hellfire habanero shrub bittermen
+18	mint syrup
+18	pineau des charente
+18	saler gentiane
+18	salt solution
+18	smith and cross pot still jamaican rum
+18	tuaca liqueur
+18	watermelon
+18	whiskey
+17	amaro
+17	aromatized wine cocchi vermouth di torino
+17	batavia arrack
+17	black sambuca liqueur
+17	giffard parfait amour
+17	honey water
+17	ketel one oranje
+17	lime flavoured vodka
+17	maurin quina
+17	meyer lemon
+17	passoa liqueur
+17	pink grapefruit
+17	pressed pear
+16	aperitivo
+16	cinnamon sugar syrup
+16	coconut syrup
+16	ginger sugar syrup
+16	palo cortado sherry
+16	peach liqueur
+16	pear eau de vie clear creek
+16	rosso
+16	tea syrup
+15	amontillado sherry lustau dry amontillado
+15	armagnac
+15	budweiser budvar
+15	chinato
+15	india pale ale
+15	poire william eau de vie
+15	puerto rican rum
+15	rosemary syrup
+14	aquavit krogstad
+14	barenjager
+14	bitter bitter truth aromatic
+14	bitter bitter truth celery
+14	bitter bitter truth creole
+14	blended rum bank 5 island
+14	cardamom bitter
+14	cocchi americano bianco
+14	mango puree
+14	peach bitter fee brother peach
+14	picon amer
+14	special ingredient 2
+14	swedish punsch kronan
+13	aromatized wine cocchi americano rosa
+13	bob s lavender bitter
+13	braulio
+13	cappelletti aperitivo
+13	coconut cream
+13	eau de vie dougla fir
+13	elderflower cordial
+13	elderflower syrup
+13	fee brother celery bitter
+13	gold rum
+13	lavender bitter
+13	monin lavender sugar syrup
+13	orange liqueur cointreau
+13	passion fruit puree
+13	pear liqueur
+13	sparkling rose wine
+13	stone s original
+13	yoghurt liqueur
+12	anisette liqueur
+12	bacardi oakheart spiced rum
+12	balsamic vinegar
+12	bitter brooklyn hemispherical bitter black mission fig
+12	bitter fee brother orange
+12	bitter lemon soda
+12	cayenne pepper
+12	chambord
+12	condensed milk
+12	creme de violette rothman and winter
+12	dry apricot brandy
+12	fee brother whiskey barrel aged
+12	framboise
+12	ginger beer fever tree
+12	lager
+12	orange cream citrate bittermen
+12	pineapple gum syrup
+12	pomegranate liqueur pama
+12	rose petal liqueur
+12	s bitter
+12	sake
+12	selection
+12	sparkling water
+12	zwack unicum
+11	amaro sibilla
+11	amor
+11	becherovka original liqueur
+11	beer
+11	bitter bittermen boston bittah
+11	bitter scrappy s cardamon
+11	cocoa powder
+11	demerara rum el dorado 12
+11	freshly brewed cold black english breakfast tea
+11	ginger beer barritt s
+11	guatemalan rum zacapa 23
+11	hazelnut liqueur frangelico
+11	medium dry apple cider
+11	mole bitter
+11	nicaraguan rum flor de cana extra dry
+11	rhubarb syrup
+11	ricard pastis
+11	speyside single malt scotch whisky
+11	yuzu
+10	bermuda rum gosling s black seal
+10	bitter fee brother
+10	canadian whisky
+10	celery bitter bitter truth celery
+10	claret red wine
+10	grapefruit bitter fee brother
+10	ground cinnamon
+10	gum syrup
+10	luxardo sambuca dei cesari
+10	martinique rum la favorite blanc
+10	oloroso sherry lustau
+10	or
+10	palo cortado sherry lustau
+10	pastis pernod
+10	pedro ximenez sherry lustau
+10	solbeso
+10	sour mix
+10	tonic water fever tree
+9	amaro lucano
+9	apricot jam
+9	aveze
+9	bitter abbott s
+9	bitter bittercube cherry bark vanilla
+9	bitter dandelion and burdock
+9	bitter fee brother rhubarb
+9	cardamom bitter scrappy s
+9	chardonnay white wine
+9	coconut cream coco lopez
+9	cognac vsop
+9	cranberry syrup
+9	creme de banane
+9	demerara rum el dorado 5
+9	donn s spice 2
+9	eau de vie dougla fir clear creek
+9	genepy dolin genepy des alpe
+9	grapefruit bitter bittermen hopped grapefruit
+9	grapefruit soda
+9	green tea
+9	guinness stout
+9	japanese whisky yamazaki 12
+9	kirschwasser clear creek
+9	lemon syrup
+9	orange marmalade
+9	overproof rum wray and nephew overproof rum
+9	quina
+9	rhubarb bitter fee brother rhubarb
+9	sherry lustau dry amontillado
+9	trinidad rum scarlet ibis
+8	amargo vallet
+8	apple bitter
+8	averna amaro
+8	bitter regan orange bitter
+8	blackberry liqueur
+8	bob s bitter peppermint bitter
+8	canadian icewine
+8	cherry syrup
+8	clement canne bleue 2016
+8	cold earl grey tea
+8	cold jasmine tea
+8	creme de noyaux
+8	demerara rum el dorado 15
+8	demerara rum el dorado white
+8	especial
+8	fuller chiswick bitter
+8	haitian rum barbancourt 8
+8	hot sauce tabasco
+8	islay scotch laphroaig quarter cask
+8	martinique rum rhum jm blanc
+8	mentzendorff kummel liqueur
+8	orgeat b g reynold
+8	pastis
+8	pear puree
+8	plum eau de vie clear creek
+8	root liqueur
+8	rose
+8	rose champagne
+8	santa maria al monte
+8	superieure
+8	tangerine
+8	toschi nocello liqueur
+8	tuaca
+8	venezuelan rum santa teresa 1796
+8	verjus
 8	yoghurt
-7	blended whiskey
-7	champagne
-7	club soda
-7	egg
-7	peach schnapp
-6	beer
-6	blue curacao
-6	chambord raspberry liqueur
-6	creme de cacao
-6	galliano
-6	grand marnier
-6	lemonade
+7	ale
+7	amaro cappelletti sfumato rabarbaro
+7	aromatic bitter
+7	aromatized wine imbue petal and thorn
+7	balsamic vinegar modena
+7	barbado rum plantation 5 year
+7	bepi tosolini grappa di moscato
+7	bianco vermouth martini and rossi
+7	bitter bittermen hopped grapefruit
+7	bitter fee brother aztec chocolate
+7	bitter scrappy s chocolate
+7	bitter scrappy s lavender
+7	blackstrap bitter bittercube
+7	brown sugar coffee syrup
+7	carrot
+7	cava
+7	celery bitter bittermen orchard street celery shrub
+7	cherry bitter
+7	cranberry shrub
+7	creme de banana
+7	dr adam elmegirab s boker s bitter
+7	fine sugar
+7	gold rum appleton special
+7	guatemalan rum zacapa
+7	guava
+7	honey liqueur
+7	hum
+7	indian rum old monk
+7	island scotch talisker
+7	islay scotch ardbeg
+7	kosher salt
+7	lemon cordial
+7	lime bitter
+7	lime cordial
+7	martinique rum
+7	martinique rum clement vsop
+7	melon liqueur midori
+7	mozart chocolate vodka
+7	passion fruit syrup b g reynold
+7	pear flavoured vodka
+7	pear liqueur rothman and winter orchard pear
+7	rose syrup
+7	singani singani 63
+7	three cent pink grapefruit soda
+7	vanilla bitter
+7	verdelho madeira 10 year old
+7	virgin island rum pusser s
+7	zwack liqueur
+6	acid phosphate
+6	amaretto disaronno
+6	amaretto lazzaroni
+6	amaro dell erborista
+6	barbado rum
+6	beet
+6	bianco vermouth carpano
+6	bitter bitter truth chocolate
+6	bitter bitter truth orange
+6	bitter dutch s colonial
+6	bitter scrappy s lime
+6	bitter urban moonshine maple bitter
+6	blanc
+6	canadian blended whisky
+6	cane syrup petite canne
+6	cherry bark vanilla bitter bittercube
+6	cherry shrub
+6	chocolate
+6	cinnamon bitter
+6	coconut liqueur kalani
+6	cold camomile tea
+6	cranberry flavoured vodka
+6	cream sherry alvear festival pale cream
+6	creme de mure
+6	freshly extracted celery
+6	freshly squeezed ruby grapefruit
+6	genever bol barrel aged
+6	giffard premium pineapple liqueur
+6	ginger beer fentiman
+6	ginger beer gosling s
+6	grapefruit liqueur combier creme de pamplemousse
+6	hard cider
+6	islay scotch lagavulin 16
+6	italicus rosolio di bergamotto
+6	jamaica rum
+6	jamaican 1 bitter bittercube
+6	lavender syrup
+6	lemon lime soda
+6	lemon sorbet
+6	lemongrass stem
+6	lychee syrup
+6	nicaraguan rum flor de cana 7
+6	old thompson blended whiskey
+6	orange cordial
+6	orange flavored gin
+6	orange flavored vodka
+6	orange flower syrup
+6	orange liqueur solerno blood orange liqueur
+6	orgeat or almond syrup
+6	orgeat small hand food
+6	overproof rum
+6	pepper infused ketel one vodka
+6	pepper tincture
+6	pisang ambon
+6	pomegranate molass
+6	pumpkin puree
+6	ramazzotti amaro
+6	rhubarb bitter brooklyn hemispherical bitter rhubarb
+6	rhubarb liqueur art in age
+6	rhum agricole neisson blanc
+6	root liqueur art in age
+6	rose wine
+6	sorbet
+6	strawberry syrup
+6	sweet and sour
+6	tiki bitter
+6	tonic
+6	vinegar
+6	walnut liqueur
+6	white port
+6	white whiskey bully boy
+6	white wine
+6	xocolatl mole bitter
+6	zwack unicum plum
+5	42 below manuka honey vodka
 5	7 up
-5	apricot brandy
-5	benedictine
-5	creme de cassis
-5	irish whiskey
-5	lemon lime soda
-5	malibu rum
-5	olive
-5	port
-5	prosecco
-5	whipped cream
-4	cherry brandy
-4	chocolate
-4	crown royal
-4	elderflower cordial
-4	goldschlager
-4	j germeister
-4	jack daniel
+5	amaro ch distillery
+5	amaro sibilla varnelli
+5	americano
+5	anejo rum bacardi 8
+5	anejo rum zacapa 23
+5	antica ricetta barolo chinato
+5	apple liqueur
+5	aquavit north shore
+5	aromatized wine dubonnet
+5	aromatized wine tempus fugit kina l avion d or
+5	bitter bittercube bolivar
+5	bitter fee brother lemon
+5	black balsam
+5	blackberry
+5	blackberry syrup
+5	caramel liqueur
+5	celery bitter fee brother
+5	chocolate bitter bittermen xocolatl mole
+5	chocolate bitter dr adam elmegirab aphrodite bitter
+5	chocolate bitter fee brother aztec chocolate
+5	cinnamon stick
+5	cinzano 1757 vermouth rosso
+5	citric acid
+5	classica
+5	cranberry bitter
+5	cranberry liqueur
+5	crema de mezcal del maguey
+5	cuban rum havana club 3
+5	demerara rum el dorado 8
+5	demerara rum hamilton demerara 151
+5	dimmi
+5	dry sake
+5	dry white wine
+5	dry white wine sauvignon blanc
+5	filter coffee
+5	foam
+5	freshly extracted carrot
+5	freshly grated nutmeg
+5	grapefruit bitter bitter truth grapefruit
+5	grapefruit bitter fee brother grapefruit
+5	grapefruit liqueur combier pamplemousse rose
+5	hibiscus syrup
+5	highland scotch
+5	horseradish sauce
+5	hot shot tropical fruit liqueur
+5	hot water
+5	jalapeno syrup
+5	kiwi
+5	lactart
+5	lejay creme de myrtille
+5	lemon or lime
+5	lemon tree bitter bittercube
+5	lysholm linie aquavit
+5	madeira broadbent rainwater medium dry
+5	mandarin orange liqueur mandarine napoleon
+5	manzanilla sherry la gitana
+5	marmalade
+5	martini bitter
+5	mes
+5	normandie
+5	orange liqueur citronge
+5	pale ale
+5	parfait amour
+5	pastis ricard
+5	peach liqueur rothman and winter
+5	pear eau de vie st george
+5	pear liqueur st george
+5	pistachio syrup
+5	plum eau de vie
+5	pommeau de normandie
+5	rhubarb bitter fee brother
+5	rock and rye
+5	root beer
+5	ruby port sandeman
+5	saline solution
+5	sherry lustau pedro ximenez
+5	sour
+5	st lucian rum chairman s reserve
+5	stout
+5	strawberry puree
+5	strega alberti
+5	syrup ros
+5	tbsp sugar
+5	vermouth di torino
+5	violette
+5	walnut bitter
+5	white grapefruit
+5	white whiskey
+5	yamazaki 12yo japanese whisky
+5	ypioca
+4	absinthe or pastis
+4	aged bitter
+4	akashi tai shiraume ginjo umeshu
+4	amaro amaro di angostura
+4	ancho reye
+4	aphrodite bitter dr adam elmegirab
+4	apple butter
+4	apple puree
+4	apple shrub
+4	aromatized wine lillet
+4	arrack white lion vsoa
+4	aztec chocolate bitter fee brother
+4	banane
+4	berry
+4	birch water
+4	bitter fee brother cranberry
+4	bitter stirring blood orange
+4	blackberry flavored brandy
+4	blackstrap molass
+4	blend
+4	blue
+4	blue curacao senior curacao
+4	bob s abbott bitter
+4	brown sugar simple syrup
+4	calisaya
+4	canadian whisky crown royal
+4	chocolate bitter bitter truth chocolate
+4	chocolate liqueur
+4	chocolate spirit mozart
+4	chocolate syrup
+4	classico bitter
+4	clove syrup
+4	corn whiskey
+4	cranberry bitter sweetgrass farm cranberry
+4	cranberry liqueur clear creek
+4	creme de fraise
+4	creme de menthe tempus fugit
+4	cuban rum
+4	cucumber syrup
+4	curacao senior curacao
+4	damson gin liqueur averell
+4	everclear
+4	floc de gascogne laubade
+4	fruit
+4	genepy
+4	genever anchor
+4	grapefruit bitter scrappy s grapefruit
+4	grapefruit liqueur giffard
+4	grappa
+4	groseille syrup
+4	heavy whipping cream
+4	herbal liqueur jeppson s malort
+4	hot chocolate
+4	ice cream
+4	india pale ale beer
+4	ipa
+4	islay scotch ardbeg 10
+4	islay scotch bowmore legend
+4	jam
+4	kamm and son
+4	key lime
+4	lambrusco
+4	lime superfine sugar
+4	limeade
+4	luxardo bitter bianco
+4	martinique rum rhum jm
+4	mead
 4	midori melon liqueur
-4	sherry
-4	sour mix
+4	mineral water
+4	mozart black
+4	muscat wine
+4	natural yoghurt
+4	navy strength gin
+4	overproof rum lemon hart 151
+4	overproof rum plantation
+4	peach liqueur massenez
+4	peach liqueur mathilde
+4	peach shrub
+4	pear liqueur merlet
+4	pedro ximenez sherry gonzalez byass nectar
+4	pineapple sugar syrup
+4	plain shrub
+4	poire william pear liqueur
+4	poppy liqueur greenbar grand poppy
+4	porter beer
+4	powder
+4	rabarbaro
+4	reduction
+4	rhum agricole clement vsop
+4	rhum agricole rhum jm blanc
+4	rosato vermouth martini and rossi
+4	rouge
+4	sea salt
+4	sherry lustau
+4	single malt scotch whisky
+4	solerno liqueur
+4	sotol hacienda del sotol plata
+4	spirit
 4	sprite
-4	tea
-4	wild turkey
-3	absinthe
-3	absolut citron
-3	anis
-3	bacardi limon
-3	blackberry brandy
-3	cachaca
-3	chocolate syrup
-3	cocoa powder
-3	coconut liqueur
-3	cognac
-3	condensed milk
-3	egg yolk
-3	espresso
-3	everclear
+4	stout guinness stout
+4	strawberry shrub
+4	swedish punch
+4	sweet cream
+4	tangerine mandarin clementine
+4	taylor s chip dry white port
+4	vanilla liqueur navan
+4	vanilla syrup b g reynold
+4	vermouth martini rosato vermouth
+4	vie
+4	vsop
+4	walnut liqueur nocello
+4	wormwood bitter cocktail kingdom
+4	xtabentun
+3	6
+3	absolut kurant
+3	agave sec liqueur
+3	allspice tincture dashfire
+3	almond milk
+3	amaro cora
+3	amer picon amer boudreau
+3	anejo rum angostura
+3	anejo tequila don julio anejo
+3	antica
+3	aquavit aalborg
+3	aromatized wine cocchi barolo chinato
+3	aromatized wine imbue bittersweet vermouth
+3	banana
+3	barbado rum mount gay eclipse black
+3	beet syrup
+3	beetroot
+3	bitter amargo chuncho
+3	bitter aztec chocolate
+3	bitter bitter end memphis barbecue
+3	bitter bitter end moroccan bitter
+3	bitter bitter truth grapefruit
+3	bitter bittermen
+3	bitter brooklyn hemispherical bitter rhubarb
+3	bitter brooklyn hemispherical bitter sriracha
+3	bitter dale degroff s pimento bitter
+3	bitter dr adam elmegirab teapot bitter
+3	bitter dr heather duncan s christma bitter
+3	bitter fee brother peach
+3	bitter lemon soda fever tree
+3	bitter scrappy s
+3	bitter scrappy s aromatic
+3	bitter spanish bitter
+3	black cardamom
+3	black pepper tincture
+3	black walnut bitter
+3	blackberry liqueur leopold brother
+3	blackberry shrub
+3	blended rum denizen merchant s reserve
+3	blood orange bitter
+3	blood orange liqueur
+3	blood orange syrup
+3	blueberry
+3	blueberry shrub
+3	bob s cardamom bitter
+3	bourgogne aligote wine white
+3	bresil
+3	bulldog gin
+3	burlesque bitter
+3	celery bitter scrappy s celery
+3	chinato cocchi barolo chinato
+3	chinato vergano americano
+3	chinotto san pellegrino
+3	chocolate bitter miracle mile
+3	chocolate liqueur godiva liqueur
+3	cider vinegar
+3	cinnamon schnapp liqueur goldschlager
+3	cinnamon tincture
+3	citrus bitter
+3	citrus vodka
+3	clement sirop de canne
+3	clove tincture
+3	coffee pecan bitter
+3	coffee syrup
+3	cold green tea
+3	cold lapsang souchong tea
+3	cranberry bitter fee brother cranberry
+3	creme de figue
+3	creole bitter
+3	cucumber liqueur thatcher s
+3	cucumber soda dry soda
+3	cynar 70
+3	dale degroff s pimento aromatic bitter
+3	damiana liqueur
+3	demerara rum el dorado
+3	demerara rum lemon hart
+3	difford s daiquiri bitter
+3	dominican rum atlantico reserva
+3	don s mix
+3	don s mix b g reynold
+3	door county hop bitter bittercube
+3	elisir m p roux
+3	elixir vegetal de la grande chartreuse
+3	fennel bitter
+3	fernet jelinek
+3	fernet letherbee
+3	fernet vallet
+3	flower water
+3	forbidden fruit
 3	frangelico
-3	fruit
-3	half and half
-3	heavy cream
-3	kiwi
+3	freshly squeezed lemon or lime
+3	fruit puree
+3	ginger beer maine root
+3	ginger shrub
+3	ginger wine stone s
+3	gold rum ragged mountain
+3	goldschlager
+3	grade dark amber maple syrup
+3	grapefruit bitter bittermen hopped grapefruit bitter
+3	grapefruit cordial
+3	grapefruit liqueur
+3	grapefruit syrup
+3	grapefruit vodka
+3	grenadine stirring
+3	gum
+3	gunpowder rum smoke n oakum s
+3	haitian rum barbancourt
+3	herbal liqueur
+3	herbal liqueur farigoule
+3	honeydew melon
+3	horchata
+3	hot english breakfast tea
+3	hot red pepper sauce
+3	hpnotiq liqueur
+3	iced tea
+3	irish cream bailey
+3	italian liqueur
+3	japanese whisky nikka coffey grain
+3	jasmine liqueur koval
+3	juiced
 3	kool aid
-3	lager
-3	orange spiral
-3	orgeat syrup
-3	pepper
-3	root beer
-3	sloe gin
-3	southern comfort
-3	spiced rum
-3	tomato
-3	vanilla ice cream
-3	vermouth
-3	whiskey
-3	white creme de menthe
-3	wine
-2	apple brandy
-2	applejack
-2	banana
-2	banana liqueur
-2	blackberry
-2	brown sugar
-2	cherry heering
-2	chocolate liqueur
+3	kummel combier
+3	lavender bitter scrappy s lavender
+3	lemon bitter bitter truth
+3	lemon bitter bitter truth lemon
+3	lemon curd
+3	lemon soda san pellegrino
+3	lemon superfine sugar
+3	lemon zest
+3	lemongrass syrup
+3	lightly whipped single cream half and half
+3	lime cordial rose s
+3	luxardo fernet
+3	lychee liqueur
+3	mace tincture
+3	madeira blandy s malmsey 5 year
+3	martinique rum la favorite vieux
+3	mascarpone cheese
+3	mint bitter fee brother
+3	molass
+3	molass syrup
+3	monin spicy syrup
+3	mozart black liqueur
+3	muscovado sugar syrup
+3	nardini amaro
+3	nicaraguan rum flor de cana dry 4
+3	oat whiskey high west silver whiskey
+3	old tom gin tanqueray old tom
+3	orange flower water fee brother
+3	orange liqueur mathilde orange xo
+3	orange liqueur royal combier
+3	orgeat monin
+3	ouzo
+3	ouzo 12
+3	overproof bourbon
+3	pandan mccormick buko pandan exrtract
+3	passion fruit syrup monin
+3	peach bitter fee brother
+3	peach liqueur combier
+3	peach liqueur edmond briottet
+3	peach liqueur mathilde peche
+3	pear liqueur belle de brillet
+3	pear liqueur clear creek
+3	pear syrup
+3	pilsner
+3	pimento bitter
+3	pineau des charente blanc
+3	pink grapefruit liqueur
+3	pomegranate juice pom wonderful
+3	pomelo
+3	puerto rican rum bacardi
+3	r jelinek fernet
+3	raspberry flavored liqueur
+3	raspberry liqueur st george
+3	red chilli
+3	rhubarb shrub
+3	rhum agricole barbancourt 8
+3	rinquinquin liqueur
+3	rioja red wine
+3	root
+3	root ginger
+3	rosa
+3	rye or bourbon whiskey
+3	salt tincture
+3	sauterne dessert wine
+3	sherry lustau manzanilla
+3	shochu
+3	simple
+3	sipsmith damson vodka
+3	slivovitz
+3	solera
+3	spanish brandy
+3	sparkling mineral water
+3	stick
+3	stout left hand milk stout
+3	tea lapsang souchong
+3	tonic water q
+3	torani amer
+3	torino
+3	trinidad rum
+3	trinidad rum zaya
+3	walnut oil
+3	wheel
+3	white balsamic vinegar
+3	white peach shrub
+3	wormwood bitter
+3	yellow bell pepper
+3	yuzu bitter
+3	yuzu syrup
+3	zen green tea liqueur
+2	100 proof vodka
+2	2016
+2	absinthe bitter
+2	absinthe rouge amerique 1912
+2	acid phosphate art drink
+2	acqua di cedro nardini
+2	agavero liqueur
+2	aged rhum agricole
+2	agricole
+2	allspice liqueur
+2	almond extract
+2	almond syrup
+2	amargo chuncho bitter
+2	amargo de chile ch distillery
+2	amaro abano
+2	amarula cream
+2	amere sauvage
+2	amere sauvage bittermen
+2	amontillado sherry gonzalez byass vina ab
+2	amontillado sherry wisdom and warter
+2	anejo rum barbancourt 8
+2	anejo rum cruzan single barrel
+2	anejo rum don q anejo
+2	anejo rum el dorado 12
+2	anejo rum flor de cana 7
+2	anejo rum ron abuelo
+2	anejo tequila el tesoro anejo
+2	angioletto
+2	angostura
+2	aperitif
+2	aperitivo leopold brother
+2	apple cider crispin cidre blanc
+2	apple cider vinegar
+2	apricot nectar
+2	apricot preserve
+2	aquavit gamle ode celebration
+2	armagnac blanche delord
+2	armagnac brandy
+2	armagnac tariquet bas armagnac vs
+2	aromatized wine cocchi
+2	aromatized wine cocci americano rose
+2	auchentoshan three wood
+2	bacon syrup torani
+2	baked apple bitter barkeep
+2	ban poitin
+2	banana bitter
+2	barbado rum mount gay black barrel
+2	barenjager honey liqueur
+2	barley malt syrup
+2	basil eau de vie st george aqua perfecta
+2	beach plum gin greenhook ginsmith
+2	beavertown smog rocket smoked porter
+2	beer miller high life
+2	bianco vermouth cinzano
+2	bianco vermouth cinzano orancio
+2	bianco vermouth perucchi
+2	bigallet thym
+2	bitter 5 by 5 aromatic
+2	bitter bitter end
+2	bitter bitter old men
+2	bitter bitter truth
+2	bitter bitter truth lemon
+2	bitter bitter truth repeal day
+2	bitter bittercube jamaican 1
+2	bitter bittered sling moondog
+2	bitter bittermen new orlean coffee
+2	bitter dr adam elmegirab
+2	bitter fee brother cherry
+2	bitter fee brother grapefruit
+2	bitter fee brother plum
+2	bitter hella bitter smoked chile
+2	bitter miracle mile chocolate chili
+2	bitter plum bitter
+2	bitter scrappy s celery
+2	bitter scrappy s grapefruit
+2	bitter urban moonshine original
+2	black cherry flavored vodka
+2	black peppercorn
+2	blackberry liqueur clear creek
+2	blackcurrant jam
+2	blended rum denizen
+2	blood orange liqueur thatcher s
+2	blossom water
+2	blue curacao bol
+2	blue plum brandy clear creek
+2	bob s liquorice bitter
+2	bolivar bitter bittercube
+2	bonal
+2	bourbon liqueur prichard s sweet lucy
+2	brovo amaro 14
+2	brown sugar cordial
+2	bual madeira
+2	butterscotch schnapp
+2	cane syrup sirop jm
+2	caper brine
+2	cardamom bitter scrappy s cardamon
+2	cassis mathilde
+2	cayenne tincture
+2	celery syrup
+2	chamomile syrup
+2	champagne moet imperial
+2	champagne veuve clicquot
+2	chardonnay
+2	chardonnay white wine vinegar
+2	charente
+2	cherry bitter fee brother cherry
+2	cherry bitter miracle mile
+2	cherry syrup luxardo
+2	cherry vodka
+2	chestnut liqueur
+2	chicory bitter
+2	chile liqueur
+2	chili pepper
+2	chinotto
+2	chipotle pepper sauce tabasco
+2	chocolate bitter mozart
+2	chocolate bitter scrappy s chocolate
+2	chocolate extract
+2	cilantro
+2	cinnamon cordial
+2	cinnamon syrup b g reynold
+2	citrate
+2	citrus vodka absolut
+2	clear
+2	clement creole shrubb
+2	cocchi vermouth amaro
+2	coconut flavored rum
+2	coconut palm syrup
+2	coconut water sarap
+2	cola syrup
+2	cold beef bouillon
+2	cold brew coffee
+2	cold brewed coffee
+2	cold water
+2	concord grape
+2	corn milk
+2	corn whiskey balcone brimstone
+2	corn whiskey mellow corn
 2	corona
-2	creme de banane
-2	drambuie
-2	fruit punch
-2	ginger beer
-2	green creme de menthe
+2	cranberry bitter bittermen
+2	creme de bergamote briottet
+2	creme de fraise fragoli
+2	creme de violette bitter truth
+2	creme de violette tempus fugit
+2	crown royal
+2	cuban rum havana club anejo especial
+2	cucumber flavoured vodka
+2	cumin seed
+2	damiana liqueur agavero
+2	dark creme de cacao tempus fugit
+2	dead rabbit orinoco bitter
+2	del capo
+2	dijon mustard
+2	donn s spice 2 b g reynold
+2	earl grey tea syrup
+2	elderflower liqueur chase
+2	english bishop
+2	espolon blanco tequila
+2	evaporated milk
+2	fennel seed
+2	fig
+2	fig syrup
+2	framboise eau de vie
+2	french whiskey brenne
+2	genepi liqueur
+2	genever diep 9
+2	gewurztraminer
+2	ghost pepper syrup
+2	ginger cordial
+2	gingerbread sugar syrup
+2	glaciale
+2	gold rum bacardi gold
+2	gold rum flor de cana gold 4
+2	gold tequila
+2	gomme syrup jarabe varga
+2	grade b maple syrup deep mountain
+2	grapefruit flavored vodka
+2	grapefruit shrub
+2	grapefruit shrub liber and co
+2	grapefruit soda izze
+2	grapefruit soda ting
+2	grated
+2	greek yogurt
+2	hazelnut orgeat
+2	hibiscus liqueur fruit lab crism
+2	hibiscus tea
+2	hibiscus tea syrup
+2	highland scotch dalmore 12
+2	highland single malt scotch whisky
+2	hop syrup
+2	hophead vodka anchor distilling
 2	hot damn
-2	irish cream
-2	jim beam
-2	lillet blanc
-2	lime peel
-2	orange curacao
-2	passoa
-2	peach bitter
-2	peach vodka
-2	pepsi cola
-2	pisco
-2	raspberry syrup
-2	ricard
-2	rosemary syrup
+2	hot sauce cholula
+2	iced coffee
+2	india pale ale revolution anti hero
+2	island single malt scotch whisky
+2	islay scotch octomore
+2	japanese whisky
+2	jasmine green loose tea
+2	jasmine liqueur fruit lab theia
+2	jerez
+2	jerry thoma bitter
+2	kinnickinnic whiskey great lake distillery
+2	kirsch
+2	kirsch liqueur
+2	kirschwasser luxardo
+2	kombu tincture
+2	kummel gilka
+2	kumquat
+2	la fee absinthe blanche
+2	la vieille prune plum brandy
+2	lapponia lakka cloudberry
+2	lapsang souchong sugar syrup
+2	lavender honey syrup
+2	lemon bitter fee brother lemon
+2	lemon flavored vodka
+2	lemon lime soda sprite
+2	lemon soda
+2	lemon twist
+2	light or dark rum
+2	light sweet cream
+2	lime and lemongrass cordial
+2	lime bitter scrappy s lime
+2	lime soda
+2	limoncello pallini
+2	liquorice liqueur
+2	lychee
+2	malt
+2	malt vinegar
+2	maple bitter
+2	maple syrup blis bourbon barrel aged
+2	marsala superiore doc secco wine
+2	martini ambrato riserva speciale
+2	martini riserva speciale rubino
+2	martinique rum la favorite
+2	mastika
+2	mekhong
+2	midwest wheat white whiskey koval
+2	mint tea
+2	mirto
+2	monin white chocolate syrup
+2	moscatel
+2	moscatel sherry
+2	moscato d asti
+2	mr boston five star brandy
+2	mr boston rum
+2	mr boston triple sec
+2	mr boston vodka
+2	muddled
+2	mulberry jam
+2	mulled wine
+2	mure
+2	napoleon
+2	nicaraguan rum flor de cana gold 4
+2	noilly ambre vermouth
+2	noyaux
+2	oak smoked vodka
+2	oatmeal water
+2	old fashioned bitter
+2	oloroso sherry la bodega
+2	orange cream citrate
+2	orange curacao bol
+2	orange liqueur compass box orangerie
+2	orange liqueur mandarine napoleon
+2	orange liqueur paula s texa orange
+2	orange liqueur pierre ferrand dry curacao
+2	orange liqueur prunier
+2	original danziger goldwasser liqueur
+2	oude genever bol
+2	overproof demerara rum
+2	overproof rum hamilton demerara 151
+2	palo cortado or oloroso sherry
+2	pamplemousse
+2	pamplemousse rose
+2	peach preserve
+2	pear bitter
+2	pear eau de vie berkshire mountain distiller
+2	pear liqueur marie brizard
+2	pear liqueur mathilde
+2	pear liqueur rothman and winter
+2	pear shrub
+2	pear vodka absolut pear
+2	pelinkovac
+2	pelinkovac maraska
+2	pepper syrup
+2	pepper tincture scrappy s firewater tincture
+2	peppercorn
+2	peppercorn syrup 1 1
+2	peroni lager
+2	pickle brine
+2	pickled gherkin brine vinegar
+2	pilsner prima pil
+2	pimento bitter dale de groff
+2	pineapple rum
+2	pineapple shrub
+2	pineau des charente rouge
+2	pink guava puree
+2	pistachio liqueur
+2	plum
+2	plum bitter
+2	plum syrup
+2	plum wine gekkeikan
+2	pomegranate syrup
+2	port graham six grape
+2	prata
+2	puerto rican rum don q
+2	puerto rican rum don q anejo
+2	pumpkin butter
+2	quince mustard jam
+2	red bull
+2	red wine manischewitz
+2	reposado mezcal
+2	rhubarb
+2	rhubarb and orange preserve
+2	rhubarb liqueur
+2	rhubard bitter
+2	rhum agricole clement
+2	rhum agricole neisson eleve sous bois
+2	rhum agricole rhum jm
+2	rhum agricole st jame ambre
+2	riesling
+2	robertson s mincemeat
+2	rooibo tea
+2	rose liqueur combier
+2	rosemary pineapple shrub
+2	ruby port graham s
+2	salt maldon
+2	salted caramel syrup
+2	sanbitter
+2	sarsaparilla soda sioux city
 2	schweppe russchian
+2	serrano syrup
 2	sherbet
+2	sherry vinegar
+2	simple syrup monin
+2	slivovitz plum brandy
+2	sorghum syrup
+2	sour cherry syrup
+2	sparkling white wine gruet
+2	special ingredient 3
+2	speyside scotch
+2	speyside scotch glenfarcla 105
+2	speyside scotch glenfiddich
+2	speyside scotch macallan 10
+2	speyside scotch macallan 12
+2	spice bitter
+2	spruce beer
+2	spumante
+2	stout peak organic oak aged mocha stout
+2	stout reduction
+2	strawberry liqueur
+2	strawberry preserve
+2	strawberry schnapp
 2	surge
-2	tabasco sauce
-2	whipping cream
+2	swedish bitter
+2	sweet sherry
+2	sweetened condensed milk
+2	tamarind syrup
+2	tartaric acid powder
+2	thai basil
+2	thai bitter bitter end
+2	thoma bitter
+2	three cent gentlemen s soda
+2	thyme syrup
+2	toffee liqueur
+2	tomato catsup
+2	tonic water syrup
+2	tree soda
+2	twist
+2	umeshu
+2	unsalted butter
+2	unsweetened grape
+2	valdespino jerez quina
+2	vallet
+2	veev acai spirit
+2	venezuelan rum diplomatico
+2	verte
+2	vigne
+2	virgin island rum cruzan
+2	wasabi paste
+2	watermelon liqueur
+2	whiskey buffalo trace
+2	white chocolate liqueur
+2	white grape
+2	white port wine
+2	white truffle honey
+2	white whiskey death s door
+2	wild hibiscus syrup
+2	wine
+2	wine syrup
+2	yuzu preserve
+2	yuzu sake ume no yado yuzu shu
+2	zest
+2	zested
 2	zima
-1	absolut kurant
-1	absolut peppar
-1	absolut vodka
-1	advocaat
+1	101
+1	17 year old j wray and nephew ltd rum
+1	1814
+1	2
+1	2 bitter
+1	43
+1	8 year old rhum agricole
+1	absenteroux distillery de provence
+1	absenteroux vermouth l absinthe
+1	acai
+1	acai berry flavored vodka
+1	acid
+1	african rum
+1	agave nectar strawberry
+1	agave syrup monin
+1	agave syrup partida
+1	agua de tamerindo
+1	agua fresca
+1	albarino portico da ria
+1	ale brooklyn hemispherical bitter local 2
+1	ale dale s pale ale
+1	ale froach
+1	ale new holland dragon s milk ale
+1	ale rogue chipotle ale
+1	ale theakston old peculier
+1	algarrobo extract
+1	allspice tincture
 1	almond flavoring
-1	amaro montenegro
-1	anisette
+1	almond or orgeat syrup
+1	almondmilk liqueur bailey
+1	amaretto luxardo
+1	amaretto saliza
+1	amaro ciociaro
+1	amaro elixir novosalus
+1	amaro lazzaroni
+1	amaro lucanoa
+1	amaro meletti bitter
+1	amaro tattersall
+1	amer picon or torani amer
+1	amere nouvelle
+1	amere nouvelle bittermen
+1	american sparkling white wine gruet
+1	american whiskey corsair triple smoke whiskey
+1	american whiskey michter s
+1	american whiskey westland peated
+1	amontillado
+1	anejo rum don q gran anejo
+1	anejo rum matusalem gran reserva
+1	anejo tequila chinaco
+1	anejo tequila partida
+1	anejo tequila pura vida
+1	angeleno
+1	angelica syrup kvannegarden
+1	angelica tincture
+1	angostura bitter flamed lemon twist
+1	angostura bitter lime wheel
+1	anise syrup
+1	anisette anis del mono
+1	antesite anise
+1	antonio
 1	apfelkorn
-1	apricot nectar
+1	apfelkorn berentzen apfelkorn
+1	apple bitter bar keep organic apple bitter
+1	apple cider doc s hard apple cider
+1	apple cider red jacket
+1	apple liqueur berentzen apfelkorn
+1	apple liqueur du nord
+1	apple schnapp
+1	apple schnapp grapefruit twist
+1	apple schnapp liqueur
+1	apple syrup
+1	apple water
+1	appletiser
+1	apricot syrup
+1	aquafaba
+1	aquavit gamle ode dill
+1	aquavit skane
+1	arak el massaya
+1	armagnac blanche
+1	armagnac castarede
+1	aromatized wine carpano punt e mes
+1	aromatized wine contratto americano rosso
+1	aromatized wine imbue
+1	aromatized wine marolo chinato
+1	aromatized wine st raphael
+1	arrack
+1	artichoke essence
+1	arugula
 1	asafoetida
+1	ascorbic acid
+1	autumn spice
+1	b
+1	b and b
+1	bacanora
+1	bacanora cielo rojo
+1	bacardi elixir
+1	back
+1	bacon tincture
+1	balsamic shrub
+1	balsamic vinegar boyajian balsamic fig vinegar
+1	banana liqueur
+1	barbado rum doorly s xo
+1	bark bitter
+1	barley schochu lichiko
+1	barley schochu mizu no mai
+1	barolo wine
+1	barrel bitter
+1	basil syrup
+1	baska snap
+1	batavia arrack or light rum
+1	bay
+1	bean
+1	bean syrup
+1	beaujolais nouveau
+1	beer duvel
+1	beer or other belgian amber ale
+1	beer pabst blue ribbon
+1	beer shiner ruby redbird
+1	beer syrup
+1	beer tecate
+1	beer unibroue blanche de chambly
+1	beer weihenstephaner hefeweizen
+1	beet puree
+1	belgium dubbel abbey ale
+1	bepi tosolini i legni rovere
+1	berbere spice
+1	bergamot liqueur quaglia
+1	bergamot syrup
+1	berry fruit tea
+1	berry liqueur
+1	besk letherbee
+1	bianco vermouth cinzano bianco
+1	bianco vermouth contratto
+1	bianco vermouth imbue bittersweet vermouth
+1	bianco vermouth interrobang
+1	bianco vermouth mauro vergano
+1	bianco vermouth priorat natur
+1	bianco vermouth torelli
+1	bierschnap kiuchi no shizuku hitachino distilled white ale
+1	bing cherry syrup
+1	birch beer
+1	birch sap liqueur
+1	bird s eye chile tincture
+1	bittah
+1	bitter 5 by 5 aged citrus
+1	bitter bar code baked apple
+1	bitter bar keep chinese bitter
+1	bitter bitter end mexican mole
+1	bitter bittercube blackstrap
+1	bitter bittercube hop bitter
+1	bitter bittermen hopped grapefruit bitter
+1	bitter bittermen peppercake
+1	bitter brooklyn hemispherical bitter spicy charred pineapple
+1	bitter cocktail kingdom
+1	bitter dr adam elmegirab aphrodite bitter
+1	bitter dram apothecary hair dog
+1	bitter dram hair dog
+1	bitter dutch s spirit boomtown
+1	bitter fee brother molass
+1	bitter fish sauce bitter
+1	bitter hella aromatic
 1	bitter lemon
-1	black sambuca
+1	bitter lemon soda polar
+1	bitter miracle mile toasted pecan
+1	bitter miracle mile yuzu
+1	bitter napa valley
+1	bitter scrappy s seville orange
+1	bitter tobacco
+1	bitter truth exr
+1	bitter truth s jerry thoma own decanter bitter
+1	bittermen boston bittah
+1	black cherry
+1	black strap molass
+1	black tea
+1	black tea liqueur qi
+1	black truffle oil
+1	blackberry brandy
+1	blackberry preserve
+1	blackcurrant cassis sugar syrup
 1	blackcurrant cordial
+1	blackcurrant preserve
+1	blackstrap bitter
 1	blackstrap rum
-1	blended scotch
-1	blood orange
+1	blanche
+1	blandy s sercial 10 year old
+1	blended rum
+1	blended rum bank
+1	blood orange bitter stirring
+1	blood orange liqueur purlikor spice
+1	blood orangecello ventura limoncello
+1	bloody mix
+1	blueberry preserve
 1	blueberry schnapp
-1	butter
-1	butterscotch schnapp
+1	bob s bitter coriander bitter
+1	bob s ginger bitter
+1	boiron cranberry and morello cherry puree
+1	boker bitter
+1	bolivar bitter
+1	bonded
+1	botanical
+1	bottlegreen cox s apple and plum cordial
+1	brachetto
+1	brandy preferably spanish
+1	breakfast tea sugar syrup
+1	brew
+1	brillet
+1	brine
+1	bro bitter
+1	brown
+1	brown sugar such as demerara
+1	bruto americano
+1	bsp
+1	bsp salt
+1	burnt lime
+1	butterfly pea powder
+1	buttermilk
+1	cacao
+1	cachaca sagatiba velha
+1	calamansi
+1	calisaya liqueur
+1	calvado apple brandy or applejack
+1	camden pale ale
+1	camomile tea syrup
+1	campbeltown scotch springbank 10
+1	canadian rye whisky
+1	canadian whisky forty creek
+1	candied ginger
+1	cane sugar
+1	cane syrup clement
+1	cane syrup depaz
+1	cane syrup lyle s golden syrup
+1	canned coconut milk
+1	cantaloupe
+1	cantaloupe puree
+1	caperitif
 1	caramel coloring
+1	caramel sugar syrup
+1	caramel syrup
+1	caramelized ramp bitter bitter old men
+1	caraway seed
 1	carbonated soft drink
-1	cayenne pepper
-1	celery salt
-1	cherry liqueur
-1	cider
-1	coconut milk
-1	coconut syrup
-1	coffee brandy
-1	coriander
+1	cardamom bitter fee brother
+1	cardamom syrup
+1	cardamom tincture
+1	carob syrup
+1	cartron no 7 liqueur
+1	cassis edmond briottet
+1	cassis l heritier guyot
+1	cassis lejay
+1	cassis massenez
+1	castilian tincture
+1	catsup
+1	cava segura viuda
+1	celery puree
+1	celery shrub
+1	cesari
+1	chai liqueur dancing pine chai liqueur
+1	chai tea
+1	chamomile liqueur marolo chamomile grappa liqueur
+1	chamomile tincture
+1	champagne chopped fresh mint
+1	champagne or sparkling wine mint
+1	champagne vinegar
+1	charcoal
+1	chareau liqueur
+1	cherry bitter apothecary bitter
+1	cherry bounce old ballard liquor co
+1	cherry cider
+1	cherry lambic beer kasteel rouge
+1	cherry preserve
+1	cherry tomato
+1	chianti red wine
+1	chicory liqueur
+1	chicory liqueur cathead
+1	chile syrup
+1	chili
+1	chili tincture
+1	chilled moscato d asti or sweet sparkling wine
+1	chilled passion fruit
+1	chilled rhine wine or sauterne
+1	chilled sparkling wine
+1	chilled sparkling wine or champagne
+1	chilled stout
+1	chipotle powder
+1	chipotle syrup
+1	chocolate cream liqueur
+1	chocolate extract taza mexicano
+1	chocolate ice cream
+1	chocolate sugar syrup
+1	cider knudsen cider and spice
+1	cider sea cider king and spy cider
+1	cidre
+1	cinnamon schnapp liqueur
+1	cinzano 1757 vermouth bianco
+1	cinzano orancio vermouth
+1	citron sauvage
+1	citrus fruit
+1	citrus vodka st george
+1	clam
+1	claret
+1	classico
+1	clementine or mandarin orange
+1	clove and mace tincture
+1	clove and quince sugar syrup
+1	club soda fever tree
+1	club soda q
+1	coarse salt
+1	coca cola lime reduction
+1	coca liqueur agwa de bolivia
+1	cocchi americano rosa
+1	cocktail kingdom wormwood bitter
+1	coconut arrack white lion vsoa
+1	coconut cream st vincent syrup
+1	coconut oil
+1	coconut tincture
+1	coconut vodka skyy
+1	coffee bean
+1	coffee counter culture baroida
+1	coffee flavored liqueur
+1	coffee ice cream
+1	cointreau triple sec
+1	cola sugar syrup
+1	cola tonic syrup
+1	cold brewed black tea preferably japanese
+1	cold brewed chai tea
+1	cold brewed espresso coffee
+1	cold brewed green tea
+1	cold chai tea
+1	cold hibiscus tea
+1	commandaria cypriot wine
+1	compound syrup
+1	concerto
+1	contratto fernet
+1	cookie speculoo
+1	corazon bitter
+1	cored
+1	coriander tincture
+1	corn
 1	corn syrup
-1	cranberry vodka
-1	cream coconut
-1	creme de mure
-1	cucumber
-1	cumin seed
+1	corn whiskey glen thunder
+1	corn whiskey pritchard s
+1	cracked pepper
+1	cranberry juice lemon wheel
+1	cranberry preserve
+1	cranberry sauce
+1	cranberry shrub genki su cranberry drinking vinegar
+1	cream sherry lustau cream
+1	cream soda
+1	crema di limoncello
+1	creme de banane marie brizard
+1	creme de figue edmond briottet
+1	creme de fraise primi frutti
+1	creme de manzana briottet
+1	creme de menthe giffard
+1	creme de noyaux bol
+1	creme de noyaux liqueur
+1	creme de noyaux tempus fugit
+1	creme de peche
+1	creme de violette golden moon
+1	creme fraiche
+1	creole shrub
+1	creole shrubb
+1	crispin cider
+1	cross
+1	crushed pineapple
+1	cuban rum havana club
+1	cuban rum havana club reserva
+1	cuban rum havana club seleccion de maestro
+1	cucumber chopped
+1	cucumber vodka
+1	cucumber vodka square one
+1	cumin syrup
+1	curacao gabriel boudier
+1	curd
+1	curried ginger syrup
+1	curry
 1	daiquiri mix
-1	dark creme de cacao
-1	demerara sugar
-1	dr pepper
-1	dubonnet rouge
-1	ejo rum
-1	falernum
-1	fig
+1	damnation bitter
+1	damson jam
+1	dandelion liqueur lion s tooth
+1	danish cherry wine
+1	dark rum preferably jamaican
+1	day bitter
+1	demerara rum el dorado 151
+1	demerara rum skipper dark rum
+1	dill
+1	dill cordial
+1	dill pickle brine
+1	dill syrup
+1	dominican rum
+1	dominican rum matusalem gran reserva
+1	dominican rum matusalem platino
+1	double cream
+1	dr adam elmegirab s aphrodite bitter
+1	dr elmegirab s dandelion and burdock bitter
+1	dried orange peel
+1	drinking vinegar pokpok honey som
+1	drinking vinegar pokpok thai basil
+1	dry plum brandy la vieille prune
+1	dry rose sangiovese alexander valley vineyard
+1	dubonnet blanc
+1	each citrus flavored vodka and orange flavored vodka
+1	each cranberry juice and orange
+1	each cranberry juice orange juice spiced rum
+1	each dark rum light rum
+1	each fresh lemon juice and cranberry
+1	each fresh lemon juice angostura bitter
+1	each fresh lemon juice fresh lime
+1	each fresh lemon juice simple syrup 1 lime wheel
+1	each fresh lemon juice triple sec
+1	each fresh lime juice jamaica rum grenadine
+1	each fresh lime juice lemon juice pineapple juie and passion fruit syrup
+1	each fresh orange juice pineapple juice cranberry
+1	each light rum gin vodka blanco tequila blue curacao
+1	each lillet blanc and lillet rouge
+1	each orange juice and simple syrup
+1	each orange juice and sweet sherry
+1	each simple syrup angostura bitter
+1	each simple syrup grenadine
+1	each simple syrup light rum dark rum
+1	each triple sec simple syrup
+1	each vodka tequila blanco triple sec
+1	each worcestershire sauce salt ground black pepper
+1	eau de vie d abricot
+1	edmond briottet creme de chataigne
+1	egg nog
+1	egg white foam
+1	egg yolk 1 oz
+1	elderberry jelly
+1	elderflower hard cider
+1	elderflower liqueur st elder
+1	elderflower presse
+1	elderflower syrup monin
+1	elisir novasalus
+1	english style rum appleton v x
+1	erdinger weisbier
+1	essence
+1	eucalyptus tincture
+1	extra virgin olive oil
+1	faretti biscotti
+1	fashioned bitter
+1	feijoa flavoured vodka
+1	fernet ch distillery
+1	fernet leopold brother
+1	fernet norseman
+1	ferro china baliva
+1	fig liqueur
+1	fig preserve bonne maman
+1	figgy pudding bitter az bitter lab
 1	firewater
+1	flavored rum balcone
+1	flavored rum balcone rumble
+1	flavored vodka 66 gilead
+1	flavored vodka oyo stone fruit
+1	flavored whiskey midnight moon apple pie
+1	fleur de sel
+1	floc de gascogne
+1	flower liquor
+1	flower syrup
+1	for glass lemon coarse salt
 1	fresca
-1	ginger syrup
+1	fresh red hot chili pepper
+1	fruit juice or water
+1	fruit punch
+1	galander fine mustard liqueur
+1	garlic
+1	genepy guillaumette
+1	genever few
+1	genever old simon
+1	genever peket de houyeu
+1	gentian tincture
+1	gentiane de lure
+1	georgia moon corn whiskey
+1	germain robin liquer de poete
+1	ginger ale blue sky organic
+1	ginger ale or soda water
+1	ginger ale soda tonic water or other carbonated mixer
+1	ginger ale strawberry
+1	ginger and lemongrass cordial
+1	ginger beer 1 oz
+1	ginger bitter master malt
+1	ginger brandy
+1	ginger brandy jacquin s
+1	ginger shrub tait farm
+1	ginger syrup ginger people
+1	ginger vodka
+1	ginger wine crabbie s
+1	ginger wine stone
+1	ginger wine stone s original green
+1	gingerbread liqueur
+1	gingerbread syrup
+1	gingersnap
+1	ginseng spirit kammerling s
+1	ginseng tea il hwa ginseng extra
+1	glenrothe
 1	godiva liqueur
-1	gold rum
+1	gold rum cockspur 12
+1	gold rum havana club reserva
+1	gold rum matusalem classico
+1	gold rum thoma tew
+1	goldwasser
+1	goldwasser der lach danziger
+1	gooseberry and mint cordial
+1	grade dark amber maple syrup trader joe s bourbon barrel aged
 1	grain alcohol
-1	grape soda
-1	guinness stout
-1	honey syrup
-1	hot chocolate
-1	hot sauce
-1	iced tea
-1	islay single malt scotch
-1	jagermeister
+1	grape vodka
+1	grapefruit marmalade
+1	grapefruit oleo saccharum
+1	grapefruit preserve
+1	grapefruit soda fresca
+1	grapefruit sugar syrup
+1	grapefruit twist
+1	grapefruit vodka deep eddy ruby red
+1	grappa alexander
+1	grappa banfi
+1	grappa clear creek pinot grigio
+1	grappa jacopo poli sarpa di poli
+1	grappa nardini
+1	grappa nonino gioiello
+1	green olive
+1	green tabasco
+1	green tabasco sauce
+1	green tea silver moon
+1	green tea steven smith teamaker fez
+1	grenadine lime wheel
+1	grenadine rose s
+1	grey syrup
+1	griotte distillerie de biercee
+1	ground appspice
+1	guanabana
+1	guava puree
+1	guava syrup
+1	guyanan rum lemon hart 151
+1	habanero sauce maggi seasoning
+1	habanero tincture
+1	haitian rum barbancourt white
+1	harvest
+1	harvey porter 1859
+1	hawaiian salt
+1	hazelnut extract
+1	hazelnut oil
+1	heather honey
+1	heavy cream whipped
+1	hefeweizen
+1	hefeweizen harpoon ufo
+1	hellfire bitter
+1	hellfire habanero shrub
+1	hennessy v s cognac
+1	herbal liqueur abbaye de lerin liqueur lerina jaune
+1	herring
+1	hibiscus cordial
+1	hibiscus flower petal
+1	highland scotch clynelish
+1	hiver amer bittermen
+1	homemade paste
+1	honey currant syrup
+1	honey liqueur dewar s highlander honey
+1	honey liqueur evan william honey reserve
+1	honey liqueur krupnika
+1	honeysuckle vodka cathead
+1	hop bitter
+1	hop extract
+1	hopped grapefruit bitter
+1	horseradish
+1	hot black coffee
+1	hot camomile tea
+1	hot sauce sriracha
+1	hot sauce tabasco sauce
+1	hot tea
+1	huckleberry jam
+1	hula bitter
+1	hum liqueur
+1	ice cider
+1	ice cider brannland cider
+1	ice wine
+1	iced tea yogi tea
+1	imported rum
+1	in syrup
+1	india pale ale dogfish head 60 minute
+1	india pale ale left hand 400 pound monkey
+1	india pale ale sierra nevada
+1	india pale ale troeg perpetual india pale ale
+1	invert syrup
+1	irish cream brady s
+1	irish cream liqueur
+1	irish mist liqueur
+1	island scotch highland park 18
+1	islay scotch bowmore
+1	islay scotch bowmore 12
+1	islay scotch talisker
+1	italian brandy
+1	italian preserved cherry
+1	italiano
+1	izarra green liqueur
+1	jalapeno
+1	jalapeno infused tequila
+1	jalapeno tequila tanteo
+1	jamaican 2 bitter
+1	japanese whisky hakushu 12
+1	japanese whisky hibiki japanese harmony
+1	japanese whisky suntory hibiki 17 year old
+1	jasmin tea sugar syrup
+1	jasmine sugar syrup
 1	jello
-1	johnnie walker
+1	june
+1	juniper berry
+1	juniper orange tincture
+1	junmai sake
+1	junmai sake miyasaka masumi arabashiri first run junmai ginjo
+1	kaffir lime
+1	kaffir lime flavoured vodka
+1	kaffir tincture
+1	kalamansi
+1	ketchup
+1	kirschwasser g miclo
+1	kirschwasser hiram walker
+1	kirschwasser massenez kirschwasser vieux
+1	kirschwasser schladerer
+1	kirschwasser st george
+1	kirschwasser trimbach
+1	kiwi fruit puree
 1	kiwi liqueur
-1	lillet
-1	lime vodka
-1	limeade
-1	maple syrup
+1	kiwi shrub
+1	kiwi syrup
+1	kj
+1	kombu syrup
+1	kombucha
+1	krupnik wisniowy
+1	kummel liqueur
+1	kurt s apple pie mead moonlight meadery
+1	l esprit de june liqueur
+1	lambic timmerman s strawberry lambic
+1	laphroaig
+1	lapsang souchong tea liqueur
+1	lavander syrup
+1	lavender tea harney and son
+1	lavender tincture
+1	lemon balm liqueur brovo
+1	lemon celery salt
+1	lemon cinnamon sugar
+1	lemon essence
+1	lemon juice and 3 oz
+1	lemon juice lemon twiste fresh pomegranate seed
+1	lemon lime soda 7 up
+1	lemon or orange sherbet
+1	lemon soda 7 up
+1	lemon wheel coarse salt
+1	lemonade simply lemonade
+1	lemongrass lime cordial
+1	lemonjuice
+1	light vermouth
+1	lightning
+1	lilac syrup
+1	lillet blonde
+1	lime bitter scrappy s grapefruit
+1	lime coarse salt
+1	lime cut into 4
+1	lime foam
+1	lime in highball glass
+1	lime juice lime wheel
+1	lime pink sanding sugar
+1	lime soda water dry wild lime
+1	lime sorbet
+1	lime sweet chili powder
+1	lime syrup
+1	lime tincture
+1	lime zest
+1	liqueur honey
+1	liquid smoke
+1	loganberry liqueur clear creek
+1	long thyme
+1	lorenzo inga my amaro
+1	lump sugar
+1	lustau amontillado sherry
+1	lychee liqueur soho
+1	lychee puree
+1	lychee rose tea
+1	lychee vodka kai
+1	macadamia nut liqueur trader vic s
+1	macadamia orgeat syrup
+1	madeira blandy s
+1	madeira blandy s 5 year sercial
+1	madeira broadbent 10 year malmsey
+1	madeira rare wine co boston bual
+1	madeira sandeman s rainwater
+1	maguey sweet sap villa de pato
+1	malic acid
+1	malt extract
+1	mandarin
+1	mandarin orange liqueur milagro tequila mandarina
+1	mango flavored vodka
+1	mango nectar
+1	manzanilla pasada sherry la cigarilla
+1	manzanilla sherry barbadillo solear
+1	manzanilla sherry la cigarrera
+1	manzanilla sherry lustau manzanilla
+1	maple liqueur sapling
+1	maple shrub
+1	marc de champagne moet and chandon
+1	margarita mix
+1	marinade
+1	marionberry preserve
+1	marmalade syrup
 1	marshmallow
-1	melon liqueur
-1	mint syrup
+1	martinique rum clement
+1	martinique rum saint jame ambre
+1	martinique v s o p rum
+1	marzen beer
+1	matcha tea
+1	medium egg
+1	mendolera
+1	menta
+1	menthol tincture
+1	merlot red wine
+1	mimosa syrup
+1	mineral water san pellegrino
+1	mint flavored gin
+1	mint puree
+1	mint water
+1	minta soda
+1	mirabelle
+1	mirabelle eau de vie
+1	mirabelle eau de vie miclo
+1	mirabelle eau de vie trimbach
+1	moka
+1	molass bitter fee brother
+1	mole
+1	mole bitter 1 oz
+1	monasterium liqueur
+1	monin apple syrup
+1	monin basil syrup
+1	monin fig syrup
+1	monin lemongrass syrup
+1	monin strawberry bon bon syrup
+1	monin violet syrup
+1	moonshine tennessee mellomoon
+1	moscatel sherry alexandro
+1	moscatel sherry cesar florido moscatel especial sherry
+1	mott s clamato
 1	mountain dew
-1	olive brine
+1	mozart dark chocolate liqueur
+1	mr boston apricot flavored brandy
+1	mr boston creme de menthe
+1	mr boston creme de noyaux
+1	mulberry syrup
+1	muscadet wine
+1	muscatel wine
+1	nardini rosso
+1	navy strength gin 3 howl
+1	navy strength gin hayman s royal dock
+1	navy strength rum
+1	navy strength rum lost spirit
+1	nectar
+1	nicaraguan rum flor de cana
+1	nin jiom pei pa koa
+1	nocino liqueur
+1	nocino russo
+1	noir d ivoire distillerie de biercee
+1	nori
+1	nut tincture
+1	oaked
+1	okinawa sugar
+1	okolehao liqueur
+1	okra
+1	old kentucky tavern bourbon whiskey
+1	old tom gin spring 44
+1	oleo saccharum
+1	olive oil
+1	oloroso sherry el maestro
+1	oloroso sherry la garrocha
+1	onion
+1	onion finely chopped
+1	oolong tea
+1	orange blossom jam
+1	orange blossom water
+1	orange chocolate liqueur distillerie de biercee orangine
+1	orange curacao senior curacao
+1	orange curd
+1	orange foam
+1	orange juice and orange wheel
+1	orange liqueur cointreau noir
+1	orange liqueur combier l original liqueur d orange
+1	orange liqueur harlequin
+1	orange liqueur mathilde xo
+1	orange liqueur orangerie
+1	orange liquor
+1	orange marmalade bonne maman
+1	orange marmalade grapefruit twist
+1	orange oleo saccharum
+1	orange sherbert
+1	orange soda water
+1	orange syrup
+1	orange twist green olive
+1	orange vodka hangar one mandarin blossom
+1	orange wheel
+1	orchard syrup
 1	oreo cookie
-1	ouzo
+1	orgeat kassatly chtaura
+1	orgeat tiki adam s toasted orgeat
+1	oude genever boomsma
+1	oude genever van wee
+1	overproof bourbon booker s
+1	overproof bourbon knob creek
+1	overproof bourbon old grand dad 100
+1	overproof bourbon old grand dad 114
+1	overproof rum plantation o f t d
+1	pacharan
+1	package
+1	palm sugar
+1	pamplemousse rose combier
+1	pamplemousse rose giffard
 1	papaya
-1	passion fruit syrup
+1	parfait amour bol
+1	parmigiano reggiano
+1	passion fruit bitter
+1	passion fruit juice basil
+1	passion fruit juice foco
+1	passion fruit puree boiron
+1	passoa
+1	pea
 1	peach brandy
+1	peach eau de vie
+1	peach flavored brandy
+1	peach flavored vodka
+1	peach liqueur giffard
+1	peach liqueur marie brizard
 1	peach nectar
-1	peachtree schnapp
-1	pernod
+1	peach schnapp liqueur
+1	peach skinned
+1	peach syrup
+1	peanut butter
+1	pear brandy
+1	pear eau de vie purkhart
+1	pear flavored vodka
+1	pear liqueur marie brizard poire william
+1	pear vanilla
+1	pear vodka grey goose
+1	pecan
+1	pecan liqueur praline
+1	pecan syrup
+1	peche
+1	pedro ximenez sherry hidalgo la gitana triana
+1	pedro ximenez sherry toro albara
+1	peeled and chopped fresh ginger
+1	peeled fresh ginger
+1	peperoncini
+1	pepper salt
+1	pepper shrub
+1	peppermint extract
+1	peppermint schnapp
+1	peppermint syrup
+1	pepperoncini
+1	phosphate
+1	picon
+1	picon biere
+1	pie bitter
+1	pilon syrup
+1	piloncillo syrup
+1	pimm
 1	pina colada mix
-1	pineapple syrup
+1	pine
+1	pine liqueur
+1	pine liqueur bol
+1	pine nut
+1	pineapple chunk
+1	pineapple flavoured vodka
+1	pineapple maraschino cherry
+1	pineapple marinade
+1	pineapple or grapefruit
+1	pineapple puree
+1	pineapple vodka skyy
+1	pineau des charente prunier
 1	pink lemonade
-1	pisang ambon
-1	pomegranate
-1	raspberry liqueur
-1	raspberry vodka
+1	pinot grigio white wine
+1	pinot noir juice navarro
+1	pistacchino liqueur
+1	pistachio liqueur pistache
+1	pistachio puree
+1	pkg
+1	plum jam
+1	plum liqueur
+1	plum wine
+1	poire william
+1	poitin glendalough mountain strength
+1	pomegranate bitter
+1	pomegranate cordial
+1	pomegranate liqueur
+1	pomegranate molass alwadi
+1	ponzu
+1	popcorn
+1	poppy liqueur
+1	poppy oil
+1	port graham s
+1	port graham s late bottled vintage
+1	port sandeman
+1	porter
+1	porter beer dc brau nata
+1	potato
+1	prado
+1	praline pecan liqueur
+1	prepared horseradish
+1	prickly pear syrup
+1	prickly pear syrup cheri s desert harvest
+1	professore
+1	prosecco gruet blanc de blanc
+1	prune
+1	prune syrup
+1	puerto rican rum bacardi facundo neo
+1	puerto rican rum bacardi gold
+1	pumpkin liqueur
+1	pumpkin seasonal spirit great lake distillery
+1	pussanga
+1	quince jelly
+1	quinine syrup
+1	quinquina
+1	quintessentia
+1	raicilla venenosa
+1	raisin sugar syrup
+1	raki
+1	raspberry and strawberry 2 peach maraschino cherry
+1	raspberry flavored vodka
+1	raspberry ice cream
+1	raspberry jam
+1	raspberry lemon twist
+1	raspberry limoncello cellovia
+1	raspberry liqueur chateau monet
+1	raspberry liqueur combier
+1	raspberry preserve
+1	raspberry shrub
+1	raspberry yogurt
+1	rasta bitter
+1	red birch beer
 1	red chili flake
+1	red grape
+1	red wine barolo
+1	red wine cote du rhone
+1	red wine malbec
+1	redcurrant jelly
+1	redcurrant syrup
+1	rehorst citrus and honey vodka great lake distillery
+1	reisling wine
+1	reposado
+1	reposado blanco tequila
+1	reposado mezcal zacbe
+1	reye
+1	rhubarb bitter sun liquor
+1	rhubarb cordial
+1	rhubarb liqueur rhuby
+1	rhubarb soda water dry
+1	rhum agricole barbancourt
+1	rhum agricole damoiseau blanc
+1	rhum agricole j bally
+1	rhum agricole la favorite
+1	rhum agricole saint jame fleur de canne
+1	rhum agricole st george aqua perfecta
+1	rhum agricole trois riviere blanc 55
+1	rice vinegar
+1	riesling dr konstantin frank
+1	riesling syrup
+1	ripe pear
+1	roasted coffee bean
+1	roasted hazelnut sugar syrup
+1	rock and rye mr katz s rock and rye
+1	rock candy syrup or simple syrup
+1	roe
+1	rooibus tea
+1	root beer virgil s
+1	root puree
+1	ros lime
 1	ros sweetened lime
-1	rose
-1	rosso vermouth
-1	ruby port
+1	rosato vermouth
+1	rosato vermouth atsby armadillo cake
+1	rose geranium liqueur brovo
+1	rose liqueur
+1	rose liqueur briottet
+1	rose petal jam
+1	rose s lime
+1	rose vermouth
+1	rose water fee brother
+1	rose wine schloss gobelsburg cistercien rose
+1	rosemary ginger syrup
+1	rosemary sugar syrup
+1	roussillon
+1	rubarb bitter
+1	ruby port dow s
+1	ruby port ferreira
+1	ruby red grapefruit
+1	rum cream rumchata
 1	rumple minze
+1	rutte and zn 12 oude graan jenever
+1	s
+1	s mix
+1	saffron frond
+1	saffron syrup
+1	sage syrup
+1	saison beer
+1	sake sho chiku bai
+1	sambuca averna sambuca agrumi
 1	sarsaparilla
+1	sarsaparilla soda
+1	sarsaparilla syrup
+1	sarsparilla soda
+1	satsuma
+1	sauterne
+1	scotch liqueur atholl brose
+1	sea buckthorn liqueur distillerie de biercee
+1	sea salt caramel syrup
+1	seasoning
+1	secco
+1	seltzer
+1	sencha green tea
+1	sesame honey
+1	sesame oil
+1	sexy bitter
+1	sherry lustau fino
+1	sherry lustau olorosso
+1	sherry manzanilla fina
+1	shochu beni otome sesame shochu
+1	shrub bitter
+1	shrubb
+1	sibilla
+1	silver
+1	simple syrup 3 4 oz
+1	simple syrup royal rose three chile
+1	simple syrup scant
+1	simple syrup spiced
+1	singani
+1	single malt welsh whisky
 1	sirup ros
-1	soy sauce
-1	strawberry liqueur
-1	strawberry schnapp
-1	tennessee whiskey
+1	smoked paprika
+1	smoked sea salt
+1	smoked tea vanilla syrup raft botanical cocktail and soda water syrup
+1	smoky scotch whisky such as islay or skye
+1	smoky scotch whisky such as laphroaig
+1	smooth ambler barrel aged gin
+1	smooth peanut butter
+1	snap
+1	soave wine
+1	soda water dr brown s cel ray
+1	soda water malta india molass
+1	soda water orange and lemon wheel maraschino cherry
+1	solution
+1	sorel
+1	sorrelade
+1	sotol
+1	sotol don cuco
+1	sour beer
+1	sour cherry marmelade
+1	sour pineapple liqueur
+1	soy milk
+1	spanish brandy felipe
+1	sparkling
+1	sparkling apple cider
+1	sparkling cider martinelli s
+1	sparkling rose wine ferrarri
+1	sparkling sake zipang
+1	sparkling white wine domaine ste michelle
+1	sparkling white wine gruet blanc des blanc
+1	sparkling wine raspberry and cucumber
+1	speyside scotch aberlour 12
+1	speyside scotch balvenie 12 doublewood
+1	speyside scotch glenfiddich 18
+1	speyside scotch singleton 12
+1	spice mix
+1	spice syrup
+1	spiced brown sugar syrup
+1	splash soda water
+1	splash triple sec
+1	spray
+1	spring mint
+1	spring water
+1	squash puree
+1	sriracha bitter brooklyn hemispherical bitter
+1	stalk
+1	stiegl grapefruit radler
+1	stout samuel smith s organic chocolate stout
+1	stout st ambrose
+1	straight rye whisky
+1	strawberry chopped
+1	strawberry cut in halve
+1	strawberry cut into halve
+1	strawberry eau de vie
+1	strawberry raspberry shrub
+1	stroh jagertee liqueur
+1	style
+1	sugar domino
+1	sugar water
+1	superfine sugar
+1	suze agrume
+1	swedish bitter bar keep swedish bitter
+1	sweet marsala
+1	sweet marsala florio
+1	sweet pickle
+1	sweet pickle brine
+1	sweet sake nigori
+1	sweet sherry preferably pedro ximenez
+1	sweet white wine
+1	sweetcorn
+1	switchel
+1	tai mix
+1	taketsuru
+1	tamarind chutney
+1	tamarind jam
+1	tangelo liqueur
+1	tangerine peel
+1	tanqueray gin
+1	tarragon
+1	tarragon sugar syrup
+1	tarragon syrup
+1	tarragon tincture
+1	tart apple syrup
+1	tawny port graham s 20 year
+1	tawny port sandeman
+1	tawny port taylor
+1	tea marketspice cinnamon orange black tea
+1	tea pot bitter dr adam elmegirab
+1	tea strong white tea
+1	tea tea forte harvest apple
+1	ten
+1	teriyaki sauce
+1	thin peeled fresh ginger
+1	three cent aegean tonic water
+1	thyme tincture
 1	tia maria
-1	vanilla syrup
-1	vanilla vodka
-1	whisky
-1	white wine
-1	worcestershire sauce
-1	yellow chartreuse
+1	tiki bitter such as bittermen s elemakule
+1	tiki or angostura bitter garnish fresh mint
+1	tobacco liqueur
+1	tokaji hungarian wine
+1	tom and jerry batter
+1	tomato clam
+1	tomato juice clamato
+1	tomato ketchup
+1	tonic bitter
+1	tonic syrup
+1	tonic water boylan cascade tonic water
+1	torre aqua d or aguardiente
+1	treuse
+1	trifecta bitter ess
+1	trinidad rum angostura 5 year
+1	tropical fruit schnapp
+1	truffle tincture
+1	tsp sugar
+1	turmeric syrup
+1	umeshu kamoizumi ume shu
+1	umeshu plum sake
+1	underberg bitter
+1	unsalted black olive
+1	unsprayed rose petal
+1	v8 cocktail
+1	vanilla flavored vodka
+1	vanilla infused bourbon
+1	vanilla liqueur and 3 oz
+1	vanilla liqueur giffard
+1	vanilla liqueur nany
+1	vanilla soda water
+1	vanilla soda water dry vanilla bean
+1	vanilla sugar
+1	vanilla syrup preferably b reynold s
+1	vanilla syrup sonoma syrup
+1	veltliner
+1	verbena cordial
+1	vermouth infusion
+1	vermouth rojo
+1	vermouth rojo primitivo quile
+1	vieille de prune eau de vie
+1	violet water
+1	virgin island rum cruzan aged light
+1	virgin island rum cruzan single barrel
+1	visciolo
+1	vittone menta
+1	voignier white wine
+1	vs
+1	vs cognac
+1	vulson white rhino rye
+1	walnut liqueur koval
+1	walnut oil l olivier
+1	watercress puree
+1	watermelon sugar syrup
+1	weissbier dennison s
+1	whip cream
+1	whiskey balcone brimstone
+1	whiskey barrel bitter
+1	whiskey buffalo trace white dog rye mash
+1	whiskey crown royal
+1	whiskey four ros
+1	whiskey lagavulin 16
+1	whiskey laphroaig 10
+1	whiskey mccarthy s
+1	whiskey prichard s lincoln county lightning
+1	whiskey rieger s kansa city whiskey
+1	whiskey stranahan s colorado whiskey
+1	whiskey waitsburg
+1	whiskey weller 12
+1	whiskey westward oregon straight malt whiskey
+1	whiskey yamazaki 12
+1	white
+1	white balsamic vinegar old world olive press
+1	white birch beer
+1	white chocolate grappa liqueur
+1	white cranberry
+1	white creme de cacao gabriel boudier
+1	white curacao
+1	white curacao or triple sec
+1	white or dark creme de cacao
+1	white or ruby red grapefruit
+1	white port portal
+1	white rye
+1	white rye wigle
+1	white tea liqueur qi
+1	white whiskey low gap
+1	white whiskey wigle
+1	white zinfandel rose wine
+1	whole egg and grated nutmet
+1	whole milk
+1	whole strawberry
+1	whole strawberry hulled
+1	wild cherry flavored brandy
+1	wild hibiscus flower
+1	wild hibiscus syrup wild hibiscus flower company
+1	wild nettle cordial
+1	wine tannin
+1	witbeer
+1	witbeer ommegang
+1	wkd original blue
+1	wolfberger amer orange
+1	wood s 100 rum
+1	xo
+1	xo liqueur
+1	xocolate bitter
+1	xtabentun casa d aristi
+1	yogurt liqueur bol
+1	yogurt liquor
 1	yukon jack
+1	yuzu sake
+1	yuzu vinegar genki su
+1	yvette
+1	zhuyeqing liquor
+1	zin
+1	zoco pacharan navarro

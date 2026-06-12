@@ -19,6 +19,27 @@ from .data import Ingredient
 
 PANTRY = engine.PANTRY
 
+# Conscious category substitutions (e.g. Dubonnet served as sweet vermouth):
+# kept merged for co-occurrence but surfaced at resolve time so Cobber
+# announces the swap instead of hiding it. Keyed by normalized input name.
+import json as _json
+from pathlib import Path as _Path
+
+def _load_proxy_notes() -> dict:
+    path = _Path(__file__).resolve().parents[2] / "data" / "proxy_substitutions.json"
+    if not path.exists():
+        return {}
+    with path.open(encoding="utf-8") as handle:
+        raw = _json.load(handle)
+    notes: dict[str, dict] = {}
+    for entry in raw.values():
+        alias = str(entry.get("alias", "")).strip().lower()
+        if alias:
+            notes[alias] = entry
+    return notes
+
+PROXY_NOTES = _load_proxy_notes()
+
 # The character + workflow brief handed to the host Claude. First the persona,
 # then the exact tool dance to run when a user describes what they have.
 INSTRUCTIONS = """\
@@ -34,14 +55,26 @@ novel it is, whether a combination is roughly balanced); you do the creativity
 (interpreting a vague brief, picking a direction, writing the actual recipe and
 name). Keep the chemistry in the tools and the imagination in your own head.
 
+Work in a bartender's order: aroma first (do the smells belong together — the
+harmony score), then layering (what's missing — a bitter, a spice, a modifier),
+then balance (the structure reading: sour-balanced, bittersweet, savoury).
+
 Workflow when someone tells you what they have:
 1. Call `resolve_ingredients` on their free-text list to turn it into known ids.
-   Mention anything that came back unknown and offer to work around it.
+   Mention anything that came back unknown and offer to work around it. If the
+   result lists `provisional` ids, say so plainly — "my data on X is unverified,
+   so I'm part guessing there" — don't present provisional grounding as settled.
 2. The drink must be built around 2-3 nominated anchors. If they haven't picked
    2-3, ask them which two or three ingredients they want at the heart of it.
 3. Call `suggest_from_pantry` with the full pantry and the anchors. Offer the
-   native twist if they didn't ask for it.
-4. Take the best one or two suggestions and write them up as real cocktails:
+   native twist if they didn't ask for it. Each suggestion's `balance` includes
+   a `structure` reading and `taste_notes` — relay any hazard notes (split risk,
+   savoury counterweights) as practical bar advice, not fine print.
+4. When a suggestion scores high on novelty, call `frontier_support` on its key
+   pair: if craft bartenders have done it, cite the named example; if not, say
+   it's genuinely untried as far as the data knows. That distinction is the
+   whole point of Cobber.
+5. Take the best one or two suggestions and write them up as real cocktails:
    method, ratios, glass, garnish, and a name. Ground every "why" you give in
    `explain_pairing` so your reasoning matches the actual shared compounds — never
    invent flavour chemistry.
@@ -88,13 +121,25 @@ def _resolve_one(name: str) -> str | None:
 
 def _describe(ingredient: Ingredient) -> dict:
     """Return a small, JSON-friendly summary of an ingredient for tool output."""
-    return {
+    summary = {
         "id": ingredient.id,
         "display_name": ingredient.display_name,
         "role": ingredient.role,
         "descriptors": list(ingredient.descriptors),
         "is_native": ingredient.is_native,
     }
+    if ingredient.provisional:
+        summary["provisional"] = True
+    return summary
+
+
+def _provisional_among(ingredient_ids: list[str]) -> list[str]:
+    """The subset of ids whose data is flagged unverified - tell the user."""
+    return sorted(
+        ingredient_id
+        for ingredient_id in set(ingredient_ids)
+        if (ingredient := PANTRY.get(ingredient_id)) is not None and ingredient.provisional
+    )
 
 
 @mcp.tool()
@@ -107,13 +152,30 @@ def resolve_ingredients(names: list[str]) -> dict:
     """
     resolved: dict[str, str] = {}
     unknown: list[str] = []
+    substitutions: list[dict] = []
     for name in names:
         ingredient_id = _resolve_one(name)
+        proxy = PROXY_NOTES.get(name.strip().lower())
+        if ingredient_id is None and proxy is not None:
+            # A known category proxy (Dubonnet -> sweet vermouth): resolve it to
+            # the stand-in rather than calling it unknown, and announce the swap.
+            ingredient_id = proxy["served_as"]
         if ingredient_id is None:
             unknown.append(name)
         else:
             resolved[name] = ingredient_id
-    return {"resolved": resolved, "unknown": unknown}
+        if proxy is not None:
+            substitutions.append({"input": name, "served_as": proxy["served_as"], "note": proxy["note"]})
+    return {
+        "resolved": resolved,
+        "unknown": unknown,
+        # Data honesty: these matched, but their flavour data is unverified.
+        # Mention it to the user when they matter to the drink.
+        "provisional": _provisional_among(list(resolved.values())),
+        # Conscious category swaps to announce ("no exact Dubonnet - scoring as
+        # sweet vermouth"), not to hide.
+        "substitutions": substitutions,
+    }
 
 
 @mcp.tool()
@@ -125,12 +187,19 @@ def score_pairing(a: str, b: str) -> dict:
     novelty is high when the chemistry supports a pairing few people actually make.
     """
     harmony_score, shared = engine.harmony(a, b)
-    return {
+    result = {
         "harmony": round(harmony_score, 4),
         "tradition": round(engine.tradition(a, b), 4),
         "novelty": round(engine.novelty(a, b), 4),
         "shared_compounds": sorted(shared),
     }
+    frontier = engine.frontier_support(a, b)
+    if frontier is not None:
+        result["frontier"] = frontier
+    provisional = _provisional_among([a, b])
+    if provisional:
+        result["provisional"] = provisional
+    return result
 
 
 @mcp.tool()
@@ -155,7 +224,7 @@ def suggest_from_pantry(
         suggestions = engine.build_around(pantry, anchors, native_twist, n)
     except ValueError as exc:
         return {"error": str(exc)}
-    return {"suggestions": suggestions}
+    return {"suggestions": suggestions, "provisional": _provisional_among(pantry)}
 
 
 @mcp.tool()
@@ -177,11 +246,21 @@ def explain_pairing(a: str, b: str) -> str:
     name_b = ingredient_b.display_name
 
     if not shared:
-        return (
+        no_bridge = (
             f"{name_a} and {name_b} don't share any flavour compounds, so there's "
             "no natural bridge between them — you'd be relying on contrast, not "
             "harmony, to make it work."
         )
+        frontier = engine.frontier_support(a, b)
+        if frontier is not None and frontier.get("examples"):
+            example = frontier["examples"][0]
+            attribution = f" by {example['bartender']}" if example.get("bartender") else ""
+            no_bridge += (
+                f" That said, contrast can absolutely work: craft bartenders have "
+                f"paired them {frontier['count']}x in the frontier corpus "
+                f"(e.g. \"{example['drink']}\"{attribution})."
+            )
+        return no_bridge
 
     shared_list = ", ".join(sorted(shared))
     trad = engine.tradition(a, b)
@@ -192,10 +271,30 @@ def explain_pairing(a: str, b: str) -> str:
     else:
         verdict = "It's an uncommon but well-grounded pairing."
 
-    return (
+    sentences = [
         f"{name_a} and {name_b} both carry {shared_list}, which is why the bridge "
         f"works (harmony {harmony_score:.2f}). {verdict}"
-    )
+    ]
+
+    frontier = engine.frontier_support(a, b)
+    if frontier is not None and trad <= 0.3 and frontier.get("examples"):
+        example = frontier["examples"][0]
+        attribution = f" by {example['bartender']}" if example.get("bartender") else ""
+        sentences.append(
+            f"Rarely done in the canon, but craft bartenders have proven it "
+            f"({frontier['count']}x in the frontier corpus, e.g. "
+            f"\"{example['drink']}\"{attribution})."
+        )
+
+    provisional = _provisional_among([a, b])
+    if provisional:
+        names = ", ".join(provisional)
+        sentences.append(
+            f"Heads up: the flavour data for {names} is provisional (unverified), "
+            "so treat this read as a strong hunch, not settled chemistry."
+        )
+
+    return " ".join(sentences)
 
 
 @mcp.tool()
@@ -231,6 +330,24 @@ def get_native_twist(base_id: str, n: int = 3) -> list[dict]:
             )
     scored.sort(key=lambda item: item["harmony"], reverse=True)
     return scored[:n]
+
+
+@mcp.tool()
+def frontier_support(a: str, b: str) -> dict:
+    """Check whether craft bartenders have validated a pairing in the wild.
+
+    The frontier corpus (craft bars, competitions) is kept separate from the
+    tradition score: it proves a novel pairing works in a glass without making
+    it "traditional". Use this when a suggestion scores high on novelty - if
+    there's support, cite it ("rarely done, but X built 'Y' on it"); if there
+    isn't, say the pairing is genuinely untried as far as the data knows.
+
+    Returns ``{"supported": bool, "count": int, "examples": [...]}``.
+    """
+    evidence = engine.frontier_support(a, b)
+    if evidence is None:
+        return {"supported": False, "count": 0, "examples": []}
+    return {"supported": True, **evidence}
 
 
 def main() -> None:

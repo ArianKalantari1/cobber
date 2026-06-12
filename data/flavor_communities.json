@@ -1,0 +1,244 @@
+[
+  {
+    "head": "lime",
+    "size": 8,
+    "members": [
+      "lime",
+      "orange",
+      "white_rum",
+      "pineapple",
+      "pomegranate",
+      "grenadine",
+      "tequila",
+      "agave"
+    ]
+  },
+  {
+    "head": "sugar_syrup",
+    "size": 8,
+    "members": [
+      "sugar_syrup",
+      "lemon",
+      "egg_white",
+      "soda_water",
+      "egg_yolk",
+      "whole_egg",
+      "port",
+      "nutmeg"
+    ]
+  },
+  {
+    "head": "cherry_liqueur",
+    "size": 6,
+    "members": [
+      "cherry_liqueur",
+      "yellow_chartreuse",
+      "fernet",
+      "rye_whiskey",
+      "mezcal",
+      "aperol"
+    ]
+  },
+  {
+    "head": "cream",
+    "size": 6,
+    "members": [
+      "cream",
+      "coffee",
+      "coffee_liqueur",
+      "milk",
+      "irish_cream",
+      "sambuca"
+    ]
+  },
+  {
+    "head": "gin",
+    "size": 6,
+    "members": [
+      "gin",
+      "dry_vermouth",
+      "orange_bitters",
+      "apricot",
+      "sherry",
+      "lime_vodka"
+    ]
+  },
+  {
+    "head": "vodka",
+    "size": 6,
+    "members": [
+      "vodka",
+      "cranberry",
+      "sparkling_wine",
+      "creme_de_cacao",
+      "raspberry_liqueur",
+      "raspberry"
+    ]
+  },
+  {
+    "head": "cherry",
+    "size": 5,
+    "members": [
+      "cherry",
+      "maraschino",
+      "grapefruit",
+      "green_chartreuse",
+      "irish_whiskey"
+    ]
+  },
+  {
+    "head": "angostura_bitters",
+    "size": 4,
+    "members": [
+      "angostura_bitters",
+      "bourbon",
+      "calvados",
+      "maple_syrup"
+    ]
+  },
+  {
+    "head": "apple",
+    "size": 4,
+    "members": [
+      "apple",
+      "elderflower",
+      "passionfruit",
+      "brown_sugar"
+    ]
+  },
+  {
+    "head": "brandy",
+    "size": 4,
+    "members": [
+      "brandy",
+      "absinthe",
+      "benedictine",
+      "peychauds_bitters"
+    ]
+  },
+  {
+    "head": "peach",
+    "size": 4,
+    "members": [
+      "peach",
+      "peach_schnapps",
+      "blue_curacao",
+      "rosemary"
+    ]
+  },
+  {
+    "head": "salt",
+    "size": 4,
+    "members": [
+      "salt",
+      "black_pepper",
+      "worcestershire",
+      "tomato"
+    ]
+  },
+  {
+    "head": "almond",
+    "size": 3,
+    "members": [
+      "almond",
+      "ginger",
+      "clove"
+    ]
+  },
+  {
+    "head": "anise",
+    "size": 3,
+    "members": [
+      "anise",
+      "creme_de_menthe",
+      "vanilla"
+    ]
+  },
+  {
+    "head": "citron_vodka",
+    "size": 3,
+    "members": [
+      "citron_vodka",
+      "galliano",
+      "limoncello"
+    ]
+  },
+  {
+    "head": "coconut",
+    "size": 3,
+    "members": [
+      "coconut",
+      "coconut_liqueur",
+      "cointreau"
+    ]
+  },
+  {
+    "head": "ginger_ale",
+    "size": 3,
+    "members": [
+      "ginger_ale",
+      "cola",
+      "spiced_rum"
+    ]
+  },
+  {
+    "head": "orgeat",
+    "size": 3,
+    "members": [
+      "orgeat",
+      "strawberry",
+      "pink_peppercorn"
+    ]
+  },
+  {
+    "head": "red_wine",
+    "size": 3,
+    "members": [
+      "red_wine",
+      "cinnamon",
+      "cardamom"
+    ]
+  },
+  {
+    "head": "scotch",
+    "size": 3,
+    "members": [
+      "scotch",
+      "honey",
+      "drambuie"
+    ]
+  },
+  {
+    "head": "sweet_vermouth",
+    "size": 3,
+    "members": [
+      "sweet_vermouth",
+      "campari",
+      "cynar"
+    ]
+  },
+  {
+    "head": "cachaca",
+    "size": 2,
+    "members": [
+      "cachaca",
+      "demerara"
+    ]
+  },
+  {
+    "head": "dark_rum",
+    "size": 2,
+    "members": [
+      "dark_rum",
+      "falernum"
+    ]
+  },
+  {
+    "head": "st_germain",
+    "size": 2,
+    "members": [
+      "st_germain",
+      "tonic_water"
+    ]
+  }
+]

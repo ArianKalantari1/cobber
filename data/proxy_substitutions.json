@@ -1,0 +1,17 @@
+{
+  "dubonnet": {
+    "alias": "dubonnet",
+    "served_as": "sweet_vermouth",
+    "note": "Dubonnet is a quinquina, not a vermouth — softer, quinine-bitter. Scored as sweet vermouth for now."
+  },
+  "lillet": {
+    "alias": "lillet blanc",
+    "served_as": "dry_vermouth",
+    "note": "Lillet Blanc is an aromatised wine; lighter and more floral than dry vermouth, different mouthfeel."
+  },
+  "cocchi americano": {
+    "alias": "cocchi americano",
+    "served_as": "dry_vermouth",
+    "note": "Cocchi Americano is a quinquina aperitif; more bitter/citrus than dry vermouth."
+  }
+}

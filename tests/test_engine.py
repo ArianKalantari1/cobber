@@ -81,8 +81,23 @@ def test_native_twist_attaches_a_swap_when_no_native_present():
 
 
 def test_classic_pair_has_positive_tradition():
-    """A classic pairing from the corpus should produce a positive tradition score."""
-    assert engine.tradition("tequila", "lime") > 0.1
+    """The spec's canonical pair (gin + lime) must score clearly positive.
+
+    Under the old raw-NPMI score this landed at 0.0 — gin and lime are both so
+    common that co-occurring 12 times is no better than chance. The log-prevalence
+    score reflects how often the pairing is actually made, so a gimlet ranks high.
+    """
+    assert engine.tradition("gin", "lime") > 0.3
+
+
+def test_ubiquitous_classic_outranks_a_one_off_pair():
+    """A pair made in many recipes must out-score one seen in a single recipe.
+
+    This pins the fix for the NPMI inversion: lavender + St-Germain appeared in
+    exactly one recipe (raw NPMI = 1.0), yet must rank below the daiquiri's
+    lime + white rum, which the corpus makes constantly.
+    """
+    assert engine.tradition("white_rum", "lime") > engine.tradition("lavender", "st_germain")
 
 
 def test_unlisted_pair_defaults_to_zero_tradition():
@@ -94,3 +109,67 @@ def test_tradition_file_with_extra_fields_loads_cleanly():
     """Tradition rows with additive fields (count/confidence) should load and validate."""
     pantry = load_pantry()
     assert pantry.tradition
+
+
+def test_curated_taste_is_used_verbatim():
+    """An ingredient with curated taste data returns it, not a role prior."""
+    axes, derived = engine.taste_profile("salt")
+    assert not derived
+    assert axes == {"salty": 1.0}
+
+
+def test_missing_taste_falls_back_to_role_prior_and_is_flagged():
+    """An uncurated ingredient derives a coarse prior from its role, flagged."""
+    axes, derived = engine.taste_profile("pineapple")  # fruit role, no curated taste
+    assert derived
+    assert axes == {"sweet": 0.3, "sour": 0.3}
+
+
+def test_savoury_crossover_bridges_via_shared_compounds():
+    """Miso and coffee share roasty pyrazines — the umami crossover has real chemistry."""
+    score, shared = engine.harmony("miso", "coffee")
+    assert score > 0
+    assert "pyrazine" in shared
+
+
+def test_balance_flags_dairy_acid_split_risk():
+    """Cream plus citrus must surface the split hazard a bartender would flag."""
+    result = engine.balance(["gin", "cream", "lemon"])
+    assert any("split" in note.lower() for note in result["taste_notes"])
+
+
+def test_balance_reads_savoury_structure():
+    """A Bloody Mary build should read as savoury, not as a sour."""
+    result = engine.balance(["vodka", "tomato", "worcestershire", "salt", "lemon"])
+    assert result["structure"] == "savoury"
+
+
+def test_balance_still_returns_original_keys():
+    """The taste layer is additive: the original role-check contract holds."""
+    result = engine.balance(["gin", "lime", "sugar_syrup"])
+    assert result["ok"] is True
+    assert "roles_present" in result and "warning" in result
+
+
+def test_frontier_support_returns_attributed_evidence():
+    """A pairing seen in the craft corpus comes back with count and examples."""
+    evidence = engine.frontier_support("gin", "honey")
+    assert evidence is not None
+    assert evidence["count"] >= 1
+    assert evidence["examples"] and "drink" in evidence["examples"][0]
+
+
+def test_frontier_support_is_separate_from_tradition():
+    """Frontier evidence must not have leaked into the tradition score's corpus.
+
+    miso never appears in a canon recipe, so any pairing with it has zero
+    tradition — even if a craft bartender someday uses it (frontier channel).
+    """
+    assert engine.tradition("miso", "bourbon") == 0.0
+
+
+def test_provisional_flag_is_loaded_from_notes():
+    """Entries flagged TODO-verify/PROVISIONAL in notes carry provisional=True."""
+    pantry = load_pantry()
+    assert pantry.get("miso").provisional is True
+    assert pantry.get("lemon").provisional is False
