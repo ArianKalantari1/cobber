@@ -13,13 +13,19 @@
       "blend": 2,
       "dry_shake_first_shake": 1
     },
-    "has_dairy": {
-      "shake": 22,
-      "build": 19,
-      "blend": 12,
-      "stir": 8,
-      "layer": 10,
+    "has_dairy_and_acid": {
+      "shake": 2,
+      "blend": 2,
+      "build": 1,
+      "stir": 1,
       "dry_shake_first_shake": 1
+    },
+    "has_dairy_no_acid": {
+      "shake": 20,
+      "build": 18,
+      "blend": 10,
+      "stir": 7,
+      "layer": 10
     },
     "has_herb_acid_and_carb": {
       "build": 2
@@ -32,14 +38,13 @@
       "throw": 1
     },
     "has_acid": {
-      "shake": 93,
-      "stir": 33,
-      "blend": 18,
+      "shake": 86,
+      "stir": 32,
+      "blend": 16,
       "layer": 5,
-      "build": 37,
+      "build": 36,
       "throw": 1,
-      "muddle_build": 1,
-      "dry_shake_first_shake": 1
+      "muddle_build": 1
     },
     "has_carb_only": {
       "muddle_build": 1,
@@ -50,13 +55,7 @@
       "layer": 1,
       "muddle_shake": 1
     },
-    "has_herb": {
-      "muddle_build": 4,
-      "blend": 5,
-      "build": 2,
-      "stir": 3,
-      "shake": 1
-    },
+    "has_herb": {},
     "has_herb_no_acid": {
       "muddle_build": 4,
       "blend": 4,
@@ -79,12 +78,17 @@
       "rocks": 2,
       "punch": 1
     },
-    "has_dairy": {
-      "coupe": 16,
+    "has_dairy_and_acid": {
+      "coupe": 2,
+      "highball": 3,
+      "tiki": 1
+    },
+    "has_dairy_no_acid": {
+      "coupe": 14,
       "flute": 2,
-      "highball": 19,
+      "highball": 16,
       "rocks": 1,
-      "tiki": 15,
+      "tiki": 14,
       "shot": 10,
       "wine": 1
     },
@@ -100,11 +104,11 @@
       "flute": 2
     },
     "has_acid": {
-      "coupe": 68,
-      "tiki": 5,
+      "coupe": 65,
+      "tiki": 4,
       "flute": 3,
-      "rocks": 16,
-      "highball": 72,
+      "rocks": 15,
+      "highball": 67,
       "punch": 5,
       "shot": 3,
       "wine": 3
@@ -116,11 +120,7 @@
       "coupe": 2,
       "wine": 1
     },
-    "has_herb": {
-      "highball": 7,
-      "rocks": 3,
-      "coupe": 1
-    },
+    "has_herb": {},
     "has_herb_no_acid": {
       "highball": 5,
       "rocks": 1,
@@ -198,22 +198,36 @@
       "notes": "This trigger sits above plain 'has_acid' to ensure Collins/Fizz builds get highball service rather than coupe."
     },
     {
-      "id": "dairy_shake",
+      "id": "dairy_acid_shake",
       "priority": 5,
-      "trigger": "has_dairy",
+      "trigger": "has_dairy_and_acid",
       "method": "shake",
       "pre_steps": [],
       "service": "up",
       "glass": "coupe",
       "ice_in_glass": false,
-      "rationale": "Cream and dairy require vigorous shaking to emulsify.",
-      "data_confidence": 0.31,
-      "data_support": 72,
-      "notes": "data_confidence is lower than expected because the corpus includes layered cream drinks (Irish Coffee floats, Pousse-Café) and hot drinks where cream is a topping — these are not shaken."
+      "rationale": "Cream + citrus requires vigorous shaking to emulsify the dairy and integrate the acid (White Lady, Ramos Gin Fizz base).",
+      "data_confidence": 0.29,
+      "data_support": 7
+    },
+    {
+      "id": "dairy_build",
+      "priority": 6,
+      "trigger": "has_dairy_no_acid",
+      "method": "build",
+      "pre_steps": [],
+      "service": "rocks",
+      "glass": "rocks",
+      "ice_in_glass": true,
+      "ice_note": "A large single ice cube keeps dilution slow while chilling the cream — preferred over cracked/cubed for White Russian-style builds.",
+      "rationale": "Cream without acid (White Russian, Irish Coffee cream) is built over ice — no emulsification needed, and shaking over-aerates the dairy.",
+      "data_confidence": 0.28,
+      "data_support": 65,
+      "notes": "'Cream' in many classic recipes means half-and-half (half milk, half cream), not pure heavy cream; either works for the build method."
     },
     {
       "id": "acid_shake",
-      "priority": 6,
+      "priority": 7,
       "trigger": "has_acid",
       "method": "shake",
       "pre_steps": [],
@@ -222,12 +236,12 @@
       "ice_in_glass": false,
       "rationale": "Citrus juice requires shaking to integrate, aerate, and dilute.",
       "data_confidence": 0.49,
-      "data_support": 189,
+      "data_support": 177,
       "notes": "data_confidence includes shots, hot drinks, and punches in the denominator — purely cocktail data would score higher."
     },
     {
       "id": "herb_muddle_build",
-      "priority": 7,
+      "priority": 8,
       "trigger": "has_herb_no_acid",
       "method": "build",
       "pre_steps": [
@@ -242,7 +256,7 @@
     },
     {
       "id": "spirit_only_stir",
-      "priority": 8,
+      "priority": 9,
       "trigger": "spirit_only",
       "method": "stir",
       "pre_steps": [],
@@ -256,7 +270,7 @@
     },
     {
       "id": "default",
-      "priority": 9,
+      "priority": 10,
       "trigger": "default",
       "method": "build",
       "pre_steps": [],

@@ -339,6 +339,29 @@ def test_sour_highball_gets_highball_service():
     assert "carbonation_note" in t, "Collins build must include carbonation assembly note"
 
 
+def test_dairy_with_acid_shakes():
+    """Cream + citrus (White Lady family) should shake, not build."""
+    t = engine.suggest_technique(["gin", "cointreau", "lemon", "cream"])
+    assert t is not None
+    assert t["method"] == "shake", (
+        f"Cream + citrus must shake (White Lady family), got {t['method']!r}"
+    )
+    assert t["service"] == "up"
+
+
+def test_dairy_without_acid_builds_on_rocks():
+    """Cream without citrus (White Russian family) should build on rocks, not shake."""
+    t = engine.suggest_technique(["vodka", "coffee_liqueur", "cream"])
+    assert t is not None
+    assert t["method"] == "build", (
+        f"Cream without acid must build (White Russian family), got {t['method']!r}"
+    )
+    assert t["service"] == "rocks", (
+        f"White Russian family should serve on rocks, got {t['service']!r}"
+    )
+    assert "ice_note" in t, "White Russian build rule must include ice note"
+
+
 def test_technique_in_build_around_output():
     """build_around must include a technique field in each suggestion."""
     results = engine.build_around(

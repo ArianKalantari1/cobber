@@ -132,13 +132,14 @@ def detect_signals(ingredient_names: list[str]) -> dict[str, bool]:
     has_herb      = _has(ingredient_names, _HERB_FRAGMENTS)
 
     return {
-        "has_egg_white":       has_egg_white,
-        "has_dairy":           has_dairy and not has_egg_white,
-        "has_acid":            has_acid,
-        "has_carb":            has_carb,
-        "has_herb":            has_herb,
-        "has_acid_and_carb":         has_acid and has_carb and not has_herb,
+        "has_egg_white":             has_egg_white,
+        # Dairy split: cream+acid (White Lady, Ramos) → shake;
+        # cream alone (White Russian) → build over a big rock.
+        "has_dairy_and_acid":        has_dairy and has_acid and not has_egg_white,
+        "has_dairy_no_acid":         has_dairy and not has_acid and not has_egg_white,
         "has_herb_acid_and_carb":    has_herb and has_acid and has_carb,
+        "has_acid_and_carb":         has_acid and has_carb and not has_herb,
+        "has_acid":                  has_acid and not has_dairy,
         "has_carb_only":             has_carb and not has_acid and not has_dairy,
         "has_herb_no_acid":          has_herb and not has_acid,
         "spirit_only": (
@@ -195,7 +196,7 @@ def build_evidence(tdb_data: list[dict], iba_data: list[dict]) -> dict:
 
     # Aggregate: signal → technique → count
     signal_order = [
-        "has_egg_white", "has_dairy",
+        "has_egg_white", "has_dairy_and_acid", "has_dairy_no_acid",
         "has_herb_acid_and_carb", "has_acid_and_carb", "has_acid",
         "has_carb_only", "has_herb", "has_herb_no_acid", "spirit_only",
     ]
@@ -332,32 +333,61 @@ def build_rules(freq: dict[str, Counter], glass_freq: dict[str, Counter]) -> lis
         ),
     })
 
-    # Rule 5: Dairy (no egg white) → shake, served up
-    conf, sup = _confidence(freq["has_dairy"], "shake")
+    # Rule 5: Dairy + acid → shake, served up (cream sours: White Lady, Ramos base)
+    conf, sup = _confidence(freq["has_dairy_and_acid"], "shake")
     rules.append({
-        "id": "dairy_shake",
+        "id": "dairy_acid_shake",
         "priority": 5,
-        "trigger": "has_dairy",
+        "trigger": "has_dairy_and_acid",
         "method": "shake",
         "pre_steps": [],
         "service": "up",
         "glass": "coupe",
         "ice_in_glass": False,
-        "rationale": "Cream and dairy require vigorous shaking to emulsify.",
+        "rationale": (
+            "Cream + citrus requires vigorous shaking to emulsify the dairy "
+            "and integrate the acid (White Lady, Ramos Gin Fizz base)."
+        ),
+        "data_confidence": conf,
+        "data_support": sup,
+    })
+
+    # Rule 6: Dairy, no acid → build over a large ice cube, rocks glass
+    # (White Russian, Irish Coffee with cream, etc.)
+    # Note: 'cream' in many recipes means half-and-half, not pure heavy cream —
+    # the build method works for both; shaking heavy cream without acid
+    # risks over-aeration and a foamy texture that doesn't suit these drinks.
+    conf, sup = _confidence(freq["has_dairy_no_acid"], "build")
+    rules.append({
+        "id": "dairy_build",
+        "priority": 6,
+        "trigger": "has_dairy_no_acid",
+        "method": "build",
+        "pre_steps": [],
+        "service": "rocks",
+        "glass": "rocks",
+        "ice_in_glass": True,
+        "ice_note": (
+            "A large single ice cube keeps dilution slow while chilling the cream — "
+            "preferred over cracked/cubed for White Russian-style builds."
+        ),
+        "rationale": (
+            "Cream without acid (White Russian, Irish Coffee cream) is built over "
+            "ice — no emulsification needed, and shaking over-aerates the dairy."
+        ),
         "data_confidence": conf,
         "data_support": sup,
         "notes": (
-            "data_confidence is lower than expected because the corpus includes "
-            "layered cream drinks (Irish Coffee floats, Pousse-Café) and hot "
-            "drinks where cream is a topping — these are not shaken."
+            "'Cream' in many classic recipes means half-and-half (half milk, half "
+            "cream), not pure heavy cream; either works for the build method."
         ),
     })
 
-    # Rule 6: Acid (no carbonation) → shake, served up
+    # Rule 7: Acid (no carbonation, no dairy) → shake, served up
     conf, sup = _confidence(freq["has_acid"], "shake")
     rules.append({
         "id": "acid_shake",
-        "priority": 6,
+        "priority": 7,
         "trigger": "has_acid",
         "method": "shake",
         "pre_steps": [],
@@ -373,11 +403,11 @@ def build_rules(freq: dict[str, Counter], glass_freq: dict[str, Counter]) -> lis
         ),
     })
 
-    # Rule 7: Fresh herb, no acid → muddle then build (Smash family)
+    # Rule 8: Fresh herb, no acid → muddle then build (Smash family)
     conf, sup = _confidence(freq["has_herb_no_acid"], "muddle_build")
     rules.append({
         "id": "herb_muddle_build",
-        "priority": 7,
+        "priority": 8,
         "trigger": "has_herb_no_acid",
         "method": "build",
         "pre_steps": ["muddle"],
@@ -392,11 +422,11 @@ def build_rules(freq: dict[str, Counter], glass_freq: dict[str, Counter]) -> lis
         "data_support": sup,
     })
 
-    # Rule 8: Spirit-only → stir, serve on rocks (or up for spirit+vermouth)
+    # Rule 9: Spirit-only → stir, serve on rocks (or up for spirit+vermouth)
     conf, sup = _confidence(freq["spirit_only"], "stir")
     rules.append({
         "id": "spirit_only_stir",
-        "priority": 8,
+        "priority": 9,
         "trigger": "spirit_only",
         "method": "stir",
         "pre_steps": [],
@@ -416,10 +446,10 @@ def build_rules(freq: dict[str, Counter], glass_freq: dict[str, Counter]) -> lis
         ),
     })
 
-    # Rule 9: Default fallback
+    # Rule 10: Default fallback
     rules.append({
         "id": "default",
-        "priority": 9,
+        "priority": 10,
         "trigger": "default",
         "method": "build",
         "pre_steps": [],

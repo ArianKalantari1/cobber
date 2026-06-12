@@ -433,12 +433,13 @@ def _detect_technique_signals(ingredient_ids: list[str]) -> dict[str, bool]:
 
     return {
         "has_egg_white":            has_egg_white,
-        "has_dairy":                has_dairy and not has_egg_white,
-        "has_acid":                 has_acid,
-        "has_carb":                 has_carb,
-        "has_herb":                 has_herb,
+        # Dairy split: cream+acid → shake (White Lady, Ramos);
+        # cream alone → build over rocks (White Russian, Irish Coffee).
+        "has_dairy_and_acid":       has_dairy and has_acid and not has_egg_white,
+        "has_dairy_no_acid":        has_dairy and not has_acid and not has_egg_white,
         "has_herb_acid_and_carb":   has_herb and has_acid and has_carb,
         "has_acid_and_carb":        has_acid and has_carb and not has_herb,
+        "has_acid":                 has_acid and not has_dairy,
         "has_carb_only":            has_carb and not has_acid and not has_dairy,
         "has_herb_no_acid":         has_herb and not has_acid,
         "spirit_only": (
@@ -454,14 +455,16 @@ def suggest_technique(ingredient_ids: list[str]) -> dict | None:
     and the matched rule id — or None if no rules are loaded.
 
     Priority order (first matching rule wins):
-      1. egg_white      → dry shake then shake, served up
-      2. highball_build → build (carbonation only, no acid)
-      3. sour_highball  → shake base, top with carbonation, highball glass
-      4. dairy_shake    → shake, served up
-      5. acid_shake     → shake, served up
-      6. herb_muddle_build → muddle then build, rocks
-      7. spirit_only    → stir, rocks
-      8. default        → build, rocks
+      1.  egg_white           → dry shake then shake, up/coupe
+      2.  highball_build      → build, carbonation only (Highball, G&T)
+      3.  mojito_muddle_build → muddle + build + top w/ soda (Mojito family)
+      4.  sour_highball       → shake base + top w/ soda, highball (Collins)
+      5.  dairy_acid_shake    → shake, up/coupe (White Lady, Ramos)
+      6.  dairy_build         → build, rocks/big ice (White Russian family)
+      7.  acid_shake          → shake, up/coupe (Daiquiri, Sour)
+      8.  herb_muddle_build   → muddle + build, rocks (Smash)
+      9.  spirit_only_stir    → stir, rocks (Old Fashioned, Negroni, Manhattan)
+      10. default             → build, rocks
     """
     if not PANTRY.technique_rules:
         return None
@@ -482,6 +485,8 @@ def suggest_technique(ingredient_ids: list[str]) -> dict | None:
             }
             if rule.get("carbonation_note"):
                 result["carbonation_note"] = rule["carbonation_note"]
+            if rule.get("ice_note"):
+                result["ice_note"] = rule["ice_note"]
             if rule.get("notes"):
                 result["rule_notes"] = rule["notes"]
             return result
