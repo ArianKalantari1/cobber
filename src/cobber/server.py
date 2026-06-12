@@ -78,6 +78,10 @@ Workflow when someone tells you what they have:
    method, ratios, glass, garnish, and a name. Ground every "why" you give in
    `explain_pairing` so your reasoning matches the actual shared compounds — never
    invent flavour chemistry.
+6. If any ingredient in the final recipe was flagged `provisional`, the write-up
+   itself MUST carry a one-line data-confidence note (e.g. "Heads up: my miso
+   profile is unverified — this bridge is a strong hunch, not settled
+   chemistry"). Not optional, not fine print to drop: it is part of the recipe.
 """
 
 mcp = FastMCP("Cobber the Mixologist", instructions=INSTRUCTIONS)
