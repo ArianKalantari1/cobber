@@ -52,10 +52,10 @@ first for the project's thinking; this file is "where we are and what's next".*
 
 ## Known concerns / watch items
 
-- `dubonnet → sweet_vermouth`, `yellow chartreuse → green_chartreuse`,
-  `sloe gin → gin`, `lillet → dry_vermouth` are pragmatic category mappings —
-  acceptable for co-occurrence, worth revisiting if those ids ever get their
-  own entries.
+- Category proxies that remain merged (`dubonnet → sweet_vermouth`,
+  `lillet`/`cocchi → dry_vermouth`, `bianco → sweet_vermouth`) are now surfaced
+  at resolve time (see the de-proxying section below); revisit if they get
+  their own entries. (yellow chartreuse / sloe gin / spiced rum already split.)
 - Dose thresholds are in absolute oz and US-normed. When ratio/strength
   modelling lands, switch to proportion-of-drink (pour-culture independent —
   Ari notes AU bars cap ~60 ml spirit per drink, US guides pour bigger).
