@@ -1,6 +1,6 @@
 # Handoff — current state of the co-occurrence work
 
-*Updated 11 June 2026 (evening session, branch `claude/gallant-tesla-n1ad47`).
+*Updated 12 June 2026 (session, branch `claude/gallant-tesla-n1ad47`, PR #4).
 Supersedes the original Copilot handoff. Read `docs/cobber-design-notes.md`
 first for the project's thinking; this file is "where we are and what's next".*
 
@@ -15,12 +15,66 @@ first for the project's thinking; this file is "where we are and what's next".*
 - Difford's + Kindred come from the cocktailApp CRAN package (LGPL-3,
   scraped 2017-18 by its author who disclaims copyright; we mirror it as a
   published research dataset — provenance noted in fetch_cocktailapp.py).
-- **Tests:** 18 passing (`python -m pytest tests/ -q`).
+- **Proportion templates:** 12 templates in `data/proportion_templates.json`
+  (10 k-means + 2 equal-parts overlays) from ~8,400 cocktailapp recipes.
+  PROVISIONAL — Ari to name the templates.
+- **Tests:** 32 passing (`python -m pytest tests/ -q`).
 - **Flavour families:** 22 diagnostic clusters in `data/flavor_communities.json`
   that read like a bar menu (daiquiri/mojito family, martini family,
   after-dinner cream-coffee family, tiki, mulled-wine spices…).
 
-## Decisions made this session (and why)
+## Decisions made this session (12 June 2026) — proportion templates
+
+1. **Two role vocabularies, not one.** Cobber's 10-role balance vocabulary
+   (spirit/sour/sweet/bitter/aromatic/fruit/herb/dairy/mixer/seasoning) is
+   designed for balance checks, not proportion clustering. Templates use a
+   separate 9-role *structural* vocabulary (spirit/liqueur/amaro/
+   vermouth_fortified/acid/sweet/juice_mixer/lengthener/egg_cream) that maps
+   onto cocktail-structure archetypes (Sour, Old Fashioned, Negroni, Highball,
+   Flip). Bridged in engine.py via `_TEMPLATE_ROLE_BY_COBBER_ROLE` +
+   per-ingredient overrides (`_TEMPLATE_ROLE_OVERRIDES`). The two vocabularies
+   remain decoupled — balance uses its own, templates use theirs.
+2. **K-means at k=10, plus two equal-parts overlays.** Silhouette analysis
+   (k=5..14) peaked at k=5 (0.296) but that's too coarse for practical use
+   (Old Fashioned and Daiquiri collapse together). k=10 (0.266) gives usable
+   granularity. K-means *cannot* reliably discover equal-thirds clusters
+   (Negroni, Last Word) because those drinks sit exactly on centroid boundaries
+   — at k=9+ Negroni splits between "Amaro Build" and "Spirit+Vermouth". Fix:
+   a post-hoc equal-parts overlay detector with specific role-family criteria:
+   Negroni-style (spirit+amaro+vermouth_fortified each ≥25%, within 12%,
+   sum ≥75%), Last Word-style (spirit+liqueur+amaro+acid each ≥18%, within
+   12%, sum ≥75%). Result: 107 Negroni-overlay drinks, Negroni confirmed as
+   benchmark; 88 Last Word-overlay drinks.
+3. **Classifier bug fixed: brandies are spirits.** `cognac`, `calvados`,
+   `armagnac`, `pisco`, and `grappa` were initially in the liqueur keyword
+   list ("brandies often as modifiers") — wrong. They are base spirits and
+   belong in `_SPIRIT_CHECK`. The bug caused the Sidecar's cognac base to be
+   classified as liqueur, landing it in a "Liqueur-Forward" cluster. Fix
+   verified: Sidecar now correctly lands with Cosmopolitan/Margarita in the
+   Spirit+Liqueur cluster.
+4. **Pre-filter for absent roles prevents semantic mismatches.** Without it,
+   Old Fashioned (bourbon + bitters [excluded] + sugar = spirit 50%, sweet
+   50%) was closest to the Sour template (spirit 50%, acid 21%, sweet 16%)
+   because the L2 distance didn't penalise a missing acid dimension. Fix:
+   before computing distance, exclude any template that requires ≥10% of a
+   role absent from the combination. Old Fashioned → Spirit-Forward ✓;
+   Gimlet (spirit + lime) → Sour ✓; Highball (spirit + soda) → Highball ✓.
+5. **Proportions as fractions (0–1), not ml.** Pour culture is not uniform:
+   AU bars cap ~60 ml spirit, US guides pour bigger. All template centroids
+   are fractions of total pour volume. The host Claude scales to the session's
+   pour culture (e.g. "pick 45 ml spirit, scale everything else"). This also
+   makes the dose-gating proportion switch (roadmap concern) straightforward
+   when it lands.
+6. **All template names PROVISIONAL — Ari's bartender review required.**
+   `suggested_name` values in `data/proportion_templates.json` are
+   descriptive placeholders from the clustering (e.g. "Spirit-Forward Build",
+   "Sour Template", "Negroni Equal-Thirds"). Ari reviews the benchmarks +
+   centroids and renames before the engine treats any name as canonical.
+   The server INSTRUCTIONS already tell the host to use the structural
+   description ("a Sour-style build") rather than the template name when
+   PROVISIONAL — so the data gap is safe to ship.
+
+## Decisions made prior (and why)
 
 1. **Tradition = log-scaled prevalence, not raw NPMI.** Raw NPMI structurally
    zeroes ubiquitous classics (gin+lime scored 0.0 → the engine called a
@@ -56,9 +110,10 @@ first for the project's thinking; this file is "where we are and what's next".*
   `lillet`/`cocchi → dry_vermouth`, `bianco → sweet_vermouth`) are now surfaced
   at resolve time (see the de-proxying section below); revisit if they get
   their own entries. (yellow chartreuse / sloe gin / spiced rum already split.)
-- Dose thresholds are in absolute oz and US-normed. When ratio/strength
-  modelling lands, switch to proportion-of-drink (pour-culture independent —
-  Ari notes AU bars cap ~60 ml spirit per drink, US guides pour bigger).
+- Dose thresholds are in absolute oz and US-normed (normalize.py
+  `DEFAULT_IMPLY_MIN_OZ = 0.45`). Proportion templates now store fractions,
+  so the switch to proportion-of-drink is straightforward once Ari confirms
+  the templates — update normalize.py and remove this watch item then.
 - Many new entries are PROVISIONAL (flagged in `notes`) — compound profiles
   need a verification pass (Part B-style, with citations).
 - Token usage at runtime is a non-issue: the MCP server loads data into
@@ -180,13 +235,17 @@ unmatched list now — mine it for aliases gradually, no need to clear it.
 
 Priority order set with Ari after the two live runs:
 
-1. **Ratios / proportion templates (NEXT).** The cocktailApp extract holds
-   exact proportions for ~98k pours, unused. Cluster recipes by proportion
-   structure to learn the canonical templates (sour 2:1:1, Old Fashioned,
-   equal-thirds Negroni, highball...) so suggestions come with measured
-   ratios ("this wants the sour template: 45/25/20"), not host-invented
-   numbers. Also makes dose-gating proportion-based (kills the US/AU pour
-   issue) and is the foundation for texture + strength modelling.
+1. **Ratios / proportion templates — DONE, pending Ari's naming review.**
+   12 templates in `data/proportion_templates.json` (10 k-means + 2 equal-
+   parts overlays) from 8,416 cocktailapp recipes. `suggest_template()` in
+   engine.py matches any ingredient combination to the nearest template and
+   returns per-ingredient fractions; `build_around()` now includes a `template`
+   field in every suggestion. Server INSTRUCTIONS updated for step 5. 7 new
+   tests, 32 total. **OPEN:** Ari to review benchmark drinks + centroids and
+   name each template; until then all names are PROVISIONAL and the host uses
+   structural descriptions. Dose-gating-to-proportions deferred (roadmap
+   concern) — remove the absolute-oz watch item above once templates are
+   confirmed.
 2. **Technique mining.** TheCocktailDB instructions + IBA preparation fields
    are unmined: learn ingredient↔technique associations (citrus+egg→shake,
    spirit-only→stir, cream+acid→clarify-or-avoid). Design notes call this
