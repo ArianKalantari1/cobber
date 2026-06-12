@@ -563,10 +563,12 @@
     "implied": [],
     "literal": [
       "black_pepper",
+      "hot_sauce",
       "lemon",
       "salt",
       "tomato",
-      "vodka"
+      "vodka",
+      "worcestershire"
     ],
     "muted": [],
     "source": "iba"
@@ -961,7 +963,8 @@
       "orange",
       "salt",
       "tequila",
-      "tomato"
+      "tomato",
+      "worcestershire"
     ],
     "muted": [],
     "source": "iba"
@@ -3258,6 +3261,7 @@
     "implied": [],
     "literal": [
       "lemon",
+      "soy_sauce",
       "tomato"
     ],
     "muted": [],
@@ -3718,7 +3722,8 @@
       "lemon",
       "salt",
       "tomato",
-      "vodka"
+      "vodka",
+      "worcestershire"
     ],
     "muted": [],
     "source": "diffords"
@@ -4138,7 +4143,8 @@
       "lime",
       "pineapple",
       "st_germain",
-      "white_rum"
+      "white_rum",
+      "worcestershire"
     ],
     "muted": [],
     "source": "diffords"
@@ -6271,7 +6277,8 @@
       "orange",
       "pomegranate",
       "salt",
-      "tomato"
+      "tomato",
+      "worcestershire"
     ],
     "muted": [],
     "source": "diffords"
@@ -6513,7 +6520,8 @@
       "black_pepper",
       "lemon",
       "salt",
-      "tomato"
+      "tomato",
+      "worcestershire"
     ],
     "muted": [],
     "source": "diffords"
@@ -7973,7 +7981,8 @@
       "black_pepper",
       "lemon",
       "salt",
-      "vodka"
+      "vodka",
+      "worcestershire"
     ],
     "muted": [],
     "source": "diffords"
@@ -7988,7 +7997,8 @@
       "gin",
       "lime",
       "salt",
-      "tomato"
+      "tomato",
+      "worcestershire"
     ],
     "muted": [],
     "source": "diffords"
@@ -8001,7 +8011,8 @@
       "lemon",
       "salt",
       "scotch",
-      "tomato"
+      "tomato",
+      "worcestershire"
     ],
     "muted": [],
     "source": "diffords"
@@ -8014,7 +8025,8 @@
       "lemon",
       "salt",
       "tequila",
-      "tomato"
+      "tomato",
+      "worcestershire"
     ],
     "muted": [],
     "source": "diffords"
@@ -8025,7 +8037,8 @@
     "literal": [
       "black_pepper",
       "lemon",
-      "salt"
+      "salt",
+      "worcestershire"
     ],
     "muted": [],
     "source": "diffords"
@@ -8039,7 +8052,8 @@
       "salt",
       "sugar_syrup",
       "tomato",
-      "vodka"
+      "vodka",
+      "worcestershire"
     ],
     "muted": [],
     "source": "diffords"
@@ -8052,7 +8066,8 @@
       "lemon",
       "salt",
       "tomato",
-      "vodka"
+      "vodka",
+      "worcestershire"
     ],
     "muted": [],
     "source": "diffords"
@@ -8075,7 +8090,8 @@
       "black_pepper",
       "lemon",
       "salt",
-      "tomato"
+      "tomato",
+      "worcestershire"
     ],
     "muted": [],
     "source": "diffords"
@@ -9652,7 +9668,8 @@
       "black_pepper",
       "lemon",
       "salt",
-      "vodka"
+      "vodka",
+      "worcestershire"
     ],
     "muted": [],
     "source": "diffords"
@@ -10621,6 +10638,7 @@
     "drink": "Celery Gimlet #2",
     "implied": [],
     "literal": [
+      "celery",
       "gin",
       "green_chartreuse",
       "lime",
@@ -13197,7 +13215,8 @@
       "lemon",
       "salt",
       "tomato",
-      "white_rum"
+      "white_rum",
+      "worcestershire"
     ],
     "muted": [],
     "source": "diffords"
@@ -27919,6 +27938,16 @@
     "source": "diffords"
   },
   {
+    "drink": "Michelada",
+    "implied": [],
+    "literal": [
+      "lime",
+      "worcestershire"
+    ],
+    "muted": [],
+    "source": "diffords"
+  },
+  {
     "drink": "Midnight Moon",
     "implied": [
       "almond"
@@ -31726,7 +31755,8 @@
     "implied": [],
     "literal": [
       "lemon",
-      "tomato"
+      "tomato",
+      "worcestershire"
     ],
     "muted": [],
     "source": "diffords"
@@ -33324,7 +33354,8 @@
       "black_pepper",
       "brandy",
       "salt",
-      "tomato"
+      "tomato",
+      "worcestershire"
     ],
     "muted": [],
     "source": "diffords"
@@ -34562,7 +34593,8 @@
       "lemon",
       "salt",
       "sugar_syrup",
-      "tomato"
+      "tomato",
+      "worcestershire"
     ],
     "muted": [],
     "source": "diffords"
@@ -36085,7 +36117,8 @@
       "orange",
       "pomegranate",
       "salt",
-      "tomato"
+      "tomato",
+      "worcestershire"
     ],
     "muted": [],
     "source": "diffords"
@@ -41682,7 +41715,8 @@
       "black_pepper",
       "lemon",
       "salt",
-      "tomato"
+      "tomato",
+      "worcestershire"
     ],
     "muted": [],
     "source": "diffords"
@@ -48256,7 +48290,8 @@
     "implied": [],
     "literal": [
       "black_pepper",
-      "brandy"
+      "brandy",
+      "worcestershire"
     ],
     "muted": [],
     "source": "mrboston"
@@ -50963,7 +50998,8 @@
     "implied": [],
     "literal": [
       "black_pepper",
-      "brandy"
+      "brandy",
+      "worcestershire"
     ],
     "muted": [],
     "source": "mrboston"
@@ -51528,7 +51564,8 @@
     "implied": [],
     "literal": [
       "black_pepper",
-      "brandy"
+      "brandy",
+      "worcestershire"
     ],
     "muted": [],
     "source": "mrboston"
@@ -51566,6 +51603,7 @@
     "drink": "Vagabundo",
     "implied": [],
     "literal": [
+      "celery",
       "lime",
       "pineapple"
     ],
@@ -54604,6 +54642,7 @@
     "drink": "Hot Chocolate to Die for",
     "implied": [],
     "literal": [
+      "butter",
       "cream",
       "vanilla"
     ],
@@ -54921,6 +54960,19 @@
       "orange",
       "pineapple",
       "red_wine"
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
+  },
+  {
+    "drink": "Fahrenheit 5000",
+    "implied": [
+      "black_pepper",
+      "vodka"
+    ],
+    "literal": [
+      "hot_sauce",
+      "pepper_vodka"
     ],
     "muted": [],
     "source": "thecocktaildb"
@@ -55342,6 +55394,16 @@
       "orange",
       "triple_sec",
       "vanilla_vodka"
+    ],
+    "muted": [],
+    "source": "thecocktaildb"
+  },
+  {
+    "drink": "Tequila Surprise",
+    "implied": [],
+    "literal": [
+      "hot_sauce",
+      "tequila"
     ],
     "muted": [],
     "source": "thecocktaildb"
@@ -57985,11 +58047,14 @@
     "drink": "Mother Superior",
     "implied": [],
     "literal": [
+      "celery_bitters",
       "gin",
       "lemon",
       "sweet_vermouth"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "hotaling"
   },
   {
@@ -58190,10 +58255,13 @@
     "drink": "Nori & Islay",
     "implied": [],
     "literal": [
+      "celery_bitters",
       "gin",
       "scotch"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "hotaling"
   },
   {
@@ -58351,11 +58419,14 @@
     "drink": "Bunny Poison",
     "implied": [],
     "literal": [
+      "celery_bitters",
       "gin",
       "grapefruit",
       "lemon"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "hotaling"
   },
   {
@@ -59423,6 +59494,19 @@
     "source": "hotaling"
   },
   {
+    "creator": "Sarah Manowitz",
+    "drink": "The Naughty & Nice",
+    "implied": [
+      "honey"
+    ],
+    "literal": [
+      "butter",
+      "drambuie"
+    ],
+    "muted": [],
+    "source": "hotaling"
+  },
+  {
     "drink": "The King's Cranberry Sauce",
     "implied": [
       "ginger"
@@ -59634,11 +59718,14 @@
     "implied": [],
     "literal": [
       "aperol",
+      "celery_bitters",
       "lemon",
       "mint",
       "vodka"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "hotaling"
   },
   {
@@ -61705,6 +61792,7 @@
     ],
     "literal": [
       "egg_white",
+      "hot_sauce",
       "limoncello",
       "vodka"
     ],
@@ -62018,12 +62106,15 @@
     "drink": "Gin n' Celery",
     "implied": [],
     "literal": [
+      "celery_bitters",
       "gin",
       "lemon",
       "salt",
       "tonic_water"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "hotaling"
   },
   {
@@ -62031,11 +62122,13 @@
     "drink": "“Prepare for Destiny! Where’s my Pizza?”",
     "implied": [],
     "literal": [
+      "celery_bitters",
       "gin",
       "lime",
       "maraschino"
     ],
     "muted": [
+      "celery",
       "cherry"
     ],
     "source": "hotaling"
@@ -62916,6 +63009,7 @@
     "drink": "Pumpkin & Pecan",
     "implied": [],
     "literal": [
+      "butter",
       "cynar",
       "lemon"
     ],
@@ -63295,10 +63389,13 @@
       "ginger"
     ],
     "literal": [
+      "celery_bitters",
       "gin",
       "ginger_liqueur"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "hotaling"
   },
   {
@@ -63655,11 +63752,13 @@
     "drink": "Cherry Blossom Martini",
     "implied": [],
     "literal": [
+      "celery_bitters",
       "dry_vermouth",
       "maraschino",
       "vodka"
     ],
     "muted": [
+      "celery",
       "cherry"
     ],
     "source": "hotaling"
@@ -65334,6 +65433,7 @@
     "implied": [],
     "literal": [
       "black_pepper",
+      "hot_sauce",
       "lime",
       "mezcal",
       "salt"
@@ -67715,10 +67815,13 @@
     "implied": [],
     "literal": [
       "bourbon",
+      "celery_bitters",
       "mezcal",
       "orange_bitters"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "kindred"
   },
   {
@@ -71482,11 +71585,14 @@
     "drink": "Beryl",
     "implied": [],
     "literal": [
+      "celery_bitters",
       "gin",
       "green_chartreuse",
       "vodka"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "kindred"
   },
   {
@@ -73427,7 +73533,8 @@
       "lemon",
       "salt",
       "tomato",
-      "vodka"
+      "vodka",
+      "worcestershire"
     ],
     "muted": [],
     "source": "kindred"
@@ -73848,6 +73955,7 @@
       "coconut",
       "egg_white",
       "falernum",
+      "hot_sauce",
       "lime",
       "tequila"
     ],
@@ -74029,7 +74137,8 @@
       "cardamom",
       "lemon",
       "lime",
-      "sugar_syrup"
+      "sugar_syrup",
+      "tamarind"
     ],
     "muted": [],
     "source": "kindred"
@@ -75227,11 +75336,14 @@
     ],
     "literal": [
       "calvados",
+      "celery_bitters",
       "grenadine",
       "lime",
       "tequila"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "kindred"
   },
   {
@@ -76095,8 +76207,10 @@
     "implied": [],
     "literal": [
       "black_pepper",
+      "hot_sauce",
       "salt",
-      "vodka"
+      "vodka",
+      "worcestershire"
     ],
     "muted": [],
     "source": "kindred"
@@ -78620,6 +78734,19 @@
     "source": "kindred"
   },
   {
+    "creator": "http://chowhound.chow.com/topics/620070#4687579",
+    "drink": "Cinquenta Cinquenta",
+    "implied": [],
+    "literal": [
+      "celery_bitters",
+      "tequila"
+    ],
+    "muted": [
+      "celery"
+    ],
+    "source": "kindred"
+  },
+  {
     "creator": "Imbibe Magazine, May / June 2017",
     "drink": "Ciquita Picante",
     "implied": [
@@ -79837,11 +79964,14 @@
       "lime"
     ],
     "literal": [
+      "celery_bitters",
       "cherry_liqueur",
       "falernum",
       "rye_whiskey"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "kindred"
   },
   {
@@ -81992,11 +82122,14 @@
     "drink": "Davis Sq Pro's Summer Tomato Cocktail",
     "implied": [],
     "literal": [
+      "celery_bitters",
       "cynar",
       "salt",
       "tequila"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "kindred"
   },
   {
@@ -83403,12 +83536,15 @@
       "elderflower"
     ],
     "literal": [
+      "celery_bitters",
       "gin",
       "lime",
       "st_germain",
       "sugar_syrup"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "kindred"
   },
   {
@@ -83875,10 +84011,13 @@
     "implied": [],
     "literal": [
       "agave",
+      "celery_bitters",
       "cynar",
       "lime"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "kindred"
   },
   {
@@ -84069,7 +84208,8 @@
     "literal": [
       "agave",
       "lime",
-      "mezcal"
+      "mezcal",
+      "tamarind"
     ],
     "muted": [],
     "source": "kindred"
@@ -85537,10 +85677,12 @@
     "drink": "Ephemeral",
     "implied": [],
     "literal": [
+      "celery_bitters",
       "st_germain",
       "sweet_vermouth"
     ],
     "muted": [
+      "celery",
       "elderflower"
     ],
     "source": "kindred"
@@ -87722,11 +87864,14 @@
     "drink": "Fluent French",
     "implied": [],
     "literal": [
+      "celery_bitters",
       "dry_vermouth",
       "gin",
       "sugar_syrup"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "kindred"
   },
   {
@@ -89359,9 +89504,12 @@
     "implied": [],
     "literal": [
       "aperol",
+      "celery_bitters",
       "cynar"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "kindred"
   },
   {
@@ -91824,10 +91972,13 @@
     "drink": "Harlan's Restorative Brain Tonic",
     "implied": [],
     "literal": [
+      "celery_bitters",
       "lemon",
       "vodka"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "kindred"
   },
   {
@@ -93473,11 +93624,24 @@
     "source": "kindred"
   },
   {
+    "drink": "Hot Buttered Amaro",
+    "implied": [
+      "apple"
+    ],
+    "literal": [
+      "butter",
+      "calvados"
+    ],
+    "muted": [],
+    "source": "kindred"
+  },
+  {
     "creator": "http://www.thespir.it/articles/buttered-rum/",
     "drink": "Hot Buttered Rum",
     "implied": [],
     "literal": [
       "brown_sugar",
+      "butter",
       "cinnamon",
       "dark_rum"
     ],
@@ -93489,6 +93653,7 @@
     "implied": [],
     "literal": [
       "apple",
+      "butter",
       "cinnamon",
       "dark_rum"
     ],
@@ -93580,7 +93745,8 @@
       "ginger_ale",
       "lime",
       "pineapple",
-      "tequila"
+      "tequila",
+      "worcestershire"
     ],
     "muted": [],
     "source": "kindred"
@@ -96035,11 +96201,14 @@
     "drink": "Jezebel",
     "implied": [],
     "literal": [
+      "celery_bitters",
       "cynar",
       "dry_vermouth",
       "gin"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "kindred"
   },
   {
@@ -96857,7 +97026,8 @@
     "literal": [
       "cachaca",
       "lime",
-      "sugar_syrup"
+      "sugar_syrup",
+      "tamarind"
     ],
     "muted": [],
     "source": "kindred"
@@ -100360,13 +100530,16 @@
     "drink": "Loop Tonic",
     "implied": [],
     "literal": [
+      "celery_bitters",
       "dry_vermouth",
       "green_chartreuse",
       "lime",
       "sugar_syrup",
       "tequila"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "kindred"
   },
   {
@@ -102519,11 +102692,14 @@
       "elderflower"
     ],
     "literal": [
+      "celery_bitters",
       "dry_vermouth",
       "gin",
       "st_germain"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "kindred"
   },
   {
@@ -103069,7 +103245,9 @@
     "implied": [],
     "literal": [
       "black_pepper",
-      "lime"
+      "lime",
+      "soy_sauce",
+      "worcestershire"
     ],
     "muted": [],
     "source": "kindred"
@@ -105395,6 +105573,7 @@
     "literal": [
       "campari",
       "dry_vermouth",
+      "hot_sauce",
       "lime"
     ],
     "muted": [],
@@ -107618,6 +107797,17 @@
     "source": "kindred"
   },
   {
+    "creator": "Cool Waters (The Harvard Common Press)",
+    "drink": "Orange and Tamarind Elixer",
+    "implied": [],
+    "literal": [
+      "coriander_leaf",
+      "tamarind"
+    ],
+    "muted": [],
+    "source": "kindred"
+  },
+  {
     "drink": "Orchard Dew",
     "implied": [
       "honey"
@@ -109099,6 +109289,7 @@
     "implied": [],
     "literal": [
       "angostura_bitters",
+      "butter",
       "cinnamon",
       "honey",
       "lime",
@@ -109924,10 +110115,13 @@
     "literal": [
       "aperol",
       "campari",
+      "celery_bitters",
       "sweet_vermouth",
       "tequila"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "kindred"
   },
   {
@@ -110116,10 +110310,13 @@
     "drink": "Pimm's Up",
     "implied": [],
     "literal": [
+      "celery_bitters",
       "lemon",
       "sugar_syrup"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "kindred"
   },
   {
@@ -111056,6 +111253,7 @@
     ],
     "literal": [
       "allspice_dram",
+      "butter",
       "cinnamon",
       "falernum",
       "honey",
@@ -117728,11 +117926,14 @@
     "drink": "Sitting With Stella",
     "implied": [],
     "literal": [
+      "celery_bitters",
       "lemon",
       "rye_whiskey",
       "sugar_syrup"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "kindred"
   },
   {
@@ -118776,12 +118977,15 @@
       "cherry"
     ],
     "literal": [
+      "celery_bitters",
       "cynar",
       "dry_vermouth",
       "maraschino",
       "rye_whiskey"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "kindred"
   },
   {
@@ -120770,6 +120974,7 @@
     "drink": "Stringer Bell",
     "implied": [],
     "literal": [
+      "celery",
       "cynar",
       "lime",
       "tequila"
@@ -122712,6 +122917,7 @@
     ],
     "literal": [
       "angostura_bitters",
+      "celery_bitters",
       "drambuie",
       "green_chartreuse",
       "orange_bitters",
@@ -122719,6 +122925,7 @@
       "triple_sec"
     ],
     "muted": [
+      "celery",
       "orange"
     ],
     "source": "kindred"
@@ -124861,6 +125068,7 @@
     "drink": "The Ferryman",
     "implied": [],
     "literal": [
+      "celery_bitters",
       "cynar",
       "gin",
       "ginger_liqueur",
@@ -124868,6 +125076,7 @@
       "lime"
     ],
     "muted": [
+      "celery",
       "ginger"
     ],
     "source": "kindred"
@@ -127749,10 +127958,12 @@
     "implied": [],
     "literal": [
       "bourbon",
+      "celery_bitters",
       "cynar",
       "maraschino"
     ],
     "muted": [
+      "celery",
       "cherry"
     ],
     "source": "kindred"
@@ -131400,10 +131611,13 @@
     "drink": "Verde Temprano",
     "implied": [],
     "literal": [
+      "celery_bitters",
       "dry_vermouth",
       "tequila"
     ],
-    "muted": [],
+    "muted": [
+      "celery"
+    ],
     "source": "kindred"
   },
   {

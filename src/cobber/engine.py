@@ -77,15 +77,54 @@ def novelty(a: str, b: str) -> float:
     return harmony(a, b)[0] * (1.0 - tradition(a, b))
 
 
+# Coarse taste prior per role, used when an ingredient has no curated `taste`
+# field. Deliberately conservative: spirits/aromatics/herbs/mixers contribute
+# nothing rather than a guess. Derived values are flagged in balance() output.
+ROLE_TASTE_PRIOR: dict[str, dict[str, float]] = {
+    "sour": {"sour": 0.7},
+    "sweet": {"sweet": 0.7},
+    "bitter": {"bitter": 0.7},
+    "dairy": {"fat": 0.6},
+    "fruit": {"sweet": 0.3, "sour": 0.3},
+    "seasoning": {"salty": 0.4},
+    "spirit": {},
+    "aromatic": {},
+    "herb": {},
+    "mixer": {},
+}
+
+
+def taste_profile(ingredient_id: str) -> tuple[dict[str, float], bool]:
+    """Return ``(axis -> value, derived)`` for one ingredient.
+
+    Curated ``taste`` data is used verbatim (``derived=False``). When absent,
+    a coarse prior from the ingredient's role stands in (``derived=True``) so
+    the balance heuristic still has something to reason over — honestly
+    flagged rather than silently invented.
+    """
+    ingredient = PANTRY.get(ingredient_id)
+    if ingredient is None:
+        return {}, True
+    if ingredient.taste:
+        return dict(ingredient.taste), False
+    return dict(ROLE_TASTE_PRIOR.get(ingredient.role, {})), True
+
+
 def balance(ingredient_ids: list[str]) -> dict:
-    """Run a deliberately simple V1 balance check over a set of role tags.
+    """Run a deliberately simple V1 balance check over roles and taste axes.
 
     A plausible drink has a base spirit and at least one balancing role
-    (sour / sweet / bitter), and is not built entirely from a single role. This
-    is a sanity heuristic, **not** a real recipe balancer — it checks the shape
-    of a combination, not its ratios.
+    (sour / sweet / bitter), and is not built entirely from a single role.
+    On top of the role check, taste axes are summed across the combination to
+    read its structure (sour-balanced / bittersweet / savoury) and to flag
+    real bartending hazards (dairy + acid splits; savoury with no
+    counterweight). This is a sanity heuristic, **not** a recipe balancer —
+    it checks the shape of a combination, not its ratios.
 
-    Returns ``{"ok": bool, "roles_present": [...], "warning": str | None}``.
+    Returns the original ``{"ok", "roles_present", "warning"}`` plus
+    ``"taste_axes"`` (summed values), ``"structure"`` (a one-word reading),
+    ``"taste_notes"`` (hazards/accents) and ``"taste_derived_for"`` (which
+    ingredients used the role prior rather than curated data).
     """
     roles = []
     for ingredient_id in ingredient_ids:
@@ -106,7 +145,64 @@ def balance(ingredient_ids: list[str]) -> dict:
         warning = "No sour, sweet or bitter element to balance the spirit."
 
     ok = has_spirit and bool(balancing) and len(roles_present) > 1
-    return {"ok": ok, "roles_present": roles_present, "warning": warning}
+
+    # Taste-axis layer: sum each axis over the combination.
+    axes: dict[str, float] = {}
+    derived_for: list[str] = []
+    for ingredient_id in ingredient_ids:
+        profile_axes, derived = taste_profile(ingredient_id)
+        if derived and profile_axes:
+            derived_for.append(ingredient_id)
+        for axis, value in profile_axes.items():
+            axes[axis] = round(axes.get(axis, 0.0) + value, 2)
+
+    sour = axes.get("sour", 0.0)
+    sweet = axes.get("sweet", 0.0)
+    bitter = axes.get("bitter", 0.0)
+    salty = axes.get("salty", 0.0)
+    umami = axes.get("umami", 0.0)
+    fat = axes.get("fat", 0.0)
+    savoury = salty + umami
+
+    if savoury >= 0.8:
+        structure = "savoury"
+    elif sour >= 0.5 and sweet >= 0.5:
+        structure = "sour-balanced"
+    elif bitter >= 0.5 and sweet >= 0.5:
+        structure = "bittersweet"
+    elif sour >= 0.5:
+        structure = "tart"
+    elif bitter >= 0.5:
+        structure = "bitter-forward"
+    elif sweet >= 0.5:
+        structure = "sweet-forward"
+    else:
+        structure = "spirit-forward"
+
+    taste_notes: list[str] = []
+    if fat >= 0.5 and sour >= 0.5:
+        taste_notes.append(
+            "Dairy/fat meets acid: split risk — handle it (flip, batch-and-strain, "
+            "or clarify) or keep them apart."
+        )
+    if savoury >= 0.8 and sour < 0.3 and sweet < 0.3:
+        taste_notes.append(
+            "Savoury-heavy with no acid or sugar counterweight; it will read as broth."
+        )
+    if 0.0 < salty <= 0.3:
+        taste_notes.append(
+            "Salt at accent level: it will amplify sweetness and round off bitterness."
+        )
+
+    return {
+        "ok": ok,
+        "roles_present": roles_present,
+        "warning": warning,
+        "taste_axes": {axis: value for axis, value in sorted(axes.items()) if value > 0},
+        "structure": structure,
+        "taste_notes": taste_notes,
+        "taste_derived_for": sorted(derived_for),
+    }
 
 
 def validate_anchors(anchors: list[str]) -> str | None:

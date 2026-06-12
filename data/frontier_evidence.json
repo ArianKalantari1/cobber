@@ -16301,6 +16301,26 @@
     "count": 12,
     "examples": [
       {
+        "bartender": "Alex Quesada",
+        "drink": "Mother Superior"
+      },
+      {
+        "bartender": "Anthony Parks",
+        "drink": "Nori & Islay"
+      },
+      {
+        "drink": "Bunny Poison"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "gin"
+    ]
+  },
+  {
+    "count": 12,
+    "examples": [
+      {
         "drink": "The King's Cranberry Sauce"
       },
       {
@@ -21947,6 +21967,26 @@
     "count": 8,
     "examples": [
       {
+        "bartender": "Alex Quesada",
+        "drink": "Mother Superior"
+      },
+      {
+        "drink": "Bunny Poison"
+      },
+      {
+        "bartender": "Jaymee Mandeville",
+        "drink": "La La Land"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "lemon"
+    ]
+  },
+  {
+    "count": 8,
+    "examples": [
+      {
         "bartender": "Lynnette Marrero",
         "drink": "Rose Sangria"
       },
@@ -23792,6 +23832,65 @@
     "pair": [
       "campari",
       "scotch"
+    ]
+  },
+  {
+    "count": 7,
+    "examples": [
+      {
+        "bartender": "http://chowhound.chow.com/topics/729173?tag=highlight-5862021;post-content-5862021#5862021",
+        "drink": "Davis Sq Pro's Summer Tomato Cocktail"
+      },
+      {
+        "drink": "Dubois Margarita"
+      },
+      {
+        "bartender": "http://drinkstraightup.com/2013/04/21/gentian-dream/",
+        "drink": "Gentian Dream"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "cynar"
+    ]
+  },
+  {
+    "count": 7,
+    "examples": [
+      {
+        "drink": "Cherry Blossom Martini"
+      },
+      {
+        "drink": "Fluent French"
+      },
+      {
+        "drink": "Jezebel"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "dry_vermouth"
+    ]
+  },
+  {
+    "count": 7,
+    "examples": [
+      {
+        "bartender": "Paul Taylor",
+        "drink": "“Prepare for Destiny! Where’s my Pizza?”"
+      },
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2013/11/broken-crown.html",
+        "drink": "Broken Crown"
+      },
+      {
+        "bartender": "http://punchdrink.com/recipes/coopers-regard/",
+        "drink": "Cooper's Regard"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "lime"
     ]
   },
   {
@@ -26250,6 +26349,27 @@
     "pair": [
       "campari",
       "pomegranate"
+    ]
+  },
+  {
+    "count": 6,
+    "examples": [
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2013/11/broken-crown.html",
+        "drink": "Broken Crown"
+      },
+      {
+        "bartender": "http://chowhound.chow.com/topics/620070#4687579",
+        "drink": "Cinquenta Cinquenta"
+      },
+      {
+        "bartender": "http://chowhound.chow.com/topics/729173?tag=highlight-5862021;post-content-5862021#5862021",
+        "drink": "Davis Sq Pro's Summer Tomato Cocktail"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "tequila"
     ]
   },
   {
@@ -29436,6 +29556,26 @@
     "pair": [
       "campari",
       "ginger_ale"
+    ]
+  },
+  {
+    "count": 5,
+    "examples": [
+      {
+        "bartender": "http://and1morefortheroad.blogspot.com/2012/01/dont-mind-if-i-do.html",
+        "drink": "Don't Mind If I Do"
+      },
+      {
+        "drink": "Fluent French"
+      },
+      {
+        "bartender": "http://www.mensjournal.com/bitters-make-better",
+        "drink": "Loop Tonic"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "sugar_syrup"
     ]
   },
   {
@@ -33057,6 +33197,26 @@
     "count": 4,
     "examples": [
       {
+        "bartender": "http://www.thespir.it/articles/buttered-rum/",
+        "drink": "Hot Buttered Rum"
+      },
+      {
+        "drink": "Hot Buttered Rum - Triobar"
+      },
+      {
+        "bartender": "Jeff Berry, Sippin' Safari, 2007.",
+        "drink": "Pearl Diver"
+      }
+    ],
+    "pair": [
+      "butter",
+      "cinnamon"
+    ]
+  },
+  {
+    "count": 4,
+    "examples": [
+      {
         "drink": "Chasing My Tail"
       },
       {
@@ -33406,6 +33566,46 @@
     ],
     "pair": [
       "campari",
+      "vodka"
+    ]
+  },
+  {
+    "count": 4,
+    "examples": [
+      {
+        "bartender": "Paul Taylor",
+        "drink": "“Prepare for Destiny! Where’s my Pizza?”"
+      },
+      {
+        "drink": "Cherry Blossom Martini"
+      },
+      {
+        "bartender": "https://www.wsj.com/articles/salt-the-other-shaker-cocktail-recipes-are-calling-for-1414170747",
+        "drink": "Song of Solomon"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "maraschino"
+    ]
+  },
+  {
+    "count": 4,
+    "examples": [
+      {
+        "bartender": "Jaymee Mandeville",
+        "drink": "La La Land"
+      },
+      {
+        "drink": "Cherry Blossom Martini"
+      },
+      {
+        "bartender": "http://drinkshouts.com/tagged/beryl",
+        "drink": "Beryl"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
       "vodka"
     ]
   },
@@ -36651,6 +36851,26 @@
     "count": 3,
     "examples": [
       {
+        "bartender": "Jaymee Mandeville",
+        "drink": "La La Land"
+      },
+      {
+        "bartender": "http://drinkstraightup.com/2013/04/21/gentian-dream/",
+        "drink": "Gentian Dream"
+      },
+      {
+        "drink": "Phillips Rose"
+      }
+    ],
+    "pair": [
+      "aperol",
+      "celery_bitters"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
         "drink": "Caipirinha Pasión"
       },
       {
@@ -37353,6 +37573,26 @@
     "count": 3,
     "examples": [
       {
+        "bartender": "http://en.wikipedia.org/wiki/Bloody_Mary_%28cocktail%29",
+        "drink": "Bloody Mary"
+      },
+      {
+        "bartender": "http://en.wikipedia.org/wiki/Caesar_",
+        "drink": "Caesar"
+      },
+      {
+        "drink": "Michelada"
+      }
+    ],
+    "pair": [
+      "black_pepper",
+      "worcestershire"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
         "drink": "Luke's Punch"
       },
       {
@@ -37604,6 +37844,27 @@
     "pair": [
       "brown_sugar",
       "lime"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "bartender": "Sarah Manowitz",
+        "drink": "The Naughty & Nice"
+      },
+      {
+        "bartender": "Jeff Berry, Sippin' Safari, 2007.",
+        "drink": "Pearl Diver"
+      },
+      {
+        "bartender": "http://punchdrink.com/recipes/polynesian-pearl-diver/",
+        "drink": "Polynesian Pearl Diver"
+      }
+    ],
+    "pair": [
+      "butter",
+      "honey"
     ]
   },
   {
@@ -37897,6 +38158,88 @@
     "pair": [
       "campari",
       "irish_whiskey"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "bartender": "http://drinkshouts.com/tagged/beryl",
+        "drink": "Beryl"
+      },
+      {
+        "bartender": "http://www.mensjournal.com/bitters-make-better",
+        "drink": "Loop Tonic"
+      },
+      {
+        "bartender": "Rusty Nail-based",
+        "drink": "Tetanus"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "green_chartreuse"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "bartender": "http://punchdrink.com/recipes/coopers-regard/",
+        "drink": "Cooper's Regard"
+      },
+      {
+        "drink": "Sitting With Stella"
+      },
+      {
+        "bartender": "https://www.wsj.com/articles/salt-the-other-shaker-cocktail-recipes-are-calling-for-1414170747",
+        "drink": "Song of Solomon"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "rye_whiskey"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "bartender": "http://and1morefortheroad.blogspot.com/2012/01/dont-mind-if-i-do.html",
+        "drink": "Don't Mind If I Do"
+      },
+      {
+        "bartender": "The PDT Cocktail Book",
+        "drink": "Ephemeral"
+      },
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2009/07/means-of-preservation.html",
+        "drink": "Means of Preservation"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "st_germain"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "bartender": "Alex Quesada",
+        "drink": "Mother Superior"
+      },
+      {
+        "bartender": "The PDT Cocktail Book",
+        "drink": "Ephemeral"
+      },
+      {
+        "drink": "Phillips Rose"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "sweet_vermouth"
     ]
   },
   {
@@ -40047,6 +40390,26 @@
     "count": 3,
     "examples": [
       {
+        "bartender": "http://sombraoaxaca.com/beer_and_a_smoke.php",
+        "drink": "A Beer And A Smoke"
+      },
+      {
+        "bartender": "http://bit.ly/13pQ6Y9",
+        "drink": "Boca Arriba"
+      },
+      {
+        "drink": "Nero's Requiem (Bolero de Nero)"
+      }
+    ],
+    "pair": [
+      "hot_sauce",
+      "lime"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
         "bartender": "http://umamimart.com/2012/05/the-pdt-project-against-all-odds-cocktail/",
         "drink": "Against All Odds Cocktail"
       },
@@ -40158,6 +40521,25 @@
     "pair": [
       "lime",
       "mango"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "drink": "Bombay Sour"
+      },
+      {
+        "bartender": "http://online.wsj.com/article/SB10001424053111903341404576482643778602006.html",
+        "drink": "Dusty Road Chelada"
+      },
+      {
+        "drink": "Kashmiri Caipirinha"
+      }
+    ],
+    "pair": [
+      "lime",
+      "tamarind"
     ]
   },
   {
@@ -42269,6 +42651,21 @@
     "count": 2,
     "examples": [
       {
+        "drink": "Hot Buttered Amaro"
+      },
+      {
+        "drink": "Hot Buttered Rum - Triobar"
+      }
+    ],
+    "pair": [
+      "apple",
+      "butter"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
         "bartender": "http://online.wsj.com/article/SB10001424052970203513604577144761872381308.html",
         "drink": "Irish Coffee (Applejack)"
       },
@@ -42859,6 +43256,23 @@
         "drink": "A Beer And A Smoke"
       },
       {
+        "bartender": "http://en.wikipedia.org/wiki/Caesar_",
+        "drink": "Caesar"
+      }
+    ],
+    "pair": [
+      "black_pepper",
+      "hot_sauce"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "http://sombraoaxaca.com/beer_and_a_smoke.php",
+        "drink": "A Beer And A Smoke"
+      },
+      {
         "drink": "Il Guero"
       }
     ],
@@ -42964,6 +43378,22 @@
     "pair": [
       "blue_curacao",
       "sugar_syrup"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "drink": "Ancho and Lefty"
+      },
+      {
+        "bartender": "http://tastingtable.com/multipart_article/nyc/64",
+        "drink": "The Sanny"
+      }
+    ],
+    "pair": [
+      "bourbon",
+      "celery_bitters"
     ]
   },
   {
@@ -43170,6 +43600,56 @@
     ],
     "pair": [
       "brown_sugar",
+      "orange"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "http://www.thespir.it/articles/buttered-rum/",
+        "drink": "Hot Buttered Rum"
+      },
+      {
+        "drink": "Hot Buttered Rum - Triobar"
+      }
+    ],
+    "pair": [
+      "butter",
+      "dark_rum"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "Jeff Berry, Sippin' Safari, 2007.",
+        "drink": "Pearl Diver"
+      },
+      {
+        "bartender": "http://punchdrink.com/recipes/polynesian-pearl-diver/",
+        "drink": "Polynesian Pearl Diver"
+      }
+    ],
+    "pair": [
+      "butter",
+      "lime"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "Jeff Berry, Sippin' Safari, 2007.",
+        "drink": "Pearl Diver"
+      },
+      {
+        "bartender": "http://punchdrink.com/recipes/polynesian-pearl-diver/",
+        "drink": "Polynesian Pearl Diver"
+      }
+    ],
+    "pair": [
+      "butter",
       "orange"
     ]
   },
@@ -43408,6 +43888,123 @@
     "pair": [
       "cardamom",
       "lime"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "http://punchdrink.com/recipes/coopers-regard/",
+        "drink": "Cooper's Regard"
+      },
+      {
+        "bartender": "https://www.wsj.com/articles/salt-the-other-shaker-cocktail-recipes-are-calling-for-1414170747",
+        "drink": "Song of Solomon"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "cherry"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "http://and1morefortheroad.blogspot.com/2012/01/dont-mind-if-i-do.html",
+        "drink": "Don't Mind If I Do"
+      },
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2009/07/means-of-preservation.html",
+        "drink": "Means of Preservation"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "elderflower"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "Alex Smith",
+        "drink": "The Queen Mother"
+      },
+      {
+        "bartender": "http://punchdrink.com/recipes/coopers-regard/",
+        "drink": "Cooper's Regard"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "ginger"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "Alex Smith",
+        "drink": "The Queen Mother"
+      },
+      {
+        "bartender": "http://foggedinlounge.blogspot.com/2013/08/the-ferryman.html",
+        "drink": "The Ferryman"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "ginger_liqueur"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "drink": "Ancho and Lefty"
+      },
+      {
+        "bartender": "Rusty Nail-based",
+        "drink": "Tetanus"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "orange_bitters"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "drink": "Gin n' Celery"
+      },
+      {
+        "bartender": "http://chowhound.chow.com/topics/729173?tag=highlight-5862021;post-content-5862021#5862021",
+        "drink": "Davis Sq Pro's Summer Tomato Cocktail"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "salt"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "Anthony Parks",
+        "drink": "Nori & Islay"
+      },
+      {
+        "bartender": "Rusty Nail-based",
+        "drink": "Tetanus"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "scotch"
     ]
   },
   {
@@ -45185,6 +45782,23 @@
     "count": 2,
     "examples": [
       {
+        "bartender": "Francesco Lafranconi",
+        "drink": "Creole Summer"
+      },
+      {
+        "bartender": "http://bit.ly/13pQ6Y9",
+        "drink": "Boca Arriba"
+      }
+    ],
+    "pair": [
+      "egg_white",
+      "hot_sauce"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
         "drink": "Brown Mountain Lights"
       },
       {
@@ -46042,6 +46656,40 @@
     "count": 2,
     "examples": [
       {
+        "bartender": "http://sombraoaxaca.com/beer_and_a_smoke.php",
+        "drink": "A Beer And A Smoke"
+      },
+      {
+        "bartender": "http://en.wikipedia.org/wiki/Caesar_",
+        "drink": "Caesar"
+      }
+    ],
+    "pair": [
+      "hot_sauce",
+      "salt"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "Francesco Lafranconi",
+        "drink": "Creole Summer"
+      },
+      {
+        "bartender": "http://en.wikipedia.org/wiki/Caesar_",
+        "drink": "Caesar"
+      }
+    ],
+    "pair": [
+      "hot_sauce",
+      "vodka"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
         "bartender": "http://www.liquor.com/video/how-to-make-an-irish-maid/#gs.7=2_Deo",
         "drink": "Irish Maid"
       },
@@ -46150,6 +46798,22 @@
     "pair": [
       "lime",
       "strawberry"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "http://umamimart.com/2010/07/happy-hour-name-that-cocktail/",
+        "drink": "Hot and Stormy"
+      },
+      {
+        "drink": "Michelada"
+      }
+    ],
+    "pair": [
+      "lime",
+      "worcestershire"
     ]
   },
   {
@@ -47006,6 +47670,23 @@
     "count": 2,
     "examples": [
       {
+        "bartender": "http://en.wikipedia.org/wiki/Bloody_Mary_%28cocktail%29",
+        "drink": "Bloody Mary"
+      },
+      {
+        "bartender": "http://en.wikipedia.org/wiki/Caesar_",
+        "drink": "Caesar"
+      }
+    ],
+    "pair": [
+      "salt",
+      "worcestershire"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
         "bartender": "Recipe was kindly given to me at Teardrop in Portland, OR",
         "drink": "Smoked Peach"
       },
@@ -47032,6 +47713,21 @@
     "pair": [
       "sparkling_wine",
       "tequila"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "drink": "Bombay Sour"
+      },
+      {
+        "drink": "Kashmiri Caipirinha"
+      }
+    ],
+    "pair": [
+      "sugar_syrup",
+      "tamarind"
     ]
   },
   {
@@ -47113,6 +47809,23 @@
     "pair": [
       "triple_sec",
       "vanilla"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "http://en.wikipedia.org/wiki/Bloody_Mary_%28cocktail%29",
+        "drink": "Bloody Mary"
+      },
+      {
+        "bartender": "http://en.wikipedia.org/wiki/Caesar_",
+        "drink": "Caesar"
+      }
+    ],
+    "pair": [
+      "vodka",
+      "worcestershire"
     ]
   },
   {
@@ -47361,6 +48074,18 @@
     "count": 1,
     "examples": [
       {
+        "drink": "Dubois Margarita"
+      }
+    ],
+    "pair": [
+      "agave",
+      "celery_bitters"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "bartender": "http://www.diffordsguide.com/index.jsp",
         "drink": "Cider House Rules"
       }
@@ -47464,6 +48189,19 @@
     "count": 1,
     "examples": [
       {
+        "bartender": "http://online.wsj.com/article/SB10001424053111903341404576482643778602006.html",
+        "drink": "Dusty Road Chelada"
+      }
+    ],
+    "pair": [
+      "agave",
+      "tamarind"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "bartender": "Matthew Biancaniello",
         "drink": "Lovage In The Garden"
       }
@@ -47502,6 +48240,19 @@
     "count": 1,
     "examples": [
       {
+        "bartender": "http://umamimart.com/2010/07/happy-hour-name-that-cocktail/",
+        "drink": "Hot and Stormy"
+      }
+    ],
+    "pair": [
+      "agave",
+      "worcestershire"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "drink": "Fallspice"
       }
     ],
@@ -47533,6 +48284,19 @@
     "pair": [
       "allspice",
       "black_pepper"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://punchdrink.com/recipes/polynesian-pearl-diver/",
+        "drink": "Polynesian Pearl Diver"
+      }
+    ],
+    "pair": [
+      "allspice",
+      "butter"
     ]
   },
   {
@@ -47668,6 +48432,19 @@
     "pair": [
       "allspice_dram",
       "black_pepper"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://punchdrink.com/recipes/polynesian-pearl-diver/",
+        "drink": "Polynesian Pearl Diver"
+      }
+    ],
+    "pair": [
+      "allspice_dram",
+      "butter"
     ]
   },
   {
@@ -47809,6 +48586,32 @@
     "count": 1,
     "examples": [
       {
+        "bartender": "http://punchdrink.com/recipes/polynesian-pearl-diver/",
+        "drink": "Polynesian Pearl Diver"
+      }
+    ],
+    "pair": [
+      "almond",
+      "butter"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://punchdrink.com/recipes/coopers-regard/",
+        "drink": "Cooper's Regard"
+      }
+    ],
+    "pair": [
+      "almond",
+      "celery_bitters"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "drink": "Rule Britannia"
       }
     ],
@@ -47827,6 +48630,19 @@
     "pair": [
       "almond",
       "creme_de_cacao"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://bit.ly/13pQ6Y9",
+        "drink": "Boca Arriba"
+      }
+    ],
+    "pair": [
+      "almond",
+      "hot_sauce"
     ]
   },
   {
@@ -48326,6 +49142,32 @@
     "pair": [
       "angostura_bitters",
       "blue_curacao"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "Jeff Berry, Sippin' Safari, 2007.",
+        "drink": "Pearl Diver"
+      }
+    ],
+    "pair": [
+      "angostura_bitters",
+      "butter"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "Rusty Nail-based",
+        "drink": "Tetanus"
+      }
+    ],
+    "pair": [
+      "angostura_bitters",
+      "celery_bitters"
     ]
   },
   {
@@ -48993,6 +49835,19 @@
     "pair": [
       "apple",
       "cachaca"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2013/11/broken-crown.html",
+        "drink": "Broken Crown"
+      }
+    ],
+    "pair": [
+      "apple",
+      "celery_bitters"
     ]
   },
   {
@@ -50140,6 +50995,18 @@
     "count": 1,
     "examples": [
       {
+        "drink": "Michelada"
+      }
+    ],
+    "pair": [
+      "black_pepper",
+      "soy_sauce"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "drink": "Il Guero"
       }
     ],
@@ -50547,6 +51414,18 @@
     "count": 1,
     "examples": [
       {
+        "drink": "Bombay Sour"
+      }
+    ],
+    "pair": [
+      "bourbon",
+      "tamarind"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "drink": "Clemen-thyme Sour"
       }
     ],
@@ -50667,6 +51546,19 @@
     "pair": [
       "brandy",
       "whole_egg"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://www.thespir.it/articles/buttered-rum/",
+        "drink": "Hot Buttered Rum"
+      }
+    ],
+    "pair": [
+      "brown_sugar",
+      "butter"
     ]
   },
   {
@@ -50882,6 +51774,109 @@
     "count": 1,
     "examples": [
       {
+        "drink": "Hot Buttered Amaro"
+      }
+    ],
+    "pair": [
+      "butter",
+      "calvados"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://punchdrink.com/recipes/polynesian-pearl-diver/",
+        "drink": "Polynesian Pearl Diver"
+      }
+    ],
+    "pair": [
+      "butter",
+      "clove"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "Collin Nicholas",
+        "drink": "Pumpkin & Pecan"
+      }
+    ],
+    "pair": [
+      "butter",
+      "cynar"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "Sarah Manowitz",
+        "drink": "The Naughty & Nice"
+      }
+    ],
+    "pair": [
+      "butter",
+      "drambuie"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://punchdrink.com/recipes/polynesian-pearl-diver/",
+        "drink": "Polynesian Pearl Diver"
+      }
+    ],
+    "pair": [
+      "butter",
+      "falernum"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://punchdrink.com/recipes/polynesian-pearl-diver/",
+        "drink": "Polynesian Pearl Diver"
+      }
+    ],
+    "pair": [
+      "butter",
+      "ginger"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "Collin Nicholas",
+        "drink": "Pumpkin & Pecan"
+      }
+    ],
+    "pair": [
+      "butter",
+      "lemon"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://punchdrink.com/recipes/polynesian-pearl-diver/",
+        "drink": "Polynesian Pearl Diver"
+      }
+    ],
+    "pair": [
+      "butter",
+      "white_rum"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "bartender": "http://cocktails.about.com/od/rumrecipes/r/rhyme_reason.htm",
         "drink": "The Rhyme & Reason"
       }
@@ -51058,12 +52053,37 @@
     "count": 1,
     "examples": [
       {
+        "drink": "Kashmiri Caipirinha"
+      }
+    ],
+    "pair": [
+      "cachaca",
+      "tamarind"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "drink": "Jaguar Shark"
       }
     ],
     "pair": [
       "cachaca",
       "triple_sec"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2013/11/broken-crown.html",
+        "drink": "Broken Crown"
+      }
+    ],
+    "pair": [
+      "calvados",
+      "celery_bitters"
     ]
   },
   {
@@ -51159,6 +52179,18 @@
     "count": 1,
     "examples": [
       {
+        "drink": "Phillips Rose"
+      }
+    ],
+    "pair": [
+      "campari",
+      "celery_bitters"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "bartender": "http://abt.cm/1798Mvt",
         "drink": "Yacht Rock"
       }
@@ -51204,6 +52236,18 @@
     "pair": [
       "campari",
       "galliano"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "drink": "Nero's Requiem (Bolero de Nero)"
+      }
+    ],
+    "pair": [
+      "campari",
+      "hot_sauce"
     ]
   },
   {
@@ -51317,6 +52361,210 @@
     "pair": [
       "cardamom",
       "sugar_syrup"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "drink": "Bombay Sour"
+      }
+    ],
+    "pair": [
+      "cardamom",
+      "tamarind"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "Death & Co Cocktail Book, p.231",
+        "drink": "Stringer Bell"
+      }
+    ],
+    "pair": [
+      "celery",
+      "cynar"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "Death & Co Cocktail Book, p.231",
+        "drink": "Stringer Bell"
+      }
+    ],
+    "pair": [
+      "celery",
+      "lime"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "Death & Co Cocktail Book, p.231",
+        "drink": "Stringer Bell"
+      }
+    ],
+    "pair": [
+      "celery",
+      "tequila"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://punchdrink.com/recipes/coopers-regard/",
+        "drink": "Cooper's Regard"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "cherry_liqueur"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://punchdrink.com/recipes/coopers-regard/",
+        "drink": "Cooper's Regard"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "clove"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "Rusty Nail-based",
+        "drink": "Tetanus"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "drambuie"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://punchdrink.com/recipes/coopers-regard/",
+        "drink": "Cooper's Regard"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "falernum"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "drink": "Bunny Poison"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "grapefruit"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2013/11/broken-crown.html",
+        "drink": "Broken Crown"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "grenadine"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "Rusty Nail-based",
+        "drink": "Tetanus"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "honey"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "drink": "Ancho and Lefty"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "mezcal"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "Jaymee Mandeville",
+        "drink": "La La Land"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "mint"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2013/11/broken-crown.html",
+        "drink": "Broken Crown"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "pomegranate"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "drink": "Gin n' Celery"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "tonic_water"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "Rusty Nail-based",
+        "drink": "Tetanus"
+      }
+    ],
+    "pair": [
+      "celery_bitters",
+      "triple_sec"
     ]
   },
   {
@@ -51901,6 +53149,19 @@
     "count": 1,
     "examples": [
       {
+        "bartender": "http://bit.ly/13pQ6Y9",
+        "drink": "Boca Arriba"
+      }
+    ],
+    "pair": [
+      "clove",
+      "hot_sauce"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "drink": "Tahitian Equinox"
       }
     ],
@@ -52119,6 +53380,19 @@
     "pair": [
       "coconut",
       "grenadine"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://bit.ly/13pQ6Y9",
+        "drink": "Boca Arriba"
+      }
+    ],
+    "pair": [
+      "coconut",
+      "hot_sauce"
     ]
   },
   {
@@ -53066,6 +54340,19 @@
     "pair": [
       "cola",
       "triple_sec"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "Cool Waters (The Harvard Common Press)",
+        "drink": "Orange and Tamarind Elixer"
+      }
+    ],
+    "pair": [
+      "coriander_leaf",
+      "tamarind"
     ]
   },
   {
@@ -54233,6 +55520,18 @@
     "count": 1,
     "examples": [
       {
+        "drink": "Nero's Requiem (Bolero de Nero)"
+      }
+    ],
+    "pair": [
+      "dry_vermouth",
+      "hot_sauce"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "drink": "Le Whiff"
       }
     ],
@@ -54649,6 +55948,19 @@
     "count": 1,
     "examples": [
       {
+        "bartender": "http://bit.ly/13pQ6Y9",
+        "drink": "Boca Arriba"
+      }
+    ],
+    "pair": [
+      "falernum",
+      "hot_sauce"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "drink": "Tahitian Equinox"
       }
     ],
@@ -55052,6 +56364,19 @@
     "count": 1,
     "examples": [
       {
+        "bartender": "http://bit.ly/13pQ6Y9",
+        "drink": "Boca Arriba"
+      }
+    ],
+    "pair": [
+      "ginger",
+      "hot_sauce"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "drink": "Tahitian Equinox"
       }
     ],
@@ -55131,6 +56456,19 @@
     "pair": [
       "ginger",
       "strawberry"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://umamimart.com/2010/07/happy-hour-name-that-cocktail/",
+        "drink": "Hot and Stormy"
+      }
+    ],
+    "pair": [
+      "ginger",
+      "worcestershire"
     ]
   },
   {
@@ -55219,6 +56557,19 @@
     "pair": [
       "ginger_ale",
       "sherry"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://umamimart.com/2010/07/happy-hour-name-that-cocktail/",
+        "drink": "Hot and Stormy"
+      }
+    ],
+    "pair": [
+      "ginger_ale",
+      "worcestershire"
     ]
   },
   {
@@ -55763,6 +57114,71 @@
     "count": 1,
     "examples": [
       {
+        "bartender": "Francesco Lafranconi",
+        "drink": "Creole Summer"
+      }
+    ],
+    "pair": [
+      "hot_sauce",
+      "lemon"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "Francesco Lafranconi",
+        "drink": "Creole Summer"
+      }
+    ],
+    "pair": [
+      "hot_sauce",
+      "limoncello"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://sombraoaxaca.com/beer_and_a_smoke.php",
+        "drink": "A Beer And A Smoke"
+      }
+    ],
+    "pair": [
+      "hot_sauce",
+      "mezcal"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://bit.ly/13pQ6Y9",
+        "drink": "Boca Arriba"
+      }
+    ],
+    "pair": [
+      "hot_sauce",
+      "tequila"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://en.wikipedia.org/wiki/Caesar_",
+        "drink": "Caesar"
+      }
+    ],
+    "pair": [
+      "hot_sauce",
+      "worcestershire"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "drink": "Sukker Shack"
       }
     ],
@@ -55960,6 +57376,18 @@
     "count": 1,
     "examples": [
       {
+        "drink": "Bombay Sour"
+      }
+    ],
+    "pair": [
+      "lemon",
+      "tamarind"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "bartender": "Brian Means",
         "drink": "Sage & Sound"
       }
@@ -55967,6 +57395,19 @@
     "pair": [
       "lemon",
       "whole_egg"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://en.wikipedia.org/wiki/Bloody_Mary_%28cocktail%29",
+        "drink": "Bloody Mary"
+      }
+    ],
+    "pair": [
+      "lemon",
+      "worcestershire"
     ]
   },
   {
@@ -56017,6 +57458,18 @@
     "pair": [
       "lime",
       "rosemary"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "drink": "Michelada"
+      }
+    ],
+    "pair": [
+      "lime",
+      "soy_sauce"
     ]
   },
   {
@@ -56383,6 +57836,19 @@
     "pair": [
       "mezcal",
       "passionfruit"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://online.wsj.com/article/SB10001424053111903341404576482643778602006.html",
+        "drink": "Dusty Road Chelada"
+      }
+    ],
+    "pair": [
+      "mezcal",
+      "tamarind"
     ]
   },
   {
@@ -57031,6 +58497,19 @@
     "count": 1,
     "examples": [
       {
+        "bartender": "http://umamimart.com/2010/07/happy-hour-name-that-cocktail/",
+        "drink": "Hot and Stormy"
+      }
+    ],
+    "pair": [
+      "pineapple",
+      "worcestershire"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "drink": "The Queen's A Redhead"
       }
     ],
@@ -57584,6 +59063,18 @@
     "count": 1,
     "examples": [
       {
+        "drink": "Michelada"
+      }
+    ],
+    "pair": [
+      "soy_sauce",
+      "worcestershire"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "bartender": "Joaquin Simo",
         "drink": "Muddled Mission"
       }
@@ -57730,6 +59221,32 @@
     "pair": [
       "tequila",
       "vodka"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://umamimart.com/2010/07/happy-hour-name-that-cocktail/",
+        "drink": "Hot and Stormy"
+      }
+    ],
+    "pair": [
+      "tequila",
+      "worcestershire"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://en.wikipedia.org/wiki/Bloody_Mary_%28cocktail%29",
+        "drink": "Bloody Mary"
+      }
+    ],
+    "pair": [
+      "tomato",
+      "worcestershire"
     ]
   },
   {

@@ -29,8 +29,15 @@ VALID_ROLES = {
     "herb",
     "dairy",
     "mixer",
+    "seasoning",
 }
 VALID_CONFIDENCE = {"solid", "moderate", "sparse"}
+
+# The taste axes (design notes §4): what aroma compounds can't capture.
+# Values are 0..1 per axis; an entry's `taste` is optional — the engine falls
+# back to a coarse role-derived prior when it is absent, so explicit taste
+# data stays honest (curated where present, derived where not).
+VALID_TASTE_AXES = {"sweet", "sour", "bitter", "salty", "umami", "fat", "funk"}
 
 
 @dataclass(frozen=True)
@@ -53,6 +60,12 @@ class Ingredient:
     source: str
     botanicals: tuple[str, ...] = ()  # empty for raw ingredients
     season: str | None = None  # reserved for a future feature; always None in V1
+    # Explicit taste-axis values (0..1 per axis in VALID_TASTE_AXES), stored as
+    # a tuple of (axis, value) pairs to keep the dataclass safely immutable.
+    # Empty means "not curated yet" — the engine derives a coarse prior from
+    # the role instead. A deliberately neutral entry (egg white: texture, not
+    # taste) declares an axis at 0.0, which is explicit and blocks fallback.
+    taste: tuple[tuple[str, float], ...] = ()
 
 
 @dataclass
@@ -132,6 +145,7 @@ def load_pantry() -> Pantry:
             notes=entry.get("notes", ""),
             source=entry.get("source", ""),
             season=entry.get("season"),
+            taste=_validate_taste(entry),
         )
 
     # Pass 2: composites. Their compound profile is derived, not declared.
@@ -159,6 +173,7 @@ def load_pantry() -> Pantry:
             source=entry.get("source", ""),
             botanicals=tuple(botanicals),
             season=entry.get("season"),
+            taste=_validate_taste(entry),
         )
 
     # Pass 3: the tradition table. Stored keyed by an unordered pair so a lookup
@@ -170,6 +185,33 @@ def load_pantry() -> Pantry:
         pantry.tradition[frozenset((a, b))] = float(row["tradition"])
 
     return pantry
+
+
+def _validate_taste(entry: dict) -> tuple[tuple[str, float], ...]:
+    """Validate an entry's optional ``taste`` object and return it as pairs.
+
+    Raises ``ValueError`` on an unknown axis or an out-of-range value; returns
+    an empty tuple when the field is absent (engine falls back to a role prior).
+    """
+    taste = entry.get("taste")
+    if taste is None:
+        return ()
+    if not isinstance(taste, dict):
+        raise ValueError(f"Ingredient {entry.get('id')!r}: 'taste' must be an object.")
+    pairs: list[tuple[str, float]] = []
+    for axis, value in sorted(taste.items()):
+        if axis not in VALID_TASTE_AXES:
+            raise ValueError(
+                f"Ingredient {entry.get('id')!r} has unknown taste axis {axis!r}; "
+                f"valid axes are {sorted(VALID_TASTE_AXES)}."
+            )
+        if not isinstance(value, (int, float)) or not 0.0 <= float(value) <= 1.0:
+            raise ValueError(
+                f"Ingredient {entry.get('id')!r}: taste axis {axis!r} must be a "
+                f"number in [0.0, 1.0], got {value!r}."
+            )
+        pairs.append((axis, float(value)))
+    return tuple(pairs)
 
 
 def _validate_role(entry: dict) -> None:

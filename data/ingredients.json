@@ -18,7 +18,10 @@
     "is_native": false,
     "season": null,
     "notes": "Limonene-rich peel; citral gives the sharp lemon top note.",
-    "source": "Flavornet / common citrus essential-oil profiles (limonene-dominant peel oil)."
+    "source": "Flavornet / common citrus essential-oil profiles (limonene-dominant peel oil).",
+    "taste": {
+      "sour": 0.9
+    }
   },
   {
     "id": "lime",
@@ -39,7 +42,10 @@
     "is_native": false,
     "season": null,
     "notes": "Similar to lemon but with more terpineol and pinene lift.",
-    "source": "Citrus aurantifolia peel oil profiles (limonene + terpene mix)."
+    "source": "Citrus aurantifolia peel oil profiles (limonene + terpene mix).",
+    "taste": {
+      "sour": 0.9
+    }
   },
   {
     "id": "orange",
@@ -80,7 +86,12 @@
     "is_native": false,
     "season": null,
     "notes": "Nootkatone is the characteristic grapefruit/bitter marker.",
-    "source": "Grapefruit (Citrus paradisi) oil; nootkatone as the impact compound."
+    "source": "Grapefruit (Citrus paradisi) oil; nootkatone as the impact compound.",
+    "taste": {
+      "sour": 0.6,
+      "bitter": 0.3,
+      "sweet": 0.2
+    }
   },
   {
     "id": "bitter_orange_peel",
@@ -661,7 +672,10 @@
     "is_native": false,
     "season": null,
     "notes": "Roast pyrazines/furans; bridges to roasted wattleseed.",
-    "source": "Roasted coffee volatile literature (furans, pyrazines, furfurylthiol)."
+    "source": "Roasted coffee volatile literature (furans, pyrazines, furfurylthiol).",
+    "taste": {
+      "bitter": 0.7
+    }
   },
   {
     "id": "grape",
@@ -870,7 +884,10 @@
     "is_native": false,
     "season": null,
     "notes": "Sucrose has no aroma volatiles; it contributes balance, not chemistry.",
-    "source": "N/A (sucrose is essentially odourless)."
+    "source": "N/A (sucrose is essentially odourless).",
+    "taste": {
+      "sweet": 1.0
+    }
   },
   {
     "id": "honey",
@@ -889,7 +906,10 @@
     "is_native": false,
     "season": null,
     "notes": "Phenylacetaldehyde floral-honey note (varies by floral source).",
-    "source": "Honey volatile literature; TODO: verify (varies widely by source)."
+    "source": "Honey volatile literature; TODO: verify (varies widely by source).",
+    "taste": {
+      "sweet": 0.9
+    }
   },
   {
     "id": "agave",
@@ -905,7 +925,10 @@
     "is_native": false,
     "season": null,
     "notes": "Mild cooked-sugar sweetness.",
-    "source": "Agave syrup; TODO: verify volatile content (largely sweet, low aroma)."
+    "source": "Agave syrup; TODO: verify volatile content (largely sweet, low aroma).",
+    "taste": {
+      "sweet": 0.9
+    }
   },
   {
     "id": "egg_white",
@@ -919,7 +942,10 @@
     "is_native": false,
     "season": null,
     "notes": "Texture/foam only; essentially no aroma contribution.",
-    "source": "N/A (functional, not aromatic)."
+    "source": "N/A (functional, not aromatic).",
+    "taste": {
+      "fat": 0.0
+    }
   },
   {
     "id": "cream",
@@ -937,7 +963,11 @@
     "is_native": false,
     "season": null,
     "notes": "Diacetyl + lactones give the dairy-buttery note.",
-    "source": "Dairy cream volatile literature."
+    "source": "Dairy cream volatile literature.",
+    "taste": {
+      "fat": 0.8,
+      "sweet": 0.1
+    }
   },
   {
     "id": "finger_lime",
@@ -1250,7 +1280,10 @@
     "is_native": false,
     "season": null,
     "notes": "Molasses note (sotolon) distinguishes it from plain syrup. TODO: verify",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "sweet": 0.9
+    }
   },
   {
     "id": "demerara",
@@ -1267,7 +1300,10 @@
     "is_native": false,
     "season": null,
     "notes": "Raw-cane caramel/molasses character; distinct from white sugar. TODO: verify",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "sweet": 0.9
+    }
   },
   {
     "id": "soda_water",
@@ -1366,13 +1402,17 @@
     "is_native": false,
     "season": null,
     "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "fat": 0.4,
+      "sweet": 0.1
+    }
   },
   {
     "id": "salt",
     "display_name": "Salt",
     "type": "raw",
-    "role": "aromatic",
+    "role": "seasoning",
     "compounds": [],
     "descriptors": [
       "salty"
@@ -1380,13 +1420,16 @@
     "is_native": false,
     "season": null,
     "notes": "Salty taste axis is a V2 feature; role is a placeholder. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "salty": 1.0
+    }
   },
   {
     "id": "olive",
     "display_name": "Olive",
     "type": "raw",
-    "role": "aromatic",
+    "role": "seasoning",
     "compounds": [],
     "descriptors": [
       "savoury",
@@ -1395,7 +1438,12 @@
     "is_native": false,
     "season": null,
     "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "salty": 0.7,
+      "umami": 0.4,
+      "fat": 0.3
+    }
   },
   {
     "id": "red_wine",
@@ -1565,7 +1613,12 @@
     "is_native": false,
     "season": null,
     "notes": "Bloody Mary base; savoury/umami side is a V2 taste-axis job. TODO: verify",
-    "source": "Common aroma-chemistry references; provisional."
+    "source": "Common aroma-chemistry references; provisional.",
+    "taste": {
+      "umami": 0.6,
+      "sour": 0.4,
+      "sweet": 0.3
+    }
   },
   {
     "id": "egg_yolk",
@@ -1580,7 +1633,10 @@
     "is_native": false,
     "season": null,
     "notes": "Texture/richness more than aroma; flips and nogs. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "fat": 0.7
+    }
   },
   {
     "id": "pink_peppercorn",
@@ -1620,6 +1676,245 @@
     "is_native": false,
     "season": null,
     "notes": "Sotolon is the signature maple/fenugreek note. TODO: verify",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "sweet": 0.85
+    }
+  },
+  {
+    "id": "miso",
+    "display_name": "Miso",
+    "type": "raw",
+    "role": "seasoning",
+    "compounds": [
+      "sotolon",
+      "furaneol",
+      "pyrazine"
+    ],
+    "taste": {
+      "umami": 0.8,
+      "salty": 0.6,
+      "sweet": 0.2,
+      "funk": 0.5
+    },
+    "descriptors": [
+      "umami",
+      "salty",
+      "fermented",
+      "nutty"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Fermented soy paste; sotolon/furaneol from aging, pyrazines roasty. TODO: verify (Part B citation pass).",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "shio_koji",
+    "display_name": "Shio koji",
+    "type": "raw",
+    "role": "seasoning",
+    "compounds": [
+      "furaneol"
+    ],
+    "taste": {
+      "umami": 0.6,
+      "salty": 0.5,
+      "sweet": 0.3,
+      "funk": 0.2
+    },
+    "descriptors": [
+      "umami",
+      "gentle",
+      "sweet-ferment"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Koji-cultured rice + salt; gentler than miso, rounds and seasons. TODO: verify (Part B citation pass).",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "soy_sauce",
+    "display_name": "Soy sauce",
+    "type": "raw",
+    "role": "seasoning",
+    "compounds": [
+      "sotolon",
+      "methional",
+      "furaneol"
+    ],
+    "taste": {
+      "umami": 0.9,
+      "salty": 0.9,
+      "funk": 0.4
+    },
+    "descriptors": [
+      "umami",
+      "salty",
+      "roasted"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Methional + sotolon are the key fermented-soy odorants. TODO: verify (Part B citation pass).",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "worcestershire",
+    "display_name": "Worcestershire sauce",
+    "type": "raw",
+    "role": "seasoning",
+    "compounds": [
+      "sotolon",
+      "eugenol"
+    ],
+    "taste": {
+      "umami": 0.7,
+      "salty": 0.5,
+      "sour": 0.4,
+      "sweet": 0.3,
+      "funk": 0.4
+    },
+    "descriptors": [
+      "umami",
+      "tangy",
+      "spiced"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Anchovy-tamarind-clove ferment; eugenol gives the clove bridge. TODO: verify (Part B citation pass).",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "fish_sauce",
+    "display_name": "Fish sauce",
+    "type": "raw",
+    "role": "seasoning",
+    "compounds": [
+      "methional"
+    ],
+    "taste": {
+      "umami": 1.0,
+      "salty": 0.9,
+      "funk": 0.8
+    },
+    "descriptors": [
+      "umami",
+      "funky",
+      "saline"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Drops only; the deepest umami/funk lever on the shelf. TODO: verify (Part B citation pass).",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "celery",
+    "display_name": "Celery",
+    "type": "raw",
+    "role": "herb",
+    "compounds": [
+      "sedanolide"
+    ],
+    "taste": {
+      "bitter": 0.2,
+      "salty": 0.1
+    },
+    "descriptors": [
+      "green",
+      "savoury",
+      "fresh"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Sedanolide/phthalides are celery's signature aroma. TODO: verify (Part B citation pass).",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "butter",
+    "display_name": "Butter",
+    "type": "raw",
+    "role": "dairy",
+    "compounds": [
+      "diacetyl",
+      "delta_decalactone"
+    ],
+    "taste": {
+      "fat": 0.9,
+      "sweet": 0.1
+    },
+    "descriptors": [
+      "rich",
+      "creamy",
+      "lactic"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Diacetyl is the butter note; fat-washing carries it into spirits. TODO: verify (Part B citation pass).",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "mushroom",
+    "display_name": "Dried mushroom",
+    "type": "raw",
+    "role": "seasoning",
+    "compounds": [
+      "1_octen_3_ol"
+    ],
+    "taste": {
+      "umami": 0.7
+    },
+    "descriptors": [
+      "earthy",
+      "umami",
+      "woodsy"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "1-octen-3-ol is the mushroom alcohol; shiitake/porcini infusions. TODO: verify (Part B citation pass).",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "tamarind",
+    "display_name": "Tamarind",
+    "type": "raw",
+    "role": "sour",
+    "compounds": [
+      "furfural"
+    ],
+    "taste": {
+      "sour": 0.7,
+      "sweet": 0.3,
+      "umami": 0.2
+    },
+    "descriptors": [
+      "tangy",
+      "dark-fruit",
+      "tropical"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Sour-sweet pulp; ties to falernum and Worcestershire territory. TODO: verify (Part B citation pass).",
+    "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "hot_sauce",
+    "display_name": "Hot sauce",
+    "type": "raw",
+    "role": "seasoning",
+    "compounds": [
+      "capsaicin"
+    ],
+    "taste": {
+      "sour": 0.4,
+      "salty": 0.3
+    },
+    "descriptors": [
+      "hot",
+      "piquant",
+      "vinegar"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Capsaicin heat is trigeminal, not a taste axis yet; vinegar base gives sour. TODO: verify (Part B citation pass).",
+    "source": "Common aroma-chemistry references; provisional."
   }
 ]

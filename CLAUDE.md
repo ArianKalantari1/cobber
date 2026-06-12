@@ -22,7 +22,9 @@ files — no LLM calls, no network, no database at runtime.
 
 - `src/cobber/data.py` — loads + validates the JSON into a `Pantry`.
 - `src/cobber/engine.py` — pure scoring: harmony (shared-compound Jaccard),
-  tradition (lookup), novelty = harmony × (1 − tradition), balance.
+  tradition (lookup), novelty = harmony × (1 − tradition), balance (roles +
+  taste axes: structure reading, split-risk/savoury hazards, curated `taste`
+  with flagged role-prior fallback).
 - `src/cobber/server.py` — FastMCP stdio tools wrapping the engine.
 - `data/ingredients.json` / `data/composites.json` — the ingredient world.
   Composites derive their compound profile as the union of their `botanicals`.

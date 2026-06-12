@@ -270,10 +270,12 @@
   ],
   [
     "black_pepper",
+    "hot_sauce",
     "lemon",
     "salt",
     "tomato",
-    "vodka"
+    "vodka",
+    "worcestershire"
   ],
   [
     "almond",
@@ -466,7 +468,8 @@
     "orange",
     "salt",
     "tequila",
-    "tomato"
+    "tomato",
+    "worcestershire"
   ],
   [
     "lime",
@@ -1541,6 +1544,7 @@
   ],
   [
     "lemon",
+    "soy_sauce",
     "tomato"
   ],
   [
@@ -1755,7 +1759,8 @@
     "lemon",
     "salt",
     "tomato",
-    "vodka"
+    "vodka",
+    "worcestershire"
   ],
   [
     "benedictine",
@@ -1952,7 +1957,8 @@
     "lime",
     "pineapple",
     "st_germain",
-    "white_rum"
+    "white_rum",
+    "worcestershire"
   ],
   [
     "absinthe",
@@ -2944,7 +2950,8 @@
     "orange",
     "pomegranate",
     "salt",
-    "tomato"
+    "tomato",
+    "worcestershire"
   ],
   [
     "cream",
@@ -3059,7 +3066,8 @@
     "black_pepper",
     "lemon",
     "salt",
-    "tomato"
+    "tomato",
+    "worcestershire"
   ],
   [
     "ginger",
@@ -3756,7 +3764,8 @@
     "black_pepper",
     "lemon",
     "salt",
-    "vodka"
+    "vodka",
+    "worcestershire"
   ],
   [
     "cherry",
@@ -3764,26 +3773,30 @@
     "gin",
     "lime",
     "salt",
-    "tomato"
+    "tomato",
+    "worcestershire"
   ],
   [
     "black_pepper",
     "lemon",
     "salt",
     "scotch",
-    "tomato"
+    "tomato",
+    "worcestershire"
   ],
   [
     "black_pepper",
     "lemon",
     "salt",
     "tequila",
-    "tomato"
+    "tomato",
+    "worcestershire"
   ],
   [
     "black_pepper",
     "lemon",
-    "salt"
+    "salt",
+    "worcestershire"
   ],
   [
     "black_pepper",
@@ -3791,14 +3804,16 @@
     "salt",
     "sugar_syrup",
     "tomato",
-    "vodka"
+    "vodka",
+    "worcestershire"
   ],
   [
     "black_pepper",
     "lemon",
     "salt",
     "tomato",
-    "vodka"
+    "vodka",
+    "worcestershire"
   ],
   [
     "campari",
@@ -3809,7 +3824,8 @@
     "black_pepper",
     "lemon",
     "salt",
-    "tomato"
+    "tomato",
+    "worcestershire"
   ],
   [
     "dry_vermouth",
@@ -4548,7 +4564,8 @@
     "black_pepper",
     "lemon",
     "salt",
-    "vodka"
+    "vodka",
+    "worcestershire"
   ],
   [
     "brandy",
@@ -5008,6 +5025,7 @@
     "lime"
   ],
   [
+    "celery",
     "gin",
     "green_chartreuse",
     "lime",
@@ -6234,7 +6252,8 @@
     "lemon",
     "salt",
     "tomato",
-    "white_rum"
+    "white_rum",
+    "worcestershire"
   ],
   [
     "cola",
@@ -13164,6 +13183,10 @@
     "vodka"
   ],
   [
+    "lime",
+    "worcestershire"
+  ],
+  [
     "almond",
     "amaretto",
     "brandy",
@@ -14954,7 +14977,8 @@
   ],
   [
     "lemon",
-    "tomato"
+    "tomato",
+    "worcestershire"
   ],
   [
     "lime",
@@ -15715,7 +15739,8 @@
     "black_pepper",
     "brandy",
     "salt",
-    "tomato"
+    "tomato",
+    "worcestershire"
   ],
   [
     "angostura_bitters",
@@ -16290,7 +16315,8 @@
     "lemon",
     "salt",
     "sugar_syrup",
-    "tomato"
+    "tomato",
+    "worcestershire"
   ],
   [
     "campari",
@@ -17007,7 +17033,8 @@
     "orange",
     "pomegranate",
     "salt",
-    "tomato"
+    "tomato",
+    "worcestershire"
   ],
   [
     "lime",
@@ -19664,7 +19691,8 @@
     "black_pepper",
     "lemon",
     "salt",
-    "tomato"
+    "tomato",
+    "worcestershire"
   ],
   [
     "gin",
@@ -22766,7 +22794,8 @@
   ],
   [
     "black_pepper",
-    "brandy"
+    "brandy",
+    "worcestershire"
   ],
   [
     "egg_white",
@@ -24061,7 +24090,8 @@
   ],
   [
     "black_pepper",
-    "brandy"
+    "brandy",
+    "worcestershire"
   ],
   [
     "sweet_vermouth",
@@ -24328,7 +24358,8 @@
   ],
   [
     "black_pepper",
-    "brandy"
+    "brandy",
+    "worcestershire"
   ],
   [
     "egg_white",
@@ -24344,6 +24375,7 @@
     "tequila"
   ],
   [
+    "celery",
     "lime",
     "pineapple"
   ],
@@ -25792,6 +25824,7 @@
     "vanilla"
   ],
   [
+    "butter",
     "cream",
     "vanilla"
   ],
@@ -25959,6 +25992,12 @@
     "orange",
     "pineapple",
     "red_wine"
+  ],
+  [
+    "black_pepper",
+    "hot_sauce",
+    "pepper_vodka",
+    "vodka"
   ],
   [
     "cherry",
@@ -26154,6 +26193,10 @@
     "vanilla",
     "vanilla_vodka",
     "vodka"
+  ],
+  [
+    "hot_sauce",
+    "tequila"
   ],
   [
     "dark_rum",

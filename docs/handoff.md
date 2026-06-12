@@ -86,21 +86,36 @@ read it yet; a future tool should surface it as "rarely done, but..."
 support. Frontier unmatched names (house syrups, brands) dominate the
 unmatched list now — mine it for aliases gradually, no need to clear it.
 
-## NEXT TASK (Ari's call): savoury / taste-axes
+## Savoury / taste-axes: DONE (this session)
 
-Goal: model what aroma can't — sweet / sour / bitter / salty / umami / fat /
-funk — and bring in the culinary crossover ingredients (tomato, Worcestershire,
-miso, shio koji…) whose profiles live in food-flavour references (FlavorDB /
-FlavorGraph), per design-notes §10: **reference, not bulk-ingest; hand-picked;
-cited; confidence-flagged.**
+- Schema: optional `taste` object per entry — axes sweet/sour/bitter/salty/
+  umami/fat/funk, 0..1, validated in data.py. New `seasoning` role; salt and
+  olive moved to it.
+- Engine: `taste_profile(id)` (curated data verbatim, else a conservative
+  role-derived prior, flagged `derived`); `balance()` now also returns
+  `taste_axes`, a `structure` reading (sour-balanced / bittersweet / savoury /
+  ...), `taste_notes` hazards (dairy+acid split risk; savoury with no
+  counterweight; salt-accent effect) and `taste_derived_for`. Original keys
+  unchanged — additive.
+- Data: 10 savoury crossover raws (miso, shio koji, soy sauce, worcestershire,
+  fish sauce, celery, butter, mushroom, tamarind, hot sauce) with signature
+  compounds (sotolon, methional, pyrazine, sedanolide, capsaicin...) — all
+  flagged TODO-verify; celery_bitters composite; taste backfill on ~28 core
+  entries (citrus, sugars, amari, dairy).
+- Proof it bites: miso+demerara harmony 0.33 via sotolon (novelty 0.33 — the
+  moat in action); a Bloody Mary build reads `structure: savoury`; the
+  frontier corpus already shows cynar+salt x21, celery_bitters+gin x12.
+- 18 tests passing.
 
-Sketch agreed so far:
-- Add a taste-axis structure to the ingredient schema (and fix salt/tomato's
-  placeholder roles).
-- Hand-curate ~10–15 savoury crossover ingredients with cited compound
-  profiles + taste axes.
-- Engine: decide how taste axes interact with harmony/balance (likely a
-  separate complement/contrast signal feeding `balance`, not a change to
-  compound Jaccard).
-- These ingredients will be tradition-`sparse` by nature; that is the point —
-  high harmony + low tradition is Cobber's moat.
+## Next candidates (Ari to choose)
+
+1. **Verification / citation pass (Part B)** — the provisional compound
+   profiles (all flagged in `notes`) verified against FlavorDB/literature
+   with citations; includes the native ingredients before any public claim.
+2. **Expose frontier evidence + taste layer through MCP tools** — a
+   `frontier_support(a,b)` tool ("rarely done, but X did it in Y"), and
+   surface `structure`/`taste_notes` in suggest/explain outputs.
+3. **Ratios/proportions** — the cocktailApp extract carries per-drink
+   proportions (unused so far); proportion-based dose gating (pour-culture
+   independent) and a first strength/dilution model.
+4. **Register dial** (summery↔wintery) per design notes §4.

@@ -96,7 +96,6 @@
 33	peach bitter
 32	bitter fee brother old fashion
 32	bob s chocolate bitter
-32	celery bitter
 32	luxardo bitter
 31	aquavit
 31	bianco vermouth
@@ -111,7 +110,6 @@
 30	bitter fee brother black walnut
 30	ginger honey syrup
 30	islay scotch laphroaig 10
-30	worcestershire sauce
 29	bitter bittermen burlesque
 29	dubonnet rouge
 29	old tom gin
@@ -368,7 +366,6 @@
 8	bitter regan orange bitter
 8	blackberry liqueur
 8	bob s bitter peppermint bitter
-8	butter
 8	canadian icewine
 8	cherry syrup
 8	clement canne bleue 2016
@@ -666,7 +663,6 @@
 4	heavy whipping cream
 4	herbal liqueur jeppson s malort
 4	hot chocolate
-4	hot sauce
 4	ice cream
 4	india pale ale beer
 4	ipa
@@ -717,7 +713,6 @@
 4	strawberry shrub
 4	swedish punch
 4	sweet cream
-4	tamarind
 4	tangerine mandarin clementine
 4	taylor s chip dry white port
 4	vanilla liqueur navan
@@ -777,7 +772,6 @@
 3	bresil
 3	bulldog gin
 3	burlesque bitter
-3	celery
 3	celery bitter scrappy s celery
 3	chinato cocchi barolo chinato
 3	chinato vergano americano
@@ -1277,7 +1271,6 @@
 2	slivovitz plum brandy
 2	sorghum syrup
 2	sour cherry syrup
-2	soy sauce
 2	sparkling white wine gruet
 2	special ingredient 3
 2	speyside scotch
@@ -1297,8 +1290,6 @@
 2	swedish bitter
 2	sweet sherry
 2	sweetened condensed milk
-2	tabasco
-2	tabasco sauce
 2	tamarind syrup
 2	tartaric acid powder
 2	thai basil

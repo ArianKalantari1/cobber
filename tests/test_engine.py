@@ -109,3 +109,43 @@ def test_tradition_file_with_extra_fields_loads_cleanly():
     """Tradition rows with additive fields (count/confidence) should load and validate."""
     pantry = load_pantry()
     assert pantry.tradition
+
+
+def test_curated_taste_is_used_verbatim():
+    """An ingredient with curated taste data returns it, not a role prior."""
+    axes, derived = engine.taste_profile("salt")
+    assert not derived
+    assert axes == {"salty": 1.0}
+
+
+def test_missing_taste_falls_back_to_role_prior_and_is_flagged():
+    """An uncurated ingredient derives a coarse prior from its role, flagged."""
+    axes, derived = engine.taste_profile("pineapple")  # fruit role, no curated taste
+    assert derived
+    assert axes == {"sweet": 0.3, "sour": 0.3}
+
+
+def test_savoury_crossover_bridges_via_shared_compounds():
+    """Miso and coffee share roasty pyrazines — the umami crossover has real chemistry."""
+    score, shared = engine.harmony("miso", "coffee")
+    assert score > 0
+    assert "pyrazine" in shared
+
+
+def test_balance_flags_dairy_acid_split_risk():
+    """Cream plus citrus must surface the split hazard a bartender would flag."""
+    result = engine.balance(["gin", "cream", "lemon"])
+    assert any("split" in note.lower() for note in result["taste_notes"])
+
+
+def test_balance_reads_savoury_structure():
+    """A Bloody Mary build should read as savoury, not as a sour."""
+    result = engine.balance(["vodka", "tomato", "worcestershire", "salt", "lemon"])
+    assert result["structure"] == "savoury"
+
+
+def test_balance_still_returns_original_keys():
+    """The taste layer is additive: the original role-check contract holds."""
+    result = engine.balance(["gin", "lime", "sugar_syrup"])
+    assert result["ok"] is True
+    assert "roles_present" in result and "warning" in result

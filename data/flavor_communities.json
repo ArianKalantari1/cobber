@@ -126,6 +126,16 @@
     ]
   },
   {
+    "head": "salt",
+    "size": 4,
+    "members": [
+      "salt",
+      "black_pepper",
+      "worcestershire",
+      "tomato"
+    ]
+  },
+  {
     "head": "almond",
     "size": 3,
     "members": [
@@ -177,15 +187,6 @@
       "red_wine",
       "cinnamon",
       "cardamom"
-    ]
-  },
-  {
-    "head": "salt",
-    "size": 3,
-    "members": [
-      "salt",
-      "black_pepper",
-      "tomato"
     ]
   },
   {
