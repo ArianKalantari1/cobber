@@ -15,7 +15,7 @@ first for the project's thinking; this file is "where we are and what's next".*
 - Difford's + Kindred come from the cocktailApp CRAN package (LGPL-3,
   scraped 2017-18 by its author who disclaims copyright; we mirror it as a
   published research dataset — provenance noted in fetch_cocktailapp.py).
-- **Tests:** 12 passing (`python -m pytest tests/ -q`).
+- **Tests:** 18 passing (`python -m pytest tests/ -q`).
 - **Flavour families:** 22 diagnostic clusters in `data/flavor_communities.json`
   that read like a bar menu (daiquiri/mojito family, martini family,
   after-dinner cream-coffee family, tiki, mulled-wine spices…).
@@ -52,10 +52,6 @@ first for the project's thinking; this file is "where we are and what's next".*
 
 ## Known concerns / watch items
 
-- **Salt + tomato are tagged role `aromatic` as a placeholder** — wrong, but
-  the schema has no salty/umami taste axis yet. Fixed by the next task.
-- Savoury staples (Worcestershire, Tabasco) intentionally unmatched until the
-  taste-axis layer exists.
 - `dubonnet → sweet_vermouth`, `yellow chartreuse → green_chartreuse`,
   `sloe gin → gin`, `lillet → dry_vermouth` are pragmatic category mappings —
   acceptable for co-occurrence, worth revisiting if those ids ever get their
