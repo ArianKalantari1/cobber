@@ -1,6 +1,6 @@
 {
   "k": 10,
-  "silhouette": 0.2662,
+  "silhouette": 0.2676,
   "recipe_count": 8416,
   "roles": [
     "spirit",
@@ -15,22 +15,22 @@
   ],
   "templates": [
     {
-      "id": "cluster_0",
+      "id": "cluster_3",
       "suggested_name": "Sour",
       "centroid": {
-        "spirit": 0.4968,
-        "liqueur": 0.0398,
-        "amaro": 0.0291,
-        "vermouth_fortified": 0.0127,
-        "acid": 0.2117,
-        "sweet": 0.1554,
-        "juice_mixer": 0.0136,
-        "lengthener": 0.0206,
-        "egg_cream": 0.0204
+        "spirit": 0.498,
+        "liqueur": 0.0414,
+        "amaro": 0.0253,
+        "vermouth_fortified": 0.0129,
+        "acid": 0.2109,
+        "sweet": 0.156,
+        "juice_mixer": 0.0145,
+        "lengthener": 0.0204,
+        "egg_cream": 0.0206
       },
       "dominant_ratio": "3:1.5:1",
       "dominant_roles": "spirit:acid:sweet",
-      "recipe_count": 1516,
+      "recipe_count": 1512,
       "benchmark_drinks": [
         "Daiquiri",
         "Whiskey Sour"
@@ -92,16 +92,6 @@
           }
         },
         {
-          "name": "Let's Go Get Stoned",
-          "props": {
-            "spirit": 0.545,
-            "liqueur": 0.045,
-            "amaro": 0.045,
-            "acid": 0.182,
-            "sweet": 0.182
-          }
-        },
-        {
           "name": "Perfect Storm",
           "props": {
             "spirit": 0.39,
@@ -109,27 +99,36 @@
             "acid": 0.195,
             "sweet": 0.13
           }
+        },
+        {
+          "name": "The Misfit",
+          "props": {
+            "spirit": 0.429,
+            "liqueur": 0.071,
+            "acid": 0.214,
+            "sweet": 0.143
+          }
         }
       ],
       "notes": "PROVISIONAL — name and ratio rounding subject to Ari's review"
     },
     {
-      "id": "cluster_5",
+      "id": "cluster_4",
       "suggested_name": "Spirit + Liqueur",
       "centroid": {
-        "spirit": 0.4782,
-        "liqueur": 0.2941,
-        "amaro": 0.0258,
-        "vermouth_fortified": 0.0188,
-        "acid": 0.1154,
+        "spirit": 0.475,
+        "liqueur": 0.2996,
+        "amaro": 0.0239,
+        "vermouth_fortified": 0.0185,
+        "acid": 0.116,
         "sweet": 0.0241,
-        "juice_mixer": 0.0064,
-        "lengthener": 0.0176,
-        "egg_cream": 0.0197
+        "juice_mixer": 0.0065,
+        "lengthener": 0.0173,
+        "egg_cream": 0.0191
       },
       "dominant_ratio": "4:2.5:1",
       "dominant_roles": "spirit:liqueur:acid",
-      "recipe_count": 1267,
+      "recipe_count": 1311,
       "benchmark_drinks": [
         "Cosmopolitan",
         "Margarita",
@@ -155,15 +154,6 @@
           }
         },
         {
-          "name": "Cosmopolitan",
-          "props": {
-            "spirit": 0.49,
-            "liqueur": 0.327,
-            "acid": 0.163,
-            "juice_mixer": 0.02
-          }
-        },
-        {
           "name": "The Sun King",
           "props": {
             "spirit": 0.419,
@@ -173,12 +163,12 @@
           }
         },
         {
-          "name": "Captain Anne Bonnie",
+          "name": "Cosmopolitan",
           "props": {
-            "spirit": 0.462,
-            "liqueur": 0.308,
-            "amaro": 0.077,
-            "acid": 0.154
+            "spirit": 0.49,
+            "liqueur": 0.327,
+            "acid": 0.163,
+            "juice_mixer": 0.02
           }
         },
         {
@@ -200,6 +190,15 @@
           }
         },
         {
+          "name": "Captain Anne Bonnie",
+          "props": {
+            "spirit": 0.462,
+            "liqueur": 0.308,
+            "amaro": 0.077,
+            "acid": 0.154
+          }
+        },
+        {
           "name": "Confused Limey",
           "props": {
             "spirit": 0.495,
@@ -211,21 +210,21 @@
       "notes": "PROVISIONAL — name and ratio rounding subject to Ari's review"
     },
     {
-      "id": "cluster_1",
+      "id": "cluster_7",
       "suggested_name": "Spirit-Forward",
       "centroid": {
-        "spirit": 0.7782,
-        "liqueur": 0.0645,
-        "amaro": 0.0482,
-        "vermouth_fortified": 0.0147,
-        "acid": 0.0223,
-        "sweet": 0.0471,
-        "juice_mixer": 0.008,
+        "spirit": 0.7773,
+        "liqueur": 0.0676,
+        "amaro": 0.0452,
+        "vermouth_fortified": 0.0148,
+        "acid": 0.0229,
+        "sweet": 0.047,
+        "juice_mixer": 0.0081,
         "lengthener": 0.0137
       },
-      "dominant_ratio": "16:1.5:1",
-      "dominant_roles": "spirit:liqueur:amaro",
-      "recipe_count": 1262,
+      "dominant_ratio": "16.5:1.5:1",
+      "dominant_roles": "spirit:liqueur:sweet",
+      "recipe_count": 1270,
       "benchmark_drinks": [
         "Gimlet",
         "Old Fashioned"
@@ -259,30 +258,6 @@
           }
         },
         {
-          "name": "Amatitan Twist",
-          "props": {
-            "spirit": 0.8,
-            "liqueur": 0.1,
-            "amaro": 0.1
-          }
-        },
-        {
-          "name": "Wicked Kiss",
-          "props": {
-            "spirit": 0.79,
-            "liqueur": 0.099,
-            "amaro": 0.099
-          }
-        },
-        {
-          "name": "Whiskey Tango Foxtrot",
-          "props": {
-            "spirit": 0.79,
-            "liqueur": 0.099,
-            "amaro": 0.099
-          }
-        },
-        {
           "name": "Gingerbread Martini",
           "props": {
             "spirit": 0.571,
@@ -297,38 +272,52 @@
             "liqueur": 0.077,
             "sweet": 0.077
           }
+        },
+        {
+          "name": "Autumn Leaves Under Winter Snow",
+          "props": {
+            "spirit": 0.8,
+            "liqueur": 0.1,
+            "sweet": 0.1
+          }
+        },
+        {
+          "name": "Almond Old Fashioned (tequila based)",
+          "props": {
+            "spirit": 0.8,
+            "liqueur": 0.1,
+            "sweet": 0.1
+          }
+        },
+        {
+          "name": "Brandy Cocktail",
+          "props": {
+            "spirit": 0.8,
+            "liqueur": 0.1,
+            "sweet": 0.1
+          }
         }
       ],
       "notes": "PROVISIONAL — name and ratio rounding subject to Ari's review"
     },
     {
-      "id": "cluster_7",
+      "id": "cluster_9",
       "suggested_name": "Spirit + Vermouth",
       "centroid": {
-        "spirit": 0.5529,
-        "liqueur": 0.0662,
-        "amaro": 0.0612,
-        "vermouth_fortified": 0.2834,
-        "acid": 0.013,
-        "sweet": 0.0122,
-        "lengthener": 0.005
+        "spirit": 0.5509,
+        "liqueur": 0.0735,
+        "amaro": 0.0548,
+        "vermouth_fortified": 0.2841,
+        "acid": 0.0133,
+        "sweet": 0.0123
       },
-      "dominant_ratio": "8.5:4.5:1",
+      "dominant_ratio": "7.5:4:1",
       "dominant_roles": "spirit:vermouth_fortified:liqueur",
-      "recipe_count": 1057,
+      "recipe_count": 1064,
       "benchmark_drinks": [
         "Manhattan"
       ],
       "examples": [
-        {
-          "name": "Newark",
-          "props": {
-            "spirit": 0.571,
-            "liqueur": 0.071,
-            "amaro": 0.071,
-            "vermouth_fortified": 0.286
-          }
-        },
         {
           "name": "Carré Nouveau",
           "props": {
@@ -336,6 +325,15 @@
             "liqueur": 0.094,
             "amaro": 0.063,
             "vermouth_fortified": 0.281
+          }
+        },
+        {
+          "name": "Newark",
+          "props": {
+            "spirit": 0.571,
+            "liqueur": 0.071,
+            "amaro": 0.071,
+            "vermouth_fortified": 0.286
           }
         },
         {
@@ -396,22 +394,22 @@
       "notes": "PROVISIONAL — name and ratio rounding subject to Ari's review"
     },
     {
-      "id": "cluster_2",
+      "id": "cluster_0",
       "suggested_name": "Spirit + Juice",
       "centroid": {
-        "spirit": 0.4367,
-        "liqueur": 0.1006,
-        "amaro": 0.0214,
-        "vermouth_fortified": 0.0154,
-        "acid": 0.0687,
-        "sweet": 0.0503,
-        "juice_mixer": 0.2933,
-        "lengthener": 0.0075,
-        "egg_cream": 0.0063
+        "spirit": 0.4359,
+        "liqueur": 0.1079,
+        "amaro": 0.0138,
+        "vermouth_fortified": 0.0159,
+        "acid": 0.0684,
+        "sweet": 0.0496,
+        "juice_mixer": 0.2947,
+        "lengthener": 0.0076,
+        "egg_cream": 0.0062
       },
-      "dominant_ratio": "4.5:3:1",
+      "dominant_ratio": "4:2.5:1",
       "dominant_roles": "spirit:juice_mixer:liqueur",
-      "recipe_count": 937,
+      "recipe_count": 929,
       "benchmark_drinks": [],
       "examples": [
         {
@@ -445,16 +443,6 @@
           }
         },
         {
-          "name": "Yellow Fever Cocktail",
-          "props": {
-            "spirit": 0.488,
-            "liqueur": 0.098,
-            "acid": 0.098,
-            "sweet": 0.024,
-            "juice_mixer": 0.293
-          }
-        },
-        {
           "name": "Northern Glow",
           "props": {
             "spirit": 0.409,
@@ -462,6 +450,16 @@
             "acid": 0.091,
             "sweet": 0.091,
             "juice_mixer": 0.273
+          }
+        },
+        {
+          "name": "Yellow Fever Cocktail",
+          "props": {
+            "spirit": 0.488,
+            "liqueur": 0.098,
+            "acid": 0.098,
+            "sweet": 0.024,
+            "juice_mixer": 0.293
           }
         },
         {
@@ -485,38 +483,34 @@
           }
         },
         {
-          "name": "Roman Punch",
+          "name": "Cosmopolitan Cocktail (Dale DeGroff's recipe)",
           "props": {
-            "spirit": 0.441,
-            "liqueur": 0.11,
-            "acid": 0.11,
-            "juice_mixer": 0.331
+            "spirit": 0.462,
+            "liqueur": 0.154,
+            "acid": 0.077,
+            "juice_mixer": 0.308
           }
         }
       ],
       "notes": "PROVISIONAL — name and ratio rounding subject to Ari's review"
     },
     {
-      "id": "cluster_6",
+      "id": "cluster_1",
       "suggested_name": "Amaro Build",
       "centroid": {
-        "spirit": 0.2772,
-        "liqueur": 0.0587,
-        "amaro": 0.4302,
-        "vermouth_fortified": 0.0782,
-        "acid": 0.0865,
-        "sweet": 0.0339,
-        "juice_mixer": 0.0192,
-        "lengthener": 0.0119
+        "spirit": 0.273,
+        "liqueur": 0.0659,
+        "amaro": 0.4249,
+        "vermouth_fortified": 0.0773,
+        "acid": 0.0824,
+        "sweet": 0.0355,
+        "juice_mixer": 0.0242,
+        "lengthener": 0.0127
       },
-      "dominant_ratio": "5:3:1",
+      "dominant_ratio": "5:3.5:1",
       "dominant_roles": "amaro:spirit:acid",
-      "recipe_count": 714,
-      "benchmark_drinks": [
-        "Last Word",
-        "Negroni",
-        "Paper Plane"
-      ],
+      "recipe_count": 658,
+      "benchmark_drinks": [],
       "examples": [
         {
           "name": "Knotty Pine",
@@ -547,31 +541,21 @@
           }
         },
         {
-          "name": "Interpol",
-          "props": {
-            "spirit": 0.327,
-            "amaro": 0.49,
-            "acid": 0.163,
-            "sweet": 0.02
-          }
-        },
-        {
-          "name": "Prospect Park",
-          "props": {
-            "spirit": 0.375,
-            "liqueur": 0.062,
-            "amaro": 0.375,
-            "vermouth_fortified": 0.125,
-            "sweet": 0.062
-          }
-        },
-        {
           "name": "Piña Ahumado",
           "props": {
             "spirit": 0.271,
             "liqueur": 0.17,
             "amaro": 0.407,
             "acid": 0.136
+          }
+        },
+        {
+          "name": "Copenhagen Club",
+          "props": {
+            "spirit": 0.25,
+            "liqueur": 0.15,
+            "amaro": 0.4,
+            "vermouth_fortified": 0.15
           }
         },
         {
@@ -584,47 +568,49 @@
           }
         },
         {
-          "name": "The Shah Sleeps",
+          "name": "Interpol",
           "props": {
-            "spirit": 0.317,
-            "amaro": 0.515,
-            "vermouth_fortified": 0.158
+            "spirit": 0.327,
+            "amaro": 0.49,
+            "acid": 0.163,
+            "sweet": 0.02
+          }
+        },
+        {
+          "name": "Ellen's Fancy",
+          "props": {
+            "spirit": 0.342,
+            "liqueur": 0.137,
+            "amaro": 0.342,
+            "acid": 0.137,
+            "sweet": 0.017,
+            "juice_mixer": 0.026
           }
         }
       ],
       "notes": "PROVISIONAL — name and ratio rounding subject to Ari's review"
     },
     {
-      "id": "cluster_3",
+      "id": "cluster_2",
       "suggested_name": "Highball",
       "centroid": {
-        "spirit": 0.1948,
-        "liqueur": 0.0789,
-        "amaro": 0.0421,
-        "vermouth_fortified": 0.0306,
-        "acid": 0.0651,
-        "sweet": 0.0447,
+        "spirit": 0.1951,
+        "liqueur": 0.0843,
+        "amaro": 0.0365,
+        "vermouth_fortified": 0.0297,
+        "acid": 0.0653,
+        "sweet": 0.0449,
         "juice_mixer": 0.0224,
-        "lengthener": 0.5181
+        "lengthener": 0.5185
       },
-      "dominant_ratio": "6.5:2.5:1",
+      "dominant_ratio": "6:2.5:1",
       "dominant_roles": "lengthener:spirit:liqueur",
-      "recipe_count": 628,
+      "recipe_count": 627,
       "benchmark_drinks": [
         "Mojito",
         "Moscow Mule"
       ],
       "examples": [
-        {
-          "name": "Gin Blossom Fizz",
-          "props": {
-            "spirit": 0.214,
-            "liqueur": 0.071,
-            "acid": 0.071,
-            "sweet": 0.071,
-            "lengthener": 0.571
-          }
-        },
         {
           "name": "Widowmaker #1",
           "props": {
@@ -636,6 +622,27 @@
           }
         },
         {
+          "name": "Spicy Collins",
+          "props": {
+            "spirit": 0.205,
+            "liqueur": 0.077,
+            "acid": 0.051,
+            "sweet": 0.077,
+            "juice_mixer": 0.077,
+            "lengthener": 0.513
+          }
+        },
+        {
+          "name": "Gin Blossom Fizz",
+          "props": {
+            "spirit": 0.214,
+            "liqueur": 0.071,
+            "acid": 0.071,
+            "sweet": 0.071,
+            "lengthener": 0.571
+          }
+        },
+        {
           "name": "23 Skiddoo",
           "props": {
             "spirit": 0.2,
@@ -643,17 +650,6 @@
             "acid": 0.05,
             "sweet": 0.05,
             "lengthener": 0.6
-          }
-        },
-        {
-          "name": "Spicy Collins",
-          "props": {
-            "spirit": 0.205,
-            "amaro": 0.077,
-            "acid": 0.051,
-            "sweet": 0.077,
-            "juice_mixer": 0.077,
-            "lengthener": 0.513
           }
         },
         {
@@ -676,15 +672,6 @@
           }
         },
         {
-          "name": "Glasgow Mule",
-          "props": {
-            "spirit": 0.221,
-            "liqueur": 0.074,
-            "acid": 0.111,
-            "lengthener": 0.59
-          }
-        },
-        {
           "name": "Victorian",
           "props": {
             "spirit": 0.14,
@@ -693,27 +680,36 @@
             "sweet": 0.047,
             "lengthener": 0.561
           }
+        },
+        {
+          "name": "Glasgow Mule",
+          "props": {
+            "spirit": 0.221,
+            "liqueur": 0.074,
+            "acid": 0.111,
+            "lengthener": 0.59
+          }
         }
       ],
       "notes": "PROVISIONAL — name and ratio rounding subject to Ari's review"
     },
     {
-      "id": "cluster_9",
+      "id": "cluster_6",
       "suggested_name": "Tropical / Juice",
       "centroid": {
-        "spirit": 0.2003,
-        "liqueur": 0.126,
-        "amaro": 0.0253,
-        "vermouth_fortified": 0.0086,
-        "acid": 0.0543,
-        "sweet": 0.0314,
-        "juice_mixer": 0.5422,
-        "lengthener": 0.0056,
-        "egg_cream": 0.0063
+        "spirit": 0.1989,
+        "liqueur": 0.1281,
+        "amaro": 0.0223,
+        "vermouth_fortified": 0.0087,
+        "acid": 0.0542,
+        "sweet": 0.0308,
+        "juice_mixer": 0.5449,
+        "lengthener": 0.0057,
+        "egg_cream": 0.0064
       },
       "dominant_ratio": "4.5:1.5:1",
       "dominant_roles": "juice_mixer:spirit:liqueur",
-      "recipe_count": 439,
+      "recipe_count": 431,
       "benchmark_drinks": [],
       "examples": [
         {
@@ -764,6 +760,15 @@
           }
         },
         {
+          "name": "Killer Punch",
+          "props": {
+            "spirit": 0.167,
+            "liqueur": 0.167,
+            "acid": 0.083,
+            "juice_mixer": 0.583
+          }
+        },
+        {
           "name": "Vanilla Laika",
           "props": {
             "spirit": 0.207,
@@ -771,15 +776,6 @@
             "acid": 0.035,
             "sweet": 0.103,
             "juice_mixer": 0.552
-          }
-        },
-        {
-          "name": "Killer Punch",
-          "props": {
-            "spirit": 0.167,
-            "liqueur": 0.167,
-            "acid": 0.083,
-            "juice_mixer": 0.583
           }
         },
         {
@@ -798,21 +794,29 @@
       "id": "cluster_8",
       "suggested_name": "Liqueur-Forward",
       "centroid": {
-        "spirit": 0.0843,
-        "liqueur": 0.6343,
-        "amaro": 0.0339,
-        "vermouth_fortified": 0.0149,
-        "acid": 0.1036,
-        "sweet": 0.0369,
-        "juice_mixer": 0.0308,
-        "lengthener": 0.02,
-        "egg_cream": 0.0412
+        "spirit": 0.0836,
+        "liqueur": 0.6324,
+        "amaro": 0.0331,
+        "vermouth_fortified": 0.0189,
+        "acid": 0.108,
+        "sweet": 0.0364,
+        "juice_mixer": 0.0286,
+        "lengthener": 0.0197,
+        "egg_cream": 0.0393
       },
-      "dominant_ratio": "7.5:1:1",
+      "dominant_ratio": "7.5:1.5:1",
       "dominant_roles": "liqueur:acid:spirit",
-      "recipe_count": 356,
+      "recipe_count": 374,
       "benchmark_drinks": [],
       "examples": [
+        {
+          "name": "Carolynn Reminder",
+          "props": {
+            "spirit": 0.11,
+            "liqueur": 0.658,
+            "acid": 0.219
+          }
+        },
         {
           "name": "Julius Orange",
           "props": {
@@ -832,14 +836,6 @@
           }
         },
         {
-          "name": "Battle of Trafalgar",
-          "props": {
-            "liqueur": 0.562,
-            "acid": 0.125,
-            "sweet": 0.125
-          }
-        },
-        {
           "name": "Swan cup",
           "props": {
             "liqueur": 0.584,
@@ -849,28 +845,11 @@
           }
         },
         {
-          "name": "Black & White Daiquiri",
+          "name": "Battle of Trafalgar",
           "props": {
-            "spirit": 0.21,
-            "liqueur": 0.579,
-            "acid": 0.105,
-            "lengthener": 0.105
-          }
-        },
-        {
-          "name": "Sophisticated Savage",
-          "props": {
-            "liqueur": 0.5,
+            "liqueur": 0.562,
             "acid": 0.125,
-            "egg_cream": 0.125
-          }
-        },
-        {
-          "name": "The SAGE Blossom",
-          "props": {
-            "liqueur": 0.656,
-            "amaro": 0.131,
-            "acid": 0.197
+            "sweet": 0.125
           }
         },
         {
@@ -880,17 +859,33 @@
             "acid": 0.176,
             "sweet": 0.088
           }
+        },
+        {
+          "name": "Baltic Spring Punch",
+          "props": {
+            "liqueur": 0.667,
+            "acid": 0.222,
+            "sweet": 0.111
+          }
+        },
+        {
+          "name": "The SAGE Blossom",
+          "props": {
+            "liqueur": 0.656,
+            "amaro": 0.131,
+            "acid": 0.197
+          }
         }
       ],
       "notes": "PROVISIONAL — name and ratio rounding subject to Ari's review"
     },
     {
-      "id": "cluster_4",
+      "id": "cluster_5",
       "suggested_name": "Wine / Vermouth",
       "centroid": {
         "spirit": 0.1197,
-        "liqueur": 0.0727,
-        "amaro": 0.0612,
+        "liqueur": 0.0737,
+        "amaro": 0.0602,
         "vermouth_fortified": 0.6461,
         "acid": 0.0313,
         "sweet": 0.0332,
@@ -927,6 +922,16 @@
           }
         },
         {
+          "name": "Summer Water",
+          "props": {
+            "spirit": 0.143,
+            "amaro": 0.143,
+            "vermouth_fortified": 0.571,
+            "acid": 0.071,
+            "sweet": 0.071
+          }
+        },
+        {
           "name": "Danube",
           "props": {
             "spirit": 0.167,
@@ -940,16 +945,6 @@
             "spirit": 0.143,
             "amaro": 0.143,
             "vermouth_fortified": 0.571
-          }
-        },
-        {
-          "name": "Summer Water",
-          "props": {
-            "spirit": 0.143,
-            "amaro": 0.143,
-            "vermouth_fortified": 0.571,
-            "acid": 0.071,
-            "sweet": 0.071
           }
         },
         {
@@ -976,16 +971,16 @@
       "suggested_name": "Negroni-Style (equal thirds: spirit + amaro + vermouth)",
       "source": "equal_parts_detector",
       "centroid": {
-        "spirit": 0.3175,
-        "liqueur": 0.0162,
-        "amaro": 0.3143,
-        "vermouth_fortified": 0.3107,
-        "acid": 0.0152,
-        "juice_mixer": 0.0208
+        "spirit": 0.3176,
+        "liqueur": 0.0198,
+        "amaro": 0.314,
+        "vermouth_fortified": 0.3101,
+        "acid": 0.0155,
+        "juice_mixer": 0.0173
       },
       "dominant_ratio": "1:1:1",
       "dominant_roles": "spirit:amaro:vermouth_fortified",
-      "recipe_count": 107,
+      "recipe_count": 97,
       "benchmark_drinks": [
         "Negroni"
       ],
@@ -1076,17 +1071,19 @@
       "suggested_name": "Equal-Parts (four-way: spirit + liqueur + amaro + acid)",
       "source": "equal_parts_detector",
       "centroid": {
-        "spirit": 0.2569,
-        "liqueur": 0.2422,
-        "amaro": 0.2413,
-        "acid": 0.2425,
-        "sweet": 0.0061
+        "spirit": 0.256,
+        "liqueur": 0.2416,
+        "amaro": 0.2408,
+        "acid": 0.2419,
+        "sweet": 0.0061,
+        "juice_mixer": 0.0075
       },
       "dominant_ratio": "1:1:1",
       "dominant_roles": "spirit:acid:liqueur",
-      "recipe_count": 47,
+      "recipe_count": 53,
       "benchmark_drinks": [
-        "Last Word"
+        "Last Word",
+        "Paper Plane"
       ],
       "examples": [
         {
@@ -1108,7 +1105,7 @@
           }
         },
         {
-          "name": "Wordsmith",
+          "name": "Naked & Famous",
           "props": {
             "spirit": 0.25,
             "liqueur": 0.25,
@@ -1126,6 +1123,15 @@
           }
         },
         {
+          "name": "Paper Plane",
+          "props": {
+            "spirit": 0.25,
+            "liqueur": 0.25,
+            "amaro": 0.25,
+            "acid": 0.25
+          }
+        },
+        {
           "name": "Bitter Apricot",
           "props": {
             "spirit": 0.25,
@@ -1135,7 +1141,7 @@
           }
         },
         {
-          "name": "But You Don't Have To Take My Word For It",
+          "name": "Adams' Words",
           "props": {
             "spirit": 0.25,
             "liqueur": 0.25,
@@ -1144,16 +1150,7 @@
           }
         },
         {
-          "name": "Campari Swizzle",
-          "props": {
-            "spirit": 0.2,
-            "liqueur": 0.2,
-            "amaro": 0.2,
-            "acid": 0.2
-          }
-        },
-        {
-          "name": "Adams' Words",
+          "name": "Wordsmith",
           "props": {
             "spirit": 0.25,
             "liqueur": 0.25,

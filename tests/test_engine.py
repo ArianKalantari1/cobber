@@ -242,6 +242,25 @@ def test_template_proportions_sum_to_at_most_one():
     assert total > 0.5, f"Ingredient proportions sum to {total}, too low — mapping may be broken"
 
 
+def test_paper_plane_style_matches_four_way_equal_parts():
+    """spirit + aperol (liqueur) + amaro + acid should hit the 4-way equal-parts overlay.
+
+    Aperol is a sweet-bright aperitivo (11% ABV, sweet 0.5/bitter 0.5) — it fills
+    the liqueur slot in Paper Plane-style builds, not the amaro slot that Campari fills.
+    """
+    t = engine.suggest_template(["bourbon", "aperol", "averna", "lemon"])
+    assert t is not None
+    assert t["id"] == "last_word_style", (
+        f"Expected 4-way equal-parts overlay, got: {t['id']!r} ({t['suggested_name']!r})"
+    )
+    # Proportions should be roughly equal (±10%)
+    props = t["ingredient_proportions"]
+    vals = list(props.values())
+    assert max(vals) - min(vals) < 0.10, (
+        f"Expected near-equal proportions for Paper Plane style, got: {props}"
+    )
+
+
 def test_template_in_build_around_output():
     """build_around must include a template field in each suggestion."""
     pantry = ["gin", "lime", "sugar_syrup", "lemon_myrtle"]

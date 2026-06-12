@@ -113,14 +113,14 @@ _SWEET_CHECK = _make_checker([
 ])
 
 _AMARO_CHECK = _make_checker([
-    "campari", "aperol", "cynar", "fernet",
+    "campari", "cynar", "fernet",
     " amaro", "amaro ", "cardamaro",
     "chartreuse", "byrrh", "punt e mes", "suze",
     "bonal ", "luxardo bitter", "torani amer",
     "picon", "amer picon", "averna", "ramazzotti",
     "braulio", "becherovka", "unicum", "zwack",
     "nardini", "meletti", "nonino", "montenegro",
-    "sfumato", "select aperitivo",
+    "sfumato",
     "abano", "bitterzoet", "jagermeister",
 ])
 
@@ -148,6 +148,10 @@ _LIQUEUR_CHECK = _make_checker([
     "pimm", "sloe gin",
     "drambuie", "strega",
     "absinthe", "pastis", "pernod",
+    # Sweet-bitter aperitivi: lower ABV, orange-forward, more liqueur than bitter amaro
+    # (Aperol 11% ABV; Select Aperitivo similar; both act as the modifier/liqueur slot
+    # in drinks like the Paper Plane, not the bitter backbone like Campari)
+    "aperol", "select aperitivo",
 ])
 
 _JUICE_MIXER_CHECK = _make_checker([
@@ -186,7 +190,7 @@ def classify_role(name: str) -> str:
     # Bitters (small aromatic doses — tracked but not in vector)
     if _BITTER_CHECK(s):
         # Must not be amaro-class
-        if not any(x in s for x in ["campari", "aperol", "fernet", "amaro", "cynar"]):
+        if not any(x in s for x in ["campari", "fernet", "amaro", "cynar"]):
             return "bitter"
 
     # Lengtheners / carbonated
@@ -720,6 +724,15 @@ def main() -> None:
         overlays = detect_equal_parts(matrix, metadata, args.n_examples)
         if overlays:
             print(f"\nEqual-parts overlay: {len(overlays)} additional template(s) detected.")
+            # Benchmarks claimed by an overlay should not also appear in k-means
+            # cluster lists (Paper Plane belongs to the 4-way overlay, not "Amaro Build").
+            overlay_benchmarks: set[str] = set()
+            for o in overlays:
+                overlay_benchmarks.update(o.get("benchmark_drinks", []))
+            for t in templates:
+                t["benchmark_drinks"] = [
+                    b for b in t["benchmark_drinks"] if b not in overlay_benchmarks
+                ]
 
     output = {
         "k": best_k,

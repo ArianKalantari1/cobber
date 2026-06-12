@@ -260,6 +260,9 @@ _TEMPLATE_ROLE_OVERRIDES: dict[str, str] = {
     "sloe_gin":                 "liqueur",
     "benedictine":              "liqueur",
     "yellow_chartreuse":        "amaro",   # chartreuse is amaro-class
+    # Sweet-bright aperitivi: liqueur slot in builds like Paper Plane,
+    # not the bitter backbone (Campari/Cynar stay as amaro)
+    "aperol":                   "liqueur",
 }
 
 # Template roles that are tracked but excluded from distance matching
