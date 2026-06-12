@@ -370,6 +370,125 @@ def suggest_template(ingredient_ids: list[str]) -> dict | None:
     }
 
 
+# ---------------------------------------------------------------------------
+# Technique suggestion
+# ---------------------------------------------------------------------------
+
+# Ingredient IDs that are carbonated lengtheners — must be built, never shaken.
+# Role alone is insufficient: tonic is "bitter", ginger_ale is "sweet", sparkling_wine
+# is "aromatic" — so we check by id and display-name fragment.
+_CARBONATED_IDS: frozenset[str] = frozenset({
+    "soda_water", "tonic_water", "ginger_ale", "sparkling_wine",
+})
+_CARBONATED_NAME_FRAGMENTS: tuple[str, ...] = (
+    "soda", "tonic", "champagne", "prosecco", "cava", "sparkling",
+    "ginger beer", "beer", "cider", "lemonade",
+)
+
+# Herbs that are typically muddled before building/shaking.
+_MUDDLE_HERB_IDS: frozenset[str] = frozenset({
+    "mint", "native_river_mint", "basil", "sage", "rosemary", "thyme",
+    "coriander_leaf",
+})
+
+
+def _is_carbonated(ingredient_id: str) -> bool:
+    if ingredient_id in _CARBONATED_IDS:
+        return True
+    ing = PANTRY.get(ingredient_id)
+    if ing is None:
+        return False
+    name = ing.display_name.lower()
+    return any(frag in name for frag in _CARBONATED_NAME_FRAGMENTS)
+
+
+def _detect_technique_signals(ingredient_ids: list[str]) -> dict[str, bool]:
+    """Return technique-relevant signals for a set of Cobber ingredient ids."""
+    has_egg_white = False
+    has_dairy     = False
+    has_acid      = False
+    has_carb      = False
+    has_herb      = False
+
+    non_technique_roles = {"bitter", "seasoning"}
+
+    for ing_id in ingredient_ids:
+        ing = PANTRY.get(ing_id)
+        if ing is None:
+            continue
+        role = ing.role
+
+        if role == "sour":
+            has_acid = True
+        elif role == "dairy":
+            has_dairy = True
+            if ing_id == "egg_white":
+                has_egg_white = True
+        elif role == "herb":
+            if ing_id in _MUDDLE_HERB_IDS:
+                has_herb = True
+
+        if _is_carbonated(ing_id):
+            has_carb = True
+
+    return {
+        "has_egg_white":            has_egg_white,
+        "has_dairy":                has_dairy and not has_egg_white,
+        "has_acid":                 has_acid,
+        "has_carb":                 has_carb,
+        "has_herb":                 has_herb,
+        "has_herb_acid_and_carb":   has_herb and has_acid and has_carb,
+        "has_acid_and_carb":        has_acid and has_carb and not has_herb,
+        "has_carb_only":            has_carb and not has_acid and not has_dairy,
+        "has_herb_no_acid":         has_herb and not has_acid,
+        "spirit_only": (
+            not has_acid and not has_dairy and not has_carb and not has_herb
+        ),
+    }
+
+
+def suggest_technique(ingredient_ids: list[str]) -> dict | None:
+    """Suggest preparation technique for a set of ingredient ids.
+
+    Returns a dict with method, service, glass, optional pre_steps, rationale,
+    and the matched rule id — or None if no rules are loaded.
+
+    Priority order (first matching rule wins):
+      1. egg_white      → dry shake then shake, served up
+      2. highball_build → build (carbonation only, no acid)
+      3. sour_highball  → shake base, top with carbonation, highball glass
+      4. dairy_shake    → shake, served up
+      5. acid_shake     → shake, served up
+      6. herb_muddle_build → muddle then build, rocks
+      7. spirit_only    → stir, rocks
+      8. default        → build, rocks
+    """
+    if not PANTRY.technique_rules:
+        return None
+
+    signals = _detect_technique_signals(ingredient_ids)
+
+    for rule in PANTRY.technique_rules:
+        trigger = rule["trigger"]
+        if trigger == "default" or signals.get(trigger):
+            result: dict = {
+                "method": rule["method"],
+                "service": rule["service"],
+                "glass": rule["glass"],
+                "ice_in_glass": rule["ice_in_glass"],
+                "pre_steps": rule.get("pre_steps", []),
+                "rationale": rule["rationale"],
+                "matched_rule": rule["id"],
+            }
+            if rule.get("carbonation_note"):
+                result["carbonation_note"] = rule["carbonation_note"]
+            if rule.get("notes"):
+                result["rule_notes"] = rule["notes"]
+            return result
+
+    return None
+
+
 def validate_anchors(anchors: list[str]) -> str | None:
     """Return a human-readable error if the anchor list is the wrong size, else None.
 
@@ -523,6 +642,7 @@ def build_around(
                     "why": _why(ingredient_ids),
                     "balance": balance(ingredient_ids),
                     "template": suggest_template(ingredient_ids),
+                    "technique": suggest_technique(ingredient_ids),
                     "native_swap": native_swap,
                     "_rank": rank,
                 }

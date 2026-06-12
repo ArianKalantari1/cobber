@@ -272,3 +272,82 @@ def test_template_in_build_around_output():
         if t is not None:
             assert "id" in t
             assert "ingredient_proportions" in t
+
+
+# ---------------------------------------------------------------------------
+# Technique tests
+# ---------------------------------------------------------------------------
+
+def test_technique_rules_are_loaded():
+    """Pantry must load technique rules from technique_associations.json."""
+    from cobber.data import load_pantry
+    pantry = load_pantry()
+    assert pantry.technique_rules, "technique_associations.json should load non-empty rules"
+    for rule in pantry.technique_rules:
+        assert "id" in rule
+        assert "method" in rule
+        assert "trigger" in rule
+
+
+def test_citrus_combination_suggests_shake():
+    """Spirit + acid should suggest shake method."""
+    t = engine.suggest_technique(["gin", "lime", "sugar_syrup"])
+    assert t is not None
+    assert t["method"] == "shake", f"Expected shake for gin+lime+sugar, got {t['method']!r}"
+    assert t["service"] == "up"
+
+
+def test_egg_white_triggers_dry_shake_pre_step():
+    """Egg white must trigger a dry-shake pre-step, not just shake."""
+    t = engine.suggest_technique(["gin", "lime", "sugar_syrup", "egg_white"])
+    assert t is not None
+    assert t["method"] == "shake"
+    assert "dry_shake" in t["pre_steps"], (
+        f"Egg white must add dry_shake pre-step, got pre_steps={t['pre_steps']!r}"
+    )
+
+
+def test_spirit_only_suggests_stir():
+    """Spirit + amaro + vermouth (no acid, no dairy) should suggest stir."""
+    t = engine.suggest_technique(["bourbon", "angostura_bitters", "sugar_syrup"])
+    assert t is not None
+    assert t["method"] == "stir", (
+        f"Spirit-only combination should stir, got {t['method']!r}"
+    )
+
+
+def test_carbonation_suggests_build():
+    """Spirit + carbonated lengthener (no acid) should suggest build + highball."""
+    t = engine.suggest_technique(["gin", "soda_water"])
+    assert t is not None
+    assert t["method"] == "build", (
+        f"Carbonated mix must build, got {t['method']!r}"
+    )
+    assert t["glass"] == "highball"
+
+
+def test_sour_highball_gets_highball_service():
+    """Spirit + acid + carbonation (Collins family) should be shake-then-top, highball."""
+    t = engine.suggest_technique(["gin", "lemon", "sugar_syrup", "soda_water"])
+    assert t is not None
+    assert t["service"] == "highball", (
+        f"Sour + soda should be highball service, got {t['service']!r}"
+    )
+    assert t["method"] == "shake", (
+        f"Base should be shaken before topping with soda, got {t['method']!r}"
+    )
+    assert "carbonation_note" in t, "Collins build must include carbonation assembly note"
+
+
+def test_technique_in_build_around_output():
+    """build_around must include a technique field in each suggestion."""
+    results = engine.build_around(
+        ["gin", "lime", "sugar_syrup", "lemon_myrtle"], ["gin", "lime"], n=3
+    )
+    assert results
+    for result in results:
+        assert "technique" in result, "Each build_around result must include technique"
+        tech = result["technique"]
+        if tech is not None:
+            assert "method" in tech
+            assert "rationale" in tech

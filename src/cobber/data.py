@@ -87,6 +87,11 @@ class Pantry:
     # committed to data/proportion_templates.json. Naming is PROVISIONAL — Ari
     # reviews and renames before the engine treats these as canonical.
     templates: list[dict] = field(default_factory=list)
+    # Technique rules: priority-ordered preparation rules derived from TheCocktailDB
+    # + IBA instruction text mining. Each rule maps an ingredient signal (has_acid,
+    # has_egg_white, ...) to a method (shake/stir/build), service style, glass, and
+    # optional pre-steps (dry_shake, muddle). PROVISIONAL — Ari to review.
+    technique_rules: list[dict] = field(default_factory=list)
 
     def get(self, ingredient_id: str) -> Ingredient | None:
         """Return the ingredient with this id, or ``None`` if it is unknown."""
@@ -219,6 +224,14 @@ def load_pantry() -> Pantry:
         with templates_path.open(encoding="utf-8") as handle:
             templates_data = json.load(handle)
         pantry.templates = templates_data.get("templates", [])
+
+    # Pass 6: technique rules, if the file exists. Mined from TheCocktailDB + IBA
+    # instruction text; priority-ordered rules for shake/stir/build/blend dispatch.
+    technique_path = DATA_DIR / "technique_associations.json"
+    if technique_path.exists():
+        with technique_path.open(encoding="utf-8") as handle:
+            technique_data = json.load(handle)
+        pantry.technique_rules = technique_data.get("rules", [])
 
     return pantry
 

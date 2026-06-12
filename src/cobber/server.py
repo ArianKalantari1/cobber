@@ -75,16 +75,22 @@ Workflow when someone tells you what they have:
    it's genuinely untried as far as the data knows. That distinction is the
    whole point of Cobber.
 5. Take the best one or two suggestions and write them up as real cocktails.
-   Each suggestion now includes a `template` field with a proportion structure
-   learned from ~8,000 real recipes (e.g. "Sour 3:1.5:1 spirit:acid:sweet").
-   - Use the `ingredient_proportions` as your starting ratios: they are
-     fractions (0–1), not ml, so they work for any pour culture. To convert:
-     pick a target spirit volume (e.g. 45 ml for AU, 60 ml for US), then
-     scale every other ingredient proportionally.
-   - If the template name is PROVISIONAL (pending Ari's review), use the
-     structural description ("a Sour-style build") rather than the name.
-   - If no template matched, write ratios from your own bar knowledge and
-     note that Cobber didn't have a proportion reference for this shape.
+   Each suggestion now includes `template` (proportions) and `technique`
+   (preparation method) fields — both learned from real recipes.
+   Proportions:
+   - Use `ingredient_proportions` as starting ratios (fractions 0–1, not ml).
+     Pick a spirit volume (45 ml AU / 60 ml US), scale everything else.
+   - If the template name is PROVISIONAL, use the structural description.
+   - If no template matched, write ratios from your own bar knowledge.
+   Technique:
+   - The `technique` field gives you `method` (shake/stir/build/blend),
+     `service` (up/rocks/highball), `glass`, `pre_steps` (dry_shake, muddle),
+     and a `rationale` explaining why. Use these directly — don't invent a
+     preparation method without checking this first.
+   - Key rules: never shake after adding carbonation (add it last);
+     egg white needs a dry shake first; citrus→shake; spirit-only→stir.
+   - `rule_notes` on the technique output flags low-confidence cases —
+     mention this if the technique is a strong heuristic, not a certainty.
    Method, glass, garnish, and a name come from you. Ground every "why" in
    `explain_pairing` so your reasoning matches the actual shared compounds —
    never invent flavour chemistry.
@@ -374,6 +380,33 @@ def frontier_support(a: str, b: str) -> dict:
     if evidence is None:
         return {"supported": False, "count": 0, "examples": []}
     return {"supported": True, **evidence}
+
+
+@mcp.tool()
+def suggest_technique(ingredient_ids: list[str]) -> dict:
+    """Suggest preparation technique and service style for a set of ingredient ids.
+
+    Returns ``{"method", "service", "glass", "ice_in_glass", "pre_steps",
+    "rationale", "matched_rule"}`` — plus ``"carbonation_note"`` when the build
+    involves a carbonated top-up.
+
+    Key signals used: egg white (dry shake first), carbonation (build/highball,
+    never shake after adding), acid/citrus (shake), dairy (shake), fresh herbs
+    (muddle first), spirit-only (stir). Use this to choose the preparation method
+    rather than inventing one; the rationale field explains the reasoning.
+    """
+    result = engine.suggest_technique(ingredient_ids)
+    if result is None:
+        return {
+            "method": "build",
+            "service": "rocks",
+            "glass": "rocks",
+            "ice_in_glass": True,
+            "pre_steps": [],
+            "rationale": "No technique rules loaded — default build over ice.",
+            "matched_rule": "fallback",
+        }
+    return result
 
 
 def main() -> None:

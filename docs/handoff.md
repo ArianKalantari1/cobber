@@ -23,6 +23,38 @@ first for the project's thinking; this file is "where we are and what's next".*
   that read like a bar menu (daiquiri/mojito family, martini family,
   after-dinner cream-coffee family, tiki, mulled-wine spices…).
 
+## Technique mining: DONE this session (12 June 2026)
+
+- **Source data:** 441 TheCocktailDB (strInstructions) + 77 IBA (preparation field)
+  → 486 annotated recipes, 32 unparseable.
+- **Script:** `scripts/mine_techniques.py` → `data/technique_associations.json`.
+  Outputs per-recipe annotations (audit trail), signal→technique frequency tables,
+  and 9 priority-ordered rules.
+- **Rules (priority order):**
+  1. `egg_white` → dry_shake + shake, coupe up (data: 80% of egg-white recipes shake)
+  2. `carb_only` (spirit + soda, no acid) → build, highball
+  3. `herb+acid+carb` (Mojito/Smash Fizz) → muddle + build, highball, top w/soda
+  4. `acid+carb`, no herb (Collins/Fizz) → shake base, highball, top w/soda
+  5. `dairy` (no egg white) → shake, coupe up (data: 31% — noisy; hot/layered drinks dilute)
+  6. `acid`, no carb → shake, coupe up (data: 49% — noisy, same reason)
+  7. `herb`, no acid (Smash) → muddle + build, rocks
+  8. `spirit_only` → stir, rocks (data: 41%)
+  9. `default` → build, rocks
+- **Engine:** `suggest_technique(ingredient_ids)` in engine.py; `_detect_technique_signals()`
+  maps Cobber ingredient IDs to signals (role + specific ID checks for carbonated ingredients,
+  which span multiple roles: soda_water=mixer, tonic_water=bitter, ginger_ale=sweet,
+  sparkling_wine=aromatic). `build_around()` now includes `technique` field alongside `template`.
+- **MCP tool:** `suggest_technique` exposed as standalone tool; server INSTRUCTIONS step 5
+  updated to relay technique + service + pre_steps to Cobber.
+- **Spot-checked:** Daiquiri→shake/coupe, Negroni→stir/rocks, Old Fashioned→stir/rocks,
+  G&T→build/highball, Whiskey Sour+egg→dry_shake+shake/coupe, Tom Collins→shake+top/highball,
+  Mojito→muddle+build+top/highball. **Known limitation:** White Russian (vodka+kahlua+cream)
+  gets "shake+coupe" but correct practice is "build+rocks" — dairy rule defaults to up service
+  because it's optimised for cream cocktails served up (Brandy Alexander, Grasshopper). Low
+  priority to fix since this affects classification of existing classics, not new creation.
+- **Tests:** 7 new technique tests; 40 total passing.
+- PROVISIONAL — Ari to review rule priorities and rationale text.
+
 ## Decisions made this session (12 June 2026) — proportion templates
 
 1. **Two role vocabularies, not one.** Cobber's 10-role balance vocabulary
@@ -246,10 +278,11 @@ Priority order set with Ari after the two live runs:
    structural descriptions. Dose-gating-to-proportions deferred (roadmap
    concern) — remove the absolute-oz watch item above once templates are
    confirmed.
-2. **Technique mining.** TheCocktailDB instructions + IBA preparation fields
-   are unmined: learn ingredient↔technique associations (citrus+egg→shake,
-   spirit-only→stir, cream+acid→clarify-or-avoid). Design notes call this
-   the biggest conceptual gap; it is also the chef-crossover dimension.
+2. **Technique mining — DONE.** 9 priority-ordered rules in
+   `data/technique_associations.json` from 486 annotated TheCocktailDB+IBA
+   recipes. `suggest_technique()` in engine.py, exposed as MCP tool, included
+   in every `build_around` suggestion. **OPEN:** Ari to review rule priorities;
+   White Russian edge case noted above (dairy→coupe vs rocks).
 3. **Tasting-feedback loop.** Started informally: Ari's verdicts on The
    Broth Decision and Myrcene Season are the first entries. Formalize as
    data/tasting_log.json once a few verdicts exist; verdicts should be able
