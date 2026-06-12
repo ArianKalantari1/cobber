@@ -1,6 +1,6 @@
 [
   {
-    "count": 451,
+    "count": 440,
     "examples": [
       {
         "bartender": "Elizabeth Montana",
@@ -83,7 +83,7 @@
     ]
   },
   {
-    "count": 291,
+    "count": 284,
     "examples": [
       {
         "bartender": "Danny Louie",
@@ -186,7 +186,7 @@
     ]
   },
   {
-    "count": 233,
+    "count": 230,
     "examples": [
       {
         "bartender": "Kevin Diedrich",
@@ -248,27 +248,6 @@
     ]
   },
   {
-    "count": 201,
-    "examples": [
-      {
-        "bartender": "Elizabeth Montana",
-        "drink": "The Happy Place"
-      },
-      {
-        "bartender": "Linda Salinas",
-        "drink": "Clearly Bitter"
-      },
-      {
-        "bartender": "Ken Luciano",
-        "drink": "Croatia Firing Squad"
-      }
-    ],
-    "pair": [
-      "dry_vermouth",
-      "gin"
-    ]
-  },
-  {
     "count": 200,
     "examples": [
       {
@@ -287,6 +266,27 @@
     "pair": [
       "almond",
       "ginger"
+    ]
+  },
+  {
+    "count": 200,
+    "examples": [
+      {
+        "bartender": "Elizabeth Montana",
+        "drink": "The Happy Place"
+      },
+      {
+        "bartender": "Linda Salinas",
+        "drink": "Clearly Bitter"
+      },
+      {
+        "bartender": "Ken Luciano",
+        "drink": "Croatia Firing Squad"
+      }
+    ],
+    "pair": [
+      "dry_vermouth",
+      "gin"
     ]
   },
   {
@@ -419,27 +419,6 @@
     "count": 157,
     "examples": [
       {
-        "bartender": "Justin Ware",
-        "drink": "Bitter Valencia"
-      },
-      {
-        "bartender": "Robby Cook",
-        "drink": "White Tie"
-      },
-      {
-        "bartender": "Christa Havican",
-        "drink": "La Perle de Verre"
-      }
-    ],
-    "pair": [
-      "gin",
-      "orange_bitters"
-    ]
-  },
-  {
-    "count": 157,
-    "examples": [
-      {
         "bartender": "Caterina Miltenberger",
         "drink": "Maraschino Side Car"
       },
@@ -479,42 +458,24 @@
     ]
   },
   {
-    "count": 155,
-    "examples": [
-      {
-        "bartender": "Phil Ward",
-        "drink": "Trato Hecho"
-      },
-      {
-        "drink": "Bird is the Word"
-      },
-      {
-        "bartender": "Kevin Diedrich",
-        "drink": "Jalapeño Sour"
-      }
-    ],
-    "pair": [
-      "green_chartreuse",
-      "lime"
-    ]
-  },
-  {
     "count": 154,
     "examples": [
       {
-        "bartender": "Brian Miller",
-        "drink": "Kiss"
+        "bartender": "Justin Ware",
+        "drink": "Bitter Valencia"
       },
       {
-        "drink": "Bermuda Highball"
+        "bartender": "Robby Cook",
+        "drink": "White Tie"
       },
       {
-        "drink": "Negroni"
+        "bartender": "Christa Havican",
+        "drink": "La Perle de Verre"
       }
     ],
     "pair": [
       "gin",
-      "sweet_vermouth"
+      "orange_bitters"
     ]
   },
   {
@@ -562,21 +523,19 @@
     "count": 150,
     "examples": [
       {
-        "bartender": "Kevin Diedrich",
-        "drink": "War of the Roses"
+        "bartender": "Brian Miller",
+        "drink": "Kiss"
       },
       {
-        "bartender": "Calvin Marty",
-        "drink": "Julia's Child"
+        "drink": "Bermuda Highball"
       },
       {
-        "bartender": "Karri Cormican",
-        "drink": "Gin Made Me Do It"
+        "drink": "Negroni"
       }
     ],
     "pair": [
-      "angostura_bitters",
-      "gin"
+      "gin",
+      "sweet_vermouth"
     ]
   },
   {
@@ -616,6 +575,27 @@
     "pair": [
       "honey",
       "lemon"
+    ]
+  },
+  {
+    "count": 144,
+    "examples": [
+      {
+        "bartender": "Kevin Diedrich",
+        "drink": "War of the Roses"
+      },
+      {
+        "bartender": "Calvin Marty",
+        "drink": "Julia's Child"
+      },
+      {
+        "bartender": "Karri Cormican",
+        "drink": "Gin Made Me Do It"
+      }
+    ],
+    "pair": [
+      "angostura_bitters",
+      "gin"
     ]
   },
   {
@@ -916,19 +896,20 @@
     "count": 114,
     "examples": [
       {
-        "bartender": "Joaquin Simo",
-        "drink": "Muddled Mission"
+        "bartender": "Phil Ward",
+        "drink": "Trato Hecho"
       },
       {
-        "drink": "Last Word"
+        "drink": "Bird is the Word"
       },
       {
-        "drink": "Daisy Mae"
+        "bartender": "Kevin Diedrich",
+        "drink": "Jalapeño Sour"
       }
     ],
     "pair": [
-      "gin",
-      "green_chartreuse"
+      "green_chartreuse",
+      "lime"
     ]
   },
   {
@@ -973,7 +954,7 @@
     ]
   },
   {
-    "count": 113,
+    "count": 112,
     "examples": [
       {
         "bartender": "Caterina Miltenberger",
@@ -1037,26 +1018,6 @@
     "count": 109,
     "examples": [
       {
-        "bartender": "Tony Abou-Ganim",
-        "drink": "Neighborhood Negroni"
-      },
-      {
-        "drink": "Negroni"
-      },
-      {
-        "bartender": "Nusan Brounstein",
-        "drink": "Barrel Aged Ginger Negroni"
-      }
-    ],
-    "pair": [
-      "campari",
-      "gin"
-    ]
-  },
-  {
-    "count": 109,
-    "examples": [
-      {
         "bartender": "Phillip Ricafort",
         "drink": "Wabash Avenue Sour"
       },
@@ -1096,27 +1057,6 @@
     ]
   },
   {
-    "count": 108,
-    "examples": [
-      {
-        "bartender": "Caterina Miltenberger",
-        "drink": "Paradiso Sun"
-      },
-      {
-        "bartender": "Russell Davis",
-        "drink": "The Lover's Quarrel"
-      },
-      {
-        "bartender": "Bruce Cole",
-        "drink": "Japonais No.3"
-      }
-    ],
-    "pair": [
-      "gin",
-      "orange"
-    ]
-  },
-  {
     "count": 107,
     "examples": [
       {
@@ -1153,6 +1093,47 @@
     ],
     "pair": [
       "elderflower",
+      "gin"
+    ]
+  },
+  {
+    "count": 107,
+    "examples": [
+      {
+        "bartender": "Caterina Miltenberger",
+        "drink": "Paradiso Sun"
+      },
+      {
+        "bartender": "Russell Davis",
+        "drink": "The Lover's Quarrel"
+      },
+      {
+        "bartender": "Bruce Cole",
+        "drink": "Japonais No.3"
+      }
+    ],
+    "pair": [
+      "gin",
+      "orange"
+    ]
+  },
+  {
+    "count": 106,
+    "examples": [
+      {
+        "bartender": "Tony Abou-Ganim",
+        "drink": "Neighborhood Negroni"
+      },
+      {
+        "drink": "Negroni"
+      },
+      {
+        "bartender": "Nusan Brounstein",
+        "drink": "Barrel Aged Ginger Negroni"
+      }
+    ],
+    "pair": [
+      "campari",
       "gin"
     ]
   },
@@ -1441,27 +1422,6 @@
     "count": 93,
     "examples": [
       {
-        "bartender": "Joaquin Simo",
-        "drink": "Muddled Mission"
-      },
-      {
-        "bartender": "Douglas Ford",
-        "drink": "Final Ward"
-      },
-      {
-        "bartender": "Douglas Ford",
-        "drink": "The Asterisk"
-      }
-    ],
-    "pair": [
-      "green_chartreuse",
-      "lemon"
-    ]
-  },
-  {
-    "count": 93,
-    "examples": [
-      {
         "bartender": "Kelly McCarthy",
         "drink": "Flor de Amaras"
       },
@@ -1497,25 +1457,6 @@
     "pair": [
       "cherry",
       "lime"
-    ]
-  },
-  {
-    "count": 91,
-    "examples": [
-      {
-        "drink": "The Royal Buck"
-      },
-      {
-        "drink": "Bermuda Highball"
-      },
-      {
-        "bartender": "Alan Kropf",
-        "drink": "Across The Pond"
-      }
-    ],
-    "pair": [
-      "gin",
-      "soda_water"
     ]
   },
   {
@@ -1597,6 +1538,25 @@
     ]
   },
   {
+    "count": 87,
+    "examples": [
+      {
+        "drink": "The Royal Buck"
+      },
+      {
+        "drink": "Bermuda Highball"
+      },
+      {
+        "bartender": "Alan Kropf",
+        "drink": "Across The Pond"
+      }
+    ],
+    "pair": [
+      "gin",
+      "soda_water"
+    ]
+  },
+  {
     "count": 86,
     "examples": [
       {
@@ -1614,27 +1574,6 @@
     "pair": [
       "gin",
       "grapefruit"
-    ]
-  },
-  {
-    "count": 84,
-    "examples": [
-      {
-        "bartender": "Caterina Miltenberger",
-        "drink": "Lux Orchard Lemonade"
-      },
-      {
-        "bartender": "Franky Marshall",
-        "drink": "The Cappa"
-      },
-      {
-        "bartender": "Mo Hodges & Brian Felley",
-        "drink": "The Douglas Tilden"
-      }
-    ],
-    "pair": [
-      "cherry",
-      "gin"
     ]
   },
   {
@@ -1713,6 +1652,27 @@
     "pair": [
       "campari",
       "lemon"
+    ]
+  },
+  {
+    "count": 81,
+    "examples": [
+      {
+        "bartender": "Caterina Miltenberger",
+        "drink": "Lux Orchard Lemonade"
+      },
+      {
+        "bartender": "Franky Marshall",
+        "drink": "The Cappa"
+      },
+      {
+        "bartender": "Mo Hodges & Brian Felley",
+        "drink": "The Douglas Tilden"
+      }
+    ],
+    "pair": [
+      "cherry",
+      "gin"
     ]
   },
   {
@@ -1817,27 +1777,6 @@
     ]
   },
   {
-    "count": 79,
-    "examples": [
-      {
-        "bartender": "Kevin Diedrich",
-        "drink": "OH Snap!"
-      },
-      {
-        "bartender": "Karri Cormican",
-        "drink": "Gin Made Me Do It"
-      },
-      {
-        "bartender": "Mo Hodges & Brian Felley",
-        "drink": "The Douglas Tilden"
-      }
-    ],
-    "pair": [
-      "absinthe",
-      "gin"
-    ]
-  },
-  {
     "count": 78,
     "examples": [
       {
@@ -1855,6 +1794,27 @@
     "pair": [
       "maraschino",
       "sweet_vermouth"
+    ]
+  },
+  {
+    "count": 77,
+    "examples": [
+      {
+        "bartender": "Kevin Diedrich",
+        "drink": "OH Snap!"
+      },
+      {
+        "bartender": "Karri Cormican",
+        "drink": "Gin Made Me Do It"
+      },
+      {
+        "bartender": "Mo Hodges & Brian Felley",
+        "drink": "The Douglas Tilden"
+      }
+    ],
+    "pair": [
+      "absinthe",
+      "gin"
     ]
   },
   {
@@ -1998,6 +1958,24 @@
     "count": 72,
     "examples": [
       {
+        "drink": "Last Word"
+      },
+      {
+        "drink": "Daisy Mae"
+      },
+      {
+        "drink": "Alaska Cocktail"
+      }
+    ],
+    "pair": [
+      "gin",
+      "green_chartreuse"
+    ]
+  },
+  {
+    "count": 72,
+    "examples": [
+      {
         "bartender": "Kate Grutman",
         "drink": "Peace Daiquiri"
       },
@@ -2112,25 +2090,6 @@
     "pair": [
       "cinnamon",
       "lemon"
-    ]
-  },
-  {
-    "count": 68,
-    "examples": [
-      {
-        "drink": "Daisy Mae"
-      },
-      {
-        "bartender": "Rafael Jimenez Rivera",
-        "drink": "Champs Élysées"
-      },
-      {
-        "drink": "131"
-      }
-    ],
-    "pair": [
-      "green_chartreuse",
-      "sugar_syrup"
     ]
   },
   {
@@ -2388,27 +2347,6 @@
     ]
   },
   {
-    "count": 62,
-    "examples": [
-      {
-        "bartender": "Danny Louie",
-        "drink": "Happiness"
-      },
-      {
-        "bartender": "Elmer Mejicano",
-        "drink": "Down the Rabbit Hole"
-      },
-      {
-        "bartender": "Russell Davis",
-        "drink": "Drops of Jupiter"
-      }
-    ],
-    "pair": [
-      "gin",
-      "honey"
-    ]
-  },
-  {
     "count": 61,
     "examples": [
       {
@@ -2466,6 +2404,27 @@
     "pair": [
       "cynar",
       "lemon"
+    ]
+  },
+  {
+    "count": 60,
+    "examples": [
+      {
+        "bartender": "Danny Louie",
+        "drink": "Happiness"
+      },
+      {
+        "bartender": "Elmer Mejicano",
+        "drink": "Down the Rabbit Hole"
+      },
+      {
+        "bartender": "Russell Davis",
+        "drink": "Drops of Jupiter"
+      }
+    ],
+    "pair": [
+      "gin",
+      "honey"
     ]
   },
   {
@@ -2708,25 +2667,6 @@
     ]
   },
   {
-    "count": 57,
-    "examples": [
-      {
-        "drink": "All Good Things"
-      },
-      {
-        "drink": "Alpine Jewel"
-      },
-      {
-        "bartender": "Death & Co., Modern Classic Cocktails",
-        "drink": "Alta California"
-      }
-    ],
-    "pair": [
-      "green_chartreuse",
-      "sweet_vermouth"
-    ]
-  },
-  {
     "count": 56,
     "examples": [
       {
@@ -2744,24 +2684,6 @@
     "pair": [
       "angostura_bitters",
       "cinnamon"
-    ]
-  },
-  {
-    "count": 56,
-    "examples": [
-      {
-        "drink": "A Well Earned Reprieve"
-      },
-      {
-        "drink": "Adair Hook"
-      },
-      {
-        "drink": "Aisy Uchanan"
-      }
-    ],
-    "pair": [
-      "cynar",
-      "gin"
     ]
   },
   {
@@ -3223,27 +3145,6 @@
     "count": 52,
     "examples": [
       {
-        "bartender": "Rafael Jimenez Rivera",
-        "drink": "Champs Élysées"
-      },
-      {
-        "bartender": "Thad Vogler",
-        "drink": "Improved Calvados Cocktail"
-      },
-      {
-        "bartender": "http://punchdrink.com/recipes/5th-amendment/",
-        "drink": "5th Amendment"
-      }
-    ],
-    "pair": [
-      "angostura_bitters",
-      "green_chartreuse"
-    ]
-  },
-  {
-    "count": 52,
-    "examples": [
-      {
         "drink": "The Mad King"
       },
       {
@@ -3299,6 +3200,24 @@
     "pair": [
       "apple",
       "sweet_vermouth"
+    ]
+  },
+  {
+    "count": 52,
+    "examples": [
+      {
+        "drink": "A Well Earned Reprieve"
+      },
+      {
+        "drink": "Adair Hook"
+      },
+      {
+        "drink": "Aisy Uchanan"
+      }
+    ],
+    "pair": [
+      "cynar",
+      "gin"
     ]
   },
   {
@@ -3403,27 +3322,6 @@
     "pair": [
       "cherry_liqueur",
       "lemon"
-    ]
-  },
-  {
-    "count": 51,
-    "examples": [
-      {
-        "bartender": "Matthew Polzin",
-        "drink": "On the Wings of Eagles"
-      },
-      {
-        "bartender": "Douglas Ford",
-        "drink": "Final Ward"
-      },
-      {
-        "bartender": "Jacques",
-        "drink": "Kind of Fancy"
-      }
-    ],
-    "pair": [
-      "green_chartreuse",
-      "rye_whiskey"
     ]
   },
   {
@@ -3570,20 +3468,19 @@
     "count": 50,
     "examples": [
       {
-        "drink": "Alaska Cocktail"
+        "drink": "Daisy Mae"
       },
       {
-        "bartender": "Brandon Bigalke",
-        "drink": "An Oaxacan Christmas"
+        "bartender": "Rafael Jimenez Rivera",
+        "drink": "Champs Élysées"
       },
       {
-        "bartender": "http://chanticleersociety.org/forums/p/1279/7573.aspx#7573",
-        "drink": "Alaska Cocktail (aka Emerald Martini)"
+        "drink": "131"
       }
     ],
     "pair": [
       "green_chartreuse",
-      "orange_bitters"
+      "sugar_syrup"
     ]
   },
   {
@@ -3650,40 +3547,21 @@
     "count": 49,
     "examples": [
       {
-        "bartender": "Phil Ward",
-        "drink": "Trato Hecho"
+        "bartender": "Douglas Ford",
+        "drink": "Final Ward"
       },
       {
-        "drink": "Bird is the Word"
+        "bartender": "Douglas Ford",
+        "drink": "The Asterisk"
       },
       {
-        "drink": "Last Word"
+        "bartender": "Rafael Jimenez Rivera",
+        "drink": "Champs Élysées"
       }
     ],
     "pair": [
       "green_chartreuse",
-      "maraschino"
-    ]
-  },
-  {
-    "count": 49,
-    "examples": [
-      {
-        "bartender": "Kevin Diedrich",
-        "drink": "Jalapeño Sour"
-      },
-      {
-        "bartender": "http://www.thespiritmonkey.com/2012/07/20/the-habsburg-in-jalisco-cocktail/",
-        "drink": "A Habsberg In Jalisco"
-      },
-      {
-        "bartender": "Death & Co., Modern Classic Cocktails",
-        "drink": "Alta California"
-      }
-    ],
-    "pair": [
-      "green_chartreuse",
-      "tequila"
+      "lemon"
     ]
   },
   {
@@ -3725,26 +3603,6 @@
     "pair": [
       "orange",
       "sweet_vermouth"
-    ]
-  },
-  {
-    "count": 48,
-    "examples": [
-      {
-        "drink": "221b"
-      },
-      {
-        "bartender": "http://www.gazregan.com/category/101-best-new-cocktails/101-best-new-cocktails-2014/",
-        "drink": "A Simple Quandary"
-      },
-      {
-        "bartender": "http://projects.washingtonpost.com/recipes/2007/05/30/antibes/",
-        "drink": "Antibes"
-      }
-    ],
-    "pair": [
-      "benedictine",
-      "gin"
     ]
   },
   {
@@ -3830,20 +3688,19 @@
     "count": 47,
     "examples": [
       {
-        "bartender": "http://www.gazregan.com/2014/03/101-best-new-cocktails/101-best-new-cocktailsabcdef-by-jeff-bell-pdt-new-york-usa/",
-        "drink": "ABCDEF"
+        "drink": "221b"
       },
       {
-        "bartender": "https://www.facebook.com/photo.php?fbid=436187869796679&set=a.387938831288250.90736.357245297690937&type=1&theater",
-        "drink": "Amaro Amore"
+        "bartender": "http://www.gazregan.com/category/101-best-new-cocktails/101-best-new-cocktails-2014/",
+        "drink": "A Simple Quandary"
       },
       {
-        "bartender": "http://umamimart.com/2012/08/the-pdt-project-archangel/",
-        "drink": "Archangel"
+        "bartender": "http://projects.washingtonpost.com/recipes/2007/05/30/antibes/",
+        "drink": "Antibes"
       }
     ],
     "pair": [
-      "aperol",
+      "benedictine",
       "gin"
     ]
   },
@@ -3865,6 +3722,25 @@
     "pair": [
       "bourbon",
       "lime"
+    ]
+  },
+  {
+    "count": 47,
+    "examples": [
+      {
+        "bartender": "Joaquin Simo",
+        "drink": "Muddled Mission"
+      },
+      {
+        "drink": "19th Century"
+      },
+      {
+        "drink": "Beekeeper's Apprentice"
+      }
+    ],
+    "pair": [
+      "lemon",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -3910,6 +3786,27 @@
     "count": 46,
     "examples": [
       {
+        "bartender": "http://www.gazregan.com/2014/03/101-best-new-cocktails/101-best-new-cocktailsabcdef-by-jeff-bell-pdt-new-york-usa/",
+        "drink": "ABCDEF"
+      },
+      {
+        "bartender": "https://www.facebook.com/photo.php?fbid=436187869796679&set=a.387938831288250.90736.357245297690937&type=1&theater",
+        "drink": "Amaro Amore"
+      },
+      {
+        "bartender": "http://umamimart.com/2012/08/the-pdt-project-archangel/",
+        "drink": "Archangel"
+      }
+    ],
+    "pair": [
+      "aperol",
+      "gin"
+    ]
+  },
+  {
+    "count": 46,
+    "examples": [
+      {
         "bartender": "Sean McClure",
         "drink": "Nieux Carré"
       },
@@ -3943,26 +3840,6 @@
     "pair": [
       "clove",
       "white_rum"
-    ]
-  },
-  {
-    "count": 46,
-    "examples": [
-      {
-        "bartender": "Death & Co Cocktail Book, p.260",
-        "drink": "Angus Story Daiquiri"
-      },
-      {
-        "drink": "Arrack Punch"
-      },
-      {
-        "bartender": "http://www.minnesotamonthly.com/Blogs/Twin-Cities-Taste/The-Day-of-the-Daiquiri/",
-        "drink": "Badaiquiri"
-      }
-    ],
-    "pair": [
-      "dark_rum",
-      "lime"
     ]
   },
   {
@@ -4117,25 +3994,6 @@
     "pair": [
       "apple",
       "rye_whiskey"
-    ]
-  },
-  {
-    "count": 44,
-    "examples": [
-      {
-        "bartender": "Jay Zimmerman",
-        "drink": "Angel's Face"
-      },
-      {
-        "drink": "Chippendale Rosetone"
-      },
-      {
-        "drink": "P.T. Barnum Cocktail"
-      }
-    ],
-    "pair": [
-      "apricot_brandy",
-      "gin"
     ]
   },
   {
@@ -4429,27 +4287,6 @@
         "drink": "Fizzy Rhubarb Mule"
       },
       {
-        "bartender": "John Weyrich",
-        "drink": "Peter Pumpkin"
-      }
-    ],
-    "pair": [
-      "egg_white",
-      "gin"
-    ]
-  },
-  {
-    "count": 43,
-    "examples": [
-      {
-        "bartender": "Matt Grippo",
-        "drink": "San Francisco Strong (Skrong)"
-      },
-      {
-        "bartender": "Tom Cavazos",
-        "drink": "Fizzy Rhubarb Mule"
-      },
-      {
         "bartender": "Jon Morales",
         "drink": "See You T'Amaro"
       }
@@ -4603,6 +4440,48 @@
     ]
   },
   {
+    "count": 42,
+    "examples": [
+      {
+        "bartender": "Matt Grippo",
+        "drink": "San Francisco Strong (Skrong)"
+      },
+      {
+        "bartender": "Tom Cavazos",
+        "drink": "Fizzy Rhubarb Mule"
+      },
+      {
+        "bartender": "John Weyrich",
+        "drink": "Peter Pumpkin"
+      }
+    ],
+    "pair": [
+      "egg_white",
+      "gin"
+    ]
+  },
+  {
+    "count": 42,
+    "examples": [
+      {
+        "bartender": "http://punchdrink.com/recipes/5th-amendment/",
+        "drink": "5th Amendment"
+      },
+      {
+        "bartender": "Experimental Cocktail Book, p 137",
+        "drink": "Arrackiri"
+      },
+      {
+        "bartender": "Black Cypress",
+        "drink": "Comfortable Blend:"
+      }
+    ],
+    "pair": [
+      "lime",
+      "yellow_chartreuse"
+    ]
+  },
+  {
     "count": 41,
     "examples": [
       {
@@ -4700,6 +4579,25 @@
     "pair": [
       "angostura_bitters",
       "mezcal"
+    ]
+  },
+  {
+    "count": 41,
+    "examples": [
+      {
+        "bartender": "Jay Zimmerman",
+        "drink": "Angel's Face"
+      },
+      {
+        "drink": "Chippendale Rosetone"
+      },
+      {
+        "drink": "P.T. Barnum Cocktail"
+      }
+    ],
+    "pair": [
+      "apricot_brandy",
+      "gin"
     ]
   },
   {
@@ -4941,24 +4839,6 @@
     "count": 40,
     "examples": [
       {
-        "drink": "3-2-1"
-      },
-      {
-        "drink": "A Bitter Mint Than I"
-      },
-      {
-        "drink": "A Bouquet of Parentheses"
-      }
-    ],
-    "pair": [
-      "dry_vermouth",
-      "green_chartreuse"
-    ]
-  },
-  {
-    "count": 40,
-    "examples": [
-      {
         "drink": "Fortune & Glory"
       },
       {
@@ -5139,19 +5019,38 @@
     "count": 39,
     "examples": [
       {
-        "bartender": "Morgan Schick",
-        "drink": "Buzzard's Bay"
+        "bartender": "Joaquin Simo",
+        "drink": "Muddled Mission"
       },
       {
-        "drink": "Hanky Panky (Classic)"
+        "drink": "19th Century"
       },
       {
-        "drink": "Singapore Sling (1915 Recipe)"
+        "drink": "A Bouquet of Parentheses"
       }
     ],
     "pair": [
-      "fernet",
-      "gin"
+      "gin",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 39,
+    "examples": [
+      {
+        "bartender": "Phil Ward",
+        "drink": "Trato Hecho"
+      },
+      {
+        "drink": "Bird is the Word"
+      },
+      {
+        "drink": "Last Word"
+      }
+    ],
+    "pair": [
+      "green_chartreuse",
+      "maraschino"
     ]
   },
   {
@@ -5257,6 +5156,25 @@
     "count": 38,
     "examples": [
       {
+        "bartender": "Morgan Schick",
+        "drink": "Buzzard's Bay"
+      },
+      {
+        "drink": "Hanky Panky (Classic)"
+      },
+      {
+        "drink": "Singapore Sling (1915 Recipe)"
+      }
+    ],
+    "pair": [
+      "fernet",
+      "gin"
+    ]
+  },
+  {
+    "count": 38,
+    "examples": [
+      {
         "bartender": "Matt Grippo",
         "drink": "The King's Medicine"
       },
@@ -5331,6 +5249,24 @@
     "pair": [
       "ginger",
       "orange_bitters"
+    ]
+  },
+  {
+    "count": 38,
+    "examples": [
+      {
+        "drink": "Alpine Jewel"
+      },
+      {
+        "drink": "Among Dreams"
+      },
+      {
+        "drink": "Battle Of Algiers"
+      }
+    ],
+    "pair": [
+      "green_chartreuse",
+      "sweet_vermouth"
     ]
   },
   {
@@ -5447,6 +5383,26 @@
     "pair": [
       "cherry",
       "orange"
+    ]
+  },
+  {
+    "count": 37,
+    "examples": [
+      {
+        "bartender": "Death & Co Cocktail Book, p.260",
+        "drink": "Angus Story Daiquiri"
+      },
+      {
+        "drink": "Arrack Punch"
+      },
+      {
+        "bartender": "http://www.minnesotamonthly.com/Blogs/Twin-Cities-Taste/The-Day-of-the-Daiquiri/",
+        "drink": "Badaiquiri"
+      }
+    ],
+    "pair": [
+      "dark_rum",
+      "lime"
     ]
   },
   {
@@ -5771,46 +5727,6 @@
     "count": 35,
     "examples": [
       {
-        "bartender": "John Codd",
-        "drink": "Sahara Glowing Heart"
-      },
-      {
-        "bartender": "Sean Gleason",
-        "drink": "Pants off Dance off"
-      },
-      {
-        "bartender": "James Martin",
-        "drink": "Bachelor's Bait"
-      }
-    ],
-    "pair": [
-      "gin",
-      "pomegranate"
-    ]
-  },
-  {
-    "count": 35,
-    "examples": [
-      {
-        "drink": "Bird is the Word"
-      },
-      {
-        "drink": "Adams' Words"
-      },
-      {
-        "bartender": "\"VS&FC\", Ted Haigh, pg. 39. Cites \"The Gentleman's Companion\", AKA \"Jigger, Beaker and Flask\" (1939) by Charles H. Baker Jr.",
-        "drink": "Alamagoozlum Cocktail"
-      }
-    ],
-    "pair": [
-      "green_chartreuse",
-      "white_rum"
-    ]
-  },
-  {
-    "count": 35,
-    "examples": [
-      {
         "bartender": "Michael Esposito",
         "drink": "The Palace Cellar"
       },
@@ -5843,26 +5759,6 @@
     "pair": [
       "absinthe",
       "peychauds_bitters"
-    ]
-  },
-  {
-    "count": 34,
-    "examples": [
-      {
-        "bartender": "Jay Zimmerman",
-        "drink": "Angel's Face"
-      },
-      {
-        "drink": "P.T. Barnum Cocktail"
-      },
-      {
-        "bartender": "Francesco Lafranconi",
-        "drink": "Dutch Stories"
-      }
-    ],
-    "pair": [
-      "apricot",
-      "gin"
     ]
   },
   {
@@ -5902,26 +5798,6 @@
     "pair": [
       "brandy",
       "triple_sec"
-    ]
-  },
-  {
-    "count": 34,
-    "examples": [
-      {
-        "bartender": "Phil Ward",
-        "drink": "Trato Hecho"
-      },
-      {
-        "bartender": "Brandon Bigalke",
-        "drink": "An Oaxacan Christmas"
-      },
-      {
-        "drink": "Admiralty"
-      }
-    ],
-    "pair": [
-      "green_chartreuse",
-      "mezcal"
     ]
   },
   {
@@ -6149,25 +6025,6 @@
     "count": 33,
     "examples": [
       {
-        "bartender": "Phil Ward",
-        "drink": "Trato Hecho"
-      },
-      {
-        "drink": "Bird is the Word"
-      },
-      {
-        "drink": "Last Word"
-      }
-    ],
-    "pair": [
-      "cherry",
-      "green_chartreuse"
-    ]
-  },
-  {
-    "count": 33,
-    "examples": [
-      {
         "bartender": "Caterina Miltenberger",
         "drink": "Mille Miglia"
       },
@@ -6221,7 +6078,7 @@
     ],
     "pair": [
       "gin",
-      "grenadine"
+      "pomegranate"
     ]
   },
   {
@@ -6387,26 +6244,6 @@
     "count": 32,
     "examples": [
       {
-        "bartender": "Kelly McCarthy",
-        "drink": "Old Tom and The Sea"
-      },
-      {
-        "bartender": "Francesco Lafranconi",
-        "drink": "Sorriso (Adapted)"
-      },
-      {
-        "drink": "Red Bud Trail"
-      }
-    ],
-    "pair": [
-      "cherry_liqueur",
-      "gin"
-    ]
-  },
-  {
-    "count": 32,
-    "examples": [
-      {
         "drink": "Scottish Fruit Tart"
       },
       {
@@ -6564,6 +6401,26 @@
     "count": 31,
     "examples": [
       {
+        "bartender": "Jay Zimmerman",
+        "drink": "Angel's Face"
+      },
+      {
+        "drink": "P.T. Barnum Cocktail"
+      },
+      {
+        "bartender": "Francesco Lafranconi",
+        "drink": "Dutch Stories"
+      }
+    ],
+    "pair": [
+      "apricot",
+      "gin"
+    ]
+  },
+  {
+    "count": 31,
+    "examples": [
+      {
         "bartender": "Jeramy Campbell",
         "drink": "Heard It Through The Grapevine"
       },
@@ -6624,6 +6481,27 @@
     "count": 31,
     "examples": [
       {
+        "bartender": "John Codd",
+        "drink": "Sahara Glowing Heart"
+      },
+      {
+        "bartender": "Sean Gleason",
+        "drink": "Pants off Dance off"
+      },
+      {
+        "bartender": "James Martin",
+        "drink": "Bachelor's Bait"
+      }
+    ],
+    "pair": [
+      "gin",
+      "grenadine"
+    ]
+  },
+  {
+    "count": 31,
+    "examples": [
+      {
         "bartender": "http://www.bonappetit.com/drinks/article/15-second-punch-really-video?mbid=videos_20131206_15391354",
         "drink": "15 Second Punch"
       },
@@ -6658,6 +6536,26 @@
     "pair": [
       "grapefruit",
       "white_rum"
+    ]
+  },
+  {
+    "count": 31,
+    "examples": [
+      {
+        "bartender": "Matthew Polzin",
+        "drink": "On the Wings of Eagles"
+      },
+      {
+        "bartender": "Douglas Ford",
+        "drink": "Final Ward"
+      },
+      {
+        "drink": "Among Dreams"
+      }
+    ],
+    "pair": [
+      "green_chartreuse",
+      "rye_whiskey"
     ]
   },
   {
@@ -6835,25 +6733,6 @@
     "pair": [
       "gin",
       "sparkling_wine"
-    ]
-  },
-  {
-    "count": 30,
-    "examples": [
-      {
-        "bartender": "Phil Ward",
-        "drink": "Sidewinder"
-      },
-      {
-        "drink": "131"
-      },
-      {
-        "drink": "8 Amaro Sazerac"
-      }
-    ],
-    "pair": [
-      "green_chartreuse",
-      "peychauds_bitters"
     ]
   },
   {
@@ -7200,6 +7079,26 @@
     "count": 29,
     "examples": [
       {
+        "bartender": "Kelly McCarthy",
+        "drink": "Old Tom and The Sea"
+      },
+      {
+        "bartender": "Francesco Lafranconi",
+        "drink": "Sorriso (Adapted)"
+      },
+      {
+        "drink": "Red Bud Trail"
+      }
+    ],
+    "pair": [
+      "cherry_liqueur",
+      "gin"
+    ]
+  },
+  {
+    "count": 29,
+    "examples": [
+      {
         "bartender": "Carlo Splendorini",
         "drink": "I'm Only Happy when it Rains"
       },
@@ -7234,6 +7133,26 @@
     "pair": [
       "cinnamon",
       "white_rum"
+    ]
+  },
+  {
+    "count": 29,
+    "examples": [
+      {
+        "drink": "Alaska Cocktail"
+      },
+      {
+        "bartender": "Brandon Bigalke",
+        "drink": "An Oaxacan Christmas"
+      },
+      {
+        "bartender": "http://umamimart.com/2012/06/the-pdt-project-albert-mathieu/",
+        "drink": "Albert Mathieu"
+      }
+    ],
+    "pair": [
+      "green_chartreuse",
+      "orange_bitters"
     ]
   },
   {
@@ -7275,6 +7194,27 @@
     "pair": [
       "absinthe",
       "maraschino"
+    ]
+  },
+  {
+    "count": 28,
+    "examples": [
+      {
+        "bartender": "Rafael Jimenez Rivera",
+        "drink": "Champs Élysées"
+      },
+      {
+        "bartender": "Thad Vogler",
+        "drink": "Improved Calvados Cocktail"
+      },
+      {
+        "bartender": "http://www.thespiritmonkey.com/2012/07/20/the-habsburg-in-jalisco-cocktail/",
+        "drink": "A Habsberg In Jalisco"
+      }
+    ],
+    "pair": [
+      "angostura_bitters",
+      "green_chartreuse"
     ]
   },
   {
@@ -7338,18 +7278,17 @@
     "examples": [
       {
         "bartender": "Phil Ward",
-        "drink": "Sidewinder"
+        "drink": "Trato Hecho"
       },
       {
-        "bartender": "http://and1morefortheroad.blogspot.com/2012/04/amaro-april-bad-apple-and-jackson-ward.html",
-        "drink": "Bad Apple"
+        "drink": "Bird is the Word"
       },
       {
-        "drink": "Blushing Cecilia"
+        "drink": "Last Word"
       }
     ],
     "pair": [
-      "calvados",
+      "cherry",
       "green_chartreuse"
     ]
   },
@@ -7572,6 +7511,25 @@
     "count": 28,
     "examples": [
       {
+        "drink": "Bird is the Word"
+      },
+      {
+        "drink": "Adams' Words"
+      },
+      {
+        "bartender": "\"VS&FC\", Ted Haigh, pg. 39. Cites \"The Gentleman's Companion\", AKA \"Jigger, Beaker and Flask\" (1939) by Charles H. Baker Jr.",
+        "drink": "Alamagoozlum Cocktail"
+      }
+    ],
+    "pair": [
+      "green_chartreuse",
+      "white_rum"
+    ]
+  },
+  {
+    "count": 28,
+    "examples": [
+      {
         "bartender": "Kevin Diedrich",
         "drink": "OH Snap!"
       },
@@ -7713,45 +7671,6 @@
     "count": 27,
     "examples": [
       {
-        "bartender": "Jay Zimmerman",
-        "drink": "Angel's Face"
-      },
-      {
-        "drink": "Chippendale Rosetone"
-      },
-      {
-        "drink": "Cupid's Carrier Pigeon"
-      }
-    ],
-    "pair": [
-      "apple",
-      "gin"
-    ]
-  },
-  {
-    "count": 27,
-    "examples": [
-      {
-        "bartender": "Phil Ward",
-        "drink": "Sidewinder"
-      },
-      {
-        "bartender": "http://and1morefortheroad.blogspot.com/2012/04/amaro-april-bad-apple-and-jackson-ward.html",
-        "drink": "Bad Apple"
-      },
-      {
-        "drink": "Blushing Cecilia"
-      }
-    ],
-    "pair": [
-      "apple",
-      "green_chartreuse"
-    ]
-  },
-  {
-    "count": 27,
-    "examples": [
-      {
         "bartender": "http://punchdrink.com/recipes/5th-amendment/",
         "drink": "5th Amendment"
       },
@@ -7766,26 +7685,6 @@
     "pair": [
       "bourbon",
       "fernet"
-    ]
-  },
-  {
-    "count": 27,
-    "examples": [
-      {
-        "bartender": "Douglas Ford",
-        "drink": "The Asterisk"
-      },
-      {
-        "drink": "A Bitter Mint Than I"
-      },
-      {
-        "bartender": "\"Down The Hatch!\" p. 1",
-        "drink": "Anna Held Cocktail"
-      }
-    ],
-    "pair": [
-      "brandy",
-      "green_chartreuse"
     ]
   },
   {
@@ -8110,27 +8009,6 @@
     "count": 26,
     "examples": [
       {
-        "bartender": "Phil Ward",
-        "drink": "Sidewinder"
-      },
-      {
-        "bartender": "Thad Vogler",
-        "drink": "Improved Calvados Cocktail"
-      },
-      {
-        "bartender": "http://forums.egullet.org/topic/53404-the-last-word/?p=1894793",
-        "drink": "Benediction"
-      }
-    ],
-    "pair": [
-      "benedictine",
-      "green_chartreuse"
-    ]
-  },
-  {
-    "count": 26,
-    "examples": [
-      {
         "drink": "A Confederacy of Dunces"
       },
       {
@@ -8183,26 +8061,6 @@
     "pair": [
       "cherry_liqueur",
       "orange_bitters"
-    ]
-  },
-  {
-    "count": 26,
-    "examples": [
-      {
-        "bartender": "http://www.thekitchn.com/holiday-cocktail-with-domaine-134534",
-        "drink": "Autumn Spice"
-      },
-      {
-        "drink": "Bella Donna"
-      },
-      {
-        "bartender": "imbibe magazine",
-        "drink": "Big Ship"
-      }
-    ],
-    "pair": [
-      "dark_rum",
-      "lemon"
     ]
   },
   {
@@ -8309,26 +8167,6 @@
     "count": 26,
     "examples": [
       {
-        "bartender": "Joaquin Simo",
-        "drink": "Muddled Mission"
-      },
-      {
-        "bartender": "http://umamimart.com/2012/06/the-pdt-project-albert-mathieu/",
-        "drink": "Albert Mathieu"
-      },
-      {
-        "drink": "Au Pair"
-      }
-    ],
-    "pair": [
-      "green_chartreuse",
-      "st_germain"
-    ]
-  },
-  {
-    "count": 26,
-    "examples": [
-      {
         "drink": "Gin n' Celery"
       },
       {
@@ -8428,26 +8266,6 @@
     "count": 25,
     "examples": [
       {
-        "drink": "Crooked Kilt"
-      },
-      {
-        "bartender": "http://punchdrink.com/recipes/5th-amendment/",
-        "drink": "5th Amendment"
-      },
-      {
-        "bartender": "http://www.thespiritmonkey.com/2012/07/20/the-habsburg-in-jalisco-cocktail/",
-        "drink": "A Habsberg In Jalisco"
-      }
-    ],
-    "pair": [
-      "almond",
-      "green_chartreuse"
-    ]
-  },
-  {
-    "count": 25,
-    "examples": [
-      {
         "drink": "Kentucky Mai Tai"
       },
       {
@@ -8487,27 +8305,6 @@
     "count": 25,
     "examples": [
       {
-        "bartender": "Jay Zimmerman",
-        "drink": "Angel's Face"
-      },
-      {
-        "bartender": "Boothby's The World's Drinks and How to Mix Them, 1934 edition",
-        "drink": "Angel Face"
-      },
-      {
-        "bartender": "The Gentleman's Companion, vol. 2, Charles H. Baker (1939)",
-        "drink": "Aunt Emily"
-      }
-    ],
-    "pair": [
-      "calvados",
-      "gin"
-    ]
-  },
-  {
-    "count": 25,
-    "examples": [
-      {
         "bartender": "Jonathan Pogash",
         "drink": "Santa Patricia"
       },
@@ -8527,19 +8324,39 @@
     "count": 25,
     "examples": [
       {
-        "bartender": "Amy Lewis",
-        "drink": "A Regal Air"
+        "drink": "A Bitter Mint Than I"
       },
       {
-        "drink": "White Walker Flip"
+        "drink": "Admiralty"
       },
       {
-        "drink": "Crooked Kilt"
+        "bartender": "http://umamimart.com/2012/06/the-pdt-project-albert-mathieu/",
+        "drink": "Albert Mathieu"
       }
     ],
     "pair": [
-      "ginger",
+      "dry_vermouth",
       "green_chartreuse"
+    ]
+  },
+  {
+    "count": 25,
+    "examples": [
+      {
+        "bartender": "Kevin Diedrich",
+        "drink": "Jalapeño Sour"
+      },
+      {
+        "bartender": "http://www.thespiritmonkey.com/2012/07/20/the-habsburg-in-jalisco-cocktail/",
+        "drink": "A Habsberg In Jalisco"
+      },
+      {
+        "drink": "Bawdy Max"
+      }
+    ],
+    "pair": [
+      "green_chartreuse",
+      "tequila"
     ]
   },
   {
@@ -8736,6 +8553,27 @@
     "pair": [
       "angostura_bitters",
       "ginger_ale"
+    ]
+  },
+  {
+    "count": 24,
+    "examples": [
+      {
+        "bartender": "http://punchdrink.com/recipes/5th-amendment/",
+        "drink": "5th Amendment"
+      },
+      {
+        "bartender": "http://www.foodandwine.com/fwx/drink/3-cocktails-make-yellow-chartreuse",
+        "drink": "Absalom's Retreat"
+      },
+      {
+        "bartender": "http://www.pierreferrandcognac.com/en/pages/view/682",
+        "drink": "Ce Soir"
+      }
+    ],
+    "pair": [
+      "angostura_bitters",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -8976,6 +8814,26 @@
     "pair": [
       "orange",
       "pineapple"
+    ]
+  },
+  {
+    "count": 24,
+    "examples": [
+      {
+        "bartender": "Death & Co., Modern Classic Cocktails",
+        "drink": "Alta California"
+      },
+      {
+        "bartender": "http://www.eater.com/drinks/2015/5/26/8628313/nine-awesome-cocktails-that-should-be-considered-modern-classics",
+        "drink": "Death Flip"
+      },
+      {
+        "drink": "Diamondback riff (pear)"
+      }
+    ],
+    "pair": [
+      "tequila",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -9313,6 +9171,25 @@
     "count": 22,
     "examples": [
       {
+        "drink": "Crooked Kilt"
+      },
+      {
+        "bartender": "http://www.thespiritmonkey.com/2012/07/20/the-habsburg-in-jalisco-cocktail/",
+        "drink": "A Habsberg In Jalisco"
+      },
+      {
+        "drink": "Ashby Swizzle"
+      }
+    ],
+    "pair": [
+      "almond",
+      "green_chartreuse"
+    ]
+  },
+  {
+    "count": 22,
+    "examples": [
+      {
         "drink": "Blaze of Glory"
       },
       {
@@ -9404,6 +9281,25 @@
     "pair": [
       "apple",
       "bourbon"
+    ]
+  },
+  {
+    "count": 22,
+    "examples": [
+      {
+        "bartender": "Jay Zimmerman",
+        "drink": "Angel's Face"
+      },
+      {
+        "drink": "Chippendale Rosetone"
+      },
+      {
+        "drink": "Cupid's Carrier Pigeon"
+      }
+    ],
+    "pair": [
+      "apple",
+      "gin"
     ]
   },
   {
@@ -9519,45 +9415,6 @@
     "pair": [
       "cynar",
       "fernet"
-    ]
-  },
-  {
-    "count": 22,
-    "examples": [
-      {
-        "bartender": "http://www.thekitchn.com/holiday-cocktail-with-domaine-134534",
-        "drink": "Autumn Spice"
-      },
-      {
-        "bartender": "Beachbum Berry Remixed, pg. 111",
-        "drink": "Bali Bali"
-      },
-      {
-        "drink": "Bitter Old Mule"
-      }
-    ],
-    "pair": [
-      "dark_rum",
-      "ginger"
-    ]
-  },
-  {
-    "count": 22,
-    "examples": [
-      {
-        "drink": "The King's Egg Nog"
-      },
-      {
-        "drink": "Cupid's Carrier Pigeon"
-      },
-      {
-        "bartender": "Kate Grutman",
-        "drink": "Ju-Ju Hurricane"
-      }
-    ],
-    "pair": [
-      "gin",
-      "white_rum"
     ]
   },
   {
@@ -9783,26 +9640,6 @@
     "count": 21,
     "examples": [
       {
-        "drink": "Blushing Monk"
-      },
-      {
-        "bartender": "http://www.pierreferrandcognac.com/en/pages/view/682",
-        "drink": "Ce Soir"
-      },
-      {
-        "bartender": "http://cocktailvirgin.blogspot.com/2011/07/drink-of-laugher-and-forgetting.html",
-        "drink": "Drink of Laughter and Forgetting"
-      }
-    ],
-    "pair": [
-      "cynar",
-      "green_chartreuse"
-    ]
-  },
-  {
-    "count": 21,
-    "examples": [
-      {
         "drink": "Arrack Attack"
       },
       {
@@ -9837,26 +9674,6 @@
     "pair": [
       "falernum",
       "gin"
-    ]
-  },
-  {
-    "count": 21,
-    "examples": [
-      {
-        "bartender": "Matthew Polzin",
-        "drink": "On the Wings of Eagles"
-      },
-      {
-        "bartender": "http://punchdrink.com/recipes/5th-amendment/",
-        "drink": "5th Amendment"
-      },
-      {
-        "drink": "All Good Things"
-      }
-    ],
-    "pair": [
-      "fernet",
-      "green_chartreuse"
     ]
   },
   {
@@ -9903,6 +9720,25 @@
     "count": 21,
     "examples": [
       {
+        "bartender": "http://umamimart.com/2012/06/the-pdt-project-albert-mathieu/",
+        "drink": "Albert Mathieu"
+      },
+      {
+        "drink": "Au Pair"
+      },
+      {
+        "drink": "Bawdy Max"
+      }
+    ],
+    "pair": [
+      "green_chartreuse",
+      "st_germain"
+    ]
+  },
+  {
+    "count": 21,
+    "examples": [
+      {
         "bartender": "Robert Krueger",
         "drink": "Nellie Fer' Toddy"
       },
@@ -9916,6 +9752,27 @@
     "pair": [
       "orange",
       "peychauds_bitters"
+    ]
+  },
+  {
+    "count": 21,
+    "examples": [
+      {
+        "bartender": "http://chanticleersociety.org/forums/p/1279/7573.aspx#7573",
+        "drink": "Alaska Cocktail (aka Emerald Martini)"
+      },
+      {
+        "bartender": "http://forums.egullet.org/topic/54990-chartreuse-and-cocktails-with-chartreuse/?p=1527259",
+        "drink": "Bijou (Dry Vermouth)"
+      },
+      {
+        "bartender": "http://www.pierreferrandcognac.com/en/pages/view/682",
+        "drink": "Ce Soir"
+      }
+    ],
+    "pair": [
+      "orange_bitters",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -9975,26 +9832,6 @@
     "pair": [
       "almond",
       "apple"
-    ]
-  },
-  {
-    "count": 20,
-    "examples": [
-      {
-        "bartender": "Beachbum Berry Remixed, pg. 111",
-        "drink": "Bali Bali"
-      },
-      {
-        "drink": "Bella Donna"
-      },
-      {
-        "bartender": "imbibe magazine",
-        "drink": "Big Ship"
-      }
-    ],
-    "pair": [
-      "almond",
-      "dark_rum"
     ]
   },
   {
@@ -10197,6 +10034,27 @@
     "count": 20,
     "examples": [
       {
+        "bartender": "Jay Zimmerman",
+        "drink": "Angel's Face"
+      },
+      {
+        "bartender": "Boothby's The World's Drinks and How to Mix Them, 1934 edition",
+        "drink": "Angel Face"
+      },
+      {
+        "bartender": "The Gentleman's Companion, vol. 2, Charles H. Baker (1939)",
+        "drink": "Aunt Emily"
+      }
+    ],
+    "pair": [
+      "calvados",
+      "gin"
+    ]
+  },
+  {
+    "count": 20,
+    "examples": [
+      {
         "bartender": "Phil Ward",
         "drink": "Sidewinder"
       },
@@ -10212,25 +10070,6 @@
     "pair": [
       "calvados",
       "peychauds_bitters"
-    ]
-  },
-  {
-    "count": 20,
-    "examples": [
-      {
-        "bartender": "Brandon Bigalke",
-        "drink": "An Oaxacan Christmas"
-      },
-      {
-        "drink": "8 Amaro Sazerac"
-      },
-      {
-        "drink": "A Roman Holiday in Kentucky"
-      }
-    ],
-    "pair": [
-      "campari",
-      "green_chartreuse"
     ]
   },
   {
@@ -10358,25 +10197,6 @@
     "count": 20,
     "examples": [
       {
-        "bartender": "Joaquin Simo",
-        "drink": "Muddled Mission"
-      },
-      {
-        "drink": "Au Pair"
-      },
-      {
-        "drink": "Bawdy Max"
-      }
-    ],
-    "pair": [
-      "elderflower",
-      "green_chartreuse"
-    ]
-  },
-  {
-    "count": 20,
-    "examples": [
-      {
         "bartender": "Robert Krueger",
         "drink": "Nellie Fer' Toddy"
       },
@@ -10492,6 +10312,25 @@
     "pair": [
       "orgeat",
       "pineapple"
+    ]
+  },
+  {
+    "count": 20,
+    "examples": [
+      {
+        "bartender": "Jacques",
+        "drink": "Kind of Fancy"
+      },
+      {
+        "drink": "3-2-1"
+      },
+      {
+        "drink": "All Good Things"
+      }
+    ],
+    "pair": [
+      "rye_whiskey",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -10835,21 +10674,19 @@
     "count": 19,
     "examples": [
       {
-        "bartender": "Kevin Diedrich",
-        "drink": "OH Snap!"
+        "bartender": "Amy Lewis",
+        "drink": "A Regal Air"
       },
       {
-        "bartender": "Megan Daniel",
-        "drink": "San Francisco Harvest"
+        "drink": "White Walker Flip"
       },
       {
-        "bartender": "Francesco Lafranconi",
-        "drink": "Sorriso (Adapted)"
+        "drink": "Crooked Kilt"
       }
     ],
     "pair": [
-      "gin",
-      "sherry"
+      "ginger",
+      "green_chartreuse"
     ]
   },
   {
@@ -10877,24 +10714,6 @@
     "count": 19,
     "examples": [
       {
-        "drink": "131"
-      },
-      {
-        "drink": "Blushing Cecilia"
-      },
-      {
-        "drink": "But We Don't Want The Irish"
-      }
-    ],
-    "pair": [
-      "green_chartreuse",
-      "soda_water"
-    ]
-  },
-  {
-    "count": 19,
-    "examples": [
-      {
         "bartender": "Boston Magazine",
         "drink": "An Englishman, a Frenchman, and an Italian Walk into a LA Bar"
       },
@@ -10909,6 +10728,27 @@
     "pair": [
       "honey",
       "sweet_vermouth"
+    ]
+  },
+  {
+    "count": 19,
+    "examples": [
+      {
+        "bartender": "Experimental Cocktail Book, p 137",
+        "drink": "Arrackiri"
+      },
+      {
+        "bartender": "http://bostonapothecary.com/?p=1019",
+        "drink": "Charleston Collage (Boston Apothecary)"
+      },
+      {
+        "bartender": "New York Times",
+        "drink": "Disco Ball"
+      }
+    ],
+    "pair": [
+      "mezcal",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -10990,6 +10830,47 @@
     "pair": [
       "peychauds_bitters",
       "st_germain"
+    ]
+  },
+  {
+    "count": 19,
+    "examples": [
+      {
+        "bartender": "http://www.sfgate.com/wine/article/A-meal-in-your-cocktail-glass-3184997.php",
+        "drink": "Canary Flip"
+      },
+      {
+        "bartender": "PDT Cocktail book",
+        "drink": "Cloister"
+      },
+      {
+        "bartender": "The Flowing Bowl, London, 1903",
+        "drink": "Colleen Bawn"
+      }
+    ],
+    "pair": [
+      "sugar_syrup",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 19,
+    "examples": [
+      {
+        "drink": "All Good Things"
+      },
+      {
+        "bartender": "Death & Co., Modern Classic Cocktails",
+        "drink": "Alta California"
+      },
+      {
+        "bartender": "http://and1morefortheroad.blogspot.com/2012/04/amaro-april-bad-apple-and-jackson-ward.html",
+        "drink": "Bad Apple"
+      }
+    ],
+    "pair": [
+      "sweet_vermouth",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -11307,6 +11188,26 @@
     "count": 18,
     "examples": [
       {
+        "bartender": "Phil Ward",
+        "drink": "Sidewinder"
+      },
+      {
+        "bartender": "http://and1morefortheroad.blogspot.com/2012/04/amaro-april-bad-apple-and-jackson-ward.html",
+        "drink": "Bad Apple"
+      },
+      {
+        "drink": "Dark House"
+      }
+    ],
+    "pair": [
+      "calvados",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 18,
+    "examples": [
+      {
         "bartender": "Kate Grutman",
         "drink": "Peace Daiquiri"
       },
@@ -11388,68 +11289,6 @@
     "count": 18,
     "examples": [
       {
-        "bartender": "Beachbum Berry Remixed, pg. 111",
-        "drink": "Bali Bali"
-      },
-      {
-        "bartender": "Gary Regan's The Joy of Mixology",
-        "drink": "Bolero Cocktail"
-      },
-      {
-        "bartender": "http://www.diffordsguide.com/cocktails/recipe/349/cable-car",
-        "drink": "Cable Car"
-      }
-    ],
-    "pair": [
-      "dark_rum",
-      "orange"
-    ]
-  },
-  {
-    "count": 18,
-    "examples": [
-      {
-        "drink": "Arrack Punch"
-      },
-      {
-        "bartender": "http://www.minnesotamonthly.com/Blogs/Twin-Cities-Taste/The-Day-of-the-Daiquiri/",
-        "drink": "Badaiquiri"
-      },
-      {
-        "bartender": "Beachbum Berry Remixed, pg. 111",
-        "drink": "Bali Bali"
-      }
-    ],
-    "pair": [
-      "dark_rum",
-      "sugar_syrup"
-    ]
-  },
-  {
-    "count": 18,
-    "examples": [
-      {
-        "bartender": "Death & Co Cocktail Book, p.260",
-        "drink": "Angus Story Daiquiri"
-      },
-      {
-        "bartender": "http://www.minnesotamonthly.com/Blogs/Twin-Cities-Taste/The-Day-of-the-Daiquiri/",
-        "drink": "Badaiquiri"
-      },
-      {
-        "bartender": "Beachbum Berry Remixed, pg. 111",
-        "drink": "Bali Bali"
-      }
-    ],
-    "pair": [
-      "dark_rum",
-      "white_rum"
-    ]
-  },
-  {
-    "count": 18,
-    "examples": [
-      {
         "drink": "Bitter Blossom"
       },
       {
@@ -11482,6 +11321,46 @@
     "pair": [
       "fernet",
       "peychauds_bitters"
+    ]
+  },
+  {
+    "count": 18,
+    "examples": [
+      {
+        "bartender": "Kevin Diedrich",
+        "drink": "OH Snap!"
+      },
+      {
+        "bartender": "Megan Daniel",
+        "drink": "San Francisco Harvest"
+      },
+      {
+        "bartender": "Francesco Lafranconi",
+        "drink": "Sorriso (Adapted)"
+      }
+    ],
+    "pair": [
+      "gin",
+      "sherry"
+    ]
+  },
+  {
+    "count": 18,
+    "examples": [
+      {
+        "drink": "The King's Egg Nog"
+      },
+      {
+        "drink": "Cupid's Carrier Pigeon"
+      },
+      {
+        "bartender": "Kate Grutman",
+        "drink": "Ju-Ju Hurricane"
+      }
+    ],
+    "pair": [
+      "gin",
+      "white_rum"
     ]
   },
   {
@@ -11602,6 +11481,26 @@
     "pair": [
       "irish_whiskey",
       "sweet_vermouth"
+    ]
+  },
+  {
+    "count": 18,
+    "examples": [
+      {
+        "bartender": "http://ohgo.sh/archive/abelha-cachaca/#AmberHive",
+        "drink": "Amber Hive"
+      },
+      {
+        "bartender": "http://www.smallscreennetwork.com/video/624/cocktail_spirit_black_hawk/",
+        "drink": "Black Hawk Cocktail"
+      },
+      {
+        "drink": "Blackthorn Bramble"
+      }
+    ],
+    "pair": [
+      "lemon",
+      "sloe_gin"
     ]
   },
   {
@@ -11765,26 +11664,6 @@
     "count": 17,
     "examples": [
       {
-        "bartender": "https://cocktailvirgin.blogspot.com/2016/12/coraje.html",
-        "drink": "Coraje"
-      },
-      {
-        "bartender": "http://www.chow.com/recipes/28168-cradle-of-life",
-        "drink": "Cradle of Life"
-      },
-      {
-        "drink": "Flue-cured"
-      }
-    ],
-    "pair": [
-      "angostura_bitters",
-      "dark_rum"
-    ]
-  },
-  {
-    "count": 17,
-    "examples": [
-      {
         "bartender": "Beachbum Berry Remixed",
         "drink": "151 Swizzle"
       },
@@ -11824,19 +11703,20 @@
     "count": 17,
     "examples": [
       {
-        "bartender": "http://punchdrink.com/recipes/5th-amendment/",
-        "drink": "5th Amendment"
+        "bartender": "Phil Ward",
+        "drink": "Sidewinder"
       },
       {
-        "drink": "A Roman Holiday in Kentucky"
+        "bartender": "http://and1morefortheroad.blogspot.com/2012/04/amaro-april-bad-apple-and-jackson-ward.html",
+        "drink": "Bad Apple"
       },
       {
-        "drink": "Bad Reputation"
+        "drink": "Dark House"
       }
     ],
     "pair": [
-      "bourbon",
-      "green_chartreuse"
+      "apple",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -12004,6 +11884,27 @@
     "count": 17,
     "examples": [
       {
+        "bartender": "http://www.thekitchn.com/holiday-cocktail-with-domaine-134534",
+        "drink": "Autumn Spice"
+      },
+      {
+        "bartender": "Beachbum Berry Remixed, pg. 111",
+        "drink": "Bali Bali"
+      },
+      {
+        "bartender": "http://www.goslingsrum.com/details.asp?RecipeID=192",
+        "drink": "Dark 'n Stormy"
+      }
+    ],
+    "pair": [
+      "dark_rum",
+      "ginger"
+    ]
+  },
+  {
+    "count": 17,
+    "examples": [
+      {
         "drink": "Anthony Bello *AKA* The Italian Stallion"
       },
       {
@@ -12037,6 +11938,24 @@
     "pair": [
       "egg_white",
       "ginger_liqueur"
+    ]
+  },
+  {
+    "count": 17,
+    "examples": [
+      {
+        "drink": "Au Pair"
+      },
+      {
+        "drink": "Bawdy Max"
+      },
+      {
+        "drink": "California Widow"
+      }
+    ],
+    "pair": [
+      "elderflower",
+      "green_chartreuse"
     ]
   },
   {
@@ -12155,27 +12074,6 @@
     "pair": [
       "grapefruit",
       "triple_sec"
-    ]
-  },
-  {
-    "count": 17,
-    "examples": [
-      {
-        "bartender": "Amy Lewis",
-        "drink": "A Regal Air"
-      },
-      {
-        "bartender": "http://cocktailvirgin.blogspot.com/2013/10/chasing-fireflies.html",
-        "drink": "Chasing Fireflies"
-      },
-      {
-        "bartender": "http://www.chow.com/recipes/28168-cradle-of-life",
-        "drink": "Cradle of Life"
-      }
-    ],
-    "pair": [
-      "green_chartreuse",
-      "orange"
     ]
   },
   {
@@ -12383,26 +12281,6 @@
     "count": 16,
     "examples": [
       {
-        "bartender": "Experimental Cocktail Book, p 137",
-        "drink": "Arrackiri"
-      },
-      {
-        "bartender": "Original creation",
-        "drink": "Forest Murmurs"
-      },
-      {
-        "drink": "Green Like a Fox"
-      }
-    ],
-    "pair": [
-      "agave",
-      "green_chartreuse"
-    ]
-  },
-  {
-    "count": 16,
-    "examples": [
-      {
         "bartender": "http://imbibemagazine.com/Across-110th-Street-recipe",
         "drink": "Across 110th Street"
       },
@@ -12584,20 +12462,19 @@
     "count": 16,
     "examples": [
       {
-        "bartender": "Theo Sabatini",
-        "drink": "Potrero Hill"
+        "bartender": "Brandon Bigalke",
+        "drink": "An Oaxacan Christmas"
       },
       {
-        "drink": "221b"
+        "drink": "8 Amaro Sazerac"
       },
       {
-        "bartender": "http://cocktailquest.blogspot.com/2010/12/adios-amigos.html",
-        "drink": "Adios Amigos"
+        "drink": "Change Up"
       }
     ],
     "pair": [
-      "brandy",
-      "gin"
+      "campari",
+      "green_chartreuse"
     ]
   },
   {
@@ -12744,6 +12621,25 @@
     "count": 16,
     "examples": [
       {
+        "drink": "3-2-1"
+      },
+      {
+        "drink": "A Bouquet of Parentheses"
+      },
+      {
+        "bartender": "http://forums.egullet.org/topic/54990-chartreuse-and-cocktails-with-chartreuse/?p=1527259",
+        "drink": "Bijou (Dry Vermouth)"
+      }
+    ],
+    "pair": [
+      "dry_vermouth",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 16,
+    "examples": [
+      {
         "drink": "Kick the Pigeon"
       },
       {
@@ -12863,19 +12759,20 @@
     "count": 16,
     "examples": [
       {
-        "bartender": "http://www.foodandwine.com/fwx/drink/3-cocktails-make-yellow-chartreuse",
-        "drink": "Absalom's Retreat"
+        "bartender": "Phil Ward",
+        "drink": "Trato Hecho"
       },
       {
-        "drink": "Beekeeper's Apprentice"
+        "bartender": "Brandon Bigalke",
+        "drink": "An Oaxacan Christmas"
       },
       {
-        "drink": "Bees Over the High Seas"
+        "drink": "Admiralty"
       }
     ],
     "pair": [
       "green_chartreuse",
-      "honey"
+      "mezcal"
     ]
   },
   {
@@ -12993,6 +12890,25 @@
     "pair": [
       "orgeat",
       "tequila"
+    ]
+  },
+  {
+    "count": 16,
+    "examples": [
+      {
+        "bartender": "Phil Ward",
+        "drink": "Sidewinder"
+      },
+      {
+        "drink": "A Roman Holiday in Kentucky"
+      },
+      {
+        "drink": "All Good Things"
+      }
+    ],
+    "pair": [
+      "peychauds_bitters",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -13340,6 +13256,26 @@
     "count": 15,
     "examples": [
       {
+        "bartender": "Theo Sabatini",
+        "drink": "Potrero Hill"
+      },
+      {
+        "drink": "221b"
+      },
+      {
+        "bartender": "http://cocktailquest.blogspot.com/2010/12/adios-amigos.html",
+        "drink": "Adios Amigos"
+      }
+    ],
+    "pair": [
+      "brandy",
+      "gin"
+    ]
+  },
+  {
+    "count": 15,
+    "examples": [
+      {
         "bartender": "http://www.scribd.com/doc/19426080/Improved",
         "drink": "Bengal"
       },
@@ -13372,6 +13308,25 @@
     ],
     "pair": [
       "cream",
+      "lemon"
+    ]
+  },
+  {
+    "count": 15,
+    "examples": [
+      {
+        "bartender": "http://www.thekitchn.com/holiday-cocktail-with-domaine-134534",
+        "drink": "Autumn Spice"
+      },
+      {
+        "drink": "Bella Donna"
+      },
+      {
+        "drink": "Blue Cobbler"
+      }
+    ],
+    "pair": [
+      "dark_rum",
       "lemon"
     ]
   },
@@ -13496,6 +13451,24 @@
     "count": 15,
     "examples": [
       {
+        "drink": "Blackthorn Bramble"
+      },
+      {
+        "drink": "Blackthorn English"
+      },
+      {
+        "drink": "Café Royal Special"
+      }
+    ],
+    "pair": [
+      "gin",
+      "sloe_gin"
+    ]
+  },
+  {
+    "count": 15,
+    "examples": [
+      {
         "bartender": "Calvin Marty",
         "drink": "Julia's Child"
       },
@@ -13597,25 +13570,6 @@
     "count": 15,
     "examples": [
       {
-        "drink": "Bad Reputation"
-      },
-      {
-        "drink": "Bolivian Army Ending"
-      },
-      {
-        "bartender": "PDT Cocktail book",
-        "drink": "Cloister"
-      }
-    ],
-    "pair": [
-      "grapefruit",
-      "green_chartreuse"
-    ]
-  },
-  {
-    "count": 15,
-    "examples": [
-      {
         "bartender": "Caitlin Laman",
         "drink": "Jamaica Paloma"
       },
@@ -13667,6 +13621,24 @@
     ],
     "pair": [
       "grapefruit",
+      "peychauds_bitters"
+    ]
+  },
+  {
+    "count": 15,
+    "examples": [
+      {
+        "drink": "131"
+      },
+      {
+        "drink": "8 Amaro Sazerac"
+      },
+      {
+        "drink": "Au Pair"
+      }
+    ],
+    "pair": [
+      "green_chartreuse",
       "peychauds_bitters"
     ]
   },
@@ -13970,6 +13942,26 @@
     "count": 14,
     "examples": [
       {
+        "bartender": "Beachbum Berry Remixed, pg. 111",
+        "drink": "Bali Bali"
+      },
+      {
+        "drink": "Bella Donna"
+      },
+      {
+        "bartender": "densondc.com",
+        "drink": "Buffalo Tail"
+      }
+    ],
+    "pair": [
+      "almond",
+      "dark_rum"
+    ]
+  },
+  {
+    "count": 14,
+    "examples": [
+      {
         "drink": "Bases Clearing Double"
       },
       {
@@ -14221,6 +14213,27 @@
     "count": 14,
     "examples": [
       {
+        "bartender": "\"Down The Hatch!\" p. 1",
+        "drink": "Anna Held Cocktail"
+      },
+      {
+        "bartender": "http://forums.egullet.org/topic/53404-the-last-word/?p=1894793",
+        "drink": "Benediction"
+      },
+      {
+        "bartender": "http://www.sfgate.com/wine/article/A-meal-in-your-cocktail-glass-3184997.php",
+        "drink": "Canary Flip"
+      }
+    ],
+    "pair": [
+      "brandy",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 14,
+    "examples": [
+      {
         "bartender": "Brian Means",
         "drink": "Short Round II"
       },
@@ -14380,26 +14393,6 @@
     "count": 14,
     "examples": [
       {
-        "drink": "Crooked Kilt"
-      },
-      {
-        "bartender": "http://punchdrink.com/recipes/5th-amendment/",
-        "drink": "5th Amendment"
-      },
-      {
-        "bartender": "http://www.thespiritmonkey.com/2012/07/20/the-habsburg-in-jalisco-cocktail/",
-        "drink": "A Habsberg In Jalisco"
-      }
-    ],
-    "pair": [
-      "clove",
-      "green_chartreuse"
-    ]
-  },
-  {
-    "count": 14,
-    "examples": [
-      {
         "bartender": "http://bit.ly/TauAWc",
         "drink": "Allsorts Inc."
       },
@@ -14496,6 +14489,47 @@
     "count": 14,
     "examples": [
       {
+        "drink": "Arrack Punch"
+      },
+      {
+        "bartender": "http://www.minnesotamonthly.com/Blogs/Twin-Cities-Taste/The-Day-of-the-Daiquiri/",
+        "drink": "Badaiquiri"
+      },
+      {
+        "bartender": "Beachbum Berry Remixed, pg. 111",
+        "drink": "Bali Bali"
+      }
+    ],
+    "pair": [
+      "dark_rum",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "count": 14,
+    "examples": [
+      {
+        "bartender": "Death & Co Cocktail Book, p.260",
+        "drink": "Angus Story Daiquiri"
+      },
+      {
+        "bartender": "http://www.minnesotamonthly.com/Blogs/Twin-Cities-Taste/The-Day-of-the-Daiquiri/",
+        "drink": "Badaiquiri"
+      },
+      {
+        "bartender": "Beachbum Berry Remixed, pg. 111",
+        "drink": "Bali Bali"
+      }
+    ],
+    "pair": [
+      "dark_rum",
+      "white_rum"
+    ]
+  },
+  {
+    "count": 14,
+    "examples": [
+      {
         "bartender": "Bon Appetite, 6/2/12",
         "drink": "Boat House Punch"
       },
@@ -14517,26 +14551,6 @@
     "count": 14,
     "examples": [
       {
-        "drink": "Crooked Kilt"
-      },
-      {
-        "bartender": "http://punchdrink.com/recipes/5th-amendment/",
-        "drink": "5th Amendment"
-      },
-      {
-        "bartender": "http://www.thespiritmonkey.com/2012/07/20/the-habsburg-in-jalisco-cocktail/",
-        "drink": "A Habsberg In Jalisco"
-      }
-    ],
-    "pair": [
-      "falernum",
-      "green_chartreuse"
-    ]
-  },
-  {
-    "count": 14,
-    "examples": [
-      {
         "bartender": "http://bit.ly/TauAWc",
         "drink": "Allsorts Inc."
       },
@@ -14550,6 +14564,25 @@
     "pair": [
       "falernum",
       "mezcal"
+    ]
+  },
+  {
+    "count": 14,
+    "examples": [
+      {
+        "bartender": "Matthew Polzin",
+        "drink": "On the Wings of Eagles"
+      },
+      {
+        "drink": "Dante's Requiem"
+      },
+      {
+        "drink": "Death Is Not The End"
+      }
+    ],
+    "pair": [
+      "fernet",
+      "green_chartreuse"
     ]
   },
   {
@@ -15040,18 +15073,20 @@
     "count": 13,
     "examples": [
       {
-        "drink": "8 Amaro Sazerac"
+        "bartender": "https://cocktailvirgin.blogspot.com/2016/12/coraje.html",
+        "drink": "Coraje"
       },
       {
-        "drink": "Amore Sporco"
+        "bartender": "http://cocktailvirgin.blogspot.fr/2016/08/jungle-stirred.html",
+        "drink": "Jungle Stirred"
       },
       {
-        "drink": "Blushing Cecilia"
+        "drink": "La Torita"
       }
     ],
     "pair": [
-      "aperol",
-      "green_chartreuse"
+      "angostura_bitters",
+      "dark_rum"
     ]
   },
   {
@@ -15157,18 +15192,18 @@
     "count": 13,
     "examples": [
       {
-        "drink": "8 Amaro Sazerac"
+        "bartender": "Thad Vogler",
+        "drink": "Improved Calvados Cocktail"
       },
       {
-        "bartender": "http://and1morefortheroad.blogspot.com/2012/04/amaro-april-bad-apple-and-jackson-ward.html",
-        "drink": "Bad Apple"
+        "drink": "Boston 2009"
       },
       {
-        "drink": "Buona Noce"
+        "drink": "Butter, Lemon, Smoke"
       }
     ],
     "pair": [
-      "averna",
+      "benedictine",
       "green_chartreuse"
     ]
   },
@@ -15188,6 +15223,27 @@
     "pair": [
       "benedictine",
       "sugar_syrup"
+    ]
+  },
+  {
+    "count": 13,
+    "examples": [
+      {
+        "bartender": "Phil Ward",
+        "drink": "Sidewinder"
+      },
+      {
+        "bartender": "http://forums.egullet.org/topic/53404-the-last-word/?p=1894793",
+        "drink": "Benediction"
+      },
+      {
+        "bartender": "http://ohgo.sh/archive/scarlet-ibis-rum-coin-toss-cocktail/",
+        "drink": "Coin Toss"
+      }
+    ],
+    "pair": [
+      "benedictine",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -15233,6 +15289,26 @@
     "count": 13,
     "examples": [
       {
+        "bartender": "http://punchdrink.com/recipes/5th-amendment/",
+        "drink": "5th Amendment"
+      },
+      {
+        "drink": "A Roman Holiday in Kentucky"
+      },
+      {
+        "bartender": "http://www.ardentspirits.com/ardentspirits_old/gr/101BNC2013.html",
+        "drink": "Bird's Eye View"
+      }
+    ],
+    "pair": [
+      "bourbon",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 13,
+    "examples": [
+      {
         "drink": "Be Forewarned"
       },
       {
@@ -15265,6 +15341,25 @@
     "pair": [
       "brandy",
       "fernet"
+    ]
+  },
+  {
+    "count": 13,
+    "examples": [
+      {
+        "bartender": "Douglas Ford",
+        "drink": "The Asterisk"
+      },
+      {
+        "drink": "A Bitter Mint Than I"
+      },
+      {
+        "drink": "Butter, Lemon, Smoke"
+      }
+    ],
+    "pair": [
+      "brandy",
+      "green_chartreuse"
     ]
   },
   {
@@ -15428,6 +15523,45 @@
     "count": 13,
     "examples": [
       {
+        "drink": "Blushing Monk"
+      },
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2011/07/drink-of-laugher-and-forgetting.html",
+        "drink": "Drink of Laughter and Forgetting"
+      },
+      {
+        "drink": "Harrison Street"
+      }
+    ],
+    "pair": [
+      "cynar",
+      "green_chartreuse"
+    ]
+  },
+  {
+    "count": 13,
+    "examples": [
+      {
+        "bartender": "Beachbum Berry Remixed, pg. 111",
+        "drink": "Bali Bali"
+      },
+      {
+        "bartender": "Gary Regan's The Joy of Mixology",
+        "drink": "Bolero Cocktail"
+      },
+      {
+        "drink": "Dark and Orangey"
+      }
+    ],
+    "pair": [
+      "dark_rum",
+      "orange"
+    ]
+  },
+  {
+    "count": 13,
+    "examples": [
+      {
         "bartender": "Brian Miller",
         "drink": "Conference"
       },
@@ -15506,25 +15640,6 @@
     "count": 13,
     "examples": [
       {
-        "bartender": "BC Hoffman",
-        "drink": "Mayan Mule"
-      },
-      {
-        "drink": "Virgil St."
-      },
-      {
-        "drink": "Admiralty"
-      }
-    ],
-    "pair": [
-      "gin",
-      "mezcal"
-    ]
-  },
-  {
-    "count": 13,
-    "examples": [
-      {
         "bartender": "Matt Tocco",
         "drink": "Stranger in the Alps"
       },
@@ -15544,20 +15659,18 @@
     "count": 13,
     "examples": [
       {
-        "bartender": "http://www.foodandwine.com/fwx/drink/3-cocktails-make-yellow-chartreuse",
-        "drink": "Absalom's Retreat"
+        "drink": "131"
       },
       {
-        "drink": "But You Don't Have To Take My Word For It"
+        "drink": "Blushing Cecilia"
       },
       {
-        "bartender": "https://www.diffordsguide.com/cocktails/recipe/2924/detroit-athletic-club",
-        "drink": "Detroit Athletic Club"
+        "drink": "But We Don't Want The Irish"
       }
     ],
     "pair": [
       "green_chartreuse",
-      "irish_whiskey"
+      "soda_water"
     ]
   },
   {
@@ -15801,26 +15914,6 @@
     "pair": [
       "absinthe",
       "cherry"
-    ]
-  },
-  {
-    "count": 12,
-    "examples": [
-      {
-        "bartender": "http://forums.egullet.org/topic/53404-the-last-word/?p=1894793",
-        "drink": "Benediction"
-      },
-      {
-        "drink": "Gatsby"
-      },
-      {
-        "bartender": "http://ratedrcocktails.com/2013/03/08/haggertys/",
-        "drink": "Haggerty's Draught"
-      }
-    ],
-    "pair": [
-      "absinthe",
-      "green_chartreuse"
     ]
   },
   {
@@ -17490,6 +17583,25 @@
     "count": 11,
     "examples": [
       {
+        "drink": "Crooked Kilt"
+      },
+      {
+        "bartender": "http://www.thespiritmonkey.com/2012/07/20/the-habsburg-in-jalisco-cocktail/",
+        "drink": "A Habsberg In Jalisco"
+      },
+      {
+        "drink": "Ashby Swizzle"
+      }
+    ],
+    "pair": [
+      "clove",
+      "green_chartreuse"
+    ]
+  },
+  {
+    "count": 11,
+    "examples": [
+      {
         "drink": "Black Mirror"
       },
       {
@@ -17567,25 +17679,6 @@
     "count": 11,
     "examples": [
       {
-        "drink": "20th Century"
-      },
-      {
-        "drink": "19th Century"
-      },
-      {
-        "bartender": "http://www.classicmixology.com/cocktails/alexander_cocktail/1916",
-        "drink": "Alexander"
-      }
-    ],
-    "pair": [
-      "creme_de_cacao",
-      "gin"
-    ]
-  },
-  {
-    "count": 11,
-    "examples": [
-      {
         "drink": "A Well Earned Reprieve"
       },
       {
@@ -17598,45 +17691,6 @@
     "pair": [
       "cynar",
       "ginger_liqueur"
-    ]
-  },
-  {
-    "count": 11,
-    "examples": [
-      {
-        "drink": "Aye, Mon"
-      },
-      {
-        "drink": "Bitter Old Mule"
-      },
-      {
-        "bartender": "https://cocktailvirgin.blogspot.com/2016/12/coraje.html",
-        "drink": "Coraje"
-      }
-    ],
-    "pair": [
-      "dark_rum",
-      "orange_bitters"
-    ]
-  },
-  {
-    "count": 11,
-    "examples": [
-      {
-        "bartender": "Beachbum Berry Remixed, pg. 111",
-        "drink": "Bali Bali"
-      },
-      {
-        "drink": "Felix Swizzle"
-      },
-      {
-        "bartender": "http://en.wikipedia.org/wiki/Pi%C3%B1a_colada",
-        "drink": "Frozen Piña Colada"
-      }
-    ],
-    "pair": [
-      "dark_rum",
-      "pineapple"
     ]
   },
   {
@@ -17698,6 +17752,25 @@
     "pair": [
       "falernum",
       "fernet"
+    ]
+  },
+  {
+    "count": 11,
+    "examples": [
+      {
+        "drink": "Crooked Kilt"
+      },
+      {
+        "bartender": "http://www.thespiritmonkey.com/2012/07/20/the-habsburg-in-jalisco-cocktail/",
+        "drink": "A Habsberg In Jalisco"
+      },
+      {
+        "drink": "Ashby Swizzle"
+      }
+    ],
+    "pair": [
+      "falernum",
+      "green_chartreuse"
     ]
   },
   {
@@ -17783,19 +17856,21 @@
     "count": 11,
     "examples": [
       {
-        "bartender": "PDT Cocktail Book, pg. 112",
-        "drink": "East Village Athletic Club \r\nCocktail"
+        "bartender": "Amy Lewis",
+        "drink": "A Regal Air"
       },
       {
-        "drink": "Fontana"
+        "bartender": "http://cocktailvirgin.blogspot.com/2013/10/chasing-fireflies.html",
+        "drink": "Chasing Fireflies"
       },
       {
-        "drink": "Franklin Bearse"
+        "bartender": "http://www.chow.com/recipes/28168-cradle-of-life",
+        "drink": "Cradle of Life"
       }
     ],
     "pair": [
       "green_chartreuse",
-      "triple_sec"
+      "orange"
     ]
   },
   {
@@ -17817,6 +17892,46 @@
     "pair": [
       "honey",
       "peychauds_bitters"
+    ]
+  },
+  {
+    "count": 11,
+    "examples": [
+      {
+        "bartender": "imbibe magazine",
+        "drink": "Big Ship"
+      },
+      {
+        "bartender": "http://www.shakestir.com/recipes/id/2680/billy-bones-cocktail",
+        "drink": "Billy Bones"
+      },
+      {
+        "bartender": "http://www.diffordsguide.com/cocktails/recipe/349/cable-car",
+        "drink": "Cable Car"
+      }
+    ],
+    "pair": [
+      "lemon",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 11,
+    "examples": [
+      {
+        "bartender": "\"Down The Hatch!\" p. 1",
+        "drink": "Anna Held Cocktail"
+      },
+      {
+        "drink": "Gilding the Lily"
+      },
+      {
+        "drink": "Kind Of Blue"
+      }
+    ],
+    "pair": [
+      "maraschino",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -18075,6 +18190,26 @@
     "pair": [
       "agave",
       "pineapple"
+    ]
+  },
+  {
+    "count": 10,
+    "examples": [
+      {
+        "bartender": "Experimental Cocktail Book, p 137",
+        "drink": "Arrackiri"
+      },
+      {
+        "bartender": "http://www.winemag.com/Wine-Enthusiast-Magazine/Web-2012/Mezcal-Straight-Up/",
+        "drink": "La Otra Palabra"
+      },
+      {
+        "drink": "Lackadaisy"
+      }
+    ],
+    "pair": [
+      "agave",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -18417,6 +18552,26 @@
     "count": 10,
     "examples": [
       {
+        "drink": "Blushing Cecilia"
+      },
+      {
+        "bartender": "http://looka.gumbopages.com/2005/07/22/the-diamondback-cocktail/",
+        "drink": "Diamondback (Green)"
+      },
+      {
+        "bartender": "http://www.seriouseats.com/recipes/2011/10/harvest-moon-cocktail-apple-brandy-rye-recipe.html",
+        "drink": "Harvest Moon"
+      }
+    ],
+    "pair": [
+      "apple",
+      "green_chartreuse"
+    ]
+  },
+  {
+    "count": 10,
+    "examples": [
+      {
         "drink": "The Claridge"
       },
       {
@@ -18714,6 +18869,26 @@
     "count": 10,
     "examples": [
       {
+        "drink": "Blushing Cecilia"
+      },
+      {
+        "bartender": "http://looka.gumbopages.com/2005/07/22/the-diamondback-cocktail/",
+        "drink": "Diamondback (Green)"
+      },
+      {
+        "bartender": "http://www.seriouseats.com/recipes/2011/10/harvest-moon-cocktail-apple-brandy-rye-recipe.html",
+        "drink": "Harvest Moon"
+      }
+    ],
+    "pair": [
+      "calvados",
+      "green_chartreuse"
+    ]
+  },
+  {
+    "count": 10,
+    "examples": [
+      {
         "bartender": "Boston Magazine",
         "drink": "An Englishman, a Frenchman, and an Italian Walk into a LA Bar"
       },
@@ -18873,25 +19048,6 @@
     "count": 10,
     "examples": [
       {
-        "bartender": "Beachbum Berry Remixed, pg. 111",
-        "drink": "Bali Bali"
-      },
-      {
-        "drink": "Felix Swizzle"
-      },
-      {
-        "drink": "Ja Mon"
-      }
-    ],
-    "pair": [
-      "clove",
-      "dark_rum"
-    ]
-  },
-  {
-    "count": 10,
-    "examples": [
-      {
         "drink": "Agnostic Monk"
       },
       {
@@ -18951,6 +19107,25 @@
     "count": 10,
     "examples": [
       {
+        "drink": "20th Century"
+      },
+      {
+        "drink": "19th Century"
+      },
+      {
+        "bartender": "http://www.classicmixology.com/cocktails/alexander_cocktail/1916",
+        "drink": "Alexander"
+      }
+    ],
+    "pair": [
+      "creme_de_cacao",
+      "gin"
+    ]
+  },
+  {
+    "count": 10,
+    "examples": [
+      {
         "bartender": "Death & Co. , pg 170",
         "drink": "18th Century"
       },
@@ -18998,12 +19173,13 @@
         "drink": "Felix Swizzle"
       },
       {
-        "drink": "Ja Mon"
+        "bartender": "http://en.wikipedia.org/wiki/Pi%C3%B1a_colada",
+        "drink": "Frozen Piña Colada"
       }
     ],
     "pair": [
       "dark_rum",
-      "falernum"
+      "pineapple"
     ]
   },
   {
@@ -19168,6 +19344,25 @@
     "count": 10,
     "examples": [
       {
+        "bartender": "BC Hoffman",
+        "drink": "Mayan Mule"
+      },
+      {
+        "drink": "Virgil St."
+      },
+      {
+        "drink": "Admiralty"
+      }
+    ],
+    "pair": [
+      "gin",
+      "mezcal"
+    ]
+  },
+  {
+    "count": 10,
+    "examples": [
+      {
         "bartender": "Caterina Miltenberger",
         "drink": "West Coast Punch"
       },
@@ -19202,46 +19397,6 @@
     "pair": [
       "gin",
       "passionfruit"
-    ]
-  },
-  {
-    "count": 10,
-    "examples": [
-      {
-        "drink": "Arapa Cocktail"
-      },
-      {
-        "drink": "Kay Pacha Mi Pacha"
-      },
-      {
-        "bartender": "Nandini Khaund",
-        "drink": "Temple of the Moon"
-      }
-    ],
-    "pair": [
-      "gin",
-      "pisco"
-    ]
-  },
-  {
-    "count": 10,
-    "examples": [
-      {
-        "bartender": "Bruce Cole",
-        "drink": "Japonais No.3"
-      },
-      {
-        "bartender": "Francesco Lafranconi",
-        "drink": "Essence No.5 (Adapted)"
-      },
-      {
-        "bartender": "http://punchdrink.com/recipes/babs-in-d-c/",
-        "drink": "Babs in DC"
-      }
-    ],
-    "pair": [
-      "gin",
-      "raspberry"
     ]
   },
   {
@@ -19330,6 +19485,25 @@
     "count": 10,
     "examples": [
       {
+        "drink": "But You Don't Have To Take My Word For It"
+      },
+      {
+        "bartender": "https://www.diffordsguide.com/cocktails/recipe/2924/detroit-athletic-club",
+        "drink": "Detroit Athletic Club"
+      },
+      {
+        "drink": "Everybody's Irish"
+      }
+    ],
+    "pair": [
+      "green_chartreuse",
+      "irish_whiskey"
+    ]
+  },
+  {
+    "count": 10,
+    "examples": [
+      {
         "bartender": "The Gentleman's Companion, vol. 2 by Charles H. Baker, Jr.  (1939)",
         "drink": "Amer Picon \"Pouffle\" Fizz"
       },
@@ -19366,6 +19540,25 @@
     "pair": [
       "grenadine",
       "sugar_syrup"
+    ]
+  },
+  {
+    "count": 10,
+    "examples": [
+      {
+        "bartender": "http://www.foodandwine.com/fwx/drink/3-cocktails-make-yellow-chartreuse",
+        "drink": "Absalom's Retreat"
+      },
+      {
+        "drink": "Beekeeper's Apprentice"
+      },
+      {
+        "drink": "Bees Over the High Seas"
+      }
+    ],
+    "pair": [
+      "honey",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -20249,26 +20442,6 @@
     "count": 9,
     "examples": [
       {
-        "bartender": "http://www.smallscreennetwork.com/video/624/cocktail_spirit_black_hawk/",
-        "drink": "Black Hawk Cocktail"
-      },
-      {
-        "drink": "Hawkeye"
-      },
-      {
-        "bartender": "Tom Waits 1985",
-        "drink": "Raindog"
-      }
-    ],
-    "pair": [
-      "bourbon",
-      "gin"
-    ]
-  },
-  {
-    "count": 9,
-    "examples": [
-      {
         "bartender": "http://drinkstraightup.com/2013/02/17/beatnik/",
         "drink": "Beatnik (Duggan McDonnell)"
       },
@@ -20305,26 +20478,6 @@
     "pair": [
       "brandy",
       "coffee_liqueur"
-    ]
-  },
-  {
-    "count": 9,
-    "examples": [
-      {
-        "bartender": "Beachbum Berry Remixed, pg. 111",
-        "drink": "Bali Bali"
-      },
-      {
-        "bartender": "Gary Regan's The Joy of Mixology",
-        "drink": "Bolero Cocktail"
-      },
-      {
-        "drink": "Cornet"
-      }
-    ],
-    "pair": [
-      "brandy",
-      "dark_rum"
     ]
   },
   {
@@ -20592,6 +20745,25 @@
     "count": 9,
     "examples": [
       {
+        "bartender": "Beachbum Berry Remixed, pg. 111",
+        "drink": "Bali Bali"
+      },
+      {
+        "drink": "Felix Swizzle"
+      },
+      {
+        "drink": "Ja Mon"
+      }
+    ],
+    "pair": [
+      "clove",
+      "dark_rum"
+    ]
+  },
+  {
+    "count": 9,
+    "examples": [
+      {
         "drink": "Fortune & Glory"
       },
       {
@@ -20794,21 +20966,19 @@
     "count": 9,
     "examples": [
       {
-        "bartender": "imbibe magazine",
-        "drink": "Big Ship"
+        "bartender": "Beachbum Berry Remixed, pg. 111",
+        "drink": "Bali Bali"
       },
       {
-        "bartender": "densondc.com",
-        "drink": "Buffalo Tail"
+        "drink": "Felix Swizzle"
       },
       {
-        "bartender": "http://www.chow.com/recipes/28168-cradle-of-life",
-        "drink": "Cradle of Life"
+        "drink": "Ja Mon"
       }
     ],
     "pair": [
       "dark_rum",
-      "orgeat"
+      "falernum"
     ]
   },
   {
@@ -20890,6 +21060,46 @@
     "pair": [
       "fernet",
       "triple_sec"
+    ]
+  },
+  {
+    "count": 9,
+    "examples": [
+      {
+        "drink": "Arapa Cocktail"
+      },
+      {
+        "drink": "Kay Pacha Mi Pacha"
+      },
+      {
+        "bartender": "Nandini Khaund",
+        "drink": "Temple of the Moon"
+      }
+    ],
+    "pair": [
+      "gin",
+      "pisco"
+    ]
+  },
+  {
+    "count": 9,
+    "examples": [
+      {
+        "bartender": "Bruce Cole",
+        "drink": "Japonais No.3"
+      },
+      {
+        "bartender": "Francesco Lafranconi",
+        "drink": "Essence No.5 (Adapted)"
+      },
+      {
+        "bartender": "http://punchdrink.com/recipes/babs-in-d-c/",
+        "drink": "Babs in DC"
+      }
+    ],
+    "pair": [
+      "gin",
+      "raspberry"
     ]
   },
   {
@@ -20996,25 +21206,6 @@
     "count": 9,
     "examples": [
       {
-        "drink": "Elske Sour"
-      },
-      {
-        "bartender": "http://cocktailvirgin.blogspot.com/2009/06/final-rhuse.html",
-        "drink": "Final Rhuse"
-      },
-      {
-        "drink": "Floral Explosion"
-      }
-    ],
-    "pair": [
-      "green_chartreuse",
-      "pisco"
-    ]
-  },
-  {
-    "count": 9,
-    "examples": [
-      {
         "bartender": "http://cocktailvirgin.blogspot.com/2013/11/broken-crown.html",
         "drink": "Broken Crown"
       },
@@ -21068,6 +21259,45 @@
     "pair": [
       "lime",
       "sherry"
+    ]
+  },
+  {
+    "count": 9,
+    "examples": [
+      {
+        "drink": "Charlie Chaplin"
+      },
+      {
+        "bartender": "Your joking, right? We're makin' it up right here.",
+        "drink": "Drink Lab 9 - Join the fun"
+      },
+      {
+        "bartender": "http://projects.washingtonpost.com/recipes/2012/06/20/mabel-berra/",
+        "drink": "Mabel Berra"
+      }
+    ],
+    "pair": [
+      "lime",
+      "sloe_gin"
+    ]
+  },
+  {
+    "count": 9,
+    "examples": [
+      {
+        "bartender": "http://www.chow.com/recipes/28168-cradle-of-life",
+        "drink": "Cradle of Life"
+      },
+      {
+        "drink": "Golden Parachute"
+      },
+      {
+        "drink": "Parlay"
+      }
+    ],
+    "pair": [
+      "lime",
+      "spiced_rum"
     ]
   },
   {
@@ -21566,6 +21796,25 @@
     "count": 8,
     "examples": [
       {
+        "drink": "8 Amaro Sazerac"
+      },
+      {
+        "drink": "Blushing Cecilia"
+      },
+      {
+        "bartender": "pg. 157",
+        "drink": "Gypsy Eyes"
+      }
+    ],
+    "pair": [
+      "aperol",
+      "green_chartreuse"
+    ]
+  },
+  {
+    "count": 8,
+    "examples": [
+      {
         "bartender": "http://liquor.com/recipes/aperol-flip/",
         "drink": "Aperol Flip"
       },
@@ -21943,24 +22192,6 @@
     "pair": [
       "calvados",
       "mezcal"
-    ]
-  },
-  {
-    "count": 8,
-    "examples": [
-      {
-        "drink": "Aye, Mon"
-      },
-      {
-        "drink": "Flue-cured"
-      },
-      {
-        "drink": "Jack White's Girlfriend"
-      }
-    ],
-    "pair": [
-      "campari",
-      "dark_rum"
     ]
   },
   {
@@ -22346,25 +22577,6 @@
     "count": 8,
     "examples": [
       {
-        "bartender": "http://www.nytimes.com/recipes/1015782/bitter-coffee.html",
-        "drink": "Bitter Coffee"
-      },
-      {
-        "drink": "Embajador"
-      },
-      {
-        "drink": "GoodFella"
-      }
-    ],
-    "pair": [
-      "cynar",
-      "dark_rum"
-    ]
-  },
-  {
-    "count": 8,
-    "examples": [
-      {
         "bartender": "http://cocktailvirgin.blogspot.com/2010/09/blackstrap-cynar-flip.html",
         "drink": "Blackstrap Cynar Flip"
       },
@@ -22426,39 +22638,20 @@
     "count": 8,
     "examples": [
       {
-        "bartender": "http://www.thekitchn.com/holiday-cocktail-with-domaine-134534",
-        "drink": "Autumn Spice"
+        "bartender": "http://www.pierreferrandcognac.com/en/pages/view/682",
+        "drink": "Ce Soir"
       },
       {
-        "drink": "Bitter Old Mule"
+        "bartender": "http://www.imbibemagazine.com/Lady-Sniper-Recipe",
+        "drink": "Lady Sniper"
       },
       {
-        "drink": "Dark and Orangey"
+        "drink": "Mixed Greens"
       }
     ],
     "pair": [
-      "dark_rum",
-      "ginger_liqueur"
-    ]
-  },
-  {
-    "count": 8,
-    "examples": [
-      {
-        "drink": "Arrack Punch"
-      },
-      {
-        "bartender": "imbibe magazine",
-        "drink": "Big Ship"
-      },
-      {
-        "bartender": "http://www.nytimes.com/recipes/1015782/bitter-coffee.html",
-        "drink": "Bitter Coffee"
-      }
-    ],
-    "pair": [
-      "dark_rum",
-      "nutmeg"
+      "cynar",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -22686,26 +22879,6 @@
     "count": 8,
     "examples": [
       {
-        "bartender": "http://punchdrink.com/recipes/86-long-island-iced-tea/",
-        "drink": "86 Long Island Iced Tea"
-      },
-      {
-        "drink": "Cross Town Traffic"
-      },
-      {
-        "bartender": "http://redfacery.blogspot.com/2011/02/satanic-cocktails-demon-of-destiny.html",
-        "drink": "Demon of Destiny"
-      }
-    ],
-    "pair": [
-      "gin",
-      "tequila"
-    ]
-  },
-  {
-    "count": 8,
-    "examples": [
-      {
         "drink": "Pink Punch"
       },
       {
@@ -22759,6 +22932,46 @@
     "pair": [
       "grapefruit",
       "pisco"
+    ]
+  },
+  {
+    "count": 8,
+    "examples": [
+      {
+        "bartender": "PDT Cocktail book",
+        "drink": "Cloister"
+      },
+      {
+        "bartender": "http://www.veevlife.com/ext/recipes.php",
+        "drink": "Corpse ReVeeVer"
+      },
+      {
+        "bartender": "http://www.newhavenindependent.org/index.php/archives/entry/raising_a_glass_to_music_haven/",
+        "drink": "Dominant Tonic"
+      }
+    ],
+    "pair": [
+      "grapefruit",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 8,
+    "examples": [
+      {
+        "drink": "Fontana"
+      },
+      {
+        "bartender": "http://newyork.grubstreet.com/2011/05/kaleidoscope_cocktails.html#photo=43x00034",
+        "drink": "Liquid Swords"
+      },
+      {
+        "drink": "Maiden's Kiss (Improved)"
+      }
+    ],
+    "pair": [
+      "green_chartreuse",
+      "triple_sec"
     ]
   },
   {
@@ -22945,6 +23158,26 @@
     "count": 8,
     "examples": [
       {
+        "bartender": "http://ohgo.sh/archive/abelha-cachaca/#AmberHive",
+        "drink": "Amber Hive"
+      },
+      {
+        "drink": "Eden Terrace Fizz"
+      },
+      {
+        "bartender": "http://www.foodandwine.com/recipes/gin-genie-cocktails-2010",
+        "drink": "Gin Genie"
+      }
+    ],
+    "pair": [
+      "sloe_gin",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "count": 8,
+    "examples": [
+      {
         "bartender": "Kate Grutman",
         "drink": "Pink Ribbon"
       },
@@ -22959,6 +23192,26 @@
     "pair": [
       "sparkling_wine",
       "white_rum"
+    ]
+  },
+  {
+    "count": 8,
+    "examples": [
+      {
+        "drink": "Betsy"
+      },
+      {
+        "bartender": "http://ohgo.sh/archive/scarlet-ibis-rum-coin-toss-cocktail/",
+        "drink": "Coin Toss"
+      },
+      {
+        "bartender": "http://www.imbibemagazine.com/Daisy-Diana-Recipe",
+        "drink": "Daisy Diana"
+      }
+    ],
+    "pair": [
+      "white_rum",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -22977,6 +23230,26 @@
     "pair": [
       "absinthe",
       "ginger_liqueur"
+    ]
+  },
+  {
+    "count": 7,
+    "examples": [
+      {
+        "drink": "Gatsby"
+      },
+      {
+        "bartender": "http://ratedrcocktails.com/2013/03/08/haggertys/",
+        "drink": "Haggerty's Draught"
+      },
+      {
+        "bartender": "http://liquor.com/recipes/hearn/",
+        "drink": "Hearn"
+      }
+    ],
+    "pair": [
+      "absinthe",
+      "green_chartreuse"
     ]
   },
   {
@@ -23261,6 +23534,27 @@
     "count": 7,
     "examples": [
       {
+        "bartender": "http://cocktailvirgin.blogspot.com/2011/02/manhattan-exposition.html",
+        "drink": "Andean Exposition"
+      },
+      {
+        "bartender": "http://liquor.com/recipes/nouveau-sangaree/",
+        "drink": "Nouveau Sangaree"
+      },
+      {
+        "bartender": "http://egullet.org/p1642036",
+        "drink": "Sloe Pear Flip"
+      }
+    ],
+    "pair": [
+      "angostura_bitters",
+      "sloe_gin"
+    ]
+  },
+  {
+    "count": 7,
+    "examples": [
+      {
         "drink": "Bech & Gall"
       },
       {
@@ -23494,6 +23788,25 @@
     "pair": [
       "apricot_brandy",
       "cherry"
+    ]
+  },
+  {
+    "count": 7,
+    "examples": [
+      {
+        "drink": "8 Amaro Sazerac"
+      },
+      {
+        "drink": "Buona Noce"
+      },
+      {
+        "bartender": "http://www.foodandwine.com/recipes/bywater-cocktail-cocktails-2009",
+        "drink": "Bywater"
+      }
+    ],
+    "pair": [
+      "averna",
+      "green_chartreuse"
     ]
   },
   {
@@ -24017,27 +24330,6 @@
     "count": 7,
     "examples": [
       {
-        "bartender": "Death & Co., Modern Classic Cocktails",
-        "drink": "Alta California"
-      },
-      {
-        "bartender": "http://www.saucemagazine.com/blog/?tag=sanctuaria-the-dive-bar-of-cocktail-bar",
-        "drink": "Blue Steel"
-      },
-      {
-        "bartender": "http://cocktailvirgin.blogspot.com/2013/06/haumea.html",
-        "drink": "Haumea"
-      }
-    ],
-    "pair": [
-      "cinnamon",
-      "green_chartreuse"
-    ]
-  },
-  {
-    "count": 7,
-    "examples": [
-      {
         "drink": "Autumn Cobbler"
       },
       {
@@ -24090,25 +24382,6 @@
     "pair": [
       "clove",
       "pisco"
-    ]
-  },
-  {
-    "count": 7,
-    "examples": [
-      {
-        "drink": "Blimey Barista"
-      },
-      {
-        "bartender": "https://cocktailvirgin.blogspot.com/2016/12/coraje.html",
-        "drink": "Coraje"
-      },
-      {
-        "drink": "Roberta Black"
-      }
-    ],
-    "pair": [
-      "coffee_liqueur",
-      "dark_rum"
     ]
   },
   {
@@ -24216,6 +24489,25 @@
     "count": 7,
     "examples": [
       {
+        "bartender": "http://www.nytimes.com/recipes/1015782/bitter-coffee.html",
+        "drink": "Bitter Coffee"
+      },
+      {
+        "drink": "Embajador"
+      },
+      {
+        "drink": "GoodFella"
+      }
+    ],
+    "pair": [
+      "cynar",
+      "dark_rum"
+    ]
+  },
+  {
+    "count": 7,
+    "examples": [
+      {
         "bartender": "http://cocktailvirgin.blogspot.com/2012/02/bitter-end.html",
         "drink": "Bitter End"
       },
@@ -24240,16 +24532,16 @@
         "drink": "Aye, Mon"
       },
       {
-        "bartender": "http://www.kindredcocktails.com/cocktail/vieux-carre",
-        "drink": "Corsaire Carré"
+        "bartender": "https://cocktailvirgin.blogspot.com/2016/12/coraje.html",
+        "drink": "Coraje"
       },
       {
-        "drink": "Frenchman Street"
+        "drink": "Dark and Orangey"
       }
     ],
     "pair": [
       "dark_rum",
-      "sweet_vermouth"
+      "orange_bitters"
     ]
   },
   {
@@ -24572,6 +24864,26 @@
     "count": 7,
     "examples": [
       {
+        "bartender": "http://punchdrink.com/recipes/5th-amendment/",
+        "drink": "5th Amendment"
+      },
+      {
+        "drink": "All Good Things"
+      },
+      {
+        "bartender": "http://www.sfgate.com/wine/article/A-meal-in-your-cocktail-glass-3184997.php",
+        "drink": "Canary Flip"
+      }
+    ],
+    "pair": [
+      "fernet",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 7,
+    "examples": [
+      {
         "bartender": "Dead Rabbit Drinks Manual pg. 121",
         "drink": "Florodora (Dead Rabbit Version)"
       },
@@ -24585,27 +24897,6 @@
     "pair": [
       "gin",
       "nutmeg"
-    ]
-  },
-  {
-    "count": 7,
-    "examples": [
-      {
-        "bartender": "Anthony Parks",
-        "drink": "Nori & Islay"
-      },
-      {
-        "bartender": "Raul Ayala",
-        "drink": "The 42nd Round"
-      },
-      {
-        "bartender": "http://punchdrink.com/recipes/post-modern/",
-        "drink": "Post Modern"
-      }
-    ],
-    "pair": [
-      "gin",
-      "scotch"
     ]
   },
   {
@@ -24672,6 +24963,24 @@
     "count": 7,
     "examples": [
       {
+        "drink": "Bad Reputation"
+      },
+      {
+        "drink": "Bolivian Army Ending"
+      },
+      {
+        "drink": "Green Cloister"
+      }
+    ],
+    "pair": [
+      "grapefruit",
+      "green_chartreuse"
+    ]
+  },
+  {
+    "count": 7,
+    "examples": [
+      {
         "bartender": "http://elementalmixology.wordpress.com/2013/09/13/drink-of-the-day-the-beach-blossom/",
         "drink": "Beach Blossom"
       },
@@ -24727,25 +25036,6 @@
     "pair": [
       "grapefruit",
       "pomegranate"
-    ]
-  },
-  {
-    "count": 7,
-    "examples": [
-      {
-        "bartender": "\"Regarding Cocktails\" by Sasha Petraske",
-        "drink": ".38 Special"
-      },
-      {
-        "drink": "Bittersweet"
-      },
-      {
-        "drink": "Butter, Lemon, Smoke"
-      }
-    ],
-    "pair": [
-      "green_chartreuse",
-      "scotch"
     ]
   },
   {
@@ -25382,6 +25672,25 @@
     "count": 6,
     "examples": [
       {
+        "bartender": "Original creation",
+        "drink": "Forest Murmurs"
+      },
+      {
+        "drink": "Green Like a Fox"
+      },
+      {
+        "drink": "Holy Hand Grenade"
+      }
+    ],
+    "pair": [
+      "agave",
+      "green_chartreuse"
+    ]
+  },
+  {
+    "count": 6,
+    "examples": [
+      {
         "drink": "La Nueva Moda (The New Fashion)"
       },
       {
@@ -25517,6 +25826,26 @@
     "pair": [
       "allspice_dram",
       "peychauds_bitters"
+    ]
+  },
+  {
+    "count": 6,
+    "examples": [
+      {
+        "bartender": "imbibe magazine",
+        "drink": "Big Ship"
+      },
+      {
+        "bartender": "http://www.chow.com/recipes/28168-cradle-of-life",
+        "drink": "Cradle of Life"
+      },
+      {
+        "drink": "Golden Parachute"
+      }
+    ],
+    "pair": [
+      "almond",
+      "spiced_rum"
     ]
   },
   {
@@ -25954,6 +26283,26 @@
     "count": 6,
     "examples": [
       {
+        "bartender": "http://and1morefortheroad.blogspot.com/2012/04/amaro-april-bad-apple-and-jackson-ward.html",
+        "drink": "Bad Apple"
+      },
+      {
+        "bartender": "Black Cypress",
+        "drink": "Comfortable Blend:"
+      },
+      {
+        "drink": "Gun For Hire"
+      }
+    ],
+    "pair": [
+      "averna",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 6,
+    "examples": [
+      {
         "drink": "La Hops Vie"
       },
       {
@@ -26115,6 +26464,25 @@
     "count": 6,
     "examples": [
       {
+        "bartender": "Tom Waits 1985",
+        "drink": "Raindog"
+      },
+      {
+        "drink": "Silvio's Algorithm"
+      },
+      {
+        "drink": "Six Barrel Shotgun"
+      }
+    ],
+    "pair": [
+      "bourbon",
+      "gin"
+    ]
+  },
+  {
+    "count": 6,
+    "examples": [
+      {
         "drink": "Buggy Whip"
       },
       {
@@ -26168,6 +26536,26 @@
     "pair": [
       "brandy",
       "creme_de_cacao"
+    ]
+  },
+  {
+    "count": 6,
+    "examples": [
+      {
+        "bartender": "Beachbum Berry Remixed, pg. 111",
+        "drink": "Bali Bali"
+      },
+      {
+        "bartender": "Gary Regan's The Joy of Mixology",
+        "drink": "Bolero Cocktail"
+      },
+      {
+        "drink": "Owasco Winter Punch"
+      }
+    ],
+    "pair": [
+      "brandy",
+      "dark_rum"
     ]
   },
   {
@@ -26476,6 +26864,26 @@
     "count": 6,
     "examples": [
       {
+        "drink": "Just Before"
+      },
+      {
+        "bartender": "http://blog.bourbonandbranch.com/2009/06/the_laphroaig_project_1.html",
+        "drink": "Laphroaig Project"
+      },
+      {
+        "bartender": "http://forums.egullet.org/topic/53404-the-last-word/?p=1955593",
+        "drink": "Last Rites"
+      }
+    ],
+    "pair": [
+      "cherry",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 6,
+    "examples": [
+      {
         "drink": "Big Easy Sour"
       },
       {
@@ -26680,6 +27088,25 @@
     "pair": [
       "coffee",
       "white_rum"
+    ]
+  },
+  {
+    "count": 6,
+    "examples": [
+      {
+        "drink": "Blimey Barista"
+      },
+      {
+        "bartender": "https://cocktailvirgin.blogspot.com/2016/12/coraje.html",
+        "drink": "Coraje"
+      },
+      {
+        "drink": "Roberta Black"
+      }
+    ],
+    "pair": [
+      "coffee_liqueur",
+      "dark_rum"
     ]
   },
   {
@@ -26943,44 +27370,6 @@
     "count": 6,
     "examples": [
       {
-        "bartender": "http://www.kindredcocktails.com/cocktail/vieux-carre",
-        "drink": "Corsaire Carré"
-      },
-      {
-        "drink": "Frenchman Street"
-      },
-      {
-        "drink": "GoodFella"
-      }
-    ],
-    "pair": [
-      "dark_rum",
-      "peychauds_bitters"
-    ]
-  },
-  {
-    "count": 6,
-    "examples": [
-      {
-        "bartender": "http://www.diffordsguide.com/cocktails/recipe/349/cable-car",
-        "drink": "Cable Car"
-      },
-      {
-        "drink": "Citrus Fever"
-      },
-      {
-        "drink": "Dark and Orangey"
-      }
-    ],
-    "pair": [
-      "dark_rum",
-      "triple_sec"
-    ]
-  },
-  {
-    "count": 6,
-    "examples": [
-      {
         "drink": "The Molino"
       },
       {
@@ -27094,26 +27483,6 @@
     "pair": [
       "dry_vermouth",
       "orgeat"
-    ]
-  },
-  {
-    "count": 6,
-    "examples": [
-      {
-        "drink": "White Walker Flip"
-      },
-      {
-        "bartender": "Kevin Diedrich",
-        "drink": "Jalapeño Sour"
-      },
-      {
-        "bartender": "\"VS&FC\", Ted Haigh, pg. 39. Cites \"The Gentleman's Companion\", AKA \"Jigger, Beaker and Flask\" (1939) by Charles H. Baker Jr.",
-        "drink": "Alamagoozlum Cocktail"
-      }
-    ],
-    "pair": [
-      "egg_white",
-      "green_chartreuse"
     ]
   },
   {
@@ -27378,6 +27747,26 @@
     "count": 6,
     "examples": [
       {
+        "bartender": "http://punchdrink.com/recipes/5th-amendment/",
+        "drink": "5th Amendment"
+      },
+      {
+        "drink": "Betsy"
+      },
+      {
+        "bartender": "http://www.grubstreet.com/2013/04/best-cocktails-in-america.html#photo=9x00045",
+        "drink": "Ginger Swizzle (The Dutch)"
+      }
+    ],
+    "pair": [
+      "ginger",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 6,
+    "examples": [
+      {
         "bartender": "BC Hoffman",
         "drink": "Mayan Mule"
       },
@@ -27495,6 +27884,43 @@
     "pair": [
       "grapefruit",
       "salt"
+    ]
+  },
+  {
+    "count": 6,
+    "examples": [
+      {
+        "bartender": "BC LiquorStore Cocktail Recipe book.\r\nWww.bcliquorstores.com",
+        "drink": "Nucky Thompson"
+      },
+      {
+        "drink": "Paper Flower"
+      },
+      {
+        "drink": "Ring the Belle"
+      }
+    ],
+    "pair": [
+      "green_chartreuse",
+      "honey"
+    ]
+  },
+  {
+    "count": 6,
+    "examples": [
+      {
+        "drink": "Bittersweet"
+      },
+      {
+        "drink": "Butter, Lemon, Smoke"
+      },
+      {
+        "drink": "I Scatter Them In Time And Space"
+      }
+    ],
+    "pair": [
+      "green_chartreuse",
+      "scotch"
     ]
   },
   {
@@ -27701,6 +28127,46 @@
     "count": 6,
     "examples": [
       {
+        "bartender": "PDT Cocktail Book, pg. 112",
+        "drink": "East Village Athletic Club \r\nCocktail"
+      },
+      {
+        "drink": "Franklin Bearse"
+      },
+      {
+        "bartender": "http://munchies.vice.com/recipes/light-and-day",
+        "drink": "Light and Day"
+      }
+    ],
+    "pair": [
+      "orange",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 6,
+    "examples": [
+      {
+        "drink": "Blackthorn English"
+      },
+      {
+        "bartender": "Drink & Tell: A Boston Cocktail Book, Frederic Yarm, p80",
+        "drink": "Gail Collins"
+      },
+      {
+        "bartender": "http://www.kindredcocktails.com/cocktail/charlie-chaplin",
+        "drink": "Modern Times"
+      }
+    ],
+    "pair": [
+      "orange_bitters",
+      "sloe_gin"
+    ]
+  },
+  {
+    "count": 6,
+    "examples": [
+      {
         "bartender": "via Sam Ross' Bartender's Choice app for iOS.",
         "drink": "Cameron's Kick"
       },
@@ -27877,6 +28343,27 @@
     "pair": [
       "soda_water",
       "sparkling_wine"
+    ]
+  },
+  {
+    "count": 6,
+    "examples": [
+      {
+        "bartender": "Cuban Cocktails p. 158.",
+        "drink": "Dutchie"
+      },
+      {
+        "bartender": "Harry Johnson's Bartenders Manual",
+        "drink": "Gin Daisy"
+      },
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2009/08/blueberry-shrub.html",
+        "drink": "Jekyll Island Iced Tea"
+      }
+    ],
+    "pair": [
+      "soda_water",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -28085,6 +28572,27 @@
     "count": 5,
     "examples": [
       {
+        "bartender": "http://forums.egullet.org/topic/53404-the-last-word/?p=1894793",
+        "drink": "Benediction"
+      },
+      {
+        "bartender": "https://www.flickr.com/photos/mahastew/15000618113/in/faves-50488464",
+        "drink": "Northern Lights (Christian Clark)"
+      },
+      {
+        "bartender": "PDT Cocktail Book",
+        "drink": "Swollen Gland"
+      }
+    ],
+    "pair": [
+      "absinthe",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 5,
+    "examples": [
+      {
         "bartender": "Enrique Sanchez",
         "drink": "Bajo Control"
       },
@@ -28165,26 +28673,6 @@
     "count": 5,
     "examples": [
       {
-        "bartender": "imbibe magazine",
-        "drink": "Big Ship"
-      },
-      {
-        "bartender": "densondc.com",
-        "drink": "Buffalo Tail"
-      },
-      {
-        "drink": "Owasco Winter Punch"
-      }
-    ],
-    "pair": [
-      "allspice",
-      "dark_rum"
-    ]
-  },
-  {
-    "count": 5,
-    "examples": [
-      {
         "drink": "After Hours (Branca Maid)"
       },
       {
@@ -28198,26 +28686,6 @@
     "pair": [
       "allspice",
       "fernet"
-    ]
-  },
-  {
-    "count": 5,
-    "examples": [
-      {
-        "bartender": "http://betacocktails.com",
-        "drink": "Clermeil"
-      },
-      {
-        "bartender": "Boston Globe, 2016 October 02",
-        "drink": "Flannel & Rye"
-      },
-      {
-        "drink": "The Shah Sleeps"
-      }
-    ],
-    "pair": [
-      "allspice",
-      "green_chartreuse"
     ]
   },
   {
@@ -28303,26 +28771,6 @@
     "count": 5,
     "examples": [
       {
-        "bartender": "imbibe magazine",
-        "drink": "Big Ship"
-      },
-      {
-        "bartender": "densondc.com",
-        "drink": "Buffalo Tail"
-      },
-      {
-        "drink": "Owasco Winter Punch"
-      }
-    ],
-    "pair": [
-      "allspice_dram",
-      "dark_rum"
-    ]
-  },
-  {
-    "count": 5,
-    "examples": [
-      {
         "drink": "After Hours (Branca Maid)"
       },
       {
@@ -28336,26 +28784,6 @@
     "pair": [
       "allspice_dram",
       "fernet"
-    ]
-  },
-  {
-    "count": 5,
-    "examples": [
-      {
-        "bartender": "http://betacocktails.com",
-        "drink": "Clermeil"
-      },
-      {
-        "bartender": "Boston Globe, 2016 October 02",
-        "drink": "Flannel & Rye"
-      },
-      {
-        "drink": "The Shah Sleeps"
-      }
-    ],
-    "pair": [
-      "allspice_dram",
-      "green_chartreuse"
     ]
   },
   {
@@ -28612,6 +29040,24 @@
     "count": 5,
     "examples": [
       {
+        "drink": "Amore Sporco"
+      },
+      {
+        "drink": "Kind Of Blue"
+      },
+      {
+        "drink": "Litigious Rock"
+      }
+    ],
+    "pair": [
+      "aperol",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 5,
+    "examples": [
+      {
         "drink": "A Bloody Apple"
       },
       {
@@ -28703,6 +29149,25 @@
     "pair": [
       "apple",
       "sherry"
+    ]
+  },
+  {
+    "count": 5,
+    "examples": [
+      {
+        "drink": "Hawkeye"
+      },
+      {
+        "drink": "House Call"
+      },
+      {
+        "bartender": "http://liquor.com/recipes/nouveau-sangaree/",
+        "drink": "Nouveau Sangaree"
+      }
+    ],
+    "pair": [
+      "apple",
+      "sloe_gin"
     ]
   },
   {
@@ -29066,24 +29531,6 @@
     "pair": [
       "averna",
       "cynar"
-    ]
-  },
-  {
-    "count": 5,
-    "examples": [
-      {
-        "drink": "GoodFella"
-      },
-      {
-        "drink": "Harbor Nights"
-      },
-      {
-        "drink": "To Sit"
-      }
-    ],
-    "pair": [
-      "averna",
-      "dark_rum"
     ]
   },
   {
@@ -29484,6 +29931,25 @@
     "count": 5,
     "examples": [
       {
+        "drink": "Hawkeye"
+      },
+      {
+        "drink": "House Call"
+      },
+      {
+        "bartender": "http://liquor.com/recipes/nouveau-sangaree/",
+        "drink": "Nouveau Sangaree"
+      }
+    ],
+    "pair": [
+      "calvados",
+      "sloe_gin"
+    ]
+  },
+  {
+    "count": 5,
+    "examples": [
+      {
         "bartender": "http://www.tastingtable.com/backbar_detail.htm?id=8354#gonzo-tab",
         "drink": "Clandestino Old Fashioned"
       },
@@ -29542,6 +30008,26 @@
     "count": 5,
     "examples": [
       {
+        "drink": "Aye, Mon"
+      },
+      {
+        "bartender": "http://5minutesofrum.com/episodes/2015/6/13/episode-42-cruzan-black-strap-rum",
+        "drink": "Jungle Bird (Jason Alexander)"
+      },
+      {
+        "bartender": "http://cocktailvirgin.blogspot.fr/2016/08/jungle-stirred.html",
+        "drink": "Jungle Stirred"
+      }
+    ],
+    "pair": [
+      "campari",
+      "dark_rum"
+    ]
+  },
+  {
+    "count": 5,
+    "examples": [
+      {
         "bartender": "http://its12oclocksomewhere.wordpress.com/2010/10/14/campari-or-how-i-learned-to-stop-worrying-and-love-the-bitter/",
         "drink": "Crimson Gradient"
       },
@@ -29556,6 +30042,27 @@
     "pair": [
       "campari",
       "ginger_ale"
+    ]
+  },
+  {
+    "count": 5,
+    "examples": [
+      {
+        "bartender": "http://ohgo.sh/archive/abelha-cachaca/#AmberHive",
+        "drink": "Amber Hive"
+      },
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2016/09/colossal-youth.html",
+        "drink": "Colossal Youth"
+      },
+      {
+        "bartender": "Your joking, right? We're makin' it up right here.",
+        "drink": "Drink Lab 9 - Join the fun"
+      }
+    ],
+    "pair": [
+      "campari",
+      "sloe_gin"
     ]
   },
   {
@@ -30034,26 +30541,6 @@
     "count": 5,
     "examples": [
       {
-        "drink": "Karl the Frog"
-      },
-      {
-        "bartender": "\"The Gentleman's Companion, Volume II: Being an Exotic Drinking Book\", by Charles H. Baker, Jr., 1946, pp 87-88",
-        "drink": "Porto Flip"
-      },
-      {
-        "bartender": "http://www.seriouseats.com/recipes/2011/11/the-close-call-genever-milk-punch-rickhouse-recipe.html",
-        "drink": "The Close Call"
-      }
-    ],
-    "pair": [
-      "cream",
-      "green_chartreuse"
-    ]
-  },
-  {
-    "count": 5,
-    "examples": [
-      {
         "bartender": "http://incompetech.com/gallimaufry/cocktails/ash_wednesday.html",
         "drink": "Ash Wednesday"
       },
@@ -30151,94 +30638,58 @@
     "count": 5,
     "examples": [
       {
-        "drink": "Blue Cobbler"
+        "bartender": "http://www.thekitchn.com/holiday-cocktail-with-domaine-134534",
+        "drink": "Autumn Spice"
       },
       {
-        "drink": "Parlay"
+        "drink": "Dark and Orangey"
       },
       {
-        "drink": "Run Through The Jungle"
+        "drink": "Ginger Pear Thing"
       }
     ],
     "pair": [
       "dark_rum",
-      "demerara"
+      "ginger_liqueur"
     ]
   },
   {
     "count": 5,
     "examples": [
       {
-        "drink": "Cornet"
+        "drink": "Arrack Punch"
       },
       {
-        "drink": "Flue-cured"
+        "bartender": "http://www.nytimes.com/recipes/1015782/bitter-coffee.html",
+        "drink": "Bitter Coffee"
       },
       {
-        "drink": "Port of Call"
+        "bartender": "Verbal retelling from bar.",
+        "drink": "Painless (Skinny Legs, compare to Painkiller)"
       }
     ],
     "pair": [
       "dark_rum",
-      "fernet"
+      "nutmeg"
     ]
   },
   {
     "count": 5,
     "examples": [
       {
-        "drink": "Bitter Old Mule"
-      },
-      {
-        "bartender": "http://www.goslingsrum.com/details.asp?RecipeID=192",
-        "drink": "Dark 'n Stormy"
-      },
-      {
-        "drink": "Parlay"
-      }
-    ],
-    "pair": [
-      "dark_rum",
-      "ginger_ale"
-    ]
-  },
-  {
-    "count": 5,
-    "examples": [
-      {
-        "bartender": "http://chowhound.chow.com/topics/758083#6201948",
-        "drink": "Planter's Punch (Spiced Rum)"
-      },
-      {
-        "drink": "Punch in the Head"
-      },
-      {
-        "bartender": "Imitation of original recipe from Nacional 27 in Chicago",
-        "drink": "The Chadwick"
-      }
-    ],
-    "pair": [
-      "dark_rum",
-      "pomegranate"
-    ]
-  },
-  {
-    "count": 5,
-    "examples": [
-      {
-        "bartender": "http://cocktailvirgin.blogspot.com/2013/11/everells-nightwatch.html",
-        "drink": "Everell's Nightwatch"
-      },
-      {
-        "drink": "Flue-cured"
+        "drink": "Aye, Mon"
       },
       {
         "drink": "Frenchman Street"
+      },
+      {
+        "bartender": "https://www.reddit.com/r/cocktails/comments/4upd11/south_seas_zombie/",
+        "drink": "South Seas Zombie"
       }
     ],
     "pair": [
       "dark_rum",
-      "rye_whiskey"
+      "sweet_vermouth"
     ]
   },
   {
@@ -30722,6 +31173,26 @@
     "count": 5,
     "examples": [
       {
+        "bartender": "http://punchdrink.com/recipes/86-long-island-iced-tea/",
+        "drink": "86 Long Island Iced Tea"
+      },
+      {
+        "drink": "Cross Town Traffic"
+      },
+      {
+        "bartender": "http://redfacery.blogspot.com/2011/02/satanic-cocktails-demon-of-destiny.html",
+        "drink": "Demon of Destiny"
+      }
+    ],
+    "pair": [
+      "gin",
+      "tequila"
+    ]
+  },
+  {
+    "count": 5,
+    "examples": [
+      {
         "bartender": "Amy Lewis",
         "drink": "A Regal Air"
       },
@@ -30737,6 +31208,24 @@
     "pair": [
       "ginger",
       "sherry"
+    ]
+  },
+  {
+    "count": 5,
+    "examples": [
+      {
+        "drink": "Bitter Old Mule"
+      },
+      {
+        "drink": "Parlay"
+      },
+      {
+        "drink": "Tempest"
+      }
+    ],
+    "pair": [
+      "ginger",
+      "spiced_rum"
     ]
   },
   {
@@ -31036,21 +31525,18 @@
     "count": 5,
     "examples": [
       {
-        "bartender": "http://www.eater.com/drinks/2015/5/26/8628313/nine-awesome-cocktails-that-should-be-considered-modern-classics",
-        "drink": "Death Flip"
+        "drink": "Elske Sour"
       },
       {
-        "bartender": "http://www.kaiserpenguin.com/improved-chartreuse-swizzle/",
-        "drink": "Improved Chartreuse Swizzle"
+        "drink": "Green Like a Fox"
       },
       {
-        "bartender": "\"The Gentleman's Companion, Volume II: Being an Exotic Drinking Book\", by Charles H. Baker, Jr., 1946, pp 87-88",
-        "drink": "Porto Flip"
+        "drink": "Incan Envy"
       }
     ],
     "pair": [
       "green_chartreuse",
-      "nutmeg"
+      "pisco"
     ]
   },
   {
@@ -31070,6 +31556,27 @@
     "pair": [
       "green_chartreuse",
       "sparkling_wine"
+    ]
+  },
+  {
+    "count": 5,
+    "examples": [
+      {
+        "bartender": "http://www.seriouseats.com/recipes/2014/02/dandelion-cocktail-recipe-chartreuse-vermouth-malort-drink-recipe.html",
+        "drink": "Dandelion"
+      },
+      {
+        "bartender": "New York Times",
+        "drink": "Disco Ball"
+      },
+      {
+        "bartender": "http://blog.bourbonandbranch.com/2009/06/the_laphroaig_project_1.html",
+        "drink": "Laphroaig Project"
+      }
+    ],
+    "pair": [
+      "green_chartreuse",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -31312,6 +31819,26 @@
     "count": 5,
     "examples": [
       {
+        "bartender": "http://www.diffordsguide.com/cocktails/recipe/349/cable-car",
+        "drink": "Cable Car"
+      },
+      {
+        "drink": "Citrus Fever"
+      },
+      {
+        "bartender": "http://www.chow.com/recipes/28168-cradle-of-life",
+        "drink": "Cradle of Life"
+      }
+    ],
+    "pair": [
+      "orange",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 5,
+    "examples": [
+      {
         "bartender": "Kate KaiKaew",
         "drink": "A.Nise"
       },
@@ -31366,6 +31893,26 @@
     "pair": [
       "orgeat",
       "pomegranate"
+    ]
+  },
+  {
+    "count": 5,
+    "examples": [
+      {
+        "bartender": "imbibe magazine",
+        "drink": "Big Ship"
+      },
+      {
+        "bartender": "http://www.chow.com/recipes/28168-cradle-of-life",
+        "drink": "Cradle of Life"
+      },
+      {
+        "drink": "Golden Parachute"
+      }
+    ],
+    "pair": [
+      "orgeat",
+      "spiced_rum"
     ]
   },
   {
@@ -31569,6 +32116,45 @@
     "count": 5,
     "examples": [
       {
+        "drink": "Eden Terrace Fizz"
+      },
+      {
+        "bartender": "Drink & Tell: A Boston Cocktail Book, Frederic Yarm, p80",
+        "drink": "Gail Collins"
+      },
+      {
+        "bartender": "http://ohgo.sh/archive/the-bitter-truth-sloe-gin-review/",
+        "drink": "Sloe Gin Fizz (modern)"
+      }
+    ],
+    "pair": [
+      "sloe_gin",
+      "soda_water"
+    ]
+  },
+  {
+    "count": 5,
+    "examples": [
+      {
+        "drink": "Blackthorn English"
+      },
+      {
+        "bartender": "http://bostonapothecary.com/?p=1019",
+        "drink": "Charleston Collage (Boston Apothecary)"
+      },
+      {
+        "drink": "Quick Sand"
+      }
+    ],
+    "pair": [
+      "sloe_gin",
+      "sweet_vermouth"
+    ]
+  },
+  {
+    "count": 5,
+    "examples": [
+      {
         "bartender": "Sean McClure",
         "drink": "Swedish 75"
       },
@@ -31583,6 +32169,25 @@
     "pair": [
       "sparkling_wine",
       "vodka"
+    ]
+  },
+  {
+    "count": 5,
+    "examples": [
+      {
+        "bartender": "Joaquin Simo",
+        "drink": "Muddled Mission"
+      },
+      {
+        "drink": "Mayfly Cocktail"
+      },
+      {
+        "drink": "Mentirosa"
+      }
+    ],
+    "pair": [
+      "st_germain",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -31648,24 +32253,6 @@
     "count": 4,
     "examples": [
       {
-        "drink": "Bitter Old Mule"
-      },
-      {
-        "drink": "Felix Swizzle"
-      },
-      {
-        "drink": "Frenchman Street"
-      }
-    ],
-    "pair": [
-      "absinthe",
-      "dark_rum"
-    ]
-  },
-  {
-    "count": 4,
-    "examples": [
-      {
         "bartender": "Death & Co. cocktail book adapted for home prep",
         "drink": "Green Flash"
       },
@@ -31681,6 +32268,27 @@
     "pair": [
       "absinthe",
       "honey"
+    ]
+  },
+  {
+    "count": 4,
+    "examples": [
+      {
+        "bartender": "The PDT Cocktail Book",
+        "drink": "Green Deacon"
+      },
+      {
+        "bartender": "http://www.kindredcocktails.com/cocktail/charlie-chaplin",
+        "drink": "Modern Times"
+      },
+      {
+        "bartender": "http://punchdrink.com/recipes/post-modern/",
+        "drink": "Post Modern"
+      }
+    ],
+    "pair": [
+      "absinthe",
+      "sloe_gin"
     ]
   },
   {
@@ -32313,6 +32921,26 @@
     "count": 4,
     "examples": [
       {
+        "bartender": "http://www.chow.com/recipes/28168-cradle-of-life",
+        "drink": "Cradle of Life"
+      },
+      {
+        "drink": "Flue-cured"
+      },
+      {
+        "bartender": "http://chowhound.chow.com/topics/758083#6201948",
+        "drink": "Planter's Punch (Spiced Rum)"
+      }
+    ],
+    "pair": [
+      "angostura_bitters",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 4,
+    "examples": [
+      {
         "drink": "Golden Cadillac"
       },
       {
@@ -32667,6 +33295,25 @@
     "count": 4,
     "examples": [
       {
+        "drink": "Charlie Chaplin"
+      },
+      {
+        "drink": "Marc Coucke"
+      },
+      {
+        "bartender": "Ted Haigh, Vintage Spirits & Forgotten Cocktails, p. 206",
+        "drink": "Millionaire #4"
+      }
+    ],
+    "pair": [
+      "apricot",
+      "sloe_gin"
+    ]
+  },
+  {
+    "count": 4,
+    "examples": [
+      {
         "bartender": "Francesco Lafranconi",
         "drink": "The Lady Whisper"
       },
@@ -32707,27 +33354,6 @@
     "count": 4,
     "examples": [
       {
-        "bartender": "http://cocktailvirgin.blogspot.com/2011/06/final-voyage.html",
-        "drink": "Final Voyage"
-      },
-      {
-        "bartender": "James Reed, Boston Globe",
-        "drink": "Mellow Yellow"
-      },
-      {
-        "bartender": "http://projects.washingtonpost.com/recipes/2007/09/05/yellow-parrot/",
-        "drink": "Yellow Parrot"
-      }
-    ],
-    "pair": [
-      "apricot_brandy",
-      "green_chartreuse"
-    ]
-  },
-  {
-    "count": 4,
-    "examples": [
-      {
         "bartender": "Brittini Rae",
         "drink": "California Aurora"
       },
@@ -32762,6 +33388,25 @@
     "pair": [
       "apricot_brandy",
       "scotch"
+    ]
+  },
+  {
+    "count": 4,
+    "examples": [
+      {
+        "drink": "Charlie Chaplin"
+      },
+      {
+        "drink": "Marc Coucke"
+      },
+      {
+        "bartender": "Ted Haigh, Vintage Spirits & Forgotten Cocktails, p. 206",
+        "drink": "Millionaire #4"
+      }
+    ],
+    "pair": [
+      "apricot_brandy",
+      "sloe_gin"
     ]
   },
   {
@@ -33073,6 +33718,24 @@
     "pair": [
       "blue_curacao",
       "st_germain"
+    ]
+  },
+  {
+    "count": 4,
+    "examples": [
+      {
+        "drink": "Bad Reputation"
+      },
+      {
+        "drink": "Battle Of Algiers"
+      },
+      {
+        "drink": "Blushing Monk"
+      }
+    ],
+    "pair": [
+      "bourbon",
+      "green_chartreuse"
     ]
   },
   {
@@ -33573,6 +34236,24 @@
     "count": 4,
     "examples": [
       {
+        "drink": "A Roman Holiday in Kentucky"
+      },
+      {
+        "drink": "Spruce Moose (get in smithers)"
+      },
+      {
+        "drink": "The Envy of the Birds and the Bees"
+      }
+    ],
+    "pair": [
+      "campari",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 4,
+    "examples": [
+      {
         "bartender": "Paul Taylor",
         "drink": "“Prepare for Destiny! Where’s my Pizza?”"
       },
@@ -33793,25 +34474,6 @@
     "count": 4,
     "examples": [
       {
-        "drink": "Just Before"
-      },
-      {
-        "drink": "Punk Rock In The Wrong Hands"
-      },
-      {
-        "bartender": "http://cocktailvirgin.blogspot.com/2017/03/the-roycroft-cocktail.html",
-        "drink": "Roycroft Cocktail"
-      }
-    ],
-    "pair": [
-      "cherry_liqueur",
-      "green_chartreuse"
-    ]
-  },
-  {
-    "count": 4,
-    "examples": [
-      {
         "bartender": "http://www.seriouseats.com/recipes/2014/02/black-honey-cocktail-cynar-smith-cross-rum-lime-honey-drink-recipe.html",
         "drink": "Black Honey"
       },
@@ -33827,26 +34489,6 @@
     "pair": [
       "cinnamon",
       "cynar"
-    ]
-  },
-  {
-    "count": 4,
-    "examples": [
-      {
-        "drink": "Bella Donna"
-      },
-      {
-        "bartender": "http://www.diffordsguide.com/cocktails/recipe/349/cable-car",
-        "drink": "Cable Car"
-      },
-      {
-        "bartender": "http://www.thespir.it/articles/buttered-rum/",
-        "drink": "Hot Buttered Rum"
-      }
-    ],
-    "pair": [
-      "cinnamon",
-      "dark_rum"
     ]
   },
   {
@@ -33907,6 +34549,26 @@
     "pair": [
       "cinnamon",
       "vodka"
+    ]
+  },
+  {
+    "count": 4,
+    "examples": [
+      {
+        "bartender": "Death & Co., Modern Classic Cocktails",
+        "drink": "Alta California"
+      },
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2013/06/haumea.html",
+        "drink": "Haumea"
+      },
+      {
+        "drink": "Sabor de Soledad"
+      }
+    ],
+    "pair": [
+      "cinnamon",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -34322,25 +34984,6 @@
     "count": 4,
     "examples": [
       {
-        "drink": "19th Century"
-      },
-      {
-        "drink": "Green Glazier"
-      },
-      {
-        "bartender": "http://delmaguey.com/recipes/",
-        "drink": "Once Upon a Time in Mexico"
-      }
-    ],
-    "pair": [
-      "creme_de_cacao",
-      "green_chartreuse"
-    ]
-  },
-  {
-    "count": 4,
-    "examples": [
-      {
         "bartender": "in person",
         "drink": "Colonial Affair"
       },
@@ -34420,69 +35063,31 @@
     "count": 4,
     "examples": [
       {
-        "drink": "Golden Parachute"
+        "bartender": "http://www.foodandwine.com/recipes/lipspin-cocktails-2011",
+        "drink": "Lipspin"
       },
       {
-        "bartender": "And a Bottle of Rum... by Wayne Curtis",
-        "drink": "MacArthur Cocktail"
+        "drink": "Sloe Loris"
       },
       {
-        "drink": "Run Through The Jungle"
+        "bartender": "http://postprohibition.com/recipes/the-trouble-ive-been-looking-for/",
+        "drink": "The Trouble I've Been Looking For"
       }
     ],
     "pair": [
-      "dark_rum",
-      "egg_white"
+      "cynar",
+      "sloe_gin"
     ]
   },
   {
     "count": 4,
     "examples": [
       {
-        "bartender": "http://chowhound.chow.com/topics/758083#6201948",
-        "drink": "Planter's Punch (Spiced Rum)"
+        "bartender": "densondc.com",
+        "drink": "Buffalo Tail"
       },
       {
-        "drink": "Punch in the Head"
-      },
-      {
-        "drink": "Variation on a Mai Tai"
-      }
-    ],
-    "pair": [
-      "dark_rum",
-      "grenadine"
-    ]
-  },
-  {
-    "count": 4,
-    "examples": [
-      {
-        "drink": "Felix Swizzle"
-      },
-      {
-        "bartender": "http://en.wikipedia.org/wiki/Pi%C3%B1a_colada",
-        "drink": "Frozen Piña Colada"
-      },
-      {
-        "drink": "Kumquat Daiquiri"
-      }
-    ],
-    "pair": [
-      "dark_rum",
-      "maraschino"
-    ]
-  },
-  {
-    "count": 4,
-    "examples": [
-      {
-        "bartender": "Beachbum Berry Remixed, pg. 111",
-        "drink": "Bali Bali"
-      },
-      {
-        "bartender": "http://5minutesofrum.com/episodes/2015/6/13/episode-42-cruzan-black-strap-rum",
-        "drink": "Jungle Bird (Jason Alexander)"
+        "drink": "South Pacific"
       },
       {
         "bartender": "http://www.tikiroom.com/drinks/drinkcontest-results.htm",
@@ -34491,26 +35096,46 @@
     ],
     "pair": [
       "dark_rum",
-      "passionfruit"
+      "orgeat"
     ]
   },
   {
     "count": 4,
     "examples": [
       {
-        "drink": "Aye, Mon"
+        "drink": "Frenchman Street"
       },
       {
-        "bartender": "http://www.shakestir.com/recipes/id/2680/billy-bones-cocktail",
-        "drink": "Billy Bones"
+        "drink": "GoodFella"
       },
       {
-        "drink": "To Sit"
+        "bartender": "Gary Regan, The Joy of Mixology",
+        "drink": "Planter's Punch"
       }
     ],
     "pair": [
       "dark_rum",
-      "scotch"
+      "peychauds_bitters"
+    ]
+  },
+  {
+    "count": 4,
+    "examples": [
+      {
+        "drink": "Dark and Orangey"
+      },
+      {
+        "bartender": "And a Bottle of Rum... by Wayne Curtis",
+        "drink": "MacArthur Cocktail"
+      },
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2010/06/periodista.html",
+        "drink": "Periodista"
+      }
+    ],
+    "pair": [
+      "dark_rum",
+      "triple_sec"
     ]
   },
   {
@@ -34551,26 +35176,6 @@
     "pair": [
       "demerara",
       "ginger_liqueur"
-    ]
-  },
-  {
-    "count": 4,
-    "examples": [
-      {
-        "drink": "Pusherman"
-      },
-      {
-        "bartender": "http://www.starchefs.com/cook/recipe/audrey-saunders/re-animator-homage-zombie-cocktail",
-        "drink": "Re-Animator"
-      },
-      {
-        "bartender": "http://www.huffingtonpost.com/claudia-gatsby/summer-cocktail-specs-fro_b_5638778.html",
-        "drink": "Summertime Sazness"
-      }
-    ],
-    "pair": [
-      "demerara",
-      "green_chartreuse"
     ]
   },
   {
@@ -34647,6 +35252,26 @@
     "pair": [
       "dry_vermouth",
       "egg_white"
+    ]
+  },
+  {
+    "count": 4,
+    "examples": [
+      {
+        "drink": "White Walker Flip"
+      },
+      {
+        "bartender": "Kevin Diedrich",
+        "drink": "Jalapeño Sour"
+      },
+      {
+        "bartender": "\"VS&FC\", Ted Haigh, pg. 39. Cites \"The Gentleman's Companion\", AKA \"Jigger, Beaker and Flask\" (1939) by Charles H. Baker Jr.",
+        "drink": "Alamagoozlum Cocktail"
+      }
+    ],
+    "pair": [
+      "egg_white",
+      "green_chartreuse"
     ]
   },
   {
@@ -34911,6 +35536,27 @@
     "count": 4,
     "examples": [
       {
+        "bartender": "Anthony Parks",
+        "drink": "Nori & Islay"
+      },
+      {
+        "bartender": "Raul Ayala",
+        "drink": "The 42nd Round"
+      },
+      {
+        "bartender": "http://egullet.org/p1508487",
+        "drink": "Scozesse"
+      }
+    ],
+    "pair": [
+      "gin",
+      "scotch"
+    ]
+  },
+  {
+    "count": 4,
+    "examples": [
+      {
         "drink": "Three Flips"
       },
       {
@@ -35025,26 +35671,6 @@
     "count": 4,
     "examples": [
       {
-        "bartender": "Jacques",
-        "drink": "Kind of Fancy"
-      },
-      {
-        "drink": "Betsy"
-      },
-      {
-        "bartender": "http://feu-de-vie.blogspot.com/2013/10/magus.html#.Um6g5RaXLi4",
-        "drink": "Magus"
-      }
-    ],
-    "pair": [
-      "green_chartreuse",
-      "port"
-    ]
-  },
-  {
-    "count": 4,
-    "examples": [
-      {
         "bartender": "http://imbibemagazine.blogspot.com/2014/07/drink-of-week-hurricane.html",
         "drink": "Hurricane (Chris Hannah)"
       },
@@ -35139,6 +35765,26 @@
     "pair": [
       "irish_whiskey",
       "soda_water"
+    ]
+  },
+  {
+    "count": 4,
+    "examples": [
+      {
+        "bartender": "http://www.foodandwine.com/fwx/drink/3-cocktails-make-yellow-chartreuse",
+        "drink": "Absalom's Retreat"
+      },
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2011/09/good-things-come.html?m=1",
+        "drink": "Good Things Come"
+      },
+      {
+        "drink": "My Fair Gael"
+      }
+    ],
+    "pair": [
+      "irish_whiskey",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -35505,6 +36151,24 @@
     "count": 4,
     "examples": [
       {
+        "drink": "Bitter Old Mule"
+      },
+      {
+        "drink": "Flue-cured"
+      },
+      {
+        "drink": "Shoe Shine"
+      }
+    ],
+    "pair": [
+      "orange_bitters",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 4,
+    "examples": [
+      {
         "bartender": "Sophie",
         "drink": "Château Montifaud Creation"
       },
@@ -35578,6 +36242,26 @@
     "pair": [
       "pisco",
       "pomegranate"
+    ]
+  },
+  {
+    "count": 4,
+    "examples": [
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2009/06/final-rhuse.html",
+        "drink": "Final Rhuse"
+      },
+      {
+        "drink": "Floral Explosion"
+      },
+      {
+        "bartender": "Food & Wine's Cocktails 2013.",
+        "drink": "Fortunate Plum"
+      }
+    ],
+    "pair": [
+      "pisco",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -35745,6 +36429,47 @@
     "count": 4,
     "examples": [
       {
+        "bartender": "http://cocktailvirgin.blogspot.com/2016/09/colossal-youth.html",
+        "drink": "Colossal Youth"
+      },
+      {
+        "drink": "Marc Coucke"
+      },
+      {
+        "bartender": "Ted Haigh, Vintage Spirits & Forgotten Cocktails, p. 206",
+        "drink": "Millionaire #4"
+      }
+    ],
+    "pair": [
+      "sloe_gin",
+      "white_rum"
+    ]
+  },
+  {
+    "count": 4,
+    "examples": [
+      {
+        "bartender": "http://bostonapothecary.com/?p=1019",
+        "drink": "Charleston Collage (Boston Apothecary)"
+      },
+      {
+        "bartender": "http://punchdrink.com/recipes/running-of-the-bulls/",
+        "drink": "Running of the Bulls"
+      },
+      {
+        "bartender": "http://postprohibition.com/recipes/the-trouble-ive-been-looking-for/",
+        "drink": "The Trouble I've Been Looking For"
+      }
+    ],
+    "pair": [
+      "sloe_gin",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 4,
+    "examples": [
+      {
         "bartender": "http://imbibemagazine.com/arancia-julius-cocktail/",
         "drink": "Arancia Julius"
       },
@@ -35759,6 +36484,47 @@
     "pair": [
       "soda_water",
       "vanilla"
+    ]
+  },
+  {
+    "count": 4,
+    "examples": [
+      {
+        "bartender": "http://www.diffordsguide.com/cocktails/recipe/349/cable-car",
+        "drink": "Cable Car"
+      },
+      {
+        "bartender": "http://www.jeffreymorgenthaler.com/2009/egg-nog/",
+        "drink": "Egg Nog"
+      },
+      {
+        "bartender": "http://www.jeffreymorgenthaler.com/2009/egg-nog/",
+        "drink": "Eggnog, Morgenthaler"
+      }
+    ],
+    "pair": [
+      "spiced_rum",
+      "sugar_syrup"
+    ]
+  },
+  {
+    "count": 4,
+    "examples": [
+      {
+        "drink": "Citrus Fever"
+      },
+      {
+        "bartender": "http://www.chow.com/recipes/28168-cradle-of-life",
+        "drink": "Cradle of Life"
+      },
+      {
+        "bartender": "http://www.scribd.com/doc/71484969/Bitters-Recipe-Sampler-by-Brad-Thomas-Parsons#.UmlGKW8o6Uk",
+        "drink": "Two Hits"
+      }
+    ],
+    "pair": [
+      "spiced_rum",
+      "white_rum"
     ]
   },
   {
@@ -35942,6 +36708,25 @@
     "count": 3,
     "examples": [
       {
+        "drink": "Felix Swizzle"
+      },
+      {
+        "drink": "Frenchman Street"
+      },
+      {
+        "bartender": "https://www.thespiritsbusiness.com/2017/03/wenneker-swizzle-masters-rum-punch-champion",
+        "drink": "SATAMA PUNCH"
+      }
+    ],
+    "pair": [
+      "absinthe",
+      "dark_rum"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
         "drink": "Cosmic Charlie Swizzle"
       },
       {
@@ -36094,24 +36879,6 @@
     "pair": [
       "agave",
       "clove"
-    ]
-  },
-  {
-    "count": 3,
-    "examples": [
-      {
-        "drink": "Kumquat Daiquiri"
-      },
-      {
-        "drink": "La Torita"
-      },
-      {
-        "drink": "The Derringer"
-      }
-    ],
-    "pair": [
-      "agave",
-      "dark_rum"
     ]
   },
   {
@@ -36276,6 +37043,25 @@
     "count": 3,
     "examples": [
       {
+        "bartender": "densondc.com",
+        "drink": "Buffalo Tail"
+      },
+      {
+        "drink": "Owasco Winter Punch"
+      },
+      {
+        "drink": "The Gong of Brown Wisdom"
+      }
+    ],
+    "pair": [
+      "allspice",
+      "dark_rum"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
         "bartender": "http://cocktailvirgin.blogspot.com/2013/08/balboa.html",
         "drink": "Balboa"
       },
@@ -36289,6 +37075,25 @@
     "pair": [
       "allspice",
       "ginger_liqueur"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "bartender": "http://betacocktails.com",
+        "drink": "Clermeil"
+      },
+      {
+        "drink": "The Shah Sleeps"
+      },
+      {
+        "drink": "The Yellow Fizzle"
+      }
+    ],
+    "pair": [
+      "allspice",
+      "green_chartreuse"
     ]
   },
   {
@@ -36435,6 +37240,25 @@
     "count": 3,
     "examples": [
       {
+        "bartender": "densondc.com",
+        "drink": "Buffalo Tail"
+      },
+      {
+        "drink": "Owasco Winter Punch"
+      },
+      {
+        "drink": "The Gong of Brown Wisdom"
+      }
+    ],
+    "pair": [
+      "allspice_dram",
+      "dark_rum"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
         "bartender": "http://cocktailvirgin.blogspot.com/2013/08/balboa.html",
         "drink": "Balboa"
       },
@@ -36448,6 +37272,25 @@
     "pair": [
       "allspice_dram",
       "ginger_liqueur"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "bartender": "http://betacocktails.com",
+        "drink": "Clermeil"
+      },
+      {
+        "drink": "The Shah Sleeps"
+      },
+      {
+        "drink": "The Yellow Fizzle"
+      }
+    ],
+    "pair": [
+      "allspice_dram",
+      "green_chartreuse"
     ]
   },
   {
@@ -36569,6 +37412,25 @@
     "pair": [
       "almond",
       "vanilla"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "bartender": "http://punchdrink.com/recipes/5th-amendment/",
+        "drink": "5th Amendment"
+      },
+      {
+        "drink": "Smoke Gets in Your Agav-eyes"
+      },
+      {
+        "drink": "Vaya Con Dios"
+      }
+    ],
+    "pair": [
+      "almond",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -36989,27 +37851,6 @@
     "count": 3,
     "examples": [
       {
-        "bartender": "http://cocktailvirgin.blogspot.com/2011/06/final-voyage.html",
-        "drink": "Final Voyage"
-      },
-      {
-        "bartender": "http://projects.washingtonpost.com/recipes/2007/09/05/yellow-parrot/",
-        "drink": "Yellow Parrot"
-      },
-      {
-        "bartender": "Food and Wine Cocktails 2011",
-        "drink": "Youngstown Tube"
-      }
-    ],
-    "pair": [
-      "apricot",
-      "green_chartreuse"
-    ]
-  },
-  {
-    "count": 3,
-    "examples": [
-      {
         "bartender": "Brittini Rae",
         "drink": "California Aurora"
       },
@@ -37212,6 +38053,27 @@
     "count": 3,
     "examples": [
       {
+        "bartender": "James Reed, Boston Globe",
+        "drink": "Mellow Yellow"
+      },
+      {
+        "bartender": "http://projects.washingtonpost.com/recipes/2007/09/05/yellow-parrot/",
+        "drink": "Yellow Parrot"
+      },
+      {
+        "bartender": "Food and Wine Cocktails 2011",
+        "drink": "Youngstown Tube"
+      }
+    ],
+    "pair": [
+      "apricot_brandy",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
         "bartender": "http://imbibemagazine.com/dewberry-hotel-cocktail-panic-button/",
         "drink": "Panic Button"
       },
@@ -37265,6 +38127,26 @@
     "pair": [
       "averna",
       "cream"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "drink": "GoodFella"
+      },
+      {
+        "bartender": "http://loungerati.blogspot.com/2010/11/what-were-drinking-averna-amaro-in.html",
+        "drink": "Tuesdays with Mole"
+      },
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2012/01/brown-is-new-black.html",
+        "drink": "brown is the new black"
+      }
+    ],
+    "pair": [
+      "averna",
+      "dark_rum"
     ]
   },
   {
@@ -37492,27 +38374,6 @@
     "count": 3,
     "examples": [
       {
-        "bartender": "http://www.kindredcocktails.com/cocktail/vieux-carre",
-        "drink": "Corsaire Carré"
-      },
-      {
-        "bartender": "http://www.diffordsguide.com/class-magazine/read-online/en/2012-03-27/page-2/garnishes",
-        "drink": "Supercool Vieux Carré"
-      },
-      {
-        "bartender": "http://cocktailvirgin.blogspot.com/2012/01/brown-is-new-black.html",
-        "drink": "brown is the new black"
-      }
-    ],
-    "pair": [
-      "benedictine",
-      "dark_rum"
-    ]
-  },
-  {
-    "count": 3,
-    "examples": [
-      {
         "bartender": "Beta Cocktails",
         "drink": "Broken Shoe Shiner"
       },
@@ -37732,6 +38593,26 @@
     "count": 3,
     "examples": [
       {
+        "bartender": "http://www.smallscreennetwork.com/video/624/cocktail_spirit_black_hawk/",
+        "drink": "Black Hawk Cocktail"
+      },
+      {
+        "drink": "Hawkeye"
+      },
+      {
+        "bartender": "http://punchdrink.com/recipes/transatlantic-giant/",
+        "drink": "Transatlantic Giant"
+      }
+    ],
+    "pair": [
+      "bourbon",
+      "sloe_gin"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
         "drink": "Bettinger Mulls"
       },
       {
@@ -37785,6 +38666,26 @@
     "pair": [
       "brandy",
       "scotch"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "drink": "Cornet"
+      },
+      {
+        "bartender": "http://www.jeffreymorgenthaler.com/2009/egg-nog/",
+        "drink": "Egg Nog"
+      },
+      {
+        "bartender": "http://www.jeffreymorgenthaler.com/2009/egg-nog/",
+        "drink": "Eggnog, Morgenthaler"
+      }
+    ],
+    "pair": [
+      "brandy",
+      "spiced_rum"
     ]
   },
   {
@@ -37923,44 +38824,6 @@
     "pair": [
       "cachaca",
       "falernum"
-    ]
-  },
-  {
-    "count": 3,
-    "examples": [
-      {
-        "bartender": "http://ohgo.sh/archive/abelha-cachaca/#AmberHive",
-        "drink": "Amber Hive"
-      },
-      {
-        "drink": "Chasing My Tail"
-      },
-      {
-        "drink": "Smoked Cherry Sling"
-      }
-    ],
-    "pair": [
-      "cachaca",
-      "gin"
-    ]
-  },
-  {
-    "count": 3,
-    "examples": [
-      {
-        "bartender": "http://cocktailvirgin.blogspot.com/2010_02_01_archive.html",
-        "drink": "Grande Elixir"
-      },
-      {
-        "drink": "Green Valley"
-      },
-      {
-        "drink": "Ring the Belle"
-      }
-    ],
-    "pair": [
-      "cachaca",
-      "green_chartreuse"
     ]
   },
   {
@@ -38164,6 +39027,25 @@
     "count": 3,
     "examples": [
       {
+        "drink": "Flue-cured"
+      },
+      {
+        "drink": "Jack White's Girlfriend"
+      },
+      {
+        "bartender": "http://chowhound.chow.com/topics/758083#6201948",
+        "drink": "Planter's Punch (Spiced Rum)"
+      }
+    ],
+    "pair": [
+      "campari",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
         "bartender": "http://drinkshouts.com/tagged/beryl",
         "drink": "Beryl"
       },
@@ -38265,25 +39147,6 @@
     "count": 3,
     "examples": [
       {
-        "bartender": "http://en.wikipedia.org/wiki/Pi%C3%B1a_colada",
-        "drink": "Frozen Piña Colada"
-      },
-      {
-        "drink": "Subsonic"
-      },
-      {
-        "drink": "The Black Freighter"
-      }
-    ],
-    "pair": [
-      "cherry",
-      "dark_rum"
-    ]
-  },
-  {
-    "count": 3,
-    "examples": [
-      {
         "bartender": "Francesco Lafranconi",
         "drink": "The Awen"
       },
@@ -38317,6 +39180,25 @@
     "pair": [
       "cherry",
       "peach"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "bartender": "Drink & Tell: A Boston Cocktail Book, Frederic Yarm, p80",
+        "drink": "Gail Collins"
+      },
+      {
+        "drink": "Quick Sand"
+      },
+      {
+        "drink": "Smoked Cherry Sling"
+      }
+    ],
+    "pair": [
+      "cherry",
+      "sloe_gin"
     ]
   },
   {
@@ -38420,6 +39302,25 @@
     "count": 3,
     "examples": [
       {
+        "drink": "Quick Sand"
+      },
+      {
+        "bartender": "http://eatdrinkkeep.com/recipes/133",
+        "drink": "Ruby Cocktail"
+      },
+      {
+        "drink": "Smoked Cherry Sling"
+      }
+    ],
+    "pair": [
+      "cherry_liqueur",
+      "sloe_gin"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
         "drink": "Lux Cherry Sparkler"
       },
       {
@@ -38432,6 +39333,25 @@
     "pair": [
       "cherry_liqueur",
       "sparkling_wine"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "drink": "Bella Donna"
+      },
+      {
+        "bartender": "http://www.thespir.it/articles/buttered-rum/",
+        "drink": "Hot Buttered Rum"
+      },
+      {
+        "drink": "Hot Buttered Rum - Triobar"
+      }
+    ],
+    "pair": [
+      "cinnamon",
+      "dark_rum"
     ]
   },
   {
@@ -38453,6 +39373,26 @@
     "pair": [
       "cinnamon",
       "demerara"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "bartender": "http://www.saucemagazine.com/blog/?tag=sanctuaria-the-dive-bar-of-cocktail-bar",
+        "drink": "Blue Steel"
+      },
+      {
+        "drink": "Stone Pony"
+      },
+      {
+        "bartender": "http://www.alcoholprofessor.com/2013/10/scary-good-but-not-scary-sweet/",
+        "drink": "Wake in Fright"
+      }
+    ],
+    "pair": [
+      "cinnamon",
+      "green_chartreuse"
     ]
   },
   {
@@ -38606,6 +39546,25 @@
     "pair": [
       "clove",
       "maraschino"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "bartender": "http://punchdrink.com/recipes/5th-amendment/",
+        "drink": "5th Amendment"
+      },
+      {
+        "drink": "Smoke Gets in Your Agav-eyes"
+      },
+      {
+        "drink": "Vaya Con Dios"
+      }
+    ],
+    "pair": [
+      "clove",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -39138,6 +40097,26 @@
     "count": 3,
     "examples": [
       {
+        "drink": "Karl the Frog"
+      },
+      {
+        "bartender": "http://spiritsandcocktails.wordpress.com/2007/12/29/winter-warmth/",
+        "drink": "Verte Chaud"
+      },
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2012/11/white-buddha.html",
+        "drink": "White Buddha"
+      }
+    ],
+    "pair": [
+      "cream",
+      "green_chartreuse"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
         "drink": "Green Holland"
       },
       {
@@ -39385,39 +40364,115 @@
     "count": 3,
     "examples": [
       {
-        "bartender": "http://www.minnesotamonthly.com/Blogs/Twin-Cities-Taste/The-Day-of-the-Daiquiri/",
-        "drink": "Badaiquiri"
+        "drink": "Blue Cobbler"
       },
       {
-        "bartender": "http://www.chow.com/recipes/28168-cradle-of-life",
-        "drink": "Cradle of Life"
+        "drink": "Run Through The Jungle"
       },
       {
-        "drink": "Groggy Brunch"
+        "bartender": "http://loungerati.blogspot.com/2010/11/what-were-drinking-averna-amaro-in.html",
+        "drink": "Tuesdays with Mole"
       }
     ],
     "pair": [
       "dark_rum",
-      "green_chartreuse"
+      "demerara"
     ]
   },
   {
     "count": 3,
     "examples": [
       {
-        "drink": "Flu Cure Toddy"
+        "drink": "Port of Call"
       },
       {
-        "bartender": "Beachbum Berry Remixed",
-        "drink": "Navy Grog"
+        "drink": "Roberta Black"
       },
       {
-        "drink": "What's Kraken?"
+        "drink": "Surfer Rosa Obscura"
       }
     ],
     "pair": [
       "dark_rum",
-      "honey"
+      "fernet"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "drink": "Felix Swizzle"
+      },
+      {
+        "bartender": "http://en.wikipedia.org/wiki/Pi%C3%B1a_colada",
+        "drink": "Frozen Piña Colada"
+      },
+      {
+        "drink": "Kumquat Daiquiri"
+      }
+    ],
+    "pair": [
+      "dark_rum",
+      "maraschino"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "bartender": "Beachbum Berry Remixed, pg. 111",
+        "drink": "Bali Bali"
+      },
+      {
+        "bartender": "http://5minutesofrum.com/episodes/2015/6/13/episode-42-cruzan-black-strap-rum",
+        "drink": "Jungle Bird (Jason Alexander)"
+      },
+      {
+        "bartender": "http://www.tikiroom.com/drinks/drinkcontest-results.htm",
+        "drink": "The Reverb Crash"
+      }
+    ],
+    "pair": [
+      "dark_rum",
+      "passionfruit"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "drink": "Punch in the Head"
+      },
+      {
+        "bartender": "Imitation of original recipe from Nacional 27 in Chicago",
+        "drink": "The Chadwick"
+      },
+      {
+        "drink": "Variation on a Mai Tai"
+      }
+    ],
+    "pair": [
+      "dark_rum",
+      "pomegranate"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "drink": "Frenchman Street"
+      },
+      {
+        "bartender": "http://www.esquire.com/drinks/suburban-drink-recipe",
+        "drink": "Suburban"
+      },
+      {
+        "drink": "Whoa, Nellie!"
+      }
+    ],
+    "pair": [
+      "dark_rum",
+      "rye_whiskey"
     ]
   },
   {
@@ -39437,6 +40492,25 @@
     "pair": [
       "demerara",
       "ginger_ale"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "drink": "Pusherman"
+      },
+      {
+        "bartender": "http://www.starchefs.com/cook/recipe/audrey-saunders/re-animator-homage-zombie-cocktail",
+        "drink": "Re-Animator"
+      },
+      {
+        "drink": "The Clint Eastwood"
+      }
+    ],
+    "pair": [
+      "demerara",
+      "green_chartreuse"
     ]
   },
   {
@@ -39815,6 +40889,27 @@
     "count": 3,
     "examples": [
       {
+        "bartender": "Joaquin Simo",
+        "drink": "Muddled Mission"
+      },
+      {
+        "bartender": "Drink, Boston.",
+        "drink": "Prosecutor"
+      },
+      {
+        "bartender": "https://drinkstraightup.com/2013/04/14/yellow-jacket/",
+        "drink": "Yellow Jacket"
+      }
+    ],
+    "pair": [
+      "elderflower",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
         "bartender": "Jim Meehan",
         "drink": "French Maid"
       },
@@ -39868,6 +40963,25 @@
     "pair": [
       "falernum",
       "vodka"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "bartender": "http://punchdrink.com/recipes/5th-amendment/",
+        "drink": "5th Amendment"
+      },
+      {
+        "drink": "Smoke Gets in Your Agav-eyes"
+      },
+      {
+        "drink": "Vaya Con Dios"
+      }
+    ],
+    "pair": [
+      "falernum",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -40010,27 +41124,6 @@
     "count": 3,
     "examples": [
       {
-        "bartender": "http://imbibemagazine.com/Gnashing-Mule-Recipe",
-        "drink": "Gnashing Mule"
-      },
-      {
-        "bartender": "http://cabinetbeer.tumblr.com/post/13983560665/cbbc-presents-drinking-with-writers-featuring-lynne",
-        "drink": "Magpies Cocktail"
-      },
-      {
-        "bartender": "http://www.starchefs.com/cook/recipe/audrey-saunders/re-animator-homage-zombie-cocktail",
-        "drink": "Re-Animator"
-      }
-    ],
-    "pair": [
-      "ginger_ale",
-      "green_chartreuse"
-    ]
-  },
-  {
-    "count": 3,
-    "examples": [
-      {
         "bartender": "Sean McClure",
         "drink": "Root Down"
       },
@@ -40086,6 +41179,24 @@
     "pair": [
       "ginger_ale",
       "scotch"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "drink": "Bitter Old Mule"
+      },
+      {
+        "drink": "Parlay"
+      },
+      {
+        "drink": "The Derringer"
+      }
+    ],
+    "pair": [
+      "ginger_ale",
+      "spiced_rum"
     ]
   },
   {
@@ -40172,6 +41283,24 @@
     "count": 3,
     "examples": [
       {
+        "drink": "Bitter Old Mule"
+      },
+      {
+        "drink": "Jack White's Girlfriend"
+      },
+      {
+        "drink": "Tempest"
+      }
+    ],
+    "pair": [
+      "ginger_liqueur",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
         "drink": "The King's Egg Nog"
       },
       {
@@ -40212,60 +41341,40 @@
     "count": 3,
     "examples": [
       {
-        "bartender": "http://www.tastingtable.com/backbar_detail.htm?id=8244#twist-tab",
-        "drink": "Jack's Word"
+        "bartender": "The PDT Cocktail Book",
+        "drink": "Green Deacon"
       },
       {
-        "drink": "Jezebel Sling"
+        "drink": "Slow Ramble"
       },
       {
-        "bartender": "https://www.reddit.com/r/cocktails/comments/52uqo8/todays_nightcap_the_puerto_rican_racer_from_death/",
-        "drink": "Puerto Rican Racer"
+        "bartender": "http://www.scribd.com/doc/32973765/Dick-Bradsell-2010",
+        "drink": "Wibble"
       }
     ],
     "pair": [
-      "green_chartreuse",
-      "grenadine"
+      "grapefruit",
+      "sloe_gin"
     ]
   },
   {
     "count": 3,
     "examples": [
       {
-        "bartender": "http://www.tastingtable.com/backbar_detail.htm?id=8244#twist-tab",
-        "drink": "Jack's Word"
+        "bartender": "http://www.kaiserpenguin.com/improved-chartreuse-swizzle/",
+        "drink": "Improved Chartreuse Swizzle"
       },
       {
-        "drink": "Jezebel Sling"
+        "bartender": "http://www.starchefs.com/cook/recipe/audrey-saunders/re-animator-homage-zombie-cocktail",
+        "drink": "Re-Animator"
       },
       {
-        "bartender": "https://www.reddit.com/r/cocktails/comments/52uqo8/todays_nightcap_the_puerto_rican_racer_from_death/",
-        "drink": "Puerto Rican Racer"
+        "drink": "Sunset Flip"
       }
     ],
     "pair": [
       "green_chartreuse",
-      "pomegranate"
-    ]
-  },
-  {
-    "count": 3,
-    "examples": [
-      {
-        "bartender": "http://www.originalrichchick.com/2012/10/caraway-daiquiri.html",
-        "drink": "Caraway Daiquiri"
-      },
-      {
-        "drink": "Death Is Not The End"
-      },
-      {
-        "bartender": "Food and Wine Cocktails 2011",
-        "drink": "Silver Monk"
-      }
-    ],
-    "pair": [
-      "green_chartreuse",
-      "salt"
+      "nutmeg"
     ]
   },
   {
@@ -40364,6 +41473,46 @@
     "pair": [
       "grenadine",
       "vodka"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "bartender": "http://www.tastingtable.com/backbar_detail.htm?id=8244#twist-tab",
+        "drink": "Jack's Word"
+      },
+      {
+        "drink": "Jezebel Sling"
+      },
+      {
+        "bartender": "https://www.reddit.com/r/cocktails/comments/52uqo8/todays_nightcap_the_puerto_rican_racer_from_death/",
+        "drink": "Puerto Rican Racer"
+      }
+    ],
+    "pair": [
+      "grenadine",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "drink": "Blackthorn Bramble"
+      },
+      {
+        "bartender": "http://punchdrink.com/recipes/post-modern/",
+        "drink": "Post Modern"
+      },
+      {
+        "bartender": "http://imbibemagazine.com/sloe-and-unsteady/",
+        "drink": "Sloe and Unsteady"
+      }
+    ],
+    "pair": [
+      "honey",
+      "sloe_gin"
     ]
   },
   {
@@ -40662,6 +41811,27 @@
     "count": 3,
     "examples": [
       {
+        "bartender": "http://bostonapothecary.com/?p=1019",
+        "drink": "Charleston Collage (Boston Apothecary)"
+      },
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2016/09/colossal-youth.html",
+        "drink": "Colossal Youth"
+      },
+      {
+        "bartender": "Drink & Tell: A Boston Cocktail Book, Frederic Yarm, p80",
+        "drink": "Gail Collins"
+      }
+    ],
+    "pair": [
+      "mezcal",
+      "sloe_gin"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
         "bartender": "Sergio Leanza",
         "drink": "Assemble Mule"
       },
@@ -40815,6 +41985,27 @@
     "pair": [
       "nutmeg",
       "sparkling_wine"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "bartender": "imbibe magazine",
+        "drink": "Big Ship"
+      },
+      {
+        "bartender": "http://www.jeffreymorgenthaler.com/2009/egg-nog/",
+        "drink": "Egg Nog"
+      },
+      {
+        "bartender": "http://www.jeffreymorgenthaler.com/2009/egg-nog/",
+        "drink": "Eggnog, Morgenthaler"
+      }
+    ],
+    "pair": [
+      "nutmeg",
+      "spiced_rum"
     ]
   },
   {
@@ -41179,6 +42370,26 @@
     "count": 3,
     "examples": [
       {
+        "bartender": "http://www.tastingtable.com/backbar_detail.htm?id=8244#twist-tab",
+        "drink": "Jack's Word"
+      },
+      {
+        "drink": "Jezebel Sling"
+      },
+      {
+        "bartender": "https://www.reddit.com/r/cocktails/comments/52uqo8/todays_nightcap_the_puerto_rican_racer_from_death/",
+        "drink": "Puerto Rican Racer"
+      }
+    ],
+    "pair": [
+      "pomegranate",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
         "drink": "Any Port in a Storm"
       },
       {
@@ -41212,6 +42423,26 @@
     "pair": [
       "port",
       "tequila"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "bartender": "Jacques",
+        "drink": "Kind of Fancy"
+      },
+      {
+        "drink": "Betsy"
+      },
+      {
+        "bartender": "\"The Gentleman's Companion, Volume II: Being an Exotic Drinking Book\", by Charles H. Baker, Jr., 1946, pp 87-88",
+        "drink": "Porto Flip"
+      }
+    ],
+    "pair": [
+      "port",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -41274,6 +42505,46 @@
     "count": 3,
     "examples": [
       {
+        "bartender": "http://punchdrink.com/recipes/post-modern/",
+        "drink": "Post Modern"
+      },
+      {
+        "drink": "Quick Sand"
+      },
+      {
+        "bartender": "The Savoy Cocktail Book",
+        "drink": "The Modern Cocktail #2"
+      }
+    ],
+    "pair": [
+      "scotch",
+      "sloe_gin"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "bartender": "http://www.shakestir.com/recipes/id/2680/billy-bones-cocktail",
+        "drink": "Billy Bones"
+      },
+      {
+        "drink": "To Sit"
+      },
+      {
+        "bartender": "http://www.shakestir.com/recipes/id/2685/winter-s-kick",
+        "drink": "Winter's Kick"
+      }
+    ],
+    "pair": [
+      "scotch",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
         "drink": "Aztec Conquest"
       },
       {
@@ -41314,6 +42585,27 @@
     "count": 3,
     "examples": [
       {
+        "bartender": "Your joking, right? We're makin' it up right here.",
+        "drink": "Drink Lab 9 - Join the fun"
+      },
+      {
+        "bartender": "http://www.foodandwine.com/recipes/lipspin-cocktails-2011",
+        "drink": "Lipspin"
+      },
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2011/06/ticket-to-paradise.html",
+        "drink": "Ticket to Paradise"
+      }
+    ],
+    "pair": [
+      "sloe_gin",
+      "tequila"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
         "bartender": "http://cocktailvirgin.blogspot.com/2014/01/dessert-litalienne.html",
         "drink": "Dessert l'Italienne"
       },
@@ -41348,6 +42640,25 @@
     "pair": [
       "triple_sec",
       "vodka"
+    ]
+  },
+  {
+    "count": 3,
+    "examples": [
+      {
+        "bartender": "PDT Cocktail Book, pg. 112",
+        "drink": "East Village Athletic Club \r\nCocktail"
+      },
+      {
+        "drink": "Franklin Bearse"
+      },
+      {
+        "drink": "Lackadaisy"
+      }
+    ],
+    "pair": [
+      "triple_sec",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -41511,6 +42822,21 @@
     "pair": [
       "agave",
       "coffee"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "drink": "Kumquat Daiquiri"
+      },
+      {
+        "drink": "La Torita"
+      }
+    ],
+    "pair": [
+      "agave",
+      "dark_rum"
     ]
   },
   {
@@ -41681,6 +43007,22 @@
     "count": 2,
     "examples": [
       {
+        "bartender": "imbibe magazine",
+        "drink": "Big Ship"
+      },
+      {
+        "drink": "Stew's Sideyard Punch"
+      }
+    ],
+    "pair": [
+      "allspice",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
         "drink": "A Forest"
       },
       {
@@ -41722,6 +43064,22 @@
     "pair": [
       "allspice",
       "whole_egg"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "Boston Globe, 2016 October 02",
+        "drink": "Flannel & Rye"
+      },
+      {
+        "drink": "Vaya Con Dios"
+      }
+    ],
+    "pair": [
+      "allspice",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -41825,6 +43183,22 @@
     "count": 2,
     "examples": [
       {
+        "bartender": "imbibe magazine",
+        "drink": "Big Ship"
+      },
+      {
+        "drink": "Stew's Sideyard Punch"
+      }
+    ],
+    "pair": [
+      "allspice_dram",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
         "drink": "A Forest"
       },
       {
@@ -41866,6 +43240,22 @@
     "pair": [
       "allspice_dram",
       "whole_egg"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "Boston Globe, 2016 October 02",
+        "drink": "Flannel & Rye"
+      },
+      {
+        "drink": "Vaya Con Dios"
+      }
+    ],
+    "pair": [
+      "allspice_dram",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -42560,21 +43950,6 @@
     "count": 2,
     "examples": [
       {
-        "drink": "Paul's Swizzle"
-      },
-      {
-        "drink": "What's Kraken?"
-      }
-    ],
-    "pair": [
-      "aperol",
-      "dark_rum"
-    ]
-  },
-  {
-    "count": 2,
-    "examples": [
-      {
         "drink": "Carolynn Reminder"
       },
       {
@@ -42925,6 +44300,23 @@
     "count": 2,
     "examples": [
       {
+        "bartender": "http://projects.washingtonpost.com/recipes/2007/09/05/yellow-parrot/",
+        "drink": "Yellow Parrot"
+      },
+      {
+        "bartender": "Food and Wine Cocktails 2011",
+        "drink": "Youngstown Tube"
+      }
+    ],
+    "pair": [
+      "apricot",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
         "drink": "Fosbury Flip"
       },
       {
@@ -43071,6 +44463,21 @@
     "count": 2,
     "examples": [
       {
+        "drink": "Harbor Nights"
+      },
+      {
+        "drink": "To Sit"
+      }
+    ],
+    "pair": [
+      "averna",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
         "drink": "Honey Basil Smash"
       },
       {
@@ -43137,6 +44544,23 @@
     "count": 2,
     "examples": [
       {
+        "bartender": "http://www.diffordsguide.com/class-magazine/read-online/en/2012-03-27/page-2/garnishes",
+        "drink": "Supercool Vieux Carré"
+      },
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2012/01/brown-is-new-black.html",
+        "drink": "brown is the new black"
+      }
+    ],
+    "pair": [
+      "benedictine",
+      "dark_rum"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
         "bartender": "Kevin Diedrich",
         "drink": "Pisco Sling"
       },
@@ -43181,6 +44605,21 @@
     "pair": [
       "benedictine",
       "port"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "drink": "House Call"
+      },
+      {
+        "drink": "Start Wearing Purple"
+      }
+    ],
+    "pair": [
+      "benedictine",
+      "sloe_gin"
     ]
   },
   {
@@ -43416,22 +44855,6 @@
     "count": 2,
     "examples": [
       {
-        "bartender": "http://www.kindredcocktails.com/cocktail/vieux-carre",
-        "drink": "Corsaire Carré"
-      },
-      {
-        "drink": "How Many Pecks in a Bushel"
-      }
-    ],
-    "pair": [
-      "bourbon",
-      "dark_rum"
-    ]
-  },
-  {
-    "count": 2,
-    "examples": [
-      {
         "bartender": "http://www.youtube.com/watch?v=VNzXAixTCq8",
         "drink": "Hearts of Oak"
       },
@@ -43457,6 +44880,22 @@
     "pair": [
       "bourbon",
       "raspberry"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "http://www.kindredcocktails.com/cocktail/vieux-carre",
+        "drink": "Corsaire Carré"
+      },
+      {
+        "drink": "How Many Pecks in a Bushel"
+      }
+    ],
+    "pair": [
+      "bourbon",
+      "spiced_rum"
     ]
   },
   {
@@ -43674,6 +45113,21 @@
     "count": 2,
     "examples": [
       {
+        "drink": "Green Valley"
+      },
+      {
+        "drink": "Ring the Belle"
+      }
+    ],
+    "pair": [
+      "cachaca",
+      "green_chartreuse"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
         "drink": "Paradise"
       },
       {
@@ -43717,6 +45171,22 @@
     "pair": [
       "cachaca",
       "orgeat"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "http://ohgo.sh/archive/abelha-cachaca/#AmberHive",
+        "drink": "Amber Hive"
+      },
+      {
+        "drink": "Smoked Cherry Sling"
+      }
+    ],
+    "pair": [
+      "cachaca",
+      "sloe_gin"
     ]
   },
   {
@@ -44126,6 +45596,21 @@
     "count": 2,
     "examples": [
       {
+        "drink": "Subsonic"
+      },
+      {
+        "drink": "The Black Freighter"
+      }
+    ],
+    "pair": [
+      "cherry",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
         "drink": "Kentucky Garrigue"
       },
       {
@@ -44158,21 +45643,6 @@
     "count": 2,
     "examples": [
       {
-        "drink": "Subsonic"
-      },
-      {
-        "drink": "The Black Freighter"
-      }
-    ],
-    "pair": [
-      "cherry_liqueur",
-      "dark_rum"
-    ]
-  },
-  {
-    "count": 2,
-    "examples": [
-      {
         "bartender": "http://www.gazregan.com/2013/11/101-best-new-cocktails/",
         "drink": "Trainspotter"
       },
@@ -44183,6 +45653,22 @@
     "pair": [
       "cherry_liqueur",
       "elderflower"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "drink": "Punk Rock In The Wrong Hands"
+      },
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2017/03/the-roycroft-cocktail.html",
+        "drink": "Roycroft Cocktail"
+      }
+    ],
+    "pair": [
+      "cherry_liqueur",
+      "green_chartreuse"
     ]
   },
   {
@@ -44253,6 +45739,21 @@
     "count": 2,
     "examples": [
       {
+        "drink": "Subsonic"
+      },
+      {
+        "drink": "The Black Freighter"
+      }
+    ],
+    "pair": [
+      "cherry_liqueur",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
         "bartender": "http://www.gazregan.com/2013/11/101-best-new-cocktails/",
         "drink": "Trainspotter"
       },
@@ -44278,6 +45779,21 @@
     "pair": [
       "cherry_liqueur",
       "tonic_water"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "drink": "Just Before"
+      },
+      {
+        "drink": "Spoke's Briar Rose"
+      }
+    ],
+    "pair": [
+      "cherry_liqueur",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -45006,23 +46522,6 @@
     "count": 2,
     "examples": [
       {
-        "bartender": "http://www.jeffreymorgenthaler.com/2009/egg-nog/",
-        "drink": "Egg Nog"
-      },
-      {
-        "bartender": "http://www.jeffreymorgenthaler.com/2009/egg-nog/",
-        "drink": "Eggnog, Morgenthaler"
-      }
-    ],
-    "pair": [
-      "cream",
-      "dark_rum"
-    ]
-  },
-  {
-    "count": 2,
-    "examples": [
-      {
         "bartender": "http://www.seriouseats.com/recipes/2013/12/ango-nog-anvil-houston-winter-cocktail-angostura-bitters-drink-eggnog-variation.html",
         "drink": "Ango Nog"
       },
@@ -45117,6 +46616,40 @@
     "count": 2,
     "examples": [
       {
+        "bartender": "http://www.jeffreymorgenthaler.com/2009/egg-nog/",
+        "drink": "Egg Nog"
+      },
+      {
+        "bartender": "http://www.jeffreymorgenthaler.com/2009/egg-nog/",
+        "drink": "Eggnog, Morgenthaler"
+      }
+    ],
+    "pair": [
+      "cream",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "\"The Gentleman's Companion, Volume II: Being an Exotic Drinking Book\", by Charles H. Baker, Jr., 1946, pp 87-88",
+        "drink": "Porto Flip"
+      },
+      {
+        "bartender": "http://www.seriouseats.com/recipes/2011/11/the-close-call-genever-milk-punch-rickhouse-recipe.html",
+        "drink": "The Close Call"
+      }
+    ],
+    "pair": [
+      "cream",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
         "drink": "Finnish Sky"
       },
       {
@@ -45126,6 +46659,22 @@
     "pair": [
       "creme_de_cacao",
       "creme_de_menthe"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "drink": "Green Glazier"
+      },
+      {
+        "bartender": "Beachbum Berry Remixed, via cocktailchronicles.com",
+        "drink": "Pago Pago Cocktail"
+      }
+    ],
+    "pair": [
+      "creme_de_cacao",
+      "green_chartreuse"
     ]
   },
   {
@@ -45264,6 +46813,22 @@
     "pair": [
       "creme_de_cacao",
       "triple_sec"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "drink": "19th Century"
+      },
+      {
+        "bartender": "http://delmaguey.com/recipes/",
+        "drink": "Once Upon a Time in Mexico"
+      }
+    ],
+    "pair": [
+      "creme_de_cacao",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -45431,6 +46996,22 @@
     "count": 2,
     "examples": [
       {
+        "bartender": "And a Bottle of Rum... by Wayne Curtis",
+        "drink": "MacArthur Cocktail"
+      },
+      {
+        "drink": "Run Through The Jungle"
+      }
+    ],
+    "pair": [
+      "dark_rum",
+      "egg_white"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
         "bartender": "Beachbum Berry Remixed, pg. 111",
         "drink": "Bali Bali"
       },
@@ -45447,17 +47028,64 @@
     "count": 2,
     "examples": [
       {
-        "bartender": "http://www.jeffreymorgenthaler.com/2009/egg-nog/",
-        "drink": "Egg Nog"
+        "bartender": "http://www.goslingsrum.com/details.asp?RecipeID=192",
+        "drink": "Dark 'n Stormy"
       },
       {
-        "bartender": "http://www.jeffreymorgenthaler.com/2009/egg-nog/",
-        "drink": "Eggnog, Morgenthaler"
+        "bartender": "http://punchdrink.com/recipes/sailors-sunset/",
+        "drink": "Sailor's Sunset"
       }
     ],
     "pair": [
       "dark_rum",
-      "milk"
+      "ginger_ale"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "http://www.minnesotamonthly.com/Blogs/Twin-Cities-Taste/The-Day-of-the-Daiquiri/",
+        "drink": "Badaiquiri"
+      },
+      {
+        "drink": "Groggy Brunch"
+      }
+    ],
+    "pair": [
+      "dark_rum",
+      "green_chartreuse"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "drink": "Punch in the Head"
+      },
+      {
+        "drink": "Variation on a Mai Tai"
+      }
+    ],
+    "pair": [
+      "dark_rum",
+      "grenadine"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "drink": "Flu Cure Toddy"
+      },
+      {
+        "bartender": "Beachbum Berry Remixed",
+        "drink": "Navy Grog"
+      }
+    ],
+    "pair": [
+      "dark_rum",
+      "honey"
     ]
   },
   {
@@ -45475,38 +47103,6 @@
     "pair": [
       "dark_rum",
       "soda_water"
-    ]
-  },
-  {
-    "count": 2,
-    "examples": [
-      {
-        "bartender": "Death and Co. pg. 221",
-        "drink": "Dark 'n' Bubbly"
-      },
-      {
-        "drink": "Golden Parachute"
-      }
-    ],
-    "pair": [
-      "dark_rum",
-      "sparkling_wine"
-    ]
-  },
-  {
-    "count": 2,
-    "examples": [
-      {
-        "drink": "Flue-cured"
-      },
-      {
-        "bartender": "http://www.scribd.com/doc/71484969/Bitters-Recipe-Sampler-by-Brad-Thomas-Parsons#.UmlGKW8o6Uk",
-        "drink": "Two Hits"
-      }
-    ],
-    "pair": [
-      "dark_rum",
-      "st_germain"
     ]
   },
   {
@@ -45601,6 +47197,21 @@
     "pair": [
       "demerara",
       "pomegranate"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "drink": "Parlay"
+      },
+      {
+        "drink": "Subsonic"
+      }
+    ],
+    "pair": [
+      "demerara",
+      "spiced_rum"
     ]
   },
   {
@@ -45767,6 +47378,22 @@
     "count": 2,
     "examples": [
       {
+        "bartender": "http://cocktailvirgin.blogspot.com/2011/02/manhattan-exposition.html",
+        "drink": "Andean Exposition"
+      },
+      {
+        "drink": "Café Royal Special"
+      }
+    ],
+    "pair": [
+      "dry_vermouth",
+      "sloe_gin"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
         "drink": "Harvey Weissbanger"
       },
       {
@@ -45862,6 +47489,21 @@
     "count": 2,
     "examples": [
       {
+        "drink": "Golden Parachute"
+      },
+      {
+        "drink": "Tempest"
+      }
+    ],
+    "pair": [
+      "egg_white",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
         "bartender": "http://www.lalovingcup.com/issue-no-031-tails-from-the-bookworm-pride-and-prejudice/",
         "drink": "Mother's lil' Helper"
       },
@@ -45873,6 +47515,23 @@
     "pair": [
       "egg_white",
       "vanilla"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2011/12/felonious-monk.html",
+        "drink": "Felonius Monk"
+      },
+      {
+        "bartender": "http://www.lalovingcup.com/issue-no-031-tails-from-the-bookworm-pride-and-prejudice/",
+        "drink": "Mother's lil' Helper"
+      }
+    ],
+    "pair": [
+      "egg_white",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -46051,6 +47710,21 @@
     "pair": [
       "fernet",
       "milk"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "drink": "Cornet"
+      },
+      {
+        "drink": "Flue-cured"
+      }
+    ],
+    "pair": [
+      "fernet",
+      "spiced_rum"
     ]
   },
   {
@@ -46285,6 +47959,23 @@
     "count": 2,
     "examples": [
       {
+        "bartender": "http://imbibemagazine.com/Gnashing-Mule-Recipe",
+        "drink": "Gnashing Mule"
+      },
+      {
+        "bartender": "http://www.starchefs.com/cook/recipe/audrey-saunders/re-animator-homage-zombie-cocktail",
+        "drink": "Re-Animator"
+      }
+    ],
+    "pair": [
+      "ginger_ale",
+      "green_chartreuse"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
         "bartender": "Jason Fendick",
         "drink": "Passionate Pigeon"
       },
@@ -46417,30 +48108,16 @@
     "count": 2,
     "examples": [
       {
-        "drink": "The White Death"
+        "bartender": "http://www.originalrichchick.com/2012/10/caraway-daiquiri.html",
+        "drink": "Caraway Daiquiri"
       },
       {
-        "drink": "The Yellow Fizzle"
+        "drink": "Death Is Not The End"
       }
     ],
     "pair": [
       "green_chartreuse",
-      "milk"
-    ]
-  },
-  {
-    "count": 2,
-    "examples": [
-      {
-        "drink": "Everybody's Irish"
-      },
-      {
-        "drink": "The People All Call Her Alaska"
-      }
-    ],
-    "pair": [
-      "green_chartreuse",
-      "mint"
+      "salt"
     ]
   },
   {
@@ -46457,22 +48134,6 @@
     "pair": [
       "green_chartreuse",
       "sherry"
-    ]
-  },
-  {
-    "count": 2,
-    "examples": [
-      {
-        "drink": "131"
-      },
-      {
-        "bartender": "http://www.newhavenindependent.org/index.php/archives/entry/raising_a_glass_to_music_haven/",
-        "drink": "Dominant Tonic"
-      }
-    ],
-    "pair": [
-      "green_chartreuse",
-      "tonic_water"
     ]
   },
   {
@@ -46526,6 +48187,22 @@
     "count": 2,
     "examples": [
       {
+        "drink": "Marc Coucke"
+      },
+      {
+        "bartender": "The Savoy Cocktail Book",
+        "drink": "The Modern Cocktail #2"
+      }
+    ],
+    "pair": [
+      "grenadine",
+      "sloe_gin"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
         "bartender": "Essential Cocktail, Dale Degroff",
         "drink": "Champagne Pick-Me-Up"
       },
@@ -46536,6 +48213,23 @@
     "pair": [
       "grenadine",
       "sparkling_wine"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "http://chowhound.chow.com/topics/758083#6201948",
+        "drink": "Planter's Punch (Spiced Rum)"
+      },
+      {
+        "bartender": "http://imbibemagazine.com/Wicked-Wahine-cocktail-recipe",
+        "drink": "Wicked Wahine"
+      }
+    ],
+    "pair": [
+      "grenadine",
+      "spiced_rum"
     ]
   },
   {
@@ -47013,6 +48707,23 @@
     "count": 2,
     "examples": [
       {
+        "bartender": "http://www.jeffreymorgenthaler.com/2009/egg-nog/",
+        "drink": "Egg Nog"
+      },
+      {
+        "bartender": "http://www.jeffreymorgenthaler.com/2009/egg-nog/",
+        "drink": "Eggnog, Morgenthaler"
+      }
+    ],
+    "pair": [
+      "milk",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
         "bartender": "http://blogs.villagevoice.com/forkintheroad/2013/12/spiked_hot_chocolate_recipes.php",
         "drink": "Spiced Hot Chocolate"
       },
@@ -47138,6 +48849,23 @@
     "pair": [
       "nutmeg",
       "sherry"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "http://www.eater.com/drinks/2015/5/26/8628313/nine-awesome-cocktails-that-should-be-considered-modern-classics",
+        "drink": "Death Flip"
+      },
+      {
+        "bartender": "\"The Gentleman's Companion, Volume II: Being an Exotic Drinking Book\", by Charles H. Baker, Jr., 1946, pp 87-88",
+        "drink": "Porto Flip"
+      }
+    ],
+    "pair": [
+      "nutmeg",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -47373,6 +49101,23 @@
     "count": 2,
     "examples": [
       {
+        "bartender": "http://www.kindredcocktails.com/cocktail/vieux-carre",
+        "drink": "Corsaire Carré"
+      },
+      {
+        "bartender": "http://imbibemagazine.com/Wicked-Wahine-cocktail-recipe",
+        "drink": "Wicked Wahine"
+      }
+    ],
+    "pair": [
+      "peychauds_bitters",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
         "drink": "131"
       },
       {
@@ -47505,6 +49250,22 @@
     "count": 2,
     "examples": [
       {
+        "drink": "Marc Coucke"
+      },
+      {
+        "bartender": "The Savoy Cocktail Book",
+        "drink": "The Modern Cocktail #2"
+      }
+    ],
+    "pair": [
+      "pomegranate",
+      "sloe_gin"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
         "bartender": "Essential Cocktail, Dale Degroff",
         "drink": "Champagne Pick-Me-Up"
       },
@@ -47515,6 +49276,23 @@
     "pair": [
       "pomegranate",
       "sparkling_wine"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "http://chowhound.chow.com/topics/758083#6201948",
+        "drink": "Planter's Punch (Spiced Rum)"
+      },
+      {
+        "bartender": "http://imbibemagazine.com/Wicked-Wahine-cocktail-recipe",
+        "drink": "Wicked Wahine"
+      }
+    ],
+    "pair": [
+      "pomegranate",
+      "spiced_rum"
     ]
   },
   {
@@ -47620,6 +49398,22 @@
     "count": 2,
     "examples": [
       {
+        "bartender": "http://cocktailvirgin.blogspot.com/2013/11/everells-nightwatch.html",
+        "drink": "Everell's Nightwatch"
+      },
+      {
+        "drink": "Flue-cured"
+      }
+    ],
+    "pair": [
+      "rye_whiskey",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
         "bartender": "http://www.threesheetsmfg.com/home/2013/07/11/clap-your-hands-cynar-is-back",
         "drink": "Italian Heirloom"
       },
@@ -47713,6 +49507,54 @@
     "pair": [
       "sparkling_wine",
       "tequila"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "drink": "Flue-cured"
+      },
+      {
+        "bartender": "http://www.scribd.com/doc/71484969/Bitters-Recipe-Sampler-by-Brad-Thomas-Parsons#.UmlGKW8o6Uk",
+        "drink": "Two Hits"
+      }
+    ],
+    "pair": [
+      "spiced_rum",
+      "st_germain"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "http://www.kindredcocktails.com/cocktail/vieux-carre",
+        "drink": "Corsaire Carré"
+      },
+      {
+        "drink": "Harbor Nights"
+      }
+    ],
+    "pair": [
+      "spiced_rum",
+      "sweet_vermouth"
+    ]
+  },
+  {
+    "count": 2,
+    "examples": [
+      {
+        "bartender": "http://www.diffordsguide.com/cocktails/recipe/349/cable-car",
+        "drink": "Cable Car"
+      },
+      {
+        "drink": "Citrus Fever"
+      }
+    ],
+    "pair": [
+      "spiced_rum",
+      "triple_sec"
     ]
   },
   {
@@ -47939,6 +49781,18 @@
     "pair": [
       "absinthe",
       "red_wine"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "drink": "Bitter Old Mule"
+      }
+    ],
+    "pair": [
+      "absinthe",
+      "spiced_rum"
     ]
   },
   {
@@ -48176,6 +50030,18 @@
     "count": 1,
     "examples": [
       {
+        "drink": "The Derringer"
+      }
+    ],
+    "pair": [
+      "agave",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "bartender": "Lynnette Marrero",
         "drink": "Rhapsody in Red"
       }
@@ -48364,6 +50230,19 @@
     "count": 1,
     "examples": [
       {
+        "bartender": "Imbibe Magazine",
+        "drink": "The Slow Loris"
+      }
+    ],
+    "pair": [
+      "allspice",
+      "sloe_gin"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "drink": "Señor Staypuff"
       }
     ],
@@ -48506,6 +50385,19 @@
     "pair": [
       "allspice_dram",
       "port"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "Imbibe Magazine",
+        "drink": "The Slow Loris"
+      }
+    ],
+    "pair": [
+      "allspice_dram",
+      "sloe_gin"
     ]
   },
   {
@@ -49729,6 +51621,18 @@
     "count": 1,
     "examples": [
       {
+        "drink": "Paul's Swizzle"
+      }
+    ],
+    "pair": [
+      "aperol",
+      "dark_rum"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "drink": "Pink Scott Fizz"
       }
     ],
@@ -49798,6 +51702,30 @@
     "pair": [
       "aperol",
       "raspberry_liqueur"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "drink": "Eden Terrace Fizz"
+      }
+    ],
+    "pair": [
+      "aperol",
+      "sloe_gin"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "drink": "What's Kraken?"
+      }
+    ],
+    "pair": [
+      "aperol",
+      "spiced_rum"
     ]
   },
   {
@@ -50005,6 +51933,19 @@
     "count": 1,
     "examples": [
       {
+        "bartender": "http://cocktailvirgin.blogspot.com/2011/06/final-voyage.html",
+        "drink": "Final Voyage"
+      }
+    ],
+    "pair": [
+      "apricot",
+      "green_chartreuse"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "bartender": "Francesco Lafranconi",
         "drink": "Apricot Blush"
       }
@@ -50200,6 +52141,19 @@
     "pair": [
       "apricot_brandy",
       "grapefruit"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2011/06/final-voyage.html",
+        "drink": "Final Voyage"
+      }
+    ],
+    "pair": [
+      "apricot_brandy",
+      "green_chartreuse"
     ]
   },
   {
@@ -50781,6 +52735,19 @@
     "pair": [
       "benedictine",
       "pisco"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://www.kindredcocktails.com/cocktail/vieux-carre",
+        "drink": "Corsaire Carré"
+      }
+    ],
+    "pair": [
+      "benedictine",
+      "spiced_rum"
     ]
   },
   {
@@ -51527,6 +53494,19 @@
     "count": 1,
     "examples": [
       {
+        "bartender": "http://egullet.org/p1642036",
+        "drink": "Sloe Pear Flip"
+      }
+    ],
+    "pair": [
+      "brandy",
+      "sloe_gin"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "drink": "Long Island Old Fashioned"
       }
     ],
@@ -51965,6 +53945,18 @@
     "count": 1,
     "examples": [
       {
+        "drink": "Chasing My Tail"
+      }
+    ],
+    "pair": [
+      "cachaca",
+      "gin"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "bartender": "http://www.bonappetit.com/recipes/2008/12/christmas_caipirinhas",
         "drink": "Christmas Caipirinhas"
       }
@@ -52071,6 +54063,19 @@
     "pair": [
       "cachaca",
       "triple_sec"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2010_02_01_archive.html",
+        "drink": "Grande Elixir"
+      }
+    ],
+    "pair": [
+      "cachaca",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -52620,6 +54625,19 @@
     "count": 1,
     "examples": [
       {
+        "bartender": "http://en.wikipedia.org/wiki/Pi%C3%B1a_colada",
+        "drink": "Frozen Piña Colada"
+      }
+    ],
+    "pair": [
+      "cherry",
+      "dark_rum"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "bartender": "http://imbibemagazine.com/Strange-Weather-Cocktail-Recipe",
         "drink": "Strange Weather"
       }
@@ -52973,6 +54991,19 @@
     "count": 1,
     "examples": [
       {
+        "bartender": "http://www.diffordsguide.com/cocktails/recipe/349/cable-car",
+        "drink": "Cable Car"
+      }
+    ],
+    "pair": [
+      "cinnamon",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "bartender": "Death and Co. Modern Classic Cocktails",
         "drink": "Heart-shaped Box"
       }
@@ -53256,6 +55287,19 @@
     "pair": [
       "clove",
       "sherry"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://imbibemagazine.com/Wicked-Wahine-cocktail-recipe",
+        "drink": "Wicked Wahine"
+      }
+    ],
+    "pair": [
+      "clove",
+      "spiced_rum"
     ]
   },
   {
@@ -53796,18 +55840,6 @@
     "count": 1,
     "examples": [
       {
-        "drink": "The Brantley"
-      }
-    ],
-    "pair": [
-      "coffee",
-      "green_chartreuse"
-    ]
-  },
-  {
-    "count": 1,
-    "examples": [
-      {
         "bartender": "Ari & Micah Wilder",
         "drink": "Irish Goodbye"
       }
@@ -53901,6 +55933,18 @@
     "pair": [
       "coffee",
       "sherry"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "drink": "The Brantley"
+      }
+    ],
+    "pair": [
+      "coffee",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -54075,6 +56119,18 @@
     "pair": [
       "coffee_liqueur",
       "soda_water"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "drink": "Stew's Sideyard Punch"
+      }
+    ],
+    "pair": [
+      "coffee_liqueur",
+      "spiced_rum"
     ]
   },
   {
@@ -54724,18 +56780,6 @@
     "count": 1,
     "examples": [
       {
-        "drink": "To Sit"
-      }
-    ],
-    "pair": [
-      "creme_de_cacao",
-      "dark_rum"
-    ]
-  },
-  {
-    "count": 1,
-    "examples": [
-      {
         "bartender": "http://imgur.com/gallery/Mp8sYPB",
         "drink": "The Aztec Snow"
       }
@@ -54868,6 +56912,31 @@
     "pair": [
       "creme_de_cacao",
       "sherry"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://punchdrink.com/recipes/transatlantic-giant/",
+        "drink": "Transatlantic Giant"
+      }
+    ],
+    "pair": [
+      "creme_de_cacao",
+      "sloe_gin"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "drink": "To Sit"
+      }
+    ],
+    "pair": [
+      "creme_de_cacao",
+      "spiced_rum"
     ]
   },
   {
@@ -55139,6 +57208,18 @@
     "count": 1,
     "examples": [
       {
+        "drink": "Shoe Shine"
+      }
+    ],
+    "pair": [
+      "cynar",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "drink": "Pocket Rocket"
       }
     ],
@@ -55182,6 +57263,31 @@
     "pair": [
       "dark_rum",
       "port"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "drink": "Aye, Mon"
+      }
+    ],
+    "pair": [
+      "dark_rum",
+      "scotch"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "Death and Co. pg. 221",
+        "drink": "Dark 'n' Bubbly"
+      }
+    ],
+    "pair": [
+      "dark_rum",
+      "sparkling_wine"
     ]
   },
   {
@@ -55342,6 +57448,19 @@
     "pair": [
       "demerara",
       "sugar_syrup"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://www.huffingtonpost.com/claudia-gatsby/summer-cocktail-specs-fro_b_5638778.html",
+        "drink": "Summertime Sazness"
+      }
+    ],
+    "pair": [
+      "demerara",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -55662,6 +57781,19 @@
     "pair": [
       "egg_white",
       "sage"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://ohgo.sh/archive/abelha-cachaca/#AmberHive",
+        "drink": "Amber Hive"
+      }
+    ],
+    "pair": [
+      "egg_white",
+      "sloe_gin"
     ]
   },
   {
@@ -56061,6 +58193,19 @@
     "count": 1,
     "examples": [
       {
+        "bartender": "http://imbibemagazine.com/Wicked-Wahine-cocktail-recipe",
+        "drink": "Wicked Wahine"
+      }
+    ],
+    "pair": [
+      "falernum",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "bartender": "http://egullet.org/p1789975",
         "drink": "Fernando"
       }
@@ -56117,6 +58262,19 @@
     "pair": [
       "fernet",
       "sherry"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://imbibemagazine.com/sloe-and-unsteady/",
+        "drink": "Sloe and Unsteady"
+      }
+    ],
+    "pair": [
+      "fernet",
+      "sloe_gin"
     ]
   },
   {
@@ -56320,18 +58478,6 @@
     "pair": [
       "gin",
       "pear"
-    ]
-  },
-  {
-    "count": 1,
-    "examples": [
-      {
-        "drink": "Marc Coucke"
-      }
-    ],
-    "pair": [
-      "gin",
-      "raspberry_liqueur"
     ]
   },
   {
@@ -56570,6 +58716,19 @@
     "pair": [
       "ginger_ale",
       "worcestershire"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://cabinetbeer.tumblr.com/post/13983560665/cbbc-presents-drinking-with-writers-featuring-lynne",
+        "drink": "Magpies Cocktail"
+      }
+    ],
+    "pair": [
+      "ginger_ale",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -56848,6 +59007,43 @@
     "count": 1,
     "examples": [
       {
+        "drink": "The Yellow Fizzle"
+      }
+    ],
+    "pair": [
+      "green_chartreuse",
+      "milk"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "drink": "Everybody's Irish"
+      }
+    ],
+    "pair": [
+      "green_chartreuse",
+      "mint"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://feu-de-vie.blogspot.com/2013/10/magus.html#.Um6g5RaXLi4",
+        "drink": "Magus"
+      }
+    ],
+    "pair": [
+      "green_chartreuse",
+      "port"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "drink": "Blushing Monk"
       }
     ],
@@ -56860,38 +59056,37 @@
     "count": 1,
     "examples": [
       {
-        "drink": "A Roman Holiday in Kentucky"
+        "drink": "Stop Signal"
       }
     ],
     "pair": [
       "green_chartreuse",
-      "sambuca"
+      "sloe_gin"
     ]
   },
   {
     "count": 1,
     "examples": [
       {
-        "bartender": "Joaquin Simo",
-        "drink": "Muddled Mission"
+        "bartender": "http://www.chow.com/recipes/28168-cradle-of-life",
+        "drink": "Cradle of Life"
       }
     ],
     "pair": [
       "green_chartreuse",
-      "strawberry"
+      "spiced_rum"
     ]
   },
   {
     "count": 1,
     "examples": [
       {
-        "bartender": "http://www.lalovingcup.com/issue-no-031-tails-from-the-bookworm-pride-and-prejudice/",
-        "drink": "Mother's lil' Helper"
+        "drink": "131"
       }
     ],
     "pair": [
       "green_chartreuse",
-      "vanilla"
+      "tonic_water"
     ]
   },
   {
@@ -57082,6 +59277,18 @@
     "pair": [
       "honey",
       "sage"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "drink": "What's Kraken?"
+      }
+    ],
+    "pair": [
+      "honey",
+      "spiced_rum"
     ]
   },
   {
@@ -57778,6 +59985,31 @@
     "count": 1,
     "examples": [
       {
+        "bartender": "Drink & Tell: A Boston Cocktail Book, Frederic Yarm, p80",
+        "drink": "Gail Collins"
+      }
+    ],
+    "pair": [
+      "maraschino",
+      "sloe_gin"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "drink": "Stew's Sideyard Punch"
+      }
+    ],
+    "pair": [
+      "maraschino",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "drink": "The Goodfellow"
       }
     ],
@@ -57953,6 +60185,18 @@
     "count": 1,
     "examples": [
       {
+        "drink": "The White Death"
+      }
+    ],
+    "pair": [
+      "milk",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "drink": "The People All Call Her Alaska"
       }
     ],
@@ -58050,6 +60294,18 @@
     "pair": [
       "mint",
       "triple_sec"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "drink": "The People All Call Her Alaska"
+      }
+    ],
+    "pair": [
+      "mint",
+      "yellow_chartreuse"
     ]
   },
   {
@@ -58195,6 +60451,18 @@
     "count": 1,
     "examples": [
       {
+        "drink": "Quick Sand"
+      }
+    ],
+    "pair": [
+      "orange",
+      "sloe_gin"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "bartender": "From The Craft of the Cocktail by Dale DeGroff",
         "drink": "Knickerbein Cocktail"
       }
@@ -58303,6 +60571,32 @@
     "pair": [
       "passionfruit",
       "salt"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "Imbibe Magazine",
+        "drink": "The Slow Loris"
+      }
+    ],
+    "pair": [
+      "passionfruit",
+      "sloe_gin"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://imbibemagazine.com/Wicked-Wahine-cocktail-recipe",
+        "drink": "Wicked Wahine"
+      }
+    ],
+    "pair": [
+      "passionfruit",
+      "spiced_rum"
     ]
   },
   {
@@ -58497,6 +60791,18 @@
     "count": 1,
     "examples": [
       {
+        "drink": "Stew's Sideyard Punch"
+      }
+    ],
+    "pair": [
+      "pineapple",
+      "spiced_rum"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "bartender": "http://umamimart.com/2010/07/happy-hour-name-that-cocktail/",
         "drink": "Hot and Stormy"
       }
@@ -58541,6 +60847,19 @@
     "pair": [
       "pisco",
       "sherry"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://cocktailvirgin.blogspot.com/2011/02/manhattan-exposition.html",
+        "drink": "Andean Exposition"
+      }
+    ],
+    "pair": [
+      "pisco",
+      "sloe_gin"
     ]
   },
   {
@@ -58738,6 +61057,18 @@
     "count": 1,
     "examples": [
       {
+        "drink": "Marc Coucke"
+      }
+    ],
+    "pair": [
+      "raspberry",
+      "sloe_gin"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "drink": "Midnight Sun"
       }
     ],
@@ -58756,6 +61087,18 @@
     "pair": [
       "raspberry",
       "vanilla"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "drink": "Marc Coucke"
+      }
+    ],
+    "pair": [
+      "raspberry_liqueur",
+      "sloe_gin"
     ]
   },
   {
@@ -58960,6 +61303,31 @@
     "count": 1,
     "examples": [
       {
+        "bartender": "Food and Wine Cocktails 2011",
+        "drink": "Silver Monk"
+      }
+    ],
+    "pair": [
+      "salt",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "drink": "A Roman Holiday in Kentucky"
+      }
+    ],
+    "pair": [
+      "sambuca",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "bartender": "Sergio Leanza",
         "drink": "Assemble Mule"
       }
@@ -58980,6 +61348,31 @@
     "pair": [
       "scotch",
       "tonic_water"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "\"Regarding Cocktails\" by Sasha Petraske",
+        "drink": ".38 Special"
+      }
+    ],
+    "pair": [
+      "scotch",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "drink": "Sloe Loris"
+      }
+    ],
+    "pair": [
+      "sherry",
+      "sloe_gin"
     ]
   },
   {
@@ -59038,6 +61431,19 @@
     "count": 1,
     "examples": [
       {
+        "bartender": "http://cocktailvirgin.blogspot.com/",
+        "drink": "Red Sea"
+      }
+    ],
+    "pair": [
+      "sloe_gin",
+      "triple_sec"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "bartender": "Francesco Lafranconi",
         "drink": "Sorrentino"
       }
@@ -59069,6 +61475,18 @@
     "pair": [
       "soy_sauce",
       "worcestershire"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "drink": "Golden Parachute"
+      }
+    ],
+    "pair": [
+      "sparkling_wine",
+      "spiced_rum"
     ]
   },
   {
@@ -59190,6 +61608,19 @@
     "count": 1,
     "examples": [
       {
+        "bartender": "Joaquin Simo",
+        "drink": "Muddled Mission"
+      }
+    ],
+    "pair": [
+      "strawberry",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "drink": "Clemen-thyme Sour"
       }
     ],
@@ -59265,6 +61696,19 @@
     "count": 1,
     "examples": [
       {
+        "bartender": "http://www.newhavenindependent.org/index.php/archives/entry/raising_a_glass_to_music_haven/",
+        "drink": "Dominant Tonic"
+      }
+    ],
+    "pair": [
+      "tonic_water",
+      "yellow_chartreuse"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
         "bartender": "From The Craft of the Cocktail by Dale DeGroff",
         "drink": "Knickerbein Cocktail"
       }
@@ -59285,6 +61729,19 @@
     "pair": [
       "vanilla",
       "white_rum"
+    ]
+  },
+  {
+    "count": 1,
+    "examples": [
+      {
+        "bartender": "http://www.lalovingcup.com/issue-no-031-tails-from-the-bookworm-pride-and-prejudice/",
+        "drink": "Mother's lil' Helper"
+      }
+    ],
+    "pair": [
+      "vanilla",
+      "yellow_chartreuse"
     ]
   }
 ]

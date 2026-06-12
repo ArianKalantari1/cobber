@@ -28,6 +28,18 @@
     ]
   },
   {
+    "head": "cherry_liqueur",
+    "size": 6,
+    "members": [
+      "cherry_liqueur",
+      "yellow_chartreuse",
+      "fernet",
+      "rye_whiskey",
+      "mezcal",
+      "aperol"
+    ]
+  },
+  {
     "head": "cream",
     "size": 6,
     "members": [
@@ -72,17 +84,6 @@
       "grapefruit",
       "green_chartreuse",
       "irish_whiskey"
-    ]
-  },
-  {
-    "head": "cherry_liqueur",
-    "size": 5,
-    "members": [
-      "cherry_liqueur",
-      "fernet",
-      "rye_whiskey",
-      "mezcal",
-      "aperol"
     ]
   },
   {
@@ -172,6 +173,15 @@
     ]
   },
   {
+    "head": "ginger_ale",
+    "size": 3,
+    "members": [
+      "ginger_ale",
+      "cola",
+      "spiced_rum"
+    ]
+  },
+  {
     "head": "orgeat",
     "size": 3,
     "members": [
@@ -221,14 +231,6 @@
     "members": [
       "dark_rum",
       "falernum"
-    ]
-  },
-  {
-    "head": "ginger_ale",
-    "size": 2,
-    "members": [
-      "ginger_ale",
-      "cola"
     ]
   },
   {

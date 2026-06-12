@@ -119,6 +119,43 @@ unmatched list now — mine it for aliases gradually, no need to clear it.
   relay of taste_notes hazards, and the frontier-support cite-or-say-untried
   step. 21 tests passing.
 
+## Ari's tick-list rulings (this session) + de-proxying
+
+- **Given their own ids** (Ari: genuinely different, not proxies):
+  `yellow_chartreuse` (≠ green: milder/sweeter/honeyed), `sloe_gin` (a berry
+  liqueur, not gin), `spiced_rum` (lighter than dark + baking spice). Profiles
+  are minimal + PROVISIONAL — real aroma data is a research-queue item.
+- **Kept as conscious proxies, now surfaced** via `data/proxy_substitutions.json`
+  + `resolve_ingredients.substitutions`: Dubonnet→sweet vermouth, Lillet/Cocchi
+  →dry vermouth. Cobber announces the swap ("no exact Dubonnet — scoring as
+  sweet vermouth"); still merged for co-occurrence. Bianco→sweet vermouth kept.
+- Confirmed: cinnamon/ginger/raspberry syrup → their flavour; 151→dark rum;
+  garnishes excluded from co-occurrence (Ari: garnish is perfume/enhancement,
+  already-muddled mint is a real ingredient); 0.45 oz dose gate is right (a
+  5-10 ml splash adds a layer, not flavour). Taste 0-1 values approved.
+
+## OPEN IDEAS Ari raised (design decisions, not yet built)
+
+1. **"Cobber should look things up."** When an ingredient is unknown or only a
+   proxy, Ari wants Cobber to find what it is / nearest profile. This collides
+   with the core principle (deterministic, no network/LLM at runtime). Proposed
+   reconciliation, NOT yet built: (a) build-time research loop (host Claude +
+   Ari research a real profile → human-approved entry — the existing pattern);
+   (b) a deterministic `nearest_by_profile(id)` tool that returns the closest
+   known ingredients by shared compounds, so even a thin/proxy entry can say
+   "closest profiles are X, Y"; (c) keep live network/LLM OUT of the server.
+   Decide before building.
+2. **Chemistry-grounded taste provenance.** Taste axis *numbers* are fine, but
+   Ari wants the WHY: bitterness from gentiopicroside/amarogentin (gentian),
+   sourness from citric/malic acid, etc. Note a real gap — our compound
+   vocabulary is aroma-only; non-volatile taste actives (acids, sugars,
+   bitter glycosides) aren't in it. This is the sophisticated form of the
+   taste layer and belongs with the Part B verification pass.
+3. **Aroma floats.** A 10 ml peated-scotch/absinthe float is low-volume but
+   high-aroma. Currently fine — a small *literal* pour still counts the
+   ingredient as present; the dose gate only mutes *implied decomposition*.
+   If we later model aroma intensity, floats may warrant an override.
+
 ## Next candidates (Ari to choose)
 
 1. **Verification / citation pass (Part B)** — the provisional compound

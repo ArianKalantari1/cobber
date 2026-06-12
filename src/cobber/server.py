@@ -19,6 +19,27 @@ from .data import Ingredient
 
 PANTRY = engine.PANTRY
 
+# Conscious category substitutions (e.g. Dubonnet served as sweet vermouth):
+# kept merged for co-occurrence but surfaced at resolve time so Cobber
+# announces the swap instead of hiding it. Keyed by normalized input name.
+import json as _json
+from pathlib import Path as _Path
+
+def _load_proxy_notes() -> dict:
+    path = _Path(__file__).resolve().parents[2] / "data" / "proxy_substitutions.json"
+    if not path.exists():
+        return {}
+    with path.open(encoding="utf-8") as handle:
+        raw = _json.load(handle)
+    notes: dict[str, dict] = {}
+    for entry in raw.values():
+        alias = str(entry.get("alias", "")).strip().lower()
+        if alias:
+            notes[alias] = entry
+    return notes
+
+PROXY_NOTES = _load_proxy_notes()
+
 # The character + workflow brief handed to the host Claude. First the persona,
 # then the exact tool dance to run when a user describes what they have.
 INSTRUCTIONS = """\
@@ -131,18 +152,29 @@ def resolve_ingredients(names: list[str]) -> dict:
     """
     resolved: dict[str, str] = {}
     unknown: list[str] = []
+    substitutions: list[dict] = []
     for name in names:
         ingredient_id = _resolve_one(name)
+        proxy = PROXY_NOTES.get(name.strip().lower())
+        if ingredient_id is None and proxy is not None:
+            # A known category proxy (Dubonnet -> sweet vermouth): resolve it to
+            # the stand-in rather than calling it unknown, and announce the swap.
+            ingredient_id = proxy["served_as"]
         if ingredient_id is None:
             unknown.append(name)
         else:
             resolved[name] = ingredient_id
+        if proxy is not None:
+            substitutions.append({"input": name, "served_as": proxy["served_as"], "note": proxy["note"]})
     return {
         "resolved": resolved,
         "unknown": unknown,
         # Data honesty: these matched, but their flavour data is unverified.
         # Mention it to the user when they matter to the drink.
         "provisional": _provisional_among(list(resolved.values())),
+        # Conscious category swaps to announce ("no exact Dubonnet - scoring as
+        # sweet vermouth"), not to hide.
+        "substitutions": substitutions,
     }
 
 

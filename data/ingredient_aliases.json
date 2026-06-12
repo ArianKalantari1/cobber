@@ -250,12 +250,12 @@
   "shiitake": "mushroom",
   "simple syrup": "sugar_syrup",
   "single cream half and half": "cream",
-  "sloe gin": "gin",
+  "sloe gin": "sloe_gin",
   "soda": "soda_water",
   "soda water": "soda_water",
   "soy sauce": "soy_sauce",
   "sparkling wine": "sparkling_wine",
-  "spiced rum": "dark_rum",
+  "spiced rum": "spiced_rum",
   "st germain": "st_germain",
   "st germain elderflower liqueur": "st_germain",
   "star anise": "star_anise",
@@ -295,5 +295,5 @@
   "wild turkey": "bourbon",
   "worcestershire sauce": "worcestershire",
   "wormwood": "wormwood",
-  "yellow chartreuse": "green_chartreuse"
+  "yellow chartreuse": "yellow_chartreuse"
 }

@@ -1293,5 +1293,71 @@
     "season": null,
     "notes": "Dash doses are usually muted by the dose gate; evidence still counts the bitters itself. TODO: verify (Part B citation pass).",
     "source": "Common aroma-chemistry references; provisional."
+  },
+  {
+    "id": "yellow_chartreuse",
+    "display_name": "Yellow Chartreuse",
+    "type": "composite",
+    "role": "aromatic",
+    "botanicals": [
+      "anise",
+      "thyme"
+    ],
+    "descriptors": [
+      "herbal",
+      "honeyed",
+      "saffron",
+      "milder"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Distinct from green Chartreuse: milder, sweeter, honey/saffron-led, lower proof. Was previously proxied to green_chartreuse (Ari: 'a completely different thing'). Botanical bill here is a placeholder subset — full aroma profile is PROVISIONAL, needs research.",
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "sweet": 0.5,
+      "bitter": 0.2
+    }
+  },
+  {
+    "id": "sloe_gin",
+    "display_name": "Sloe gin",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "juniper"
+    ],
+    "descriptors": [
+      "berry",
+      "plum",
+      "stone-fruit"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "A blackthorn-berry liqueur, NOT a gin (Ari). Plum/stone-fruit character; the berry profile is not yet captured. PROVISIONAL — needs research.",
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "sweet": 0.6,
+      "sour": 0.3
+    }
+  },
+  {
+    "id": "spiced_rum",
+    "display_name": "Spiced rum",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "vanilla",
+      "cinnamon",
+      "clove"
+    ],
+    "descriptors": [
+      "spiced",
+      "vanilla",
+      "warm"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "A middle between white and dark rum: lighter body than dark, with added baking spice (Ari). Shares dark rum's spice botanicals; body/lightness not modelled. PROVISIONAL.",
+    "source": "Provisional entry; see notes."
   }
 ]

@@ -27,9 +27,9 @@
     "implied": [],
     "literal": [
       "aperol",
-      "green_chartreuse",
       "lime",
-      "mezcal"
+      "mezcal",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "craft"
@@ -1745,9 +1745,9 @@
     "literal": [
       "angostura_bitters",
       "egg_white",
-      "green_chartreuse",
       "sugar_syrup",
-      "triple_sec"
+      "triple_sec",
+      "yellow_chartreuse"
     ],
     "muted": [
       "orange"
@@ -1775,9 +1775,9 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse",
       "orange_bitters",
-      "sherry"
+      "sherry",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -1798,7 +1798,7 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -2182,8 +2182,8 @@
     "drink": "Amatitan Twist",
     "implied": [],
     "literal": [
-      "green_chartreuse",
-      "maraschino"
+      "maraschino",
+      "yellow_chartreuse"
     ],
     "muted": [
       "cherry"
@@ -2269,7 +2269,7 @@
     "implied": [],
     "literal": [
       "brandy",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -2427,9 +2427,9 @@
     "implied": [],
     "literal": [
       "egg_white",
-      "green_chartreuse",
       "lime",
-      "white_rum"
+      "white_rum",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -3925,9 +3925,9 @@
     "implied": [],
     "literal": [
       "dry_vermouth",
-      "green_chartreuse",
       "lemon",
-      "pineapple"
+      "pineapple",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -4465,9 +4465,9 @@
     "drink": "Bacardi Legends, Espiritu de Santiago",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "lime",
-      "white_rum"
+      "white_rum",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -4540,10 +4540,10 @@
     "drink": "Bacardi Legends, Garrigue",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "lemon",
       "salt",
-      "white_rum"
+      "white_rum",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -4895,9 +4895,9 @@
     "literal": [
       "cream",
       "egg_white",
-      "green_chartreuse",
       "sugar_syrup",
-      "white_rum"
+      "white_rum",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -4992,10 +4992,10 @@
     "drink": "Bacardi Legends, Memento",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "lime",
       "peychauds_bitters",
-      "white_rum"
+      "white_rum",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -5536,7 +5536,8 @@
       "egg_white",
       "green_chartreuse",
       "lemon",
-      "white_rum"
+      "white_rum",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -5589,10 +5590,10 @@
     "drink": "Bacardi Legends, The Optimist",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "honey",
       "lime",
-      "white_rum"
+      "white_rum",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -5612,10 +5613,10 @@
     "drink": "Bacardi Legends, The Seventh Art",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "lemon",
       "sugar_syrup",
-      "white_rum"
+      "white_rum",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -9189,10 +9190,10 @@
     "implied": [],
     "literal": [
       "brandy",
-      "green_chartreuse",
       "lemon",
       "soda_water",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -9202,10 +9203,10 @@
     "implied": [],
     "literal": [
       "brandy",
-      "green_chartreuse",
       "lemon",
       "pineapple",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -9804,8 +9805,8 @@
     "implied": [],
     "literal": [
       "brandy",
-      "green_chartreuse",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -10749,10 +10750,10 @@
       "pomegranate"
     ],
     "literal": [
-      "green_chartreuse",
       "grenadine",
       "lemon",
-      "sparkling_wine"
+      "sparkling_wine",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -10996,10 +10997,10 @@
     "drink": "Cheeky Monkey",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "orange",
       "orange_bitters",
-      "vodka"
+      "vodka",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -11846,9 +11847,9 @@
     "literal": [
       "gin",
       "grapefruit",
-      "green_chartreuse",
       "lemon",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -11872,8 +11873,8 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse",
-      "sweet_vermouth"
+      "sweet_vermouth",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -12174,8 +12175,8 @@
     "implied": [],
     "literal": [
       "benedictine",
-      "green_chartreuse",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -12582,8 +12583,8 @@
       "absinthe",
       "dry_vermouth",
       "gin",
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -13620,9 +13621,9 @@
     ],
     "literal": [
       "dry_vermouth",
-      "green_chartreuse",
       "st_germain",
-      "vodka"
+      "vodka",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -13644,9 +13645,9 @@
     "drink": "Daisy de Santiago",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "lime",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -13874,8 +13875,8 @@
     "drink": "Death Flip",
     "implied": [],
     "literal": [
-      "green_chartreuse",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -14261,7 +14262,7 @@
     ],
     "literal": [
       "calvados",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -15534,9 +15535,9 @@
       "orange"
     ],
     "literal": [
-      "green_chartreuse",
       "lemon",
-      "triple_sec"
+      "triple_sec",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -15708,8 +15709,8 @@
     "drink": "Edison's Medicine cocktail",
     "implied": [],
     "literal": [
-      "green_chartreuse",
-      "lime"
+      "lime",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -15754,7 +15755,7 @@
     "implied": [],
     "literal": [
       "brandy",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -16171,7 +16172,7 @@
     "implied": [],
     "literal": [
       "brandy",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -16272,7 +16273,7 @@
     "implied": [],
     "literal": [
       "dry_vermouth",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -16491,6 +16492,16 @@
     "literal": [
       "apple",
       "bourbon"
+    ],
+    "muted": [],
+    "source": "diffords"
+  },
+  {
+    "drink": "Episcopal",
+    "implied": [],
+    "literal": [
+      "green_chartreuse",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -16878,8 +16889,8 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse",
-      "vodka"
+      "vodka",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -19084,9 +19095,9 @@
     ],
     "literal": [
       "gin",
-      "green_chartreuse",
       "grenadine",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -19935,7 +19946,7 @@
     ],
     "literal": [
       "apricot_brandy",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -19988,8 +19999,8 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -20232,8 +20243,8 @@
     "drink": "Grande Elixir cocktail",
     "implied": [],
     "literal": [
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -20692,9 +20703,9 @@
     "implied": [],
     "literal": [
       "angostura_bitters",
-      "green_chartreuse",
       "orange_bitters",
-      "sweet_vermouth"
+      "sweet_vermouth",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -21808,9 +21819,9 @@
     "implied": [],
     "literal": [
       "bourbon",
-      "green_chartreuse",
       "honey",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -25209,8 +25220,8 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -26172,7 +26183,7 @@
     "literal": [
       "cherry_liqueur",
       "fernet",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -28535,8 +28546,8 @@
     "implied": [],
     "literal": [
       "brandy",
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -28710,8 +28721,8 @@
     "implied": [],
     "literal": [
       "benedictine",
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -29115,7 +29126,8 @@
       "gin",
       "green_chartreuse",
       "lime",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -29274,8 +29286,8 @@
     "drink": "Naked & Famous",
     "implied": [],
     "literal": [
-      "green_chartreuse",
-      "lime"
+      "lime",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -29347,8 +29359,8 @@
     "implied": [],
     "literal": [
       "brandy",
-      "green_chartreuse",
-      "orange_bitters"
+      "orange_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -29888,8 +29900,8 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse",
-      "sherry"
+      "sherry",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -30226,7 +30238,7 @@
       "angostura_bitters",
       "bourbon",
       "dry_vermouth",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -30745,9 +30757,9 @@
     "drink": "Other Word",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "lime",
-      "maraschino"
+      "maraschino",
+      "yellow_chartreuse"
     ],
     "muted": [
       "cherry"
@@ -33757,7 +33769,7 @@
     "implied": [],
     "literal": [
       "brandy",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -33878,9 +33890,9 @@
     ],
     "literal": [
       "cream",
-      "green_chartreuse",
       "milk",
-      "triple_sec"
+      "triple_sec",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -35894,9 +35906,9 @@
     ],
     "literal": [
       "brandy",
-      "green_chartreuse",
       "orange_bitters",
-      "st_germain"
+      "st_germain",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -37427,8 +37439,8 @@
     "literal": [
       "angostura_bitters",
       "apricot_brandy",
-      "green_chartreuse",
-      "orange_bitters"
+      "orange_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -39982,9 +39994,9 @@
     ],
     "literal": [
       "apricot_brandy",
-      "green_chartreuse",
       "lemon",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -40921,8 +40933,8 @@
     "literal": [
       "dry_vermouth",
       "gin",
-      "green_chartreuse",
-      "orange_bitters"
+      "orange_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -43782,9 +43794,9 @@
     "drink": "Whisky Butter",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "scotch",
-      "sherry"
+      "sherry",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -44025,7 +44037,7 @@
       "angostura_bitters",
       "benedictine",
       "calvados",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -44336,8 +44348,8 @@
     ],
     "literal": [
       "calvados",
-      "green_chartreuse",
-      "sweet_vermouth"
+      "sweet_vermouth",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -44381,9 +44393,9 @@
     "drink": "Yellow Cactus Flower",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "lime",
-      "pineapple"
+      "pineapple",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -44408,7 +44420,7 @@
     "literal": [
       "absinthe",
       "apricot_brandy",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "diffords"
@@ -44829,7 +44841,8 @@
     ],
     "literal": [
       "gin",
-      "grenadine"
+      "grenadine",
+      "sloe_gin"
     ],
     "muted": [],
     "source": "mrboston"
@@ -45172,9 +45185,9 @@
     "drink": "Irish Shillelagh",
     "implied": [],
     "literal": [
-      "gin",
       "irish_whiskey",
       "lemon",
+      "sloe_gin",
       "sugar_syrup",
       "white_rum"
     ],
@@ -46315,9 +46328,9 @@
     "implied": [],
     "literal": [
       "fernet",
-      "green_chartreuse",
       "rye_whiskey",
-      "sweet_vermouth"
+      "sweet_vermouth",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "mrboston"
@@ -47511,7 +47524,7 @@
     "literal": [
       "bourbon",
       "cherry",
-      "gin"
+      "sloe_gin"
     ],
     "muted": [],
     "source": "mrboston"
@@ -47727,7 +47740,7 @@
     "drink": "Clove Cocktail",
     "implied": [],
     "literal": [
-      "gin",
+      "sloe_gin",
       "sweet_vermouth"
     ],
     "muted": [],
@@ -47819,7 +47832,7 @@
     "literal": [
       "brandy",
       "cream",
-      "gin",
+      "sloe_gin",
       "sugar_syrup",
       "whole_egg"
     ],
@@ -47831,9 +47844,9 @@
     "implied": [],
     "literal": [
       "egg_yolk",
-      "green_chartreuse",
       "port",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "mrboston"
@@ -48070,7 +48083,7 @@
     ],
     "literal": [
       "cream",
-      "gin",
+      "sloe_gin",
       "sugar_syrup",
       "whole_egg"
     ],
@@ -48415,8 +48428,8 @@
     "implied": [],
     "literal": [
       "egg_white",
-      "gin",
-      "lemon"
+      "lemon",
+      "sloe_gin"
     ],
     "muted": [],
     "source": "mrboston"
@@ -48726,9 +48739,9 @@
     ],
     "literal": [
       "egg_white",
-      "gin",
       "grenadine",
       "lemon",
+      "sloe_gin",
       "sugar_syrup"
     ],
     "muted": [],
@@ -49272,9 +49285,9 @@
     "implied": [],
     "literal": [
       "egg_white",
-      "gin",
       "lemon",
-      "raspberry"
+      "raspberry",
+      "sloe_gin"
     ],
     "muted": [],
     "source": "mrboston"
@@ -49879,8 +49892,8 @@
     "literal": [
       "brandy",
       "egg_white",
-      "gin",
-      "lemon"
+      "lemon",
+      "sloe_gin"
     ],
     "muted": [],
     "source": "mrboston"
@@ -50410,9 +50423,9 @@
     "literal": [
       "brandy",
       "dark_rum",
-      "green_chartreuse",
       "lime",
-      "maple_syrup"
+      "maple_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "mrboston"
@@ -51499,10 +51512,10 @@
     "drink": "Yellow Rose Of Texas",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "lemon",
       "sugar_syrup",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "mrboston"
@@ -51587,11 +51600,11 @@
     "drink": "Venial Sin",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "maraschino",
       "mezcal",
       "st_germain",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [
       "cherry",
@@ -51652,9 +51665,9 @@
     "implied": [],
     "literal": [
       "aperol",
-      "green_chartreuse",
       "lime",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "mrboston"
@@ -51843,8 +51856,8 @@
     "literal": [
       "benedictine",
       "brandy",
-      "green_chartreuse",
-      "peychauds_bitters"
+      "peychauds_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "mrboston"
@@ -52038,7 +52051,7 @@
     "implied": [],
     "literal": [
       "angostura_bitters",
-      "gin",
+      "sloe_gin",
       "sweet_vermouth"
     ],
     "muted": [],
@@ -52149,8 +52162,8 @@
     ],
     "literal": [
       "blue_curacao",
-      "gin",
       "lime",
+      "sloe_gin",
       "tequila"
     ],
     "muted": [],
@@ -52391,9 +52404,9 @@
     "drink": "La Vita Dulce",
     "implied": [],
     "literal": [
-      "dark_rum",
       "lime",
       "mezcal",
+      "spiced_rum",
       "sugar_syrup"
     ],
     "muted": [],
@@ -52514,7 +52527,7 @@
     ],
     "literal": [
       "apricot_brandy",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "mrboston"
@@ -52803,8 +52816,8 @@
     "literal": [
       "cherry_liqueur",
       "dark_rum",
-      "green_chartreuse",
-      "lime"
+      "lime",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "mrboston"
@@ -53183,10 +53196,10 @@
     ],
     "literal": [
       "grapefruit",
-      "green_chartreuse",
       "lime",
       "maraschino",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "mrboston"
@@ -53635,7 +53648,7 @@
     "literal": [
       "cherry_liqueur",
       "gin",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "mrboston"
@@ -53853,9 +53866,9 @@
     "literal": [
       "gin",
       "grapefruit",
-      "green_chartreuse",
       "lime",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "mrboston"
@@ -53887,8 +53900,8 @@
     "drink": "Blackthorn",
     "implied": [],
     "literal": [
-      "gin",
       "lemon",
+      "sloe_gin",
       "sweet_vermouth"
     ],
     "muted": [],
@@ -54125,7 +54138,8 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse"
+      "green_chartreuse",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "thecocktaildb"
@@ -54711,9 +54725,9 @@
       "ginger"
     ],
     "literal": [
-      "dark_rum",
       "ginger_ale",
-      "lime"
+      "lime",
+      "spiced_rum"
     ],
     "muted": [],
     "source": "thecocktaildb"
@@ -55000,7 +55014,7 @@
     "literal": [
       "amaretto",
       "cranberry",
-      "gin",
+      "sloe_gin",
       "triple_sec",
       "vodka"
     ],
@@ -55348,9 +55362,9 @@
       "pomegranate"
     ],
     "literal": [
-      "dark_rum",
       "grenadine",
-      "orange"
+      "orange",
+      "spiced_rum"
     ],
     "muted": [],
     "source": "thecocktaildb"
@@ -55414,8 +55428,8 @@
       "ginger"
     ],
     "literal": [
-      "dark_rum",
-      "ginger_ale"
+      "ginger_ale",
+      "spiced_rum"
     ],
     "muted": [],
     "source": "thecocktaildb"
@@ -59829,10 +59843,10 @@
     ],
     "literal": [
       "gin",
-      "green_chartreuse",
       "lemon",
       "st_germain",
-      "strawberry"
+      "strawberry",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "hotaling"
@@ -63442,8 +63456,8 @@
     "literal": [
       "benedictine",
       "calvados",
-      "green_chartreuse",
-      "peychauds_bitters"
+      "peychauds_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "hotaling"
@@ -63628,9 +63642,9 @@
     "drink": "Kind of Fancy",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "port",
-      "rye_whiskey"
+      "rye_whiskey",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "hotaling"
@@ -64856,8 +64870,8 @@
     "drink": ".38 Special",
     "implied": [],
     "literal": [
-      "green_chartreuse",
-      "scotch"
+      "scotch",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -65070,8 +65084,8 @@
     "literal": [
       "creme_de_cacao",
       "gin",
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -65201,8 +65215,8 @@
     "implied": [],
     "literal": [
       "dry_vermouth",
-      "green_chartreuse",
-      "rye_whiskey"
+      "rye_whiskey",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -65330,7 +65344,7 @@
       "bourbon",
       "falernum",
       "fernet",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -65474,7 +65488,7 @@
     "literal": [
       "dry_vermouth",
       "gin",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -65760,9 +65774,9 @@
     "literal": [
       "bourbon",
       "campari",
-      "green_chartreuse",
       "peychauds_bitters",
-      "sambuca"
+      "sambuca",
+      "yellow_chartreuse"
     ],
     "muted": [
       "anise"
@@ -66023,9 +66037,9 @@
     "implied": [],
     "literal": [
       "angostura_bitters",
-      "green_chartreuse",
       "honey",
-      "irish_whiskey"
+      "irish_whiskey",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -66821,8 +66835,8 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse",
-      "orange_bitters"
+      "orange_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -66989,10 +67003,10 @@
     "implied": [],
     "literal": [
       "fernet",
-      "green_chartreuse",
       "peychauds_bitters",
       "rye_whiskey",
-      "sweet_vermouth"
+      "sweet_vermouth",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -67202,9 +67216,9 @@
     "implied": [],
     "literal": [
       "cinnamon",
-      "green_chartreuse",
       "sweet_vermouth",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -67408,8 +67422,8 @@
       "cachaca",
       "campari",
       "egg_white",
-      "gin",
       "lemon",
+      "sloe_gin",
       "sugar_syrup"
     ],
     "muted": [],
@@ -67668,8 +67682,8 @@
     "implied": [],
     "literal": [
       "aperol",
-      "green_chartreuse",
-      "rye_whiskey"
+      "rye_whiskey",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -67911,8 +67925,8 @@
     "literal": [
       "angostura_bitters",
       "dry_vermouth",
-      "gin",
-      "pisco"
+      "pisco",
+      "sloe_gin"
     ],
     "muted": [],
     "source": "kindred"
@@ -68017,8 +68031,8 @@
     "implied": [],
     "literal": [
       "brandy",
-      "green_chartreuse",
-      "maraschino"
+      "maraschino",
+      "yellow_chartreuse"
     ],
     "muted": [
       "cherry"
@@ -68866,9 +68880,9 @@
     "implied": [],
     "literal": [
       "agave",
-      "green_chartreuse",
       "lime",
-      "mezcal"
+      "mezcal",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -69984,8 +69998,8 @@
     "literal": [
       "averna",
       "calvados",
-      "green_chartreuse",
-      "sweet_vermouth"
+      "sweet_vermouth",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -71078,9 +71092,9 @@
     "drink": "Beekeeper's Apprentice",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "honey",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -71102,9 +71116,9 @@
     "drink": "Bees Over the High Seas",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "honey",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -71353,8 +71367,8 @@
       "absinthe",
       "benedictine",
       "brandy",
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -71611,10 +71625,10 @@
     "implied": [],
     "literal": [
       "ginger",
-      "green_chartreuse",
       "lemon",
       "port",
-      "white_rum"
+      "white_rum",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -71873,10 +71887,10 @@
     ],
     "literal": [
       "allspice_dram",
-      "dark_rum",
       "lemon",
       "nutmeg",
-      "orgeat"
+      "orgeat",
+      "spiced_rum"
     ],
     "muted": [],
     "source": "kindred"
@@ -71901,8 +71915,8 @@
     "literal": [
       "dry_vermouth",
       "gin",
-      "green_chartreuse",
-      "orange_bitters"
+      "orange_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -71987,9 +72001,9 @@
     "drink": "Billy Bones",
     "implied": [],
     "literal": [
-      "dark_rum",
       "lemon",
-      "scotch"
+      "scotch",
+      "spiced_rum"
     ],
     "muted": [],
     "source": "kindred"
@@ -72080,8 +72094,8 @@
     "implied": [],
     "literal": [
       "bourbon",
-      "green_chartreuse",
-      "sweet_vermouth"
+      "sweet_vermouth",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -72452,10 +72466,10 @@
     ],
     "literal": [
       "absinthe",
-      "dark_rum",
       "ginger_ale",
       "ginger_liqueur",
-      "orange_bitters"
+      "orange_bitters",
+      "spiced_rum"
     ],
     "muted": [],
     "source": "kindred"
@@ -72886,8 +72900,8 @@
     "implied": [],
     "literal": [
       "bourbon",
-      "gin",
-      "lemon"
+      "lemon",
+      "sloe_gin"
     ],
     "muted": [],
     "source": "kindred"
@@ -73266,7 +73280,8 @@
     "literal": [
       "gin",
       "honey",
-      "lemon"
+      "lemon",
+      "sloe_gin"
     ],
     "muted": [],
     "source": "kindred"
@@ -73277,6 +73292,7 @@
     "literal": [
       "gin",
       "orange_bitters",
+      "sloe_gin",
       "sweet_vermouth"
     ],
     "muted": [],
@@ -76171,8 +76187,8 @@
     ],
     "literal": [
       "cinnamon",
-      "dark_rum",
       "lemon",
+      "spiced_rum",
       "sugar_syrup",
       "triple_sec"
     ],
@@ -76259,7 +76275,8 @@
     "literal": [
       "dry_vermouth",
       "gin",
-      "lemon"
+      "lemon",
+      "sloe_gin"
     ],
     "muted": [],
     "source": "kindred"
@@ -76543,8 +76560,8 @@
     "literal": [
       "brandy",
       "fernet",
-      "green_chartreuse",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -77334,8 +77351,8 @@
       "angostura_bitters",
       "brandy",
       "cynar",
-      "green_chartreuse",
-      "orange_bitters"
+      "orange_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -77581,8 +77598,8 @@
     "literal": [
       "angostura_bitters",
       "brandy",
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -77699,10 +77716,10 @@
     "drink": "Charleston Collage (Boston Apothecary)",
     "implied": [],
     "literal": [
-      "gin",
-      "green_chartreuse",
       "mezcal",
-      "sweet_vermouth"
+      "sloe_gin",
+      "sweet_vermouth",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -77730,8 +77747,8 @@
     ],
     "literal": [
       "apricot_brandy",
-      "gin",
-      "lime"
+      "lime",
+      "sloe_gin"
     ],
     "muted": [],
     "source": "kindred"
@@ -78587,8 +78604,8 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse",
-      "orange_bitters"
+      "orange_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -78784,8 +78801,8 @@
       "orange"
     ],
     "literal": [
-      "dark_rum",
       "lemon",
+      "spiced_rum",
       "triple_sec",
       "white_rum"
     ],
@@ -78982,9 +78999,9 @@
     "literal": [
       "gin",
       "grapefruit",
-      "green_chartreuse",
       "lemon",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -79303,10 +79320,10 @@
     "implied": [],
     "literal": [
       "benedictine",
-      "green_chartreuse",
       "peychauds_bitters",
       "sweet_vermouth",
-      "white_rum"
+      "white_rum",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -79399,9 +79416,9 @@
     "implied": [],
     "literal": [
       "benedictine",
-      "green_chartreuse",
       "rye_whiskey",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -79529,8 +79546,8 @@
     "implied": [],
     "literal": [
       "campari",
-      "gin",
       "mezcal",
+      "sloe_gin",
       "white_rum"
     ],
     "muted": [],
@@ -79590,9 +79607,9 @@
     "literal": [
       "averna",
       "gin",
-      "green_chartreuse",
       "lime",
-      "orange_bitters"
+      "orange_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -80150,8 +80167,8 @@
     "implied": [],
     "literal": [
       "brandy",
-      "dark_rum",
-      "fernet"
+      "fernet",
+      "spiced_rum"
     ],
     "muted": [],
     "source": "kindred"
@@ -80222,7 +80239,7 @@
     "implied": [],
     "literal": [
       "grapefruit",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -80371,8 +80388,8 @@
     "literal": [
       "benedictine",
       "bourbon",
-      "dark_rum",
       "peychauds_bitters",
+      "spiced_rum",
       "sweet_vermouth"
     ],
     "muted": [],
@@ -80625,12 +80642,12 @@
     ],
     "literal": [
       "angostura_bitters",
-      "dark_rum",
       "green_chartreuse",
       "lemon",
       "lime",
       "orange",
       "orgeat",
+      "spiced_rum",
       "white_rum"
     ],
     "muted": [],
@@ -81582,9 +81599,9 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse",
       "lemon",
-      "white_rum"
+      "white_rum",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -81621,10 +81638,10 @@
     "drink": "Daisy de Santiago",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "lime",
       "sugar_syrup",
-      "white_rum"
+      "white_rum",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -81761,7 +81778,8 @@
     "implied": [],
     "literal": [
       "dry_vermouth",
-      "green_chartreuse"
+      "green_chartreuse",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -81943,8 +81961,8 @@
     "literal": [
       "angostura_bitters",
       "calvados",
-      "green_chartreuse",
-      "sweet_vermouth"
+      "sweet_vermouth",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -82349,10 +82367,10 @@
     "drink": "Death Flip",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "nutmeg",
       "sugar_syrup",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -82971,8 +82989,8 @@
     ],
     "literal": [
       "calvados",
-      "green_chartreuse",
-      "rye_whiskey"
+      "rye_whiskey",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -82982,8 +83000,8 @@
     "implied": [],
     "literal": [
       "angostura_bitters",
-      "green_chartreuse",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -83195,7 +83213,8 @@
     "implied": [],
     "literal": [
       "green_chartreuse",
-      "mezcal"
+      "mezcal",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -83428,10 +83447,10 @@
     "literal": [
       "gin",
       "grapefruit",
-      "green_chartreuse",
       "lime",
       "sugar_syrup",
-      "tonic_water"
+      "tonic_water",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -83959,8 +83978,8 @@
     "implied": [],
     "literal": [
       "campari",
-      "gin",
       "lime",
+      "sloe_gin",
       "tequila"
     ],
     "muted": [],
@@ -84283,11 +84302,11 @@
     "drink": "Dutchie",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "lime",
       "peychauds_bitters",
       "soda_water",
-      "white_rum"
+      "white_rum",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -84537,10 +84556,10 @@
       "orange"
     ],
     "literal": [
-      "green_chartreuse",
       "lemon",
       "tequila",
-      "triple_sec"
+      "triple_sec",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -84727,8 +84746,8 @@
     "implied": [],
     "literal": [
       "aperol",
-      "gin",
       "lemon",
+      "sloe_gin",
       "soda_water",
       "sugar_syrup"
     ],
@@ -84811,9 +84830,9 @@
     "literal": [
       "brandy",
       "cream",
-      "dark_rum",
       "milk",
       "nutmeg",
+      "spiced_rum",
       "sugar_syrup"
     ],
     "muted": [],
@@ -84853,9 +84872,9 @@
     "literal": [
       "brandy",
       "cream",
-      "dark_rum",
       "milk",
       "nutmeg",
+      "spiced_rum",
       "sugar_syrup"
     ],
     "muted": [],
@@ -85331,10 +85350,10 @@
     "drink": "Eleventh Hour",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "lime",
       "mezcal",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -85527,8 +85546,8 @@
     "literal": [
       "dry_vermouth",
       "gin",
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -85947,9 +85966,9 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse",
       "lime",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -86009,8 +86028,8 @@
     "drink": "Everell's Nightwatch",
     "implied": [],
     "literal": [
-      "dark_rum",
-      "rye_whiskey"
+      "rye_whiskey",
+      "spiced_rum"
     ],
     "muted": [],
     "source": "kindred"
@@ -86021,9 +86040,9 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse",
       "lime",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -86573,8 +86592,8 @@
     "drink": "Fancy Word",
     "implied": [],
     "literal": [
-      "green_chartreuse",
-      "lime"
+      "lime",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -86804,8 +86823,8 @@
       "benedictine",
       "egg_white",
       "gin",
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -87115,9 +87134,9 @@
     "drink": "Final Rhuse",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "lime",
-      "pisco"
+      "pisco",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -87128,8 +87147,8 @@
     "implied": [],
     "literal": [
       "benedictine",
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -87575,9 +87594,9 @@
     "literal": [
       "allspice_dram",
       "angostura_bitters",
-      "green_chartreuse",
       "rye_whiskey",
-      "sweet_vermouth"
+      "sweet_vermouth",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -87746,8 +87765,8 @@
     "drink": "Floral Explosion",
     "implied": [],
     "literal": [
-      "green_chartreuse",
-      "pisco"
+      "pisco",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -87849,10 +87868,10 @@
     "literal": [
       "angostura_bitters",
       "campari",
-      "dark_rum",
       "fernet",
       "orange_bitters",
       "rye_whiskey",
+      "spiced_rum",
       "st_germain"
     ],
     "muted": [
@@ -87921,8 +87940,8 @@
     "implied": [],
     "literal": [
       "benedictine",
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -88213,7 +88232,7 @@
     "implied": [],
     "literal": [
       "dry_vermouth",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -88284,8 +88303,8 @@
     "implied": [],
     "literal": [
       "dry_vermouth",
-      "green_chartreuse",
-      "pisco"
+      "pisco",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -88524,9 +88543,9 @@
     ],
     "literal": [
       "angostura_bitters",
-      "green_chartreuse",
       "triple_sec",
-      "white_rum"
+      "white_rum",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -88789,9 +88808,9 @@
     "drink": "Fresca",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "lime",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -89195,11 +89214,11 @@
       "cherry"
     ],
     "literal": [
-      "gin",
       "lemon",
       "maraschino",
       "mezcal",
       "orange_bitters",
+      "sloe_gin",
       "soda_water"
     ],
     "muted": [],
@@ -89683,10 +89702,10 @@
       "angostura_bitters",
       "brandy",
       "calvados",
-      "green_chartreuse",
       "lemon",
       "lime",
-      "maraschino"
+      "maraschino",
+      "yellow_chartreuse"
     ],
     "muted": [
       "cherry"
@@ -89804,11 +89823,11 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse",
       "lemon",
       "lime",
       "soda_water",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -89855,6 +89874,7 @@
     "literal": [
       "gin",
       "lemon",
+      "sloe_gin",
       "sugar_syrup"
     ],
     "muted": [],
@@ -90170,8 +90190,8 @@
       "angostura_bitters",
       "bourbon",
       "ginger",
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -90591,11 +90611,11 @@
       "almond"
     ],
     "literal": [
-      "dark_rum",
       "egg_white",
       "lime",
       "orgeat",
       "sparkling_wine",
+      "spiced_rum",
       "sugar_syrup"
     ],
     "muted": [],
@@ -90621,8 +90641,8 @@
     "drink": "Goldenrod",
     "implied": [],
     "literal": [
-      "green_chartreuse",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -90694,8 +90714,8 @@
     "implied": [],
     "literal": [
       "fernet",
-      "green_chartreuse",
-      "irish_whiskey"
+      "irish_whiskey",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -90942,9 +90962,9 @@
     "implied": [],
     "literal": [
       "cachaca",
-      "green_chartreuse",
       "honey",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -91088,7 +91108,8 @@
     "literal": [
       "absinthe",
       "gin",
-      "grapefruit"
+      "grapefruit",
+      "sloe_gin"
     ],
     "muted": [],
     "source": "kindred"
@@ -91295,9 +91316,9 @@
     "implied": [],
     "literal": [
       "angostura_bitters",
-      "green_chartreuse",
       "rye_whiskey",
-      "sweet_vermouth"
+      "sweet_vermouth",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -91516,7 +91537,7 @@
     "literal": [
       "averna",
       "bourbon",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -91923,7 +91944,7 @@
     "implied": [],
     "literal": [
       "averna",
-      "dark_rum",
+      "spiced_rum",
       "sweet_vermouth"
     ],
     "muted": [],
@@ -92202,9 +92223,9 @@
     "literal": [
       "cinnamon",
       "grapefruit",
-      "green_chartreuse",
       "lime",
-      "peychauds_bitters"
+      "peychauds_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -92322,8 +92343,8 @@
     "literal": [
       "bourbon",
       "calvados",
-      "gin",
-      "lemon"
+      "lemon",
+      "sloe_gin"
     ],
     "muted": [],
     "source": "kindred"
@@ -93403,8 +93424,8 @@
     "drink": "Honeysuckle Julep",
     "implied": [],
     "literal": [
-      "green_chartreuse",
-      "honey"
+      "honey",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -93842,8 +93863,8 @@
     "literal": [
       "benedictine",
       "calvados",
-      "gin",
-      "lemon"
+      "lemon",
+      "sloe_gin"
     ],
     "muted": [],
     "source": "kindred"
@@ -93853,7 +93874,7 @@
     "implied": [],
     "literal": [
       "bourbon",
-      "dark_rum"
+      "spiced_rum"
     ],
     "muted": [],
     "source": "kindred"
@@ -95472,9 +95493,9 @@
     "implied": [],
     "literal": [
       "campari",
-      "dark_rum",
       "ginger_liqueur",
-      "orange"
+      "orange",
+      "spiced_rum"
     ],
     "muted": [
       "ginger"
@@ -95519,9 +95540,9 @@
     ],
     "literal": [
       "calvados",
-      "green_chartreuse",
       "grenadine",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -95611,8 +95632,8 @@
     "implied": [],
     "literal": [
       "fernet",
-      "green_chartreuse",
-      "rye_whiskey"
+      "rye_whiskey",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -96039,9 +96060,9 @@
     "implied": [],
     "literal": [
       "bourbon",
-      "green_chartreuse",
       "lemon",
-      "soda_water"
+      "soda_water",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -96218,9 +96239,9 @@
     ],
     "literal": [
       "gin",
-      "green_chartreuse",
       "grenadine",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -96797,9 +96818,9 @@
     "literal": [
       "bourbon",
       "cherry_liqueur",
-      "green_chartreuse",
       "orange_bitters",
-      "white_rum"
+      "white_rum",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -97416,9 +97437,9 @@
     "implied": [],
     "literal": [
       "aperol",
-      "green_chartreuse",
       "maraschino",
-      "mezcal"
+      "mezcal",
+      "yellow_chartreuse"
     ],
     "muted": [
       "cherry"
@@ -97871,11 +97892,11 @@
     "drink": "Kurling Cocktail",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "mezcal",
       "pisco",
       "sweet_vermouth",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -98167,9 +98188,9 @@
     "drink": "La Llorona",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "lime",
-      "mezcal"
+      "mezcal",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -98239,10 +98260,10 @@
     "implied": [],
     "literal": [
       "agave",
-      "green_chartreuse",
       "lime",
       "maraschino",
-      "mezcal"
+      "mezcal",
+      "yellow_chartreuse"
     ],
     "muted": [
       "cherry"
@@ -98524,10 +98545,10 @@
     "implied": [],
     "literal": [
       "agave",
-      "green_chartreuse",
       "lime",
       "tequila",
-      "triple_sec"
+      "triple_sec",
+      "yellow_chartreuse"
     ],
     "muted": [
       "orange"
@@ -98589,8 +98610,8 @@
     "implied": [],
     "literal": [
       "cynar",
-      "green_chartreuse",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -98766,7 +98787,8 @@
     "literal": [
       "green_chartreuse",
       "lemon",
-      "maraschino"
+      "maraschino",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -98898,10 +98920,10 @@
       "cherry"
     ],
     "literal": [
-      "green_chartreuse",
       "lemon",
       "maraschino",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -99138,9 +99160,9 @@
     ],
     "literal": [
       "brandy",
-      "green_chartreuse",
       "lemon",
-      "maraschino"
+      "maraschino",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -99779,10 +99801,10 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse",
       "maraschino",
       "orange",
-      "peychauds_bitters"
+      "peychauds_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [
       "cherry"
@@ -99844,10 +99866,10 @@
     "drink": "Lil' Jig",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "lime",
       "sugar_syrup",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -99874,8 +99896,8 @@
     "literal": [
       "calvados",
       "gin",
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -100070,7 +100092,7 @@
     "implied": [],
     "literal": [
       "cynar",
-      "gin",
+      "sloe_gin",
       "tequila"
     ],
     "muted": [],
@@ -100142,8 +100164,8 @@
     "implied": [],
     "literal": [
       "aperol",
-      "green_chartreuse",
-      "lime"
+      "lime",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -100692,8 +100714,8 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -101095,8 +101117,8 @@
     "drink": "Mabel Berra",
     "implied": [],
     "literal": [
-      "gin",
-      "lime"
+      "lime",
+      "sloe_gin"
     ],
     "muted": [],
     "source": "kindred"
@@ -101105,8 +101127,8 @@
     "drink": "Mabouya",
     "implied": [],
     "literal": [
-      "green_chartreuse",
-      "lime"
+      "lime",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -101251,8 +101273,8 @@
     "implied": [],
     "literal": [
       "grapefruit",
-      "green_chartreuse",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -101264,8 +101286,8 @@
     "literal": [
       "bourbon",
       "ginger_ale",
-      "green_chartreuse",
-      "lime"
+      "lime",
+      "yellow_chartreuse"
     ],
     "muted": [
       "ginger"
@@ -101305,8 +101327,8 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -101928,10 +101950,10 @@
     ],
     "literal": [
       "apricot_brandy",
-      "gin",
       "grenadine",
       "lime",
       "raspberry_liqueur",
+      "sloe_gin",
       "white_rum"
     ],
     "muted": [],
@@ -102515,9 +102537,9 @@
     ],
     "literal": [
       "calvados",
-      "green_chartreuse",
       "lemon",
-      "st_germain"
+      "st_germain",
+      "yellow_chartreuse"
     ],
     "muted": [
       "elderflower"
@@ -102797,8 +102819,8 @@
     "literal": [
       "apricot_brandy",
       "bourbon",
-      "green_chartreuse",
-      "orange_bitters"
+      "orange_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [
       "apricot"
@@ -102869,11 +102891,11 @@
     "drink": "Mentirosa",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "lime",
       "soda_water",
       "st_germain",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [
       "elderflower"
@@ -103683,8 +103705,8 @@
     ],
     "literal": [
       "apricot_brandy",
-      "gin",
       "lime",
+      "sloe_gin",
       "white_rum"
     ],
     "muted": [],
@@ -103908,9 +103930,9 @@
     "implied": [],
     "literal": [
       "cynar",
-      "green_chartreuse",
       "lemon",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -103962,7 +103984,8 @@
       "apricot_brandy",
       "gin",
       "lime",
-      "orange_bitters"
+      "orange_bitters",
+      "sloe_gin"
     ],
     "muted": [],
     "source": "kindred"
@@ -104167,9 +104190,9 @@
     "implied": [],
     "literal": [
       "benedictine",
-      "green_chartreuse",
       "lemon",
-      "rye_whiskey"
+      "rye_whiskey",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -104534,10 +104557,10 @@
     "literal": [
       "brandy",
       "egg_white",
-      "green_chartreuse",
       "lemon",
       "orange_bitters",
-      "vanilla"
+      "vanilla",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -104748,8 +104771,8 @@
     "literal": [
       "agave",
       "gin",
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -104919,9 +104942,9 @@
     "literal": [
       "aperol",
       "gin",
-      "green_chartreuse",
       "lemon",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -104934,7 +104957,8 @@
       "irish_whiskey",
       "lemon",
       "peychauds_bitters",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -105158,9 +105182,9 @@
     "implied": [],
     "literal": [
       "aperol",
-      "green_chartreuse",
       "lime",
-      "mezcal"
+      "mezcal",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -106494,8 +106518,8 @@
     "literal": [
       "absinthe",
       "gin",
-      "green_chartreuse",
-      "orange_bitters"
+      "orange_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -106562,8 +106586,8 @@
     "literal": [
       "angostura_bitters",
       "calvados",
-      "green_chartreuse",
-      "sweet_vermouth"
+      "sweet_vermouth",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -106664,7 +106688,7 @@
     "literal": [
       "angostura_bitters",
       "calvados",
-      "gin"
+      "sloe_gin"
     ],
     "muted": [],
     "source": "kindred"
@@ -106915,10 +106939,10 @@
     "drink": "Oaxacan Bijou",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "mezcal",
       "orange_bitters",
-      "sweet_vermouth"
+      "sweet_vermouth",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -107506,10 +107530,10 @@
     "implied": [],
     "literal": [
       "creme_de_cacao",
-      "green_chartreuse",
       "lime",
       "mezcal",
-      "orange_bitters"
+      "orange_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -108851,12 +108875,12 @@
       "almond"
     ],
     "literal": [
-      "dark_rum",
       "demerara",
       "ginger",
       "ginger_ale",
       "lime",
-      "orgeat"
+      "orgeat",
+      "spiced_rum"
     ],
     "muted": [],
     "source": "kindred"
@@ -109319,9 +109343,9 @@
     "implied": [],
     "literal": [
       "agave",
-      "green_chartreuse",
       "lime",
-      "mezcal"
+      "mezcal",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -109820,9 +109844,9 @@
       "angostura_bitters",
       "cynar",
       "grapefruit",
-      "green_chartreuse",
       "lemon",
-      "rye_whiskey"
+      "rye_whiskey",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -110088,10 +110112,10 @@
     "drink": "Phil Collins",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "lime",
       "soda_water",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -110574,8 +110598,8 @@
     "implied": [],
     "literal": [
       "dry_vermouth",
-      "green_chartreuse",
-      "orange_bitters"
+      "orange_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -110886,10 +110910,10 @@
     "literal": [
       "angostura_bitters",
       "campari",
-      "dark_rum",
       "grenadine",
       "lemon",
-      "lime"
+      "lime",
+      "spiced_rum"
     ],
     "muted": [],
     "source": "kindred"
@@ -111607,10 +111631,10 @@
     "literal": [
       "brandy",
       "cream",
-      "green_chartreuse",
       "nutmeg",
       "port",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -111659,10 +111683,10 @@
     "implied": [],
     "literal": [
       "absinthe",
-      "gin",
       "honey",
       "lemon",
-      "scotch"
+      "scotch",
+      "sloe_gin"
     ],
     "muted": [],
     "source": "kindred"
@@ -111997,10 +112021,10 @@
       "elderflower"
     ],
     "literal": [
-      "green_chartreuse",
       "lemon",
       "rye_whiskey",
-      "st_germain"
+      "st_germain",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -112046,9 +112070,9 @@
     ],
     "literal": [
       "calvados",
-      "green_chartreuse",
       "grenadine",
-      "peychauds_bitters"
+      "peychauds_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -112167,8 +112191,8 @@
     "literal": [
       "dry_vermouth",
       "gin",
-      "green_chartreuse",
-      "orange_bitters"
+      "orange_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -112378,9 +112402,9 @@
     ],
     "literal": [
       "cherry_liqueur",
-      "gin",
       "orange",
       "scotch",
+      "sloe_gin",
       "sweet_vermouth"
     ],
     "muted": [],
@@ -112514,11 +112538,11 @@
     "implied": [],
     "literal": [
       "benedictine",
-      "green_chartreuse",
       "mezcal",
       "peychauds_bitters",
       "rye_whiskey",
-      "sweet_vermouth"
+      "sweet_vermouth",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -113167,6 +113191,7 @@
       "campari",
       "gin",
       "orange_bitters",
+      "sloe_gin",
       "triple_sec"
     ],
     "muted": [
@@ -113320,9 +113345,9 @@
     "literal": [
       "angostura_bitters",
       "bourbon",
-      "green_chartreuse",
       "mezcal",
-      "orange_bitters"
+      "orange_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -113395,10 +113420,10 @@
     "implied": [],
     "literal": [
       "agave",
-      "green_chartreuse",
       "lemon",
       "sweet_vermouth",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -114257,10 +114282,10 @@
     "drink": "Rosarita",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "lemon",
       "sugar_syrup",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -114597,8 +114622,8 @@
     "implied": [],
     "literal": [
       "cherry_liqueur",
-      "gin",
       "orange_bitters",
+      "sloe_gin",
       "sweet_vermouth"
     ],
     "muted": [
@@ -114810,9 +114835,9 @@
     "drink": "Running of the Bulls",
     "implied": [],
     "literal": [
-      "gin",
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "sloe_gin",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -114869,10 +114894,10 @@
     "drink": "Rusty James",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "honey",
       "peychauds_bitters",
-      "rye_whiskey"
+      "rye_whiskey",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -114976,9 +115001,9 @@
     "implied": [],
     "literal": [
       "averna",
-      "green_chartreuse",
       "lime",
-      "rye_whiskey"
+      "rye_whiskey",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -115081,10 +115106,10 @@
     "literal": [
       "cinnamon",
       "ginger",
-      "green_chartreuse",
       "lime",
       "soda_water",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -115961,8 +115986,8 @@
       "benedictine",
       "dry_vermouth",
       "gin",
-      "green_chartreuse",
-      "orange_bitters"
+      "orange_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -116001,7 +116026,7 @@
     ],
     "literal": [
       "calvados",
-      "gin"
+      "sloe_gin"
     ],
     "muted": [],
     "source": "kindred"
@@ -117386,8 +117411,8 @@
     "implied": [],
     "literal": [
       "cynar",
-      "dark_rum",
-      "orange_bitters"
+      "orange_bitters",
+      "spiced_rum"
     ],
     "muted": [],
     "source": "kindred"
@@ -117470,8 +117495,8 @@
     "implied": [],
     "literal": [
       "dry_vermouth",
-      "green_chartreuse",
-      "rye_whiskey"
+      "rye_whiskey",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -117636,10 +117661,10 @@
     "drink": "Silver Monk",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "lime",
       "salt",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -118098,6 +118123,7 @@
       "campari",
       "gin",
       "lemon",
+      "sloe_gin",
       "soda_water",
       "sugar_syrup"
     ],
@@ -118109,8 +118135,8 @@
     "implied": [],
     "literal": [
       "cynar",
-      "gin",
-      "sherry"
+      "sherry",
+      "sloe_gin"
     ],
     "muted": [],
     "source": "kindred"
@@ -118122,7 +118148,7 @@
     "literal": [
       "angostura_bitters",
       "brandy",
-      "gin",
+      "sloe_gin",
       "sugar_syrup"
     ],
     "muted": [],
@@ -118135,9 +118161,9 @@
     "literal": [
       "angostura_bitters",
       "fernet",
-      "gin",
       "honey",
-      "lime"
+      "lime",
+      "sloe_gin"
     ],
     "muted": [],
     "source": "kindred"
@@ -118148,8 +118174,8 @@
     "implied": [],
     "literal": [
       "angostura_bitters",
-      "gin",
       "lemon",
+      "sloe_gin",
       "sweet_vermouth"
     ],
     "muted": [],
@@ -118214,7 +118240,8 @@
     "literal": [
       "gin",
       "grapefruit",
-      "lemon"
+      "lemon",
+      "sloe_gin"
     ],
     "muted": [],
     "source": "kindred"
@@ -118281,11 +118308,11 @@
     "literal": [
       "agave",
       "falernum",
-      "green_chartreuse",
       "lime",
       "mezcal",
       "orange_bitters",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -118367,8 +118394,8 @@
     "literal": [
       "cachaca",
       "cherry_liqueur",
-      "gin",
       "lemon",
+      "sloe_gin",
       "soda_water"
     ],
     "muted": [],
@@ -118419,8 +118446,8 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -118868,9 +118895,9 @@
     "drink": "Soltera",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "lime",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -119855,8 +119882,8 @@
       "angostura_bitters",
       "bourbon",
       "cherry_liqueur",
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -119980,9 +120007,9 @@
     "implied": [],
     "literal": [
       "campari",
-      "green_chartreuse",
       "mezcal",
-      "sweet_vermouth"
+      "sweet_vermouth",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -120091,7 +120118,8 @@
       "green_chartreuse",
       "lemon",
       "lime",
-      "white_rum"
+      "white_rum",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -120292,6 +120320,7 @@
       "benedictine",
       "gin",
       "lime",
+      "sloe_gin",
       "sugar_syrup"
     ],
     "muted": [],
@@ -120449,10 +120478,10 @@
       "allspice_dram",
       "angostura_bitters",
       "coffee_liqueur",
-      "dark_rum",
       "lime",
       "maraschino",
-      "pineapple"
+      "pineapple",
+      "spiced_rum"
     ],
     "muted": [
       "cherry",
@@ -120652,7 +120681,8 @@
       "angostura_bitters",
       "gin",
       "green_chartreuse",
-      "lemon"
+      "lemon",
+      "sloe_gin"
     ],
     "muted": [],
     "source": "kindred"
@@ -120791,8 +120821,8 @@
     "literal": [
       "angostura_bitters",
       "brandy",
-      "green_chartreuse",
-      "mezcal"
+      "mezcal",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -121059,9 +121089,9 @@
     ],
     "literal": [
       "cherry_liqueur",
-      "dark_rum",
       "demerara",
-      "lemon"
+      "lemon",
+      "spiced_rum"
     ],
     "muted": [],
     "source": "kindred"
@@ -121401,8 +121431,8 @@
     "implied": [],
     "literal": [
       "demerara",
-      "green_chartreuse",
-      "peychauds_bitters"
+      "peychauds_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -121635,8 +121665,8 @@
     "implied": [],
     "literal": [
       "calvados",
-      "green_chartreuse",
-      "lime"
+      "lime",
+      "yellow_chartreuse"
     ],
     "muted": [
       "apple"
@@ -122126,9 +122156,9 @@
     "literal": [
       "absinthe",
       "gin",
-      "green_chartreuse",
       "orange",
-      "peychauds_bitters"
+      "peychauds_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -122589,10 +122619,10 @@
       "ginger"
     ],
     "literal": [
-      "dark_rum",
       "egg_white",
       "ginger_liqueur",
-      "lime"
+      "lime",
+      "spiced_rum"
     ],
     "muted": [],
     "source": "kindred"
@@ -123293,7 +123323,7 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -123557,8 +123587,8 @@
     ],
     "literal": [
       "cherry_liqueur",
-      "dark_rum",
-      "lemon"
+      "lemon",
+      "spiced_rum"
     ],
     "muted": [],
     "source": "kindred"
@@ -123636,14 +123666,25 @@
     "source": "kindred"
   },
   {
+    "creator": "Vintage Spirits and Forgotten Cocktails",
+    "drink": "The Blackthorn Cocktail #2",
+    "implied": [],
+    "literal": [
+      "gin",
+      "sloe_gin"
+    ],
+    "muted": [],
+    "source": "kindred"
+  },
+  {
     "creator": "http://en.wikipedia.org/wiki/Joe_Gilmore",
     "drink": "The Blenheim",
     "implied": [],
     "literal": [
       "brandy",
       "dry_vermouth",
-      "green_chartreuse",
-      "orange"
+      "orange",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -123788,8 +123829,8 @@
       "angostura_bitters",
       "bourbon",
       "coffee",
-      "green_chartreuse",
-      "mezcal"
+      "mezcal",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -123933,8 +123974,8 @@
     "drink": "The Carbonated Piston Slinger",
     "implied": [],
     "literal": [
-      "gin",
       "lime",
+      "sloe_gin",
       "soda_water"
     ],
     "muted": [],
@@ -124112,8 +124153,8 @@
       "calvados",
       "cinnamon",
       "cream",
-      "green_chartreuse",
-      "orange"
+      "orange",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -124310,9 +124351,9 @@
     "drink": "The Crippler",
     "implied": [],
     "literal": [
-      "green_chartreuse",
       "mezcal",
-      "rye_whiskey"
+      "rye_whiskey",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -124505,9 +124546,9 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse",
       "lime",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -124517,11 +124558,11 @@
     "implied": [],
     "literal": [
       "agave",
-      "dark_rum",
       "ginger",
       "ginger_ale",
       "lime",
-      "orange_bitters"
+      "orange_bitters",
+      "spiced_rum"
     ],
     "muted": [],
     "source": "kindred"
@@ -124593,9 +124634,9 @@
     ],
     "literal": [
       "calvados",
-      "green_chartreuse",
       "honey",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -124840,8 +124881,8 @@
       "campari",
       "dry_vermouth",
       "gin",
-      "green_chartreuse",
-      "orange_bitters"
+      "orange_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -125154,10 +125195,10 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse",
       "lemon",
       "orange_bitters",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -126330,8 +126371,8 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -126343,10 +126384,10 @@
       "cherry"
     ],
     "literal": [
-      "green_chartreuse",
       "honey",
       "lime",
-      "maraschino"
+      "maraschino",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -126775,10 +126816,10 @@
     ],
     "literal": [
       "absinthe",
-      "gin",
       "grenadine",
       "orange_bitters",
-      "scotch"
+      "scotch",
+      "sloe_gin"
     ],
     "muted": [],
     "source": "kindred"
@@ -127312,9 +127353,9 @@
     "literal": [
       "dry_vermouth",
       "gin",
-      "green_chartreuse",
       "mint",
-      "orange_bitters"
+      "orange_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -127397,8 +127438,8 @@
       "absinthe",
       "gin",
       "grapefruit",
-      "green_chartreuse",
-      "peychauds_bitters"
+      "peychauds_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -127486,8 +127527,8 @@
     "literal": [
       "angostura_bitters",
       "averna",
-      "green_chartreuse",
-      "rye_whiskey"
+      "rye_whiskey",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -127946,8 +127987,8 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse",
-      "sweet_vermouth"
+      "sweet_vermouth",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -128169,6 +128210,7 @@
       "allspice_dram",
       "gin",
       "passionfruit",
+      "sloe_gin",
       "sugar_syrup"
     ],
     "muted": [],
@@ -128546,8 +128588,8 @@
     "literal": [
       "calvados",
       "cynar",
-      "gin",
-      "green_chartreuse"
+      "sloe_gin",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -128633,8 +128675,8 @@
     "implied": [],
     "literal": [
       "cynar",
-      "green_chartreuse",
-      "peychauds_bitters"
+      "peychauds_bitters",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -128837,9 +128879,9 @@
     "literal": [
       "bourbon",
       "brandy",
-      "green_chartreuse",
       "honey",
-      "milk"
+      "milk",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -129219,8 +129261,8 @@
     "drink": "Ticket to Paradise",
     "implied": [],
     "literal": [
-      "gin",
       "lemon",
+      "sloe_gin",
       "tequila"
     ],
     "muted": [],
@@ -129356,7 +129398,8 @@
     "implied": [],
     "literal": [
       "gin",
-      "green_chartreuse"
+      "sloe_gin",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -129473,8 +129516,8 @@
     "literal": [
       "averna",
       "creme_de_cacao",
-      "dark_rum",
-      "scotch"
+      "scotch",
+      "spiced_rum"
     ],
     "muted": [],
     "source": "kindred"
@@ -129584,8 +129627,8 @@
     "implied": [],
     "literal": [
       "angostura_bitters",
-      "green_chartreuse",
-      "irish_whiskey"
+      "irish_whiskey",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -129982,10 +130025,10 @@
     "implied": [],
     "literal": [
       "campari",
-      "green_chartreuse",
       "orange_bitters",
       "peychauds_bitters",
-      "sweet_vermouth"
+      "sweet_vermouth",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -130011,7 +130054,7 @@
       "bourbon",
       "creme_de_cacao",
       "cynar",
-      "gin",
+      "sloe_gin",
       "white_rum"
     ],
     "muted": [],
@@ -130709,8 +130752,8 @@
     "drink": "Two Hits",
     "implied": [],
     "literal": [
-      "dark_rum",
       "lemon",
+      "spiced_rum",
       "st_germain",
       "white_rum"
     ],
@@ -130982,8 +131025,8 @@
     "literal": [
       "agave",
       "cynar",
-      "green_chartreuse",
-      "lime"
+      "lime",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -131056,8 +131099,8 @@
     "drink": "Uno, Dos, Cuarenta y Tres",
     "implied": [],
     "literal": [
-      "dark_rum",
       "lime",
+      "spiced_rum",
       "white_rum"
     ],
     "muted": [],
@@ -131091,9 +131134,9 @@
     "implied": [],
     "literal": [
       "dry_vermouth",
-      "green_chartreuse",
       "maraschino",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [
       "cherry"
@@ -131416,10 +131459,10 @@
     "literal": [
       "allspice_dram",
       "falernum",
-      "green_chartreuse",
       "lime",
       "sweet_vermouth",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -131888,8 +131931,8 @@
     "literal": [
       "cynar",
       "gin",
-      "green_chartreuse",
-      "lemon"
+      "lemon",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -132074,9 +132117,9 @@
     "literal": [
       "averna",
       "grapefruit",
-      "green_chartreuse",
       "lemon",
-      "sugar_syrup"
+      "sugar_syrup",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -132583,9 +132626,9 @@
     "implied": [],
     "literal": [
       "aperol",
-      "dark_rum",
       "honey",
-      "orange"
+      "orange",
+      "spiced_rum"
     ],
     "muted": [],
     "source": "kindred"
@@ -132928,6 +132971,7 @@
       "gin",
       "grapefruit",
       "lemon",
+      "sloe_gin",
       "sugar_syrup"
     ],
     "muted": [],
@@ -132955,8 +132999,8 @@
       "angostura_bitters",
       "benedictine",
       "calvados",
-      "green_chartreuse",
-      "rye_whiskey"
+      "rye_whiskey",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -132971,13 +133015,13 @@
       "pomegranate"
     ],
     "literal": [
-      "dark_rum",
       "falernum",
       "grenadine",
       "lemon",
       "lime",
       "passionfruit",
-      "peychauds_bitters"
+      "peychauds_bitters",
+      "spiced_rum"
     ],
     "muted": [],
     "source": "kindred"
@@ -133002,7 +133046,7 @@
       "angostura_bitters",
       "benedictine",
       "calvados",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -133018,7 +133062,7 @@
       "brandy",
       "calvados",
       "dry_vermouth",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -133450,10 +133494,10 @@
       "almond"
     ],
     "literal": [
-      "dark_rum",
       "lemon",
       "orgeat",
-      "scotch"
+      "scotch",
+      "spiced_rum"
     ],
     "muted": [],
     "source": "kindred"
@@ -133703,8 +133747,8 @@
     "drink": "Workers on the Tracks",
     "implied": [],
     "literal": [
-      "green_chartreuse",
-      "rye_whiskey"
+      "rye_whiskey",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -133791,8 +133835,8 @@
     ],
     "literal": [
       "calvados",
-      "green_chartreuse",
-      "sweet_vermouth"
+      "sweet_vermouth",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -133872,9 +133916,9 @@
     "implied": [],
     "literal": [
       "brandy",
-      "green_chartreuse",
       "lime",
-      "maraschino"
+      "maraschino",
+      "yellow_chartreuse"
     ],
     "muted": [
       "cherry"
@@ -134032,9 +134076,9 @@
     "literal": [
       "angostura_bitters",
       "gin",
-      "green_chartreuse",
       "honey",
-      "lime"
+      "lime",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -134059,10 +134103,10 @@
       "elderflower"
     ],
     "literal": [
-      "green_chartreuse",
       "orange_bitters",
       "st_germain",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -134076,7 +134120,7 @@
     "literal": [
       "absinthe",
       "apricot_brandy",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -134086,9 +134130,9 @@
     "implied": [],
     "literal": [
       "agave",
-      "green_chartreuse",
       "lime",
-      "tequila"
+      "tequila",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -134205,8 +134249,8 @@
       "apricot_brandy",
       "fernet",
       "gin",
-      "green_chartreuse",
-      "lime"
+      "lime",
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
@@ -134633,7 +134677,7 @@
     "implied": [],
     "literal": [
       "fernet",
-      "green_chartreuse"
+      "yellow_chartreuse"
     ],
     "muted": [],
     "source": "kindred"
