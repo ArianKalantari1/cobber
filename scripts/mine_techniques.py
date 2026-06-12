@@ -133,7 +133,7 @@ def detect_signals(ingredient_names: list[str]) -> dict[str, bool]:
 
     return {
         "has_egg_white":             has_egg_white,
-        # Dairy split: cream+acid (White Lady, Ramos) → shake;
+        # Dairy split: cream+acid (cream sour, Ramos) → shake;
         # cream alone (White Russian) → build over a big rock.
         "has_dairy_and_acid":        has_dairy and has_acid and not has_egg_white,
         "has_dairy_no_acid":         has_dairy and not has_acid and not has_egg_white,
@@ -333,7 +333,7 @@ def build_rules(freq: dict[str, Counter], glass_freq: dict[str, Counter]) -> lis
         ),
     })
 
-    # Rule 5: Dairy + acid → shake, served up (cream sours: White Lady, Ramos base)
+    # Rule 5: Dairy + acid → shake, served up (cream sours: cream sour, Ramos base)
     conf, sup = _confidence(freq["has_dairy_and_acid"], "shake")
     rules.append({
         "id": "dairy_acid_shake",
@@ -346,7 +346,7 @@ def build_rules(freq: dict[str, Counter], glass_freq: dict[str, Counter]) -> lis
         "ice_in_glass": False,
         "rationale": (
             "Cream + citrus requires vigorous shaking to emulsify the dairy "
-            "and integrate the acid (White Lady, Ramos Gin Fizz base)."
+            "and integrate the acid (cream sour, Ramos Gin Fizz base)."
         ),
         "data_confidence": conf,
         "data_support": sup,

@@ -340,11 +340,11 @@ def test_sour_highball_gets_highball_service():
 
 
 def test_dairy_with_acid_shakes():
-    """Cream + citrus (White Lady family) should shake, not build."""
-    t = engine.suggest_technique(["gin", "cointreau", "lemon", "cream"])
+    """Cream + citrus (e.g. Ramos-style build without egg) should shake, not build."""
+    t = engine.suggest_technique(["gin", "lemon", "sugar_syrup", "cream"])
     assert t is not None
     assert t["method"] == "shake", (
-        f"Cream + citrus must shake (White Lady family), got {t['method']!r}"
+        f"Cream + citrus must shake (cream sour family), got {t['method']!r}"
     )
     assert t["service"] == "up"
 
