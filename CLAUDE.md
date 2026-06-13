@@ -60,6 +60,20 @@ python3 scripts/render_graph.py       # -> flavor_graph.html (interactive pictur
 Canon dedupe priority: hand-curated craft > IBA > Difford's > Mr. Boston > TheCocktailDB.
 Frontier corpora (Hotaling, Kindred) feed data/frontier_evidence.json, not tradition.
 
+## Commit discipline
+
+Commit after each discrete sub-task — never batch the whole session into one
+end-of-session commit. One logical unit of work = one commit. Examples:
+
+- Research findings documented → commit immediately
+- Data file changed (ingredients, composites, tradition) → commit immediately
+- New script written → commit immediately
+- Docs updated (handoff, design notes) → commit immediately
+
+Tightly coupled changes (e.g. new engine function + its tests + the server tool
+that calls it) can go in one commit. Everything else: commit as you go.
+Push after each commit so work survives a session limit or crash.
+
 ## Working notes
 
 - Tests: `python -m pytest tests/ -q` (needs `pip install -e . pytest`).
