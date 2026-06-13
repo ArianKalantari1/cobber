@@ -17,7 +17,10 @@
       "pine"
     ],
     "notes": "Generic London dry profile; juniper-forward with citrus lift.",
-    "source": "Standard London dry botanical bill."
+    "source": "Standard London dry botanical bill.",
+    "taste": {
+      "bitter": 0.1
+    }
   },
   {
     "id": "vodka",
@@ -46,7 +49,10 @@
       "cane"
     ],
     "notes": "Light cane spirit; modelled minimally via vanilla/ester sweetness.",
-    "source": "TODO: verify (rum aroma is mainly fermentation esters not modelled here)."
+    "source": "TODO: verify (rum aroma is mainly fermentation esters not modelled here).",
+    "taste": {
+      "sweet": 0.15
+    }
   },
   {
     "id": "dark_rum",
@@ -64,7 +70,12 @@
       "spice"
     ],
     "notes": "Aged/molasses rum; warm-spice and vanilla oak notes.",
-    "source": "TODO: verify (molasses + barrel approximation)."
+    "source": "TODO: verify (molasses + barrel approximation).",
+    "taste": {
+      "sweet": 0.3,
+      "bitter": 0.1,
+      "funk": 0.2
+    }
   },
   {
     "id": "tequila",
@@ -80,7 +91,11 @@
       "vegetal"
     ],
     "notes": "Cooked-agave blanco.",
-    "source": "TODO: verify (cooked-agave volatiles not fully modelled)."
+    "source": "TODO: verify (cooked-agave volatiles not fully modelled).",
+    "taste": {
+      "bitter": 0.1,
+      "sour": 0.1
+    }
   },
   {
     "id": "mezcal",
@@ -96,7 +111,11 @@
       "earthy"
     ],
     "notes": "Smoky agave spirit; smoke phenols are not modelled in V1.",
-    "source": "TODO: verify (smoke/guaiacol fraction omitted)."
+    "source": "TODO: verify (smoke/guaiacol fraction omitted).",
+    "taste": {
+      "bitter": 0.15,
+      "funk": 0.4
+    }
   },
   {
     "id": "bourbon",
@@ -114,7 +133,11 @@
       "corn"
     ],
     "notes": "Corn whiskey with charred-oak vanilla/spice.",
-    "source": "TODO: verify (barrel-derived vanillin/oak-lactone approximation)."
+    "source": "TODO: verify (barrel-derived vanillin/oak-lactone approximation).",
+    "taste": {
+      "sweet": 0.35,
+      "bitter": 0.15
+    }
   },
   {
     "id": "rye_whiskey",
@@ -132,7 +155,11 @@
       "grain"
     ],
     "notes": "Higher-rye whiskey; peppery spice over oak.",
-    "source": "TODO: verify (rye spice + barrel approximation)."
+    "source": "TODO: verify (rye spice + barrel approximation).",
+    "taste": {
+      "bitter": 0.2,
+      "sweet": 0.1
+    }
   },
   {
     "id": "brandy",
@@ -149,7 +176,11 @@
       "warm"
     ],
     "notes": "Grape spirit with barrel vanilla.",
-    "source": "TODO: verify (grape base + barrel approximation)."
+    "source": "TODO: verify (grape base + barrel approximation).",
+    "taste": {
+      "sweet": 0.3,
+      "bitter": 0.1
+    }
   },
   {
     "id": "triple_sec",
@@ -169,7 +200,11 @@
     "source": "Orange-peel maceration.",
     "flavor_forward": [
       "orange"
-    ]
+    ],
+    "taste": {
+      "sweet": 0.7,
+      "bitter": 0.1
+    }
   },
   {
     "id": "cointreau",
@@ -189,7 +224,11 @@
     "source": "Sweet and bitter orange-peel blend.",
     "flavor_forward": [
       "orange"
-    ]
+    ],
+    "taste": {
+      "sweet": 0.65,
+      "bitter": 0.1
+    }
   },
   {
     "id": "sweet_vermouth",
@@ -296,7 +335,11 @@
     "source": "Elderflower maceration.",
     "flavor_forward": [
       "elderflower"
-    ]
+    ],
+    "taste": {
+      "sweet": 0.75,
+      "sour": 0.05
+    }
   },
   {
     "id": "maraschino",
@@ -316,7 +359,11 @@
     "source": "Marasca cherry distillate (whole fruit incl. stones).",
     "flavor_forward": [
       "cherry"
-    ]
+    ],
+    "taste": {
+      "sweet": 0.65,
+      "bitter": 0.2
+    }
   },
   {
     "id": "amaretto",
@@ -335,7 +382,11 @@
     "source": "Benzaldehyde-led almond liqueur.",
     "flavor_forward": [
       "almond"
-    ]
+    ],
+    "taste": {
+      "sweet": 0.8,
+      "bitter": 0.25
+    }
   },
   {
     "id": "coffee_liqueur",
@@ -355,7 +406,11 @@
     "source": "Coffee extract + vanilla.",
     "flavor_forward": [
       "coffee"
-    ]
+    ],
+    "taste": {
+      "sweet": 0.6,
+      "bitter": 0.3
+    }
   },
   {
     "id": "green_chartreuse",
@@ -373,7 +428,11 @@
       "complex"
     ],
     "notes": "Intensely herbal monastic liqueur.",
-    "source": "TODO: verify (130 secret botanicals; tiny representative subset)."
+    "source": "TODO: verify (130 secret botanicals; tiny representative subset).",
+    "taste": {
+      "bitter": 0.5,
+      "sweet": 0.35
+    }
   },
   {
     "id": "limoncello",
@@ -392,7 +451,11 @@
     "source": "Lemon-peel maceration.",
     "flavor_forward": [
       "lemon"
-    ]
+    ],
+    "taste": {
+      "sweet": 0.65,
+      "sour": 0.3
+    }
   },
   {
     "id": "angostura_bitters",
@@ -433,7 +496,12 @@
       "floral"
     ],
     "notes": "Lighter, anise-and-cherry-leaning bitters; the Sazerac bitter.",
-    "source": "TODO: verify (secret recipe; anise-forward representative bill)."
+    "source": "TODO: verify (secret recipe; anise-forward representative bill).",
+    "taste": {
+      "bitter": 0.8,
+      "sweet": 0.2,
+      "sour": 0.1
+    }
   },
   {
     "id": "orange_bitters",
@@ -451,7 +519,11 @@
       "spice"
     ],
     "notes": "Citrus-led cocktail bitters.",
-    "source": "Bitter-orange peel + warm spice."
+    "source": "Bitter-orange peel + warm spice.",
+    "taste": {
+      "bitter": 0.9,
+      "sour": 0.1
+    }
   },
   {
     "id": "scotch",
@@ -469,7 +541,11 @@
     "is_native": false,
     "season": null,
     "notes": "Peat/smoke compounds not yet in vocabulary. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "bitter": 0.15,
+      "funk": 0.2
+    }
   },
   {
     "id": "irish_whiskey",
@@ -487,7 +563,10 @@
     "is_native": false,
     "season": null,
     "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "sweet": 0.2
+    }
   },
   {
     "id": "cachaca",
@@ -503,7 +582,11 @@
     "is_native": false,
     "season": null,
     "notes": "Grassy sugarcane notes not yet in vocabulary. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "sweet": 0.1,
+      "funk": 0.2
+    }
   },
   {
     "id": "irish_cream",
@@ -550,7 +633,10 @@
     "source": "Provisional entry; see notes.",
     "flavor_forward": [
       "peach"
-    ]
+    ],
+    "taste": {
+      "sweet": 0.8
+    }
   },
   {
     "id": "apricot_brandy",
@@ -570,7 +656,11 @@
     "source": "Provisional entry; see notes.",
     "flavor_forward": [
       "apricot"
-    ]
+    ],
+    "taste": {
+      "sweet": 0.65,
+      "sour": 0.1
+    }
   },
   {
     "id": "sambuca",
@@ -590,7 +680,11 @@
     "source": "Provisional entry; see notes.",
     "flavor_forward": [
       "anise"
-    ]
+    ],
+    "taste": {
+      "sweet": 0.8,
+      "bitter": 0.05
+    }
   },
   {
     "id": "absinthe",
@@ -610,7 +704,10 @@
     "is_native": false,
     "season": null,
     "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "bitter": 0.4
+    }
   },
   {
     "id": "benedictine",
@@ -628,7 +725,11 @@
     "is_native": false,
     "season": null,
     "notes": "Herbal bill not fully decomposed. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "sweet": 0.5,
+      "bitter": 0.3
+    }
   },
   {
     "id": "galliano",
@@ -651,7 +752,11 @@
     "flavor_forward": [
       "vanilla",
       "anise"
-    ]
+    ],
+    "taste": {
+      "sweet": 0.7,
+      "bitter": 0.1
+    }
   },
   {
     "id": "blue_curacao",
@@ -672,7 +777,11 @@
     "source": "Provisional entry; see notes.",
     "flavor_forward": [
       "orange"
-    ]
+    ],
+    "taste": {
+      "sweet": 0.65,
+      "bitter": 0.1
+    }
   },
   {
     "id": "creme_de_cacao",
@@ -689,7 +798,11 @@
     "is_native": false,
     "season": null,
     "notes": "Cocoa compounds not yet in vocabulary. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "sweet": 0.8,
+      "bitter": 0.2
+    }
   },
   {
     "id": "creme_de_cassis",
@@ -710,7 +823,11 @@
     "flavor_forward": [
       "blackcurrant"
     ],
-    "imply_min_oz": 0.0
+    "imply_min_oz": 0.0,
+    "taste": {
+      "sweet": 0.7,
+      "sour": 0.2
+    }
   },
   {
     "id": "coconut_liqueur",
@@ -730,7 +847,11 @@
     "source": "Provisional entry; see notes.",
     "flavor_forward": [
       "coconut"
-    ]
+    ],
+    "taste": {
+      "sweet": 0.8,
+      "fat": 0.3
+    }
   },
   {
     "id": "raspberry_liqueur",
@@ -750,7 +871,11 @@
     "source": "Provisional entry; see notes.",
     "flavor_forward": [
       "raspberry"
-    ]
+    ],
+    "taste": {
+      "sweet": 0.7,
+      "sour": 0.15
+    }
   },
   {
     "id": "amaro_montenegro",
@@ -770,7 +895,11 @@
     "is_native": false,
     "season": null,
     "notes": "Soft/sweet/rosy amaro; priority coverage item. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "bitter": 0.45,
+      "sweet": 0.4
+    }
   },
   {
     "id": "citron_vodka",
@@ -964,7 +1093,11 @@
     "season": null,
     "notes": "Pomegranate syrup; decomposes to pomegranate for co-occurrence.",
     "source": "Provisional entry; see notes.",
-    "imply_min_oz": 0.0
+    "imply_min_oz": 0.0,
+    "taste": {
+      "sweet": 0.9,
+      "sour": 0.1
+    }
   },
   {
     "id": "creme_de_menthe",
@@ -986,7 +1119,10 @@
     "flavor_forward": [
       "mint"
     ],
-    "imply_min_oz": 0.0
+    "imply_min_oz": 0.0,
+    "taste": {
+      "sweet": 0.75
+    }
   },
   {
     "id": "cherry_liqueur",
@@ -1007,7 +1143,12 @@
     "source": "Provisional entry; see notes.",
     "flavor_forward": [
       "cherry"
-    ]
+    ],
+    "taste": {
+      "sweet": 0.65,
+      "sour": 0.1,
+      "bitter": 0.1
+    }
   },
   {
     "id": "pisco",
@@ -1025,7 +1166,10 @@
     "is_native": false,
     "season": null,
     "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "sweet": 0.1
+    }
   },
   {
     "id": "drambuie",
@@ -1046,7 +1190,11 @@
     "source": "Provisional entry; see notes.",
     "flavor_forward": [
       "honey"
-    ]
+    ],
+    "taste": {
+      "sweet": 0.6,
+      "bitter": 0.1
+    }
   },
   {
     "id": "calvados",
@@ -1067,7 +1215,11 @@
     "source": "Provisional entry; see notes.",
     "flavor_forward": [
       "apple"
-    ]
+    ],
+    "taste": {
+      "sweet": 0.2,
+      "sour": 0.1
+    }
   },
   {
     "id": "whole_egg",
@@ -1110,7 +1262,12 @@
     "is_native": false,
     "season": null,
     "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "sweet": 0.35,
+      "sour": 0.15,
+      "bitter": 0.1
+    }
   },
   {
     "id": "anisette",
@@ -1130,7 +1287,11 @@
     "source": "Provisional entry; see notes.",
     "flavor_forward": [
       "anise"
-    ]
+    ],
+    "taste": {
+      "sweet": 0.75,
+      "bitter": 0.05
+    }
   },
   {
     "id": "cynar",
@@ -1227,7 +1388,12 @@
       "almond",
       "ginger"
     ],
-    "imply_min_oz": 0.0
+    "imply_min_oz": 0.0,
+    "taste": {
+      "sweet": 0.65,
+      "sour": 0.15,
+      "bitter": 0.1
+    }
   },
   {
     "id": "ginger_liqueur",
@@ -1247,7 +1413,11 @@
     "source": "Provisional entry; see notes.",
     "flavor_forward": [
       "ginger"
-    ]
+    ],
+    "taste": {
+      "sweet": 0.55,
+      "bitter": 0.15
+    }
   },
   {
     "id": "allspice_dram",
@@ -1268,7 +1438,11 @@
     "flavor_forward": [
       "allspice"
     ],
-    "imply_min_oz": 0.0
+    "imply_min_oz": 0.0,
+    "taste": {
+      "sweet": 0.4,
+      "bitter": 0.2
+    }
   },
   {
     "id": "celery_bitters",
@@ -1358,6 +1532,10 @@
     "is_native": false,
     "season": null,
     "notes": "A middle between white and dark rum: lighter body than dark, with added baking spice (Ari). Shares dark rum's spice botanicals; body/lightness not modelled. PROVISIONAL.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "taste": {
+      "sweet": 0.25,
+      "bitter": 0.1
+    }
   }
 ]
