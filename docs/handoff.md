@@ -1,6 +1,6 @@
 # Handoff — current state of the co-occurrence work
 
-*Updated 13 June 2026 (proportion templates + technique mining + preference layer + taste backfill + nearest_by_profile/substitution lookup — all merged to main).
+*Updated 13 June 2026 (proportion templates + technique mining + preference layer + taste backfill + nearest_by_profile/substitution lookup + spice axis + cited-research data fills — all merged to main).
 Supersedes the original Copilot handoff. Read `docs/cobber-design-notes.md`
 first for the project's thinking; this file is "where we are and what's next".*
 
@@ -24,7 +24,17 @@ first for the project's thinking; this file is "where we are and what's next".*
   (`src/cobber/preferences.py` → `~/.cobber/preferences.json`); learns only
   through verified taste-curated ingredients (25 learnable now after taste
   backfill; 33 more once Ari de-provisions composites.json).
-- **Tests:** 66 passing (`python -m pytest tests/ -q`).
+- **Tests:** 74 passing (`python -m pytest tests/ -q`).
+- **Spice axis (13 June 2026):** 8th palate axis added — chemesthetic heat
+  (capsaicin/gingerol), grounded in the heat compound the entry already carries.
+  `balance()` flags it as a hazard note; kept OUT of the structure reading. On
+  ginger 0.8, hot_sauce 0.9, ginger_beer 0.7, ginger_ale 0.3, black_pepper 0.5.
+- **Cited-research data fills (13 June 2026):** cranberry (de-provisioned, GC-O
+  study), tonic_water (limonene + quinine-is-taste-not-aroma correction),
+  ginger_ale/ginger_beer split into ginger-derived composites, dark sugars
+  differentiated (demerara sotolon-alone confirmed; brown/maple gain cited
+  layers; kokuto added with its koku gap documented). Web-researched with
+  citations in each entry's `source`; see design-notes §15.
 - **Flavour families:** 22 diagnostic clusters in `data/flavor_communities.json`
   that read like a bar menu (daiquiri/mojito family, martini family,
   after-dinner cream-coffee family, tiki, mulled-wine spices…).

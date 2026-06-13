@@ -49,8 +49,14 @@ the way a bartender builds them.
   V2: data-derived NPMI from real cocktail recipes (FlavorGraph's method, bar-scale).*
 - **Novelty** = harmony × (1 − tradition). Chemically sound but rarely done. *The
   defensible core — the thing vanilla Claude is structurally bad at.*
-- **Taste axes** — sweet / sour / bitter / salty / umami / fat / funk. *V2.* Captures
-  taste/structure that aroma can't (e.g. umami from miso/shio koji).
+- **Taste axes** — sweet / sour / bitter / salty / umami / fat / funk / **spice**. *V2.*
+  Captures taste/structure that aroma can't (e.g. umami from miso/shio koji). Strictly
+  these are *palate* axes, not pure gustation: `fat` is mouthfeel, `funk` is aroma-led,
+  and `spice` (added 13 June 2026) is chemesthesis — the TRPV1 heat of capsaicin/gingerol,
+  a burn rather than a flavour, which `balance()` flags as a hazard note but keeps OUT of
+  the structure reading (heat is parallel to the sweet/sour/bitter/savoury shapes, not one
+  of them). Future mouthfeel axes (body, astringency, cooling) belong in this same set —
+  see §14.
 - **Texture / mouthfeel** — refreshing ↔ rich; driven by carbonation, dissolved solids
   (sugar, pectin), body, dilution, temperature. *Needs first-class treatment; emerges
   from technique + interaction, not static ingredient properties.* (Shrub example: an
@@ -298,3 +304,87 @@ winter cocktail). The narrative is what makes a menu drink real, and it stays hu
   thing that turns the project from theory into learning.
 - Day 1 post: lead with the chemistry-and-bartending hook. The Funky Cobber is real footage
   now, but hold the lemon aspen claim until that native data is verified.
+
+## 14. Mouthfeel / body axis + the FooDB track (recommendation, 13 June 2026)
+
+Ari's prompt: "we have the diff between brown and white sugar — but can we capture the
+mouthfeel a chef describes? the thick body of kokuto, the pop of carbonation, the dry grip
+of tannin?" This is the real ceiling of the current model and worth stating plainly.
+
+**Where the current model already reaches.** Aroma (compounds) + the palate axes
+(sweet/sour/bitter/salty/umami/fat/funk/spice) cover *taste and chemesthesis*. With the
+13 June research pass we can now distinguish white vs demerara vs brown vs maple vs kokuto
+by their cited Maillard chemistry, and `spice` captures ginger/chilli heat. Carbonation
+"pop" is already handled in the right place — the technique layer (any carbonated id →
+build/highball, never shake), because it is a preparation/texture concern, not a flavour.
+
+**Where it does NOT reach: body / viscosity / astringency.** There is no axis for the
+*physical* mouthfeel a chef leans on — the thick, clinging body of kokuto or molasses, the
+dry pucker of tannin in a high-tannin vermouth or red wine, the coating weight of a
+high-sugar syrup, the cooling of menthol. `fat` catches dairy/oil richness only. These are
+real things a bartender balances against and we currently can't express them.
+
+**Recommendation on the FooDB track (Ari asked for my call).** Do it, but as a *separate,
+later, build-time* track — not now, and not the way the aroma data was built. Reasoning:
+
+1. **FooDB is the right source for this and only this.** FlavorDB/FlavorGraph (our aroma
+   spine) catalog *volatiles*. FooDB catalogs *constituents* — sugars, proteins, fibre,
+   tannins, organic acids, minerals. That is exactly the body/astringency/mineral layer.
+   It is the correct tool for mouthfeel and the wrong tool for aroma; keep them separate.
+2. **But FooDB is sparse and NC-licensed.** ~5% of entries are quantified, distilled
+   spirits are under-curated, and the license (CC BY-NC) means reference-only, never bulk
+   ingest — same rule as every other source. So FooDB *informs* curated axis values; it
+   does not auto-populate them. Expect bartender calibration to remain the primary method,
+   with FooDB supplying the WHY (kokuto's body ← retained solids + minerals), exactly as
+   ChemTastesDB supplies the WHY for taste in §13.
+3. **Design the axes before fetching any data.** Proposed additions to the palate-axis set,
+   all 0..1, all flagged like `taste`: **`body`** (watery → syrupy/viscous; sugar syrup
+   high, soda 0), **`astringent`** (tannin grip; red wine / strong tea / unripe-fruit
+   tannin), and possibly **`cooling`** (menthol/mint TRPV-M8, the inverse of `spice`).
+   Each plugs into `balance()` as a note/structure input the same way `spice` did — small,
+   honest, one flag at a time. `body` in particular would finally let the register dial
+   (§4, summery↔wintery) weight "more body / less dilution = wintery" as designed.
+4. **Sequencing.** This is a session of its own: it touches the schema (`VALID_TASTE_AXES`),
+   `balance()` (new notes + maybe structure), the INSTRUCTIONS, and a fresh research pass.
+   It should land AFTER the current lookup/spice/research work is settled, and it pairs
+   naturally with the Part B verification pass (§13) since both are "go get the cited
+   constituent data." Treat the molasses/muscovado entries (deferred this session) as part
+   of it — they share the body story.
+
+**What we deliberately did NOT do this session, and why (honesty record).** We did not invent
+a sulfur compound for kokuto's koku, did not assign it an umami number, and did not add
+guaiacol/cyclotene/HMF (real but cited only at class level or absent from our vocabulary, and
+inert until a second ingredient shares them). Those gaps are written into the entry notes,
+not hidden — the same discipline as provisional flags.
+
+## 15. Research records — ingredient profiles (13 June 2026)
+
+Build-time research, web-sourced with citations, every claim verified before it landed; the
+host can hallucinate compounds, so uncertain items were flagged PROVISIONAL or left out for
+Ari, never fabricated. Full citations live in each entry's `source` field; summary here.
+
+- **cranberry** (HIGH) — key odorants from a GC-O/OAV study (Bult et al., *J. Agric. Food
+  Chem.* 2016, 64(24):4990, DOI 10.1021/acs.jafc.6b01150) + the Vaccinium benzoic-acid route
+  (Croteau 1968/1978): hexanal, beta-ionone, ethyl 2-methylbutyrate, benzaldehyde, octanal.
+  beta-ionone gives a real berry bridge to raspberry. De-provisioned. cranberry_vodka
+  inherits it via the composite union.
+- **tonic_water** (MEDIUM) — the honest correction: quinine is the defining bitterness but is
+  NON-volatile, so it lives on the bitter axis (0.8), not in `compounds`. Aroma = added citrus
+  oil (limonene). Kept PROVISIONAL: limonene confirmed for Fever-Tree's disclosed bitter-orange
+  oil, inferred for Schweppes ("natural flavors" proprietary). No tonic-water headspace GC-MS
+  paper was findable.
+- **ginger_ale / ginger_beer** — split into two `ginger`-derived composites (they were
+  profile-less placeholders / a single raw). Both inherit ginger's chemistry; `spice`
+  separates them (beer 0.7, ale 0.3). PROVISIONAL: mass-market ginger ale has ~no gingerol
+  (Canada Dry settlements, court-confirmed), so the craft-ginger assumption is flagged.
+- **dark sugars** — demerara confirmed sotolon-alone (Tokitomo 1980; the absence of heavier
+  Maillard products is its signature, de-provisioned); brown_sugar gains the cited roasty
+  layer (Chen 2022 *Molecules*; Food Chem 2021); maple gains vanillin + furaneol; kokuto added
+  with sotolon + cited pyrazine, its sulfur/koku character documented as a known gap (the
+  storage study names sulfur compounds only at class level — encoding a species or an umami
+  number would be fabrication). brown/maple/kokuto PROVISIONAL pending a full-text OAV pass.
+- **spice axis** — capsaicin (hot_sauce) and gingerol (ginger, ginger beer) finally have a
+  home; the axis is grounded in the heat compound the ingredient is already known to carry.
+- **Reviewer to-dos banked for Ari / Part B:** full-text OAV confirmation for brown sugar &
+  maple; name kokuto's sulfur species (then the savoury bridge can be modelled); a dedicated
+  molasses GC-MS pull; molasses + muscovado entries (deferred — see §14).
