@@ -1006,8 +1006,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Flavoured spirit; decomposes to base + flavour for co-occurrence. PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "notes": "Flavoured spirit; decomposes to base + flavour for co-occurrence. Compound profile now derives from cranberry (sourced — see cranberry entry) unioned over vodka (neutral).",
+    "source": "Derived from cranberry botanical; see cranberry entry sources."
   },
   {
     "id": "vanilla_vodka",

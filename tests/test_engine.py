@@ -171,6 +171,23 @@ def test_hot_sauce_heat_is_on_the_spice_axis():
     assert axes.get("spice", 0.0) >= 0.8
 
 
+def test_cranberry_bridges_to_raspberry_via_berry_note():
+    """Cranberry's researched profile shares beta-ionone with raspberry (a real bridge).
+
+    Cranberry was a profile-less placeholder; with cited GC-O odorants it now has
+    a chemistry to reason over, and beta-ionone is the violet/berry note both fruits
+    carry.
+    """
+    score, shared = engine.harmony("cranberry", "raspberry")
+    assert score > 0
+    assert "beta_ionone" in shared
+
+
+def test_cranberry_vodka_inherits_researched_cranberry_profile():
+    """The flavoured spirit derives its profile from the now-sourced cranberry entry."""
+    assert engine.profile("cranberry_vodka") >= {"hexanal", "beta_ionone"}
+
+
 def test_frontier_support_returns_attributed_evidence():
     """A pairing seen in the craft corpus comes back with count and examples."""
     evidence = engine.frontier_support("gin", "honey")

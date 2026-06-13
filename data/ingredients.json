@@ -1331,7 +1331,13 @@
     "display_name": "Tonic water",
     "type": "raw",
     "role": "bitter",
-    "compounds": [],
+    "compounds": [
+      "limonene"
+    ],
+    "taste": {
+      "bitter": 0.8,
+      "sweet": 0.3
+    },
     "descriptors": [
       "bitter",
       "quinine",
@@ -1339,8 +1345,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "notes": "Quinine is the defining bitterness but is NON-volatile (a taste, not an aroma) — so it sits on the bitter axis, not in compounds. Aroma comes from added citrus/bitter-orange oil, primarily limonene. PROVISIONAL: limonene confirmed for Fever-Tree's disclosed bitter-orange oil; inferred for Schweppes ('natural flavors' proprietary). Commercial tonic is sweetened (sweet 0.3).",
+    "source": "Fever-Tree disclosed bitter-orange oil; Citrus aurantium peel-oil composition (PMC6270488, PMC3353483); cinchona alkaloid non-volatility (cocktailsafe.org). See research log."
   },
   {
     "id": "cola",
@@ -1382,7 +1388,17 @@
     "display_name": "Cranberry",
     "type": "raw",
     "role": "fruit",
-    "compounds": [],
+    "compounds": [
+      "hexanal",
+      "beta_ionone",
+      "ethyl_2_methylbutyrate",
+      "benzaldehyde",
+      "octanal"
+    ],
+    "taste": {
+      "sour": 0.8,
+      "bitter": 0.2
+    },
     "descriptors": [
       "tart",
       "red",
@@ -1390,8 +1406,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "notes": "Key odorants from GC-O/OAV study (hexanal, beta-ionone, ethyl 2-methylbutyrate the fruity ester); benzaldehyde via the Vaccinium benzoic-acid route (almond/cherry hint); octanal a light citrus bridge. Tart/astringent taste (sour 0.8) per Ari.",
+    "source": "Bult et al., J. Agric. Food Chem. 2016, 64(24):4990 (DOI 10.1021/acs.jafc.6b01150); Croteau & Fagerson, J. Food Sci. 1968, 33(4); Croteau 1978 benzaldehyde biosynthesis."
   },
   {
     "id": "milk",
