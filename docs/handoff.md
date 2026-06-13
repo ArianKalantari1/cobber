@@ -1,6 +1,6 @@
 # Handoff — current state of the co-occurrence work
 
-*Updated 13 June 2026 (proportion templates + technique mining + preference layer + taste backfill — all merged to main).
+*Updated 13 June 2026 (proportion templates + technique mining + preference layer + taste backfill + nearest_by_profile/substitution lookup — all merged to main).
 Supersedes the original Copilot handoff. Read `docs/cobber-design-notes.md`
 first for the project's thinking; this file is "where we are and what's next".*
 
@@ -24,7 +24,7 @@ first for the project's thinking; this file is "where we are and what's next".*
   (`src/cobber/preferences.py` → `~/.cobber/preferences.json`); learns only
   through verified taste-curated ingredients (25 learnable now after taste
   backfill; 33 more once Ari de-provisions composites.json).
-- **Tests:** 51 passing (`python -m pytest tests/ -q`).
+- **Tests:** 66 passing (`python -m pytest tests/ -q`).
 - **Flavour families:** 22 diagnostic clusters in `data/flavor_communities.json`
   that read like a bar menu (daiquiri/mojito family, martini family,
   after-dinner cream-coffee family, tiki, mulled-wine spices…).
@@ -282,15 +282,27 @@ unmatched list now — mine it for aliases gradually, no need to clear it.
 
 ## OPEN IDEAS Ari raised (design decisions, not yet built)
 
-1. **"Cobber should look things up."** When an ingredient is unknown or only a
-   proxy, Ari wants Cobber to find what it is / nearest profile. This collides
-   with the core principle (deterministic, no network/LLM at runtime). Proposed
-   reconciliation, NOT yet built: (a) build-time research loop (host Claude +
-   Ari research a real profile → human-approved entry — the existing pattern);
-   (b) a deterministic `nearest_by_profile(id)` tool that returns the closest
-   known ingredients by shared compounds, so even a thin/proxy entry can say
-   "closest profiles are X, Y"; (c) keep live network/LLM OUT of the server.
-   Decide before building.
+1. **"Cobber should look things up." — DONE (13 June 2026, the deterministic
+   half).** Ari's decision: build the deterministic `nearest_by_profile` now;
+   defer brand-level data (Four Pillars etc.) to a future research-agent pass —
+   it's a data-gathering job, not architecture. Built:
+   - `engine.nearest_by_profile(id, n, candidates)` — closest known ingredients
+     by shared-compound Jaccard; honest `[]` for unknown/profile-less ids (no
+     fabricated neighbour). MCP tool `nearest_by_profile`.
+   - `engine.suggest_substitution(id, pantry, n)` — role-faithful pantry
+     stand-ins (a spirit for a spirit), ranked by chemistry; lime_vodka (harmony
+     1.0 with lime, but a spirit) is correctly NOT offered for lime. MCP tool
+     `suggest_substitution`. INSTRUCTIONS step 1 wires both into the resolve flow.
+   - `build_around` now carries `flavour_blanks` per suggestion: ingredients
+     with no aroma AND no taste (vodka, soda, tonic) whose zero harmony is a
+     blank canvas, not a clash. Data-driven (`not compounds and not taste`), so
+     sugar syrup is not flagged. INSTRUCTIONS step 3 relays it.
+   The no-network/no-LLM-at-runtime principle held — pure compound maths.
+   **Still open:** the build-time research loop for real brand/native profiles
+   (host Claude + Ari, or a research agent) — the lookup tools degrade gracefully
+   in the meantime instead of dead-ending. (Original reconciliation options were:
+   (a) build-time research loop; (b) `nearest_by_profile`; (c) keep network out
+   of the server — we shipped (b)+(c), banked (a).)
 2. **Chemistry-grounded taste provenance.** Taste axis *numbers* are fine, but
    Ari wants the WHY: bitterness from gentiopicroside/amarogentin (gentian),
    sourness from citric/malic acid, etc. Note a real gap — our compound
