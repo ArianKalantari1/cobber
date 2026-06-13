@@ -188,6 +188,99 @@ the original guesses here.*
   co-occurrence from. **TheCocktailDB** (free API) for broader corpus. **Difford's** for
   later breadth.
 
+## 13. Ingredient → flavour → compound: the research landscape (13 June 2026)
+
+This section records the result of a deep research pass on public datasets and methods for
+computing ingredient-level taste axes (sweet/sour/bitter/salty/umami) from compound-level
+data. Ari's question: "There must be some research on chemical compounds... bridging between
+ingredients into flavour and then compound." Here is what exists and what it means for Cobber.
+
+### The correct scientific framework: Dose-Over-Threshold (DoT / TAV)
+
+Perceived taste intensity maps from compound concentrations via:
+
+```
+DoT_i = concentration_i / taste_threshold_i
+```
+
+Compounds with DoT ≥ 1 are sensorially active. The ingredient's taste axis score is built
+by summing DoT values across all active compounds in a given taste class, then normalizing
+(log1p-scaled to 0..1, consistent with how Cobber already handles tradition). This is called
+Taste Activity Value (TAV) in the beer/wine literature. The Hofmann sensomics group at TU
+Munich validated this framework via aroma-recombination and omission experiments. Key paper:
+Hofmann et al. JAFC 2018 (Pot-au-Feu sensometabolome), DOI: 10.1021/acs.jafc.7b05089.
+
+**Critical caveat (Calvino et al., Chemical Senses 2007, DOI: 10.1093/chemse/bjm008):**
+different bitter compounds with identical DoT can produce markedly different suprathreshold
+intensities. DoT is an ordinal signal, not a ratio-scale intensity. Cross-class summation
+is an approximation.
+
+### What public datasets exist
+
+| Dataset | What it has | What it lacks | License | Download |
+|---|---|---|---|---|
+| **FooDB** (U. Alberta) | 1,000+ foods, 70K compound entries, concentrations | Only 5.3% of entries have measured concentrations; distilled spirits under-curated | CC BY-NC 4.0 | foodb.ca/downloads (~440MB CSV) |
+| **ChemTastesDB v2** (Milano, 2025) | 4,075 molecular tastants → taste class (bitter 1,615, sweet 1,313, umami 220, sour 49, salty 16) | No concentrations | CC BY 4.0 | zenodo.org/records/15051366 |
+| **FlavorDB2** (IIIT-Delhi) | 936 ingredients, 25,595 aroma molecules, compound-ingredient links | Presence/absence ONLY (not concentrations); "concentration" fields are FEMA additive levels, NOT natural ingredient levels | Unspecified (web access free) | Per-record only, no bulk download |
+| **FlavorGraph** (Korea U., Apache 2.0) | 6,653 ingredient nodes + 1,645 compound nodes + pre-trained 300D embeddings | Compound data is AROMA compounds from FlavorDB (same as what Cobber already tracks); no taste compounds; no concentrations | Apache 2.0 | GitHub: lamypark/FlavorGraph (nodes/edges CSV) |
+| **BitterDB** (Hebrew U., 2024) | ~2,400 bitter molecules with TAS2R receptor data | No bulk download; per-query SDF/SMILES | CC BY-NC (paper) | bitterdb.agri.huji.ac.il |
+| **SuperSweet** (Charité Berlin) | 8,000+ sweet compounds | No bulk download documented | CC BY-NC-SA 3.0 | bioinformatics.charite.de/sweet/ |
+| **Foodpairing Inspire KG** | 102 ingredients with taste/aroma/texture (includes vodka) | Only 102 ingredients; proprietary main DB (20K+ ingredients) costs | CC BY 4.0 | github.com/foodpairing/inspire_kg (Turtle RDF) |
+
+### Critical finding: terpenes ≠ taste
+
+**FlavorDB and FlavorGraph catalog AROMA compounds** (volatile terpenes, esters, alcohols).
+These are NOT the same as taste-active compounds. Gin's flavor is dominated by linalool,
+alpha-pinene, limonene — all detected by smell, not taste. Under the DoT framework these
+contribute zero to bitter/sweet/sour axes. Gin's taste profile is correctly near-neutral
+(bitter ~0.1 from minor botanical alkaloids; sweet ~0; sour ~0). This is why the
+FlavorDB/FlavorGraph pipeline CANNOT fill in spirit taste axes — it is the wrong class of
+compounds.
+
+Taste-active compounds are non-volatile: organic acids (sour), sugars/glycerol (sweet),
+bitter glycosides (gentiopicroside, amarogentin), tannins (astringency), glutamate (umami).
+FooDB covers these but only 5% are quantified, and distilled spirits are under-curated.
+
+### Why bartender expert knowledge is the right primary method
+
+No existing public dataset can reliably compute taste axes for cocktail spirits and
+proprietary liqueurs (campari's formula is secret; gin's terpenes are smell, not taste).
+The existing curated values (campari: bitter 0.8, sweet 0.4) come from bartender sensory
+knowledge — which is the only reliable method for this class of ingredients. The databases
+confirm the WHY (gentiopicroside from gentian root → bitter class in ChemTastesDB) but they
+cannot replace the VALUES (how bitter is campari in a cocktail context, calibrated 0..1).
+
+The FoodMine study (Hooton, Barabási, 2020, DOI: 10.1038/s41598-020-73105-0) found that
+even for garlic and cocoa — well-studied ingredients — FooDB was missing 48–72% of
+compounds detected in the published literature. Distilled spirits would be worse.
+
+### The full pipeline (for future Part B verification)
+
+If Ari wants to verify taste axis values against chemistry:
+
+1. **ChemTastesDB** (CC BY 4.0, Zenodo) → download; map our existing compound IDs to taste
+   class via SMILES or name matching. Immediately flags whether each aroma compound is ALSO
+   taste-active (most aren't, but some like gentiopicroside are).
+2. **FooDB** (CC BY-NC, 440MB CSV) → for each ingredient, pull quantified compound
+   concentrations. Filter to compounds in ChemTastesDB taste classes.
+3. **DoT aggregation** → `DoT = concentration / threshold`. Sum per taste class. Log1p-
+   normalize within corpus. Compare to curated values (should correlate if data is
+   complete).
+4. **Expert override** → where database data is thin (spirits, proprietary liqueurs), Ari's
+   bartender judgment takes precedence. The databases supply provenance; the values come
+   from the human.
+
+This pipeline is worth building as `scripts/verify_taste_axes.py` when Part B starts. For
+now, the bartender-calibrated values are correct.
+
+### What was implemented (13 June 2026)
+
+Taste axes added to 45 composites that were missing them, using bartender-calibrated values
+(researched methodology confirms this is the right approach for spirits and proprietary
+liqueurs). 25 composites are immediately learnable by the preference layer; 33 more will
+become learnable when Ari de-provisions their PROVISIONAL notes after compound verification.
+See handoff.md for the full learnable-after list.
+
 ## 11. The human / tool division
 
 Cobber does the *science of where to look* — grounded, novel, valid directions, research

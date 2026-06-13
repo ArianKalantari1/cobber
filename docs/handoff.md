@@ -1,6 +1,6 @@
 # Handoff — current state of the co-occurrence work
 
-*Updated 13 June 2026 (session, branch `claude/gallant-tesla-n1ad47`, PR #4).
+*Updated 13 June 2026 (proportion templates + technique mining + preference layer + taste backfill — all merged to main).
 Supersedes the original Copilot handoff. Read `docs/cobber-design-notes.md`
 first for the project's thinking; this file is "where we are and what's next".*
 
@@ -22,12 +22,15 @@ first for the project's thinking; this file is "where we are and what's next".*
   `data/technique_associations.json` (PROVISIONAL — Ari to review).
 - **Preference layer:** per-install local taste profile
   (`src/cobber/preferences.py` → `~/.cobber/preferences.json`); learns only
-  through verified taste-curated ingredients (15 learnable today — the
-  taste-axis backfill is the bottleneck).
+  through verified taste-curated ingredients (25 learnable now after taste
+  backfill; 33 more once Ari de-provisions composites.json).
 - **Tests:** 51 passing (`python -m pytest tests/ -q`).
 - **Flavour families:** 22 diagnostic clusters in `data/flavor_communities.json`
   that read like a bar menu (daiquiri/mojito family, martini family,
   after-dinner cream-coffee family, tiki, mulled-wine spices…).
+- **Taste-axis backfill (13 June 2026):** 45 composites added PROVISIONAL taste
+  profiles in `data/composites.json`. 25 composites are immediately learnable by
+  the preference layer; 33 more learnable after Ari de-provisions PROVISIONAL notes.
 
 ## Per-install taste-preference layer: DONE (13 June 2026)
 
@@ -318,6 +321,51 @@ unmatched list now — mine it for aliases gradually, no need to clear it.
   watch, not yet worth machinery.
 - Both drinks await Ari's tasting verdict — first entries for the future
   tasting-feedback loop.
+
+## Taste-axis backfill: DONE (13 June 2026)
+
+**The gap:** 15 learnable ingredients in the preference layer → can't learn from gin
+(2,147 recipes), bourbon, tequila, most liqueurs.
+
+**Research findings (deep compound-database investigation):**
+- FlavorDB / FlavorGraph catalog AROMA compounds only (terpenes, esters). These are NOT
+  taste-active → cannot fill sweet/sour/bitter axes for spirits. Gin's distinctive flavor
+  is linalool/pinene — aroma, not taste.
+- FooDB (CC BY-NC) has concentrations but only ~5.3% of entries are quantified; distilled
+  spirits are under-curated. Getting "gin has compound X at Y mg/L" for taste compounds
+  is not feasible from FooDB alone.
+- ChemTastesDB (CC BY 4.0, Zenodo) maps 4,075 compounds → taste class (bitter 1,615,
+  sweet 1,313, umami 220, sour 49, salty 16). Download at zenodo.org/records/15051366.
+- The correct scientific method is Dose-Over-Threshold: DoT = concentration/threshold;
+  compounds with DoT ≥ 1 are taste-active; sum DoT per taste class; log1p-normalize.
+- **Critical conclusion:** for cocktail spirits and proprietary liqueurs, bartender expert
+  knowledge IS the right primary method. Compound databases can confirm WHY (gentian →
+  gentiopicroside → bitter class in ChemTastesDB) but cannot replace the calibrated
+  0..1 value. See `docs/cobber-design-notes.md §13` for the full research record.
+
+**What was built:**
+- 45 composites in `data/composites.json` got PROVISIONAL taste profiles calibrated
+  from bartender knowledge (the same methodology already used for campari, vermouth, etc.)
+- **Immediately learnable** (no PROVISIONAL in notes — 25 composites):
+  gin, white_rum, dark_rum, tequila, mezcal, bourbon, rye_whiskey, brandy, triple_sec,
+  cointreau, sweet_vermouth, dry_vermouth, campari, aperol, st_germain, maraschino,
+  amaretto, coffee_liqueur, green_chartreuse, limoncello, angostura_bitters,
+  peychauds_bitters, orange_bitters, grenadine, whole_egg
+- **Learnable after Ari de-provisions** (remove "PROVISIONAL" from notes field — 33 more):
+  scotch, irish_whiskey, cachaca, irish_cream, peach_schnapps, apricot_brandy, sambuca,
+  absinthe, benedictine, galliano, blue_curacao, creme_de_cacao, creme_de_cassis,
+  coconut_liqueur, raspberry_liqueur, amaro_montenegro, creme_de_menthe, cherry_liqueur,
+  pisco, drambuie, calvados, sherry, anisette, cynar, fernet, averna, falernum,
+  ginger_liqueur, allspice_dram, celery_bitters, yellow_chartreuse, sloe_gin, spiced_rum
+- Vodka and flavored spirits intentionally skipped: vodka is neutral; flavored variants
+  decompose to base + flavor_forward, so their taste comes from implied components.
+- **Ari's action:** review the 25 immediately-learnable values and the 33 provisional ones;
+  adjust values where your palate disagrees; remove "PROVISIONAL" from notes for entries
+  you're satisfied with (the learner picks them up automatically on next feedback).
+
+**Future pipeline** (when Part B starts):
+  `scripts/verify_taste_axes.py` → download ChemTastesDB + optionally FooDB → DoT
+  aggregation → compare computed vs curated → flag discrepancies for Ari review.
 
 ## Roadmap: "what makes Cobber a real mixologist" (agreed direction)
 

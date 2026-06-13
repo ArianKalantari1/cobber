@@ -234,7 +234,7 @@ def personal_fit(ingredient_ids: list[str], prefs: dict | None = None) -> dict |
     curated_used: list[str] = []
     for ing_id in ingredient_ids:
         ingredient = engine.PANTRY.get(ing_id)
-        if ingredient is None or not ingredient.taste:
+        if ingredient is None or ingredient.provisional or not ingredient.taste:
             continue
         curated_used.append(ing_id)
         for axis, value in ingredient.taste:
