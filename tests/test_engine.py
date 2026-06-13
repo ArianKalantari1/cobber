@@ -210,6 +210,30 @@ def test_ginger_beer_is_carbonation_aware_in_technique():
     assert any("heat" in note.lower() for note in result["taste_notes"])
 
 
+def test_dark_sugars_are_now_mutually_distinct():
+    """demerara, brown sugar, and maple were all 'sotolon only' — now differentiated.
+
+    Each keeps sotolon (the cane/caramel backbone) but carries a distinct cited
+    layer, so they no longer have identical profiles.
+    """
+    demerara = engine.profile("demerara")
+    brown = engine.profile("brown_sugar")
+    maple = engine.profile("maple_syrup")
+    assert demerara == {"sotolon"}  # confirmed clean-caramel baseline
+    assert brown != demerara and maple != demerara and brown != maple
+    assert "sotolon" in (demerara & brown & maple)  # shared cane/caramel backbone
+
+
+def test_brown_sugar_bridges_to_coffee_and_butterscotch():
+    """Brown sugar's Maillard layer creates real culinary bridges demerara can't."""
+    # roasty pyrazine/furfural shared with coffee
+    assert engine.harmony("brown_sugar", "coffee")[1] & {"pyrazine", "furfural"}
+    # diacetyl shared with butter = the butterscotch bridge
+    assert "diacetyl" in engine.harmony("brown_sugar", "butter")[1]
+    # demerara (sotolon only) shares neither
+    assert engine.harmony("demerara", "coffee")[0] == 0.0
+
+
 def test_frontier_support_returns_attributed_evidence():
     """A pairing seen in the craft corpus comes back with count and examples."""
     evidence = engine.frontier_support("gin", "honey")

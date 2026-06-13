@@ -1277,16 +1277,22 @@
     "type": "raw",
     "role": "sweet",
     "compounds": [
-      "sotolon"
+      "sotolon",
+      "furfural",
+      "pyrazine",
+      "2_acetylpyrrole",
+      "diacetyl",
+      "phenylacetaldehyde"
     ],
     "descriptors": [
       "sweet",
-      "molasses"
+      "molasses",
+      "roasty"
     ],
     "is_native": false,
     "season": null,
-    "notes": "Molasses note (sotolon) distinguishes it from plain syrup. TODO: verify",
-    "source": "Provisional entry; see notes.",
+    "notes": "Higher molasses than demerara: on top of sotolon's caramel it carries the cited Maillard layer — pyrazine + 2-acetylpyrrole (roasty/nutty), diacetyl (buttery → butterscotch bridge to cream/butter), furfural, phenylacetaldehyde (honeyed). Bridges to coffee/wattleseed (pyrazine, furfural). This is the step up from demerara (sotolon alone). TODO: verify per-compound OAV against full text.",
+    "source": "Chen et al., Molecules 2022, 27(18):5878 (GC-O-MS brown sugar); Food Chem. 2021 S0308814620326881 (key aroma-active compounds). See research log.",
     "taste": {
       "sweet": 0.9
     }
@@ -1305,8 +1311,30 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Raw-cane caramel/molasses character; distinct from white sugar. TODO: verify",
-    "source": "Provisional entry; see notes.",
+    "notes": "Lightest of the molasses sugars: sotolon-dominant 'clean caramel'. The OTHER Maillard products (pyrazines, furans, pyrroles) that mark brown sugar and muscovado are minimal here — sotolon-alone is the citable distinguishing feature, not an unfinished profile. Distinct from white sugar (no aroma) and from brown sugar (which adds the roasty layer).",
+    "source": "Tokitomo et al., Proc. Japan Acad. Ser. B 1980, 56(7):457 (sotolon = key odorant of raw cane sugar). See research log.",
+    "taste": {
+      "sweet": 0.9
+    }
+  },
+  {
+    "id": "kokuto",
+    "display_name": "Kokuto (Okinawan black sugar)",
+    "type": "raw",
+    "role": "sweet",
+    "compounds": [
+      "sotolon",
+      "pyrazine"
+    ],
+    "descriptors": [
+      "molasses",
+      "malty",
+      "savoury"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Whole unrefined cane, long-boiled with all molasses + minerals retained. ENCODED CONSERVATIVELY: sotolon (high-confidence by inference for boiled cane) + pyrazine (cited 3-ethyl-2,5-dimethylpyrazine). KNOWN GAP, not hidden: kokuto's distinctive savoury/smoky 'koku' character comes from sulfur-containing compounds and dihydro-2-methyl-3(2H)-furanone (cited in the storage study) — but the source names them only at class level, so encoding a specific sulfur compound or an umami taste value would be fabrication. Its savoury reputation is real in sensory writeups; the umami number is NOT citable yet. PROVISIONAL — needs a full-text pass to name the sulfur species before the savoury bridge can be modelled.",
+    "source": "CiNii: 'Changes in physicochemical and flavor characteristics of Okinawan brown sugar Kokuto during storage' (crid 1050001338761071744) — sulfur compounds, 3-ethyl-2,5-dimethylpyrazine, dihydro-2-methyl-3(2H)-furanone. See research log.",
     "taste": {
       "sweet": 0.9
     }
@@ -1669,7 +1697,9 @@
     "type": "raw",
     "role": "sweet",
     "compounds": [
-      "sotolon"
+      "sotolon",
+      "vanillin",
+      "furaneol"
     ],
     "descriptors": [
       "maple",
@@ -1678,8 +1708,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Sotolon is the signature maple/fenugreek note. TODO: verify",
-    "source": "Provisional entry; see notes.",
+    "notes": "Signature is the sotolon + vanillin combo (plus furaneol caramel) — NOT a cane sugar, so it lacks the pyrazine/2-acetylpyrrole roasty load that brown sugar carries. Adding vanillin + furaneol is what makes maple distinct from demerara (which is sotolon-only). Cyclotene, its other marker, is not yet in the compound vocabulary. TODO: verify.",
+    "source": "Maple syrup HS-SPME GC-MS (ResearchGate 288646217); sotolon per Tokitomo 1980 / Wikipedia sotolon. See research log.",
     "taste": {
       "sweet": 0.85
     }
