@@ -188,6 +188,28 @@ def test_cranberry_vodka_inherits_researched_cranberry_profile():
     assert engine.profile("cranberry_vodka") >= {"hexanal", "beta_ionone"}
 
 
+def test_ginger_mixers_are_composites_inheriting_ginger_chemistry():
+    """ginger_ale and ginger_beer derive their profile from ginger, not an empty set.
+
+    Both were profile-less placeholders; restructured as ginger-derived composites
+    they now carry gingerol/zingiberene and a spice axis distinguishing the punchy
+    ginger beer (0.7) from the lighter ginger ale (0.3).
+    """
+    for mixer in ("ginger_ale", "ginger_beer"):
+        assert "gingerol" in engine.profile(mixer)
+    ale_spice = dict(engine.PANTRY.get("ginger_ale").taste)["spice"]
+    beer_spice = dict(engine.PANTRY.get("ginger_beer").taste)["spice"]
+    assert beer_spice > ale_spice  # the bite that makes a Mule a Mule
+
+
+def test_ginger_beer_is_carbonation_aware_in_technique():
+    """A Moscow Mule must not shake the ginger beer — carbonation is detected."""
+    assert engine._is_carbonated("ginger_beer")
+    result = engine.balance(["vodka", "lime", "ginger_beer"])
+    assert result["taste_axes"].get("spice", 0.0) >= 0.5
+    assert any("heat" in note.lower() for note in result["taste_notes"])
+
+
 def test_frontier_support_returns_attributed_evidence():
     """A pairing seen in the craft corpus comes back with count and examples."""
     evidence = engine.frontier_support("gin", "honey")

@@ -480,7 +480,7 @@ def suggest_template(ingredient_ids: list[str]) -> dict | None:
 # Role alone is insufficient: tonic is "bitter", ginger_ale is "sweet", sparkling_wine
 # is "aromatic" — so we check by id and display-name fragment.
 _CARBONATED_IDS: frozenset[str] = frozenset({
-    "soda_water", "tonic_water", "ginger_ale", "sparkling_wine",
+    "soda_water", "tonic_water", "ginger_ale", "ginger_beer", "sparkling_wine",
 })
 _CARBONATED_NAME_FRAGMENTS: tuple[str, ...] = (
     "soda", "tonic", "champagne", "prosecco", "cava", "sparkling",

@@ -1365,25 +1365,6 @@
     "source": "Provisional entry; see notes."
   },
   {
-    "id": "ginger_ale",
-    "display_name": "Ginger ale",
-    "type": "raw",
-    "role": "sweet",
-    "compounds": [],
-    "descriptors": [
-      "sweet",
-      "ginger",
-      "carbonated"
-    ],
-    "is_native": false,
-    "season": null,
-    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes.",
-    "flavor_forward": [
-      "ginger"
-    ]
-  },
-  {
     "id": "cranberry",
     "display_name": "Cranberry",
     "type": "raw",

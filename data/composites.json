@@ -1010,6 +1010,58 @@
     "source": "Derived from cranberry botanical; see cranberry entry sources."
   },
   {
+    "id": "ginger_ale",
+    "display_name": "Ginger ale",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "ginger"
+    ],
+    "flavor_forward": [
+      "ginger"
+    ],
+    "taste": {
+      "sweet": 0.5,
+      "bitter": 0.1,
+      "spice": 0.3
+    },
+    "descriptors": [
+      "sweet",
+      "ginger",
+      "carbonated"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Lighter, sweeter ginger mixer. Compound profile derives from ginger (sourced). Modelled as a craft/real-ginger ginger ale — mass-market (Canada Dry-style) has negligible gingerol (court-confirmed), so the ginger character is an assumption. Lower spice than ginger beer. PROVISIONAL — taste axes are Ari's estimates; craft assumption flagged.",
+    "source": "Derived from ginger botanical (Zingiber officinale GC-MS); craft/commercial distinction per research log (Canada Dry settlements)."
+  },
+  {
+    "id": "ginger_beer",
+    "display_name": "Ginger beer",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "ginger"
+    ],
+    "flavor_forward": [
+      "ginger"
+    ],
+    "taste": {
+      "sweet": 0.3,
+      "bitter": 0.3,
+      "spice": 0.7
+    },
+    "descriptors": [
+      "spicy",
+      "ginger",
+      "carbonated"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "The drier, punchier ginger mixer — the Moscow Mule / Dark & Stormy workhorse, and the AU bar staple (Fever-Tree very popular). Real ginger bite carries genuine heat (spice 0.7) and a bitter edge; less sweet than ginger ale. Compound profile derives from ginger (sourced). PROVISIONAL — taste axes are Ari's estimates.",
+    "source": "Derived from ginger botanical (Zingiber officinale GC-MS); taste axes per Ari."
+  },
+  {
     "id": "vanilla_vodka",
     "display_name": "Vanilla vodka",
     "type": "composite",
