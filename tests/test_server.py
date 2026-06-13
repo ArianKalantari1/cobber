@@ -37,3 +37,17 @@ def test_proxy_resolves_to_stand_in_and_announces():
     result = server.resolve_ingredients(["dubonnet"])
     assert result["resolved"].get("dubonnet") == "sweet_vermouth"
     assert any(s["input"] == "dubonnet" for s in result["substitutions"])
+
+
+def test_nearest_by_profile_tool_returns_ranked_neighbours():
+    """The tool wraps the engine and returns a non-empty ranked list for a known id."""
+    result = server.nearest_by_profile("lime", n=3)
+    assert result["nearest"], "a known ingredient should have nearest profiles"
+    assert "id" in result["nearest"][0]
+
+
+def test_nearest_by_profile_tool_is_honest_about_unknowns():
+    """An unknown id returns an empty list and a plain note, not a fabricated match."""
+    result = server.nearest_by_profile("definitely_not_a_real_ingredient")
+    assert result["nearest"] == []
+    assert "note" in result

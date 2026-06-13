@@ -393,6 +393,37 @@ def get_native_twist(base_id: str, n: int = 3) -> list[dict]:
 
 
 @mcp.tool()
+def nearest_by_profile(ingredient_id: str, n: int = 5) -> dict:
+    """Find the known ingredients whose flavour chemistry is closest to one id.
+
+    Use this when an ingredient is thin, a proxy, or you only half-know it: it
+    returns the closest profiles Cobber actually has, ranked by shared compounds,
+    so you can reason from a real neighbour ("I don't have much on Dubonnet, but
+    its closest profile here is sweet vermouth"). Deterministic — no lookup on the
+    network, just the compound maths.
+
+    Returns ``{"nearest": [{"id", "display_name", "role", "harmony",
+    "shared_compounds"}, ...]}``. The list is empty if the id is unknown or has no
+    compound profile to compare — in which case say so plainly rather than
+    guessing; a genuinely new ingredient needs a build-time entry, not invention.
+    """
+    ingredient = PANTRY.get(ingredient_id)
+    if ingredient is None:
+        return {
+            "nearest": [],
+            "note": f"I don't know {ingredient_id!r}, so I can't find a nearest profile.",
+        }
+    nearest = engine.nearest_by_profile(ingredient_id, n=n)
+    result = {"nearest": nearest}
+    if not nearest:
+        result["note"] = (
+            f"I have no compound profile for {ingredient.display_name}, so I can't "
+            "place it by chemistry — it needs a verified entry before I can reason about it."
+        )
+    return result
+
+
+@mcp.tool()
 def frontier_support(a: str, b: str) -> dict:
     """Check whether craft bartenders have validated a pairing in the wild.
 

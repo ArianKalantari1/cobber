@@ -91,6 +91,55 @@ def frontier_support(a: str, b: str) -> dict | None:
     return PANTRY.frontier.get(frozenset((a, b)))
 
 
+def nearest_by_profile(
+    ingredient_id: str,
+    n: int = 5,
+    candidates: list[str] | None = None,
+) -> list[dict]:
+    """Return the known ingredients whose chemistry is closest to ``ingredient_id``.
+
+    Pure harmony lookup: for every candidate, compute the shared-compound Jaccard
+    against the target and return those that share *something*, ranked by harmony.
+    This is the deterministic answer to Ari's "Cobber should look things up" — when
+    an entry is thin or a proxy (Dubonnet, a minimal native), Cobber can still say
+    "the closest profiles I know are X and Y" instead of dead-ending, without any
+    network or LLM call.
+
+    ``candidates`` restricts the search pool (e.g. to a user's pantry, for
+    substitution); the default searches every known ingredient. The target itself
+    and anything with no shared compounds are excluded. Returns ``[]`` when the
+    target is unknown or has no compound profile of its own to compare — honestly
+    empty rather than a fabricated neighbour.
+
+    Each item is ``{"id", "display_name", "role", "harmony", "shared_compounds"}``.
+    """
+    target = PANTRY.get(ingredient_id)
+    if target is None or not target.compounds:
+        return []
+
+    pool = candidates if candidates is not None else PANTRY.all_ids()
+    scored: list[dict] = []
+    for candidate_id in pool:
+        if candidate_id == ingredient_id:
+            continue
+        candidate = PANTRY.get(candidate_id)
+        if candidate is None:
+            continue
+        harmony_score, shared = harmony(ingredient_id, candidate_id)
+        if shared:
+            scored.append(
+                {
+                    "id": candidate_id,
+                    "display_name": candidate.display_name,
+                    "role": candidate.role,
+                    "harmony": round(harmony_score, 4),
+                    "shared_compounds": sorted(shared),
+                }
+            )
+    scored.sort(key=lambda item: item["harmony"], reverse=True)
+    return scored[:n]
+
+
 # Coarse taste prior per role, used when an ingredient has no curated `taste`
 # field. Deliberately conservative: spirits/aromatics/herbs/mixers contribute
 # nothing rather than a guess. Derived values are flagged in balance() output.

@@ -402,3 +402,45 @@ def test_technique_in_build_around_output():
         if tech is not None:
             assert "method" in tech
             assert "rationale" in tech
+
+
+# ---------------------------------------------------------------------------
+# nearest_by_profile tests (OPEN IDEA #1: "Cobber should look things up")
+# ---------------------------------------------------------------------------
+
+def test_nearest_by_profile_finds_chemical_neighbours():
+    """Closest profiles to lime must be real shared-compound neighbours, ranked."""
+    nearest = engine.nearest_by_profile("lime", n=5)
+    assert nearest, "lime should have chemical neighbours"
+    ids = [item["id"] for item in nearest]
+    # lemon and the native finger lime both genuinely share citral/limonene.
+    assert "lemon" in ids
+    assert "finger_lime" in ids
+    # Every returned neighbour must actually share something and be ranked desc.
+    assert all(item["shared_compounds"] for item in nearest)
+    harmonies = [item["harmony"] for item in nearest]
+    assert harmonies == sorted(harmonies, reverse=True)
+
+
+def test_nearest_by_profile_excludes_self():
+    """The target must never be returned as its own nearest neighbour."""
+    nearest = engine.nearest_by_profile("lime")
+    assert "lime" not in [item["id"] for item in nearest]
+
+
+def test_nearest_by_profile_empty_for_unknown_or_profileless():
+    """An unknown id (or one with no compounds) returns [] — honestly empty.
+
+    The never-invent rule applies here: a genuinely unknown ingredient has no
+    chemistry to compare, so Cobber returns nothing rather than a fabricated
+    neighbour. A build-time entry is the only honest fix.
+    """
+    assert engine.nearest_by_profile("does_not_exist") == []
+
+
+def test_nearest_by_profile_respects_candidate_pool():
+    """Restricting candidates confines the search to that pool (the substitution path)."""
+    nearest = engine.nearest_by_profile("lime", candidates=["lemon", "vodka", "mint"])
+    ids = {item["id"] for item in nearest}
+    assert ids <= {"lemon", "vodka", "mint"}
+    assert "lemon" in ids  # lemon shares citrus compounds with lime
