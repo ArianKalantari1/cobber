@@ -1,6 +1,6 @@
 # Handoff — current state of the co-occurrence work
 
-*Updated 11 June 2026 (evening session, branch `claude/gallant-tesla-n1ad47`).
+*Updated 13 June 2026 (session, branch `claude/gallant-tesla-n1ad47`, PR #4).
 Supersedes the original Copilot handoff. Read `docs/cobber-design-notes.md`
 first for the project's thinking; this file is "where we are and what's next".*
 
@@ -15,12 +15,154 @@ first for the project's thinking; this file is "where we are and what's next".*
 - Difford's + Kindred come from the cocktailApp CRAN package (LGPL-3,
   scraped 2017-18 by its author who disclaims copyright; we mirror it as a
   published research dataset — provenance noted in fetch_cocktailapp.py).
-- **Tests:** 18 passing (`python -m pytest tests/ -q`).
+- **Proportion templates:** 12 templates in `data/proportion_templates.json`
+  (10 k-means + 2 equal-parts overlays) from ~8,400 cocktailapp recipes.
+  PROVISIONAL — Ari to name the templates.
+- **Technique rules:** 10 priority-ordered rules in
+  `data/technique_associations.json` (PROVISIONAL — Ari to review).
+- **Preference layer:** per-install local taste profile
+  (`src/cobber/preferences.py` → `~/.cobber/preferences.json`); learns only
+  through verified taste-curated ingredients (15 learnable today — the
+  taste-axis backfill is the bottleneck).
+- **Tests:** 51 passing (`python -m pytest tests/ -q`).
 - **Flavour families:** 22 diagnostic clusters in `data/flavor_communities.json`
   that read like a bar menu (daiquiri/mojito family, martini family,
   after-dinner cream-coffee family, tiki, mulled-wine spices…).
 
-## Decisions made this session (and why)
+## Per-install taste-preference layer: DONE (13 June 2026)
+
+- **Ari's rulings that shaped it:** (1) NO public knowledge pooling — spam /
+  poisoning risk, deliberately rejected; (2) instead, each MCP install keeps
+  its own local preference document and Cobber learns THAT user's palate;
+  (3) Cobber must proactively ask for feedback after handing over a recipe
+  ("make it and tell me what you liked / what could be better").
+- **Storage:** `~/.cobber/preferences.json` (env-override `COBBER_PREFS_PATH`).
+  This is the ONLY thing the server ever writes; the shared scoring data
+  (ingredients/tradition/templates/technique) stays strictly read-only at
+  runtime, preserving the build-time/human-approved principle. The raw
+  feedback log is the source of truth; the derived profile is recomputed from
+  it on every write (order-independent, picks up data-file improvements).
+- **The quarantine rule (clean-data guard):** a verdict only teaches the
+  profile through ingredients that are BOTH non-provisional AND taste-curated.
+  Everything else is recorded but quarantined ("unattributed") — dirty data is
+  inert, not corrosive. This is what lets the preference layer ship before the
+  full Part B clean: bad data *can't* poison a palate model that refuses to
+  learn from it. Only 15 ingredients are learnable today — taste backfill on
+  high-frequency entries (gin 2,147 recipes, no curated taste!) is the
+  highest-leverage cleanup and a pending proposal for Ari.
+- **Matching:** `personal_fit` = 0.5 + 0.35·cosine(palate vector, drink taste
+  vector) + 0.15·direct ingredient affinity, clipped to [0,1]. Cosine (not
+  dot product) so a one-note drink can't max a single liked axis and outrank
+  a drink matching the user's whole balance — caught by test: sugar syrup was
+  outranking a Negroni for a Negroni lover under the dot product.
+- **Cold start honesty:** < 3 verdicts → `personal_fit` returns None; fully
+  uncurated combinations → None. No fake numbers.
+- **Tools:** `record_tasting_feedback` (free-text ingredients resolved via
+  the same resolver; unresolved names stored, never coerced) and
+  `get_taste_profile`. `suggest_from_pantry` attaches `personal_fit` per
+  suggestion once 3+ verdicts exist. INSTRUCTIONS step 7 teaches the
+  ask-for-feedback loop and the two honesty rules (announce quarantined
+  ingredients; never claim to know a palate from a handful of verdicts).
+
+## Technique mining: DONE this session (12 June 2026)
+
+- **Source data:** 441 TheCocktailDB (strInstructions) + 77 IBA (preparation field)
+  → 486 annotated recipes, 32 unparseable.
+- **Script:** `scripts/mine_techniques.py` → `data/technique_associations.json`.
+  Outputs per-recipe annotations (audit trail), signal→technique frequency tables,
+  and 10 priority-ordered rules.
+- **Rules (priority order):**
+  1. `egg_white` → dry_shake + shake, coupe up (data: 80% of egg-white recipes shake)
+  2. `carb_only` (spirit + soda, no acid) → build, highball (G&T, Highball)
+  3. `herb+acid+carb` (Mojito) → muddle + build, highball, top w/soda
+  4. `acid+carb`, no herb (Collins, Gin Fizz) → shake base, highball, top w/soda
+  5. `dairy+acid` (cream sour) → shake, coupe up (data: 29% — noisy)
+  6. `dairy`, no acid (White Russian) → build, rocks/big ice cube (data: 28%)
+  7. `acid`, no carb (Daiquiri, Whiskey Sour) → shake, coupe up (data: 49% — noisy)
+  8. `herb`, no acid (Mint Julep) → muddle + build, rocks (data: 40%)
+  9. `spirit_only` (Old Fashioned, Negroni, Manhattan) → stir, rocks (data: 41%)
+  10. `default` → build, rocks
+- **Engine:** `suggest_technique(ingredient_ids)` in engine.py; `_detect_technique_signals()`
+  maps Cobber ingredient IDs to signals (role + specific ID checks for carbonated ingredients,
+  which span multiple roles: soda_water=mixer, tonic_water=bitter, ginger_ale=sweet,
+  sparkling_wine=aromatic). `build_around()` now includes `technique` field alongside `template`.
+- **MCP tool:** `suggest_technique` exposed as standalone tool; server INSTRUCTIONS step 5
+  updated to relay technique + service + pre_steps to Cobber.
+- **Spot-checked (all verified against real recipes):** Daiquiri→shake/coupe,
+  Negroni→stir/rocks, Old Fashioned→stir/rocks, G&T→build/highball,
+  Whiskey Sour+egg→dry_shake+shake/coupe, Tom Collins→shake+top/highball,
+  Mojito→muddle+build+top/highball, White Russian→build/rocks (after the dairy split).
+- **RESOLVED — cream-without-acid ambiguity (deliberately NOT over-engineered).**
+  The corpus splits this family almost evenly: shake 31% / build 28% / blend 15%
+  / layer 15% / stir 11% — i.e. no signal. Two real sub-families share the same
+  ingredient signature: built sippers (White Russian, Sombrero → build/rocks)
+  and shaken dessert cocktails (Brandy Alexander, Grasshopper → shake/up).
+  Decision (Ari): the `dairy_build` rule defaults to build/rocks (Ari's White
+  Russian call) and carries an `ambiguous: true` flag + `ambiguity_note` that
+  tells the host to shake-and-serve-up for dessert cocktails. We deliberately did
+  NOT build a coffee-vs-crème-liqueur heuristic — when the data has no signal,
+  inventing a deterministic rule fakes confidence the data doesn't support (same
+  failure mode as a fabricated recipe). The host already knows the difference;
+  the flag just makes the engine honest about it. One flag, not a taxonomy.
+- **Naming-accuracy pass:** removed a fabricated cream "White Lady" (the classic
+  is gin + Cointreau + lemon, no cream) and an incorrect "Irish Coffee" example
+  (it's a hot, cream-floated drink, not a built-over-ice one); corrected the
+  no-acid herb example from "Smash" (has citrus → shaken) to "Mint Julep".
+- **Tests:** 9 new technique tests; 42 total passing.
+- PROVISIONAL — Ari to review rule priorities and rationale text.
+
+## Decisions made this session (12 June 2026) — proportion templates
+
+1. **Two role vocabularies, not one.** Cobber's 10-role balance vocabulary
+   (spirit/sour/sweet/bitter/aromatic/fruit/herb/dairy/mixer/seasoning) is
+   designed for balance checks, not proportion clustering. Templates use a
+   separate 9-role *structural* vocabulary (spirit/liqueur/amaro/
+   vermouth_fortified/acid/sweet/juice_mixer/lengthener/egg_cream) that maps
+   onto cocktail-structure archetypes (Sour, Old Fashioned, Negroni, Highball,
+   Flip). Bridged in engine.py via `_TEMPLATE_ROLE_BY_COBBER_ROLE` +
+   per-ingredient overrides (`_TEMPLATE_ROLE_OVERRIDES`). The two vocabularies
+   remain decoupled — balance uses its own, templates use theirs.
+2. **K-means at k=10, plus two equal-parts overlays.** Silhouette analysis
+   (k=5..14) peaked at k=5 (0.296) but that's too coarse for practical use
+   (Old Fashioned and Daiquiri collapse together). k=10 (0.266) gives usable
+   granularity. K-means *cannot* reliably discover equal-thirds clusters
+   (Negroni, Last Word) because those drinks sit exactly on centroid boundaries
+   — at k=9+ Negroni splits between "Amaro Build" and "Spirit+Vermouth". Fix:
+   a post-hoc equal-parts overlay detector with specific role-family criteria:
+   Negroni-style (spirit+amaro+vermouth_fortified each ≥25%, within 12%,
+   sum ≥75%), Last Word-style (spirit+liqueur+amaro+acid each ≥18%, within
+   12%, sum ≥75%). Result: 107 Negroni-overlay drinks, Negroni confirmed as
+   benchmark; 88 Last Word-overlay drinks.
+3. **Classifier bug fixed: brandies are spirits.** `cognac`, `calvados`,
+   `armagnac`, `pisco`, and `grappa` were initially in the liqueur keyword
+   list ("brandies often as modifiers") — wrong. They are base spirits and
+   belong in `_SPIRIT_CHECK`. The bug caused the Sidecar's cognac base to be
+   classified as liqueur, landing it in a "Liqueur-Forward" cluster. Fix
+   verified: Sidecar now correctly lands with Cosmopolitan/Margarita in the
+   Spirit+Liqueur cluster.
+4. **Pre-filter for absent roles prevents semantic mismatches.** Without it,
+   Old Fashioned (bourbon + bitters [excluded] + sugar = spirit 50%, sweet
+   50%) was closest to the Sour template (spirit 50%, acid 21%, sweet 16%)
+   because the L2 distance didn't penalise a missing acid dimension. Fix:
+   before computing distance, exclude any template that requires ≥10% of a
+   role absent from the combination. Old Fashioned → Spirit-Forward ✓;
+   Gimlet (spirit + lime) → Sour ✓; Highball (spirit + soda) → Highball ✓.
+5. **Proportions as fractions (0–1), not ml.** Pour culture is not uniform:
+   AU bars cap ~60 ml spirit, US guides pour bigger. All template centroids
+   are fractions of total pour volume. The host Claude scales to the session's
+   pour culture (e.g. "pick 45 ml spirit, scale everything else"). This also
+   makes the dose-gating proportion switch (roadmap concern) straightforward
+   when it lands.
+6. **All template names PROVISIONAL — Ari's bartender review required.**
+   `suggested_name` values in `data/proportion_templates.json` are
+   descriptive placeholders from the clustering (e.g. "Spirit-Forward Build",
+   "Sour Template", "Negroni Equal-Thirds"). Ari reviews the benchmarks +
+   centroids and renames before the engine treats any name as canonical.
+   The server INSTRUCTIONS already tell the host to use the structural
+   description ("a Sour-style build") rather than the template name when
+   PROVISIONAL — so the data gap is safe to ship.
+
+## Decisions made prior (and why)
 
 1. **Tradition = log-scaled prevalence, not raw NPMI.** Raw NPMI structurally
    zeroes ubiquitous classics (gin+lime scored 0.0 → the engine called a
@@ -56,9 +198,10 @@ first for the project's thinking; this file is "where we are and what's next".*
   `lillet`/`cocchi → dry_vermouth`, `bianco → sweet_vermouth`) are now surfaced
   at resolve time (see the de-proxying section below); revisit if they get
   their own entries. (yellow chartreuse / sloe gin / spiced rum already split.)
-- Dose thresholds are in absolute oz and US-normed. When ratio/strength
-  modelling lands, switch to proportion-of-drink (pour-culture independent —
-  Ari notes AU bars cap ~60 ml spirit per drink, US guides pour bigger).
+- Dose thresholds are in absolute oz and US-normed (normalize.py
+  `DEFAULT_IMPLY_MIN_OZ = 0.45`). Proportion templates now store fractions,
+  so the switch to proportion-of-drink is straightforward once Ari confirms
+  the templates — update normalize.py and remove this watch item then.
 - Many new entries are PROVISIONAL (flagged in `notes`) — compound profiles
   need a verification pass (Part B-style, with citations).
 - Token usage at runtime is a non-issue: the MCP server loads data into
@@ -180,25 +323,53 @@ unmatched list now — mine it for aliases gradually, no need to clear it.
 
 Priority order set with Ari after the two live runs:
 
-1. **Ratios / proportion templates (NEXT).** The cocktailApp extract holds
-   exact proportions for ~98k pours, unused. Cluster recipes by proportion
-   structure to learn the canonical templates (sour 2:1:1, Old Fashioned,
-   equal-thirds Negroni, highball...) so suggestions come with measured
-   ratios ("this wants the sour template: 45/25/20"), not host-invented
-   numbers. Also makes dose-gating proportion-based (kills the US/AU pour
-   issue) and is the foundation for texture + strength modelling.
-2. **Technique mining.** TheCocktailDB instructions + IBA preparation fields
-   are unmined: learn ingredient↔technique associations (citrus+egg→shake,
-   spirit-only→stir, cream+acid→clarify-or-avoid). Design notes call this
-   the biggest conceptual gap; it is also the chef-crossover dimension.
-3. **Tasting-feedback loop.** Started informally: Ari's verdicts on The
-   Broth Decision and Myrcene Season are the first entries. Formalize as
-   data/tasting_log.json once a few verdicts exist; verdicts should be able
-   to adjust pairing confidence. Long-term this is the most defensible asset
-   (a model tuned by a working bartender's palate).
+1. **Ratios / proportion templates — DONE, pending Ari's naming review.**
+   12 templates in `data/proportion_templates.json` (10 k-means + 2 equal-
+   parts overlays) from 8,416 cocktailapp recipes. `suggest_template()` in
+   engine.py matches any ingredient combination to the nearest template and
+   returns per-ingredient fractions; `build_around()` now includes a `template`
+   field in every suggestion. Server INSTRUCTIONS updated for step 5. 7 new
+   tests, 32 total. **OPEN:** Ari to review benchmark drinks + centroids and
+   name each template; until then all names are PROVISIONAL and the host uses
+   structural descriptions. Dose-gating-to-proportions deferred (roadmap
+   concern) — remove the absolute-oz watch item above once templates are
+   confirmed.
+2. **Technique mining — DONE.** 10 priority-ordered rules in
+   `data/technique_associations.json` from 486 annotated TheCocktailDB+IBA
+   recipes. `suggest_technique()` in engine.py, exposed as MCP tool, included
+   in every `build_around` suggestion. **OPEN:** Ari to review rule priorities
+   and rationale text.
+3. **Tasting-feedback loop — DONE as the per-install preference layer**
+   (see section above). Ari ruled OUT public knowledge pooling; the layer is
+   personal per install. **Remaining (Ari-side):** the curated global
+   `data/tasting_log.json` — Ari's own verdicts (The Broth Decision, Myrcene
+   Season pending) promoted by hand to adjust *pairing confidence* in the
+   shared data. That stays a build-time, human-approved file, separate from
+   the per-user layer. **Bottleneck:** taste-axis backfill (only 15
+   ingredients are learnable; gin appears in 2,147 recipes with no curated
+   taste) — top-15 proposal drafted, awaiting Ari's values.
 4. **Part B verification/citation pass** — parallel track for
    research-flavoured sessions; REQUIRED before any public claim. Includes
    the natives and the taste-provenance idea (bitterness from amarogentin,
-   not just "bitter 0.8").
+   not just "bitter 0.8"). **Candidate public sources for the taste gap**
+   (from model memory, 13 June 2026 — VERIFY existence + license before any
+   ingest; per project principle, reference-only, never bulk-ingested):
+   ChemTastesDB (~2,900 molecules with taste classes; best for provenance),
+   BitterDB (bitter compounds + receptors), FooDB (food constituents WITH
+   concentrations — closest to ingredient-level), FlavorDB2 (already noted in
+   design docs as reference-only), Good Scents Company (per-compound
+   organoleptic notes; licensing murky — cite-only), VCF (authoritative but
+   paid — out). Structural catch: these are compound-level; our `taste` axes
+   are ingredient-level palate intensities, so numbers come from Ari's
+   bartender judgment spot-checked against the DBs, and the DBs supply the
+   WHY (provenance) at Part B.
 5. **Register dial** (summery↔wintery) — after 1+2, since it weights taste +
    texture + technique.
+6. **Agent-loop refinement search (far future — Ari's idea, banked).**
+   Inspired by a hackathon-winning protein-compound architecture: an agent
+   loop that iterates candidate combinations with minimal differences,
+   re-scoring each pass, until it converges on something genuinely new
+   rather than stopping at the first plausible answer. Would sit ABOVE the
+   deterministic engine (the host loops; the server stays dumb), so it does
+   not violate the no-LLM-at-runtime principle. Not designed yet; revisit
+   after the preference layer has real usage data.

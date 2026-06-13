@@ -14,7 +14,7 @@ import difflib
 
 from mcp.server.fastmcp import FastMCP
 
-from . import engine
+from . import engine, preferences
 from .data import Ingredient
 
 PANTRY = engine.PANTRY
@@ -74,14 +74,43 @@ Workflow when someone tells you what they have:
    pair: if craft bartenders have done it, cite the named example; if not, say
    it's genuinely untried as far as the data knows. That distinction is the
    whole point of Cobber.
-5. Take the best one or two suggestions and write them up as real cocktails:
-   method, ratios, glass, garnish, and a name. Ground every "why" you give in
-   `explain_pairing` so your reasoning matches the actual shared compounds — never
-   invent flavour chemistry.
+5. Take the best one or two suggestions and write them up as real cocktails.
+   Each suggestion now includes `template` (proportions) and `technique`
+   (preparation method) fields — both learned from real recipes.
+   Proportions:
+   - Use `ingredient_proportions` as starting ratios (fractions 0–1, not ml).
+     Pick a spirit volume (45 ml AU / 60 ml US), scale everything else.
+   - If the template name is PROVISIONAL, use the structural description.
+   - If no template matched, write ratios from your own bar knowledge.
+   Technique:
+   - The `technique` field gives you `method` (shake/stir/build/blend),
+     `service` (up/rocks/highball), `glass`, `pre_steps` (dry_shake, muddle),
+     and a `rationale` explaining why. Use these directly — don't invent a
+     preparation method without checking this first.
+   - Key rules: never shake after adding carbonation (add it last);
+     egg white needs a dry shake first; citrus→shake; spirit-only→stir.
+   - `rule_notes` on the technique output flags low-confidence cases —
+     mention this if the technique is a strong heuristic, not a certainty.
+   Method, glass, garnish, and a name come from you. Ground every "why" in
+   `explain_pairing` so your reasoning matches the actual shared compounds —
+   never invent flavour chemistry.
 6. If any ingredient in the final recipe was flagged `provisional`, the write-up
    itself MUST carry a one-line data-confidence note (e.g. "Heads up: my miso
    profile is unverified — this bridge is a strong hunch, not settled
    chemistry"). Not optional, not fine print to drop: it is part of the recipe.
+7. Close the loop — this is how Cobber learns a palate. After handing over a
+   recipe, ASK the user to report back when they actually make it: what they
+   liked, what they'd change, even a one-word verdict. When feedback arrives,
+   call `record_tasting_feedback` (verdict: loved/liked/ok/disliked/hated).
+   Cobber keeps a small taste profile for THIS install only — nothing is
+   pooled or shared anywhere. At the start of a pantry session, call
+   `get_taste_profile` to see who you're mixing for, and say when you're
+   using it ("you've leaned bitter lately, so I went amaro-forward").
+   Suggestions carry a `personal_fit` score (0.5 = neutral) once 3+ verdicts
+   exist. Two honesty rules: if the feedback tool reports ingredients as
+   `quarantined`, tell the user those couldn't teach the profile because
+   their data is unverified; and never claim to know someone's taste off
+   fewer than a handful of verdicts.
 """
 
 mcp = FastMCP("Cobber the Mixologist", instructions=INSTRUCTIONS)
@@ -240,6 +269,18 @@ def suggest_from_pantry(
         suggestions = engine.build_around(pantry, anchors, native_twist, n)
     except ValueError as exc:
         return {"error": str(exc)}
+    # Personal layer (additive): score each suggestion against this install's
+    # tasting history. A corrupt or missing local preference file must never
+    # break the core suggestion path, hence the broad guard.
+    try:
+        prefs = preferences.load_prefs()
+        if len(prefs.get("feedback", [])) >= preferences.MIN_FEEDBACK_FOR_FIT:
+            for suggestion in suggestions:
+                suggestion["personal_fit"] = preferences.personal_fit(
+                    suggestion["ingredients"], prefs
+                )
+    except Exception:
+        pass
     return {"suggestions": suggestions, "provisional": _provisional_among(pantry)}
 
 
@@ -364,6 +405,98 @@ def frontier_support(a: str, b: str) -> dict:
     if evidence is None:
         return {"supported": False, "count": 0, "examples": []}
     return {"supported": True, **evidence}
+
+
+@mcp.tool()
+def suggest_technique(ingredient_ids: list[str]) -> dict:
+    """Suggest preparation technique and service style for a set of ingredient ids.
+
+    Returns ``{"method", "service", "glass", "ice_in_glass", "pre_steps",
+    "rationale", "matched_rule"}`` — plus ``"carbonation_note"`` when the build
+    involves a carbonated top-up.
+
+    Key signals used: egg white (dry shake first), carbonation (build/highball,
+    never shake after adding), acid/citrus (shake), dairy (shake), fresh herbs
+    (muddle first), spirit-only (stir). Use this to choose the preparation method
+    rather than inventing one; the rationale field explains the reasoning.
+    """
+    result = engine.suggest_technique(ingredient_ids)
+    if result is None:
+        return {
+            "method": "build",
+            "service": "rocks",
+            "glass": "rocks",
+            "ice_in_glass": True,
+            "pre_steps": [],
+            "rationale": "No technique rules loaded — default build over ice.",
+            "matched_rule": "fallback",
+        }
+    return result
+
+
+@mcp.tool()
+def record_tasting_feedback(
+    drink_name: str,
+    ingredients: list[str],
+    verdict: str,
+    liked: list[str] | None = None,
+    could_improve: str = "",
+    notes: str = "",
+) -> dict:
+    """Record the user's verdict on a drink they actually made.
+
+    ``verdict`` is one of loved/liked/ok/disliked/hated; ``liked`` holds
+    free-text aspects ("the smoky finish"), ``could_improve`` what they'd
+    change ("less sweet next time"). Pass ingredient names as the user said
+    them — they are resolved to known ids here.
+
+    This writes ONLY to this install's local preference document
+    (~/.cobber/preferences.json) — never to Cobber's shared flavour data, and
+    nothing is pooled across users. The response says which ingredients were
+    ``quarantined`` (recorded but not learned from, because their data is
+    unverified) — relay that to the user honestly.
+    """
+    resolved_ids: list[str] = []
+    unresolved: list[str] = []
+    for name in ingredients:
+        ingredient_id, _ = _resolve_one(name)
+        if ingredient_id is None:
+            unresolved.append(name)
+        else:
+            resolved_ids.append(ingredient_id)
+    try:
+        return preferences.record_feedback(
+            drink_name=drink_name,
+            ingredient_ids=resolved_ids,
+            verdict=verdict,
+            liked=liked,
+            could_improve=could_improve,
+            notes=notes,
+            unresolved_names=unresolved or None,
+        )
+    except ValueError as exc:
+        return {"error": str(exc)}
+
+
+@mcp.tool()
+def get_taste_profile() -> dict:
+    """What Cobber has learned about THIS install's palate from past feedback.
+
+    Returns feedback_count, axis_weights (e.g. bitter +0.4 means the user has
+    liked bitter-leaning drinks), top liked/disliked ingredients, and the
+    unattributed list (feedback Cobber refused to learn from because the
+    ingredient data is unverified). Call at the start of a pantry session to
+    bias direction — and say so out loud when you do. With fewer than 3
+    verdicts, treat the profile as anecdote, not knowledge.
+    """
+    prefs = preferences.load_prefs()
+    summary = preferences.profile_summary(prefs)
+    if summary["feedback_count"] == 0:
+        summary["note"] = (
+            "No tasting feedback recorded yet on this install — ask the user "
+            "to report back when they make a drink."
+        )
+    return summary
 
 
 def main() -> None:

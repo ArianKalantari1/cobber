@@ -15,6 +15,7 @@ why the public signatures take plain ids rather than a pantry argument.
 
 from __future__ import annotations
 
+import math
 from itertools import combinations
 
 from . import data
@@ -218,6 +219,286 @@ def balance(ingredient_ids: list[str]) -> dict:
     }
 
 
+# ---------------------------------------------------------------------------
+# Proportion template matching
+# ---------------------------------------------------------------------------
+
+# The templates use a different role vocabulary from Cobber's ingredient roles
+# (which are designed for taste-balance rather than structural shape). This
+# mapping bridges them. Per-ingredient overrides handle the cases where a
+# Cobber role maps to two distinct template roles (e.g. "bitter" covers both
+# aromatic bitters like Angostura and amaro-class modifiers like Campari).
+_TEMPLATE_ROLE_BY_COBBER_ROLE: dict[str, str] = {
+    "spirit":    "spirit",
+    "sour":      "acid",
+    "sweet":     "sweet",       # syrups, honey; some liqueurs also here (see overrides)
+    "bitter":    "amaro",       # composites: Campari, Fernet, Cynar, etc.
+    "dairy":     "egg_cream",
+    "mixer":     "lengthener",
+    "fruit":     "juice_mixer",
+    "aromatic":  "vermouth_fortified",  # vermouths, aromatized wines
+    "herb":      "other",
+    "seasoning": "other",
+}
+
+# Per-ingredient overrides for cases the role mapping can't distinguish.
+# Cobber's "bitter" role includes both small-dose aromatic bitters (which are
+# excluded from the template vector as seasoning) and amaro-class modifiers;
+# Cobber's "sweet" role includes both syrups and spirit-based liqueurs.
+_TEMPLATE_ROLE_OVERRIDES: dict[str, str] = {
+    # Small-dose aromatic bitters: excluded from template vector
+    "angostura_bitters":        "bitter",
+    "peychauds_bitters":        "bitter",
+    "orange_bitters":           "bitter",
+    "celery_bitters":           "bitter",
+    # Cobber "sweet"-role composites that are liqueurs, not syrups
+    "triple_sec":               "liqueur",
+    "cointreau":                "liqueur",
+    "maraschino":               "liqueur",
+    "coffee_liqueur":           "liqueur",
+    "elderflower_liqueur":      "liqueur",
+    "sloe_gin":                 "liqueur",
+    "benedictine":              "liqueur",
+    "yellow_chartreuse":        "amaro",   # chartreuse is amaro-class
+    # Sweet-bright aperitivi: liqueur slot in builds like Paper Plane,
+    # not the bitter backbone (Campari/Cynar stay as amaro)
+    "aperol":                   "liqueur",
+}
+
+# Template roles that are tracked but excluded from distance matching
+# (they are seasoning/trace elements in real drinks).
+_TEMPLATE_ROLES_EXCLUDED = {"bitter", "other"}
+
+# The 9 template roles in the same order as proportion_templates.json centroid
+_TEMPLATE_ROLE_ORDER = [
+    "spirit", "liqueur", "amaro", "vermouth_fortified",
+    "acid", "sweet", "juice_mixer", "lengthener", "egg_cream",
+]
+
+
+def _ingredient_template_role(ingredient_id: str) -> str:
+    """Map a Cobber ingredient id to its structural template role."""
+    if ingredient_id in _TEMPLATE_ROLE_OVERRIDES:
+        return _TEMPLATE_ROLE_OVERRIDES[ingredient_id]
+    ingredient = PANTRY.get(ingredient_id)
+    if ingredient is None:
+        return "other"
+    return _TEMPLATE_ROLE_BY_COBBER_ROLE.get(ingredient.role, "other")
+
+
+def suggest_template(ingredient_ids: list[str]) -> dict | None:
+    """Return the best-matching proportion template for this ingredient set.
+
+    Maps each ingredient to a template role and finds the nearest template
+    centroid in role space, using equal proportions as the prior (since the
+    engine doesn't know actual poured volumes).
+
+    Returns a dict with the matched template's id, name, centroid proportions,
+    and suggested ingredient-level proportions, or ``None`` if no templates
+    are loaded or all ingredients are in excluded roles.
+    """
+    if not PANTRY.templates:
+        return None
+
+    # Build the role distribution assuming equal proportions
+    role_counts: dict[str, float] = {}
+    for ing_id in ingredient_ids:
+        role = _ingredient_template_role(ing_id)
+        if role not in _TEMPLATE_ROLES_EXCLUDED:
+            role_counts[role] = role_counts.get(role, 0.0) + 1.0
+
+    if not role_counts:
+        return None
+
+    total = sum(role_counts.values())
+    input_vec = {r: role_counts.get(r, 0.0) / total for r in _TEMPLATE_ROLE_ORDER}
+
+    # Pre-filter: exclude templates whose centroid contains a role at ≥ 10%
+    # that is entirely absent from the input combination.  Without this, a
+    # spirit-only/spirit+sweet build (Old Fashioned) matches the Sour template
+    # because no acid in the input means the Sour's acid centroid goes
+    # "unpenalised" in direction while the spirit column happens to align.
+    roles_absent = {r for r in _TEMPLATE_ROLE_ORDER if input_vec.get(r, 0.0) < 0.01}
+
+    best_template: dict | None = None
+    best_dist = float("inf")
+
+    for template in PANTRY.templates:
+        centroid = template.get("centroid", {})
+        # Skip any template that requires a role ≥ 10% which is absent here
+        if any(centroid.get(r, 0.0) >= 0.10 for r in roles_absent):
+            continue
+        dist = math.sqrt(
+            sum(
+                (input_vec.get(r, 0.0) - centroid.get(r, 0.0)) ** 2
+                for r in _TEMPLATE_ROLE_ORDER
+            )
+        )
+        if dist < best_dist:
+            best_dist = dist
+            best_template = template
+
+    if best_template is None:
+        return None
+
+    centroid = best_template["centroid"]
+
+    # Map centroid role proportions back to specific ingredients.
+    # When multiple ingredients share a role, divide the role's proportion equally.
+    role_to_ings: dict[str, list[str]] = {}
+    for ing_id in ingredient_ids:
+        role = _ingredient_template_role(ing_id)
+        if role not in _TEMPLATE_ROLES_EXCLUDED and role in centroid:
+            role_to_ings.setdefault(role, []).append(ing_id)
+
+    ingredient_proportions: dict[str, float] = {}
+    for role, ings in role_to_ings.items():
+        role_share = centroid.get(role, 0.0)
+        per_ing = round(role_share / len(ings), 3)
+        for ing_id in ings:
+            ingredient_proportions[ing_id] = per_ing
+
+    return {
+        "id": best_template["id"],
+        "suggested_name": best_template["suggested_name"],
+        "recipe_count": best_template["recipe_count"],
+        "role_proportions": {r: v for r, v in centroid.items() if v >= 0.02},
+        "ingredient_proportions": ingredient_proportions,
+        "ratio": best_template["dominant_ratio"],
+        "dominant_roles": best_template["dominant_roles"],
+        "notes": best_template.get("notes", ""),
+    }
+
+
+# ---------------------------------------------------------------------------
+# Technique suggestion
+# ---------------------------------------------------------------------------
+
+# Ingredient IDs that are carbonated lengtheners — must be built, never shaken.
+# Role alone is insufficient: tonic is "bitter", ginger_ale is "sweet", sparkling_wine
+# is "aromatic" — so we check by id and display-name fragment.
+_CARBONATED_IDS: frozenset[str] = frozenset({
+    "soda_water", "tonic_water", "ginger_ale", "sparkling_wine",
+})
+_CARBONATED_NAME_FRAGMENTS: tuple[str, ...] = (
+    "soda", "tonic", "champagne", "prosecco", "cava", "sparkling",
+    "ginger beer", "beer", "cider", "lemonade",
+)
+
+# Herbs that are typically muddled before building/shaking.
+_MUDDLE_HERB_IDS: frozenset[str] = frozenset({
+    "mint", "native_river_mint", "basil", "sage", "rosemary", "thyme",
+    "coriander_leaf",
+})
+
+
+def _is_carbonated(ingredient_id: str) -> bool:
+    if ingredient_id in _CARBONATED_IDS:
+        return True
+    ing = PANTRY.get(ingredient_id)
+    if ing is None:
+        return False
+    name = ing.display_name.lower()
+    return any(frag in name for frag in _CARBONATED_NAME_FRAGMENTS)
+
+
+def _detect_technique_signals(ingredient_ids: list[str]) -> dict[str, bool]:
+    """Return technique-relevant signals for a set of Cobber ingredient ids."""
+    has_egg_white = False
+    has_dairy     = False
+    has_acid      = False
+    has_carb      = False
+    has_herb      = False
+
+    non_technique_roles = {"bitter", "seasoning"}
+
+    for ing_id in ingredient_ids:
+        ing = PANTRY.get(ing_id)
+        if ing is None:
+            continue
+        role = ing.role
+
+        if role == "sour":
+            has_acid = True
+        elif role == "dairy":
+            has_dairy = True
+            if ing_id == "egg_white":
+                has_egg_white = True
+        elif role == "herb":
+            if ing_id in _MUDDLE_HERB_IDS:
+                has_herb = True
+
+        if _is_carbonated(ing_id):
+            has_carb = True
+
+    return {
+        "has_egg_white":            has_egg_white,
+        # Dairy split: cream+acid → shake (cream sours, emulsify the dairy);
+        # cream alone → build over rocks (White Russian).
+        "has_dairy_and_acid":       has_dairy and has_acid and not has_egg_white,
+        "has_dairy_no_acid":        has_dairy and not has_acid and not has_egg_white,
+        "has_herb_acid_and_carb":   has_herb and has_acid and has_carb,
+        "has_acid_and_carb":        has_acid and has_carb and not has_herb,
+        "has_acid":                 has_acid and not has_dairy,
+        "has_carb_only":            has_carb and not has_acid and not has_dairy,
+        "has_herb_no_acid":         has_herb and not has_acid,
+        "spirit_only": (
+            not has_acid and not has_dairy and not has_carb and not has_herb
+        ),
+    }
+
+
+def suggest_technique(ingredient_ids: list[str]) -> dict | None:
+    """Suggest preparation technique for a set of ingredient ids.
+
+    Returns a dict with method, service, glass, optional pre_steps, rationale,
+    and the matched rule id — or None if no rules are loaded.
+
+    Priority order (first matching rule wins):
+      1.  egg_white           → dry shake then shake, up/coupe
+      2.  highball_build      → build, carbonation only (Highball, G&T)
+      3.  mojito_muddle_build → muddle + build + top w/ soda (Mojito family)
+      4.  sour_highball       → shake base + top w/ soda, highball (Collins)
+      5.  dairy_acid_shake    → shake, up/coupe (cream sours)
+      6.  dairy_build         → build, rocks/big ice (White Russian)
+      7.  acid_shake          → shake, up/coupe (Daiquiri, Whiskey Sour)
+      8.  herb_muddle_build   → muddle + build, rocks (Mint Julep)
+      9.  spirit_only_stir    → stir, rocks (Old Fashioned, Negroni, Manhattan)
+      10. default             → build, rocks
+    """
+    if not PANTRY.technique_rules:
+        return None
+
+    signals = _detect_technique_signals(ingredient_ids)
+
+    for rule in PANTRY.technique_rules:
+        trigger = rule["trigger"]
+        if trigger == "default" or signals.get(trigger):
+            result: dict = {
+                "method": rule["method"],
+                "service": rule["service"],
+                "glass": rule["glass"],
+                "ice_in_glass": rule["ice_in_glass"],
+                "pre_steps": rule.get("pre_steps", []),
+                "rationale": rule["rationale"],
+                "matched_rule": rule["id"],
+            }
+            if rule.get("carbonation_note"):
+                result["carbonation_note"] = rule["carbonation_note"]
+            if rule.get("ice_note"):
+                result["ice_note"] = rule["ice_note"]
+            if rule.get("ambiguous"):
+                # The data has no clear technique here; tell the host to decide
+                # rather than presenting a coin-flip default as confident.
+                result["ambiguous"] = True
+                result["ambiguity_note"] = rule.get("ambiguity_note", "")
+            if rule.get("notes"):
+                result["rule_notes"] = rule["notes"]
+            return result
+
+    return None
+
+
 def validate_anchors(anchors: list[str]) -> str | None:
     """Return a human-readable error if the anchor list is the wrong size, else None.
 
@@ -370,6 +651,8 @@ def build_around(
                     "scores": scores,
                     "why": _why(ingredient_ids),
                     "balance": balance(ingredient_ids),
+                    "template": suggest_template(ingredient_ids),
+                    "technique": suggest_technique(ingredient_ids),
                     "native_swap": native_swap,
                     "_rank": rank,
                 }

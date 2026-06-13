@@ -1,0 +1,3205 @@
+{
+  "generated": "2026-06-12",
+  "sources": {
+    "thecocktaildb": 441,
+    "iba": 77
+  },
+  "annotated": 486,
+  "unannotated": 32,
+  "notes": "Rules are bartender fundamentals validated (not derived) from data. data_confidence is the fraction of signal-matching recipes that followed the expected technique; low values reflect corpus noise (shots, hot drinks, punches share signals but differ in technique). PROVISIONAL — Ari to review rule priorities and rationale text.",
+  "technique_frequencies": {
+    "has_egg_white": {
+      "shake": 12,
+      "blend": 2,
+      "dry_shake_first_shake": 1
+    },
+    "has_dairy_and_acid": {
+      "shake": 2,
+      "blend": 2,
+      "build": 1,
+      "stir": 1,
+      "dry_shake_first_shake": 1
+    },
+    "has_dairy_no_acid": {
+      "shake": 20,
+      "build": 18,
+      "blend": 10,
+      "stir": 7,
+      "layer": 10
+    },
+    "has_herb_acid_and_carb": {
+      "build": 2
+    },
+    "has_acid_and_carb": {
+      "stir": 9,
+      "shake": 13,
+      "build": 8,
+      "layer": 2,
+      "throw": 1
+    },
+    "has_acid": {
+      "shake": 86,
+      "stir": 32,
+      "blend": 16,
+      "layer": 5,
+      "build": 36,
+      "throw": 1,
+      "muddle_build": 1
+    },
+    "has_carb_only": {
+      "muddle_build": 1,
+      "build": 26,
+      "stir": 17,
+      "shake": 5,
+      "blend": 2,
+      "layer": 1,
+      "muddle_shake": 1
+    },
+    "has_herb": {},
+    "has_herb_no_acid": {
+      "muddle_build": 4,
+      "blend": 4,
+      "stir": 2
+    },
+    "spirit_only": {
+      "muddle_build": 8,
+      "stir": 68,
+      "shake": 31,
+      "build": 42,
+      "blend": 8,
+      "layer": 6,
+      "muddle_shake": 1
+    }
+  },
+  "glass_frequencies": {
+    "has_egg_white": {
+      "coupe": 6,
+      "highball": 4,
+      "rocks": 2,
+      "punch": 1
+    },
+    "has_dairy_and_acid": {
+      "coupe": 2,
+      "highball": 3,
+      "tiki": 1
+    },
+    "has_dairy_no_acid": {
+      "coupe": 14,
+      "flute": 2,
+      "highball": 16,
+      "rocks": 1,
+      "tiki": 14,
+      "shot": 10,
+      "wine": 1
+    },
+    "has_herb_acid_and_carb": {
+      "highball": 2
+    },
+    "has_acid_and_carb": {
+      "tiki": 2,
+      "highball": 17,
+      "punch": 2,
+      "coupe": 6,
+      "wine": 2,
+      "flute": 2
+    },
+    "has_acid": {
+      "coupe": 65,
+      "tiki": 4,
+      "flute": 3,
+      "rocks": 15,
+      "highball": 67,
+      "punch": 5,
+      "shot": 3,
+      "wine": 3
+    },
+    "has_carb_only": {
+      "highball": 34,
+      "rocks": 4,
+      "flute": 4,
+      "coupe": 2,
+      "wine": 1
+    },
+    "has_herb": {},
+    "has_herb_no_acid": {
+      "highball": 5,
+      "rocks": 1,
+      "coupe": 1
+    },
+    "spirit_only": {
+      "rocks": 29,
+      "coupe": 54,
+      "highball": 42,
+      "wine": 3,
+      "shot": 12,
+      "tiki": 7,
+      "flute": 1
+    }
+  },
+  "rules": [
+    {
+      "id": "egg_white",
+      "priority": 1,
+      "trigger": "has_egg_white",
+      "method": "shake",
+      "pre_steps": [
+        "dry_shake"
+      ],
+      "service": "up",
+      "glass": "coupe",
+      "ice_in_glass": false,
+      "rationale": "Egg white requires a dry shake (no ice) first to build foam, then a second shake with ice to dilute and chill.",
+      "data_confidence": 0.8,
+      "data_support": 15,
+      "notes": "data_confidence reflects % of egg-white recipes with 'shake' in instructions; the dry-shake phase is often omitted from written recipes but is the correct bar technique."
+    },
+    {
+      "id": "highball_build",
+      "priority": 2,
+      "trigger": "has_carb_only",
+      "method": "build",
+      "pre_steps": [],
+      "service": "highball",
+      "glass": "highball",
+      "ice_in_glass": true,
+      "rationale": "Spirit + carbonated lengthener is built over ice — shaking destroys fizz.",
+      "data_confidence": 0.49,
+      "data_support": 53
+    },
+    {
+      "id": "mojito_muddle_build",
+      "priority": 3,
+      "trigger": "has_herb_acid_and_carb",
+      "method": "build",
+      "pre_steps": [
+        "muddle"
+      ],
+      "service": "highball",
+      "glass": "highball",
+      "ice_in_glass": true,
+      "carbonation_note": "Muddle herbs gently with citrus and sweet in the glass; add spirit; fill with ice; top with carbonation.",
+      "rationale": "Muddled-herb carbonated builds (Mojito and other muddled mint-and-soda drinks): gentle muddling releases essential oils without bitterness; shaking after muddling bruises the herbs and clouds the drink.",
+      "data_confidence": null,
+      "data_support": null
+    },
+    {
+      "id": "sour_highball",
+      "priority": 4,
+      "trigger": "has_acid_and_carb",
+      "method": "shake",
+      "pre_steps": [],
+      "service": "highball",
+      "glass": "highball",
+      "ice_in_glass": true,
+      "carbonation_note": "Shake spirit + acid + sweet; strain over fresh ice; top with carbonation.",
+      "rationale": "Sour-highball builds (Collins, Fizz): shake the base, then top with soda or sparkling wine — never shake after adding carbonation.",
+      "data_confidence": null,
+      "data_support": null,
+      "notes": "This trigger sits above plain 'has_acid' to ensure Collins/Fizz builds get highball service rather than coupe."
+    },
+    {
+      "id": "dairy_acid_shake",
+      "priority": 5,
+      "trigger": "has_dairy_and_acid",
+      "method": "shake",
+      "pre_steps": [],
+      "service": "up",
+      "glass": "coupe",
+      "ice_in_glass": false,
+      "rationale": "Cream + citrus requires vigorous shaking to emulsify the dairy and integrate the acid (cream sours).",
+      "data_confidence": 0.29,
+      "data_support": 7
+    },
+    {
+      "id": "dairy_build",
+      "priority": 6,
+      "trigger": "has_dairy_no_acid",
+      "method": "build",
+      "pre_steps": [],
+      "service": "rocks",
+      "glass": "rocks",
+      "ice_in_glass": true,
+      "ice_note": "A large single ice cube keeps dilution slow while chilling the cream — preferred over cracked/cubed for White Russian-style builds.",
+      "rationale": "Cream without acid is built over ice when it's a long sipper (White Russian) — no emulsification needed.",
+      "data_confidence": 0.28,
+      "data_support": 65,
+      "ambiguous": true,
+      "ambiguity_note": "Cream-without-acid splits two ways: build over ice for long sippers (White Russian), or shake and serve up for dessert cocktails (Brandy Alexander, Grasshopper). Default here is build; if the drink is a frothy dessert cocktail, shake it and serve up instead.",
+      "notes": "'Cream' in many classic recipes means half-and-half (half milk, half cream), not pure heavy cream; either works for the build method."
+    },
+    {
+      "id": "acid_shake",
+      "priority": 7,
+      "trigger": "has_acid",
+      "method": "shake",
+      "pre_steps": [],
+      "service": "up",
+      "glass": "coupe",
+      "ice_in_glass": false,
+      "rationale": "Citrus juice requires shaking to integrate, aerate, and dilute.",
+      "data_confidence": 0.49,
+      "data_support": 177,
+      "notes": "data_confidence includes shots, hot drinks, and punches in the denominator — purely cocktail data would score higher."
+    },
+    {
+      "id": "herb_muddle_build",
+      "priority": 8,
+      "trigger": "has_herb_no_acid",
+      "method": "build",
+      "pre_steps": [
+        "muddle"
+      ],
+      "service": "rocks",
+      "glass": "rocks",
+      "ice_in_glass": true,
+      "rationale": "Fresh herbs are muddled gently to release essential oils; the drink is then built over crushed ice (Mint Julep: bourbon, mint, sugar).",
+      "data_confidence": 0.4,
+      "data_support": 10
+    },
+    {
+      "id": "spirit_only_stir",
+      "priority": 9,
+      "trigger": "spirit_only",
+      "method": "stir",
+      "pre_steps": [],
+      "service": "rocks",
+      "glass": "rocks",
+      "ice_in_glass": true,
+      "rationale": "Spirit-forward builds (Old Fashioned, Negroni, Manhattan) are stirred for clarity and gentle, controlled dilution — no acid to emulsify.",
+      "data_confidence": 0.41,
+      "data_support": 164,
+      "notes": "Service is rocks by default. The host may suggest 'up' (coupe) for spirit+vermouth builds in the Martini/Manhattan family — the template context (Spirit+Vermouth vs Spirit-Forward) informs that call."
+    },
+    {
+      "id": "default",
+      "priority": 10,
+      "trigger": "default",
+      "method": "build",
+      "pre_steps": [],
+      "service": "rocks",
+      "glass": "rocks",
+      "ice_in_glass": true,
+      "rationale": "Build over ice when no specific technique signal is present.",
+      "data_confidence": null,
+      "data_support": null
+    }
+  ],
+  "recipe_annotations": [
+    {
+      "name": "Mojito",
+      "source": "thecocktaildb",
+      "technique": "muddle_build",
+      "glass": "highball"
+    },
+    {
+      "name": "Old Fashioned",
+      "source": "thecocktaildb",
+      "technique": "muddle_build",
+      "glass": "rocks"
+    },
+    {
+      "name": "Long Island Tea",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Negroni",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "Whiskey Sour",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "rocks"
+    },
+    {
+      "name": "Dry Martini",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Daiquiri",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Margarita",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Manhattan",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Moscow Mule",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "tiki"
+    },
+    {
+      "name": "Alexander",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Algonquin",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Allegheny",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Almeria",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Applecar",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Artillery",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Balmoral",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Blackthorn",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Bluebird",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Boomerang",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Boston Sour",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": null
+    },
+    {
+      "name": "Boxcar",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": null
+    },
+    {
+      "name": "Caipirinha",
+      "source": "thecocktaildb",
+      "technique": "muddle_build",
+      "glass": "rocks"
+    },
+    {
+      "name": "Casa Blanca",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Casino Royale",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": null
+    },
+    {
+      "name": "Cherry Rum",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Chicago Fizz",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "City Slicker",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Clove Cocktail",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Cuba Libre",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Dragonfly",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Dry Rob Roy",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Dubonnet Cocktail",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "English Highball",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "English Rose Cocktail",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Flying Dutchman",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "Flying Scotchman",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Foxy Lady",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Frisco Sour",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": null
+    },
+    {
+      "name": "Frozen Daiquiri",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "flute"
+    },
+    {
+      "name": "Frozen Mint Daiquiri",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "rocks"
+    },
+    {
+      "name": "Frozen Pineapple Daiquiri",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "coupe"
+    },
+    {
+      "name": "Gin Cooler",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Gin Daisy",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "rocks"
+    },
+    {
+      "name": "Gin Fizz",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Gin Sling",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "Gin Smash",
+      "source": "thecocktaildb",
+      "technique": "muddle_build",
+      "glass": "rocks"
+    },
+    {
+      "name": "Gin Sour",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": null
+    },
+    {
+      "name": "Gin Squirt",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Gin Swizzle",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Gin Toddy",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "Godchild",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "flute"
+    },
+    {
+      "name": "Godfather",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "Godmother",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "rocks"
+    },
+    {
+      "name": "Grass Skirt",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "rocks"
+    },
+    {
+      "name": "Harvey Wallbanger",
+      "source": "thecocktaildb",
+      "technique": "layer",
+      "glass": "highball"
+    },
+    {
+      "name": "Havana Cocktail",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Hawaiian Cocktail",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Highland Fling Cocktail",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Imperial Fizz",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Irish Spring",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Jack Rose Cocktail",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Japanese Fizz",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Jewel Of The Nile",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "John Collins",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Kamikaze",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Kentucky B And B",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": null
+    },
+    {
+      "name": "Kentucky Colonel",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Lady Love Fizz",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Loch Lomond",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "London Town",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Lone Tree Cocktail",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Lone Tree Cooler",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Lord And Lady",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "Mai Tai",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Martini",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Monkey Wrench",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "New York Sour",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": null
+    },
+    {
+      "name": "Orange Oasis",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Orgasm",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Pink Gin",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "wine"
+    },
+    {
+      "name": "Pink Lady",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Poppy Cocktail",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Port And Starboard",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": null
+    },
+    {
+      "name": "Port Wine Cocktail",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Port Wine Flip",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": null
+    },
+    {
+      "name": "Quaker's Cocktail",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Quarter Deck Cocktail",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Queen Bee",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Queen Charlotte",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Queen Elizabeth",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Quentin",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Royal Fizz",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Royal Gin Fizz",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Rum Cobbler",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "Rum Cooler",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Rum Milk Punch",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Rum Old-fashioned",
+      "source": "thecocktaildb",
+      "technique": "layer",
+      "glass": "rocks"
+    },
+    {
+      "name": "Rum Screwdriver",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Rum Sour",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": null
+    },
+    {
+      "name": "Rum Toddy",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "Rusty Nail",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "Salty Dog",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Sazerac",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "Scooter",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Scotch Sour",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": null
+    },
+    {
+      "name": "Sherry Eggnog",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Sherry Flip",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Sidecar",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Sol Y Sombra",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": null
+    },
+    {
+      "name": "Stone Sour",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": null
+    },
+    {
+      "name": "Tequila Fizz",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Tequila Sour",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": null
+    },
+    {
+      "name": "Thriller",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Tom Collins",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Turf Cocktail",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Tuxedo Cocktail",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Valencia Cocktail",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Van Vleet",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "rocks"
+    },
+    {
+      "name": "Vermouth Cassis",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Vesuvio",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "rocks"
+    },
+    {
+      "name": "Veteran",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "Victor",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Victory Collins",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Vodka And Tonic",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Waikiki Beachcomber",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Whisky Mac",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "White Russian",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "rocks"
+    },
+    {
+      "name": "Bora Bora",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "highball"
+    },
+    {
+      "name": "Orangeade",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Rail Splitter",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Egg Cream",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "tiki"
+    },
+    {
+      "name": "Fruit Cooler",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Fruit Flip-Flop",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "highball"
+    },
+    {
+      "name": "Fruit Shake",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "highball"
+    },
+    {
+      "name": "Just a Moonmint",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "highball"
+    },
+    {
+      "name": "Lassi - A South Indian Drink",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "highball"
+    },
+    {
+      "name": "Lassi Khara",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "highball"
+    },
+    {
+      "name": "Lassi Raita",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "highball"
+    },
+    {
+      "name": "Lassi - Sweet",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "highball"
+    },
+    {
+      "name": "Lassi - Mango",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "highball"
+    },
+    {
+      "name": "Lemouroudji",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Limeade",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Imperial Cocktail",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Kiwi Papaya Smoothie",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "highball"
+    },
+    {
+      "name": "Pineapple Gingerale Smoothie",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "highball"
+    },
+    {
+      "name": "Kill the cold Smoothie",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Sweet Bananas",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "highball"
+    },
+    {
+      "name": "Tomato Tang",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "highball"
+    },
+    {
+      "name": "Yoghurt Cooler",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "highball"
+    },
+    {
+      "name": "Chocolate Drink",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "tiki"
+    },
+    {
+      "name": "Drinking Chocolate",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "tiki"
+    },
+    {
+      "name": "Hot Chocolate to Die for",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "tiki"
+    },
+    {
+      "name": "Nuked Hot Chocolate",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "tiki"
+    },
+    {
+      "name": "Orange Scented Hot Chocolate",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "tiki"
+    },
+    {
+      "name": "Lemon Shot",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "shot"
+    },
+    {
+      "name": "Gagliardo",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Karsk",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Happy Skipper",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Frappé",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "highball"
+    },
+    {
+      "name": "Iced Coffee",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "tiki"
+    },
+    {
+      "name": "Masala Chai",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "tiki"
+    },
+    {
+      "name": "Melya",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "tiki"
+    },
+    {
+      "name": "Thai Coffee",
+      "source": "thecocktaildb",
+      "technique": "layer",
+      "glass": "highball"
+    },
+    {
+      "name": "Thai Iced Coffee",
+      "source": "thecocktaildb",
+      "technique": "layer",
+      "glass": "highball"
+    },
+    {
+      "name": "Thai Iced Tea",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "highball"
+    },
+    {
+      "name": "Coffee Liqueur",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Coffee-Vodka",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Irish Cream",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": null
+    },
+    {
+      "name": "Tia-Maria",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Cranberry Punch",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "punch"
+    },
+    {
+      "name": "Egg Nog #4",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "punch"
+    },
+    {
+      "name": "Egg-Nog - Classic Cooked",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": null
+    },
+    {
+      "name": "Egg Nog - Healthy",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Gluehwein",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": null
+    },
+    {
+      "name": "Mulled Wine",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Sangria",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": null
+    },
+    {
+      "name": "Wine Cooler",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Wine Punch",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Fahrenheit 5000",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "shot"
+    },
+    {
+      "name": "Popped cherry",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Diesel",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": null
+    },
+    {
+      "name": "Kool-Aid Shot",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "National Aquarium",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Damned if you do",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "shot"
+    },
+    {
+      "name": "Long vodka",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Quick F**K",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "shot"
+    },
+    {
+      "name": "Owen's Grandmother's Revenge",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "highball"
+    },
+    {
+      "name": "Flaming Dr. Pepper",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "New York Lemonade",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Caipirissima",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Pisco Sour",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Big Red",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "shot"
+    },
+    {
+      "name": "Chocolate Milk",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "shot"
+    },
+    {
+      "name": "B-53",
+      "source": "thecocktaildb",
+      "technique": "layer",
+      "glass": "highball"
+    },
+    {
+      "name": "Sea breeze",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Bob Marley",
+      "source": "thecocktaildb",
+      "technique": "layer",
+      "glass": "shot"
+    },
+    {
+      "name": "Oreo Mudslide",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "highball"
+    },
+    {
+      "name": "ABC",
+      "source": "thecocktaildb",
+      "technique": "layer",
+      "glass": "shot"
+    },
+    {
+      "name": "Pink Panty Pulldowns",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Ice Pick",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Tequila Sunrise",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Cuba Libra",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Kir Royale",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "flute"
+    },
+    {
+      "name": "Miami Vice",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "coupe"
+    },
+    {
+      "name": "AT&T",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "69 Special",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Irish Coffee",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": null
+    },
+    {
+      "name": "57 Chevy with a White License Plate",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Zippy's Revenge",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "rocks"
+    },
+    {
+      "name": "Red Snapper",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "rocks"
+    },
+    {
+      "name": "Jamaica Kiss",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "tiki"
+    },
+    {
+      "name": "Vodka Martini",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Cafe Savoy",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "tiki"
+    },
+    {
+      "name": "Snowball",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Mocha-Berry",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": null
+    },
+    {
+      "name": "747",
+      "source": "thecocktaildb",
+      "technique": "layer",
+      "glass": "shot"
+    },
+    {
+      "name": "Lemon Drop",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Lunch Box",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": null
+    },
+    {
+      "name": "Kool-Aid Slammer",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "shot"
+    },
+    {
+      "name": "Kurant Tea",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "flute"
+    },
+    {
+      "name": "Dirty Nipple",
+      "source": "thecocktaildb",
+      "technique": "layer",
+      "glass": "shot"
+    },
+    {
+      "name": "Darkwood Sling",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "coupe"
+    },
+    {
+      "name": "Bumble Bee",
+      "source": "thecocktaildb",
+      "technique": "layer",
+      "glass": "shot"
+    },
+    {
+      "name": "Orange Push-up",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "tiki"
+    },
+    {
+      "name": "151 Florida Bushwacker",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "tiki"
+    },
+    {
+      "name": "Zizi Coin-coin",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "50/50",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Tequila Surprise",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "shot"
+    },
+    {
+      "name": "Cream Soda",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Grim Reaper",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "rocks"
+    },
+    {
+      "name": "Bubble Gum",
+      "source": "thecocktaildb",
+      "technique": "layer",
+      "glass": "shot"
+    },
+    {
+      "name": "Kiwi Lemon",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Hot Creamy Bush",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": null
+    },
+    {
+      "name": "Midnight Mint",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Talos Coffee",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": null
+    },
+    {
+      "name": "Zinger",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Jello shots",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "shot"
+    },
+    {
+      "name": "Turkeyball",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "shot"
+    },
+    {
+      "name": "Royal Flush",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "rocks"
+    },
+    {
+      "name": "Limona Corona",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": null
+    },
+    {
+      "name": "Pysch Vitamin Light",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Apello",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Texas Rattlesnake",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "San Francisco",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Space Odyssey",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Avalon",
+      "source": "thecocktaildb",
+      "technique": "layer",
+      "glass": "highball"
+    },
+    {
+      "name": "252",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "shot"
+    },
+    {
+      "name": "3-Mile Long Island Iced Tea",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Zorro",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "tiki"
+    },
+    {
+      "name": "Orange Crush",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "shot"
+    },
+    {
+      "name": "155 Belmont",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "wine"
+    },
+    {
+      "name": "Danbooka",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "tiki"
+    },
+    {
+      "name": "110 in the shade",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": null
+    },
+    {
+      "name": "Baby Eskimo",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Tennesee Mud",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "tiki"
+    },
+    {
+      "name": "Texas Sling",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "wine"
+    },
+    {
+      "name": "Fuzzy Asshole",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "tiki"
+    },
+    {
+      "name": "Quick-sand",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Zimadori Zinger",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Herbal flame",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": null
+    },
+    {
+      "name": "Jamaican Coffee",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "flute"
+    },
+    {
+      "name": "Mojito Extra",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "B-52",
+      "source": "thecocktaildb",
+      "technique": "layer",
+      "glass": "shot"
+    },
+    {
+      "name": "Zambeer",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Americano",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "GG",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Radler",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Mudslinger",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "punch"
+    },
+    {
+      "name": "Campari Beer",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "tiki"
+    },
+    {
+      "name": "9 1/2 Weeks",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "coupe"
+    },
+    {
+      "name": "Whitecap Margarita",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "coupe"
+    },
+    {
+      "name": "Jitterbug",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "coupe"
+    },
+    {
+      "name": "Rum Runner",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "coupe"
+    },
+    {
+      "name": "H.D.",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "tiki"
+    },
+    {
+      "name": "Shark Attack",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": null
+    },
+    {
+      "name": "Jack's Vanilla Coke",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "Avalanche",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Flaming Lamborghini",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "coupe"
+    },
+    {
+      "name": "Zipperhead",
+      "source": "thecocktaildb",
+      "technique": "layer",
+      "glass": null
+    },
+    {
+      "name": "Kioki Coffee",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "tiki"
+    },
+    {
+      "name": "Vodka Fizz",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "wine"
+    },
+    {
+      "name": "Radioactive Long Island Iced Tea",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Shot-gun",
+      "source": "thecocktaildb",
+      "technique": "layer",
+      "glass": "shot"
+    },
+    {
+      "name": "Bible Belt",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Irish Curdling Cow",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Sweet Tooth",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Downshift",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "tiki"
+    },
+    {
+      "name": "Pink Penocha",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "punch"
+    },
+    {
+      "name": "Orange Whip",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Kool First Aid",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "shot"
+    },
+    {
+      "name": "Irish Russian",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Zima Blaster",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "tiki"
+    },
+    {
+      "name": "Buccaneer",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": null
+    },
+    {
+      "name": "Homemade Kahlua",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "24k nightmare",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "shot"
+    },
+    {
+      "name": "Coke and Drops",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "coupe"
+    },
+    {
+      "name": "Ruby Tuesday",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Brain Fart",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "punch"
+    },
+    {
+      "name": "Royal Bitch",
+      "source": "thecocktaildb",
+      "technique": "layer",
+      "glass": "shot"
+    },
+    {
+      "name": "Citrus Coke",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Smut",
+      "source": "thecocktaildb",
+      "technique": "throw",
+      "glass": "tiki"
+    },
+    {
+      "name": "Raspberry Cooler",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Ipamena",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "wine"
+    },
+    {
+      "name": "Dark Caipirinha",
+      "source": "thecocktaildb",
+      "technique": "muddle_build",
+      "glass": "highball"
+    },
+    {
+      "name": "Jam Donut",
+      "source": "thecocktaildb",
+      "technique": "layer",
+      "glass": "shot"
+    },
+    {
+      "name": "Aviation",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Dirty Martini",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Duchamp's Punch",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "rocks"
+    },
+    {
+      "name": "Casino",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Clover Club",
+      "source": "thecocktaildb",
+      "technique": "dry_shake_first_shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Derby",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Mary Pickford",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Monkey Gland",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Paradise",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Planter's Punch",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Porto flip",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Stinger",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "White Lady",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Bellini",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "flute"
+    },
+    {
+      "name": "Cosmopolitan",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "French 75",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "French Connection",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "Grasshopper",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Hemingway Special",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Horse's Neck",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Kir",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "wine"
+    },
+    {
+      "name": "Long Island Iced Tea",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Mint Julep",
+      "source": "thecocktaildb",
+      "technique": "muddle_build",
+      "glass": "highball"
+    },
+    {
+      "name": "Pina Colada",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "highball"
+    },
+    {
+      "name": "Rose",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Barracuda",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": null
+    },
+    {
+      "name": "Bramble",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "Dark and Stormy",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Espresso Martini",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "French Martini",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Russian Spring Punch",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Spritz",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "rocks"
+    },
+    {
+      "name": "Vampiro",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "rocks"
+    },
+    {
+      "name": "Vesper",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Yellow Bird",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "A1",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Ace",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Addington",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Addison",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Gin Rickey",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Hunter's Moon",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": null
+    },
+    {
+      "name": "Zombie",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "tiki"
+    },
+    {
+      "name": "Rosemary Blue",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": null
+    },
+    {
+      "name": "Empellón Cocina's Fat-Washed Mezcal",
+      "source": "thecocktaildb",
+      "technique": "layer",
+      "glass": null
+    },
+    {
+      "name": "The Last Word",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "French Negroni",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Pegu Club",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Corpse Reviver",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Greyhound",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Paloma",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Bijou",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Gimlet",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Martinez 2",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Bahama Mama",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "The Laverstoke",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": null
+    },
+    {
+      "name": "Brigadier",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "The Jimmy Conway",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": null
+    },
+    {
+      "name": "Old Pal",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Tipperary",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Penicillin",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "rocks"
+    },
+    {
+      "name": "Corn n Oil",
+      "source": "thecocktaildb",
+      "technique": "muddle_build",
+      "glass": "rocks"
+    },
+    {
+      "name": "Brooklyn",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Broadside",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Halloween Punch",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "punch"
+    },
+    {
+      "name": "Munich Mule",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Honey Bee",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": null
+    },
+    {
+      "name": "747 Drink",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Spice 75",
+      "source": "thecocktaildb",
+      "technique": "layer",
+      "glass": "wine"
+    },
+    {
+      "name": "Passion Fruit Martini",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "White Wine Sangria",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": null
+    },
+    {
+      "name": "Pineapple Paloma",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "A. J.",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "The Philosopher",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": null
+    },
+    {
+      "name": "Raspberry Julep",
+      "source": "thecocktaildb",
+      "technique": "muddle_build",
+      "glass": null
+    },
+    {
+      "name": "Death in the Afternoon",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": null
+    },
+    {
+      "name": "Pure Passion",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": null
+    },
+    {
+      "name": "Orange Rosemary Collins",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Gin and Soda",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Figgy Thyme",
+      "source": "thecocktaildb",
+      "technique": "muddle_shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Hot Toddy",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": null
+    },
+    {
+      "name": "Elderflower Caipirinha",
+      "source": "thecocktaildb",
+      "technique": "muddle_build",
+      "glass": "highball"
+    },
+    {
+      "name": "Winter Rita",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Winter Paloma",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "highball"
+    },
+    {
+      "name": "Snowday",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Abilene",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Frosé",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": "coupe"
+    },
+    {
+      "name": "Pink Moon",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": null
+    },
+    {
+      "name": "Pornstar Martini",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Mango Mojito",
+      "source": "thecocktaildb",
+      "technique": "blend",
+      "glass": null
+    },
+    {
+      "name": "Kiwi Martini",
+      "source": "thecocktaildb",
+      "technique": "muddle_shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Acapulco",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "rocks"
+    },
+    {
+      "name": "Lemon Elderflower Spritzer",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Vodka Slime",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Vodka Lemon",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Vodka Tonic",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Gin Tonic",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Gin Lemon",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Ramos Gin Fizz",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Planter’s Punch",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Adam",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Mauresque",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Old Cuban",
+      "source": "thecocktaildb",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Affair",
+      "source": "thecocktaildb",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Affinity",
+      "source": "thecocktaildb",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Vesper",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Bacardi",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Negroni",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "Rose",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Old Fashioned",
+      "source": "iba",
+      "technique": "muddle_build",
+      "glass": "rocks"
+    },
+    {
+      "name": "Tuxedo",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Mojito",
+      "source": "iba",
+      "technique": "muddle_build",
+      "glass": "highball"
+    },
+    {
+      "name": "Horse's Neck",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Planter's Punch",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Sea Breeze",
+      "source": "iba",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Pisco Sour",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "rocks"
+    },
+    {
+      "name": "Long Island Iced Tea",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Clover Club",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Angel Face",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Mimosa",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "flute"
+    },
+    {
+      "name": "Whiskey Sour",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "rocks"
+    },
+    {
+      "name": "Screwdriver",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Cuba Libre",
+      "source": "iba",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Manhattan",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Porto Flip",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Gin Fizz",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Espresso Martini",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Margarita",
+      "source": "iba",
+      "technique": "blend",
+      "glass": null
+    },
+    {
+      "name": "French 75",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "flute"
+    },
+    {
+      "name": "Yellow Bird",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Pina Colada",
+      "source": "iba",
+      "technique": "blend",
+      "glass": "tiki"
+    },
+    {
+      "name": "Aviation",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Bellini",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "flute"
+    },
+    {
+      "name": "Grasshopper",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Tequila Sunrise",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Daiquiri",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Rusty Nail",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "B52",
+      "source": "iba",
+      "technique": "layer",
+      "glass": "shot"
+    },
+    {
+      "name": "Stinger",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Golden Dream",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "God Mother",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "Spritz Veneziano",
+      "source": "iba",
+      "technique": "build",
+      "glass": "rocks"
+    },
+    {
+      "name": "Bramble",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "Alexander",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Lemon Drop Martini",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "French Martini",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Black Russian",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "Bloody Mary",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Mai-tai",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Sex on the Beach",
+      "source": "iba",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Monkey Gland",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Derby",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Sidecar",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Irish Coffee",
+      "source": "iba",
+      "technique": "layer",
+      "glass": null
+    },
+    {
+      "name": "Sazerac",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "Americano",
+      "source": "iba",
+      "technique": "build",
+      "glass": "rocks"
+    },
+    {
+      "name": "Singapore Sling",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "French Connection",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "Moscow Mule",
+      "source": "iba",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "John Collins",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "highball"
+    },
+    {
+      "name": "Kir",
+      "source": "iba",
+      "technique": "build",
+      "glass": "wine"
+    },
+    {
+      "name": "Mint Julep",
+      "source": "iba",
+      "technique": "muddle_build",
+      "glass": "highball"
+    },
+    {
+      "name": "Tommy's Margarita",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Paradise",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Dirty Martini",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Champagne Cocktail",
+      "source": "iba",
+      "technique": "build",
+      "glass": "flute"
+    },
+    {
+      "name": "Mary Pickford",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Hemingway Special",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Dark 'n' Stormy",
+      "source": "iba",
+      "technique": "build",
+      "glass": "highball"
+    },
+    {
+      "name": "Ramos Fizz",
+      "source": "iba",
+      "technique": "dry_shake_first_shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Russian Spring Punch",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "God Father",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "rocks"
+    },
+    {
+      "name": "Cosmopolitan",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Dry Martini",
+      "source": "iba",
+      "technique": "stir",
+      "glass": "coupe"
+    },
+    {
+      "name": "Between the Sheets",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Casino",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Caipirinha",
+      "source": "iba",
+      "technique": "muddle_build",
+      "glass": "rocks"
+    },
+    {
+      "name": "Vampiro",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "highball"
+    },
+    {
+      "name": "Kamikaze",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "White Lady",
+      "source": "iba",
+      "technique": "shake",
+      "glass": "coupe"
+    },
+    {
+      "name": "Harvey Wallbanger",
+      "source": "iba",
+      "technique": "layer",
+      "glass": "highball"
+    }
+  ]
+}
