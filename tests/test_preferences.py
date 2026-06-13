@@ -59,13 +59,13 @@ def test_provisional_ingredients_are_quarantined_not_learned(prefs_file):
 
 
 def test_uncurated_taste_means_no_attribution(prefs_file):
-    """gin has no curated taste axes yet, so it must not train the profile."""
+    """vodka has no curated taste axes (deliberately neutral), so it must not train the profile."""
     result = preferences.record_feedback(
-        drink_name="G&T",
-        ingredient_ids=["gin", "lime"],
+        drink_name="Vodka Soda",
+        ingredient_ids=["vodka", "lime"],
         verdict="liked",
     )
-    assert "gin" in result["recorded"]["quarantined"]
+    assert "vodka" in result["recorded"]["quarantined"]
 
 
 def test_personal_fit_admits_cold_start(prefs_file):
@@ -100,10 +100,11 @@ def test_negative_feedback_pushes_fit_below_neutral(prefs_file):
 
 
 def test_personal_fit_refuses_fully_uncurated_combination(prefs_file):
-    """If nothing in the combination has curated taste, no number is given."""
+    """If nothing in the combination has curated taste, no number is given.
+    vodka = no taste field; scotch = taste but PROVISIONAL — both quarantined."""
     for drink in ("A", "B", "C"):
         preferences.record_feedback(drink, ["lime"], verdict="loved")
-    assert preferences.personal_fit(["gin", "vodka"]) is None
+    assert preferences.personal_fit(["vodka", "scotch"]) is None
 
 
 def test_profile_recomputes_from_raw_log(prefs_file):
