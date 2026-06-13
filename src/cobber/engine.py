@@ -109,18 +109,25 @@ ROLE_TASTE_PRIOR: dict[str, dict[str, float]] = {
 
 
 def taste_profile(ingredient_id: str) -> tuple[dict[str, float], bool]:
-    """Return ``(axis -> value, derived)`` for one ingredient.
+    """Return ``(axis -> value, estimated)`` for one ingredient.
 
-    Curated ``taste`` data is used verbatim (``derived=False``). When absent,
-    a coarse prior from the ingredient's role stands in (``derived=True``) so
-    the balance heuristic still has something to reason over — honestly
-    flagged rather than silently invented.
+    ``estimated=False`` only when the taste data is both curated AND non-provisional
+    (i.e. Ari has signed off). Two cases produce ``estimated=True``:
+
+    1. Provisional taste: values are a bartender estimate, not verified chemistry.
+       Used verbatim (better than a generic role prior) but flagged so the
+       balance output can surface the caveat.
+    2. No taste field at all: a coarse role prior stands in.
+
+    The distinction between these two cases is not exposed here — callers that
+    need it (e.g. to separate "strong hunch" from "generic guess") should inspect
+    ``ingredient.provisional`` directly.
     """
     ingredient = PANTRY.get(ingredient_id)
     if ingredient is None:
         return {}, True
     if ingredient.taste:
-        return dict(ingredient.taste), False
+        return dict(ingredient.taste), ingredient.provisional
     return dict(ROLE_TASTE_PRIOR.get(ingredient.role, {})), True
 
 
@@ -138,7 +145,8 @@ def balance(ingredient_ids: list[str]) -> dict:
     Returns the original ``{"ok", "roles_present", "warning"}`` plus
     ``"taste_axes"`` (summed values), ``"structure"`` (a one-word reading),
     ``"taste_notes"`` (hazards/accents) and ``"taste_derived_for"`` (which
-    ingredients used the role prior rather than curated data).
+    ingredients used the role prior OR have only provisional taste data — i.e.
+    any ingredient whose taste contribution is an estimate rather than verified).
     """
     roles = []
     for ingredient_id in ingredient_ids:

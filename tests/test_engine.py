@@ -112,10 +112,10 @@ def test_tradition_file_with_extra_fields_loads_cleanly():
 
 
 def test_curated_taste_is_used_verbatim():
-    """An ingredient with curated taste data returns it, not a role prior."""
-    axes, derived = engine.taste_profile("salt")
+    """A non-provisional ingredient with curated taste returns it, not a prior."""
+    axes, derived = engine.taste_profile("lemon")
     assert not derived
-    assert axes == {"salty": 1.0}
+    assert axes == {"sour": 0.9}
 
 
 def test_missing_taste_falls_back_to_role_prior_and_is_flagged():
@@ -173,6 +173,32 @@ def test_provisional_flag_is_loaded_from_notes():
     pantry = load_pantry()
     assert pantry.get("miso").provisional is True
     assert pantry.get("lemon").provisional is False
+
+
+def test_provisional_taste_is_flagged_as_estimated():
+    """Provisional taste data must be flagged estimated=True, not treated as solid.
+
+    scotch has taste values but carries PROVISIONAL in its notes. Before this fix,
+    taste_profile() returned derived=False for any entry with a taste field,
+    silently presenting provisional estimates as verified chemistry.
+    """
+    axes, estimated = engine.taste_profile("scotch")
+    assert estimated, "provisional taste must be flagged, not silently presented as solid"
+    assert axes  # values are still used (better than a generic role prior)
+
+
+def test_balance_includes_provisional_taste_in_derived_for():
+    """balance() must list provisional-taste ingredients in taste_derived_for.
+
+    A structure reading driven by provisional taste data is an estimate;
+    the host must know so it can qualify its reasoning ("reads as bittersweet,
+    though that's partly my estimate on scotch").
+    """
+    result = engine.balance(["scotch", "lemon", "honey"])
+    assert "scotch" in result["taste_derived_for"], (
+        "provisional-taste ingredient must appear in taste_derived_for "
+        "so the host can relay the caveat"
+    )
 
 
 # ---------------------------------------------------------------------------

@@ -69,7 +69,10 @@ Workflow when someone tells you what they have:
 3. Call `suggest_from_pantry` with the full pantry and the anchors. Offer the
    native twist if they didn't ask for it. Each suggestion's `balance` includes
    a `structure` reading and `taste_notes` — relay any hazard notes (split risk,
-   savoury counterweights) as practical bar advice, not fine print.
+   savoury counterweights) as practical bar advice, not fine print. If
+   `taste_derived_for` is non-empty, the structure reading is partly an estimate
+   (provisional or role-prior data): phrase it as "reads as bittersweet, though
+   that's partly my estimate on X" rather than stating it as settled fact.
 4. When a suggestion scores high on novelty, call `frontier_support` on its key
    pair: if craft bartenders have done it, cite the named example; if not, say
    it's genuinely untried as far as the data knows. That distinction is the
