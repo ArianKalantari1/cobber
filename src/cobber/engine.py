@@ -223,8 +223,11 @@ def balance(ingredient_ids: list[str]) -> dict:
     On top of the role check, taste axes are summed across the combination to
     read its structure (sour-balanced / bittersweet / savoury) and to flag
     real bartending hazards (dairy + acid splits; savoury with no
-    counterweight). This is a sanity heuristic, **not** a recipe balancer —
-    it checks the shape of a combination, not its ratios.
+    counterweight; chemesthetic heat from the spice axis). This is a sanity
+    heuristic, **not** a recipe balancer — it checks the shape of a
+    combination, not its ratios. The spice axis sits outside the structure
+    reading on purpose: heat is a parallel sensation a drink is balanced
+    *against*, not one of the sweet/sour/bitter/savoury shapes.
 
     Returns the original ``{"ok", "roles_present", "warning"}`` plus
     ``"taste_axes"`` (summed values), ``"structure"`` (a one-word reading),
@@ -268,6 +271,7 @@ def balance(ingredient_ids: list[str]) -> dict:
     salty = axes.get("salty", 0.0)
     umami = axes.get("umami", 0.0)
     fat = axes.get("fat", 0.0)
+    spice = axes.get("spice", 0.0)
     savoury = salty + umami
 
     if savoury >= 0.8:
@@ -298,6 +302,12 @@ def balance(ingredient_ids: list[str]) -> dict:
     if 0.0 < salty <= 0.3:
         taste_notes.append(
             "Salt at accent level: it will amplify sweetness and round off bitterness."
+        )
+    if spice >= 0.5:
+        taste_notes.append(
+            "Real heat here (chilli/ginger chemesthesis, not bitterness): it builds "
+            "as you drink — lean on sweetness or acid to balance it, and a little "
+            "sugar or fat tames the burn."
         )
 
     return {

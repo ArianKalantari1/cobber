@@ -151,6 +151,26 @@ def test_balance_still_returns_original_keys():
     assert "roles_present" in result and "warning" in result
 
 
+def test_spice_axis_flags_heat_and_stays_out_of_structure():
+    """Ginger's heat surfaces on the spice axis and as a note, not as a structure.
+
+    Heat is chemesthesis (TRPV1), not one of the sweet/sour/bitter/savoury shapes,
+    so a ginger drink reads structurally as whatever its sugar/acid balance is —
+    the heat is a parallel hazard note, not the structure verdict.
+    """
+    result = engine.balance(["white_rum", "ginger", "lime", "sugar_syrup"])
+    assert result["taste_axes"].get("spice", 0.0) >= 0.5
+    assert any("heat" in note.lower() for note in result["taste_notes"])
+    # Structure is driven by sweet/sour balance, never by spice.
+    assert result["structure"] != "spice"
+
+
+def test_hot_sauce_heat_is_on_the_spice_axis():
+    """Hot sauce's capsaicin heat now lands on the spice axis (was previously lost)."""
+    axes, _ = engine.taste_profile("hot_sauce")
+    assert axes.get("spice", 0.0) >= 0.8
+
+
 def test_frontier_support_returns_attributed_evidence():
     """A pairing seen in the craft corpus comes back with count and examples."""
     evidence = engine.frontier_support("gin", "honey")

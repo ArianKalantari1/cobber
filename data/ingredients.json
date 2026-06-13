@@ -336,6 +336,9 @@
       "zingiberene",
       "alpha_pinene"
     ],
+    "taste": {
+      "spice": 0.8
+    },
     "descriptors": [
       "pungent",
       "warm",
@@ -343,7 +346,7 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Gingerol/zingiberene pungency.",
+    "notes": "Gingerol/zingiberene pungency. Spice axis grounded in gingerol (TRPV1 heat).",
     "source": "Zingiber officinale profiles."
   },
   {
@@ -356,6 +359,9 @@
       "limonene",
       "beta_caryophyllene"
     ],
+    "taste": {
+      "spice": 0.5
+    },
     "descriptors": [
       "pungent",
       "woody",
@@ -363,7 +369,7 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Caryophyllene/pinene woody pungency; bridges to native pepperberry.",
+    "notes": "Caryophyllene/pinene woody pungency; bridges to native pepperberry. Spice axis from piperine (milder TRPV1 heat than chilli).",
     "source": "Piper nigrum oil profiles."
   },
   {
@@ -1905,7 +1911,8 @@
     ],
     "taste": {
       "sour": 0.4,
-      "salty": 0.3
+      "salty": 0.3,
+      "spice": 0.9
     },
     "descriptors": [
       "hot",
@@ -1914,7 +1921,7 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Capsaicin heat is trigeminal, not a taste axis yet; vinegar base gives sour. TODO: verify (Part B citation pass).",
+    "notes": "Capsaicin heat now on the spice axis (chemesthesis, grounded in capsaicin); vinegar base gives sour. TODO: verify (Part B citation pass).",
     "source": "Common aroma-chemistry references; provisional."
   }
 ]

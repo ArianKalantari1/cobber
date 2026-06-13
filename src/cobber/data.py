@@ -37,7 +37,14 @@ VALID_CONFIDENCE = {"solid", "moderate", "sparse"}
 # Values are 0..1 per axis; an entry's `taste` is optional — the engine falls
 # back to a coarse role-derived prior when it is absent, so explicit taste
 # data stays honest (curated where present, derived where not).
-VALID_TASTE_AXES = {"sweet", "sour", "bitter", "salty", "umami", "fat", "funk"}
+#
+# Strictly these are *palate* axes, not just gustatory taste: sweet/sour/bitter/
+# salty/umami are true taste, but `fat` is mouthfeel, `funk` is aroma-led, and
+# `spice` is chemesthesis (the TRPV1 heat of capsaicin/gingerol — a burn, not a
+# flavour). They live together because they are all things a bartender actively
+# balances a drink against. Future mouthfeel axes (body, astringency, cooling)
+# would belong in this same set — see design notes on the FooDB track.
+VALID_TASTE_AXES = {"sweet", "sour", "bitter", "salty", "umami", "fat", "funk", "spice"}
 
 
 @dataclass(frozen=True)
