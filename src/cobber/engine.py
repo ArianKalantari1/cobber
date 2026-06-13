@@ -140,6 +140,41 @@ def nearest_by_profile(
     return scored[:n]
 
 
+def suggest_substitution(
+    ingredient_id: str,
+    pantry_ids: list[str],
+    n: int = 3,
+) -> list[dict]:
+    """Suggest what in a user's pantry can stand in for an ingredient they lack.
+
+    A role-faithful nearest-profile lookup: it only offers pantry items that play
+    the *same role* as the target (a spirit for a spirit, an acid for an acid) and
+    then ranks them by shared chemistry. So "you want a Last Word but have no green
+    Chartreuse" comes back with the closest aromatic you actually own, not a syrup
+    that happens to share a compound.
+
+    ``ingredient_id`` is the thing they want (it need not be in the pantry — that's
+    the point); ``pantry_ids`` is what they have. Returns ``[]`` — honestly, not a
+    forced swap — when the target is unknown/profile-less or nothing in the pantry
+    shares both its role and any chemistry. For a cross-role option, the host can
+    fall back to :func:`nearest_by_profile` over the whole pantry and say the role
+    differs.
+
+    Each item matches :func:`nearest_by_profile`'s shape.
+    """
+    target = PANTRY.get(ingredient_id)
+    if target is None or not target.compounds:
+        return []
+    same_role_pool = [
+        pid
+        for pid in pantry_ids
+        if pid != ingredient_id
+        and (ing := PANTRY.get(pid)) is not None
+        and ing.role == target.role
+    ]
+    return nearest_by_profile(ingredient_id, n=n, candidates=same_role_pool)
+
+
 # Coarse taste prior per role, used when an ingredient has no curated `taste`
 # field. Deliberately conservative: spirits/aromatics/herbs/mixers contribute
 # nothing rather than a guess. Derived values are flagged in balance() output.

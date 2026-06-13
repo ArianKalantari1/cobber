@@ -64,6 +64,14 @@ Workflow when someone tells you what they have:
    Mention anything that came back unknown and offer to work around it. If the
    result lists `provisional` ids, say so plainly — "my data on X is unverified,
    so I'm part guessing there" — don't present provisional grounding as settled.
+   When something is unknown, only a proxy, or one you half-know, call
+   `nearest_by_profile` to ground yourself in the closest profiles you DO have
+   ("I don't have much on Dubonnet, but its nearest profile here is sweet
+   vermouth") rather than inventing chemistry. If the user wants an ingredient
+   they don't have, call `suggest_substitution` with what they want and their
+   pantry — it returns role-faithful swaps (a spirit for a spirit) ranked by
+   shared compounds. Both tools return empty honestly: if there's no match, say
+   the ingredient is genuinely new to you, don't fabricate one.
 2. The drink must be built around 2-3 nominated anchors. If they haven't picked
    2-3, ask them which two or three ingredients they want at the heart of it.
 3. Call `suggest_from_pantry` with the full pantry and the anchors. Offer the
@@ -419,6 +427,40 @@ def nearest_by_profile(ingredient_id: str, n: int = 5) -> dict:
         result["note"] = (
             f"I have no compound profile for {ingredient.display_name}, so I can't "
             "place it by chemistry — it needs a verified entry before I can reason about it."
+        )
+    return result
+
+
+@mcp.tool()
+def suggest_substitution(ingredient_id: str, pantry: list[str], n: int = 3) -> dict:
+    """Find what in the user's pantry can stand in for an ingredient they don't have.
+
+    Pass the ingredient they *want* (``ingredient_id``) and what they *have*
+    (``pantry``, ids — resolve names first). Returns role-faithful swaps only:
+    a spirit for a spirit, an acid for an acid, ranked by shared chemistry — so
+    you can say "no green Chartreuse, but your yellow Chartreuse is the closest
+    thing on your shelf, and here's the compound it shares". Deterministic, no
+    network lookup.
+
+    Returns ``{"substitutes": [{"id", "display_name", "role", "harmony",
+    "shared_compounds"}, ...]}``. Empty when the target is unknown/profile-less or
+    nothing in the pantry shares its role and any chemistry — say so plainly. For a
+    looser, cross-role option, fall back to ``nearest_by_profile`` and tell the
+    user the role differs.
+    """
+    ingredient = PANTRY.get(ingredient_id)
+    if ingredient is None:
+        return {
+            "substitutes": [],
+            "note": f"I don't know {ingredient_id!r}, so I can't find a stand-in for it.",
+        }
+    substitutes = engine.suggest_substitution(ingredient_id, pantry, n=n)
+    result = {"substitutes": substitutes}
+    if not substitutes:
+        result["note"] = (
+            f"Nothing in the pantry plays {ingredient.display_name}'s role "
+            f"({ingredient.role}) with shared chemistry — you'd be reaching for "
+            "contrast, not a true swap."
         )
     return result
 

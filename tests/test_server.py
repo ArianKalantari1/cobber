@@ -51,3 +51,17 @@ def test_nearest_by_profile_tool_is_honest_about_unknowns():
     result = server.nearest_by_profile("definitely_not_a_real_ingredient")
     assert result["nearest"] == []
     assert "note" in result
+
+
+def test_substitution_tool_returns_role_faithful_swap():
+    """The substitution tool offers a same-role pantry stand-in."""
+    result = server.suggest_substitution("lime", ["gin", "lemon", "sugar_syrup"])
+    assert result["substitutes"], "lemon should stand in for lime"
+    assert result["substitutes"][0]["id"] == "lemon"
+
+
+def test_substitution_tool_is_honest_when_nothing_fits():
+    """No same-role match returns empty with a plain note, not a forced swap."""
+    result = server.suggest_substitution("lime", ["gin", "vodka"])
+    assert result["substitutes"] == []
+    assert "note" in result

@@ -444,3 +444,33 @@ def test_nearest_by_profile_respects_candidate_pool():
     ids = {item["id"] for item in nearest}
     assert ids <= {"lemon", "vodka", "mint"}
     assert "lemon" in ids  # lemon shares citrus compounds with lime
+
+
+def test_substitution_offers_same_role_pantry_swap():
+    """No lime on hand → lemon (same sour role, shared citrus chemistry) stands in."""
+    subs = engine.suggest_substitution(
+        "lime", ["gin", "lemon", "sugar_syrup", "mint", "campari"]
+    )
+    assert subs, "lemon should be offered as a lime stand-in"
+    assert subs[0]["id"] == "lemon"
+    assert subs[0]["role"] == "sour"  # role-faithful: an acid for an acid
+    assert subs[0]["shared_compounds"]
+
+
+def test_substitution_is_role_faithful_not_just_chemical():
+    """A swap must share the target's role, even if a cross-role item shares more.
+
+    lime_vodka has an identical profile to lime (harmony 1.0) but it's a spirit,
+    not an acid — it must NOT be offered as a substitute for lime in a build.
+    """
+    subs = engine.suggest_substitution("lime", ["lime_vodka", "lemon"])
+    ids = [s["id"] for s in subs]
+    assert "lime_vodka" not in ids, "a spirit must not substitute for an acid"
+    assert "lemon" in ids
+
+
+def test_substitution_empty_when_nothing_fits_the_role():
+    """No same-role pantry item with shared chemistry → honest empty, not a reach."""
+    # A pantry of only spirits offers no acid to stand in for lime.
+    subs = engine.suggest_substitution("lime", ["gin", "white_rum", "vodka"])
+    assert subs == []
