@@ -14,7 +14,7 @@ import difflib
 
 from mcp.server.fastmcp import FastMCP
 
-from . import engine
+from . import engine, preferences
 from .data import Ingredient
 
 PANTRY = engine.PANTRY
@@ -98,6 +98,19 @@ Workflow when someone tells you what they have:
    itself MUST carry a one-line data-confidence note (e.g. "Heads up: my miso
    profile is unverified — this bridge is a strong hunch, not settled
    chemistry"). Not optional, not fine print to drop: it is part of the recipe.
+7. Close the loop — this is how Cobber learns a palate. After handing over a
+   recipe, ASK the user to report back when they actually make it: what they
+   liked, what they'd change, even a one-word verdict. When feedback arrives,
+   call `record_tasting_feedback` (verdict: loved/liked/ok/disliked/hated).
+   Cobber keeps a small taste profile for THIS install only — nothing is
+   pooled or shared anywhere. At the start of a pantry session, call
+   `get_taste_profile` to see who you're mixing for, and say when you're
+   using it ("you've leaned bitter lately, so I went amaro-forward").
+   Suggestions carry a `personal_fit` score (0.5 = neutral) once 3+ verdicts
+   exist. Two honesty rules: if the feedback tool reports ingredients as
+   `quarantined`, tell the user those couldn't teach the profile because
+   their data is unverified; and never claim to know someone's taste off
+   fewer than a handful of verdicts.
 """
 
 mcp = FastMCP("Cobber the Mixologist", instructions=INSTRUCTIONS)
@@ -256,6 +269,18 @@ def suggest_from_pantry(
         suggestions = engine.build_around(pantry, anchors, native_twist, n)
     except ValueError as exc:
         return {"error": str(exc)}
+    # Personal layer (additive): score each suggestion against this install's
+    # tasting history. A corrupt or missing local preference file must never
+    # break the core suggestion path, hence the broad guard.
+    try:
+        prefs = preferences.load_prefs()
+        if len(prefs.get("feedback", [])) >= preferences.MIN_FEEDBACK_FOR_FIT:
+            for suggestion in suggestions:
+                suggestion["personal_fit"] = preferences.personal_fit(
+                    suggestion["ingredients"], prefs
+                )
+    except Exception:
+        pass
     return {"suggestions": suggestions, "provisional": _provisional_among(pantry)}
 
 
@@ -407,6 +432,71 @@ def suggest_technique(ingredient_ids: list[str]) -> dict:
             "matched_rule": "fallback",
         }
     return result
+
+
+@mcp.tool()
+def record_tasting_feedback(
+    drink_name: str,
+    ingredients: list[str],
+    verdict: str,
+    liked: list[str] | None = None,
+    could_improve: str = "",
+    notes: str = "",
+) -> dict:
+    """Record the user's verdict on a drink they actually made.
+
+    ``verdict`` is one of loved/liked/ok/disliked/hated; ``liked`` holds
+    free-text aspects ("the smoky finish"), ``could_improve`` what they'd
+    change ("less sweet next time"). Pass ingredient names as the user said
+    them — they are resolved to known ids here.
+
+    This writes ONLY to this install's local preference document
+    (~/.cobber/preferences.json) — never to Cobber's shared flavour data, and
+    nothing is pooled across users. The response says which ingredients were
+    ``quarantined`` (recorded but not learned from, because their data is
+    unverified) — relay that to the user honestly.
+    """
+    resolved_ids: list[str] = []
+    unresolved: list[str] = []
+    for name in ingredients:
+        ingredient_id, _ = _resolve_one(name)
+        if ingredient_id is None:
+            unresolved.append(name)
+        else:
+            resolved_ids.append(ingredient_id)
+    try:
+        return preferences.record_feedback(
+            drink_name=drink_name,
+            ingredient_ids=resolved_ids,
+            verdict=verdict,
+            liked=liked,
+            could_improve=could_improve,
+            notes=notes,
+            unresolved_names=unresolved or None,
+        )
+    except ValueError as exc:
+        return {"error": str(exc)}
+
+
+@mcp.tool()
+def get_taste_profile() -> dict:
+    """What Cobber has learned about THIS install's palate from past feedback.
+
+    Returns feedback_count, axis_weights (e.g. bitter +0.4 means the user has
+    liked bitter-leaning drinks), top liked/disliked ingredients, and the
+    unattributed list (feedback Cobber refused to learn from because the
+    ingredient data is unverified). Call at the start of a pantry session to
+    bias direction — and say so out loud when you do. With fewer than 3
+    verdicts, treat the profile as anecdote, not knowledge.
+    """
+    prefs = preferences.load_prefs()
+    summary = preferences.profile_summary(prefs)
+    if summary["feedback_count"] == 0:
+        summary["note"] = (
+            "No tasting feedback recorded yet on this install — ask the user "
+            "to report back when they make a drink."
+        )
+    return summary
 
 
 def main() -> None:

@@ -1,6 +1,6 @@
 # Handoff — current state of the co-occurrence work
 
-*Updated 12 June 2026 (session, branch `claude/gallant-tesla-n1ad47`, PR #4).
+*Updated 13 June 2026 (session, branch `claude/gallant-tesla-n1ad47`, PR #4).
 Supersedes the original Copilot handoff. Read `docs/cobber-design-notes.md`
 first for the project's thinking; this file is "where we are and what's next".*
 
@@ -18,10 +18,51 @@ first for the project's thinking; this file is "where we are and what's next".*
 - **Proportion templates:** 12 templates in `data/proportion_templates.json`
   (10 k-means + 2 equal-parts overlays) from ~8,400 cocktailapp recipes.
   PROVISIONAL — Ari to name the templates.
-- **Tests:** 32 passing (`python -m pytest tests/ -q`).
+- **Technique rules:** 10 priority-ordered rules in
+  `data/technique_associations.json` (PROVISIONAL — Ari to review).
+- **Preference layer:** per-install local taste profile
+  (`src/cobber/preferences.py` → `~/.cobber/preferences.json`); learns only
+  through verified taste-curated ingredients (15 learnable today — the
+  taste-axis backfill is the bottleneck).
+- **Tests:** 51 passing (`python -m pytest tests/ -q`).
 - **Flavour families:** 22 diagnostic clusters in `data/flavor_communities.json`
   that read like a bar menu (daiquiri/mojito family, martini family,
   after-dinner cream-coffee family, tiki, mulled-wine spices…).
+
+## Per-install taste-preference layer: DONE (13 June 2026)
+
+- **Ari's rulings that shaped it:** (1) NO public knowledge pooling — spam /
+  poisoning risk, deliberately rejected; (2) instead, each MCP install keeps
+  its own local preference document and Cobber learns THAT user's palate;
+  (3) Cobber must proactively ask for feedback after handing over a recipe
+  ("make it and tell me what you liked / what could be better").
+- **Storage:** `~/.cobber/preferences.json` (env-override `COBBER_PREFS_PATH`).
+  This is the ONLY thing the server ever writes; the shared scoring data
+  (ingredients/tradition/templates/technique) stays strictly read-only at
+  runtime, preserving the build-time/human-approved principle. The raw
+  feedback log is the source of truth; the derived profile is recomputed from
+  it on every write (order-independent, picks up data-file improvements).
+- **The quarantine rule (clean-data guard):** a verdict only teaches the
+  profile through ingredients that are BOTH non-provisional AND taste-curated.
+  Everything else is recorded but quarantined ("unattributed") — dirty data is
+  inert, not corrosive. This is what lets the preference layer ship before the
+  full Part B clean: bad data *can't* poison a palate model that refuses to
+  learn from it. Only 15 ingredients are learnable today — taste backfill on
+  high-frequency entries (gin 2,147 recipes, no curated taste!) is the
+  highest-leverage cleanup and a pending proposal for Ari.
+- **Matching:** `personal_fit` = 0.5 + 0.35·cosine(palate vector, drink taste
+  vector) + 0.15·direct ingredient affinity, clipped to [0,1]. Cosine (not
+  dot product) so a one-note drink can't max a single liked axis and outrank
+  a drink matching the user's whole balance — caught by test: sugar syrup was
+  outranking a Negroni for a Negroni lover under the dot product.
+- **Cold start honesty:** < 3 verdicts → `personal_fit` returns None; fully
+  uncurated combinations → None. No fake numbers.
+- **Tools:** `record_tasting_feedback` (free-text ingredients resolved via
+  the same resolver; unresolved names stored, never coerced) and
+  `get_taste_profile`. `suggest_from_pantry` attaches `personal_fit` per
+  suggestion once 3+ verdicts exist. INSTRUCTIONS step 7 teaches the
+  ask-for-feedback loop and the two honesty rules (announce quarantined
+  ingredients; never claim to know a palate from a handful of verdicts).
 
 ## Technique mining: DONE this session (12 June 2026)
 
@@ -293,19 +334,42 @@ Priority order set with Ari after the two live runs:
    structural descriptions. Dose-gating-to-proportions deferred (roadmap
    concern) — remove the absolute-oz watch item above once templates are
    confirmed.
-2. **Technique mining — DONE.** 9 priority-ordered rules in
+2. **Technique mining — DONE.** 10 priority-ordered rules in
    `data/technique_associations.json` from 486 annotated TheCocktailDB+IBA
    recipes. `suggest_technique()` in engine.py, exposed as MCP tool, included
-   in every `build_around` suggestion. **OPEN:** Ari to review rule priorities;
-   White Russian edge case noted above (dairy→coupe vs rocks).
-3. **Tasting-feedback loop.** Started informally: Ari's verdicts on The
-   Broth Decision and Myrcene Season are the first entries. Formalize as
-   data/tasting_log.json once a few verdicts exist; verdicts should be able
-   to adjust pairing confidence. Long-term this is the most defensible asset
-   (a model tuned by a working bartender's palate).
+   in every `build_around` suggestion. **OPEN:** Ari to review rule priorities
+   and rationale text.
+3. **Tasting-feedback loop — DONE as the per-install preference layer**
+   (see section above). Ari ruled OUT public knowledge pooling; the layer is
+   personal per install. **Remaining (Ari-side):** the curated global
+   `data/tasting_log.json` — Ari's own verdicts (The Broth Decision, Myrcene
+   Season pending) promoted by hand to adjust *pairing confidence* in the
+   shared data. That stays a build-time, human-approved file, separate from
+   the per-user layer. **Bottleneck:** taste-axis backfill (only 15
+   ingredients are learnable; gin appears in 2,147 recipes with no curated
+   taste) — top-15 proposal drafted, awaiting Ari's values.
 4. **Part B verification/citation pass** — parallel track for
    research-flavoured sessions; REQUIRED before any public claim. Includes
    the natives and the taste-provenance idea (bitterness from amarogentin,
-   not just "bitter 0.8").
+   not just "bitter 0.8"). **Candidate public sources for the taste gap**
+   (from model memory, 13 June 2026 — VERIFY existence + license before any
+   ingest; per project principle, reference-only, never bulk-ingested):
+   ChemTastesDB (~2,900 molecules with taste classes; best for provenance),
+   BitterDB (bitter compounds + receptors), FooDB (food constituents WITH
+   concentrations — closest to ingredient-level), FlavorDB2 (already noted in
+   design docs as reference-only), Good Scents Company (per-compound
+   organoleptic notes; licensing murky — cite-only), VCF (authoritative but
+   paid — out). Structural catch: these are compound-level; our `taste` axes
+   are ingredient-level palate intensities, so numbers come from Ari's
+   bartender judgment spot-checked against the DBs, and the DBs supply the
+   WHY (provenance) at Part B.
 5. **Register dial** (summery↔wintery) — after 1+2, since it weights taste +
    texture + technique.
+6. **Agent-loop refinement search (far future — Ari's idea, banked).**
+   Inspired by a hackathon-winning protein-compound architecture: an agent
+   loop that iterates candidate combinations with minimal differences,
+   re-scoring each pass, until it converges on something genuinely new
+   rather than stopping at the first plausible answer. Would sit ABOVE the
+   deterministic engine (the host loops; the server stays dumb), so it does
+   not violate the no-LLM-at-runtime principle. Not designed yet; revisit
+   after the preference layer has real usage data.
