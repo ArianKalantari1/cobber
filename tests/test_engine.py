@@ -474,3 +474,34 @@ def test_substitution_empty_when_nothing_fits_the_role():
     # A pantry of only spirits offers no acid to stand in for lime.
     subs = engine.suggest_substitution("lime", ["gin", "white_rum", "vodka"])
     assert subs == []
+
+
+def test_build_around_flags_flavour_blanks():
+    """A Vodka Soda build must flag vodka + soda as flavour blanks, not a clash.
+
+    Both have no aroma compounds and no taste data, so their harmony contribution
+    is zero because they're unknown chemistry — the host needs to know so a low
+    score reads as 'blank canvas', not 'bad pairing'.
+    """
+    results = engine.build_around(
+        ["vodka", "soda_water", "lime"], ["vodka", "soda_water"], n=3
+    )
+    assert results
+    for result in results:
+        assert "flavour_blanks" in result
+        assert "vodka" in result["flavour_blanks"]
+        assert "soda_water" in result["flavour_blanks"]
+
+
+def test_build_around_flavour_blanks_excludes_taste_only_ingredients():
+    """Sugar syrup has no aroma but DOES have taste data — it is not a blank.
+
+    The flag is for ingredients Cobber knows nothing about, not for the many
+    structural ingredients that contribute taste without aroma compounds.
+    """
+    results = engine.build_around(
+        ["white_rum", "lime", "sugar_syrup"], ["white_rum", "lime"], n=3
+    )
+    assert results
+    for result in results:
+        assert result["flavour_blanks"] == []

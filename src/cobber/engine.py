@@ -659,6 +659,26 @@ def _native_swap_for(anchors: list[str]) -> dict | None:
     return best
 
 
+def _flavour_blanks(ingredient_ids: list[str]) -> list[str]:
+    """Return ids Cobber has no flavour data for at all — no aroma, no taste.
+
+    These are the genuine blind spots: an ingredient with neither a compound
+    profile nor curated taste axes (vodka, soda, tonic, cola, cranberry...)
+    contributes nothing to the harmony maths, so a combination's harmony score
+    simply can't see it. Surfacing them lets the host avoid a misread — a low
+    harmony on a Vodka Soda is the spirit being a blank canvas, not a clash, and
+    Cobber should say so rather than let the number speak for an ingredient it
+    knows nothing about. Data-driven, not a hardcoded neutral list: an entry
+    earns its way off this flag the moment it gets compounds or taste.
+    """
+    blanks: list[str] = []
+    for ingredient_id in ingredient_ids:
+        ingredient = PANTRY.get(ingredient_id)
+        if ingredient is not None and not ingredient.compounds and not ingredient.taste:
+            blanks.append(ingredient_id)
+    return sorted(blanks)
+
+
 def _score_combination(ingredient_ids: list[str]) -> dict[str, float]:
     """Return the mean pairwise harmony and novelty for a combination."""
     harmonies = []
@@ -700,7 +720,13 @@ def build_around(
             "why": {"a+b": ["shared", "compounds"], ...},
             "balance": {...},
             "native_swap": {...} | None,
+            "flavour_blanks": [...ids],  # ingredients with no aroma/taste data
         }
+
+    ``flavour_blanks`` lists any ingredient in the combination that Cobber has no
+    flavour data for (no compounds, no taste) — its harmony contribution is zero
+    not because it clashes but because it is unknown chemistry, so the host can
+    explain a low score rather than misread it.
     """
     error = validate_anchors(anchor_ids)
     if error is not None:
@@ -746,6 +772,7 @@ def build_around(
                     "template": suggest_template(ingredient_ids),
                     "technique": suggest_technique(ingredient_ids),
                     "native_swap": native_swap,
+                    "flavour_blanks": _flavour_blanks(ingredient_ids),
                     "_rank": rank,
                 }
             )
