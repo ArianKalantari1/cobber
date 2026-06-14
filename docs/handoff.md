@@ -1,8 +1,40 @@
 # Handoff — current state of the co-occurrence work
 
-*Updated 13 June 2026 (proportion templates + technique mining + preference layer + taste backfill + nearest_by_profile/substitution lookup + spice axis + cited-research data fills — all merged to main).
+*Updated 14 June 2026 (culinary affinities layer added — Ahn 2011 food-pairing tool).*
+*Previously updated 13 June 2026 (proportion templates + technique mining + preference layer + taste backfill + nearest_by_profile/substitution lookup + spice axis + cited-research data fills — all merged to main).
 Supersedes the original Copilot handoff. Read `docs/cobber-design-notes.md`
 first for the project's thinking; this file is "where we are and what's next".*
+
+## Culinary affinities layer: DONE (14 June 2026)
+
+- **Data:** `data/culinary_pairs.json` — 75 curated pairs from Ahn et al. 2011
+  (flavor network / recipe co-occurrence from Epicurious, allrecipes, etc.),
+  The Flavor Bible (Page & Dornenburg), and CSIRO / Orana Foundation native
+  Australian ingredient research. Each pair has `affinity_score` (0–1,
+  normalised recipe co-occurrence frequency), `cuisine_contexts`, and a `note`
+  explaining the pairing. Compound bridges (where Cobber's aroma DB confirms
+  the chemistry) are noted inline.
+- **Architecture decision (14 June 2026 — Ari):** exposed as an MCP tool, NOT
+  silent background data, so the host Claude can reason about whether a food
+  pairing translates to a cocktail. Transparency wins over token efficiency;
+  token costs are falling fast enough that this is not a real constraint.
+- **Engine:** `engine.culinary_affinities(ingredient_id, n)` — looks up the
+  culinary table and enriches each hit with `shared_compounds` + `harmony`
+  when a compound bridge exists in Cobber's aroma DB. When absent, the pairing
+  is purely chef-empirical — validated by recipe volume, not aroma chemistry.
+  This distinction is surfaced explicitly so the host can communicate it.
+- **Tool:** `get_culinary_affinities(ingredient_id, n=10)` — MCP tool. Returns
+  affinities sorted by score, with full provenance. Honest empty list (+ note)
+  when an ingredient has no data mapped yet.
+- **INSTRUCTIONS step 8:** teaches the host when to call it (culinary-crossover
+  or novel builds), how to interpret affinity_score tiers, and the key
+  distinction between compound-confirmed vs. chef-empirical pairs.
+- **Tests:** 8 new tests (82 total). Covers sort order, field shape, compound
+  bridge surfacing, no-bridge omission, unknown/unmapped honesty, n-limit, and
+  a named compound spot-check (cherry+almond benzaldehyde).
+- **Distinct from tradition.json and frontier_evidence.json:** tradition =
+  cocktail history; frontier = craft bartenders; culinary = food chefs. Three
+  separate epistemic streams.
 
 ## Status snapshot
 
