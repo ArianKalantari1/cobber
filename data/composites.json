@@ -1589,5 +1589,29 @@
       "sweet": 0.25,
       "bitter": 0.1
     }
+  },
+  {
+    "id": "peated_scotch",
+    "display_name": "Peated single malt Scotch (Islay)",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "peat_smoke",
+      "vanilla"
+    ],
+    "descriptors": [
+      "smoke",
+      "medicinal",
+      "maritime",
+      "oak"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Heavily peated Islay style (Laphroaig, Lagavulin, Ardbeg). Distinct from the generic 'scotch' entry: carries the peat phenol family (guaiacol et al.) plus barrel vanillin, so it no longer collapses into unpeated/blended Scotch. The smoke is what carries a Penicillin-style float. Maritime/iodine character not separately modelled.",
+    "source": "Peat phenols from Islay single-malt GC-MS quantitation (see peat_smoke); barrel vanillin from oak maturation.",
+    "taste": {
+      "bitter": 0.2,
+      "funk": 0.25
+    }
   }
 ]
