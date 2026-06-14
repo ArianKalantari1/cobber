@@ -248,20 +248,27 @@ def load_pantry() -> Pantry:
         pantry.technique_rules = technique_data.get("rules", [])
 
     # Pass 7: culinary affinities, if the file exists. Food-pairing co-occurrences
-    # from Ahn 2011 and The Flavor Bible. Unknown ids are tolerated (same as
-    # tradition and frontier) — the table never blocks a load.
+    # (currently PROVISIONAL hand estimates pending a real recipe-corpus pipeline).
+    # Validated loudly: unlike tradition/frontier (which tolerate unknown ids from
+    # scraped corpora), culinary pairs are hand-curated against Cobber's own
+    # ingredient world, so an unknown id, an out-of-range score, or a duplicate
+    # pair with a conflicting score is an authoring bug — fail rather than let it
+    # silently overwrite or vanish.
     culinary_path = DATA_DIR / "culinary_pairs.json"
     if culinary_path.exists():
         with culinary_path.open(encoding="utf-8") as handle:
             culinary_data = json.load(handle)
         for row in culinary_data.get("pairs", []):
-            pair = row.get("pair")
-            if isinstance(pair, list) and len(pair) == 2:
-                pantry.culinary[frozenset(pair)] = {
-                    "affinity_score": float(row.get("affinity_score", 0.0)),
-                    "cuisine_contexts": list(row.get("cuisine_contexts", [])),
-                    "note": str(row.get("note", "")),
-                }
+            key, payload = _validate_culinary_row(row, pantry.ingredients)
+            if key in pantry.culinary and pantry.culinary[key]["affinity_score"] != payload["affinity_score"]:
+                a, b = sorted(key)
+                raise ValueError(
+                    f"Culinary pair {{{a}, {b}}} appears twice with conflicting "
+                    f"affinity_score "
+                    f"({pantry.culinary[key]['affinity_score']} vs "
+                    f"{payload['affinity_score']}); de-duplicate it."
+                )
+            pantry.culinary[key] = payload
 
     return pantry
 
@@ -296,6 +303,48 @@ def _validate_taste(entry: dict) -> tuple[tuple[str, float], ...]:
             )
         pairs.append((axis, float(value)))
     return tuple(pairs)
+
+
+def _validate_culinary_row(
+    row: dict, known_ingredients: dict[str, "Ingredient"]
+) -> tuple[frozenset, dict]:
+    """Validate one culinary-affinity row; return its ``(frozenset key, payload)``.
+
+    Raises ``ValueError`` on a malformed pair, an id Cobber doesn't know, or an
+    ``affinity_score`` outside ``[0, 1]``. Culinary pairs are hand-curated against
+    Cobber's own ingredients, so any of these is an authoring mistake we want to
+    surface at load time rather than discover as a silently-dropped lookup later.
+    """
+    pair = row.get("pair")
+    if not isinstance(pair, list) or len(pair) != 2:
+        raise ValueError(f"Culinary row must have pair: [a, b]; got {pair!r}.")
+    a, b = pair
+    if not isinstance(a, str) or not isinstance(b, str) or not a or not b:
+        raise ValueError(f"Culinary pair ids must be non-empty strings; got {pair!r}.")
+    if a == b:
+        raise ValueError(f"Culinary pair {pair!r} must be two distinct ingredients.")
+    for ingredient_id in (a, b):
+        if ingredient_id not in known_ingredients:
+            raise ValueError(
+                f"Culinary pair references unknown ingredient {ingredient_id!r}; "
+                "add it to the data files or remove the pair (it would never surface)."
+            )
+    try:
+        score = float(row["affinity_score"])
+    except (KeyError, TypeError, ValueError) as error:
+        raise ValueError(
+            f"Culinary pair {pair!r} must include a numeric 'affinity_score'."
+        ) from error
+    if not 0.0 <= score <= 1.0:
+        raise ValueError(
+            f"Culinary pair {pair!r} affinity_score {score!r} must be in [0.0, 1.0]."
+        )
+    payload = {
+        "affinity_score": score,
+        "cuisine_contexts": list(row.get("cuisine_contexts", [])),
+        "note": str(row.get("note", "")),
+    }
+    return frozenset((a, b)), payload
 
 
 def _validate_role(entry: dict) -> None:

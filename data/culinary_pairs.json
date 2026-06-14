@@ -1,703 +1,1326 @@
 {
   "meta": {
-    "primary_source": "Ahn et al. 2011, 'Flavor network and the principles of food pairing', Scientific Reports 1:196. Co-occurrence data from global recipe databases (Epicurious, allrecipes, and others).",
-    "secondary_sources": [
-      "Page & Dornenburg 2008, 'The Flavor Bible' — expert chef consensus pairings.",
-      "CSIRO Sensory and Flavour Science / Orana Foundation — Australian native ingredient culinary research.",
-      "Jock Zonfrillo & various Australian native food practitioners — native-to-contemporary crossover pairings."
+    "status": "PROVISIONAL — UNVERIFIED ESTIMATES, NOT YET COMPUTED FROM A CORPUS",
+    "provenance_warning": "The affinity_score values in this file are DIRECTIONAL ESTIMATES from bartender/model knowledge. They were NOT computed from recipe co-occurrence data. Do not present them as sourced measurements. A reproducible pipeline that derives real scores from a food-recipe corpus is the agreed next step (see scripts/ — pending a corpus; the sandbox network is restricted and no food-recipe dataset is committed yet).",
+    "intended_methodology": "Target: affinity_score = a normalized ingredient co-occurrence signal (e.g. NPMI or log-prevalence) computed from a real food-recipe corpus, mirroring how data/tradition.json is built from cocktail recipes. Ahn et al. 2011 (Scientific Reports 1:196) is the methodological model, NOT the source of the current numbers.",
+    "directional_inspiration": [
+      "Ahn et al. 2011, 'Flavor network and the principles of food pairing' — method only.",
+      "Page & Dornenburg 2008, 'The Flavor Bible' — expert chef pairing consensus.",
+      "CSIRO / Orana Foundation native-ingredient work — cited as background reading, NOT verified per-pair; native pairing notes need a real source check at Part B."
     ],
-    "methodology": "affinity_score normalized from recipe co-occurrence frequency and/or expert culinary consensus. 0.9+ = universal classic (thousands of recipes); 0.8 = strong established pairing; 0.65-0.75 = well-documented culinary use; 0.45-0.60 = emerging or modern gastronomy. ALL pairs are ingredient-level, not brand-level. Compound overlap with Cobber's aroma DB is noted per pair where it exists.",
-    "note": "Culinary affinities are DISTINCT from cocktail tradition scores. A high score means chefs use these together in food contexts — the host Claude decides whether it translates to a cocktail. Many pairs here have NO shared compound in Cobber's aroma DB (which is aroma-only); the pairing is validated by culinary empiricism, not compound analysis. When shared_compounds is mentioned in a note, the chemistry AND culinary tradition agree — strongest possible signal."
+    "compound_bridge_note": "Where the engine attaches shared_compounds + harmony to a pair, THAT part is real: it is computed live from Cobber's curated aroma DB. Note Cobber curates only a few signature compounds per ingredient, so 'no shared compound' here means 'no SIGNATURE overlap', not 'no molecule in common' (FlavorDB's full catalog shows broad trace overlap).",
+    "pair_count": 105
   },
   "pairs": [
     {
-      "pair": ["strawberry", "basil"],
+      "pair": [
+        "strawberry",
+        "basil"
+      ],
       "affinity_score": 0.82,
-      "cuisine_contexts": ["Italian", "French", "Mediterranean"],
+      "cuisine_contexts": [
+        "Italian",
+        "French",
+        "Mediterranean"
+      ],
       "note": "Classic salad, dessert, and gelato pairing. No aroma-compound bridge in Cobber's DB — estragole (basil) and furaneol (strawberry) work by aromatic contrast, not shared chemistry."
     },
     {
-      "pair": ["strawberry", "mint"],
+      "pair": [
+        "strawberry",
+        "mint"
+      ],
       "affinity_score": 0.72,
-      "cuisine_contexts": ["British", "American", "French"],
+      "cuisine_contexts": [
+        "British",
+        "American",
+        "French"
+      ],
       "note": "Widespread in desserts, salads, and drinks. No shared compound in Cobber's aroma DB — contrast pairing validated by recipe volume."
     },
     {
-      "pair": ["strawberry", "thyme"],
+      "pair": [
+        "strawberry",
+        "thyme"
+      ],
       "affinity_score": 0.65,
-      "cuisine_contexts": ["French", "Modern European"],
+      "cuisine_contexts": [
+        "French",
+        "Modern European"
+      ],
       "note": "Modern patisserie pairing (strawberry tarts with thyme cream, strawberry-thyme jam). No aroma-compound bridge."
     },
     {
-      "pair": ["strawberry", "vanilla"],
+      "pair": [
+        "strawberry",
+        "vanilla"
+      ],
       "affinity_score": 0.88,
-      "cuisine_contexts": ["American", "European", "Global"],
-      "note": "One of the highest co-occurrence pairings in Ahn 2011 Western corpus. Classic ice cream, dessert, and jam combination. No shared compound in Cobber's aroma DB — empirically universal."
+      "cuisine_contexts": [
+        "American",
+        "European",
+        "Global"
+      ],
+      "note": "Classic ice cream, dessert, and jam combination; widely regarded as a near-universal Western pairing. No SIGNATURE-compound overlap in Cobber's curated DB."
     },
     {
-      "pair": ["strawberry", "black_pepper"],
+      "pair": [
+        "strawberry",
+        "black_pepper"
+      ],
       "affinity_score": 0.62,
-      "cuisine_contexts": ["Italian", "Modern European"],
+      "cuisine_contexts": [
+        "Italian",
+        "Modern European"
+      ],
       "note": "Surprising but well-documented: the piperine heat of black pepper amplifies strawberry sweetness. Classic Venetian treatment. No shared compound in Cobber's aroma DB."
     },
     {
-      "pair": ["strawberry_gum", "strawberry"],
+      "pair": [
+        "strawberry_gum",
+        "strawberry"
+      ],
       "affinity_score": 0.85,
-      "cuisine_contexts": ["Australian native"],
+      "cuisine_contexts": [
+        "Australian native"
+      ],
       "note": "Both carry furaneol and ethyl_butyrate — shared compound bridge confirmed in Cobber's aroma DB. Native Australian culinary use: strawberry gum as flavouring for strawberry desserts intensifies the fruity note."
     },
     {
-      "pair": ["raspberry", "mint"],
+      "pair": [
+        "raspberry",
+        "mint"
+      ],
       "affinity_score": 0.75,
-      "cuisine_contexts": ["British", "French", "American"],
+      "cuisine_contexts": [
+        "British",
+        "French",
+        "American"
+      ],
       "note": "Classic summer pairing in desserts, sorbets, and drinks. No shared compound in Cobber's aroma DB."
     },
     {
-      "pair": ["raspberry", "thyme"],
+      "pair": [
+        "raspberry",
+        "thyme"
+      ],
       "affinity_score": 0.68,
-      "cuisine_contexts": ["French", "Modern European"],
+      "cuisine_contexts": [
+        "French",
+        "Modern European"
+      ],
       "note": "Modern culinary pairing: raspberry-thyme jam, lamb with raspberry-thyme glaze. No shared compound."
     },
     {
-      "pair": ["raspberry", "vanilla"],
-      "affinity_score": 0.80,
-      "cuisine_contexts": ["European", "American", "Global"],
-      "note": "High co-occurrence in Ahn 2011 Western corpus. Classic raspberry cream and dessert pairing. No shared compound in Cobber's aroma DB."
+      "pair": [
+        "raspberry",
+        "vanilla"
+      ],
+      "affinity_score": 0.8,
+      "cuisine_contexts": [
+        "European",
+        "American",
+        "Global"
+      ],
+      "note": "Classic raspberry cream and dessert pairing. No signature-compound overlap in Cobber's curated DB."
     },
     {
-      "pair": ["raspberry", "blackcurrant"],
+      "pair": [
+        "raspberry",
+        "blackcurrant"
+      ],
       "affinity_score": 0.78,
-      "cuisine_contexts": ["British", "French", "Scandinavian"],
+      "cuisine_contexts": [
+        "British",
+        "French",
+        "Scandinavian"
+      ],
       "note": "Classic berry combination. Shared compounds: beta_damascenone and beta_ionone — both the chemistry and culinary use agree."
     },
     {
-      "pair": ["raspberry", "lemon"],
+      "pair": [
+        "raspberry",
+        "lemon"
+      ],
       "affinity_score": 0.82,
-      "cuisine_contexts": ["European", "American"],
+      "cuisine_contexts": [
+        "European",
+        "American"
+      ],
       "note": "Universal dessert and jam pairing. No shared compound — the sour-sweet contrast is the driver."
     },
     {
-      "pair": ["blackcurrant", "mint"],
-      "affinity_score": 0.70,
-      "cuisine_contexts": ["British", "French"],
+      "pair": [
+        "blackcurrant",
+        "mint"
+      ],
+      "affinity_score": 0.7,
+      "cuisine_contexts": [
+        "British",
+        "French"
+      ],
       "note": "Classic British: blackcurrant cordial with mint, cassis with fresh mint. No shared compound."
     },
     {
-      "pair": ["blackcurrant", "vanilla"],
+      "pair": [
+        "blackcurrant",
+        "vanilla"
+      ],
       "affinity_score": 0.72,
-      "cuisine_contexts": ["European", "British"],
+      "cuisine_contexts": [
+        "European",
+        "British"
+      ],
       "note": "Common in preserves, ice cream, and desserts. No shared compound."
     },
     {
-      "pair": ["peach", "almond"],
+      "pair": [
+        "peach",
+        "almond"
+      ],
       "affinity_score": 0.85,
-      "cuisine_contexts": ["French", "Italian", "Mediterranean"],
+      "cuisine_contexts": [
+        "French",
+        "Italian",
+        "Mediterranean"
+      ],
       "note": "Classic stone-fruit and nut pairing: tarte Tatin, frangipane. Shared compound: benzaldehyde — chemistry and culinary tradition agree."
     },
     {
-      "pair": ["peach", "rosemary"],
+      "pair": [
+        "peach",
+        "rosemary"
+      ],
       "affinity_score": 0.68,
-      "cuisine_contexts": ["Italian", "Modern European"],
+      "cuisine_contexts": [
+        "Italian",
+        "Modern European"
+      ],
       "note": "Modern culinary pairing: peach-rosemary tart, grilled peach with rosemary honey. No shared compound — aromatic contrast."
     },
     {
-      "pair": ["peach", "ginger"],
+      "pair": [
+        "peach",
+        "ginger"
+      ],
       "affinity_score": 0.72,
-      "cuisine_contexts": ["East Asian", "American", "Modern"],
+      "cuisine_contexts": [
+        "East Asian",
+        "American",
+        "Modern"
+      ],
       "note": "Documented in preserves, sorbets, and stir-fries. No shared compound in Cobber's aroma DB."
     },
     {
-      "pair": ["peach", "raspberry"],
+      "pair": [
+        "peach",
+        "raspberry"
+      ],
       "affinity_score": 0.82,
-      "cuisine_contexts": ["French", "European", "American"],
+      "cuisine_contexts": [
+        "French",
+        "European",
+        "American"
+      ],
       "note": "Classic Melba pairing. Shared compounds: beta_damascenone and beta_ionone — both chemistry and culinary use confirm this."
     },
     {
-      "pair": ["peach", "cardamom"],
+      "pair": [
+        "peach",
+        "cardamom"
+      ],
       "affinity_score": 0.72,
-      "cuisine_contexts": ["Indian", "Middle Eastern", "Scandinavian"],
+      "cuisine_contexts": [
+        "Indian",
+        "Middle Eastern",
+        "Scandinavian"
+      ],
       "note": "Documented in Indian shrikhand, Scandinavian baking, and modern pastry. No shared compound."
     },
     {
-      "pair": ["cherry", "almond"],
+      "pair": [
+        "cherry",
+        "almond"
+      ],
       "affinity_score": 0.88,
-      "cuisine_contexts": ["German", "French", "Italian", "European"],
+      "cuisine_contexts": [
+        "German",
+        "French",
+        "Italian",
+        "European"
+      ],
       "note": "One of the most documented stone-fruit pairings. Shared compound: benzaldehyde (the marzipan molecule) — chemistry explains it perfectly."
     },
     {
-      "pair": ["cherry", "vanilla"],
+      "pair": [
+        "cherry",
+        "vanilla"
+      ],
       "affinity_score": 0.78,
-      "cuisine_contexts": ["European", "American"],
+      "cuisine_contexts": [
+        "European",
+        "American"
+      ],
       "note": "Classic in ice cream, Black Forest, cherry-vanilla jam. No shared compound."
     },
     {
-      "pair": ["cherry", "cinnamon"],
+      "pair": [
+        "cherry",
+        "cinnamon"
+      ],
       "affinity_score": 0.75,
-      "cuisine_contexts": ["Austrian", "Eastern European", "American"],
+      "cuisine_contexts": [
+        "Austrian",
+        "Eastern European",
+        "American"
+      ],
       "note": "Classic: cherry pie spice, Austrian Kirschtorte. Shared compound: eugenol (cinnamon and cherry both carry it) — chemistry and culinary tradition agree."
     },
     {
-      "pair": ["cherry", "cardamom"],
+      "pair": [
+        "cherry",
+        "cardamom"
+      ],
       "affinity_score": 0.65,
-      "cuisine_contexts": ["Scandinavian", "Middle Eastern", "Modern"],
+      "cuisine_contexts": [
+        "Scandinavian",
+        "Middle Eastern",
+        "Modern"
+      ],
       "note": "Documented in Scandinavian cherry-cardamom jam and modern pastry. No shared compound."
     },
     {
-      "pair": ["apple", "cinnamon"],
+      "pair": [
+        "apple",
+        "cinnamon"
+      ],
       "affinity_score": 0.92,
-      "cuisine_contexts": ["American", "European", "Global"],
-      "note": "Possibly the most universal dessert pairing in Western cuisine (Ahn 2011 top-ranked). No shared compound in Cobber's aroma DB — pure culinary empiricism at its most established."
+      "cuisine_contexts": [
+        "American",
+        "European",
+        "Global"
+      ],
+      "note": "Possibly the most universal dessert pairing in Western cuisine. No signature-compound overlap in Cobber's curated DB — pure culinary empiricism at its most established."
     },
     {
-      "pair": ["apple", "ginger"],
-      "affinity_score": 0.80,
-      "cuisine_contexts": ["British", "Asian", "American"],
+      "pair": [
+        "apple",
+        "ginger"
+      ],
+      "affinity_score": 0.8,
+      "cuisine_contexts": [
+        "British",
+        "Asian",
+        "American"
+      ],
       "note": "Classic: apple-ginger jam, ginger-spiced apple cake, Asian stir-fry. No shared compound."
     },
     {
-      "pair": ["apple", "sage"],
+      "pair": [
+        "apple",
+        "sage"
+      ],
       "affinity_score": 0.75,
-      "cuisine_contexts": ["British", "American", "Italian"],
+      "cuisine_contexts": [
+        "British",
+        "American",
+        "Italian"
+      ],
       "note": "Autumnal classic: apple-sage stuffing, pork with apple-sage sauce. No shared compound."
     },
     {
-      "pair": ["apple", "rosemary"],
-      "affinity_score": 0.70,
-      "cuisine_contexts": ["Italian", "Modern European"],
+      "pair": [
+        "apple",
+        "rosemary"
+      ],
+      "affinity_score": 0.7,
+      "cuisine_contexts": [
+        "Italian",
+        "Modern European"
+      ],
       "note": "Modern culinary: apple-rosemary tart, pork with apple and rosemary. No shared compound."
     },
     {
-      "pair": ["pear", "ginger"],
-      "affinity_score": 0.80,
-      "cuisine_contexts": ["British", "European", "Asian"],
+      "pair": [
+        "pear",
+        "ginger"
+      ],
+      "affinity_score": 0.8,
+      "cuisine_contexts": [
+        "British",
+        "European",
+        "Asian"
+      ],
       "note": "Classic: pear-ginger jam, tarte tatin with ginger cream, ginger poached pear. No shared compound."
     },
     {
-      "pair": ["pear", "cardamom"],
+      "pair": [
+        "pear",
+        "cardamom"
+      ],
       "affinity_score": 0.75,
-      "cuisine_contexts": ["Scandinavian", "Middle Eastern", "Modern European"],
+      "cuisine_contexts": [
+        "Scandinavian",
+        "Middle Eastern",
+        "Modern European"
+      ],
       "note": "Scandinavian classic (pear-cardamom jam, poached pear with cardamom custard). No shared compound."
     },
     {
-      "pair": ["pear", "rosemary"],
+      "pair": [
+        "pear",
+        "rosemary"
+      ],
       "affinity_score": 0.65,
-      "cuisine_contexts": ["Italian", "Modern European"],
+      "cuisine_contexts": [
+        "Italian",
+        "Modern European"
+      ],
       "note": "Modern culinary: pear-rosemary tart, roasted pear with rosemary honey. No shared compound."
     },
     {
-      "pair": ["pear", "sage"],
+      "pair": [
+        "pear",
+        "sage"
+      ],
       "affinity_score": 0.62,
-      "cuisine_contexts": ["Italian", "Modern European"],
+      "cuisine_contexts": [
+        "Italian",
+        "Modern European"
+      ],
       "note": "Autumnal Italian pairing: pear and sage risotto, pear salad with crispy sage. No shared compound."
     },
     {
-      "pair": ["lemon", "thyme"],
-      "affinity_score": 0.80,
-      "cuisine_contexts": ["Provençal", "Mediterranean", "French"],
+      "pair": [
+        "lemon",
+        "thyme"
+      ],
+      "affinity_score": 0.8,
+      "cuisine_contexts": [
+        "Provençal",
+        "Mediterranean",
+        "French"
+      ],
       "note": "Provençal classic: lemon-thyme chicken, lemon thyme tart. No shared compound in Cobber's aroma DB (limonene in lemon, alpha_pinene/thymol in thyme)."
     },
     {
-      "pair": ["lemon", "rosemary"],
+      "pair": [
+        "lemon",
+        "rosemary"
+      ],
       "affinity_score": 0.78,
-      "cuisine_contexts": ["Italian", "Mediterranean"],
+      "cuisine_contexts": [
+        "Italian",
+        "Mediterranean"
+      ],
       "note": "Classic Italian roasting herb combination. No shared compound in Cobber's aroma DB."
     },
     {
-      "pair": ["lemon", "lavender"],
+      "pair": [
+        "lemon",
+        "lavender"
+      ],
       "affinity_score": 0.78,
-      "cuisine_contexts": ["Provençal", "French", "Modern"],
+      "cuisine_contexts": [
+        "Provençal",
+        "French",
+        "Modern"
+      ],
       "note": "Provençal classic: lemon-lavender shortbread, lavender lemon curd. No shared compound in Cobber's aroma DB."
     },
     {
-      "pair": ["orange", "rosemary"],
+      "pair": [
+        "orange",
+        "rosemary"
+      ],
       "affinity_score": 0.75,
-      "cuisine_contexts": ["Italian", "Mediterranean"],
+      "cuisine_contexts": [
+        "Italian",
+        "Mediterranean"
+      ],
       "note": "Classic: orange-rosemary chicken, Sicilian orange and rosemary cake. No shared compound."
     },
     {
-      "pair": ["orange", "cardamom"],
-      "affinity_score": 0.80,
-      "cuisine_contexts": ["Middle Eastern", "Scandinavian", "Indian"],
+      "pair": [
+        "orange",
+        "cardamom"
+      ],
+      "affinity_score": 0.8,
+      "cuisine_contexts": [
+        "Middle Eastern",
+        "Scandinavian",
+        "Indian"
+      ],
       "note": "Middle Eastern and Scandinavian classic. Shared compound: linalool — chemistry and culinary tradition agree."
     },
     {
-      "pair": ["orange", "cinnamon"],
+      "pair": [
+        "orange",
+        "cinnamon"
+      ],
       "affinity_score": 0.82,
-      "cuisine_contexts": ["Middle Eastern", "European", "Global"],
+      "cuisine_contexts": [
+        "Middle Eastern",
+        "European",
+        "Global"
+      ],
       "note": "Mulled wine tradition, Christmas baking, Moroccan tagine. No shared compound in Cobber's aroma DB."
     },
     {
-      "pair": ["orange", "star_anise"],
+      "pair": [
+        "orange",
+        "star_anise"
+      ],
       "affinity_score": 0.78,
-      "cuisine_contexts": ["French", "Chinese", "Vietnamese"],
+      "cuisine_contexts": [
+        "French",
+        "Chinese",
+        "Vietnamese"
+      ],
       "note": "French five-spice and Asian crossover: orange duck with star anise, pho aromatics. Shared compound: limonene — aroma chemistry confirms the bridge."
     },
     {
-      "pair": ["orange", "clove"],
-      "affinity_score": 0.80,
-      "cuisine_contexts": ["European", "Middle Eastern", "Christmas tradition"],
+      "pair": [
+        "orange",
+        "clove"
+      ],
+      "affinity_score": 0.8,
+      "cuisine_contexts": [
+        "European",
+        "Middle Eastern",
+        "Christmas tradition"
+      ],
       "note": "Pomander tradition; mulled wine; Moroccan spice blends. No shared compound in Cobber's aroma DB."
     },
     {
-      "pair": ["orange", "lavender"],
+      "pair": [
+        "orange",
+        "lavender"
+      ],
       "affinity_score": 0.72,
-      "cuisine_contexts": ["Provençal", "Modern European"],
+      "cuisine_contexts": [
+        "Provençal",
+        "Modern European"
+      ],
       "note": "Provençal: orange-lavender cake, lavender marmalade. Shared compound: linalool — chemistry agrees."
     },
     {
-      "pair": ["orange", "vanilla"],
+      "pair": [
+        "orange",
+        "vanilla"
+      ],
       "affinity_score": 0.75,
-      "cuisine_contexts": ["European", "American", "Global"],
+      "cuisine_contexts": [
+        "European",
+        "American",
+        "Global"
+      ],
       "note": "Classic in cakes, custards, and confectionery. No shared compound."
     },
     {
-      "pair": ["grapefruit", "rosemary"],
-      "affinity_score": 0.70,
-      "cuisine_contexts": ["Modern", "California cuisine"],
+      "pair": [
+        "grapefruit",
+        "rosemary"
+      ],
+      "affinity_score": 0.7,
+      "cuisine_contexts": [
+        "Modern",
+        "California cuisine"
+      ],
       "note": "Modern culinary pairing: grapefruit-rosemary vinaigrette, spa water. No shared compound."
     },
     {
-      "pair": ["grapefruit", "mint"],
+      "pair": [
+        "grapefruit",
+        "mint"
+      ],
       "affinity_score": 0.78,
-      "cuisine_contexts": ["Middle Eastern", "Mediterranean", "American"],
+      "cuisine_contexts": [
+        "Middle Eastern",
+        "Mediterranean",
+        "American"
+      ],
       "note": "Classic: grapefruit-mint salad, paloma garnish, mezze. Shared compound: limonene — chemistry agrees."
     },
     {
-      "pair": ["coffee", "cardamom"],
+      "pair": [
+        "coffee",
+        "cardamom"
+      ],
       "affinity_score": 0.85,
-      "cuisine_contexts": ["Middle Eastern", "Ethiopian", "Turkish", "Scandinavian"],
+      "cuisine_contexts": [
+        "Middle Eastern",
+        "Ethiopian",
+        "Turkish",
+        "Scandinavian"
+      ],
       "note": "One of the most ancient spiced-coffee traditions (qahwa, Turkish coffee, kardemummkaffe). No shared compound in Cobber's aroma DB."
     },
     {
-      "pair": ["coffee", "cinnamon"],
-      "affinity_score": 0.80,
-      "cuisine_contexts": ["Middle Eastern", "Mexican", "American"],
+      "pair": [
+        "coffee",
+        "cinnamon"
+      ],
+      "affinity_score": 0.8,
+      "cuisine_contexts": [
+        "Middle Eastern",
+        "Mexican",
+        "American"
+      ],
       "note": "Café de olla (Mexican cinnamon coffee), spiced espresso. No shared compound — classic empirical pairing."
     },
     {
-      "pair": ["coffee", "vanilla"],
+      "pair": [
+        "coffee",
+        "vanilla"
+      ],
       "affinity_score": 0.85,
-      "cuisine_contexts": ["Global", "American", "European"],
+      "cuisine_contexts": [
+        "Global",
+        "American",
+        "European"
+      ],
       "note": "Vanilla latte, vanilla cold brew — one of the highest-volume coffee flavour combinations globally. No shared compound in Cobber's aroma DB."
     },
     {
-      "pair": ["coffee", "ginger"],
+      "pair": [
+        "coffee",
+        "ginger"
+      ],
       "affinity_score": 0.68,
-      "cuisine_contexts": ["Modern specialty coffee", "Asian-Western fusion"],
+      "cuisine_contexts": [
+        "Modern specialty coffee",
+        "Asian-Western fusion"
+      ],
       "note": "Emerging specialty coffee pairing: ginger lattes, ginger cold brew concentrate. No shared compound."
     },
     {
-      "pair": ["coffee", "orange"],
+      "pair": [
+        "coffee",
+        "orange"
+      ],
       "affinity_score": 0.72,
-      "cuisine_contexts": ["Italian", "French", "Modern"],
+      "cuisine_contexts": [
+        "Italian",
+        "French",
+        "Modern"
+      ],
       "note": "Orange espresso, mocha orange cake, Italian orange-almond-coffee biscotti. No shared compound."
     },
     {
-      "pair": ["mango", "mint"],
+      "pair": [
+        "mango",
+        "mint"
+      ],
       "affinity_score": 0.72,
-      "cuisine_contexts": ["Southeast Asian", "Indian", "Caribbean"],
+      "cuisine_contexts": [
+        "Southeast Asian",
+        "Indian",
+        "Caribbean"
+      ],
       "note": "Mango-mint salad, aam panna garnish, Caribbean mango salsa. No shared compound."
     },
     {
-      "pair": ["mango", "ginger"],
+      "pair": [
+        "mango",
+        "ginger"
+      ],
       "affinity_score": 0.78,
-      "cuisine_contexts": ["Indian", "Thai", "Southeast Asian"],
+      "cuisine_contexts": [
+        "Indian",
+        "Thai",
+        "Southeast Asian"
+      ],
       "note": "Aam papad with ginger, Thai mango salad with ginger dressing, mango-ginger chutney. No shared compound."
     },
     {
-      "pair": ["mango", "cardamom"],
+      "pair": [
+        "mango",
+        "cardamom"
+      ],
       "affinity_score": 0.72,
-      "cuisine_contexts": ["Indian", "Middle Eastern"],
+      "cuisine_contexts": [
+        "Indian",
+        "Middle Eastern"
+      ],
       "note": "Classic mango lassi spicing, mango kulfi, Indian festive sweets. No shared compound."
     },
     {
-      "pair": ["mango", "passionfruit"],
+      "pair": [
+        "mango",
+        "passionfruit"
+      ],
       "affinity_score": 0.78,
-      "cuisine_contexts": ["Tropical", "Australian", "Caribbean", "French"],
-      "note": "Documented in Ahn 2011 tropical fruit cluster. Shared compound: ethyl_butyrate — chemistry confirms."
+      "cuisine_contexts": [
+        "Tropical",
+        "Australian",
+        "Caribbean",
+        "French"
+      ],
+      "note": "Classic tropical-fruit pairing. Shared compound: ethyl_butyrate — chemistry confirms."
     },
     {
-      "pair": ["pineapple", "coconut"],
-      "affinity_score": 0.90,
-      "cuisine_contexts": ["Caribbean", "Tropical", "Global"],
+      "pair": [
+        "pineapple",
+        "coconut"
+      ],
+      "affinity_score": 0.9,
+      "cuisine_contexts": [
+        "Caribbean",
+        "Tropical",
+        "Global"
+      ],
       "note": "Piña colada territory — one of the most universally recognised tropical pairings. No shared compound in Cobber's aroma DB (furaneol vs delta_decalactone) — empirically universal."
     },
     {
-      "pair": ["pineapple", "mint"],
+      "pair": [
+        "pineapple",
+        "mint"
+      ],
       "affinity_score": 0.72,
-      "cuisine_contexts": ["Caribbean", "Modern", "Tropical"],
+      "cuisine_contexts": [
+        "Caribbean",
+        "Modern",
+        "Tropical"
+      ],
       "note": "Pineapple-mint salsa, tropical mint agua fresca. No shared compound."
     },
     {
-      "pair": ["pineapple", "ginger"],
+      "pair": [
+        "pineapple",
+        "ginger"
+      ],
       "affinity_score": 0.75,
-      "cuisine_contexts": ["Asian", "Caribbean", "Modern"],
+      "cuisine_contexts": [
+        "Asian",
+        "Caribbean",
+        "Modern"
+      ],
       "note": "Asian-tropical crossover: pineapple ginger stir-fry, ginger pineapple upside-down cake. No shared compound."
     },
     {
-      "pair": ["coconut", "vanilla"],
+      "pair": [
+        "coconut",
+        "vanilla"
+      ],
       "affinity_score": 0.82,
-      "cuisine_contexts": ["Caribbean", "Tropical", "Global"],
+      "cuisine_contexts": [
+        "Caribbean",
+        "Tropical",
+        "Global"
+      ],
       "note": "Universal dessert pairing: coconut-vanilla ice cream, panna cotta, Thai sticky rice. No shared compound."
     },
     {
-      "pair": ["passionfruit", "vanilla"],
+      "pair": [
+        "passionfruit",
+        "vanilla"
+      ],
       "affinity_score": 0.72,
-      "cuisine_contexts": ["Australian", "French", "Tropical"],
+      "cuisine_contexts": [
+        "Australian",
+        "French",
+        "Tropical"
+      ],
       "note": "Classic: passionfruit curd, passionfruit pavlova with vanilla cream. No shared compound."
     },
     {
-      "pair": ["passionfruit", "raspberry"],
+      "pair": [
+        "passionfruit",
+        "raspberry"
+      ],
       "affinity_score": 0.75,
-      "cuisine_contexts": ["French", "Australian", "British"],
+      "cuisine_contexts": [
+        "French",
+        "Australian",
+        "British"
+      ],
       "note": "Classic summer dessert pairing. Shared compound: beta_ionone — chemistry agrees."
     },
     {
-      "pair": ["honey", "lavender"],
+      "pair": [
+        "honey",
+        "lavender"
+      ],
       "affinity_score": 0.75,
-      "cuisine_contexts": ["Provençal", "Mediterranean", "Modern"],
+      "cuisine_contexts": [
+        "Provençal",
+        "Mediterranean",
+        "Modern"
+      ],
       "note": "Provençal honey production classic; lavender honey is a regional product. No shared compound in Cobber's aroma DB."
     },
     {
-      "pair": ["honey", "ginger"],
-      "affinity_score": 0.80,
-      "cuisine_contexts": ["Asian", "British", "Baking"],
+      "pair": [
+        "honey",
+        "ginger"
+      ],
+      "affinity_score": 0.8,
+      "cuisine_contexts": [
+        "Asian",
+        "British",
+        "Baking"
+      ],
       "note": "Gingerbread, honey-ginger dressing, ginger tea with honey — cross-cultural classic. No shared compound."
     },
     {
-      "pair": ["honey", "lemon"],
+      "pair": [
+        "honey",
+        "lemon"
+      ],
       "affinity_score": 0.85,
-      "cuisine_contexts": ["Global", "Mediterranean", "British"],
+      "cuisine_contexts": [
+        "Global",
+        "Mediterranean",
+        "British"
+      ],
       "note": "Universal pairing: lemon honey tea, honey-lemon dressing, baklava drizzle. No shared compound."
     },
     {
-      "pair": ["honey", "thyme"],
+      "pair": [
+        "honey",
+        "thyme"
+      ],
       "affinity_score": 0.75,
-      "cuisine_contexts": ["Provençal", "Mediterranean", "Greek"],
+      "cuisine_contexts": [
+        "Provençal",
+        "Mediterranean",
+        "Greek"
+      ],
       "note": "Classic thyme honey from Provence and Hymettus. No shared compound."
     },
     {
-      "pair": ["honey", "rosemary"],
+      "pair": [
+        "honey",
+        "rosemary"
+      ],
       "affinity_score": 0.72,
-      "cuisine_contexts": ["Mediterranean", "Italian"],
+      "cuisine_contexts": [
+        "Mediterranean",
+        "Italian"
+      ],
       "note": "Rosemary honey, honey-roasted vegetables with rosemary. No shared compound."
     },
     {
-      "pair": ["honey", "cardamom"],
+      "pair": [
+        "honey",
+        "cardamom"
+      ],
       "affinity_score": 0.72,
-      "cuisine_contexts": ["Middle Eastern", "Indian", "Scandinavian"],
+      "cuisine_contexts": [
+        "Middle Eastern",
+        "Indian",
+        "Scandinavian"
+      ],
       "note": "Cardamom honey tea, baklava spicing, Indian meetha paan. Shared compound: linalool — chemistry agrees."
     },
     {
-      "pair": ["miso", "honey"],
+      "pair": [
+        "miso",
+        "honey"
+      ],
       "affinity_score": 0.72,
-      "cuisine_contexts": ["Japanese", "Modern fusion"],
+      "cuisine_contexts": [
+        "Japanese",
+        "Modern fusion"
+      ],
       "note": "Miso-honey glaze (miso cod, roasted vegetables), modern pastry (miso honey cake). Shared compound: furaneol — chemistry confirms this sweet-savoury bridge."
     },
     {
-      "pair": ["miso", "ginger"],
+      "pair": [
+        "miso",
+        "ginger"
+      ],
       "affinity_score": 0.75,
-      "cuisine_contexts": ["Japanese", "East Asian"],
+      "cuisine_contexts": [
+        "Japanese",
+        "East Asian"
+      ],
       "note": "Classic miso soup seasoning, ginger-miso dressing, miso-ginger salmon. No shared compound in Cobber's aroma DB."
     },
     {
-      "pair": ["miso", "vanilla"],
+      "pair": [
+        "miso",
+        "vanilla"
+      ],
       "affinity_score": 0.62,
-      "cuisine_contexts": ["Modern gastronomy", "Japanese fusion"],
+      "cuisine_contexts": [
+        "Modern gastronomy",
+        "Japanese fusion"
+      ],
       "note": "White miso caramel with vanilla, miso-vanilla ice cream (modern pastry trend). Shared compound: furaneol is in miso; vanillin in vanilla — no direct overlap, but complementary caramel-register molecules."
     },
     {
-      "pair": ["tomato", "basil"],
+      "pair": [
+        "tomato",
+        "basil"
+      ],
       "affinity_score": 0.92,
-      "cuisine_contexts": ["Italian", "Mediterranean", "Global"],
-      "note": "The defining Italian pairing. No shared compound in Cobber's aroma DB (hexanal vs linalool/eugenol) — validated by the most recipe volume of any herb-vegetable combination in Ahn 2011."
+      "cuisine_contexts": [
+        "Italian",
+        "Mediterranean",
+        "Global"
+      ],
+      "note": "The defining Italian pairing, one of the highest-volume herb-vegetable combinations in Western cooking. No signature-compound overlap in Cobber's curated DB (hexanal vs linalool/eugenol)."
     },
     {
-      "pair": ["tomato", "mint"],
+      "pair": [
+        "tomato",
+        "mint"
+      ],
       "affinity_score": 0.65,
-      "cuisine_contexts": ["Middle Eastern", "Lebanese", "Moroccan"],
+      "cuisine_contexts": [
+        "Middle Eastern",
+        "Lebanese",
+        "Moroccan"
+      ],
       "note": "Tabbouleh, fattoush, Moroccan salad tradition. No shared compound."
     },
     {
-      "pair": ["coriander_leaf", "mint"],
+      "pair": [
+        "coriander_leaf",
+        "mint"
+      ],
       "affinity_score": 0.72,
-      "cuisine_contexts": ["Middle Eastern", "South Asian", "Southeast Asian"],
+      "cuisine_contexts": [
+        "Middle Eastern",
+        "South Asian",
+        "Southeast Asian"
+      ],
       "note": "Classic herb combination in chutneys, salads, and garnishes across the Middle East and South Asia. No shared compound."
     },
     {
-      "pair": ["coriander_leaf", "lemon"],
+      "pair": [
+        "coriander_leaf",
+        "lemon"
+      ],
       "affinity_score": 0.75,
-      "cuisine_contexts": ["Middle Eastern", "Indian", "Mediterranean"],
+      "cuisine_contexts": [
+        "Middle Eastern",
+        "Indian",
+        "Mediterranean"
+      ],
       "note": "Ubiquitous in Middle Eastern and Indian cooking: coriander-lemon chutney, dukkah, preserved lemon dishes. No shared compound."
     },
     {
-      "pair": ["elderflower", "lemon"],
-      "affinity_score": 0.80,
-      "cuisine_contexts": ["British", "Scandinavian", "Modern European"],
+      "pair": [
+        "elderflower",
+        "lemon"
+      ],
+      "affinity_score": 0.8,
+      "cuisine_contexts": [
+        "British",
+        "Scandinavian",
+        "Modern European"
+      ],
       "note": "Classic: elderflower lemonade, St-Germain and tonic with lemon. No shared compound in Cobber's aroma DB."
     },
     {
-      "pair": ["elderflower", "mint"],
+      "pair": [
+        "elderflower",
+        "mint"
+      ],
       "affinity_score": 0.72,
-      "cuisine_contexts": ["British", "Modern European"],
+      "cuisine_contexts": [
+        "British",
+        "Modern European"
+      ],
       "note": "Summer elderflower-mint lemonade and cocktail garnish tradition. Shared compound: linalool — chemistry agrees."
     },
     {
-      "pair": ["elderflower", "raspberry"],
-      "affinity_score": 0.70,
-      "cuisine_contexts": ["British", "Scandinavian", "Modern"],
+      "pair": [
+        "elderflower",
+        "raspberry"
+      ],
+      "affinity_score": 0.7,
+      "cuisine_contexts": [
+        "British",
+        "Scandinavian",
+        "Modern"
+      ],
       "note": "Elderflower-raspberry cordial, summer desserts. No shared compound."
     },
     {
-      "pair": ["lavender", "vanilla"],
+      "pair": [
+        "lavender",
+        "vanilla"
+      ],
       "affinity_score": 0.72,
-      "cuisine_contexts": ["French", "Modern patisserie"],
+      "cuisine_contexts": [
+        "French",
+        "Modern patisserie"
+      ],
       "note": "Modern pastry: lavender-vanilla macarons, lavender crème brûlée. No shared compound."
     },
     {
-      "pair": ["lavender", "honey"],
-      "affinity_score": 0.75,
-      "cuisine_contexts": ["Provençal", "Mediterranean"],
-      "note": "Already covered under honey + lavender; bilateral for lookup convenience."
-    },
-    {
-      "pair": ["sage", "apple"],
-      "affinity_score": 0.78,
-      "cuisine_contexts": ["British", "American", "Italian"],
-      "note": "Classic: apple-sage stuffing, pork with apple and sage, sage-brown butter with apple. No shared compound."
-    },
-    {
-      "pair": ["sage", "brown_sugar"],
+      "pair": [
+        "sage",
+        "brown_sugar"
+      ],
       "affinity_score": 0.65,
-      "cuisine_contexts": ["American", "Modern"],
+      "cuisine_contexts": [
+        "American",
+        "Modern"
+      ],
       "note": "Sage-brown butter sauce (classically served over pasta); brown sugar caramelisation with sage for autumn desserts. No shared compound."
     },
     {
-      "pair": ["rosemary", "honey"],
-      "affinity_score": 0.72,
-      "cuisine_contexts": ["Mediterranean", "Italian"],
-      "note": "Rosemary honey glaze, honey-rosemary focaccia. No shared compound."
-    },
-    {
-      "pair": ["thyme", "lemon"],
-      "affinity_score": 0.80,
-      "cuisine_contexts": ["Provençal", "Mediterranean"],
-      "note": "Bilateral entry (same as lemon + thyme) for lookup convenience."
-    },
-    {
-      "pair": ["clove", "orange"],
-      "affinity_score": 0.80,
-      "cuisine_contexts": ["European", "Middle Eastern"],
-      "note": "Pomander tradition, mulled wine spice. No shared compound in Cobber's aroma DB."
-    },
-    {
-      "pair": ["allspice", "orange"],
+      "pair": [
+        "allspice",
+        "orange"
+      ],
       "affinity_score": 0.75,
-      "cuisine_contexts": ["Caribbean", "Middle Eastern", "Christmas"],
+      "cuisine_contexts": [
+        "Caribbean",
+        "Middle Eastern",
+        "Christmas"
+      ],
       "note": "Caribbean allspice-orange tradition (jerk spice), mulled wine, Middle Eastern mole-style sauces. No shared compound."
     },
     {
-      "pair": ["nutmeg", "cream"],
+      "pair": [
+        "nutmeg",
+        "cream"
+      ],
       "affinity_score": 0.78,
-      "cuisine_contexts": ["European", "British", "French"],
+      "cuisine_contexts": [
+        "European",
+        "British",
+        "French"
+      ],
       "note": "Classic: béchamel, cream-based pasta sauce, eggnog. No shared compound in Cobber's aroma DB."
     },
     {
-      "pair": ["nutmeg", "orange"],
-      "affinity_score": 0.70,
-      "cuisine_contexts": ["European", "Caribbean", "Baking"],
+      "pair": [
+        "nutmeg",
+        "orange"
+      ],
+      "affinity_score": 0.7,
+      "cuisine_contexts": [
+        "European",
+        "Caribbean",
+        "Baking"
+      ],
       "note": "Spiced orange cake, eggnog, mulled wine secondary spice. No shared compound."
     },
     {
-      "pair": ["coriander_seed", "orange"],
+      "pair": [
+        "coriander_seed",
+        "orange"
+      ],
       "affinity_score": 0.78,
-      "cuisine_contexts": ["Middle Eastern", "Indian", "North African"],
+      "cuisine_contexts": [
+        "Middle Eastern",
+        "Indian",
+        "North African"
+      ],
       "note": "Spice-citrus classic: ras el hanout, Indian masalas, dukkah. Shared compounds: limonene and linalool — chemistry strongly agrees."
     },
     {
-      "pair": ["star_anise", "orange"],
-      "affinity_score": 0.78,
-      "cuisine_contexts": ["French", "Chinese", "Vietnamese"],
-      "note": "Bilateral entry for lookup convenience (already in orange + star_anise)."
-    },
-    {
-      "pair": ["cardamom", "coffee"],
-      "affinity_score": 0.85,
-      "cuisine_contexts": ["Middle Eastern", "Ethiopian", "Scandinavian"],
-      "note": "Bilateral entry for lookup convenience (already in coffee + cardamom)."
-    },
-    {
-      "pair": ["cardamom", "raspberry"],
+      "pair": [
+        "cardamom",
+        "raspberry"
+      ],
       "affinity_score": 0.68,
-      "cuisine_contexts": ["Scandinavian", "Modern patisserie"],
+      "cuisine_contexts": [
+        "Scandinavian",
+        "Modern patisserie"
+      ],
       "note": "Scandinavian baking classic: raspberry-cardamom buns, lingonberry-cardamom jam. No shared compound."
     },
     {
-      "pair": ["cardamom", "mango"],
-      "affinity_score": 0.72,
-      "cuisine_contexts": ["Indian", "Middle Eastern"],
-      "note": "Bilateral entry for mango + cardamom."
-    },
-    {
-      "pair": ["cinnamon", "apple"],
-      "affinity_score": 0.92,
-      "cuisine_contexts": ["American", "European", "Global"],
-      "note": "Bilateral entry for apple + cinnamon."
-    },
-    {
-      "pair": ["tamarind", "ginger"],
-      "affinity_score": 0.80,
-      "cuisine_contexts": ["South Asian", "Southeast Asian", "Indian"],
+      "pair": [
+        "tamarind",
+        "ginger"
+      ],
+      "affinity_score": 0.8,
+      "cuisine_contexts": [
+        "South Asian",
+        "Southeast Asian",
+        "Indian"
+      ],
       "note": "Classic: tamarind-ginger chutney, Worcestershire-style sauces, Indian street food. No shared compound in Cobber's aroma DB."
     },
     {
-      "pair": ["tamarind", "mint"],
+      "pair": [
+        "tamarind",
+        "mint"
+      ],
       "affinity_score": 0.68,
-      "cuisine_contexts": ["Indian", "Middle Eastern"],
+      "cuisine_contexts": [
+        "Indian",
+        "Middle Eastern"
+      ],
       "note": "Tamarind-mint chutney (imli-pudina), classic South Asian condiment. No shared compound."
     },
     {
-      "pair": ["lemon_myrtle", "ginger"],
+      "pair": [
+        "lemon_myrtle",
+        "ginger"
+      ],
       "affinity_score": 0.78,
-      "cuisine_contexts": ["Australian native", "Modern Australian"],
+      "cuisine_contexts": [
+        "Australian native",
+        "Modern Australian"
+      ],
       "note": "Native Australian culinary pairing: lemon myrtle and ginger biscuits, tea blends. No shared compound in Cobber's aroma DB."
     },
     {
-      "pair": ["lemon_myrtle", "honey"],
+      "pair": [
+        "lemon_myrtle",
+        "honey"
+      ],
       "affinity_score": 0.78,
-      "cuisine_contexts": ["Australian native", "Modern Australian"],
+      "cuisine_contexts": [
+        "Australian native",
+        "Modern Australian"
+      ],
       "note": "Classic native Australian product pairing: lemon myrtle honey, bush tea tradition. No shared compound."
     },
     {
-      "pair": ["lemon_myrtle", "coconut"],
+      "pair": [
+        "lemon_myrtle",
+        "coconut"
+      ],
       "affinity_score": 0.72,
-      "cuisine_contexts": ["Australian native", "Modern Australian"],
+      "cuisine_contexts": [
+        "Australian native",
+        "Modern Australian"
+      ],
       "note": "Native-tropical crossover: lemon myrtle and coconut cake, native bushfood cuisine. No shared compound."
     },
     {
-      "pair": ["lemon_myrtle", "mint"],
-      "affinity_score": 0.70,
-      "cuisine_contexts": ["Australian native", "Modern Australian"],
+      "pair": [
+        "lemon_myrtle",
+        "mint"
+      ],
+      "affinity_score": 0.7,
+      "cuisine_contexts": [
+        "Australian native",
+        "Modern Australian"
+      ],
       "note": "Both are herbal-citrus; used together in native Australian tea blends and garnish. Shared compound: linalool — chemistry agrees."
     },
     {
-      "pair": ["wattleseed", "coffee"],
+      "pair": [
+        "wattleseed",
+        "coffee"
+      ],
       "affinity_score": 0.82,
-      "cuisine_contexts": ["Australian native", "Modern Australian"],
+      "cuisine_contexts": [
+        "Australian native",
+        "Modern Australian"
+      ],
       "note": "The defining wattleseed pairing. Both carry pyrazine and furfural — shared compound bridge confirmed. Wattleseed is often described as 'roasted coffee with a chocolate note'; CSIRO research confirms the overlapping aroma compounds."
     },
     {
-      "pair": ["wattleseed", "vanilla"],
+      "pair": [
+        "wattleseed",
+        "vanilla"
+      ],
       "affinity_score": 0.72,
-      "cuisine_contexts": ["Australian native", "Modern Australian"],
+      "cuisine_contexts": [
+        "Australian native",
+        "Modern Australian"
+      ],
       "note": "Wattleseed-vanilla ice cream and pavlova are the native Australian dessert canon. No shared compound."
     },
     {
-      "pair": ["wattleseed", "cream"],
+      "pair": [
+        "wattleseed",
+        "cream"
+      ],
       "affinity_score": 0.75,
-      "cuisine_contexts": ["Australian native", "Modern Australian"],
+      "cuisine_contexts": [
+        "Australian native",
+        "Modern Australian"
+      ],
       "note": "Wattleseed cream sauce and wattleseed pavlova cream are well-established native cuisine applications. No shared compound."
     },
     {
-      "pair": ["wattleseed", "chocolate"],
-      "affinity_score": 0.78,
-      "cuisine_contexts": ["Australian native", "Modern Australian"],
-      "note": "Wattleseed and dark chocolate is a documented native-contemporary pairing. Wattleseed's pyrazine and furfural are shared with roasted cacao. Note: no chocolate ingredient currently in Cobber — this pair is forward-looking for when cacao is added."
-    },
-    {
-      "pair": ["davidson_plum", "raspberry"],
-      "affinity_score": 0.80,
-      "cuisine_contexts": ["Australian native", "Modern Australian"],
+      "pair": [
+        "davidson_plum",
+        "raspberry"
+      ],
+      "affinity_score": 0.8,
+      "cuisine_contexts": [
+        "Australian native",
+        "Modern Australian"
+      ],
       "note": "Native Australian culinary pairing: davidson plum and raspberry jam, sorbets. Shared compound: beta_damascenone — chemistry confirms the dark berry bridge."
     },
     {
-      "pair": ["davidson_plum", "vanilla"],
+      "pair": [
+        "davidson_plum",
+        "vanilla"
+      ],
       "affinity_score": 0.72,
-      "cuisine_contexts": ["Australian native", "Modern Australian"],
+      "cuisine_contexts": [
+        "Australian native",
+        "Modern Australian"
+      ],
       "note": "Davidson plum-vanilla cheesecake and custard tart are native Australian dessert applications. No shared compound."
     },
     {
-      "pair": ["davidson_plum", "blackcurrant"],
+      "pair": [
+        "davidson_plum",
+        "blackcurrant"
+      ],
       "affinity_score": 0.75,
-      "cuisine_contexts": ["Australian native", "Modern European crossover"],
+      "cuisine_contexts": [
+        "Australian native",
+        "Modern European crossover"
+      ],
       "note": "Both are dark, tart, intensely coloured berries. Shared compound: beta_damascenone — chemistry explains the pairing's naturalness."
     },
     {
-      "pair": ["davidson_plum", "red_wine"],
+      "pair": [
+        "davidson_plum",
+        "red_wine"
+      ],
       "affinity_score": 0.72,
-      "cuisine_contexts": ["Australian native", "Modern Australian"],
+      "cuisine_contexts": [
+        "Australian native",
+        "Modern Australian"
+      ],
       "note": "Davidson plum red wine reduction is a classic native Australian sauce for game and beef. Shared compound: beta_damascenone — chemistry confirms."
     },
     {
-      "pair": ["quandong", "almond"],
-      "affinity_score": 0.70,
-      "cuisine_contexts": ["Australian native"],
+      "pair": [
+        "quandong",
+        "almond"
+      ],
+      "affinity_score": 0.7,
+      "cuisine_contexts": [
+        "Australian native"
+      ],
       "note": "Quandong almond tart is a native Australian classic. Shared compound: benzaldehyde — same chemistry that links peach and almond (quandong has similar stone-fruit aromatics)."
     },
     {
-      "pair": ["quandong", "vanilla"],
+      "pair": [
+        "quandong",
+        "vanilla"
+      ],
       "affinity_score": 0.65,
-      "cuisine_contexts": ["Australian native"],
+      "cuisine_contexts": [
+        "Australian native"
+      ],
       "note": "Quandong-vanilla jam and dessert topping. No shared compound."
     },
     {
-      "pair": ["muntries", "apple"],
+      "pair": [
+        "muntries",
+        "apple"
+      ],
       "affinity_score": 0.75,
-      "cuisine_contexts": ["Australian native", "South Australian cuisine"],
+      "cuisine_contexts": [
+        "Australian native",
+        "South Australian cuisine"
+      ],
       "note": "Muntries are described as tasting of apple and spice — used in native Australian relish alongside apple. Shared compounds: beta_damascenone and hexanal — strong chemistry confirmation."
     },
     {
-      "pair": ["riberry", "cinnamon"],
+      "pair": [
+        "riberry",
+        "cinnamon"
+      ],
       "affinity_score": 0.75,
-      "cuisine_contexts": ["Australian native"],
+      "cuisine_contexts": [
+        "Australian native"
+      ],
       "note": "Riberry has natural cinnamon-clove notes from its cinnamaldehyde and eugenol content. Shared compounds: cinnamaldehyde and eugenol — Cobber's aroma DB confirms this strongly; riberry IS the native cinnamon-fruit."
     },
     {
-      "pair": ["riberry", "cherry"],
+      "pair": [
+        "riberry",
+        "cherry"
+      ],
       "affinity_score": 0.72,
-      "cuisine_contexts": ["Australian native", "Modern Australian"],
+      "cuisine_contexts": [
+        "Australian native",
+        "Modern Australian"
+      ],
       "note": "Both carry eugenol; riberry's methyl_cinnamate overlaps with cherry's clove-spice character. Shared compound: eugenol — chemistry agrees."
     },
     {
-      "pair": ["strawberry_gum", "passionfruit"],
+      "pair": [
+        "strawberry_gum",
+        "passionfruit"
+      ],
       "affinity_score": 0.75,
-      "cuisine_contexts": ["Australian native"],
+      "cuisine_contexts": [
+        "Australian native"
+      ],
       "note": "Strawberry gum and passionfruit sorbet is documented in native Australian cuisine. Shared compound: ethyl_butyrate — chemistry confirms the tropical-fruity bridge."
     },
     {
-      "pair": ["bush_tomato", "ginger"],
+      "pair": [
+        "bush_tomato",
+        "ginger"
+      ],
       "affinity_score": 0.68,
-      "cuisine_contexts": ["Australian native", "Modern Australian"],
+      "cuisine_contexts": [
+        "Australian native",
+        "Modern Australian"
+      ],
       "note": "Bush tomato-ginger chutney and relish are documented in native Australian produce applications. No shared compound in Cobber's aroma DB."
     },
     {
-      "pair": ["bush_tomato", "honey"],
+      "pair": [
+        "bush_tomato",
+        "honey"
+      ],
       "affinity_score": 0.65,
-      "cuisine_contexts": ["Australian native", "Modern Australian"],
+      "cuisine_contexts": [
+        "Australian native",
+        "Modern Australian"
+      ],
       "note": "Bush tomato and honey glaze for native game. Shared compound: furaneol — chemistry agrees (both carry the caramel-sweet molecule)."
     },
     {
-      "pair": ["lemon_aspen", "mint"],
-      "affinity_score": 0.70,
-      "cuisine_contexts": ["Australian native"],
+      "pair": [
+        "lemon_aspen",
+        "mint"
+      ],
+      "affinity_score": 0.7,
+      "cuisine_contexts": [
+        "Australian native"
+      ],
       "note": "Lemon aspen has citrus-honey notes; used with native river mint in native Australian cuisine. Shared compound: linalool — chemistry agrees."
     },
     {
-      "pair": ["pepperberry", "orange"],
+      "pair": [
+        "pepperberry",
+        "orange"
+      ],
       "affinity_score": 0.68,
-      "cuisine_contexts": ["Australian native", "Modern Australian"],
+      "cuisine_contexts": [
+        "Australian native",
+        "Modern Australian"
+      ],
       "note": "Pepperberry and orange in native Australian marinades and spice rubs. No shared compound in Cobber's aroma DB (polygodial is unique to pepperberry)."
     },
     {
-      "pair": ["anise_myrtle", "orange"],
+      "pair": [
+        "anise_myrtle",
+        "orange"
+      ],
       "affinity_score": 0.68,
-      "cuisine_contexts": ["Australian native", "Modern Australian"],
+      "cuisine_contexts": [
+        "Australian native",
+        "Modern Australian"
+      ],
       "note": "Anise myrtle and orange in native Australian biscuits and desserts. No shared compound."
     },
     {
-      "pair": ["cinnamon_myrtle", "apple"],
+      "pair": [
+        "cinnamon_myrtle",
+        "apple"
+      ],
       "affinity_score": 0.72,
-      "cuisine_contexts": ["Australian native"],
+      "cuisine_contexts": [
+        "Australian native"
+      ],
       "note": "Cinnamon myrtle has identical key aroma compounds to cinnamon (cinnamaldehyde and eugenol). Shared compounds: cinnamaldehyde and eugenol — chemistry confirms it behaves like cinnamon with apple."
     }
   ]

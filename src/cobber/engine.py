@@ -87,8 +87,10 @@ def culinary_affinities(ingredient_id: str, n: int = 10) -> list[dict]:
     cuisine_contexts, and note from the data file.
 
     When a compound bridge exists between the two ingredients in Cobber's aroma
-    DB, ``shared_compounds`` and ``harmony`` are also included — that means the
-    chemistry AND culinary tradition agree, which is the strongest possible signal.
+    DB, ``shared_compounds`` and ``harmony`` are also included — chemistry and
+    culinary use point the same way. Weight it by the ``harmony`` value, though:
+    a single shared compound (low harmony) is a faint corroboration, not proof;
+    a high harmony alongside a strong affinity is the genuinely strong signal.
 
     Returns ``[]`` when the ingredient has no culinary affinities mapped yet.
     This is an honest empty — not every ingredient has food-science pairing data

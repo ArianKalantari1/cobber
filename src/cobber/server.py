@@ -129,9 +129,10 @@ Workflow when someone tells you what they have:
    an anchor ingredient to see what chefs pair it with in food contexts.
    affinity_score 0.9+ = thousands of recipes (universal consensus);
    0.8 = strong established pairing; below 0.65 = modern / emerging.
-   When a result also carries `shared_compounds` and `harmony`, the aroma
-   chemistry AND culinary tradition agree — a very strong signal. When those
-   are absent, it's purely chef-empirical: a contrast or emergent combination
+   When a result also carries `shared_compounds` and `harmony`, chemistry and
+   culinary use agree — but weight it by the harmony number: one shared compound
+   (low harmony) is faint corroboration, a high harmony is the real signal. When
+   they're absent, it's purely chef-empirical: a contrast or emergent combination
    the aroma maths can't see. Surface it as "chefs know this works together,
    even if there's no obvious compound bridge." Useful for: garnish ideas,
    unexpected modifiers, bridging the kitchen and the bar, or explaining to
