@@ -1613,5 +1613,111 @@
       "bitter": 0.2,
       "funk": 0.25
     }
+  },
+  {
+    "id": "four_pillars_gin",
+    "display_name": "Four Pillars gin (Australian contemporary)",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "juniper",
+      "coriander_seed",
+      "lavender",
+      "cardamom",
+      "angelica_root",
+      "pepperberry",
+      "lemon_myrtle",
+      "native_river_mint"
+    ],
+    "descriptors": [
+      "juniper",
+      "floral",
+      "native botanical",
+      "lemon myrtle",
+      "spice"
+    ],
+    "is_native": true,
+    "season": null,
+    "notes": "Australian contemporary gin (Healesville, VIC). Classic London dry backbone (juniper, coriander seed, angelica root) extended with Tasmanian pepperberry, lemon myrtle, native river mint, lavender, and cardamom. Broader flavour spread than London dry; lemon myrtle gives a bright citral lift distinct from citrus peel.",
+    "source": "Four Pillars distillery declared botanical bill (https://fourpillarsgin.com.au); Tasmanian pepperberry (Tasmannia lanceolata), lemon myrtle (Backhousia citriodora), native river mint (Mentha australis).",
+    "taste": {
+      "bitter": 0.1,
+      "spice": 0.15
+    }
+  },
+  {
+    "id": "frangelico",
+    "display_name": "Frangelico (hazelnut liqueur)",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "hazelnut",
+      "vanilla"
+    ],
+    "descriptors": [
+      "hazelnut",
+      "vanilla",
+      "sweet",
+      "nutty"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Italian wild-hazelnut liqueur; hazelnut-forward with vanilla and a hint of cocoa/coffee in the background. The filbertone in hazelnut bridges to benzaldehyde (almond, cherry pits) and pyrazine (coffee, chocolate) — makes it gel well with espresso martini builds.",
+    "source": "Distillato di nocciola (Corylus avellana, Piedmont hazelnuts); Frangelico product spec; hazelnut volatile GC-MS per hazelnut ingredient entry.",
+    "taste": {
+      "sweet": 0.65,
+      "bitter": 0.1
+    }
+  },
+  {
+    "id": "licor_43",
+    "display_name": "Licor 43 (Cuarenta y Tres)",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "vanilla",
+      "orange",
+      "lemon",
+      "cinnamon"
+    ],
+    "descriptors": [
+      "vanilla",
+      "citrus",
+      "sweet",
+      "warm spice"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Spanish 43-botanical liqueur (Cartagena). Vanilla is the dominant aromatic; citrus peel (orange + lemon) gives brightness; cinnamon and warm spices round out the profile. Actual botanical list is proprietary — this models the declared dominant flavour notes: vanilla, citrus, vanilla, vanilla.",
+    "source": "Licor 43 product spec and sensory reviews; botanical count (43) proprietary but vanilla + citrus peel declared as dominant (Zamora distillery).",
+    "taste": {
+      "sweet": 0.7,
+      "spice": 0.2
+    }
+  },
+  {
+    "id": "el_toro_cafe_tequila",
+    "display_name": "El Toro Café Tequila",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "agave",
+      "coffee",
+      "vanilla"
+    ],
+    "descriptors": [
+      "coffee",
+      "agave",
+      "sweet",
+      "earthy"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Mexican coffee-tequila liqueur. Compound profile combines cooked-agave furaneol with coffee volatiles (furfural, pyrazine, 2-furfurylthiol) and vanilla. Acts as a bridge between the tequila and coffee-liqueur worlds — Espresso Martini variant with agave character. PROVISIONAL — exact botanical/production details from product spec only.",
+    "source": "El Toro Café Tequila product category; agave from tequila, coffee/vanilla from standard coffee liqueur model.",
+    "taste": {
+      "sweet": 0.55,
+      "bitter": 0.15
+    }
   }
 ]
