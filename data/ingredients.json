@@ -1972,5 +1972,25 @@
     "season": null,
     "notes": "Phenolic peat-smoke note: the family of compounds peat-fire kilning deposits on malted barley. Guaiacol is the highest-flavour-intensity member; phenol/cresol/ethyl- and vinyl-guaiacol fill out the medicinal/smoky character. Flavour-source proxy (not a literal ingredient), used to give peated whisky its distinguishing profile.",
     "source": "Direct-injection MS and SBSE/LVI-GC-MS quantitation of phenolics in Islay single malts (Fraunhofer / The Analytical Scientist); guaiacol, 4-ethylguaiacol, 4-vinylguaiacol, cresols, phenol identified as the dominant peat odorants."
+  },
+  {
+    "id": "hazelnut",
+    "display_name": "Hazelnut",
+    "type": "raw",
+    "role": "aromatic",
+    "compounds": [
+      "filbertone",
+      "benzaldehyde",
+      "pyrazine"
+    ],
+    "descriptors": [
+      "hazelnut",
+      "roasted",
+      "nutty"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Filbertone (E-alpha-filbertone, 5-methyl-4-heptanone) is the defining hazelnut odorant; benzaldehyde gives the shared almond-like note; pyrazine covers the roasted/toasted character. Flavour-source proxy for hazelnut-forward liqueurs.",
+    "source": "Hazelnut aroma chemistry: filbertone identified as species-specific odorant (Corylus avellana); GC-MS literature on roasted hazelnut volatiles (Manzocco et al.; NIST Flavor database)."
   }
 ]
