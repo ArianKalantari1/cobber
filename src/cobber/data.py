@@ -99,6 +99,13 @@ class Pantry:
     # has_egg_white, ...) to a method (shake/stir/build), service style, glass, and
     # optional pre-steps (dry_shake, muddle). PROVISIONAL — Ari to review.
     technique_rules: list[dict] = field(default_factory=list)
+    # Culinary affinities: food-pairing co-occurrences from the Ahn 2011 flavor
+    # network (global recipe databases) and The Flavor Bible. Keyed by unordered
+    # ingredient pair, same pattern as frontier. Distinct from tradition (cocktail
+    # history) — these are chef pairings, not bartender canon. The engine surfaces
+    # them via get_culinary_affinities so the host Claude can decide whether a food
+    # pairing translates to the glass.
+    culinary: dict[frozenset, dict] = field(default_factory=dict)
 
     def get(self, ingredient_id: str) -> Ingredient | None:
         """Return the ingredient with this id, or ``None`` if it is unknown."""
@@ -239,6 +246,22 @@ def load_pantry() -> Pantry:
         with technique_path.open(encoding="utf-8") as handle:
             technique_data = json.load(handle)
         pantry.technique_rules = technique_data.get("rules", [])
+
+    # Pass 7: culinary affinities, if the file exists. Food-pairing co-occurrences
+    # from Ahn 2011 and The Flavor Bible. Unknown ids are tolerated (same as
+    # tradition and frontier) — the table never blocks a load.
+    culinary_path = DATA_DIR / "culinary_pairs.json"
+    if culinary_path.exists():
+        with culinary_path.open(encoding="utf-8") as handle:
+            culinary_data = json.load(handle)
+        for row in culinary_data.get("pairs", []):
+            pair = row.get("pair")
+            if isinstance(pair, list) and len(pair) == 2:
+                pantry.culinary[frozenset(pair)] = {
+                    "affinity_score": float(row.get("affinity_score", 0.0)),
+                    "cuisine_contexts": list(row.get("cuisine_contexts", [])),
+                    "note": str(row.get("note", "")),
+                }
 
     return pantry
 

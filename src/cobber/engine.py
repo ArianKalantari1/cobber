@@ -78,6 +78,50 @@ def novelty(a: str, b: str) -> float:
     return harmony(a, b)[0] * (1.0 - tradition(a, b))
 
 
+def culinary_affinities(ingredient_id: str, n: int = 10) -> list[dict]:
+    """Return the top culinary food-pairing affinities for one ingredient id.
+
+    Looks up the culinary pairs table (Ahn 2011 food-recipe co-occurrences, The
+    Flavor Bible). Results are sorted by affinity_score descending. Each item
+    carries the partner ingredient's id, display_name, role, affinity_score,
+    cuisine_contexts, and note from the data file.
+
+    When a compound bridge exists between the two ingredients in Cobber's aroma
+    DB, ``shared_compounds`` and ``harmony`` are also included — that means the
+    chemistry AND culinary tradition agree, which is the strongest possible signal.
+
+    Returns ``[]`` when the ingredient has no culinary affinities mapped yet.
+    This is an honest empty — not every ingredient has food-science pairing data
+    yet; the host should say so rather than fabricating affinities.
+    """
+    results: list[dict] = []
+    for pair_key, pair_data in PANTRY.culinary.items():
+        if ingredient_id not in pair_key:
+            continue
+        other_ids = [pid for pid in pair_key if pid != ingredient_id]
+        if not other_ids:
+            continue
+        other_id = other_ids[0]
+        other = PANTRY.get(other_id)
+        if other is None:
+            continue
+        item: dict = {
+            "id": other_id,
+            "display_name": other.display_name,
+            "role": other.role,
+            "affinity_score": pair_data["affinity_score"],
+            "cuisine_contexts": pair_data["cuisine_contexts"],
+            "note": pair_data["note"],
+        }
+        harmony_score, shared = harmony(ingredient_id, other_id)
+        if shared:
+            item["shared_compounds"] = sorted(shared)
+            item["harmony"] = round(harmony_score, 4)
+        results.append(item)
+    results.sort(key=lambda x: x["affinity_score"], reverse=True)
+    return results[:n]
+
+
 def frontier_support(a: str, b: str) -> dict | None:
     """Return craft-corpus evidence for a pairing, or ``None`` if there is none.
 

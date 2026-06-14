@@ -65,3 +65,78 @@ def test_substitution_tool_is_honest_when_nothing_fits():
     result = server.suggest_substitution("lime", ["gin", "vodka"])
     assert result["substitutes"] == []
     assert "note" in result
+
+
+# ---------------------------------------------------------------------------
+# get_culinary_affinities
+# ---------------------------------------------------------------------------
+
+def test_culinary_affinities_returns_sorted_results():
+    """Orange has many mapped culinary affinities; they come back sorted by score."""
+    result = server.get_culinary_affinities("orange", n=10)
+    affinities = result["affinities"]
+    assert affinities, "orange should have culinary affinities"
+    scores = [a["affinity_score"] for a in affinities]
+    assert scores == sorted(scores, reverse=True), "affinities must be sorted descending"
+
+
+def test_culinary_affinities_result_shape():
+    """Each affinity entry carries the required fields."""
+    result = server.get_culinary_affinities("coffee")
+    for affinity in result["affinities"]:
+        assert "id" in affinity
+        assert "display_name" in affinity
+        assert "role" in affinity
+        assert "affinity_score" in affinity
+        assert "cuisine_contexts" in affinity
+        assert "note" in affinity
+
+
+def test_culinary_affinities_with_compound_bridge_includes_harmony():
+    """When a compound bridge exists, shared_compounds and harmony are surfaced."""
+    # wattleseed + coffee share pyrazine and furfural — strong compound bridge
+    result = server.get_culinary_affinities("wattleseed")
+    coffee_entry = next((a for a in result["affinities"] if a["id"] == "coffee"), None)
+    assert coffee_entry is not None, "wattleseed should list coffee as a culinary affinity"
+    assert "shared_compounds" in coffee_entry, "compound bridge should be surfaced"
+    assert "harmony" in coffee_entry
+    assert coffee_entry["harmony"] > 0
+
+
+def test_culinary_affinities_no_bridge_omits_harmony():
+    """When no compound bridge exists, shared_compounds and harmony are NOT added."""
+    # apple + cinnamon: no shared compound in Cobber's aroma DB
+    result = server.get_culinary_affinities("apple")
+    cinnamon_entry = next((a for a in result["affinities"] if a["id"] == "cinnamon"), None)
+    assert cinnamon_entry is not None, "apple should list cinnamon as a culinary affinity"
+    assert "shared_compounds" not in cinnamon_entry, "no compound bridge should mean no shared_compounds key"
+
+
+def test_culinary_affinities_unknown_ingredient_is_honest():
+    """An unknown ingredient id returns an empty list with a note, not fabricated pairs."""
+    result = server.get_culinary_affinities("not_a_real_ingredient")
+    assert result["affinities"] == []
+    assert "note" in result
+
+
+def test_culinary_affinities_unmapped_ingredient_returns_empty_with_note():
+    """An ingredient in Cobber's DB but not in the culinary table returns empty + note."""
+    # vodka has no culinary pairings mapped — it's an aroma-neutral spirit
+    result = server.get_culinary_affinities("vodka")
+    assert result["affinities"] == []
+    assert "note" in result
+
+
+def test_culinary_affinities_n_parameter_limits_results():
+    """The n parameter caps how many affinities are returned."""
+    result = server.get_culinary_affinities("orange", n=3)
+    assert len(result["affinities"]) <= 3
+
+
+def test_culinary_affinities_cherry_almond_compound_confirmed():
+    """cherry + almond share benzaldehyde — the harmony should be surfaced."""
+    result = server.get_culinary_affinities("cherry")
+    almond_entry = next((a for a in result["affinities"] if a["id"] == "almond"), None)
+    assert almond_entry is not None
+    assert "shared_compounds" in almond_entry
+    assert "benzaldehyde" in almond_entry["shared_compounds"]

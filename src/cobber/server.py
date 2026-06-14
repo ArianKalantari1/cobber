@@ -125,6 +125,17 @@ Workflow when someone tells you what they have:
    `quarantined`, tell the user those couldn't teach the profile because
    their data is unverified; and never claim to know someone's taste off
    fewer than a handful of verdicts.
+8. For culinary-crossover or novel builds, call `get_culinary_affinities` on
+   an anchor ingredient to see what chefs pair it with in food contexts.
+   affinity_score 0.9+ = thousands of recipes (universal consensus);
+   0.8 = strong established pairing; below 0.65 = modern / emerging.
+   When a result also carries `shared_compounds` and `harmony`, the aroma
+   chemistry AND culinary tradition agree — a very strong signal. When those
+   are absent, it's purely chef-empirical: a contrast or emergent combination
+   the aroma maths can't see. Surface it as "chefs know this works together,
+   even if there's no obvious compound bridge." Useful for: garnish ideas,
+   unexpected modifiers, bridging the kitchen and the bar, or explaining to
+   the user WHY a surprising pairing is not a wild guess.
 """
 
 mcp = FastMCP("Cobber the Mixologist", instructions=INSTRUCTIONS)
@@ -576,6 +587,43 @@ def get_taste_profile() -> dict:
             "to report back when they make a drink."
         )
     return summary
+
+
+@mcp.tool()
+def get_culinary_affinities(ingredient_id: str, n: int = 10) -> dict:
+    """Return culinary food-pairing affinities for one ingredient.
+
+    Based on the Ahn 2011 flavor network (recipe co-occurrences from global
+    recipe databases: Epicurious, allrecipes, etc.) and The Flavor Bible.
+    Distinct from cocktail tradition — these are chef affinities, not
+    bartender canon. Use when exploring novel or culinary-crossover builds,
+    checking garnish ideas, or explaining why a surprising pairing isn't a
+    wild guess.
+
+    Returns ``{"affinities": [...], "note"?: str}``. Each affinity carries:
+    id, display_name, role, affinity_score (0–1), cuisine_contexts, and note.
+    When Cobber's aroma DB contains a compound bridge, shared_compounds and
+    harmony are also returned — meaning the chemistry AND culinary tradition
+    agree. When absent, the pairing is chef-empirical: validated by recipe
+    volume, not compound analysis.
+
+    Returns an empty list honestly when no affinities are mapped for this
+    ingredient yet — do not fabricate a culinary pairing.
+    """
+    ingredient = PANTRY.get(ingredient_id)
+    if ingredient is None:
+        return {
+            "affinities": [],
+            "note": f"I don't know {ingredient_id!r}.",
+        }
+    affinities = engine.culinary_affinities(ingredient_id, n=n)
+    result: dict = {"affinities": affinities}
+    if not affinities:
+        result["note"] = (
+            f"No culinary pairing data mapped for {ingredient.display_name} yet. "
+            "This is a data gap, not a signal that the ingredient has no affinities."
+        )
+    return result
 
 
 def main() -> None:
