@@ -1,0 +1,2073 @@
+FlavorDB cross-reference report
+================================
+Source: tarek-kerbedj/flavor_db2.0 (mirror of FlavorDB2, IIIT-Delhi)
+WARNING: FlavorDB lists ALL detected compounds, not just key odorants.
+  Candidates need OAV/GC-O citation before adoption into ingredients.json.
+
+
+============================================================
+  agave  (Agave syrup)
+============================================================
+  FlavorDB entity: "agave" (id=717, exact match)
+
+  CONFIRMED: (none — FlavorDB compounds don't overlap our vocab)
+
+  CANDIDATES FOR REVIEW (33 shown, 93 total):
+  Need OAV/GC-O citation before adoption.
+    ?  3-Phenylpropanoic acid               CID      107  [new — would need id: 3_phenylpropanoic_acid]  [balsamic, cinnamon, fatty, musk]
+    ?  4-hydroxybenzaldehyde                CID      126  [new — would need id: 4_hydroxybenzaldehyde]  [almond, balsam, nutty, sweet]
+    ?  benzaldehyde                         CID      240  [in vocab as benzaldehyde]  [almond, bitter, burnt sugar, cherry]
+    ?  benzyl alcohol                       CID      244  [new — would need id: benzyl_alcohol]  [balsamic, berry, cherry, floral]
+    ?  coumarin                             CID      323  [in vocab as coumarin]  [bitter, green, new mown hay, sweet]
+    ?  2,3-butanedione                      CID      650  [in vocab as diacetyl]  [butter, caramel, creamy, oily]
+    ?  phenylacetaldehyde                   CID      998  [in vocab as phenylacetaldehyde]  [bitter, clover, cocoa, floral]
+    ?  Phenylacetic Acid                    CID      999  [new — would need id: phenylacetic_acid]  [civet, floral, flower, honey]
+    ?  vanillin                             CID     1183  [in vocab as vanillin]  [chocolate, creamy, sweet, vanilla]
+    ?  Benzyl Benzoate                      CID     2345  [new — would need id: benzyl_benzoate]  [almond, balsam, balsamic, cheese]
+    ?  D-mannitol                           CID     6251  [new — would need id: d_mannitol]  [odorless, sweet]
+    ?  2-Isopropyl-5-methylcyclohexanone    CID     6986  [new — would need id: 2_isopropyl_5_methylcyclohexanone]  [cool, fresh, green, mint]
+    ?  Methyl Benzoate                      CID     7150  [new — would need id: methyl_benzoate]  [almond, cananga, floral, herb]
+    ?  Phenethyl acetate                    CID     7654  [new — would need id: phenethyl_acetate]  [floral, fruity, honey, rose]
+    ?  Ethyl Acetate                        CID     8857  [new — would need id: ethyl_acetate]  [anise, balsam, ethereal, fruity]
+    ?  2-(4-Hydroxyphenyl)ethanol           CID    10393  [new — would need id: 2_4_hydroxyphenyl_ethanol]  [floral, fruity, mild, sweet]
+    ?  3-methylthiopropanol                 CID    10448  [new — would need id: 3_methylthiopropanol]  [onion, potato, soup, sulfurous]
+    ?  3-Hexanone                           CID    11509  [new — would need id: 3_hexanone]  [ether, fruity, grape, rum]
+    ?  2-Ethyl-4-hydroxy-5-methyl-3(2H)-furanone  CID    33931  [new — would need id: 2_ethyl_4_hydroxy_5_methyl_3_2h_furanone]  [butterscotch, candy, caramel, sweet]
+    ?  3-Methyl-2-butenal                   CID    61020  [new — would need id: 3_methyl_2_butenal]  [almond, brown, cherry, fruity]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  furaneol
+
+============================================================
+  allspice  (Allspice (pimento))
+============================================================
+  FlavorDB entity: "allspice" (id=375, exact match)
+
+  CONFIRMED (3 compound(s) — FlavorDB corroborates our curation):
+    ✓ eucalyptol                      CID     2758  [camphor, eucalyptus, herbal, mint]
+    ✓ eugenol                         CID     3314  [cinnamon, clove, honey, spicy]
+    ✓ beta_caryophyllene              CID  5281515  [clove, dry, spice, sweet]
+
+  CANDIDATES FOR REVIEW (10 shown, 163 total):
+  Need OAV/GC-O citation before adoption.
+    ?  2-Phenylethanol                      CID     6054  [new — would need id: 2_phenylethanol]  [bitter, floral, honey, lilac]
+    ?  Methyleugenol                        CID     7127  [new — would need id: methyleugenol]  [anise, apricot, balsam, banana]
+    ?  Alpha-Phellandrene                   CID     7460  [new — would need id: alpha_phellandrene]  [citrus, green, herbal, mint]
+    ?  P-Cymene                             CID     7463  [new — would need id: p_cymene]  [citrus, fresh, gasoline, solvent]
+    ?  Estragole                            CID     8815  [in vocab as estragole]  [alcohol, anise, fennel, green]
+    ?  Sabinene                             CID    18818  [in vocab as sabinene]  [citrus, pepper, pine, spice]
+    ?  Myrcene                              CID    31253  [in vocab as myrcene]  [balsam, balsamic, must, peppery]
+    ?  AC1L9CNW                             CID   442355  [new — would need id: ac1l9cnw]  [spice, wood, woody]
+    ?  cinnamaldehyde                       CID   637511  [in vocab as cinnamaldehyde]  [candy, cinnamon, clove, paint]
+    ?  (Z)-Beta-Ocimene                     CID  5320250  [new — would need id: z_beta_ocimene]  [citrus, floral, flower, herb]
+
+============================================================
+  almond  (Almond)
+============================================================
+  FlavorDB entity: "almond" (id=281, exact match)
+
+  CONFIRMED (1 compound(s) — FlavorDB corroborates our curation):
+    ✓ benzaldehyde                    CID      240  [almond, bitter, burnt sugar, cherry]
+
+  CANDIDATES FOR REVIEW (17 shown, 129 total):
+  Need OAV/GC-O citation before adoption.
+    ?  4-hydroxybenzaldehyde                CID      126  [new — would need id: 4_hydroxybenzaldehyde]  [almond, balsam, nutty, sweet]
+    ?  salicylic acid                       CID      338  [new — would need id: salicylic_acid]  [faint, nutty, phenolic]
+    ?  Propionaldehyde                      CID      527  [new — would need id: propionaldehyde]  [alcohol, cocoa, earthy, nutty]
+    ?  Benzyl Benzoate                      CID     2345  [new — would need id: benzyl_benzoate]  [almond, balsam, balsamic, cheese]
+    ?  Methyl Benzoate                      CID     7150  [new — would need id: methyl_benzoate]  [almond, cananga, floral, herb]
+    ?  2-Methylbutyraldehyde                CID     7284  [new — would need id: 2_methylbutyraldehyde]  [almond, cocoa, coffee, musty]
+    ?  Acrolein                             CID     7847  [new — would need id: acrolein]  [almond, cherry]
+    ?  2-Methylpyrazine                     CID     7976  [new — would need id: 2_methylpyrazine]  [chocolate, cocoa, green, nutty]
+    ?  3,4-Dihydroxybenzaldehyde            CID     8768  [new — would need id: 3_4_dihydroxybenzaldehyde]  [almond, bitter, dry, medical]
+    ?  6-Methyl-5-Hepten-2-One              CID     9862  [new — would need id: 6_methyl_5_hepten_2_one]  [apple, bitter, citrus, green]
+    ?  2,3-Pentanedione                     CID    11747  [new — would need id: 2_3_pentanedione]  [butter, caramel, cheese, cream]
+    ?  2-Acetylpyrrole                      CID    14079  [in vocab as 2_acetylpyrrole]  [bread, coumarin, licorice, musty]
+    ?  3658-77-3                            CID    19309  [new — would need id: 3658_77_3]  [almond, candy, caramel, cotton]
+    ?  2,3,5-Trimethylpyrazine              CID    26808  [new — would need id: 2_3_5_trimethylpyrazine]  [cocoa, earthy, hazelnut, must]
+    ?  Acetylpyrazine                       CID    30914  [new — would need id: acetylpyrazine]  [bitter, bread crust, chip, chocolate]
+    ?  3-Methyl-2-butenal                   CID    61020  [new — would need id: 3_methyl_2_butenal]  [almond, brown, cherry, fruity]
+    ?  5-Methylquinoxaline                  CID    61670  [new — would need id: 5_methylquinoxaline]  [burnt, coffee, corn, nutty]
+
+============================================================
+  angelica_root  (Angelica root)
+============================================================
+  FlavorDB entity: "angelica" (id=248, partial match)
+
+  CONFIRMED (1 compound(s) — FlavorDB corroborates our curation):
+    ✓ alpha_pinene                    CID     6654  [camphor, earthy, fresh, harsh]
+
+  CANDIDATES FOR REVIEW (15 shown, 111 total):
+  Need OAV/GC-O citation before adoption.
+    ?  4-hydroxybenzaldehyde                CID      126  [new — would need id: 4_hydroxybenzaldehyde]  [almond, balsam, nutty, sweet]
+    ?  4-isopropylbenzyl alcohol            CID      325  [new — would need id: 4_isopropylbenzyl_alcohol]  [caraway, cumin, herb, herbal]
+    ?  4-isopropylbenzaldehyde              CID      326  [new — would need id: 4_isopropylbenzaldehyde]  [acid, cumin, green, herbal]
+    ?  Propionaldehyde                      CID      527  [new — would need id: propionaldehyde]  [alcohol, cocoa, earthy, nutty]
+    ?  Benzyl Benzoate                      CID     2345  [new — would need id: benzyl_benzoate]  [almond, balsam, balsamic, cheese]
+    ?  Alpha-Phellandrene                   CID     7460  [new — would need id: alpha_phellandrene]  [citrus, green, herbal, mint]
+    ?  Heptanal                             CID     8130  [new — would need id: heptanal]  [aldehydic, citrus, fat, fatty]
+    ?  Beta-Pinene                          CID    14896  [in vocab as beta_pinene]  [dry, green, hay, pine]
+    ?  3-(Methylthio)propionaldehyde        CID    18635  [new — would need id: 3_methylthio_propionaldehyde]  [beef, cooked potato, creamy, earthy]
+    ?  2-Pentylfuran                        CID    19602  [new — would need id: 2_pentylfuran]  [beany, butter, earthy, fruity]
+    ?  Menthone                             CID    26447  [in vocab as menthone]  [bitter, camphor, camphoraceous, deep]
+    ?  (+)-delta-Cadinene                   CID   441005  [new — would need id: delta_cadinene]  [dry, herbal, medicine, thyme]
+    ?  Isoeugenol                           CID   853433  [new — would need id: isoeugenol]  [carnation, clove, floral, flower]
+    ?  alpha-Farnesene                      CID  5281516  [new — would need id: alpha_farnesene]  [bergamot, citrus, green, herbal]
+    ?  trans-3-Hexen-1-ol                   CID  5284503  [new — would need id: trans_3_hexen_1_ol]  [bitter, earthy, fatty, fresh]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  beta_phellandrene
+    ·  limonene
+
+============================================================
+  anise  (Aniseed)
+============================================================
+  FlavorDB entity: "anise" (id=323, exact match)
+
+  CONFIRMED (1 compound(s) — FlavorDB corroborates our curation):
+    ✓ estragole                       CID     8815  [alcohol, anise, fennel, green]
+
+  CANDIDATES FOR REVIEW (53 shown, 144 total):
+  Need OAV/GC-O citation before adoption.
+    ?  3-Phenylpropanoic acid               CID      107  [new — would need id: 3_phenylpropanoic_acid]  [balsamic, cinnamon, fatty, musk]
+    ?  4-hydroxybenzaldehyde                CID      126  [new — would need id: 4_hydroxybenzaldehyde]  [almond, balsam, nutty, sweet]
+    ?  benzaldehyde                         CID      240  [in vocab as benzaldehyde]  [almond, bitter, burnt sugar, cherry]
+    ?  benzyl alcohol                       CID      244  [new — would need id: benzyl_alcohol]  [balsamic, berry, cherry, floral]
+    ?  coumarin                             CID      323  [in vocab as coumarin]  [bitter, green, new mown hay, sweet]
+    ?  2,3-butanedione                      CID      650  [in vocab as diacetyl]  [butter, caramel, creamy, oily]
+    ?  phenylacetaldehyde                   CID      998  [in vocab as phenylacetaldehyde]  [bitter, clover, cocoa, floral]
+    ?  Phenylacetic Acid                    CID      999  [new — would need id: phenylacetic_acid]  [civet, floral, flower, honey]
+    ?  vanillin                             CID     1183  [in vocab as vanillin]  [chocolate, creamy, sweet, vanilla]
+    ?  Benzyl Benzoate                      CID     2345  [new — would need id: benzyl_benzoate]  [almond, balsam, balsamic, cheese]
+    ?  safrole                              CID     5144  [new — would need id: safrole]  [anise, floral, sassafrass, spice]
+    ?  D-mannitol                           CID     6251  [new — would need id: d_mannitol]  [odorless, sweet]
+    ?  Linalool                             CID     6549  [in vocab as linalool]  [blueberry, bois de rose, citrus, floral]
+    ?  Alpha-Pinene                         CID     6654  [in vocab as alpha_pinene]  [camphor, earthy, fresh, harsh]
+    ?  2-Isopropyl-5-methylcyclohexanone    CID     6986  [new — would need id: 2_isopropyl_5_methylcyclohexanone]  [cool, fresh, green, mint]
+    ?  Methyl Benzoate                      CID     7150  [new — would need id: methyl_benzoate]  [almond, cananga, floral, herb]
+    ?  2-Furaldehyde                        CID     7362  [new — would need id: 2_furaldehyde]  [almond, baked, bread, fragrant]
+    ?  4'-Methoxyacetophenone               CID     7476  [new — would need id: 4_methoxyacetophenone]  [acacia, anisic, balsamic, bitter]
+    ?  4-Methoxybenzoic Acid                CID     7478  [new — would need id: 4_methoxybenzoic_acid]  [cadaverous, faint, putrid, sweet]
+    ?  Phenethyl acetate                    CID     7654  [new — would need id: phenethyl_acetate]  [floral, fruity, honey, rose]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  anethole
+
+============================================================
+  anise_myrtle  (Anise myrtle)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  apple  (Apple)
+============================================================
+  FlavorDB entity: "apple" (id=162, exact match)
+
+  CONFIRMED (2 compound(s) — FlavorDB corroborates our curation):
+    ✓ hexanal                         CID     6184  [aldehydic, fat, fatty, fresh]
+    ✓ ethyl_2_methylbutyrate          CID    24020  [apple, fruity, green, plum]
+
+  CANDIDATES FOR REVIEW (116 shown, 298 total):
+  Need OAV/GC-O citation before adoption.
+    ?  acetaldehyde                         CID      177  [new — would need id: acetaldehyde]  [aldehydic, ether, ethereal, fruity]
+    ?  butyraldehyde                        CID      261  [new — would need id: butyraldehyde]  [apple, bready, chocolate, citrus]
+    ?  Isobutyraldehyde                     CID     6561  [new — would need id: isobutyraldehyde]  [aldehydic, floral, fresh, green]
+    ?  2-Butanone                           CID     6569  [new — would need id: 2_butanone]  [acetone, camphor, ether, ethereal]
+    ?  Methyl Acetate                       CID     6584  [new — would need id: methyl_acetate]  [bitter, ether, fruity, sweet]
+    ?  Alpha-Pinene                         CID     6654  [in vocab as alpha_pinene]  [camphor, earthy, fresh, harsh]
+    ?  2-Ethylbutyric Acid                  CID     6915  [new — would need id: 2_ethylbutyric_acid]  [acidic, berry, caramel, dry]
+    ?  2-Isopropyl-5-methylcyclohexanone    CID     6986  [new — would need id: 2_isopropyl_5_methylcyclohexanone]  [cool, fresh, green, mint]
+    ?  Ethyl Benzoate                       CID     7165  [new — would need id: ethyl_benzoate]  [anise, balsam, banana, berry]
+    ?  Ethyl Isobutyrate                    CID     7342  [new — would need id: ethyl_isobutyrate]  [alcoholic, ethereal, fruity, fusel]
+    ?  Ethyl Lactate                        CID     7344  [new — would need id: ethyl_lactate]  [butter, butterscotch, buttery, fruit]
+    ?  Butyl isobutyrate                    CID     7353  [new — would need id: butyl_isobutyrate]  [apple, banana, fruity, green]
+    ?  Phenethyl acetate                    CID     7654  [new — would need id: phenethyl_acetate]  [floral, fruity, honey, rose]
+    ?  Gamma-undecalactone                  CID     7714  [new — would need id: gamma_undecalactone]  [apricot, coconut, creamy, fatty]
+    ?  Ethyl Propionate                     CID     7749  [new — would need id: ethyl_propionate]  [fruit, fruity, grape, juicy]
+    ?  Ethyl Butyrate                       CID     7762  [in vocab as ethyl_butyrate]  [apple, banana, cognac, fruit]
+    ?  Propyl butyrate                      CID     7770  [new — would need id: propyl_butyrate]  [apricot, fruity, pineapple, rancid]
+    ?  Isoamyl propionate                   CID     7772  [new — would need id: isoamyl_propionate]  [banana, bitter, fruit, fruity]
+    ?  Isobutyl hexanoate                   CID     7775  [new — would need id: isobutyl_hexanoate]  [fruity, green, peach, pineapple]
+    ?  Isoamyl butyrate                     CID     7795  [new — would need id: isoamyl_butyrate]  [apricot, banana, fruity, green]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  beta_damascenone
+
+============================================================
+  apricot  (Apricot)
+============================================================
+  FlavorDB entity: "apricot" (id=164, exact match)
+
+  CONFIRMED (3 compound(s) — FlavorDB corroborates our curation):
+    ✓ linalool                        CID     6549  [blueberry, bois de rose, citrus, floral]
+    ✓ gamma_decalactone               CID    12813  [buttery, caramel, coconut, fat]
+    ✓ beta_ionone                     CID   638014  [dry, floral, flower, jam]
+
+  CANDIDATES FOR REVIEW (86 shown, 204 total):
+  Need OAV/GC-O citation before adoption.
+    ?  3-Phenylpropanoic acid               CID      107  [new — would need id: 3_phenylpropanoic_acid]  [balsamic, cinnamon, fatty, musk]
+    ?  4-hydroxybenzaldehyde                CID      126  [new — would need id: 4_hydroxybenzaldehyde]  [almond, balsam, nutty, sweet]
+    ?  benzaldehyde                         CID      240  [in vocab as benzaldehyde]  [almond, bitter, burnt sugar, cherry]
+    ?  benzyl alcohol                       CID      244  [new — would need id: benzyl_alcohol]  [balsamic, berry, cherry, floral]
+    ?  coumarin                             CID      323  [in vocab as coumarin]  [bitter, green, new mown hay, sweet]
+    ?  2,3-butanedione                      CID      650  [in vocab as diacetyl]  [butter, caramel, creamy, oily]
+    ?  phenylacetaldehyde                   CID      998  [in vocab as phenylacetaldehyde]  [bitter, clover, cocoa, floral]
+    ?  Phenylacetic Acid                    CID      999  [new — would need id: phenylacetic_acid]  [civet, floral, flower, honey]
+    ?  vanillin                             CID     1183  [in vocab as vanillin]  [chocolate, creamy, sweet, vanilla]
+    ?  Benzyl Benzoate                      CID     2345  [new — would need id: benzyl_benzoate]  [almond, balsam, balsamic, cheese]
+    ?  D-Sorbitol                           CID     5780  [new — would need id: d_sorbitol]  [caramel, odorless, sweet]
+    ?  D-mannitol                           CID     6251  [new — would need id: d_mannitol]  [odorless, sweet]
+    ?  Alpha-Pinene                         CID     6654  [in vocab as alpha_pinene]  [camphor, earthy, fresh, harsh]
+    ?  2-Isopropyl-5-methylcyclohexanone    CID     6986  [new — would need id: 2_isopropyl_5_methylcyclohexanone]  [cool, fresh, green, mint]
+    ?  Methyl Benzoate                      CID     7150  [new — would need id: methyl_benzoate]  [almond, cananga, floral, herb]
+    ?  Ethyl Isobutyrate                    CID     7342  [new — would need id: ethyl_isobutyrate]  [alcoholic, ethereal, fruity, fusel]
+    ?  Butyl isobutyrate                    CID     7353  [new — would need id: butyl_isobutyrate]  [apple, banana, fruity, green]
+    ?  2-Furaldehyde                        CID     7362  [new — would need id: 2_furaldehyde]  [almond, baked, bread, fragrant]
+    ?  Phenethyl acetate                    CID     7654  [new — would need id: phenethyl_acetate]  [floral, fruity, honey, rose]
+    ?  104-50-7                             CID     7704  [new — would need id: 104_50_7]  [coconut, creamy, dairy, fatty]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  beta_damascenone
+
+============================================================
+  basil  (Basil)
+============================================================
+  FlavorDB entity: "basil" (id=250, exact match)
+
+  CONFIRMED (5 compound(s) — FlavorDB corroborates our curation):
+    ✓ eugenol                         CID     3314  [cinnamon, clove, honey, spicy]
+    ✓ linalool                        CID     6549  [blueberry, bois de rose, citrus, floral]
+    ✓ estragole                       CID     8815  [alcohol, anise, fennel, green]
+    ✓ linalool                        CID    67179  [floral, lavender, petitgrain, sweet]
+    ✓ linalool                        CID   443158  [deep, floral, fresh, lavender]
+
+  CANDIDATES FOR REVIEW (91 shown, 205 total):
+  Need OAV/GC-O citation before adoption.
+    ?  3-Phenylpropanoic acid               CID      107  [new — would need id: 3_phenylpropanoic_acid]  [balsamic, cinnamon, fatty, musk]
+    ?  4-hydroxybenzaldehyde                CID      126  [new — would need id: 4_hydroxybenzaldehyde]  [almond, balsam, nutty, sweet]
+    ?  benzaldehyde                         CID      240  [in vocab as benzaldehyde]  [almond, bitter, burnt sugar, cherry]
+    ?  benzyl alcohol                       CID      244  [new — would need id: benzyl_alcohol]  [balsamic, berry, cherry, floral]
+    ?  coumarin                             CID      323  [in vocab as coumarin]  [bitter, green, new mown hay, sweet]
+    ?  2,3-butanedione                      CID      650  [in vocab as diacetyl]  [butter, caramel, creamy, oily]
+    ?  phenylacetaldehyde                   CID      998  [in vocab as phenylacetaldehyde]  [bitter, clover, cocoa, floral]
+    ?  Phenylacetic Acid                    CID      999  [new — would need id: phenylacetic_acid]  [civet, floral, flower, honey]
+    ?  vanillin                             CID     1183  [in vocab as vanillin]  [chocolate, creamy, sweet, vanilla]
+    ?  Benzyl Benzoate                      CID     2345  [new — would need id: benzyl_benzoate]  [almond, balsam, balsamic, cheese]
+    ?  Eucalyptol                           CID     2758  [in vocab as eucalyptol]  [camphor, eucalyptus, herbal, mint]
+    ?  safrole                              CID     5144  [new — would need id: safrole]  [anise, floral, sassafrass, spice]
+    ?  D-mannitol                           CID     6251  [new — would need id: d_mannitol]  [odorless, sweet]
+    ?  Bornyl Acetate                       CID     6448  [new — would need id: bornyl_acetate]  [balsamic, camphor, cedar, fresh]
+    ?  Camphene                             CID     6616  [new — would need id: camphene]  [camphor, fir needle, herbal, woody]
+    ?  Alpha-Pinene                         CID     6654  [in vocab as alpha_pinene]  [camphor, earthy, fresh, harsh]
+    ?  2-Isopropyl-5-methylcyclohexanone    CID     6986  [new — would need id: 2_isopropyl_5_methylcyclohexanone]  [cool, fresh, green, mint]
+    ?  Thymol                               CID     6989  [in vocab as thymol]  [camphor, herbal, medicinal, phenolic]
+    ?  Methyleugenol                        CID     7127  [new — would need id: methyleugenol]  [anise, apricot, balsam, banana]
+    ?  Methyl Benzoate                      CID     7150  [new — would need id: methyl_benzoate]  [almond, cananga, floral, herb]
+
+============================================================
+  bitter_orange_peel  (Bitter orange peel)
+============================================================
+  FlavorDB entity: "orange" (id=194, partial match)
+
+  CONFIRMED (4 compound(s) — FlavorDB corroborates our curation):
+    ✓ linalool                        CID     6549  [blueberry, bois de rose, citrus, floral]
+    ✓ decanal                         CID     8175  [aldehydic, citrus, floral, orange peel]
+    ✓ myrcene                         CID    31253  [balsam, balsamic, must, peppery]
+    ✓ linalool                        CID   443158  [deep, floral, fresh, lavender]
+
+  CANDIDATES FOR REVIEW (113 shown, 241 total):
+  Need OAV/GC-O citation before adoption.
+    ?  benzaldehyde                         CID      240  [in vocab as benzaldehyde]  [almond, bitter, burnt sugar, cherry]
+    ?  benzyl alcohol                       CID      244  [new — would need id: benzyl_alcohol]  [balsamic, berry, cherry, floral]
+    ?  coumarin                             CID      323  [in vocab as coumarin]  [bitter, green, new mown hay, sweet]
+    ?  Octanal                              CID      454  [in vocab as octanal]  [aldehydic, citrus, fat, fatty]
+    ?  hydrogen cyanide                     CID      768  [new — would need id: hydrogen_cyanide]  [bitter]
+    ?  hydrogen peroxide                    CID      784  [new — would need id: hydrogen_peroxide]  [bitter]
+    ?  indole                               CID      798  [new — would need id: indole]  [animal, burnt, fecal, fishy]
+    ?  phenylacetaldehyde                   CID      998  [in vocab as phenylacetaldehyde]  [bitter, clover, cocoa, floral]
+    ?  Phenylacetic Acid                    CID      999  [new — would need id: phenylacetic_acid]  [civet, floral, flower, honey]
+    ?  sulfur dioxide                       CID     1119  [new — would need id: sulfur_dioxide]  [bitter]
+    ?  thiamine                             CID     1130  [new — would need id: thiamine]  [bitter]
+    ?  DL-Liquiritigenin                    CID     1889  [new — would need id: dl_liquiritigenin]  [bitter]
+    ?  Decanoic acid                        CID     2969  [new — would need id: decanoic_acid]  [citrus, fat, fatty, rancid]
+    ?  phloretin                            CID     4788  [new — would need id: phloretin]  [bitter, odorless]
+    ?  Tributyrin                           CID     6050  [new — would need id: tributyrin]  [bitter, cheese, creamy, fatty]
+    ?  2-Phenylethanol                      CID     6054  [new — would need id: 2_phenylethanol]  [bitter, floral, honey, lilac]
+    ?  Phlorizin                            CID     6072  [new — would need id: phlorizin]  [bitter]
+    ?  Thiamine Hydrochloride               CID     6202  [new — would need id: thiamine_hydrochloride]  [bitter, mild, sour]
+    ?  2-Methyl-1-propanol                  CID     6560  [new — would need id: 2_methyl_1_propanol]  [bitter, ether, solvent, wine]
+    ?  Isobutyraldehyde                     CID     6561  [new — would need id: isobutyraldehyde]  [aldehydic, floral, fresh, green]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  limonene
+
+============================================================
+  black_pepper  (Black pepper)
+============================================================
+  FlavorDB entity: "pepper" (id=339, override match)
+
+  CONFIRMED (3 compound(s) — FlavorDB corroborates our curation):
+    ✓ alpha_pinene                    CID     6654  [camphor, earthy, fresh, harsh]
+    ✓ limonene                        CID   439250  [camphoraceous, herbal, peppery, pine]
+    ✓ beta_caryophyllene              CID  5281515  [clove, dry, spice, sweet]
+
+  CANDIDATES FOR REVIEW (67 shown, 220 total):
+  Need OAV/GC-O citation before adoption.
+    ?  4-hydroxybenzaldehyde                CID      126  [new — would need id: 4_hydroxybenzaldehyde]  [almond, balsam, nutty, sweet]
+    ?  Propionaldehyde                      CID      527  [new — would need id: propionaldehyde]  [alcohol, cocoa, earthy, nutty]
+    ?  2,3-butanedione                      CID      650  [in vocab as diacetyl]  [butter, caramel, creamy, oily]
+    ?  eugenol                              CID     3314  [in vocab as eugenol]  [cinnamon, clove, honey, spicy]
+    ?  gingerol                             CID     3473  [in vocab as gingerol]  [pungent]
+    ?  Myristicin                           CID     4276  [in vocab as myristicin]  [balsam, balsamic, spice, warm]
+    ?  safrole                              CID     5144  [new — would need id: safrole]  [anise, floral, sassafrass, spice]
+    ?  2-Phenylethanol                      CID     6054  [new — would need id: 2_phenylethanol]  [bitter, floral, honey, lilac]
+    ?  Linalool                             CID     6549  [in vocab as linalool]  [blueberry, bois de rose, citrus, floral]
+    ?  Isobutyraldehyde                     CID     6561  [new — would need id: isobutyraldehyde]  [aldehydic, floral, fresh, green]
+    ?  Camphene                             CID     6616  [new — would need id: camphene]  [camphor, fir needle, herbal, woody]
+    ?  Methyleugenol                        CID     7127  [new — would need id: methyleugenol]  [anise, apricot, balsam, banana]
+    ?  Acetyleugenol                        CID     7136  [new — would need id: acetyleugenol]  [carnation, clove, floral, fresh]
+    ?  Acetophenone                         CID     7410  [new — would need id: acetophenone]  [acacia, almond, bitter, chemical]
+    ?  Alpha-Phellandrene                   CID     7460  [new — would need id: alpha_phellandrene]  [citrus, green, herbal, mint]
+    ?  Gamma-Terpinene                      CID     7461  [in vocab as gamma_terpinene]  [bitter, gasoline, herbal, lemon]
+    ?  Alpha-Terpinene                      CID     7462  [new — would need id: alpha_terpinene]  [bitter, camphoraceous, citrus, herbal]
+    ?  P-Cymene                             CID     7463  [new — would need id: p_cymene]  [citrus, fresh, gasoline, solvent]
+    ?  Methyl Phenylacetate                 CID     7559  [new — would need id: methyl_phenylacetate]  [almond, floral, honey, spice]
+    ?  Allyl Alcohol                        CID     7858  [new — would need id: allyl_alcohol]  [mustard, pungent]
+
+============================================================
+  blackcurrant  (Blackcurrant)
+============================================================
+  FlavorDB entity: "black currant" (id=174, override match)
+
+  CONFIRMED: (none — FlavorDB compounds don't overlap our vocab)
+
+  CANDIDATES FOR REVIEW (7 shown, 213 total):
+  Need OAV/GC-O citation before adoption.
+    ?  benzyl alcohol                       CID      244  [new — would need id: benzyl_alcohol]  [balsamic, berry, cherry, floral]
+    ?  Ethyl Benzoate                       CID     7165  [new — would need id: ethyl_benzoate]  [anise, balsam, banana, berry]
+    ?  Pentanal                             CID     8063  [new — would need id: pentanal]  [almond, berry, bready, fermented]
+    ?  Propyl Formate                       CID     8073  [new — would need id: propyl_formate]  [berry, bitter, ethereal, fruity]
+    ?  4-Methoxybenzaldehyde                CID    31244  [new — would need id: 4_methoxybenzaldehyde]  [almond, anise, balsam, berry]
+    ?  Diosphenol                           CID    79023  [new — would need id: diosphenol]  [blackcurrant, buchu, leaves, minty]
+    ?  4-Methoxy-2-methyl-2-butanethiol     CID   526195  [new — would need id: 4_methoxy_2_methyl_2_butanethiol]  [black currant, blackcurrant, cat, catty]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  beta_damascenone
+    ·  beta_ionone
+
+============================================================
+  brown_sugar  (Brown sugar)
+============================================================
+  FlavorDB entity: "sugar" (id=781, partial match)
+
+  CONFIRMED: (none — FlavorDB compounds don't overlap our vocab)
+
+  CANDIDATES FOR REVIEW (5 shown, 5 total):
+  Need OAV/GC-O citation before adoption.
+    ?  betaine                              CID      247  [new — would need id: betaine]  [bland]
+    ?  thiamine                             CID     1130  [new — would need id: thiamine]  [bitter]
+    ?  Thiamine Hydrochloride               CID     6202  [new — would need id: thiamine_hydrochloride]  [bitter, mild, sour]
+    ?  Heptanoic Acid                       CID     8094  [new — would need id: heptanoic_acid]  [cheese, cheesy, rancid, sour]
+    ?  CID 644104                           CID   644104  [new — would need id: cid_644104]  [grassy, very mild]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  2_acetylpyrrole
+    ·  diacetyl
+    ·  furfural
+    ·  phenylacetaldehyde
+    ·  pyrazine
+    ·  sotolon
+
+============================================================
+  bush_tomato  (Bush tomato (kutjera))
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  butter  (Butter)
+============================================================
+  FlavorDB entity: "butter" (id=60, exact match)
+
+  CONFIRMED (2 compound(s) — FlavorDB corroborates our curation):
+    ✓ diacetyl                        CID      650  [butter, caramel, creamy, oily]
+    ✓ delta_decalactone               CID    12810  [apricot, butter, coconut, creamy]
+
+  CANDIDATES FOR REVIEW (14 shown, 129 total):
+  Need OAV/GC-O citation before adoption.
+    ?  acetoin                              CID      179  [new — would need id: acetoin]  [butter, buttery, cream, creamy]
+    ?  butyraldehyde                        CID      261  [new — would need id: butyraldehyde]  [apple, bready, chocolate, citrus]
+    ?  vanillin                             CID     1183  [in vocab as vanillin]  [chocolate, creamy, sweet, vanilla]
+    ?  104-50-7                             CID     7704  [new — would need id: 104_50_7]  [coconut, creamy, dairy, fatty]
+    ?  gamma-Nonanolactone                  CID     7710  [new — would need id: gamma_nonanolactone]  [buttery, coconut, creamy, oily]
+    ?  Gamma-undecalactone                  CID     7714  [new — would need id: gamma_undecalactone]  [apricot, coconut, creamy, fatty]
+    ?  2-Undecanone                         CID     8163  [new — would need id: 2_undecanone]  [creamy, fatty, floral, fresh]
+    ?  Undecanoic Acid                      CID     8180  [new — would need id: undecanoic_acid]  [cheese, coconut, creamy, fatty]
+    ?  2,3-Pentanedione                     CID    11747  [new — would need id: 2_3_pentanedione]  [butter, caramel, cheese, cream]
+    ?  Delta-Dodecalactone                  CID    12844  [new — would need id: delta_dodecalactone]  [butter, buttery, cheese, coconut]
+    ?  Delta-Nonalactone                    CID    18698  [new — would need id: delta_nonalactone]  [coconut, coumarin, creamy, milky]
+    ?  delta-Undecalactone                  CID    61204  [new — would need id: delta_undecalactone]  [coconut, creamy, fatty, fruity]
+    ?  delta-Tetradecalactone               CID   520296  [new — would need id: delta_tetradecalactone]  [creamy, dairy, fatty, milky]
+    ?  cis-4-Heptenal                       CID  5362814  [new — would need id: cis_4_heptenal]  [biscuit, cream, creamy, dairy]
+
+============================================================
+  caraway  (Caraway)
+============================================================
+  FlavorDB entity: "caraway" (id=326, exact match)
+
+  CONFIRMED (1 compound(s) — FlavorDB corroborates our curation):
+    ✓ carvone                         CID     7439  [basil, fennel, licorice, mint]
+
+  CANDIDATES FOR REVIEW (15 shown, 15 total):
+  Need OAV/GC-O citation before adoption.
+    ?  Octanal                              CID      454  [in vocab as octanal]  [aldehydic, citrus, fat, fatty]
+    ?  Alpha-Pinene                         CID     6654  [in vocab as alpha_pinene]  [camphor, earthy, fresh, harsh]
+    ?  Carveol                              CID     7438  [new — would need id: carveol]  [caraway, fresh, minty, spearmint]
+    ?  Alpha-Phellandrene                   CID     7460  [new — would need id: alpha_phellandrene]  [citrus, green, herbal, mint]
+    ?  Dihydrocarveol                       CID    12072  [new — would need id: dihydrocarveol]  [herbal, menthol, mint, minty]
+    ?  Beta-Pinene                          CID    14896  [in vocab as beta_pinene]  [dry, green, hay, pine]
+    ?  Perillaldehyde                       CID    16441  [new — would need id: perillaldehyde]  [cherry, cumin, fat, fatty]
+    ?  Dihydrocarvone                       CID    24473  [new — would need id: dihydrocarvone]  [herbal, minty, powerful, spearmint]
+    ?  Myrcene                              CID    31253  [in vocab as myrcene]  [balsam, balsamic, must, peppery]
+    ?  Nonanal                              CID    31289  [new — would need id: nonanal]  [aldehydic, citrus, fat, fatty]
+    ?  cis-Carvyl acetate                   CID   102024  [new — would need id: cis_carvyl_acetate]  []
+    ?  P-Mentha-2,8-dien-1-ol               CID   155626  [new — would need id: p_mentha_2_8_dien_1_ol]  []
+    ?  D-Limonene                           CID   440917  [new — would need id: d_limonene]  [citrus, fresh, lemon, mint]
+    ?  D-Fenchone                           CID  1201521  [new — would need id: d_fenchone]  []
+    ?  Beta-Caryophyllene                   CID  5281515  [in vocab as beta_caryophyllene]  [clove, dry, spice, sweet]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  limonene
+
+============================================================
+  cardamom  (Cardamom)
+============================================================
+  FlavorDB entity: "cardamom" (id=327, exact match)
+
+  CONFIRMED (2 compound(s) — FlavorDB corroborates our curation):
+    ✓ eucalyptol                      CID     2758  [camphor, eucalyptus, herbal, mint]
+    ✓ linalool                        CID     6549  [blueberry, bois de rose, citrus, floral]
+
+  CANDIDATES FOR REVIEW (32 shown, 171 total):
+  Need OAV/GC-O citation before adoption.
+    ?  Octanal                              CID      454  [in vocab as octanal]  [aldehydic, citrus, fat, fatty]
+    ?  2-Phenylethanol                      CID     6054  [new — would need id: 2_phenylethanol]  [bitter, floral, honey, lilac]
+    ?  Acetyleugenol                        CID     7136  [new — would need id: acetyleugenol]  [carnation, clove, floral, fresh]
+    ?  Alpha-Phellandrene                   CID     7460  [new — would need id: alpha_phellandrene]  [citrus, green, herbal, mint]
+    ?  Alpha-Terpinene                      CID     7462  [new — would need id: alpha_terpinene]  [bitter, camphoraceous, citrus, herbal]
+    ?  P-Cymene                             CID     7463  [new — would need id: p_cymene]  [citrus, fresh, gasoline, solvent]
+    ?  Citronellal                          CID     7794  [new — would need id: citronellal]  [aldehydic, cherry, citrus, dry]
+    ?  Heptanal                             CID     8130  [new — would need id: heptanal]  [aldehydic, citrus, fat, fatty]
+    ?  Decyl Acetate                        CID     8167  [new — would need id: decyl_acetate]  [citrus, clean, fresh, laundered cloths]
+    ?  Linalyl Acetate                      CID     8294  [in vocab as linalyl_acetate]  [bergamot, citrus, fruit, green]
+    ?  Citronellol                          CID     8842  [new — would need id: citronellol]  [bitter, citrus, floral, geranium]
+    ?  6-Methyl-5-Hepten-2-One              CID     9862  [new — would need id: 6_methyl_5_hepten_2_one]  [apple, bitter, citrus, green]
+    ?  1,4-Cineole                          CID    10106  [new — would need id: 1_4_cineole]  [camphor, cooling, green, minty]
+    ?  Terpinyl formate                     CID    16537  [new — would need id: terpinyl_formate]  [bitter, citrus, floral, fruity]
+    ?  Sabinene                             CID    18818  [in vocab as sabinene]  [citrus, pepper, pine, spice]
+    ?  Dipentene                            CID    22311  [new — would need id: dipentene]  [camphor, citric, citrus, herbal]
+    ?  Myrcene                              CID    31253  [in vocab as myrcene]  [balsam, balsamic, must, peppery]
+    ?  Nonanal                              CID    31289  [new — would need id: nonanal]  [aldehydic, citrus, fat, fatty]
+    ?  Myrtenal                             CID    61130  [new — would need id: myrtenal]  [camphor, cinnamon, jam, lime]
+    ?  Terpinyl propionate                  CID    62328  [new — would need id: terpinyl_propionate]  [bitter, citrus, geranium, green]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  terpinyl_acetate
+
+============================================================
+  cassia  (Cassia)
+============================================================
+  FlavorDB entity: "cassia" (id=328, exact match)
+
+  CONFIRMED (2 compound(s) — FlavorDB corroborates our curation):
+    ✓ coumarin                        CID      323  [bitter, green, new mown hay, sweet]
+    ✓ cinnamaldehyde                  CID   637511  [candy, cinnamon, clove, paint]
+
+  CANDIDATES FOR REVIEW (10 shown, 143 total):
+  Need OAV/GC-O citation before adoption.
+    ?  safrole                              CID     5144  [new — would need id: safrole]  [anise, floral, sassafrass, spice]
+    ?  2-Phenylethanol                      CID     6054  [new — would need id: 2_phenylethanol]  [bitter, floral, honey, lilac]
+    ?  Methyleugenol                        CID     7127  [new — would need id: methyleugenol]  [anise, apricot, balsam, banana]
+    ?  Acetyleugenol                        CID     7136  [new — would need id: acetyleugenol]  [carnation, clove, floral, fresh]
+    ?  P-Cymene                             CID     7463  [new — would need id: p_cymene]  [citrus, fresh, gasoline, solvent]
+    ?  Estragole                            CID     8815  [in vocab as estragole]  [alcohol, anise, fennel, green]
+    ?  Sabinene                             CID    18818  [in vocab as sabinene]  [citrus, pepper, pine, spice]
+    ?  Myrcene                              CID    31253  [in vocab as myrcene]  [balsam, balsamic, must, peppery]
+    ?  4-Ethyl-2-methoxyphenol              CID    62465  [new — would need id: 4_ethyl_2_methoxyphenol]  [bacon, clove, phenolic, smoky]
+    ?  Beta-Caryophyllene                   CID  5281515  [in vocab as beta_caryophyllene]  [clove, dry, spice, sweet]
+
+============================================================
+  celery  (Celery)
+============================================================
+  FlavorDB entity: "celery" (id=329, exact match)
+
+  CONFIRMED (1 compound(s) — FlavorDB corroborates our curation):
+    ✓ sedanolide                      CID  5018391  [herbal]
+
+  CANDIDATES FOR REVIEW (58 shown, 216 total):
+  Need OAV/GC-O citation before adoption.
+    ?  coumarin                             CID      323  [in vocab as coumarin]  [bitter, green, new mown hay, sweet]
+    ?  Octanal                              CID      454  [in vocab as octanal]  [aldehydic, citrus, fat, fatty]
+    ?  phenylacetaldehyde                   CID      998  [in vocab as phenylacetaldehyde]  [bitter, clover, cocoa, floral]
+    ?  dimethyl sulfide                     CID     1068  [new — would need id: dimethyl_sulfide]  [cabbage, gasoline, green, onion]
+    ?  Hexanal                              CID     6184  [in vocab as hexanal]  [aldehydic, fat, fatty, fresh]
+    ?  Linalool                             CID     6549  [in vocab as linalool]  [blueberry, bois de rose, citrus, floral]
+    ?  Isobutyraldehyde                     CID     6561  [new — would need id: isobutyraldehyde]  [aldehydic, floral, fresh, green]
+    ?  Alpha-Pinene                         CID     6654  [in vocab as alpha_pinene]  [camphor, earthy, fresh, harsh]
+    ?  2-Isopropyl-5-methylcyclohexanone    CID     6986  [new — would need id: 2_isopropyl_5_methylcyclohexanone]  [cool, fresh, green, mint]
+    ?  Piperitone                           CID     6987  [new — would need id: piperitone]  [camphor, fresh, fruit, herbal]
+    ?  Carvyl Acetate                       CID     7335  [new — would need id: carvyl_acetate]  [fruity, green, minty, spearmint]
+    ?  Carveol                              CID     7438  [new — would need id: carveol]  [caraway, fresh, minty, spearmint]
+    ?  Alpha-Phellandrene                   CID     7460  [new — would need id: alpha_phellandrene]  [citrus, green, herbal, mint]
+    ?  P-Cymene                             CID     7463  [new — would need id: p_cymene]  [citrus, fresh, gasoline, solvent]
+    ?  1-Hexanol                            CID     8103  [new — would need id: 1_hexanol]  [alcoholic, ethereal, flower, fruity]
+    ?  1-Heptanol                           CID     8129  [new — would need id: 1_heptanol]  [chemical, coconut, green, herbal]
+    ?  Heptanal                             CID     8130  [new — would need id: heptanal]  [aldehydic, citrus, fat, fatty]
+    ?  Decyl Acetate                        CID     8167  [new — would need id: decyl_acetate]  [citrus, clean, fresh, laundered cloths]
+    ?  Undecanal                            CID     8186  [new — would need id: undecanal]  [aldehydic, citrus, fatty, floral]
+    ?  Dodecanal                            CID     8194  [in vocab as dodecanal]  [aldehydic, citrus, fat, floral]
+
+============================================================
+  cherry  (Cherry)
+============================================================
+  FlavorDB entity: "blueberry" (id=223, exact match)
+
+  CONFIRMED (1 compound(s) — FlavorDB corroborates our curation):
+    ✓ benzaldehyde                    CID      240  [almond, bitter, burnt sugar, cherry]
+
+  CANDIDATES FOR REVIEW (34 shown, 151 total):
+  Need OAV/GC-O citation before adoption.
+    ?  4-hydroxybenzaldehyde                CID      126  [new — would need id: 4_hydroxybenzaldehyde]  [almond, balsam, nutty, sweet]
+    ?  Benzyl Benzoate                      CID     2345  [new — would need id: benzyl_benzoate]  [almond, balsam, balsamic, cheese]
+    ?  Hexanal                              CID     6184  [in vocab as hexanal]  [aldehydic, fat, fatty, fresh]
+    ?  2-Butanone                           CID     6569  [new — would need id: 2_butanone]  [acetone, camphor, ether, ethereal]
+    ?  Methyl Benzoate                      CID     7150  [new — would need id: methyl_benzoate]  [almond, cananga, floral, herb]
+    ?  2-Methylbutyraldehyde                CID     7284  [new — would need id: 2_methylbutyraldehyde]  [almond, cocoa, coffee, musty]
+    ?  Phenethyl acetate                    CID     7654  [new — would need id: phenethyl_acetate]  [floral, fruity, honey, rose]
+    ?  Ethyl Butyrate                       CID     7762  [in vocab as ethyl_butyrate]  [apple, banana, cognac, fruit]
+    ?  Acrolein                             CID     7847  [new — would need id: acrolein]  [almond, cherry]
+    ?  Ethyl Isovalerate                    CID     7945  [new — would need id: ethyl_isovalerate]  [apple, fruit, fruity, pineapple]
+    ?  2-Undecanone                         CID     8163  [new — would need id: 2_undecanone]  [creamy, fatty, floral, fresh]
+    ?  2-Methyl-1-Butanol                   CID     8723  [new — would need id: 2_methyl_1_butanol]  [fruity, malt, onion, roasted]
+    ?  3,4-Dihydroxybenzaldehyde            CID     8768  [new — would need id: 3_4_dihydroxybenzaldehyde]  [almond, bitter, dry, medical]
+    ?  Ethyl Acetate                        CID     8857  [new — would need id: ethyl_acetate]  [anise, balsam, ethereal, fruity]
+    ?  Hexyl acetate                        CID     8908  [in vocab as hexyl_acetate]  [apple, banana, bitter, fruit]
+    ?  2-(4-Hydroxyphenyl)ethanol           CID    10393  [new — would need id: 2_4_hydroxyphenyl_ethanol]  [floral, fruity, mild, sweet]
+    ?  Methyl Isobutyrate                   CID    11039  [new — would need id: methyl_isobutyrate]  [apple, floral, flower, fruity]
+    ?  Methyl isovalerate                   CID    11160  [new — would need id: methyl_isovalerate]  [apple, fruity, pineapple, strong]
+    ?  3-Hexanone                           CID    11509  [new — would need id: 3_hexanone]  [ether, fruity, grape, rum]
+    ?  1-Penten-3-Ol                        CID    12020  [new — would need id: 1_penten_3_ol]  [bitter, butter, fruity, green]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  beta_damascenone
+    ·  eugenol
+
+============================================================
+  cinnamon  (Cinnamon)
+============================================================
+  FlavorDB entity: "cinnamon" (id=330, exact match)
+
+  CONFIRMED (2 compound(s) — FlavorDB corroborates our curation):
+    ✓ eugenol                         CID     3314  [cinnamon, clove, honey, spicy]
+    ✓ cinnamaldehyde                  CID   637511  [candy, cinnamon, clove, paint]
+
+  CANDIDATES FOR REVIEW (74 shown, 181 total):
+  Need OAV/GC-O citation before adoption.
+    ?  3-Phenylpropanoic acid               CID      107  [new — would need id: 3_phenylpropanoic_acid]  [balsamic, cinnamon, fatty, musk]
+    ?  4-hydroxybenzaldehyde                CID      126  [new — would need id: 4_hydroxybenzaldehyde]  [almond, balsam, nutty, sweet]
+    ?  benzaldehyde                         CID      240  [in vocab as benzaldehyde]  [almond, bitter, burnt sugar, cherry]
+    ?  benzyl alcohol                       CID      244  [new — would need id: benzyl_alcohol]  [balsamic, berry, cherry, floral]
+    ?  coumarin                             CID      323  [in vocab as coumarin]  [bitter, green, new mown hay, sweet]
+    ?  2,3-butanedione                      CID      650  [in vocab as diacetyl]  [butter, caramel, creamy, oily]
+    ?  phenylacetaldehyde                   CID      998  [in vocab as phenylacetaldehyde]  [bitter, clover, cocoa, floral]
+    ?  Phenylacetic Acid                    CID      999  [new — would need id: phenylacetic_acid]  [civet, floral, flower, honey]
+    ?  vanillin                             CID     1183  [in vocab as vanillin]  [chocolate, creamy, sweet, vanilla]
+    ?  Benzyl Benzoate                      CID     2345  [new — would need id: benzyl_benzoate]  [almond, balsam, balsamic, cheese]
+    ?  Eucalyptol                           CID     2758  [in vocab as eucalyptol]  [camphor, eucalyptus, herbal, mint]
+    ?  safrole                              CID     5144  [new — would need id: safrole]  [anise, floral, sassafrass, spice]
+    ?  2-Phenylethanol                      CID     6054  [new — would need id: 2_phenylethanol]  [bitter, floral, honey, lilac]
+    ?  D-mannitol                           CID     6251  [new — would need id: d_mannitol]  [odorless, sweet]
+    ?  Bornyl Acetate                       CID     6448  [new — would need id: bornyl_acetate]  [balsamic, camphor, cedar, fresh]
+    ?  Linalool                             CID     6549  [in vocab as linalool]  [blueberry, bois de rose, citrus, floral]
+    ?  Alpha-Pinene                         CID     6654  [in vocab as alpha_pinene]  [camphor, earthy, fresh, harsh]
+    ?  2',4'-Dimethylacetophenone           CID     6985  [new — would need id: 2_4_dimethylacetophenone]  [floral, mimosa, minty, sweet]
+    ?  2-Isopropyl-5-methylcyclohexanone    CID     6986  [new — would need id: 2_isopropyl_5_methylcyclohexanone]  [cool, fresh, green, mint]
+    ?  Piperitone                           CID     6987  [new — would need id: piperitone]  [camphor, fresh, fruit, herbal]
+
+============================================================
+  cinnamon_myrtle  (Cinnamon myrtle)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  clove  (Clove)
+============================================================
+  FlavorDB entity: "clove" (id=331, exact match)
+
+  CONFIRMED (2 compound(s) — FlavorDB corroborates our curation):
+    ✓ eugenol                         CID     3314  [cinnamon, clove, honey, spicy]
+    ✓ beta_caryophyllene              CID  5281515  [clove, dry, spice, sweet]
+
+  CANDIDATES FOR REVIEW (24 shown, 175 total):
+  Need OAV/GC-O citation before adoption.
+    ?  Propionaldehyde                      CID      527  [new — would need id: propionaldehyde]  [alcohol, cocoa, earthy, nutty]
+    ?  2,3-butanedione                      CID      650  [in vocab as diacetyl]  [butter, caramel, creamy, oily]
+    ?  naphthalene                          CID      931  [new — would need id: naphthalene]  [dry, pungent, tar, tarry]
+    ?  gingerol                             CID     3473  [in vocab as gingerol]  [pungent]
+    ?  2-Phenylethanol                      CID     6054  [new — would need id: 2_phenylethanol]  [bitter, floral, honey, lilac]
+    ?  Isobutyraldehyde                     CID     6561  [new — would need id: isobutyraldehyde]  [aldehydic, floral, fresh, green]
+    ?  Methyleugenol                        CID     7127  [new — would need id: methyleugenol]  [anise, apricot, balsam, banana]
+    ?  Acetyleugenol                        CID     7136  [new — would need id: acetyleugenol]  [carnation, clove, floral, fresh]
+    ?  Acetophenone                         CID     7410  [new — would need id: acetophenone]  [acacia, almond, bitter, chemical]
+    ?  Allyl Alcohol                        CID     7858  [new — would need id: allyl_alcohol]  [mustard, pungent]
+    ?  Beta-Terpineol                       CID     8748  [new — would need id: beta_terpineol]  [earthy, must, pungent, woody]
+    ?  Estragole                            CID     8815  [in vocab as estragole]  [alcohol, anise, fennel, green]
+    ?  Carvacrol                            CID    10364  [in vocab as carvacrol]  [camphor, spice, thymol, woody]
+    ?  5-Methylfurfural                     CID    12097  [new — would need id: 5_methylfurfural]  [almond, burnt sugar, caramel, maple]
+    ?  7-methyl-4-methylidene-1-propan-2-yl-2,3,4a,5,6,8a-hexahydro-1H-naphthalene  CID    15094  [new — would need id: 7_methyl_4_methylidene_1_propan_2_yl_2_3_4a_5_6_8a_hexahydro_1h_naphthalene]  [herb, herbal, spice, wood]
+    ?  Ethyl Vinyl Ketone                   CID    15394  [new — would need id: ethyl_vinyl_ketone]  [fish, garlic, mustard, onion]
+    ?  Myrcene                              CID    31253  [in vocab as myrcene]  [balsam, balsamic, must, peppery]
+    ?  3-Methyl-2-butenal                   CID    61020  [new — would need id: 3_methyl_2_butenal]  [almond, brown, cherry, fruity]
+    ?  AC1L9CNW                             CID   442355  [new — would need id: ac1l9cnw]  [spice, wood, woody]
+    ?  Cubenol                              CID   519857  [new — would need id: cubenol]  [green, green tea, herb, herbal]
+
+============================================================
+  coconut  (Coconut)
+============================================================
+  FlavorDB entity: "coconut" (id=172, exact match)
+
+  CONFIRMED (1 compound(s) — FlavorDB corroborates our curation):
+    ✓ delta_decalactone               CID    12810  [apricot, butter, coconut, creamy]
+
+  CANDIDATES FOR REVIEW (64 shown, 160 total):
+  Need OAV/GC-O citation before adoption.
+    ?  3-Phenylpropanoic acid               CID      107  [new — would need id: 3_phenylpropanoic_acid]  [balsamic, cinnamon, fatty, musk]
+    ?  4-hydroxybenzaldehyde                CID      126  [new — would need id: 4_hydroxybenzaldehyde]  [almond, balsam, nutty, sweet]
+    ?  acetoin                              CID      179  [new — would need id: acetoin]  [butter, buttery, cream, creamy]
+    ?  benzaldehyde                         CID      240  [in vocab as benzaldehyde]  [almond, bitter, burnt sugar, cherry]
+    ?  benzyl alcohol                       CID      244  [new — would need id: benzyl_alcohol]  [balsamic, berry, cherry, floral]
+    ?  coumarin                             CID      323  [in vocab as coumarin]  [bitter, green, new mown hay, sweet]
+    ?  2,3-butanedione                      CID      650  [in vocab as diacetyl]  [butter, caramel, creamy, oily]
+    ?  phenylacetaldehyde                   CID      998  [in vocab as phenylacetaldehyde]  [bitter, clover, cocoa, floral]
+    ?  Phenylacetic Acid                    CID      999  [new — would need id: phenylacetic_acid]  [civet, floral, flower, honey]
+    ?  vanillin                             CID     1183  [in vocab as vanillin]  [chocolate, creamy, sweet, vanilla]
+    ?  Benzyl Benzoate                      CID     2345  [new — would need id: benzyl_benzoate]  [almond, balsam, balsamic, cheese]
+    ?  lauric acid                          CID     3893  [new — would need id: lauric_acid]  [bay oil, coconut, fatty, metal]
+    ?  Tributyrin                           CID     6050  [new — would need id: tributyrin]  [bitter, cheese, creamy, fatty]
+    ?  D-mannitol                           CID     6251  [new — would need id: d_mannitol]  [odorless, sweet]
+    ?  2-Isopropyl-5-methylcyclohexanone    CID     6986  [new — would need id: 2_isopropyl_5_methylcyclohexanone]  [cool, fresh, green, mint]
+    ?  Methyl Benzoate                      CID     7150  [new — would need id: methyl_benzoate]  [almond, cananga, floral, herb]
+    ?  Furfuryl Alcohol                     CID     7361  [new — would need id: furfuryl_alcohol]  [alcoholic, bitter, bread, burnt]
+    ?  Phenethyl acetate                    CID     7654  [new — would need id: phenethyl_acetate]  [floral, fruity, honey, rose]
+    ?  gamma-Nonanolactone                  CID     7710  [new — would need id: gamma_nonanolactone]  [buttery, coconut, creamy, oily]
+    ?  Ethyl Octanoate                      CID     7799  [new — would need id: ethyl_octanoate]  [apricot, banana, brandy, fat]
+
+============================================================
+  coffee  (Coffee)
+============================================================
+  FlavorDB entity: "coffee" (id=46, exact match)
+
+  CONFIRMED (2 compound(s) — FlavorDB corroborates our curation):
+    ✓ 2_furfurylthiol                 CID     7363  [burnt, chocolate, coffee, fatty]
+    ✓ pyrazine                        CID     9261  [barley, hazelnut, pungent, roasted]
+
+  CANDIDATES FOR REVIEW (57 shown, 267 total):
+  Need OAV/GC-O citation before adoption.
+    ?  dimethyl sulfoxide                   CID      679  [new — would need id: dimethyl_sulfoxide]  [bitter, cheesy, fatty, garlic]
+    ?  phenylacetaldehyde                   CID      998  [in vocab as phenylacetaldehyde]  [bitter, clover, cocoa, floral]
+    ?  thiamine                             CID     1130  [new — would need id: thiamine]  [bitter]
+    ?  vanillin                             CID     1183  [in vocab as vanillin]  [chocolate, creamy, sweet, vanilla]
+    ?  caffeine                             CID     2519  [new — would need id: caffeine]  [bitter, odorless]
+    ?  isopropanol                          CID     3776  [new — would need id: isopropanol]  [alcohol, bitter, musty, woody]
+    ?  2-Phenylethanol                      CID     6054  [new — would need id: 2_phenylethanol]  [bitter, floral, honey, lilac]
+    ?  Thiamine Hydrochloride               CID     6202  [new — would need id: thiamine_hydrochloride]  [bitter, mild, sour]
+    ?  2-Methyl-1-propanol                  CID     6560  [new — would need id: 2_methyl_1_propanol]  [bitter, ether, solvent, wine]
+    ?  Methyl Acetate                       CID     6584  [new — would need id: methyl_acetate]  [bitter, ether, fruity, sweet]
+    ?  2-Methoxy-4-Methylphenol             CID     7144  [new — would need id: 2_methoxy_4_methylphenol]  [bacon, bitter, carnation, clove]
+    ?  Furfuryl Alcohol                     CID     7361  [new — would need id: furfuryl_alcohol]  [alcoholic, bitter, bread, burnt]
+    ?  2-Phenylethyl formate                CID     7711  [new — would need id: 2_phenylethyl_formate]  [bitter, green, herbal, hyacinth]
+    ?  5-Ethyl-2-methylpyridine             CID     7728  [new — would need id: 5_ethyl_2_methylpyridine]  [earthy, nutty, potato, raw]
+    ?  Propyl Propionate                    CID     7803  [new — would need id: propyl_propionate]  [bitter, chemical, fruity, pineapple]
+    ?  2-Methylpyrazine                     CID     7976  [new — would need id: 2_methylpyrazine]  [chocolate, cocoa, green, nutty]
+    ?  Ethyl Formate                        CID     8025  [new — would need id: ethyl_formate]  [alcohol, bitter, cognac, ethereal]
+    ?  Piperidine                           CID     8082  [new — would need id: piperidine]  [animal, bitter, floral, heavy]
+    ?  Octan-2-one                          CID     8093  [new — would need id: octan_2_one]  [bitter, earthy, gasoline, herbal]
+    ?  Hexyl acetate                        CID     8908  [in vocab as hexyl_acetate]  [apple, banana, bitter, fruit]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  furfural
+
+============================================================
+  cola  (Cola)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  coriander_leaf  (Coriander leaf (cilantro))
+============================================================
+  FlavorDB entity: "coriander" (id=254, override match)
+
+  CONFIRMED (5 compound(s) — FlavorDB corroborates our curation):
+    ✓ linalool                        CID     6549  [blueberry, bois de rose, citrus, floral]
+    ✓ decanal                         CID     8175  [aldehydic, citrus, floral, orange peel]
+    ✓ dodecanal                       CID     8194  [aldehydic, citrus, fat, floral]
+    ✓ linalool                        CID    67179  [floral, lavender, petitgrain, sweet]
+    ✓ linalool                        CID   443158  [deep, floral, fresh, lavender]
+
+  CANDIDATES FOR REVIEW (67 shown, 191 total):
+  Need OAV/GC-O citation before adoption.
+    ?  coumarin                             CID      323  [in vocab as coumarin]  [bitter, green, new mown hay, sweet]
+    ?  Octanal                              CID      454  [in vocab as octanal]  [aldehydic, citrus, fat, fatty]
+    ?  1-octanol                            CID      957  [new — would need id: 1_octanol]  [aldehydic, burnt, chemical, green]
+    ?  phenylacetaldehyde                   CID      998  [in vocab as phenylacetaldehyde]  [bitter, clover, cocoa, floral]
+    ?  Benzyl Benzoate                      CID     2345  [new — would need id: benzyl_benzoate]  [almond, balsam, balsamic, cheese]
+    ?  Eucalyptol                           CID     2758  [in vocab as eucalyptol]  [camphor, eucalyptus, herbal, mint]
+    ?  Hexanal                              CID     6184  [in vocab as hexanal]  [aldehydic, fat, fatty, fresh]
+    ?  Bornyl Acetate                       CID     6448  [new — would need id: bornyl_acetate]  [balsamic, camphor, cedar, fresh]
+    ?  Isobutyraldehyde                     CID     6561  [new — would need id: isobutyraldehyde]  [aldehydic, floral, fresh, green]
+    ?  Camphene                             CID     6616  [new — would need id: camphene]  [camphor, fir needle, herbal, woody]
+    ?  2-Isopropyl-5-methylcyclohexanone    CID     6986  [new — would need id: 2_isopropyl_5_methylcyclohexanone]  [cool, fresh, green, mint]
+    ?  Thymol                               CID     6989  [in vocab as thymol]  [camphor, herbal, medicinal, phenolic]
+    ?  Alpha-Phellandrene                   CID     7460  [new — would need id: alpha_phellandrene]  [citrus, green, herbal, mint]
+    ?  Gamma-Terpinene                      CID     7461  [in vocab as gamma_terpinene]  [bitter, gasoline, herbal, lemon]
+    ?  Alpha-Terpinene                      CID     7462  [new — would need id: alpha_terpinene]  [bitter, camphoraceous, citrus, herbal]
+    ?  P-Cymene                             CID     7463  [new — would need id: p_cymene]  [citrus, fresh, gasoline, solvent]
+    ?  1-Hexanol                            CID     8103  [new — would need id: 1_hexanol]  [alcoholic, ethereal, flower, fruity]
+    ?  Heptanal                             CID     8130  [new — would need id: heptanal]  [aldehydic, citrus, fat, fatty]
+    ?  1-Undecanol                          CID     8184  [new — would need id: 1_undecanol]  [citrus, clean clothes, floral, fresh]
+    ?  Undecanal                            CID     8186  [new — would need id: undecanal]  [aldehydic, citrus, fatty, floral]
+
+============================================================
+  coriander_seed  (Coriander seed)
+============================================================
+  FlavorDB entity: "coriander" (id=254, override match)
+
+  CONFIRMED (4 compound(s) — FlavorDB corroborates our curation):
+    ✓ linalool                        CID     6549  [blueberry, bois de rose, citrus, floral]
+    ✓ linalool                        CID    67179  [floral, lavender, petitgrain, sweet]
+    ✓ linalool                        CID   443158  [deep, floral, fresh, lavender]
+    ✓ geraniol                        CID   637566  [citrus, floral, fruity, geranium]
+
+  CANDIDATES FOR REVIEW (57 shown, 192 total):
+  Need OAV/GC-O citation before adoption.
+    ?  benzyl alcohol                       CID      244  [new — would need id: benzyl_alcohol]  [balsamic, berry, cherry, floral]
+    ?  Octanal                              CID      454  [in vocab as octanal]  [aldehydic, citrus, fat, fatty]
+    ?  indole                               CID      798  [new — would need id: indole]  [animal, burnt, fecal, fishy]
+    ?  phenylacetaldehyde                   CID      998  [in vocab as phenylacetaldehyde]  [bitter, clover, cocoa, floral]
+    ?  Phenylacetic Acid                    CID      999  [new — would need id: phenylacetic_acid]  [civet, floral, flower, honey]
+    ?  Myristicin                           CID     4276  [in vocab as myristicin]  [balsam, balsamic, spice, warm]
+    ?  safrole                              CID     5144  [new — would need id: safrole]  [anise, floral, sassafrass, spice]
+    ?  2-Phenylethanol                      CID     6054  [new — would need id: 2_phenylethanol]  [bitter, floral, honey, lilac]
+    ?  Bornyl Acetate                       CID     6448  [new — would need id: bornyl_acetate]  [balsamic, camphor, cedar, fresh]
+    ?  Isobutyraldehyde                     CID     6561  [new — would need id: isobutyraldehyde]  [aldehydic, floral, fresh, green]
+    ?  Methyl Benzoate                      CID     7150  [new — would need id: methyl_benzoate]  [almond, cananga, floral, herb]
+    ?  Alpha-Phellandrene                   CID     7460  [new — would need id: alpha_phellandrene]  [citrus, green, herbal, mint]
+    ?  Alpha-Terpinene                      CID     7462  [new — would need id: alpha_terpinene]  [bitter, camphoraceous, citrus, herbal]
+    ?  P-Cymene                             CID     7463  [new — would need id: p_cymene]  [citrus, fresh, gasoline, solvent]
+    ?  Phenethyl acetate                    CID     7654  [new — would need id: phenethyl_acetate]  [floral, fruity, honey, rose]
+    ?  Heptanal                             CID     8130  [new — would need id: heptanal]  [aldehydic, citrus, fat, fatty]
+    ?  1-Decanol                            CID     8174  [new — would need id: 1_decanol]  [clean, fat, fatty, floral]
+    ?  Decanal                              CID     8175  [in vocab as decanal]  [aldehydic, citrus, floral, orange peel]
+    ?  1-Undecanol                          CID     8184  [new — would need id: 1_undecanol]  [citrus, clean clothes, floral, fresh]
+    ?  Undecanal                            CID     8186  [new — would need id: undecanal]  [aldehydic, citrus, fatty, floral]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  limonene
+
+============================================================
+  cranberry  (Cranberry)
+============================================================
+  FlavorDB entity: "cranberry" (id=229, exact match)
+
+  CONFIRMED (3 compound(s) — FlavorDB corroborates our curation):
+    ✓ benzaldehyde                    CID      240  [almond, bitter, burnt sugar, cherry]
+    ✓ octanal                         CID      454  [aldehydic, citrus, fat, fatty]
+    ✓ hexanal                         CID     6184  [aldehydic, fat, fatty, fresh]
+
+  CANDIDATES FOR REVIEW (5 shown, 179 total):
+  Need OAV/GC-O citation before adoption.
+    ?  benzyl alcohol                       CID      244  [new — would need id: benzyl_alcohol]  [balsamic, berry, cherry, floral]
+    ?  Ethyl Benzoate                       CID     7165  [new — would need id: ethyl_benzoate]  [anise, balsam, banana, berry]
+    ?  Methyl Heptanoate                    CID     7826  [new — would need id: methyl_heptanoate]  [berry, floral, fruit, green]
+    ?  4-(4-Hydroxyphenyl)-2-butanone       CID    21648  [new — would need id: 4_4_hydroxyphenyl_2_butanone]  [berry, floral, jam, raspberry]
+    ?  4-Methoxybenzaldehyde                CID    31244  [new — would need id: 4_methoxybenzaldehyde]  [almond, anise, balsam, berry]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  beta_ionone
+    ·  ethyl_2_methylbutyrate
+
+============================================================
+  cream  (Cream)
+============================================================
+  FlavorDB entity: "cream" (id=780, exact match)
+
+  CONFIRMED: (none — FlavorDB compounds don't overlap our vocab)
+
+  CANDIDATES FOR REVIEW (5 shown, 5 total):
+  Need OAV/GC-O citation before adoption.
+    ?  betaine                              CID      247  [new — would need id: betaine]  [bland]
+    ?  thiamine                             CID     1130  [new — would need id: thiamine]  [bitter]
+    ?  Thiamine Hydrochloride               CID     6202  [new — would need id: thiamine_hydrochloride]  [bitter, mild, sour]
+    ?  Heptanoic Acid                       CID     8094  [new — would need id: heptanoic_acid]  [cheese, cheesy, rancid, sour]
+    ?  CID 644104                           CID   644104  [new — would need id: cid_644104]  [grassy, very mild]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  delta_decalactone
+    ·  diacetyl
+
+============================================================
+  davidson_plum  (Davidson plum)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  demerara  (Demerara sugar)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  desert_lime  (Desert lime)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  egg_white  (Egg white)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  egg_yolk  (Egg yolk)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  elderflower  (Elderflower)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  finger_lime  (Finger lime)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  fish_sauce  (Fish sauce)
+============================================================
+  FlavorDB entity: "fish" (id=151, partial match)
+
+  CONFIRMED: (none — FlavorDB compounds don't overlap our vocab)
+
+  CANDIDATES: (none overlap descriptors, or all already confirmed)
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  methional
+
+============================================================
+  gentian  (Gentian root)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  ginger  (Ginger)
+============================================================
+  FlavorDB entity: "ginger" (id=333, exact match)
+
+  CONFIRMED (3 compound(s) — FlavorDB corroborates our curation):
+    ✓ gingerol                        CID     3473  [pungent]
+    ✓ alpha_pinene                    CID     6654  [camphor, earthy, fresh, harsh]
+    ✓ zingiberene                     CID   521253  [fresh, sharp, spice]
+
+  CANDIDATES FOR REVIEW (27 shown, 248 total):
+  Need OAV/GC-O citation before adoption.
+    ?  Propionaldehyde                      CID      527  [new — would need id: propionaldehyde]  [alcohol, cocoa, earthy, nutty]
+    ?  2,3-butanedione                      CID      650  [in vocab as diacetyl]  [butter, caramel, creamy, oily]
+    ?  1-propanol                           CID     1031  [new — would need id: 1_propanol]  [alcohol, alcoholic, fermented, fusel]
+    ?  2-Phenylethanol                      CID     6054  [new — would need id: 2_phenylethanol]  [bitter, floral, honey, lilac]
+    ?  Bornyl Acetate                       CID     6448  [new — would need id: bornyl_acetate]  [balsamic, camphor, cedar, fresh]
+    ?  Isobutyraldehyde                     CID     6561  [new — would need id: isobutyraldehyde]  [aldehydic, floral, fresh, green]
+    ?  Acetyleugenol                        CID     7136  [new — would need id: acetyleugenol]  [carnation, clove, floral, fresh]
+    ?  Alpha-Phellandrene                   CID     7460  [new — would need id: alpha_phellandrene]  [citrus, green, herbal, mint]
+    ?  P-Cymene                             CID     7463  [new — would need id: p_cymene]  [citrus, fresh, gasoline, solvent]
+    ?  Allyl Alcohol                        CID     7858  [new — would need id: allyl_alcohol]  [mustard, pungent]
+    ?  4-Methyl-2-pentanone                 CID     7909  [new — would need id: 4_methyl_2_pentanone]  [dairy, fruity, green, herbal]
+    ?  Beta-Terpineol                       CID     8748  [new — would need id: beta_terpineol]  [earthy, must, pungent, woody]
+    ?  Estragole                            CID     8815  [in vocab as estragole]  [alcohol, anise, fennel, green]
+    ?  Carvacrol                            CID    10364  [in vocab as carvacrol]  [camphor, spice, thymol, woody]
+    ?  1-Penten-3-Ol                        CID    12020  [new — would need id: 1_penten_3_ol]  [bitter, butter, fruity, green]
+    ?  7-methyl-4-methylidene-1-propan-2-yl-2,3,4a,5,6,8a-hexahydro-1H-naphthalene  CID    15094  [new — would need id: 7_methyl_4_methylidene_1_propan_2_yl_2_3_4a_5_6_8a_hexahydro_1h_naphthalene]  [herb, herbal, spice, wood]
+    ?  Ethyl Vinyl Ketone                   CID    15394  [new — would need id: ethyl_vinyl_ketone]  [fish, garlic, mustard, onion]
+    ?  Perillaldehyde                       CID    16441  [new — would need id: perillaldehyde]  [cherry, cumin, fat, fatty]
+    ?  Sabinene                             CID    18818  [in vocab as sabinene]  [citrus, pepper, pine, spice]
+    ?  Myrcene                              CID    31253  [in vocab as myrcene]  [balsam, balsamic, must, peppery]
+
+============================================================
+  grape  (Grape)
+============================================================
+  FlavorDB entity: "grape" (id=182, exact match)
+
+  CONFIRMED (1 compound(s) — FlavorDB corroborates our curation):
+    ✓ methyl_anthranilate             CID     8635  [bitter, flower, fruity, grape]
+
+  CANDIDATES FOR REVIEW (114 shown, 260 total):
+  Need OAV/GC-O citation before adoption.
+    ?  3-Phenylpropanoic acid               CID      107  [new — would need id: 3_phenylpropanoic_acid]  [balsamic, cinnamon, fatty, musk]
+    ?  4-hydroxybenzaldehyde                CID      126  [new — would need id: 4_hydroxybenzaldehyde]  [almond, balsam, nutty, sweet]
+    ?  benzaldehyde                         CID      240  [in vocab as benzaldehyde]  [almond, bitter, burnt sugar, cherry]
+    ?  benzyl alcohol                       CID      244  [new — would need id: benzyl_alcohol]  [balsamic, berry, cherry, floral]
+    ?  coumarin                             CID      323  [in vocab as coumarin]  [bitter, green, new mown hay, sweet]
+    ?  2,3-butanedione                      CID      650  [in vocab as diacetyl]  [butter, caramel, creamy, oily]
+    ?  phenylacetaldehyde                   CID      998  [in vocab as phenylacetaldehyde]  [bitter, clover, cocoa, floral]
+    ?  Phenylacetic Acid                    CID      999  [new — would need id: phenylacetic_acid]  [civet, floral, flower, honey]
+    ?  vanillin                             CID     1183  [in vocab as vanillin]  [chocolate, creamy, sweet, vanilla]
+    ?  Benzyl Benzoate                      CID     2345  [new — would need id: benzyl_benzoate]  [almond, balsam, balsamic, cheese]
+    ?  Hexanal                              CID     6184  [in vocab as hexanal]  [aldehydic, fat, fatty, fresh]
+    ?  D-mannitol                           CID     6251  [new — would need id: d_mannitol]  [odorless, sweet]
+    ?  Linalool                             CID     6549  [in vocab as linalool]  [blueberry, bois de rose, citrus, floral]
+    ?  2-Butanone                           CID     6569  [new — would need id: 2_butanone]  [acetone, camphor, ether, ethereal]
+    ?  Methyl Acetate                       CID     6584  [new — would need id: methyl_acetate]  [bitter, ether, fruity, sweet]
+    ?  Ethyl 2-aminobenzoate                CID     6877  [new — would need id: ethyl_2_aminobenzoate]  [blossom, floral, grape, orange blossom]
+    ?  2-Ethylbutyric Acid                  CID     6915  [new — would need id: 2_ethylbutyric_acid]  [acidic, berry, caramel, dry]
+    ?  2-Isopropyl-5-methylcyclohexanone    CID     6986  [new — would need id: 2_isopropyl_5_methylcyclohexanone]  [cool, fresh, green, mint]
+    ?  1,2-Dimethoxybenzene                 CID     7043  [new — would need id: 1_2_dimethoxybenzene]  [creamy, musty, phenolic, sweet]
+    ?  Methyl Benzoate                      CID     7150  [new — would need id: methyl_benzoate]  [almond, cananga, floral, herb]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  beta_damascenone
+
+============================================================
+  grapefruit  (Grapefruit)
+============================================================
+  FlavorDB entity: "grapefruit peel oil" (id=108, override match)
+  ⚠  EXTRACT/OIL match — FlavorDB entity is a concentrate, not the
+     whole ingredient. Compound profile is terpene-heavy / may miss
+     polar acids + non-volatile compounds. Treat candidates cautiously.
+
+  CONFIRMED (1 compound(s) — FlavorDB corroborates our curation):
+    ✓ nootkatone                      CID  1268142  []
+
+  CANDIDATES FOR REVIEW (12 shown, 12 total):
+  Need OAV/GC-O citation before adoption.
+    ?  octanoic acid                        CID      379  [new — would need id: octanoic_acid]  [cheese, cheesy, fatty, oily]
+    ?  Octyl acetate                        CID     8164  [new — would need id: octyl_acetate]  [earthy, green, herbal, mushroom]
+    ?  4'-Methylacetophenone                CID     8500  [new — would need id: 4_methylacetophenone]  [acetophenone, bitter almond, cherry, coumarin]
+    ?  1-Nonanol                            CID     8914  [new — would need id: 1_nonanol]  [bitter, clean, dusty, fat]
+    ?  Citronellyl acetate                  CID     9017  [new — would need id: citronellyl_acetate]  [citrus, dust, floral, fruit]
+    ?  Carvomenthone                        CID    10362  [new — would need id: carvomenthone]  [herbal, minty, spearmint]
+    ?  Ethyl Vinyl Ketone                   CID    15394  [new — would need id: ethyl_vinyl_ketone]  [fish, garlic, mustard, onion]
+    ?  Isopentyl hexanoate                  CID    16617  [new — would need id: isopentyl_hexanoate]  [apple, banana, fruity, green]
+    ?  p-Menthan-2-ol                       CID    62350  [new — would need id: p_menthan_2_ol]  []
+    ?  6-methyl-2-(oxiran-2-yl)hept-5-en-2-ol  CID   102611  [new — would need id: 6_methyl_2_oxiran_2_yl_hept_5_en_2_ol]  [earthy, floral, flower, green]
+    ?  Pinocarveol                          CID   102667  [new — would need id: pinocarveol]  [balsam, camphor, herbal, pine]
+    ?  Valencene                            CID  9855795  [new — would need id: valencene]  []
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  limonene
+    ·  myrcene
+
+============================================================
+  honey  (Honey)
+============================================================
+  FlavorDB entity: "honey" (id=315, exact match)
+
+  CONFIRMED (1 compound(s) — FlavorDB corroborates our curation):
+    ✓ phenylacetaldehyde              CID      998  [bitter, clover, cocoa, floral]
+
+  CANDIDATES FOR REVIEW (28 shown, 59 total):
+  Need OAV/GC-O citation before adoption.
+    ?  acetoin                              CID      179  [new — would need id: acetoin]  [butter, buttery, cream, creamy]
+    ?  butyraldehyde                        CID      261  [new — would need id: butyraldehyde]  [apple, bready, chocolate, citrus]
+    ?  2-Phenylethanol                      CID     6054  [new — would need id: 2_phenylethanol]  [bitter, floral, honey, lilac]
+    ?  Isobutyraldehyde                     CID     6561  [new — would need id: isobutyraldehyde]  [aldehydic, floral, fresh, green]
+    ?  Methyl Acetate                       CID     6584  [new — would need id: methyl_acetate]  [bitter, ether, fruity, sweet]
+    ?  Methyl Benzoate                      CID     7150  [new — would need id: methyl_benzoate]  [almond, cananga, floral, herb]
+    ?  Ethyl Isobutyrate                    CID     7342  [new — would need id: ethyl_isobutyrate]  [alcoholic, ethereal, fruity, fusel]
+    ?  Butyl isobutyrate                    CID     7353  [new — would need id: butyl_isobutyrate]  [apple, banana, fruity, green]
+    ?  Furfuryl Alcohol                     CID     7361  [new — would need id: furfuryl_alcohol]  [alcoholic, bitter, bread, burnt]
+    ?  2-Furaldehyde                        CID     7362  [new — would need id: 2_furaldehyde]  [almond, baked, bread, fragrant]
+    ?  Styrene                              CID     7501  [new — would need id: styrene]  [balsam, balsamic, floral, gasoline]
+    ?  Methyl Phenylacetate                 CID     7559  [new — would need id: methyl_phenylacetate]  [almond, floral, honey, spice]
+    ?  4-Methoxybenzyl Alcohol              CID     7738  [new — would need id: 4_methoxybenzyl_alcohol]  [caramel, chocolate, floral, flower]
+    ?  Methyl Hexanoate                     CID     7824  [new — would need id: methyl_hexanoate]  [ether, fresh, fruit, fruity]
+    ?  2-Pentanone                          CID     7895  [new — would need id: 2_pentanone]  [alcohol, banana, ether, ethereal]
+    ?  Isopropyl Acetate                    CID     7915  [new — would need id: isopropyl_acetate]  [banana, chemical, ethereal, fruity]
+    ?  Butyl butyrate                       CID     7983  [new — would need id: butyl_butyrate]  [apple, banana, berry, fruity]
+    ?  Ethyl pentanoate                     CID    10882  [new — would need id: ethyl_pentanoate]  [apple, fruit, fruity, green]
+    ?  Isobutyl butyrate                    CID    10885  [new — would need id: isobutyl_butyrate]  [apple, berry, fruity, pineapple]
+    ?  2-Heptanol                           CID    10976  [new — would need id: 2_heptanol]  [bitter, floral, fresh, fruity]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  furaneol
+    ·  methyl_anthranilate
+
+============================================================
+  hot_sauce  (Hot sauce)
+============================================================
+  FlavorDB entity: "sauce" (id=777, partial match)
+
+  CONFIRMED: (none — FlavorDB compounds don't overlap our vocab)
+
+  CANDIDATES FOR REVIEW (5 shown, 5 total):
+  Need OAV/GC-O citation before adoption.
+    ?  betaine                              CID      247  [new — would need id: betaine]  [bland]
+    ?  thiamine                             CID     1130  [new — would need id: thiamine]  [bitter]
+    ?  Thiamine Hydrochloride               CID     6202  [new — would need id: thiamine_hydrochloride]  [bitter, mild, sour]
+    ?  Heptanoic Acid                       CID     8094  [new — would need id: heptanoic_acid]  [cheese, cheesy, rancid, sour]
+    ?  CID 644104                           CID   644104  [new — would need id: cid_644104]  [grassy, very mild]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  capsaicin
+
+============================================================
+  juniper  (Juniper)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  kokuto  (Kokuto (Okinawan black sugar))
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  lavender  (Lavender)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  lemon  (Lemon)
+============================================================
+  FlavorDB entity: "lemon peel oil" (id=114, override match)
+  ⚠  EXTRACT/OIL match — FlavorDB entity is a concentrate, not the
+     whole ingredient. Compound profile is terpene-heavy / may miss
+     polar acids + non-volatile compounds. Treat candidates cautiously.
+
+  CONFIRMED: (none — FlavorDB compounds don't overlap our vocab)
+
+  CANDIDATES FOR REVIEW (10 shown, 36 total):
+  Need OAV/GC-O citation before adoption.
+    ?  P-Cymene                             CID     7463  [new — would need id: p_cymene]  [citrus, fresh, gasoline, solvent]
+    ?  3,7-Dimethyl-1-octanol               CID     7792  [new — would need id: 3_7_dimethyl_1_octanol]  [aldehydic, bitter, citrus, green]
+    ?  Citronellal                          CID     7794  [new — would need id: citronellal]  [aldehydic, cherry, citrus, dry]
+    ?  Dodecanal                            CID     8194  [in vocab as dodecanal]  [aldehydic, citrus, fat, floral]
+    ?  Citronellyl acetate                  CID     9017  [new — would need id: citronellyl_acetate]  [citrus, dust, floral, fruit]
+    ?  3-Decanone                           CID    13576  [new — would need id: 3_decanone]  [citrus, floral, fruity, green]
+    ?  2-(4-methylphenyl)propan-2-ol        CID    14529  [new — would need id: 2_4_methylphenyl_propan_2_ol]  [camphor, cherry, citrus, coumarin]
+    ?  3-Carene                             CID    26049  [new — would need id: 3_carene]  [citrus, lemon, resin, sweet]
+    ?  2,6-Dimethyl-5-heptenal              CID    61016  [new — would need id: 2_6_dimethyl_5_heptenal]  [cantaloupe, citrus, clean, cucumber]
+    ?  Neryl acetate                        CID  1549025  [new — would need id: neryl_acetate]  [blossom, citrus, dewy, floral]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  beta_pinene
+    ·  citral
+    ·  gamma_terpinene
+    ·  limonene
+
+============================================================
+  lemon_aspen  (Lemon aspen)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  lemon_myrtle  (Lemon myrtle)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  lemongrass  (Lemongrass)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  lime  (Lime)
+============================================================
+  FlavorDB entity: "lime peel oil" (id=115, override match)
+  ⚠  EXTRACT/OIL match — FlavorDB entity is a concentrate, not the
+     whole ingredient. Compound profile is terpene-heavy / may miss
+     polar acids + non-volatile compounds. Treat candidates cautiously.
+
+  CONFIRMED: (none — FlavorDB compounds don't overlap our vocab)
+
+  CANDIDATES FOR REVIEW (16 shown, 16 total):
+  Need OAV/GC-O citation before adoption.
+    ?  Guaiene                              CID     6949  [new — would need id: guaiene]  [dry, guaiacwood, powdery, spice]
+    ?  6-Methyl-5-Hepten-2-One              CID     9862  [new — would need id: 6_methyl_5_hepten_2_one]  [apple, bitter, citrus, green]
+    ?  1,4-Cineole                          CID    10106  [new — would need id: 1_4_cineole]  [camphor, cooling, green, minty]
+    ?  Myrtenol                             CID    10582  [new — would need id: myrtenol]  [balsam, medical, mint, pine]
+    ?  Terpinolene                          CID    11463  [new — would need id: terpinolene]  [citrus, fresh, pine, plastic]
+    ?  1-Terpineol                          CID    11468  [new — would need id: 1_terpineol]  [dry, must, musty, woody]
+    ?  3-Hexanone                           CID    11509  [new — would need id: 3_hexanone]  [ether, fruity, grape, rum]
+    ?  Perillaldehyde                       CID    16441  [new — would need id: perillaldehyde]  [cherry, cumin, fat, fatty]
+    ?  3-Carene                             CID    26049  [new — would need id: 3_carene]  [citrus, lemon, resin, sweet]
+    ?  2,6-Dimethyl-5-heptenal              CID    61016  [new — would need id: 2_6_dimethyl_5_heptenal]  [cantaloupe, citrus, clean, cucumber]
+    ?  Linalyl formate                      CID    61040  [new — would need id: linalyl_formate]  [bergamot, bitter, citrus, coriander]
+    ?  d-Piperitone                         CID    61362  [new — would need id: d_piperitone]  [minty, peppermint]
+    ?  Borneol                              CID    64685  [new — would need id: borneol]  [camphor, pine, woody]
+    ?  Linaloyl oxide                       CID   522514  [new — would need id: linaloyl_oxide]  []
+    ?  Beta-Caryophyllene                   CID  5281515  [in vocab as beta_caryophyllene]  [clove, dry, spice, sweet]
+    ?  Ocimene quintoxide                   CID  5363526  [new — would need id: ocimene_quintoxide]  []
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  beta_pinene
+    ·  citral
+    ·  limonene
+    ·  terpineol
+
+============================================================
+  mango  (Mango)
+============================================================
+  FlavorDB entity: "mango" (id=190, exact match)
+
+  CONFIRMED (3 compound(s) — FlavorDB corroborates our curation):
+    ✓ ethyl_butyrate                  CID     7762  [apple, banana, cognac, fruit]
+    ✓ gamma_decalactone               CID    12813  [buttery, caramel, coconut, fat]
+    ✓ myrcene                         CID    31253  [balsam, balsamic, must, peppery]
+
+  CANDIDATES FOR REVIEW (61 shown, 235 total):
+  Need OAV/GC-O citation before adoption.
+    ?  Hexanal                              CID     6184  [in vocab as hexanal]  [aldehydic, fat, fatty, fresh]
+    ?  Isophorone                           CID     6544  [new — would need id: isophorone]  [camphor, camphoraceous, cedarwood, cooling]
+    ?  2-Butanone                           CID     6569  [new — would need id: 2_butanone]  [acetone, camphor, ether, ethereal]
+    ?  Ethyl Isobutyrate                    CID     7342  [new — would need id: ethyl_isobutyrate]  [alcoholic, ethereal, fruity, fusel]
+    ?  Phenethyl acetate                    CID     7654  [new — would need id: phenethyl_acetate]  [floral, fruity, honey, rose]
+    ?  Isoamyl butyrate                     CID     7795  [new — would need id: isoamyl_butyrate]  [apricot, banana, fruity, green]
+    ?  Ethyl Octanoate                      CID     7799  [new — would need id: ethyl_octanoate]  [apricot, banana, brandy, fat]
+    ?  3-Heptanone                          CID     7802  [new — would need id: 3_heptanone]  [fatty, fruity, green, powerful]
+    ?  Methyl Hexanoate                     CID     7824  [new — would need id: methyl_hexanoate]  [ether, fresh, fruit, fruity]
+    ?  2-Pentanone                          CID     7895  [new — would need id: 2_pentanone]  [alcohol, banana, ether, ethereal]
+    ?  Ethyl Isovalerate                    CID     7945  [new — would need id: ethyl_isovalerate]  [apple, fruit, fruity, pineapple]
+    ?  Isobutyl Acetate                     CID     8038  [new — would need id: isobutyl_acetate]  [apple, banana, bitter, ethereal]
+    ?  2-Heptanone                          CID     8051  [new — would need id: 2_heptanone]  [cinnamon, coconut, fruity, herbal]
+    ?  1-Hexanol                            CID     8103  [new — would need id: 1_hexanol]  [alcoholic, ethereal, flower, fruity]
+    ?  2-Methyl-1-Butanol                   CID     8723  [new — would need id: 2_methyl_1_butanol]  [fruity, malt, onion, roasted]
+    ?  Benzyl Acetate                       CID     8785  [new — would need id: benzyl_acetate]  [apple, apricot, bitter, boiled vegetable]
+    ?  Ethyl Acetate                        CID     8857  [new — would need id: ethyl_acetate]  [anise, balsam, ethereal, fruity]
+    ?  Hexyl acetate                        CID     8908  [in vocab as hexyl_acetate]  [apple, banana, bitter, fruit]
+    ?  beta-Cyclocitral                     CID     9895  [new — would need id: beta_cyclocitral]  [clean, damascone, fruity, herbal]
+    ?  2-(4-Hydroxyphenyl)ethanol           CID    10393  [new — would need id: 2_4_hydroxyphenyl_ethanol]  [floral, fruity, mild, sweet]
+
+============================================================
+  maple_syrup  (Maple syrup)
+============================================================
+  FlavorDB entity: "syrup" (id=803, partial match)
+
+  CONFIRMED: (none — FlavorDB compounds don't overlap our vocab)
+
+  CANDIDATES FOR REVIEW (4 shown, 4 total):
+  Need OAV/GC-O citation before adoption.
+    ?  thiamine                             CID     1130  [new — would need id: thiamine]  [bitter]
+    ?  Thiamine Hydrochloride               CID     6202  [new — would need id: thiamine_hydrochloride]  [bitter, mild, sour]
+    ?  Heptanoic Acid                       CID     8094  [new — would need id: heptanoic_acid]  [cheese, cheesy, rancid, sour]
+    ?  CID 644104                           CID   644104  [new — would need id: cid_644104]  [grassy, very mild]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  furaneol
+    ·  sotolon
+    ·  vanillin
+
+============================================================
+  milk  (Milk)
+============================================================
+  FlavorDB entity: "milk" (id=88, exact match)
+
+  CONFIRMED (1 compound(s) — FlavorDB corroborates our curation):
+    ✓ diacetyl                        CID      650  [butter, caramel, creamy, oily]
+
+  CANDIDATES FOR REVIEW (11 shown, 110 total):
+  Need OAV/GC-O citation before adoption.
+    ?  butyraldehyde                        CID      261  [new — would need id: butyraldehyde]  [apple, bready, chocolate, citrus]
+    ?  vanillin                             CID     1183  [in vocab as vanillin]  [chocolate, creamy, sweet, vanilla]
+    ?  104-50-7                             CID     7704  [new — would need id: 104_50_7]  [coconut, creamy, dairy, fatty]
+    ?  gamma-Nonanolactone                  CID     7710  [new — would need id: gamma_nonanolactone]  [buttery, coconut, creamy, oily]
+    ?  4-Methyl-2-pentanone                 CID     7909  [new — would need id: 4_methyl_2_pentanone]  [dairy, fruity, green, herbal]
+    ?  2-Undecanone                         CID     8163  [new — would need id: 2_undecanone]  [creamy, fatty, floral, fresh]
+    ?  2-Tridecanone                        CID    11622  [new — would need id: 2_tridecanone]  [coconut, dairy, earthy, fatty]
+    ?  Delta-Decalactone                    CID    12810  [in vocab as delta_decalactone]  [apricot, butter, coconut, creamy]
+    ?  Delta-Dodecalactone                  CID    12844  [new — would need id: delta_dodecalactone]  [butter, buttery, cheese, coconut]
+    ?  delta-Undecalactone                  CID    61204  [new — would need id: delta_undecalactone]  [coconut, creamy, fatty, fruity]
+    ?  delta-Tetradecalactone               CID   520296  [new — would need id: delta_tetradecalactone]  [creamy, dairy, fatty, milky]
+
+============================================================
+  mint  (Mint)
+============================================================
+  FlavorDB entity: "mint" (id=262, exact match)
+
+  CONFIRMED (2 compound(s) — FlavorDB corroborates our curation):
+    ✓ menthone                        CID    26447  [bitter, camphor, camphoraceous, deep]
+    ✓ limonene                        CID   439250  [camphoraceous, herbal, peppery, pine]
+
+  CANDIDATES FOR REVIEW (27 shown, 160 total):
+  Need OAV/GC-O citation before adoption.
+    ?  Benzyl Benzoate                      CID     2345  [new — would need id: benzyl_benzoate]  [almond, balsam, balsamic, cheese]
+    ?  Eucalyptol                           CID     2758  [in vocab as eucalyptol]  [camphor, eucalyptus, herbal, mint]
+    ?  Camphene                             CID     6616  [new — would need id: camphene]  [camphor, fir needle, herbal, woody]
+    ?  2-Isopropyl-5-methylcyclohexanone    CID     6986  [new — would need id: 2_isopropyl_5_methylcyclohexanone]  [cool, fresh, green, mint]
+    ?  Piperitone                           CID     6987  [new — would need id: piperitone]  [camphor, fresh, fruit, herbal]
+    ?  Pulegone                             CID     6988  [new — would need id: pulegone]  [buchu, camphor, fresh, herbal]
+    ?  Carvone                              CID     7439  [in vocab as carvone]  [basil, fennel, licorice, mint]
+    ?  Alpha-Phellandrene                   CID     7460  [new — would need id: alpha_phellandrene]  [citrus, green, herbal, mint]
+    ?  Gamma-Terpinene                      CID     7461  [in vocab as gamma_terpinene]  [bitter, gasoline, herbal, lemon]
+    ?  Heptanal                             CID     8130  [new — would need id: heptanal]  [aldehydic, citrus, fat, fatty]
+    ?  beta-Cyclocitral                     CID     9895  [new — would need id: beta_cyclocitral]  [clean, damascone, fruity, herbal]
+    ?  3-Octanol                            CID    11527  [new — would need id: 3_octanol]  [citrus, earthy, herbal, melon]
+    ?  Dihydrocarveol                       CID    12072  [new — would need id: dihydrocarveol]  [herbal, menthol, mint, minty]
+    ?  7-methyl-4-methylidene-1-propan-2-yl-2,3,4a,5,6,8a-hexahydro-1H-naphthalene  CID    15094  [new — would need id: 7_methyl_4_methylidene_1_propan_2_yl_2_3_4a_5_6_8a_hexahydro_1h_naphthalene]  [herb, herbal, spice, wood]
+    ?  Octan-2-ol                           CID    20083  [new — would need id: octan_2_ol]  [earthy, fat, fresh, green]
+    ?  Dipentene                            CID    22311  [new — would need id: dipentene]  [camphor, citric, citrus, herbal]
+    ?  Piperitenone oxide                   CID    61942  [new — would need id: piperitenone_oxide]  [herbal, minty]
+    ?  2,5-Diethyltetrahydrofuran           CID    62913  [new — would need id: 2_5_diethyltetrahydrofuran]  [caramel, herbal, sweet]
+    ?  (1aR,4S,4aS,7R,7aS)-1,1,4,7-tetramethyl-2,3,4a,5,6,7,7a,7b-octahydro-1aH-cyclopropa[e]azulen-4-ol  CID    94174  [new — would need id: 1ar_4s_4as_7r_7as_1_1_4_7_tetramethyl_2_3_4a_5_6_7_7a_7b_octahydro_1ah_cyclopropa_e_azulen_4_ol]  [fruity, green, herbal, minty]
+    ?  L-Menthyl acetate                    CID   220674  [new — would need id: l_menthyl_acetate]  [camphoraceous, fruity, herbal, mango]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  menthol
+
+============================================================
+  miso  (Miso)
+============================================================
+  FlavorDB entity: "miso" (id=822, exact match)
+
+  CONFIRMED: (none — FlavorDB compounds don't overlap our vocab)
+
+  CANDIDATES FOR REVIEW (8 shown, 8 total):
+  Need OAV/GC-O citation before adoption.
+    ?  thiamine                             CID     1130  [new — would need id: thiamine]  [bitter]
+    ?  Thiamine Hydrochloride               CID     6202  [new — would need id: thiamine_hydrochloride]  [bitter, mild, sour]
+    ?  Heptanoic Acid                       CID     8094  [new — would need id: heptanoic_acid]  [cheese, cheesy, rancid, sour]
+    ?  Daidzin                              CID   107971  [new — would need id: daidzin]  [bitter]
+    ?  CID 644104                           CID   644104  [new — would need id: cid_644104]  [grassy, very mild]
+    ?  Coumestrol                           CID  5281707  [new — would need id: coumestrol]  [bitter]
+    ?  daidzein                             CID  5281708  [new — would need id: daidzein]  [bitter]
+    ?  NSC5112                              CID  5284639  [new — would need id: nsc5112]  [bitter]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  furaneol
+    ·  pyrazine
+    ·  sotolon
+
+============================================================
+  muntries  (Muntries)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  mushroom  (Dried mushroom)
+============================================================
+  FlavorDB entity: "mushroom" (id=246, exact match)
+
+  CONFIRMED (1 compound(s) — FlavorDB corroborates our curation):
+    ✓ 1_octen_3_ol                    CID    18827  [chicken, earthy, fishy, fungal]
+
+  CANDIDATES FOR REVIEW (16 shown, 226 total):
+  Need OAV/GC-O citation before adoption.
+    ?  Propionaldehyde                      CID      527  [new — would need id: propionaldehyde]  [alcohol, cocoa, earthy, nutty]
+    ?  Alpha-Pinene                         CID     6654  [in vocab as alpha_pinene]  [camphor, earthy, fresh, harsh]
+    ?  Octan-2-one                          CID     8093  [new — would need id: octan_2_one]  [bitter, earthy, gasoline, herbal]
+    ?  1-Dodecanol                          CID     8193  [new — would need id: 1_dodecanol]  [coconut, earthy, fat, fatty]
+    ?  Mesityl Oxide                        CID     8858  [new — would need id: mesityl_oxide]  [acrylic, chemical, earthy, pungent]
+    ?  3-Octanol                            CID    11527  [new — would need id: 3_octanol]  [citrus, earthy, herbal, melon]
+    ?  Dimethyl disulfide                   CID    12232  [new — would need id: dimethyl_disulfide]  [cabbage, citrus, earthy, fatty]
+    ?  3-(Methylthio)propionaldehyde        CID    18635  [new — would need id: 3_methylthio_propionaldehyde]  [beef, cooked potato, creamy, earthy]
+    ?  2-Pentylfuran                        CID    19602  [new — would need id: 2_pentylfuran]  [beany, butter, earthy, fruity]
+    ?  2,3,5-Trimethylpyrazine              CID    26808  [new — would need id: 2_3_5_trimethylpyrazine]  [cocoa, earthy, hazelnut, must]
+    ?  1-Octen-3-One                        CID    61346  [new — would need id: 1_octen_3_one]  [dirty, earthy, herbal, metal]
+    ?  2-Isopropyl-4-methylthiazole         CID    61808  [new — would need id: 2_isopropyl_4_methylthiazole]  [earthy, fruit, green, nut]
+    ?  2,4-Dimethyl-5-ethylthiazole         CID   162293  [new — would need id: 2_4_dimethyl_5_ethylthiazole]  [earth, earthy, meaty, nutty]
+    ?  trans-2-Decenal                      CID  5283345  [new — would need id: trans_2_decenal]  [aldehydic, coriander, earthy, fatty]
+    ?  trans-3-Hexen-1-ol                   CID  5284503  [new — would need id: trans_3_hexen_1_ol]  [bitter, earthy, fatty, fresh]
+    ?  3-Octen-2-One                        CID  5363229  [new — would need id: 3_octen_2_one]  [blueberry, crushed bug, earthy, hay]
+
+============================================================
+  native_river_mint  (Native river mint)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  nutmeg  (Nutmeg)
+============================================================
+  FlavorDB entity: "nutmeg" (id=336, exact match)
+
+  CONFIRMED (3 compound(s) — FlavorDB corroborates our curation):
+    ✓ myristicin                      CID     4276  [balsam, balsamic, spice, warm]
+    ✓ alpha_pinene                    CID     6654  [camphor, earthy, fresh, harsh]
+    ✓ sabinene                        CID    18818  [citrus, pepper, pine, spice]
+
+  CANDIDATES FOR REVIEW (40 shown, 167 total):
+  Need OAV/GC-O citation before adoption.
+    ?  4-hydroxybenzaldehyde                CID      126  [new — would need id: 4_hydroxybenzaldehyde]  [almond, balsam, nutty, sweet]
+    ?  eugenol                              CID     3314  [in vocab as eugenol]  [cinnamon, clove, honey, spicy]
+    ?  safrole                              CID     5144  [new — would need id: safrole]  [anise, floral, sassafrass, spice]
+    ?  2-Phenylethanol                      CID     6054  [new — would need id: 2_phenylethanol]  [bitter, floral, honey, lilac]
+    ?  Bornyl Acetate                       CID     6448  [new — would need id: bornyl_acetate]  [balsamic, camphor, cedar, fresh]
+    ?  Linalool                             CID     6549  [in vocab as linalool]  [blueberry, bois de rose, citrus, floral]
+    ?  Camphene                             CID     6616  [new — would need id: camphene]  [camphor, fir needle, herbal, woody]
+    ?  Methyleugenol                        CID     7127  [new — would need id: methyleugenol]  [anise, apricot, balsam, banana]
+    ?  Acetyleugenol                        CID     7136  [new — would need id: acetyleugenol]  [carnation, clove, floral, fresh]
+    ?  2-Furaldehyde                        CID     7362  [new — would need id: 2_furaldehyde]  [almond, baked, bread, fragrant]
+    ?  Alpha-Phellandrene                   CID     7460  [new — would need id: alpha_phellandrene]  [citrus, green, herbal, mint]
+    ?  Gamma-Terpinene                      CID     7461  [in vocab as gamma_terpinene]  [bitter, gasoline, herbal, lemon]
+    ?  Alpha-Terpinene                      CID     7462  [new — would need id: alpha_terpinene]  [bitter, camphoraceous, citrus, herbal]
+    ?  P-Cymene                             CID     7463  [new — would need id: p_cymene]  [citrus, fresh, gasoline, solvent]
+    ?  Linalyl Acetate                      CID     8294  [in vocab as linalyl_acetate]  [bergamot, citrus, fruit, green]
+    ?  Beta-Terpineol                       CID     8748  [new — would need id: beta_terpineol]  [earthy, must, pungent, woody]
+    ?  Estragole                            CID     8815  [in vocab as estragole]  [alcohol, anise, fennel, green]
+    ?  Citronellyl acetate                  CID     9017  [new — would need id: citronellyl_acetate]  [citrus, dust, floral, fruit]
+    ?  Elemicin                             CID    10248  [new — would need id: elemicin]  [flower, spice]
+    ?  Carvacrol                            CID    10364  [in vocab as carvacrol]  [camphor, spice, thymol, woody]
+
+============================================================
+  olive  (Olive)
+============================================================
+  FlavorDB entity: "olive" (id=307, exact match)
+
+  CONFIRMED: (none — FlavorDB compounds don't overlap our vocab)
+
+  CANDIDATES: (none overlap descriptors, or all already confirmed)
+
+============================================================
+  orange  (Orange)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  orgeat  (Orgeat)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  orris_root  (Orris root)
+============================================================
+  FlavorDB entity: "orris" (id=123, partial match)
+
+  CONFIRMED: (none — FlavorDB compounds don't overlap our vocab)
+
+  CANDIDATES FOR REVIEW (10 shown, 10 total):
+  Need OAV/GC-O citation before adoption.
+    ?  acetaldehyde                         CID      177  [new — would need id: acetaldehyde]  [aldehydic, ether, ethereal, fruity]
+    ?  benzaldehyde                         CID      240  [in vocab as benzaldehyde]  [almond, bitter, burnt sugar, cherry]
+    ?  Methyl Dodecanoate                   CID     8139  [new — would need id: methyl_dodecanoate]  [coconut, creamy, fat, mushroom]
+    ?  Nonanoic Acid                        CID     8158  [new — would need id: nonanoic_acid]  [cheese, cultured dairy, dirty, fat]
+    ?  Decanal                              CID     8175  [in vocab as decanal]  [aldehydic, citrus, floral, orange peel]
+    ?  Methyl Nonanoate                     CID    15606  [new — would need id: methyl_nonanoate]  [coconut, fruity, pear, sweet]
+    ?  Nonanal                              CID    31289  [new — would need id: nonanal]  [aldehydic, citrus, fat, fatty]
+    ?  Geraniol                             CID   637566  [in vocab as geraniol]  [citrus, floral, fruity, geranium]
+    ?  trans-2-Nonenal                      CID  5283335  [new — would need id: trans_2_nonenal]  [cucumber, fatty, green, melon]
+    ?  alpha-Irone                          CID  5371002  [new — would need id: alpha_irone]  [berry, floral, orris, powdery]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  ionone
+    ·  irone
+
+============================================================
+  passionfruit  (Passionfruit)
+============================================================
+  FlavorDB entity: "passionfruit" (id=198, exact match)
+
+  CONFIRMED (3 compound(s) — FlavorDB corroborates our curation):
+    ✓ ethyl_butyrate                  CID     7762  [apple, banana, cognac, fruit]
+    ✓ hexyl_butyrate                  CID    17525  [apple, apple peel, fruity, green]
+    ✓ beta_ionone                     CID   638014  [dry, floral, flower, jam]
+
+  CANDIDATES FOR REVIEW (78 shown, 224 total):
+  Need OAV/GC-O citation before adoption.
+    ?  Hexanal                              CID     6184  [in vocab as hexanal]  [aldehydic, fat, fatty, fresh]
+    ?  2-Butanone                           CID     6569  [new — would need id: 2_butanone]  [acetone, camphor, ether, ethereal]
+    ?  Methyl Acetate                       CID     6584  [new — would need id: methyl_acetate]  [bitter, ether, fruity, sweet]
+    ?  Ethyl Benzoate                       CID     7165  [new — would need id: ethyl_benzoate]  [anise, balsam, banana, berry]
+    ?  Ethyl Isobutyrate                    CID     7342  [new — would need id: ethyl_isobutyrate]  [alcoholic, ethereal, fruity, fusel]
+    ?  Benzyl isobutyrate                   CID     7646  [new — would need id: benzyl_isobutyrate]  [fruity, jasmin, jasmine, oily]
+    ?  Benzyl butyrate                      CID     7650  [new — would need id: benzyl_butyrate]  [apricot, berry, butter, cheese]
+    ?  Phenethyl acetate                    CID     7654  [new — would need id: phenethyl_acetate]  [floral, fruity, honey, rose]
+    ?  Gamma-undecalactone                  CID     7714  [new — would need id: gamma_undecalactone]  [apricot, coconut, creamy, fatty]
+    ?  Propyl butyrate                      CID     7770  [new — would need id: propyl_butyrate]  [apricot, fruity, pineapple, rancid]
+    ?  Isobutyl hexanoate                   CID     7775  [new — would need id: isobutyl_hexanoate]  [fruity, green, peach, pineapple]
+    ?  Ethyl Heptanoate                     CID     7797  [new — would need id: ethyl_heptanoate]  [cognac, fruit, fruity, melon]
+    ?  Ethyl Octanoate                      CID     7799  [new — would need id: ethyl_octanoate]  [apricot, banana, brandy, fat]
+    ?  Methyl Hexanoate                     CID     7824  [new — would need id: methyl_hexanoate]  [ether, fresh, fruit, fruity]
+    ?  2-Pentanone                          CID     7895  [new — would need id: 2_pentanone]  [alcohol, banana, ether, ethereal]
+    ?  Ethyl Isovalerate                    CID     7945  [new — would need id: ethyl_isovalerate]  [apple, fruit, fruity, pineapple]
+    ?  Butyl butyrate                       CID     7983  [new — would need id: butyl_butyrate]  [apple, banana, berry, fruity]
+    ?  Propyl acetate                       CID     7997  [new — would need id: propyl_acetate]  [bitter, celery, fruity, fusel]
+    ?  Isobutyl Acetate                     CID     8038  [new — would need id: isobutyl_acetate]  [apple, banana, bitter, ethereal]
+    ?  2-Heptanone                          CID     8051  [new — would need id: 2_heptanone]  [cinnamon, coconut, fruity, herbal]
+
+============================================================
+  peach  (Peach)
+============================================================
+  FlavorDB entity: "peach" (id=201, exact match)
+
+  CONFIRMED (3 compound(s) — FlavorDB corroborates our curation):
+    ✓ benzaldehyde                    CID      240  [almond, bitter, burnt sugar, cherry]
+    ✓ gamma_decalactone               CID    12813  [buttery, caramel, coconut, fat]
+    ✓ beta_ionone                     CID   638014  [dry, floral, flower, jam]
+
+  CANDIDATES FOR REVIEW (100 shown, 196 total):
+  Need OAV/GC-O citation before adoption.
+    ?  3-Phenylpropanoic acid               CID      107  [new — would need id: 3_phenylpropanoic_acid]  [balsamic, cinnamon, fatty, musk]
+    ?  4-hydroxybenzaldehyde                CID      126  [new — would need id: 4_hydroxybenzaldehyde]  [almond, balsam, nutty, sweet]
+    ?  benzyl alcohol                       CID      244  [new — would need id: benzyl_alcohol]  [balsamic, berry, cherry, floral]
+    ?  coumarin                             CID      323  [in vocab as coumarin]  [bitter, green, new mown hay, sweet]
+    ?  2,3-butanedione                      CID      650  [in vocab as diacetyl]  [butter, caramel, creamy, oily]
+    ?  glycerol                             CID      753  [new — would need id: glycerol]  [odorless, sweet]
+    ?  phenylacetaldehyde                   CID      998  [in vocab as phenylacetaldehyde]  [bitter, clover, cocoa, floral]
+    ?  Phenylacetic Acid                    CID      999  [new — would need id: phenylacetic_acid]  [civet, floral, flower, honey]
+    ?  vanillin                             CID     1183  [in vocab as vanillin]  [chocolate, creamy, sweet, vanilla]
+    ?  Benzyl Benzoate                      CID     2345  [new — would need id: benzyl_benzoate]  [almond, balsam, balsamic, cheese]
+    ?  D-Sorbitol                           CID     5780  [new — would need id: d_sorbitol]  [caramel, odorless, sweet]
+    ?  Hexanal                              CID     6184  [in vocab as hexanal]  [aldehydic, fat, fatty, fresh]
+    ?  D-mannitol                           CID     6251  [new — would need id: d_mannitol]  [odorless, sweet]
+    ?  2-Butanone                           CID     6569  [new — would need id: 2_butanone]  [acetone, camphor, ether, ethereal]
+    ?  Methyl Acetate                       CID     6584  [new — would need id: methyl_acetate]  [bitter, ether, fruity, sweet]
+    ?  Alpha-Pinene                         CID     6654  [in vocab as alpha_pinene]  [camphor, earthy, fresh, harsh]
+    ?  2-Ethylbutyric Acid                  CID     6915  [new — would need id: 2_ethylbutyric_acid]  [acidic, berry, caramel, dry]
+    ?  2-Isopropyl-5-methylcyclohexanone    CID     6986  [new — would need id: 2_isopropyl_5_methylcyclohexanone]  [cool, fresh, green, mint]
+    ?  Methyl Benzoate                      CID     7150  [new — would need id: methyl_benzoate]  [almond, cananga, floral, herb]
+    ?  Ethyl Benzoate                       CID     7165  [new — would need id: ethyl_benzoate]  [anise, balsam, banana, berry]
+
+============================================================
+  pear  (Pear)
+============================================================
+  FlavorDB entity: "pear" (id=202, exact match)
+
+  CONFIRMED (1 compound(s) — FlavorDB corroborates our curation):
+    ✓ hexyl_acetate                   CID     8908  [apple, banana, bitter, fruit]
+
+  CANDIDATES FOR REVIEW (34 shown, 148 total):
+  Need OAV/GC-O citation before adoption.
+    ?  acetaldehyde                         CID      177  [new — would need id: acetaldehyde]  [aldehydic, ether, ethereal, fruity]
+    ?  butyraldehyde                        CID      261  [new — would need id: butyraldehyde]  [apple, bready, chocolate, citrus]
+    ?  Hexanal                              CID     6184  [in vocab as hexanal]  [aldehydic, fat, fatty, fresh]
+    ?  2-Butanone                           CID     6569  [new — would need id: 2_butanone]  [acetone, camphor, ether, ethereal]
+    ?  Methyl Acetate                       CID     6584  [new — would need id: methyl_acetate]  [bitter, ether, fruity, sweet]
+    ?  Phenethyl acetate                    CID     7654  [new — would need id: phenethyl_acetate]  [floral, fruity, honey, rose]
+    ?  3-Heptanone                          CID     7802  [new — would need id: 3_heptanone]  [fatty, fruity, green, powerful]
+    ?  Propyl Propionate                    CID     7803  [new — would need id: propyl_propionate]  [bitter, chemical, fruity, pineapple]
+    ?  2-Pentanone                          CID     7895  [new — would need id: 2_pentanone]  [alcohol, banana, ether, ethereal]
+    ?  Isopropyl Acetate                    CID     7915  [new — would need id: isopropyl_acetate]  [banana, chemical, ethereal, fruity]
+    ?  Propyl acetate                       CID     7997  [new — would need id: propyl_acetate]  [bitter, celery, fruity, fusel]
+    ?  Isobutyl Acetate                     CID     8038  [new — would need id: isobutyl_acetate]  [apple, banana, bitter, ethereal]
+    ?  Ethyl Decanoate                      CID     8048  [new — would need id: ethyl_decanoate]  [apple, brandy, fruity, grape]
+    ?  2-Heptanone                          CID     8051  [new — would need id: 2_heptanone]  [cinnamon, coconut, fruity, herbal]
+    ?  1-Hexanol                            CID     8103  [new — would need id: 1_hexanol]  [alcoholic, ethereal, flower, fruity]
+    ?  2-Methyl-1-Butanol                   CID     8723  [new — would need id: 2_methyl_1_butanol]  [fruity, malt, onion, roasted]
+    ?  Ethyl Acetate                        CID     8857  [new — would need id: ethyl_acetate]  [anise, balsam, ethereal, fruity]
+    ?  2-(4-Hydroxyphenyl)ethanol           CID    10393  [new — would need id: 2_4_hydroxyphenyl_ethanol]  [floral, fruity, mild, sweet]
+    ?  Isobutyl propionate                  CID    10895  [new — would need id: isobutyl_propionate]  [banana, bitter, ether, fruity]
+    ?  3-Hexanone                           CID    11509  [new — would need id: 3_hexanone]  [ether, fruity, grape, rum]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  beta_damascenone
+    ·  ethyl_decadienoate
+
+============================================================
+  pepperberry  (Tasmanian pepperberry)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  pineapple  (Pineapple)
+============================================================
+  FlavorDB entity: "pineapple" (id=206, exact match)
+
+  CONFIRMED (2 compound(s) — FlavorDB corroborates our curation):
+    ✓ ethyl_butyrate                  CID     7762  [apple, banana, cognac, fruit]
+    ✓ allyl_hexanoate                 CID    31266  [arrack, cognac, ethereal, fatty]
+
+  CANDIDATES FOR REVIEW (122 shown, 218 total):
+  Need OAV/GC-O citation before adoption.
+    ?  3-Phenylpropanoic acid               CID      107  [new — would need id: 3_phenylpropanoic_acid]  [balsamic, cinnamon, fatty, musk]
+    ?  4-hydroxybenzaldehyde                CID      126  [new — would need id: 4_hydroxybenzaldehyde]  [almond, balsam, nutty, sweet]
+    ?  acetaldehyde                         CID      177  [new — would need id: acetaldehyde]  [aldehydic, ether, ethereal, fruity]
+    ?  benzaldehyde                         CID      240  [in vocab as benzaldehyde]  [almond, bitter, burnt sugar, cherry]
+    ?  benzyl alcohol                       CID      244  [new — would need id: benzyl_alcohol]  [balsamic, berry, cherry, floral]
+    ?  coumarin                             CID      323  [in vocab as coumarin]  [bitter, green, new mown hay, sweet]
+    ?  2,3-butanedione                      CID      650  [in vocab as diacetyl]  [butter, caramel, creamy, oily]
+    ?  phenylacetaldehyde                   CID      998  [in vocab as phenylacetaldehyde]  [bitter, clover, cocoa, floral]
+    ?  Phenylacetic Acid                    CID      999  [new — would need id: phenylacetic_acid]  [civet, floral, flower, honey]
+    ?  vanillin                             CID     1183  [in vocab as vanillin]  [chocolate, creamy, sweet, vanilla]
+    ?  Benzyl Benzoate                      CID     2345  [new — would need id: benzyl_benzoate]  [almond, balsam, balsamic, cheese]
+    ?  Hexanal                              CID     6184  [in vocab as hexanal]  [aldehydic, fat, fatty, fresh]
+    ?  D-mannitol                           CID     6251  [new — would need id: d_mannitol]  [odorless, sweet]
+    ?  Linalool                             CID     6549  [in vocab as linalool]  [blueberry, bois de rose, citrus, floral]
+    ?  2-Butanone                           CID     6569  [new — would need id: 2_butanone]  [acetone, camphor, ether, ethereal]
+    ?  Methyl Acetate                       CID     6584  [new — would need id: methyl_acetate]  [bitter, ether, fruity, sweet]
+    ?  2-Ethylbutyric Acid                  CID     6915  [new — would need id: 2_ethylbutyric_acid]  [acidic, berry, caramel, dry]
+    ?  2-Isopropyl-5-methylcyclohexanone    CID     6986  [new — would need id: 2_isopropyl_5_methylcyclohexanone]  [cool, fresh, green, mint]
+    ?  Methyl Benzoate                      CID     7150  [new — would need id: methyl_benzoate]  [almond, cananga, floral, herb]
+    ?  Ethyl Benzoate                       CID     7165  [new — would need id: ethyl_benzoate]  [anise, balsam, banana, berry]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  furaneol
+
+============================================================
+  pink_peppercorn  (Pink peppercorn)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  pomegranate  (Pomegranate)
+============================================================
+  FlavorDB entity: "pomegranate" (id=394, exact match)
+
+  CONFIRMED (1 compound(s) — FlavorDB corroborates our curation):
+    ✓ hexanal                         CID     6184  [aldehydic, fat, fatty, fresh]
+
+  CANDIDATES: (none overlap descriptors, or all already confirmed)
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  beta_damascenone
+
+============================================================
+  port  (Port)
+============================================================
+  FlavorDB entity: "port wine" (id=38, partial match)
+
+  CONFIRMED: (none — FlavorDB compounds don't overlap our vocab)
+
+  CANDIDATES FOR REVIEW (63 shown, 142 total):
+  Need OAV/GC-O citation before adoption.
+    ?  4-hydroxybenzaldehyde                CID      126  [new — would need id: 4_hydroxybenzaldehyde]  [almond, balsam, nutty, sweet]
+    ?  acetoin                              CID      179  [new — would need id: acetoin]  [butter, buttery, cream, creamy]
+    ?  guaiacol                             CID      460  [new — would need id: guaiacol]  [medicinal, medicine, phenolic, smoke]
+    ?  2,3-butanedione                      CID      650  [in vocab as diacetyl]  [butter, caramel, creamy, oily]
+    ?  glycerol                             CID      753  [new — would need id: glycerol]  [odorless, sweet]
+    ?  phenylacetaldehyde                   CID      998  [in vocab as phenylacetaldehyde]  [bitter, clover, cocoa, floral]
+    ?  Phenylacetic Acid                    CID      999  [new — would need id: phenylacetic_acid]  [civet, floral, flower, honey]
+    ?  vanillin                             CID     1183  [in vocab as vanillin]  [chocolate, creamy, sweet, vanilla]
+    ?  eugenol                              CID     3314  [in vocab as eugenol]  [cinnamon, clove, honey, spicy]
+    ?  Isophorone                           CID     6544  [new — would need id: isophorone]  [camphor, camphoraceous, cedarwood, cooling]
+    ?  Linalool                             CID     6549  [in vocab as linalool]  [blueberry, bois de rose, citrus, floral]
+    ?  Methyl Acetate                       CID     6584  [new — would need id: methyl_acetate]  [bitter, ether, fruity, sweet]
+    ?  2',4'-Dimethylacetophenone           CID     6985  [new — would need id: 2_4_dimethylacetophenone]  [floral, mimosa, minty, sweet]
+    ?  gamma-Butyrolactone                  CID     7302  [new — would need id: gamma_butyrolactone]  [caramel, creamy, fatty, oily]
+    ?  Ethyl Isobutyrate                    CID     7342  [new — would need id: ethyl_isobutyrate]  [alcoholic, ethereal, fruity, fusel]
+    ?  Furfuryl Alcohol                     CID     7361  [new — would need id: furfuryl_alcohol]  [alcoholic, bitter, bread, burnt]
+    ?  2-Furaldehyde                        CID     7362  [new — would need id: 2_furaldehyde]  [almond, baked, bread, fragrant]
+    ?  Styrene                              CID     7501  [new — would need id: styrene]  [balsam, balsamic, floral, gasoline]
+    ?  Ethyl Phenylacetate                  CID     7590  [new — would need id: ethyl_phenylacetate]  [anise, balsam, bitter, chocolate]
+    ?  Phenethyl acetate                    CID     7654  [new — would need id: phenethyl_acetate]  [floral, fruity, honey, rose]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  beta_damascenone
+
+============================================================
+  quandong  (Quandong)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  raspberry  (Raspberry)
+============================================================
+  FlavorDB entity: "raspberry" (id=233, exact match)
+
+  CONFIRMED (1 compound(s) — FlavorDB corroborates our curation):
+    ✓ beta_ionone                     CID   638014  [dry, floral, flower, jam]
+
+  CANDIDATES FOR REVIEW (55 shown, 186 total):
+  Need OAV/GC-O citation before adoption.
+    ?  acetaldehyde                         CID      177  [new — would need id: acetaldehyde]  [aldehydic, ether, ethereal, fruity]
+    ?  benzyl alcohol                       CID      244  [new — would need id: benzyl_alcohol]  [balsamic, berry, cherry, floral]
+    ?  indole                               CID      798  [new — would need id: indole]  [animal, burnt, fecal, fishy]
+    ?  phenylacetaldehyde                   CID      998  [in vocab as phenylacetaldehyde]  [bitter, clover, cocoa, floral]
+    ?  Phenylacetic Acid                    CID      999  [new — would need id: phenylacetic_acid]  [civet, floral, flower, honey]
+    ?  2-Phenylethanol                      CID     6054  [new — would need id: 2_phenylethanol]  [bitter, floral, honey, lilac]
+    ?  Hexanal                              CID     6184  [in vocab as hexanal]  [aldehydic, fat, fatty, fresh]
+    ?  Isobutyraldehyde                     CID     6561  [new — would need id: isobutyraldehyde]  [aldehydic, floral, fresh, green]
+    ?  2-Butanone                           CID     6569  [new — would need id: 2_butanone]  [acetone, camphor, ether, ethereal]
+    ?  Methyl Benzoate                      CID     7150  [new — would need id: methyl_benzoate]  [almond, cananga, floral, herb]
+    ?  Ethyl Benzoate                       CID     7165  [new — would need id: ethyl_benzoate]  [anise, balsam, banana, berry]
+    ?  Ethyl Lactate                        CID     7344  [new — would need id: ethyl_lactate]  [butter, butterscotch, buttery, fruit]
+    ?  Phenethyl acetate                    CID     7654  [new — would need id: phenethyl_acetate]  [floral, fruity, honey, rose]
+    ?  Methyl Hexanoate                     CID     7824  [new — would need id: methyl_hexanoate]  [ether, fresh, fruit, fruity]
+    ?  2-Heptanone                          CID     8051  [new — would need id: 2_heptanone]  [cinnamon, coconut, fruity, herbal]
+    ?  Pentanal                             CID     8063  [new — would need id: pentanal]  [almond, berry, bready, fermented]
+    ?  2-Undecanone                         CID     8163  [new — would need id: 2_undecanone]  [creamy, fatty, floral, fresh]
+    ?  1-Decanol                            CID     8174  [new — would need id: 1_decanol]  [clean, fat, fatty, floral]
+    ?  Undecanal                            CID     8186  [new — would need id: undecanal]  [aldehydic, citrus, fatty, floral]
+    ?  Ethyl salicylate                     CID     8365  [new — would need id: ethyl_salicylate]  [balsam, floral, mint, minty]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  beta_damascenone
+    ·  raspberry_ketone
+
+============================================================
+  red_wine  (Red wine)
+============================================================
+  FlavorDB entity: "red wine" (id=39, exact match)
+
+  CONFIRMED: (none — FlavorDB compounds don't overlap our vocab)
+
+  CANDIDATES FOR REVIEW (56 shown, 167 total):
+  Need OAV/GC-O citation before adoption.
+    ?  Isophorone                           CID     6544  [new — would need id: isophorone]  [camphor, camphoraceous, cedarwood, cooling]
+    ?  Methyl Acetate                       CID     6584  [new — would need id: methyl_acetate]  [bitter, ether, fruity, sweet]
+    ?  Ethyl Benzoate                       CID     7165  [new — would need id: ethyl_benzoate]  [anise, balsam, banana, berry]
+    ?  Ethyl Isobutyrate                    CID     7342  [new — would need id: ethyl_isobutyrate]  [alcoholic, ethereal, fruity, fusel]
+    ?  Ethyl Lactate                        CID     7344  [new — would need id: ethyl_lactate]  [butter, butterscotch, buttery, fruit]
+    ?  Phenethyl acetate                    CID     7654  [new — would need id: phenethyl_acetate]  [floral, fruity, honey, rose]
+    ?  Ethyl Propionate                     CID     7749  [new — would need id: ethyl_propionate]  [fruit, fruity, grape, juicy]
+    ?  Diethyl Malonate                     CID     7761  [new — would need id: diethyl_malonate]  [apple, fruity, green, sweet]
+    ?  Ethyl Butyrate                       CID     7762  [in vocab as ethyl_butyrate]  [apple, banana, cognac, fruit]
+    ?  Isoamyl propionate                   CID     7772  [new — would need id: isoamyl_propionate]  [banana, bitter, fruit, fruity]
+    ?  Isobutyl hexanoate                   CID     7775  [new — would need id: isobutyl_hexanoate]  [fruity, green, peach, pineapple]
+    ?  Isoamyl butyrate                     CID     7795  [new — would need id: isoamyl_butyrate]  [apricot, banana, fruity, green]
+    ?  Ethyl Heptanoate                     CID     7797  [new — would need id: ethyl_heptanoate]  [cognac, fruit, fruity, melon]
+    ?  Ethyl Octanoate                      CID     7799  [new — would need id: ethyl_octanoate]  [apricot, banana, brandy, fat]
+    ?  Methyl Hexanoate                     CID     7824  [new — would need id: methyl_hexanoate]  [ether, fresh, fruit, fruity]
+    ?  Isopropyl Acetate                    CID     7915  [new — would need id: isopropyl_acetate]  [banana, chemical, ethereal, fruity]
+    ?  Ethyl Isovalerate                    CID     7945  [new — would need id: ethyl_isovalerate]  [apple, fruit, fruity, pineapple]
+    ?  Propyl acetate                       CID     7997  [new — would need id: propyl_acetate]  [bitter, celery, fruity, fusel]
+    ?  Isobutyl Acetate                     CID     8038  [new — would need id: isobutyl_acetate]  [apple, banana, bitter, ethereal]
+    ?  2-Heptanone                          CID     8051  [new — would need id: 2_heptanone]  [cinnamon, coconut, fruity, herbal]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  beta_damascenone
+
+============================================================
+  riberry  (Riberry (lilly pilly))
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  rosemary  (Rosemary)
+============================================================
+  FlavorDB entity: "rosemary" (id=264, exact match)
+
+  CONFIRMED (2 compound(s) — FlavorDB corroborates our curation):
+    ✓ eucalyptol                      CID     2758  [camphor, eucalyptus, herbal, mint]
+    ✓ alpha_pinene                    CID     6654  [camphor, earthy, fresh, harsh]
+
+  CANDIDATES FOR REVIEW (43 shown, 205 total):
+  Need OAV/GC-O citation before adoption.
+    ?  Benzyl Benzoate                      CID     2345  [new — would need id: benzyl_benzoate]  [almond, balsam, balsamic, cheese]
+    ?  Bornyl Acetate                       CID     6448  [new — would need id: bornyl_acetate]  [balsamic, camphor, cedar, fresh]
+    ?  Camphene                             CID     6616  [new — would need id: camphene]  [camphor, fir needle, herbal, woody]
+    ?  Piperitone                           CID     6987  [new — would need id: piperitone]  [camphor, fresh, fruit, herbal]
+    ?  Thymol                               CID     6989  [in vocab as thymol]  [camphor, herbal, medicinal, phenolic]
+    ?  Alpha-Phellandrene                   CID     7460  [new — would need id: alpha_phellandrene]  [citrus, green, herbal, mint]
+    ?  Gamma-Terpinene                      CID     7461  [in vocab as gamma_terpinene]  [bitter, gasoline, herbal, lemon]
+    ?  Alpha-Terpinene                      CID     7462  [new — would need id: alpha_terpinene]  [bitter, camphoraceous, citrus, herbal]
+    ?  Heptanal                             CID     8130  [new — would need id: heptanal]  [aldehydic, citrus, fat, fatty]
+    ?  Piperitol                            CID    10282  [new — would need id: piperitol]  [herb, herbal]
+    ?  Myrtenol                             CID    10582  [new — would need id: myrtenol]  [balsam, medical, mint, pine]
+    ?  2-Heptanol                           CID    10976  [new — would need id: 2_heptanol]  [bitter, floral, fresh, fruity]
+    ?  Terpinolene                          CID    11463  [new — would need id: terpinolene]  [citrus, fresh, pine, plastic]
+    ?  3-Octanol                            CID    11527  [new — would need id: 3_octanol]  [citrus, earthy, herbal, melon]
+    ?  Dihydrocarveol                       CID    12072  [new — would need id: dihydrocarveol]  [herbal, menthol, mint, minty]
+    ?  2-Nonanone                           CID    13187  [new — would need id: 2_nonanone]  [earthy, fishy, fresh, green]
+    ?  Fenchone                             CID    14525  [new — would need id: fenchone]  [bitter, camphor, cedarleaf, earthy]
+    ?  Beta-Pinene                          CID    14896  [in vocab as beta_pinene]  [dry, green, hay, pine]
+    ?  7-methyl-4-methylidene-1-propan-2-yl-2,3,4a,5,6,8a-hexahydro-1H-naphthalene  CID    15094  [new — would need id: 7_methyl_4_methylidene_1_propan_2_yl_2_3_4a_5_6_8a_hexahydro_1h_naphthalene]  [herb, herbal, spice, wood]
+    ?  Fenchol                              CID    15406  [new — would need id: fenchol]  [bitter, borneol, camphor, dry]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  camphor
+
+============================================================
+  sage  (Sage)
+============================================================
+  FlavorDB entity: "sage" (id=265, exact match)
+
+  CONFIRMED (1 compound(s) — FlavorDB corroborates our curation):
+    ✓ eucalyptol                      CID     2758  [camphor, eucalyptus, herbal, mint]
+
+  CANDIDATES FOR REVIEW (22 shown, 158 total):
+  Need OAV/GC-O citation before adoption.
+    ?  Benzyl Benzoate                      CID     2345  [new — would need id: benzyl_benzoate]  [almond, balsam, balsamic, cheese]
+    ?  Bornyl Acetate                       CID     6448  [new — would need id: bornyl_acetate]  [balsamic, camphor, cedar, fresh]
+    ?  Camphene                             CID     6616  [new — would need id: camphene]  [camphor, fir needle, herbal, woody]
+    ?  Thymol                               CID     6989  [in vocab as thymol]  [camphor, herbal, medicinal, phenolic]
+    ?  Alpha-Phellandrene                   CID     7460  [new — would need id: alpha_phellandrene]  [citrus, green, herbal, mint]
+    ?  Gamma-Terpinene                      CID     7461  [in vocab as gamma_terpinene]  [bitter, gasoline, herbal, lemon]
+    ?  Alpha-Terpinene                      CID     7462  [new — would need id: alpha_terpinene]  [bitter, camphoraceous, citrus, herbal]
+    ?  Heptanal                             CID     8130  [new — would need id: heptanal]  [aldehydic, citrus, fat, fatty]
+    ?  Dipentene                            CID    22311  [new — would need id: dipentene]  [camphor, citric, citrus, herbal]
+    ?  Menthone                             CID    26447  [in vocab as menthone]  [bitter, camphor, camphoraceous, deep]
+    ?  (+)-Camphene                         CID    92221  [new — would need id: camphene]  [camphor, fir, fresh, herbal]
+    ?  (1aR,4S,4aS,7R,7aS)-1,1,4,7-tetramethyl-2,3,4a,5,6,7,7a,7b-octahydro-1aH-cyclopropa[e]azulen-4-ol  CID    94174  [new — would need id: 1ar_4s_4as_7r_7as_1_1_4_7_tetramethyl_2_3_4a_5_6_7_7a_7b_octahydro_1ah_cyclopropa_e_azulen_4_ol]  [fruity, green, herbal, minty]
+    ?  Alpha-Terpinyl Acetate               CID   111037  [new — would need id: alpha_terpinyl_acetate]  [bergamot, citrus, herbal, lavender]
+    ?  D-Camphor                            CID   159055  [new — would need id: d_camphor]  [bitter, camphor, herbal, medicinal]
+    ?  .beta.-Bourbonene                    CID   324224  [new — would need id: beta_bourbonene]  [herb, herbal, woody]
+    ?  (-)-Limonene                         CID   439250  [in vocab as limonene]  [camphoraceous, herbal, peppery, pine]
+    ?  (+)-delta-Cadinene                   CID   441005  [new — would need id: delta_cadinene]  [dry, herbal, medicine, thyme]
+    ?  Spathulenol                          CID   522266  [new — would need id: spathulenol]  [earthy, fruit, fruity, herb]
+    ?  alpha-Farnesene                      CID  5281516  [new — would need id: alpha_farnesene]  [bergamot, citrus, green, herbal]
+    ?  Ocimene                              CID  5281553  [new — would need id: ocimene]  [citrus, green, herb, herbal]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  camphor
+    ·  thujone
+
+============================================================
+  salt  (Salt)
+============================================================
+  FlavorDB entity: "salt" (id=778, exact match)
+
+  CONFIRMED: (none — FlavorDB compounds don't overlap our vocab)
+
+  CANDIDATES FOR REVIEW (4 shown, 4 total):
+  Need OAV/GC-O citation before adoption.
+    ?  thiamine                             CID     1130  [new — would need id: thiamine]  [bitter]
+    ?  Thiamine Hydrochloride               CID     6202  [new — would need id: thiamine_hydrochloride]  [bitter, mild, sour]
+    ?  Heptanoic Acid                       CID     8094  [new — would need id: heptanoic_acid]  [cheese, cheesy, rancid, sour]
+    ?  CID 644104                           CID   644104  [new — would need id: cid_644104]  [grassy, very mild]
+
+============================================================
+  shio_koji  (Shio koji)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  soda_water  (Soda water)
+============================================================
+  FlavorDB entity: "water" (id=794, partial match)
+
+  CONFIRMED: (none — FlavorDB compounds don't overlap our vocab)
+
+  CANDIDATES FOR REVIEW (4 shown, 4 total):
+  Need OAV/GC-O citation before adoption.
+    ?  thiamine                             CID     1130  [new — would need id: thiamine]  [bitter]
+    ?  Thiamine Hydrochloride               CID     6202  [new — would need id: thiamine_hydrochloride]  [bitter, mild, sour]
+    ?  Heptanoic Acid                       CID     8094  [new — would need id: heptanoic_acid]  [cheese, cheesy, rancid, sour]
+    ?  CID 644104                           CID   644104  [new — would need id: cid_644104]  [grassy, very mild]
+
+============================================================
+  soy_sauce  (Soy sauce)
+============================================================
+  FlavorDB entity: "sauce" (id=777, partial match)
+
+  CONFIRMED: (none — FlavorDB compounds don't overlap our vocab)
+
+  CANDIDATES FOR REVIEW (5 shown, 5 total):
+  Need OAV/GC-O citation before adoption.
+    ?  betaine                              CID      247  [new — would need id: betaine]  [bland]
+    ?  thiamine                             CID     1130  [new — would need id: thiamine]  [bitter]
+    ?  Thiamine Hydrochloride               CID     6202  [new — would need id: thiamine_hydrochloride]  [bitter, mild, sour]
+    ?  Heptanoic Acid                       CID     8094  [new — would need id: heptanoic_acid]  [cheese, cheesy, rancid, sour]
+    ?  CID 644104                           CID   644104  [new — would need id: cid_644104]  [grassy, very mild]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  furaneol
+    ·  methional
+    ·  sotolon
+
+============================================================
+  sparkling_wine  (Sparkling wine)
+============================================================
+  FlavorDB entity: "sparkling wine" (id=43, exact match)
+
+  CONFIRMED: (none — FlavorDB compounds don't overlap our vocab)
+
+  CANDIDATES FOR REVIEW (5 shown, 142 total):
+  Need OAV/GC-O citation before adoption.
+    ?  Ethyl Propionate                     CID     7749  [new — would need id: ethyl_propionate]  [fruit, fruity, grape, juicy]
+    ?  Methyl Anthranilate                  CID     8635  [in vocab as methyl_anthranilate]  [bitter, flower, fruity, grape]
+    ?  Hexyl isobutyrate                    CID    16872  [new — would need id: hexyl_isobutyrate]  [apple, berry, fruity, grape]
+    ?  Diethyl Succinate                    CID    31249  [new — would need id: diethyl_succinate]  [apple, apricot, chocolate, cooked]
+    ?  Ethyl 3-hydroxybutyrate              CID    62572  [new — would need id: ethyl_3_hydroxybutyrate]  [apple skin, fruity, grape, green]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  beta_damascenone
+
+============================================================
+  star_anise  (Star anise)
+============================================================
+  FlavorDB entity: "star anise" (id=325, exact match)
+
+  CONFIRMED (1 compound(s) — FlavorDB corroborates our curation):
+    ✓ limonene                        CID   439250  [camphoraceous, herbal, peppery, pine]
+
+  CANDIDATES FOR REVIEW (57 shown, 149 total):
+  Need OAV/GC-O citation before adoption.
+    ?  3-Phenylpropanoic acid               CID      107  [new — would need id: 3_phenylpropanoic_acid]  [balsamic, cinnamon, fatty, musk]
+    ?  4-hydroxybenzaldehyde                CID      126  [new — would need id: 4_hydroxybenzaldehyde]  [almond, balsam, nutty, sweet]
+    ?  benzaldehyde                         CID      240  [in vocab as benzaldehyde]  [almond, bitter, burnt sugar, cherry]
+    ?  benzyl alcohol                       CID      244  [new — would need id: benzyl_alcohol]  [balsamic, berry, cherry, floral]
+    ?  coumarin                             CID      323  [in vocab as coumarin]  [bitter, green, new mown hay, sweet]
+    ?  2,3-butanedione                      CID      650  [in vocab as diacetyl]  [butter, caramel, creamy, oily]
+    ?  phenylacetaldehyde                   CID      998  [in vocab as phenylacetaldehyde]  [bitter, clover, cocoa, floral]
+    ?  Phenylacetic Acid                    CID      999  [new — would need id: phenylacetic_acid]  [civet, floral, flower, honey]
+    ?  vanillin                             CID     1183  [in vocab as vanillin]  [chocolate, creamy, sweet, vanilla]
+    ?  Benzyl Benzoate                      CID     2345  [new — would need id: benzyl_benzoate]  [almond, balsam, balsamic, cheese]
+    ?  Eucalyptol                           CID     2758  [in vocab as eucalyptol]  [camphor, eucalyptus, herbal, mint]
+    ?  safrole                              CID     5144  [new — would need id: safrole]  [anise, floral, sassafrass, spice]
+    ?  D-mannitol                           CID     6251  [new — would need id: d_mannitol]  [odorless, sweet]
+    ?  Linalool                             CID     6549  [in vocab as linalool]  [blueberry, bois de rose, citrus, floral]
+    ?  Alpha-Pinene                         CID     6654  [in vocab as alpha_pinene]  [camphor, earthy, fresh, harsh]
+    ?  2-Isopropyl-5-methylcyclohexanone    CID     6986  [new — would need id: 2_isopropyl_5_methylcyclohexanone]  [cool, fresh, green, mint]
+    ?  Acetyleugenol                        CID     7136  [new — would need id: acetyleugenol]  [carnation, clove, floral, fresh]
+    ?  Methyl Benzoate                      CID     7150  [new — would need id: methyl_benzoate]  [almond, cananga, floral, herb]
+    ?  4'-Methoxyacetophenone               CID     7476  [new — would need id: 4_methoxyacetophenone]  [acacia, anisic, balsamic, bitter]
+    ?  Phenethyl acetate                    CID     7654  [new — would need id: phenethyl_acetate]  [floral, fruity, honey, rose]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  anethole
+
+============================================================
+  strawberry  (Strawberry)
+============================================================
+  FlavorDB entity: "strawberry" (id=234, exact match)
+
+  CONFIRMED (2 compound(s) — FlavorDB corroborates our curation):
+    ✓ ethyl_butyrate                  CID     7762  [apple, banana, cognac, fruit]
+    ✓ methyl_cinnamate                CID   637520  [balsam, cherry, strawberry, sweet]
+
+  CANDIDATES FOR REVIEW (141 shown, 255 total):
+  Need OAV/GC-O citation before adoption.
+    ?  3-Phenylpropanoic acid               CID      107  [new — would need id: 3_phenylpropanoic_acid]  [balsamic, cinnamon, fatty, musk]
+    ?  4-hydroxybenzaldehyde                CID      126  [new — would need id: 4_hydroxybenzaldehyde]  [almond, balsam, nutty, sweet]
+    ?  acetaldehyde                         CID      177  [new — would need id: acetaldehyde]  [aldehydic, ether, ethereal, fruity]
+    ?  benzaldehyde                         CID      240  [in vocab as benzaldehyde]  [almond, bitter, burnt sugar, cherry]
+    ?  benzyl alcohol                       CID      244  [new — would need id: benzyl_alcohol]  [balsamic, berry, cherry, floral]
+    ?  butyraldehyde                        CID      261  [new — would need id: butyraldehyde]  [apple, bready, chocolate, citrus]
+    ?  coumarin                             CID      323  [in vocab as coumarin]  [bitter, green, new mown hay, sweet]
+    ?  2,3-butanedione                      CID      650  [in vocab as diacetyl]  [butter, caramel, creamy, oily]
+    ?  phenylacetaldehyde                   CID      998  [in vocab as phenylacetaldehyde]  [bitter, clover, cocoa, floral]
+    ?  Phenylacetic Acid                    CID      999  [new — would need id: phenylacetic_acid]  [civet, floral, flower, honey]
+    ?  vanillin                             CID     1183  [in vocab as vanillin]  [chocolate, creamy, sweet, vanilla]
+    ?  Benzyl Benzoate                      CID     2345  [new — would need id: benzyl_benzoate]  [almond, balsam, balsamic, cheese]
+    ?  Hexanal                              CID     6184  [in vocab as hexanal]  [aldehydic, fat, fatty, fresh]
+    ?  D-mannitol                           CID     6251  [new — would need id: d_mannitol]  [odorless, sweet]
+    ?  2-Butanone                           CID     6569  [new — would need id: 2_butanone]  [acetone, camphor, ether, ethereal]
+    ?  Methyl Acetate                       CID     6584  [new — would need id: methyl_acetate]  [bitter, ether, fruity, sweet]
+    ?  Alpha-Pinene                         CID     6654  [in vocab as alpha_pinene]  [camphor, earthy, fresh, harsh]
+    ?  2-Isopropyl-5-methylcyclohexanone    CID     6986  [new — would need id: 2_isopropyl_5_methylcyclohexanone]  [cool, fresh, green, mint]
+    ?  Methyl Benzoate                      CID     7150  [new — would need id: methyl_benzoate]  [almond, cananga, floral, herb]
+    ?  Ethyl Isobutyrate                    CID     7342  [new — would need id: ethyl_isobutyrate]  [alcoholic, ethereal, fruity, fusel]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  beta_damascenone
+    ·  furaneol
+
+============================================================
+  strawberry_gum  (Strawberry gum)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  sugar_syrup  (Sugar syrup)
+============================================================
+  FlavorDB entity: "sugar" (id=781, partial match)
+
+  CONFIRMED: (none — FlavorDB compounds don't overlap our vocab)
+
+  CANDIDATES FOR REVIEW (5 shown, 5 total):
+  Need OAV/GC-O citation before adoption.
+    ?  betaine                              CID      247  [new — would need id: betaine]  [bland]
+    ?  thiamine                             CID     1130  [new — would need id: thiamine]  [bitter]
+    ?  Thiamine Hydrochloride               CID     6202  [new — would need id: thiamine_hydrochloride]  [bitter, mild, sour]
+    ?  Heptanoic Acid                       CID     8094  [new — would need id: heptanoic_acid]  [cheese, cheesy, rancid, sour]
+    ?  CID 644104                           CID   644104  [new — would need id: cid_644104]  [grassy, very mild]
+
+============================================================
+  tamarind  (Tamarind)
+============================================================
+  FlavorDB entity: "tamarind" (id=218, exact match)
+
+  CONFIRMED: (none — FlavorDB compounds don't overlap our vocab)
+
+  CANDIDATES FOR REVIEW (4 shown, 164 total):
+  Need OAV/GC-O citation before adoption.
+    ?  Phenethyl acetate                    CID     7654  [new — would need id: phenethyl_acetate]  [floral, fruity, honey, rose]
+    ?  Isobutyl Acetate                     CID     8038  [new — would need id: isobutyl_acetate]  [apple, banana, bitter, ethereal]
+    ?  Alpha-Ionone                         CID  5282108  [in vocab as ionone]  [floral, fruity, orris, raspberry]
+    ?  4-Hexen-3-One                        CID  5365811  [new — would need id: 4_hexen_3_one]  [ethereal, green, metallic, pungent]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  furfural
+
+============================================================
+  thyme  (Thyme)
+============================================================
+  FlavorDB entity: "thyme" (id=269, exact match)
+
+  CONFIRMED (3 compound(s) — FlavorDB corroborates our curation):
+    ✓ alpha_pinene                    CID     6654  [camphor, earthy, fresh, harsh]
+    ✓ thymol                          CID     6989  [camphor, herbal, medicinal, phenolic]
+    ✓ carvacrol                       CID    10364  [camphor, spice, thymol, woody]
+
+  CANDIDATES FOR REVIEW (25 shown, 171 total):
+  Need OAV/GC-O citation before adoption.
+    ?  4-isopropylbenzyl alcohol            CID      325  [new — would need id: 4_isopropylbenzyl_alcohol]  [caraway, cumin, herb, herbal]
+    ?  4-isopropylbenzaldehyde              CID      326  [new — would need id: 4_isopropylbenzaldehyde]  [acid, cumin, green, herbal]
+    ?  Benzyl Benzoate                      CID     2345  [new — would need id: benzyl_benzoate]  [almond, balsam, balsamic, cheese]
+    ?  Eucalyptol                           CID     2758  [in vocab as eucalyptol]  [camphor, eucalyptus, herbal, mint]
+    ?  Bornyl Acetate                       CID     6448  [new — would need id: bornyl_acetate]  [balsamic, camphor, cedar, fresh]
+    ?  Camphene                             CID     6616  [new — would need id: camphene]  [camphor, fir needle, herbal, woody]
+    ?  Alpha-Phellandrene                   CID     7460  [new — would need id: alpha_phellandrene]  [citrus, green, herbal, mint]
+    ?  Gamma-Terpinene                      CID     7461  [in vocab as gamma_terpinene]  [bitter, gasoline, herbal, lemon]
+    ?  Alpha-Terpinene                      CID     7462  [new — would need id: alpha_terpinene]  [bitter, camphoraceous, citrus, herbal]
+    ?  Heptanal                             CID     8130  [new — would need id: heptanal]  [aldehydic, citrus, fat, fatty]
+    ?  3-Octanol                            CID    11527  [new — would need id: 3_octanol]  [citrus, earthy, herbal, melon]
+    ?  1-Octen-3-yl acetate                 CID    17121  [new — would need id: 1_octen_3_yl_acetate]  [fresh, fruity, green, herbal]
+    ?  Octan-2-ol                           CID    20083  [new — would need id: octan_2_ol]  [earthy, fat, fresh, green]
+    ?  Dipentene                            CID    22311  [new — would need id: dipentene]  [camphor, citric, citrus, herbal]
+    ?  Dihydrocarvone                       CID    24473  [new — would need id: dihydrocarvone]  [herbal, minty, powerful, spearmint]
+    ?  Menthone                             CID    26447  [in vocab as menthone]  [bitter, camphor, camphoraceous, deep]
+    ?  3-Nonanone                           CID    61235  [new — would need id: 3_nonanone]  [fresh, fruity, herbal, jasmin]
+    ?  Pinocarveol                          CID   102667  [new — would need id: pinocarveol]  [balsam, camphor, herbal, pine]
+    ?  D-Camphor                            CID   159055  [new — would need id: d_camphor]  [bitter, camphor, herbal, medicinal]
+    ?  3-Octanone                           CID   246728  [new — would need id: 3_octanone]  [butter, fresh, herb, herbal]
+
+============================================================
+  tomato  (Tomato)
+============================================================
+  FlavorDB entity: "tomato" (id=364, exact match)
+
+  CONFIRMED (1 compound(s) — FlavorDB corroborates our curation):
+    ✓ hexanal                         CID     6184  [aldehydic, fat, fatty, fresh]
+
+  CANDIDATES FOR REVIEW (22 shown, 270 total):
+  Need OAV/GC-O citation before adoption.
+    ?  Isobutyraldehyde                     CID     6561  [new — would need id: isobutyraldehyde]  [aldehydic, floral, fresh, green]
+    ?  Alpha-Pinene                         CID     6654  [in vocab as alpha_pinene]  [camphor, earthy, fresh, harsh]
+    ?  2-Isopropyl-5-methylcyclohexanone    CID     6986  [new — would need id: 2_isopropyl_5_methylcyclohexanone]  [cool, fresh, green, mint]
+    ?  P-Cymene                             CID     7463  [new — would need id: p_cymene]  [citrus, fresh, gasoline, solvent]
+    ?  3-Phenylpropanal                     CID     7707  [new — would need id: 3_phenylpropanal]  [balsam, chocolate, cinnamon, clove]
+    ?  Methyl Hexanoate                     CID     7824  [new — would need id: methyl_hexanoate]  [ether, fresh, fruit, fruity]
+    ?  Heptanal                             CID     8130  [new — would need id: heptanal]  [aldehydic, citrus, fat, fatty]
+    ?  2-Nonanone                           CID    13187  [new — would need id: 2_nonanone]  [earthy, fishy, fresh, green]
+    ?  Hexyl Hexanoate                      CID    22873  [new — would need id: hexyl_hexanoate]  [apple peel, cut grass, fresh, fruity]
+    ?  Nonanal                              CID    31289  [new — would need id: nonanal]  [aldehydic, citrus, fat, fatty]
+    ?  farnesol                             CID   445070  [new — would need id: farnesol]  [angelica, anise, balsam, clove]
+    ?  Geranylacetone                       CID  1549778  [new — would need id: geranylacetone]  [aldehydic, floral, fresh, fruity]
+    ?  Nerylacetone                         CID  1713001  [new — would need id: nerylacetone]  [citrus, earthy, fatty, floral]
+    ?  trans-2-Hexenyl acetate              CID  2733294  [new — would need id: trans_2_hexenyl_acetate]  [apple skin, banana peel, fresh, green]
+    ?  (Z)-Hex-3-en-1-ol                    CID  5281167  [new — would need id: z_hex_3_en_1_ol]  [cut grass, foliage, fresh, grass]
+    ?  (E)-Hept-2-enal                      CID  5283316  [new — would need id: e_hept_2_enal]  [almond, fat, fatty, fresh]
+    ?  trans-2-Octenal                      CID  5283324  [new — would need id: trans_2_octenal]  [banana, cucumber, fat, fatty]
+    ?  (2E,4E)-deca-2,4-dienal              CID  5283349  [new — would need id: 2e_4e_deca_2_4_dienal]  [citrus, cucumber, fat, fatty]
+    ?  trans-3-Hexen-1-ol                   CID  5284503  [new — would need id: trans_3_hexen_1_ol]  [bitter, earthy, fatty, fresh]
+    ?  trans-2-Hexen-1-Ol                   CID  5318042  [new — would need id: trans_2_hexen_1_ol]  [alcohol, fresh, fruit, fruity]
+
+============================================================
+  tonic_water  (Tonic water)
+============================================================
+  FlavorDB entity: "water" (id=794, partial match)
+
+  CONFIRMED: (none — FlavorDB compounds don't overlap our vocab)
+
+  CANDIDATES FOR REVIEW (4 shown, 4 total):
+  Need OAV/GC-O citation before adoption.
+    ?  thiamine                             CID     1130  [new — would need id: thiamine]  [bitter]
+    ?  Thiamine Hydrochloride               CID     6202  [new — would need id: thiamine_hydrochloride]  [bitter, mild, sour]
+    ?  Heptanoic Acid                       CID     8094  [new — would need id: heptanoic_acid]  [cheese, cheesy, rancid, sour]
+    ?  CID 644104                           CID   644104  [new — would need id: cid_644104]  [grassy, very mild]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  limonene
+
+============================================================
+  vanilla  (Vanilla)
+============================================================
+  FlavorDB entity: "vanilla" (id=245, exact match)
+
+  CONFIRMED (1 compound(s) — FlavorDB corroborates our curation):
+    ✓ vanillin                        CID     1183  [chocolate, creamy, sweet, vanilla]
+
+  CANDIDATES FOR REVIEW (76 shown, 173 total):
+  Need OAV/GC-O citation before adoption.
+    ?  3-Phenylpropanoic acid               CID      107  [new — would need id: 3_phenylpropanoic_acid]  [balsamic, cinnamon, fatty, musk]
+    ?  4-hydroxybenzyl alcohol              CID      125  [new — would need id: 4_hydroxybenzyl_alcohol]  [almond, bitter, coconut, fruity]
+    ?  4-hydroxybenzaldehyde                CID      126  [new — would need id: 4_hydroxybenzaldehyde]  [almond, balsam, nutty, sweet]
+    ?  benzaldehyde                         CID      240  [in vocab as benzaldehyde]  [almond, bitter, burnt sugar, cherry]
+    ?  benzyl alcohol                       CID      244  [new — would need id: benzyl_alcohol]  [balsamic, berry, cherry, floral]
+    ?  coumarin                             CID      323  [in vocab as coumarin]  [bitter, green, new mown hay, sweet]
+    ?  2,3-butanedione                      CID      650  [in vocab as diacetyl]  [butter, caramel, creamy, oily]
+    ?  phenylacetaldehyde                   CID      998  [in vocab as phenylacetaldehyde]  [bitter, clover, cocoa, floral]
+    ?  Phenylacetic Acid                    CID      999  [new — would need id: phenylacetic_acid]  [civet, floral, flower, honey]
+    ?  Benzyl Benzoate                      CID     2345  [new — would need id: benzyl_benzoate]  [almond, balsam, balsamic, cheese]
+    ?  Tributyrin                           CID     6050  [new — would need id: tributyrin]  [bitter, cheese, creamy, fatty]
+    ?  D-mannitol                           CID     6251  [new — would need id: d_mannitol]  [odorless, sweet]
+    ?  1-Pentanol                           CID     6276  [new — would need id: 1_pentanol]  [balsam, balsamic, fusel, oil]
+    ?  Alpha-Pinene                         CID     6654  [in vocab as alpha_pinene]  [camphor, earthy, fresh, harsh]
+    ?  2-Isopropyl-5-methylcyclohexanone    CID     6986  [new — would need id: 2_isopropyl_5_methylcyclohexanone]  [cool, fresh, green, mint]
+    ?  1,2-Dimethoxybenzene                 CID     7043  [new — would need id: 1_2_dimethoxybenzene]  [creamy, musty, phenolic, sweet]
+    ?  2-Methoxy-4-Methylphenol             CID     7144  [new — would need id: 2_methoxy_4_methylphenol]  [bacon, bitter, carnation, clove]
+    ?  Methyl Benzoate                      CID     7150  [new — would need id: methyl_benzoate]  [almond, cananga, floral, herb]
+    ?  Ethyl Benzoate                       CID     7165  [new — would need id: ethyl_benzoate]  [anise, balsam, banana, berry]
+    ?  2-Furaldehyde                        CID     7362  [new — would need id: 2_furaldehyde]  [almond, baked, bread, fragrant]
+
+============================================================
+  wattleseed  (Wattleseed)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  worcestershire  (Worcestershire sauce)
+============================================================
+  [NOT IN FLAVORDB — ingredient is too niche/regional]
+  → Research manually via GC-O/OAV literature.
+
+============================================================
+  wormwood  (Wormwood)
+============================================================
+  FlavorDB entity: "artemisia" (id=249, exact match)
+
+  CONFIRMED: (none — FlavorDB compounds don't overlap our vocab)
+
+  CANDIDATES FOR REVIEW (40 shown, 121 total):
+  Need OAV/GC-O citation before adoption.
+    ?  benzaldehyde                         CID      240  [in vocab as benzaldehyde]  [almond, bitter, burnt sugar, cherry]
+    ?  coumarin                             CID      323  [in vocab as coumarin]  [bitter, green, new mown hay, sweet]
+    ?  hydrogen cyanide                     CID      768  [new — would need id: hydrogen_cyanide]  [bitter]
+    ?  hydrogen peroxide                    CID      784  [new — would need id: hydrogen_peroxide]  [bitter]
+    ?  phenylacetaldehyde                   CID      998  [in vocab as phenylacetaldehyde]  [bitter, clover, cocoa, floral]
+    ?  DL-Liquiritigenin                    CID     1889  [new — would need id: dl_liquiritigenin]  [bitter]
+    ?  Benzyl Benzoate                      CID     2345  [new — would need id: benzyl_benzoate]  [almond, balsam, balsamic, cheese]
+    ?  Eucalyptol                           CID     2758  [in vocab as eucalyptol]  [camphor, eucalyptus, herbal, mint]
+    ?  phloretin                            CID     4788  [new — would need id: phloretin]  [bitter, odorless]
+    ?  Tributyrin                           CID     6050  [new — would need id: tributyrin]  [bitter, cheese, creamy, fatty]
+    ?  2-Phenylethanol                      CID     6054  [new — would need id: 2_phenylethanol]  [bitter, floral, honey, lilac]
+    ?  Phlorizin                            CID     6072  [new — would need id: phlorizin]  [bitter]
+    ?  Heptanal                             CID     8130  [new — would need id: heptanal]  [aldehydic, citrus, fat, fatty]
+    ?  3,4-Dihydroxybenzaldehyde            CID     8768  [new — would need id: 3_4_dihydroxybenzaldehyde]  [almond, bitter, dry, medical]
+    ?  6-Methyl-5-Hepten-2-One              CID     9862  [new — would need id: 6_methyl_5_hepten_2_one]  [apple, bitter, citrus, green]
+    ?  Linamarin                            CID    11128  [new — would need id: linamarin]  [bitter]
+    ?  Dihydrocarveol                       CID    12072  [new — would need id: dihydrocarveol]  [herbal, menthol, mint, minty]
+    ?  Fenchol                              CID    15406  [new — would need id: fenchol]  [bitter, borneol, camphor, dry]
+    ?  Menthone                             CID    26447  [in vocab as menthone]  [bitter, camphor, camphoraceous, deep]
+    ?  nicotine                             CID    89594  [new — would need id: nicotine]  [bitter]
+
+  OURS ONLY (not in FlavorDB — likely OAV-backed from primary lit):
+    ·  chamazulene
+    ·  sabinene
+    ·  thujone
+
+============================================================
+SUMMARY
+============================================================
+  Ingredients:  96
+  No match:     30
+  Confirmed:    89  (FlavorDB corroborates our curated compounds)
+  Candidates:   9197  (FlavorDB compounds we haven't adopted yet)
+
+Next step: for any Candidate you want to adopt, find the OAV/GC-O
+primary paper, confirm it's a key odorant, then add to ingredients.json
+with the citation in notes. Do not bulk-import.
