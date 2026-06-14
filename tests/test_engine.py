@@ -588,3 +588,47 @@ def test_build_around_flavour_blanks_excludes_taste_only_ingredients():
     assert results
     for result in results:
         assert result["flavour_blanks"] == []
+
+
+# ---------------------------------------------------------------------------
+# Body / texture warning tests
+# ---------------------------------------------------------------------------
+
+def test_balance_flags_no_body_on_thin_build():
+    """A spirit-forward build with no fat, dairy, or viscous sweetener surfaces the
+    body warning.
+
+    This pins the gap found during a live test: coffee + cherry + bourbon + kahlua
+    had zero body-contributing ingredients and drank flat. The engine should tell
+    the host so it can suggest egg white, honey, or a fortified wine.
+    """
+    result = engine.balance(["coffee", "cherry", "bourbon", "coffee_liqueur"])
+    assert any("body" in note.lower() or "thin" in note.lower() for note in result["taste_notes"]), (
+        "A build with no fat, dairy, or viscous sweetener must surface a body warning"
+    )
+
+
+def test_balance_no_body_warning_suppressed_by_egg_white():
+    """Adding egg white (protein foam) satisfies the body check — warning absent."""
+    result = engine.balance(["coffee", "cherry", "bourbon", "coffee_liqueur", "egg_white"])
+    assert not any("thin" in note.lower() for note in result["taste_notes"]), (
+        "egg_white must suppress the body warning (protein foam = mouthfeel)"
+    )
+
+
+def test_balance_no_body_warning_suppressed_by_cream():
+    """Fat from cream satisfies the body check — warning absent."""
+    result = engine.balance(["bourbon", "coffee_liqueur", "cream"])
+    assert not any("thin" in note.lower() for note in result["taste_notes"])
+
+
+def test_balance_no_body_warning_suppressed_by_honey():
+    """Honey's sugar-concentration viscosity satisfies the body check — warning absent."""
+    result = engine.balance(["bourbon", "lemon", "honey"])
+    assert not any("thin" in note.lower() for note in result["taste_notes"])
+
+
+def test_balance_no_body_warning_suppressed_by_port():
+    """Port's dissolved solids satisfy the body check — warning absent."""
+    result = engine.balance(["bourbon", "port", "orange"])
+    assert not any("thin" in note.lower() for note in result["taste_notes"])

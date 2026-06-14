@@ -28,6 +28,24 @@ PANTRY = data.load_pantry()
 # add. Real drinks are short, so we keep candidate combinations small.
 MAX_ADDITIONS = 2
 
+# Ingredients that contribute perceivable body / mouthfeel through one of three
+# distinct mechanisms:
+#   - fat emulsion  (cream, butter, egg yolk, coconut, milk)
+#   - protein foam  (egg white, whole egg)
+#   - dissolved-solids / sugar-concentration viscosity  (honey, maple syrup,
+#     orgeat, port, sherry, pedro_ximenez, agave)
+# When none of these are present and the fat axis is also negligible, the build
+# will drink thin — balance() surfaces a texture warning so the host can act.
+_BODY_CONTRIBUTORS: frozenset[str] = frozenset({
+    # fat-based
+    "cream", "butter", "milk", "coconut", "egg_yolk",
+    # protein foam
+    "egg_white", "whole_egg",
+    # dissolved-solids viscosity (concentrated sugars / fortified wines)
+    "honey", "maple_syrup", "orgeat", "agave",
+    "port", "sherry", "pedro_ximenez",
+})
+
 
 def profile(ingredient_id: str) -> set[str]:
     """Return the set of flavour compounds for an ingredient id.
@@ -269,11 +287,14 @@ def balance(ingredient_ids: list[str]) -> dict:
     On top of the role check, taste axes are summed across the combination to
     read its structure (sour-balanced / bittersweet / savoury) and to flag
     real bartending hazards (dairy + acid splits; savoury with no
-    counterweight; chemesthetic heat from the spice axis). This is a sanity
-    heuristic, **not** a recipe balancer — it checks the shape of a
+    counterweight; chemesthetic heat from the spice axis; no body). This is a
+    sanity heuristic, **not** a recipe balancer — it checks the shape of a
     combination, not its ratios. The spice axis sits outside the structure
     reading on purpose: heat is a parallel sensation a drink is balanced
-    *against*, not one of the sweet/sour/bitter/savoury shapes.
+    *against*, not one of the sweet/sour/bitter/savoury shapes. Body is
+    flagged when fat < 0.3 AND no ingredient from ``_BODY_CONTRIBUTORS`` is
+    present — three mechanisms (fat emulsion, protein foam, dissolved-solids
+    viscosity) all satisfy the check.
 
     Returns the original ``{"ok", "roles_present", "warning"}`` plus
     ``"taste_axes"`` (summed values), ``"structure"`` (a one-word reading),
@@ -354,6 +375,16 @@ def balance(ingredient_ids: list[str]) -> dict:
             "Real heat here (chilli/ginger chemesthesis, not bitterness): it builds "
             "as you drink — lean on sweetness or acid to balance it, and a little "
             "sugar or fat tames the burn."
+        )
+    has_body = fat >= 0.3 or bool(
+        _BODY_CONTRIBUTORS & set(ingredient_ids)
+    )
+    if not has_body:
+        taste_notes.append(
+            "No body: nothing here contributes viscosity or mouthfeel. It will "
+            "drink thin. Add egg white (protein foam), honey or orgeat (sugar "
+            "viscosity), cream (fat), or a fortified wine like port or PX sherry "
+            "(dissolved solids) to give it texture."
         )
 
     return {
