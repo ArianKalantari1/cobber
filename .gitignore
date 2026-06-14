@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Build-time culinary draft (Flavor Bible derivative — do not commit)
+data/culinary_draft.json
