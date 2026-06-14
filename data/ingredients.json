@@ -1992,5 +1992,27 @@
     "season": null,
     "notes": "Filbertone (E-alpha-filbertone, 5-methyl-4-heptanone) is the defining hazelnut odorant; benzaldehyde gives the shared almond-like note; pyrazine covers the roasted/toasted character. Flavour-source proxy for hazelnut-forward liqueurs.",
     "source": "Hazelnut aroma chemistry: filbertone identified as species-specific odorant (Corylus avellana); GC-MS literature on roasted hazelnut volatiles (Manzocco et al.; NIST Flavor database)."
+  },
+  {
+    "id": "wood_smoke",
+    "display_name": "Wood smoke (hardwood pit-fire)",
+    "type": "raw",
+    "role": "aromatic",
+    "compounds": [
+      "guaiacol",
+      "4_ethylguaiacol",
+      "4_methylguaiacol",
+      "syringol",
+      "p_cresol"
+    ],
+    "descriptors": [
+      "smoke",
+      "ash",
+      "earthy"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Phenolic hardwood-smoke note from pit/charcoal roasting (the agave-pit step in mezcal; also lapsang, smoked salt, smoked paprika). Guaiacol + cresol are the markers that separate mezcal from tequila; 4-ethylguaiacol adds the creosote edge. Syringol and 4-methylguaiacol are the hardwood-lignin signature — present in wood smoke but largely absent from peat smoke, so wood_smoke and peat_smoke share three compounds (a real chemical bridge) without collapsing into each other. Flavour-source proxy, not a literal ingredient. Smoke intensity is a production-style variable (degree/duration of roast), not an agave-variety trait; this models the smoky baseline of the category.",
+    "source": "Mezcal GC-MS/SPME volatile profiling (Vera Guzmán et al., MDPI Beverages 2018; De León-Rodríguez et al., Agave salmiana mezcal); guaiacol & cresol identified as the smoke markers differentiating mezcal from tequila. Smoke-phenol sensory descriptors (guaiacol clove/smoky; 4-ethylguaiacol smoky/creosote; syringol & 4-methylguaiacol woody/ashy) per Hsu & Yu, Molecules 2018 (PMC6017423)."
   }
 ]

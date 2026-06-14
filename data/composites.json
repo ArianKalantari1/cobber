@@ -103,15 +103,16 @@
     "type": "composite",
     "role": "spirit",
     "botanicals": [
-      "agave"
+      "agave",
+      "wood_smoke"
     ],
     "descriptors": [
       "agave",
       "smoke",
       "earthy"
     ],
-    "notes": "Smoky agave spirit; smoke phenols are not modelled in V1.",
-    "source": "TODO: verify (smoke/guaiacol fraction omitted).",
+    "notes": "Smoky agave spirit. Smoke is now modelled via wood_smoke (hardwood pit-roast phenols: guaiacol, cresol, 4-ethyl/4-methylguaiacol, syringol) — guaiacol + cresol are the markers that distinguish mezcal from tequila. Shares three smoke phenols with peated_scotch, giving a real chemical bridge (a smoky Sour, an Oaxacan Negroni) without the two spirits collapsing into one. Models the smoky baseline of the category; heavily-smoked styles sit further along the same axis but aren't a separate entry.",
+    "source": "Cooked-agave furaneol (see agave); smoke phenols from wood_smoke (mezcal GC-MS volatile profiling, see wood_smoke entry).",
     "taste": {
       "bitter": 0.15,
       "funk": 0.4

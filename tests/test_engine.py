@@ -132,6 +132,35 @@ def test_savoury_crossover_bridges_via_shared_compounds():
     assert "pyrazine" in shared
 
 
+def test_mezcal_smoke_bridges_to_peated_scotch():
+    """Wood-smoke and peat-smoke share phenols — the smoky cross-spirit bridge is real."""
+    score, shared = engine.harmony("mezcal", "peated_scotch")
+    assert score > 0
+    # the three shared smoke phenols a smoky Sour / Oaxacan Negroni rides on
+    assert {"guaiacol", "4_ethylguaiacol", "p_cresol"} <= shared
+
+
+def test_mezcal_has_more_than_agave_after_smoke_modelling():
+    """Mezcal must now diverge from tequila: it carries smoke phenols tequila lacks."""
+    mez = load_pantry().get("mezcal").compounds
+    teq = load_pantry().get("tequila").compounds
+    assert "guaiacol" in mez
+    assert "guaiacol" not in teq
+    # they still share the cooked-agave note
+    assert "furaneol" in mez and "furaneol" in teq
+
+
+def test_wood_smoke_is_distinct_from_peat_smoke():
+    """Wood smoke carries the hardwood-lignin markers (syringol) peat smoke does not."""
+    pantry = load_pantry()
+    wood = pantry.get("wood_smoke").compounds
+    peat = pantry.get("peat_smoke").compounds
+    assert "syringol" in wood
+    assert "syringol" not in peat
+    # but they overlap on the shared smoke core
+    assert {"guaiacol", "4_ethylguaiacol", "p_cresol"} <= (wood & peat)
+
+
 def test_balance_flags_dairy_acid_split_risk():
     """Cream plus citrus must surface the split hazard a bartender would flag."""
     result = engine.balance(["gin", "cream", "lemon"])
