@@ -1,9 +1,53 @@
 # Handoff — current state of the co-occurrence work
 
-*Updated 14 June 2026 (culinary affinities layer added — Ahn 2011 food-pairing tool).*
+*Updated 14 June 2026 (evening) — bar-session work: peated Scotch + mezcal smoke
+chemistry, body/texture warning, Four Pillars/Frangelico/Licor 43/El Toro/
+hazelnut composites, 25 core taste profiles confirmed by Ari. 96 tests.*
+*Earlier 14 June 2026 (culinary affinities layer added — Ahn 2011 food-pairing tool).*
 *Previously updated 13 June 2026 (proportion templates + technique mining + preference layer + taste backfill + nearest_by_profile/substitution lookup + spice axis + cited-research data fills — all merged to main).
 Supersedes the original Copilot handoff. Read `docs/cobber-design-notes.md`
 first for the project's thinking; this file is "where we are and what's next".*
+
+## THIS SESSION (14 June 2026, evening bar session) — DONE
+
+Work driven by Ari testing Cobber live behind a real bar:
+
+- **Body/texture warning in `balance()`** — live finding: a bourbon+coffee+
+  cherry drink drank "too flat." Added `_BODY_CONTRIBUTORS` (fat emulsion /
+  protein foam / dissolved-solids viscosity) and a `taste_notes` warning when
+  fat < 0.3 and no contributor present. 5 tests.
+- **Peated Scotch** — `peat_smoke` raw (guaiacol, 4-ethyl/4-vinylguaiacol,
+  p-cresol, phenol; cited to Islay GC-MS) + `peated_scotch` composite. Distinct
+  from generic `scotch`; bridges to bourbon/rye via barrel vanillin (the
+  Penicillin-float join).
+- **Mezcal smoke** — `wood_smoke` raw (hardwood pit-roast phenols incl.
+  syringol + 4-methylguaiacol, the hardwood-lignin markers peat lacks) folded
+  into `mezcal`. mezcal+peated_scotch harmony 0.33 (shared guaiacol family);
+  mezcal+tequila drops to 0.17. 3 tests. Espadín is the agave variety; smoke is
+  a production-style (pit-roast) variable, not a varietal trait — modelled as
+  the category smoky baseline.
+- **Bar composites** — `four_pillars_gin` (8 botanicals incl. 4 AU natives),
+  `frangelico` (+ `hazelnut` raw: filbertone/benzaldehyde/pyrazine), `licor_43`
+  (vanilla-citrus-cinnamon), `el_toro_cafe_tequila` (agave+coffee+vanilla).
+  Build-time brand aliases added.
+- **Taste profiles confirmed (Ari sign-off)** — the 25 immediately-learnable
+  core profiles reviewed behind the bar; 24 kept, amaretto bitter 0.25→0.15.
+  Now bartender-verified, not estimates. The 33 provisional profiles are laid
+  out for tick-through in `docs/ari-approval-sheet.md`.
+- **Pisco deep-dive** — extensive pisco pairing work (chemistry: beta-
+  damascenone + methyl-anthranilate). Honey substitutes surfaced (drambuie =
+  chemically identical, H=1.0; agave/maple via furaneol; cassis/grenadine via
+  beta-damascenone). Six winter pisco specs dialled in — pending Ari's approval
+  to add to the craft corpus (approval-sheet §E).
+- **`docs/ari-approval-sheet.md`** — single tick-through doc for all pending
+  Ari decisions (33 taste values, 12 template names, 10 technique rules,
+  culinary draft, winter recipes).
+
+**Note on runtime brand resolution:** build-time aliases (Laphroaig→peated_scotch
+etc.) do NOT feed the runtime resolver (`_resolve_one` uses id/display-name/
+fuzzy only). Typing "Laphroaig" at runtime still returns unknown. Wiring the
+alias file into the resolver is a banked task awaiting Ari's sign-off (touches
+the resolve seam).
 
 ## Culinary affinities layer: DONE (14 June 2026)
 
@@ -86,7 +130,8 @@ first for the project's thinking; this file is "where we are and what's next".*
   (`src/cobber/preferences.py` → `~/.cobber/preferences.json`); learns only
   through verified taste-curated ingredients (25 learnable now after taste
   backfill; 33 more once Ari de-provisions composites.json).
-- **Tests:** 74 passing (`python -m pytest tests/ -q`).
+- **Tests:** 96 passing (`python -m pytest tests/ -q`). *(was 74 at the 13 June
+  snapshot; +22 across culinary layer, body warning, peat/mezcal smoke.)*
 - **Spice axis (13 June 2026):** 8th palate axis added — chemesthetic heat
   (capsaicin/gingerol), grounded in the heat compound the entry already carries.
   `balance()` flags it as a hazard note; kept OUT of the structure reading. On
