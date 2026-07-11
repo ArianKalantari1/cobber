@@ -379,14 +379,14 @@
       "sweet",
       "marzipan"
     ],
-    "notes": "Sweet almond/apricot-kernel liqueur.",
+    "notes": "Sweet almond/apricot-kernel liqueur. Taste axes confirmed by Ari (bartender).",
     "source": "Benzaldehyde-led almond liqueur.",
     "flavor_forward": [
       "almond"
     ],
     "taste": {
       "sweet": 0.8,
-      "bitter": 0.25
+      "bitter": 0.15
     }
   },
   {
