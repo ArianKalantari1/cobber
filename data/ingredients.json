@@ -2014,5 +2014,30 @@
     "season": null,
     "notes": "Phenolic hardwood-smoke note from pit/charcoal roasting (the agave-pit step in mezcal; also lapsang, smoked salt, smoked paprika). Guaiacol + cresol are the markers that separate mezcal from tequila; 4-ethylguaiacol adds the creosote edge. Syringol and 4-methylguaiacol are the hardwood-lignin signature — present in wood smoke but largely absent from peat smoke, so wood_smoke and peat_smoke share three compounds (a real chemical bridge) without collapsing into each other. Flavour-source proxy, not a literal ingredient. Smoke intensity is a production-style variable (degree/duration of roast), not an agave-variety trait; this models the smoky baseline of the category.",
     "source": "Mezcal GC-MS/SPME volatile profiling (Vera Guzmán et al., MDPI Beverages 2018; De León-Rodríguez et al., Agave salmiana mezcal); guaiacol & cresol identified as the smoke markers differentiating mezcal from tequila. Smoke-phenol sensory descriptors (guaiacol clove/smoky; 4-ethylguaiacol smoky/creosote; syringol & 4-methylguaiacol woody/ashy) per Hsu & Yu, Molecules 2018 (PMC6017423)."
+  },
+  {
+    "id": "blood_orange",
+    "display_name": "Blood orange",
+    "type": "raw",
+    "role": "fruit",
+    "compounds": [
+      "limonene",
+      "myrcene",
+      "linalool",
+      "octanal",
+      "decanal",
+      "beta_damascenone",
+      "beta_ionone"
+    ],
+    "descriptors": [
+      "citrus",
+      "red berry",
+      "floral",
+      "hibiscus"
+    ],
+    "is_native": false,
+    "season": "sep-nov",
+    "notes": "Distinct from sweet orange: keeps the limonene/linalool/octanal citrus base but adds a red-berry/floral layer. beta-damascenone carries the rose/berry/brambly/cherry character (the 'blood' note), beta-ionone the violet/hibiscus floral, decanal the rich peel aldehyde. This is what lets blood orange bridge into the berry, stone-fruit and grape families (cognac, PX/port, cherry, apricot, raspberry) that plain orange can't. AU season ~Sept-Nov (early spring); flagged provisional on the norisoprenoid assignment.",
+    "source": "Flavour descriptor profile (Flavonomics: red berry, brambly, cherry-like, rosy, violic, apricoty, hibiscine over a limonene citrus base; documented port/raisin and vanilla synergies). Compound assignment: limonene/linalool/octanal from Citrus sinensis peel oil; beta-damascenone + beta-ionone (norisoprenoids) assigned to the red-berry/violet notes; decanal a documented blood-orange peel aldehyde. PROVISIONAL — norisoprenoid levels not GC-MS-verified for this entry."
   }
 ]
