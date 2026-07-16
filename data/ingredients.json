@@ -162,7 +162,8 @@
     "compounds": [
       "linalool",
       "eugenol",
-      "estragole"
+      "estragole",
+      "methyl_cinnamate"
     ],
     "descriptors": [
       "herbal",
@@ -171,8 +172,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Sweet basil; estragole and linalool dominate.",
-    "source": "Ocimum basilicum oil profiles."
+    "notes": "Basil; linalool + estragole dominate Genovese/sweet basil, with eugenol (clove) and methyl cinnamate (the cinnamon-basil / Thai-basil note). The methyl cinnamate is what bridges basil to strawberry, riberry and strawberry gum — the chemical basis of the classic strawberry-basil pairing. Chemotype-dependent: sweet basil is lower in methyl cinnamate than Thai/cinnamon basil.",
+    "source": "Ocimum basilicum oil profiles; methyl cinnamate a documented basil aroma compound (elevated in cinnamon/Thai chemotypes), added to model the strawberry-basil affinity."
   },
   {
     "id": "rosemary",
