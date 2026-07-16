@@ -1,0 +1,590 @@
+<title>Ember &amp; After — Bopp &amp; Tone Spec Book</title>
+<style>
+  :root{
+    --ground:#1b0a0b; --surface:#24100f; --surface2:#2c1513;
+    --ember:#e56a3b; --ember-soft:#c9542a; --red:#8f2a22; --brass:#c8a25d;
+    --ink:#ecdfd2; --ink-soft:#c3b0a0; --ink-faint:#8f7d6f;
+    --rule:#432321; --rule-soft:#341917;
+    --good:#8fae6a; --warn:#d9a24a;
+    --serif:"Hoefler Text","Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:"Helvetica Neue","Segoe UI",system-ui,Arial,sans-serif;
+    --mono:ui-monospace,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+    --maxw:50rem;
+  }
+  @media (prefers-color-scheme: light){
+    :root{
+      --ground:#efe4d6; --surface:#f8efe2; --surface2:#f3e7d7;
+      --ember:#b8451d; --ember-soft:#a53f1b; --red:#8f2a22; --brass:#8a6930;
+      --ink:#2a1210; --ink-soft:#5f483c; --ink-faint:#8a7161;
+      --rule:#d8c4b0; --rule-soft:#e4d4c2;
+      --good:#5c7a3a; --warn:#a9731d;
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#1b0a0b; --surface:#24100f; --surface2:#2c1513;
+    --ember:#e56a3b; --ember-soft:#c9542a; --red:#8f2a22; --brass:#c8a25d;
+    --ink:#ecdfd2; --ink-soft:#c3b0a0; --ink-faint:#8f7d6f;
+    --rule:#432321; --rule-soft:#341917; --good:#8fae6a; --warn:#d9a24a;
+  }
+  :root[data-theme="light"]{
+    --ground:#efe4d6; --surface:#f8efe2; --surface2:#f3e7d7;
+    --ember:#b8451d; --ember-soft:#a53f1b; --red:#8f2a22; --brass:#8a6930;
+    --ink:#2a1210; --ink-soft:#5f483c; --ink-faint:#8a7161;
+    --rule:#d8c4b0; --rule-soft:#e4d4c2; --good:#5c7a3a; --warn:#a9731d;
+  }
+
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--ground); color:var(--ink);
+    font-family:var(--serif); font-size:17px; line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:clamp(1.25rem,4vw,3.5rem) clamp(1.1rem,4vw,2.5rem) 5rem;}
+
+  /* ---- masthead ---- */
+  .mast{position:relative; padding:2.5rem 0 2rem; text-align:center;}
+  .mast .venue{
+    font-family:var(--sans); text-transform:uppercase; letter-spacing:.42em;
+    font-size:.66rem; font-weight:600; color:var(--brass); margin:0 0 1.4rem;
+    padding-left:.42em;
+  }
+  .mast h1{
+    font-family:var(--serif); font-weight:600; font-style:italic;
+    font-size:clamp(2.8rem,10vw,4.6rem); line-height:.94; margin:0;
+    letter-spacing:-.01em; text-wrap:balance;
+    color:var(--ink);
+  }
+  .mast h1 .amp{color:var(--ember); font-size:.7em; vertical-align:.06em; padding:0 .06em;}
+  .mast .sub{
+    font-family:var(--sans); text-transform:uppercase; letter-spacing:.3em;
+    font-size:.64rem; color:var(--ink-faint); margin:1.5rem 0 0; padding-left:.3em;
+  }
+  .mast .concept{
+    max-width:34rem; margin:1.6rem auto 0; font-style:italic; color:var(--ink-soft);
+    font-size:1.02rem; text-wrap:balance;
+  }
+  .emberline{
+    height:2px; margin:2rem auto 0; max-width:8rem;
+    background:linear-gradient(90deg,transparent,var(--ember),transparent);
+  }
+
+  /* ---- legend ---- */
+  .legend{
+    display:flex; flex-wrap:wrap; gap:.5rem .9rem; justify-content:center;
+    margin:2.2rem 0 .5rem; font-family:var(--sans); font-size:.66rem;
+    color:var(--ink-faint); text-transform:uppercase; letter-spacing:.13em;
+  }
+  .legend b{color:var(--ink-soft); font-weight:600;}
+
+  /* ---- section headers ---- */
+  .section{margin-top:3.6rem;}
+  .section > .head{
+    display:flex; align-items:baseline; gap:1rem; margin-bottom:1.6rem;
+  }
+  .section > .head h2{
+    font-family:var(--sans); text-transform:uppercase; letter-spacing:.2em;
+    font-weight:700; font-size:1.02rem; margin:0; color:var(--ember);
+    white-space:nowrap;
+  }
+  .section > .head .rule{flex:1; height:1px; background:var(--rule); align-self:center;}
+  .section > .head .count{
+    font-family:var(--mono); font-size:.7rem; color:var(--ink-faint);
+    letter-spacing:.05em;
+  }
+  .section > .intro{color:var(--ink-soft); font-style:italic; margin:-.7rem 0 1.7rem; max-width:42rem;}
+
+  /* ---- drink cards ---- */
+  .grid{display:flex; flex-direction:column; gap:1.15rem;}
+  .drink{
+    position:relative; background:var(--surface); border:1px solid var(--rule);
+    border-radius:3px; padding:1.5rem clamp(1.1rem,3vw,1.9rem) 1.6rem;
+  }
+  /* brass corner brackets echoing the venue menu */
+  .drink::before,.drink::after{
+    content:""; position:absolute; width:13px; height:13px; pointer-events:none;
+    border-color:var(--brass); opacity:.55;
+  }
+  .drink::before{top:8px; left:8px; border-top:1.5px solid; border-left:1.5px solid;}
+  .drink::after{bottom:8px; right:8px; border-bottom:1.5px solid; border-right:1.5px solid;}
+
+  .drink .eyebrow{
+    font-family:var(--sans); text-transform:uppercase; letter-spacing:.18em;
+    font-size:.6rem; font-weight:600; color:var(--ink-faint);
+  }
+  .drink .eyebrow .topo{color:var(--brass);}
+  .drink h3{
+    font-family:var(--serif); font-weight:600; font-size:1.62rem; line-height:1.05;
+    margin:.35rem 0 .3rem; letter-spacing:-.005em; text-wrap:balance; color:var(--ink);
+  }
+  .drink .descriptor{
+    font-family:var(--sans); font-size:.72rem; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ember); margin:0 0 1.1rem; font-weight:500;
+  }
+
+  table.spec{width:100%; border-collapse:collapse; margin:0 0 1.1rem;}
+  table.spec td{padding:.28rem 0; vertical-align:baseline; border-bottom:1px dotted var(--rule-soft);}
+  table.spec tr:last-child td{border-bottom:none;}
+  table.spec td.ing{color:var(--ink); padding-right:1rem;}
+  table.spec td.amt{
+    font-family:var(--mono); font-variant-numeric:tabular-nums; text-align:right;
+    color:var(--ink-soft); white-space:nowrap; font-size:.86rem;
+  }
+  table.spec td.amt em{color:var(--ember-soft); font-style:normal;}
+
+  .line{margin:.55rem 0; font-size:.94rem; line-height:1.5;}
+  .line .lbl{
+    font-family:var(--sans); text-transform:uppercase; letter-spacing:.13em;
+    font-size:.58rem; font-weight:700; color:var(--ink-faint); margin-right:.55em;
+  }
+  .chem{
+    margin-top:1rem; padding:.75rem .9rem; background:var(--surface2);
+    border-left:2px solid var(--ember); border-radius:0 3px 3px 0;
+    font-size:.9rem; color:var(--ink-soft);
+  }
+  .chem .lbl{color:var(--ember-soft);}
+  .chem b{color:var(--ink); font-weight:600;}
+
+  .tags{display:flex; flex-wrap:wrap; gap:.4rem; margin-top:1rem;}
+  .pill{
+    font-family:var(--sans); font-size:.58rem; text-transform:uppercase; letter-spacing:.1em;
+    font-weight:600; padding:.2rem .5rem; border-radius:2px; border:1px solid var(--rule);
+    color:var(--ink-faint);
+  }
+  .pill.body{color:var(--good); border-color:color-mix(in srgb,var(--good) 40%,transparent);}
+  .pill.fix{color:var(--warn); border-color:color-mix(in srgb,var(--warn) 40%,transparent);}
+
+  /* ---- prep ---- */
+  .prep{
+    background:var(--surface); border:1px solid var(--rule); border-radius:3px;
+    padding:1.2rem clamp(1.1rem,3vw,1.7rem);
+  }
+  .prep h3{font-family:var(--serif); font-size:1.2rem; margin:0 0 .3rem; color:var(--ink);}
+  .prep h3 .kind{font-family:var(--sans); font-size:.56rem; text-transform:uppercase; letter-spacing:.15em; color:var(--brass); font-weight:600; margin-left:.6em; vertical-align:.22em;}
+  .prep p{margin:.4rem 0 0; font-size:.92rem; color:var(--ink-soft);}
+  .prep p .lbl{font-family:var(--sans); text-transform:uppercase; letter-spacing:.13em; font-size:.56rem; font-weight:700; color:var(--ink-faint); margin-right:.5em;}
+
+  /* ---- design-system appendix ---- */
+  .sys{background:var(--surface); border:1px solid var(--rule); border-radius:3px; padding:1.3rem clamp(1.1rem,3vw,1.8rem);}
+  .hwy{border-collapse:collapse; width:100%; font-size:.9rem;}
+  .hwy td{padding:.5rem .6rem .5rem 0; border-bottom:1px solid var(--rule-soft); vertical-align:baseline;}
+  .hwy tr:last-child td{border-bottom:none;}
+  .hwy td.mol{font-family:var(--mono); color:var(--ember); white-space:nowrap; font-size:.82rem; padding-right:1.1rem;}
+  .hwy td.terr{color:var(--ink); white-space:nowrap; padding-right:1.1rem;}
+  .hwy td.who{color:var(--ink-faint); font-size:.85rem;}
+  .topos{display:grid; gap:.8rem; margin-top:1.1rem;}
+  .topo-item{padding-left:.9rem; border-left:2px solid var(--brass);}
+  .topo-item b{color:var(--ember); font-family:var(--sans); font-size:.72rem; text-transform:uppercase; letter-spacing:.1em;}
+  .topo-item span{display:block; color:var(--ink-soft); font-size:.9rem; margin-top:.15rem;}
+
+  .foot{margin-top:4rem; padding-top:1.4rem; border-top:1px solid var(--rule); text-align:center; color:var(--ink-faint); font-family:var(--sans); font-size:.66rem; letter-spacing:.1em; text-transform:uppercase;}
+  .foot em{font-family:var(--serif); text-transform:none; letter-spacing:0; font-size:.92rem; color:var(--ink-soft); display:block; margin-bottom:.7rem;}
+
+  a{color:var(--ember);}
+  :focus-visible{outline:2px solid var(--ember); outline-offset:2px;}
+  @media (max-width:520px){
+    body{font-size:16px;}
+    .drink h3{font-size:1.42rem;}
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="mast">
+    <p class="venue">Bopp &amp; Tone · Cobber Spec Book</p>
+    <h1>Ember <span class="amp">&amp;</span> After</h1>
+    <p class="sub">Spring / Summer 2026 · Sydney</p>
+    <p class="concept">Luxury reclaimed from the ashes — embers, scorch and deep reds, lifted by the first bright produce of spring. Every build grounded in Cobber's shared-compound chemistry.</p>
+    <div class="emberline"></div>
+    <div class="legend">
+      <span><b>Topology</b></span>
+      <span>woven = seamless</span>
+      <span>hub = spirit-forward</span>
+      <span>contrast = tension</span>
+      <span>·</span>
+      <span class="pill body" style="border-radius:2px">Body OK</span>
+      <span class="pill fix" style="border-radius:2px">Body from syrup</span>
+    </div>
+  </header>
+
+  <!-- SIGNATURES -->
+  <section class="section">
+    <div class="head"><h2>Signatures</h2><span class="rule"></span><span class="count">02</span></div>
+    <p class="intro">The two anchor builds — one dark and hub-anchored, one bright and fully woven. Both batch clean.</p>
+    <div class="grid">
+
+      <article class="drink">
+        <p class="eyebrow">Signature · <span class="topo">hub-and-spoke</span></p>
+        <h3>The Violet Leather</h3>
+        <p class="descriptor">Opulent · Smoky · Leather</p>
+        <table class="spec">
+          <tr><td class="ing">Cacao-nib–infused Hine cognac</td><td class="amt">45 ml</td></tr>
+          <tr><td class="ing">Toro Albalá 'Don PX'</td><td class="amt">10 ml</td></tr>
+          <tr><td class="ing">Dark crème de cacao</td><td class="amt">5 ml</td></tr>
+          <tr><td class="ing">Roasted blood orange syrup</td><td class="amt">8 ml</td></tr>
+          <tr><td class="ing">Orange bitters</td><td class="amt">2 dash</td></tr>
+          <tr><td class="ing">Lagavulin 16, float</td><td class="amt"><em>5–7 ml</em></td></tr>
+        </table>
+        <p class="line"><span class="lbl">Method</span> Stir all but the float over ice ~30 rotations; strain over one large block in a double old-fashioned. Float the Lagavulin over the back of a spoon; express a blood orange peel and rest it on the block.</p>
+        <p class="line"><span class="lbl">Batch ×10</span> Cacao cognac 450 · Don PX 100 · crème de cacao 50 · blood orange syrup 80 · orange bitters ~10 ml. Undiluted, fine-strained. Keeps 3–6 months. Pour 65–70 ml, stir over ice, float to order.</p>
+        <div class="chem"><span class="lbl">Why it works</span> Cognac is the hub: it carries <b>vanillin</b> (→ crème de cacao &amp; Lagavulin) <em>and</em> <b>beta-damascenone</b> (→ Don PX &amp; blood orange). The PX is also the body — raisined dissolved solids — and the cognac's chemical soulmate at 0.67.</div>
+        <div class="tags"><span class="pill body">Body — PX</span><span class="pill">Vanillin spine</span><span class="pill">Batchable</span></div>
+      </article>
+
+      <article class="drink">
+        <p class="eyebrow">Signature · <span class="topo">fully-woven web</span></p>
+        <h3>Sanguine</h3>
+        <p class="descriptor">Floral · Bittersweet · Bright</p>
+        <table class="spec">
+          <tr><td class="ing">Four Pillars Rare Dry Gin</td><td class="amt">30 ml</td></tr>
+          <tr><td class="ing">Italicus Rosolio di Bergamotto</td><td class="amt">20 ml</td></tr>
+          <tr><td class="ing">Roasted blood orange gomme</td><td class="amt">15 ml</td></tr>
+          <tr><td class="ing">Amaro Montenegro</td><td class="amt">15 ml</td></tr>
+          <tr><td class="ing">Lemon</td><td class="amt">10 ml</td></tr>
+          <tr><td class="ing">Soda or prosecco, top</td><td class="amt"><em>optional</em></td></tr>
+        </table>
+        <p class="line"><span class="lbl">Method</span> Short &amp; stirred over a block for a rich aperitivo, or built long and topped for a terrace spritz. Express blood orange peel; a lavender sprig if you like.</p>
+        <div class="chem"><span class="lbl">Why it works</span> A zero-gap web — every ingredient bridges every other. <b>Blood orange ↔ Montenegro 0.56</b>, <b>Italicus ↔ Montenegro 0.40</b> (shared gentian + citrus), bergamot &amp; juniper both catch the citrus-floral thread. One continuous flavour, no seams.</div>
+        <div class="tags"><span class="pill fix">Body — gomme</span><span class="pill">Limonene / linalool</span><span class="pill">Aperitivo</span></div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- SPRING MENU -->
+  <section class="section">
+    <div class="head"><h2>The Spring Menu</h2><span class="rule"></span><span class="count">04</span></div>
+    <p class="intro">Embers → scorched field → first fruit → love returns. In-season for a September launch (blood orange, strawberry, grapefruit; loquat swaps the summer apricot).</p>
+    <div class="grid">
+
+      <article class="drink">
+        <p class="eyebrow">Spring · <span class="topo">woven</span></p>
+        <h3>Ember Spritz</h3>
+        <p class="descriptor">Bitter · Sparkling · Red</p>
+        <table class="spec">
+          <tr><td class="ing">Four Pillars Bloody Shiraz Gin</td><td class="amt">30 ml</td></tr>
+          <tr><td class="ing">Campari</td><td class="amt">20 ml</td></tr>
+          <tr><td class="ing">Blood orange shrub</td><td class="amt">20 ml</td></tr>
+          <tr><td class="ing">Applejack 'Be Present' Prosecco, top</td><td class="amt"><em>~90 ml</em></td></tr>
+        </table>
+        <p class="line"><span class="lbl">Method</span> Build over ice in a wine glass, stir once, top with prosecco. Blood orange half-wheel.</p>
+        <div class="chem"><span class="lbl">Why it works</span> <b>Campari ↔ blood orange 0.44</b> (shared limonene, linalool, myrcene, decanal). The shrub is the body fix — dissolved solids under the bubbles.</div>
+        <div class="tags"><span class="pill fix">Body — shrub</span><span class="pill">The last coal</span></div>
+      </article>
+
+      <article class="drink">
+        <p class="eyebrow">Spring · <span class="topo">contrast</span></p>
+        <h3>Scorched Earth Paloma</h3>
+        <p class="descriptor">Tall · Smoky · Citrus</p>
+        <table class="spec">
+          <tr><td class="ing">Ocho Blanco</td><td class="amt">45 ml</td></tr>
+          <tr><td class="ing">San Cosme Mezcal, float</td><td class="amt">7 ml</td></tr>
+          <tr><td class="ing">Pink grapefruit</td><td class="amt">45 ml</td></tr>
+          <tr><td class="ing">Campari</td><td class="amt">10 ml</td></tr>
+          <tr><td class="ing">Lime</td><td class="amt">10 ml</td></tr>
+          <tr><td class="ing">Salted grapefruit cordial / soda</td><td class="amt"><em>top</em></td></tr>
+        </table>
+        <p class="line"><span class="lbl">Method</span> Build over ice in a highball, top soda, float the mezcal across the surface. Grapefruit wedge.</p>
+        <div class="chem"><span class="lbl">Why it works</span> <b>Campari ↔ grapefruit 0.29</b> holds the base; the mezcal shares nothing with the fruit — it sits on top as smoke over a field. The tension <em>is</em> the drink. Salt the cordial for body + fruit lift.</div>
+        <div class="tags"><span class="pill fix">Body — cordial</span><span class="pill">Smoke by contrast</span></div>
+      </article>
+
+      <article class="drink">
+        <p class="eyebrow">Spring · <span class="topo">contrast</span></p>
+        <h3>Ashes to Loquats</h3>
+        <p class="descriptor">Smoky · Stone-fruit · Bright</p>
+        <table class="spec">
+          <tr><td class="ing">San Cosme Mezcal</td><td class="amt">45 ml</td></tr>
+          <tr><td class="ing">Loquat shrub <em>(or rhubarb / apricot)</em></td><td class="amt">20 ml</td></tr>
+          <tr><td class="ing">Lime</td><td class="amt">20 ml</td></tr>
+          <tr><td class="ing">Agave</td><td class="amt">10 ml</td></tr>
+          <tr><td class="ing">Saline</td><td class="amt">3 drop</td></tr>
+        </table>
+        <p class="line"><span class="lbl">Method</span> Shake with ice, fine strain over fresh rocks. No garnish, or a single dehydrated loquat slice.</p>
+        <div class="chem"><span class="lbl">Why it works</span> The thesis drink: smoke and stone fruit share zero compounds, so the char makes the fruit taste brighter and vice-versa. Loquat is genuinely in season in September; rhubarb is the reliable red swap.</div>
+        <div class="tags"><span class="pill body">Body OK</span><span class="pill">Fire meets fruit</span></div>
+      </article>
+
+      <article class="drink">
+        <p class="eyebrow">Spring · <span class="topo">woven</span></p>
+        <h3>Petit Amour</h3>
+        <p class="descriptor">Floral · Pink · Crisp</p>
+        <table class="spec">
+          <tr><td class="ing">Four Pillars Rare Dry Gin</td><td class="amt">30 ml</td></tr>
+          <tr><td class="ing">Rameau d'Or Provence Rosé</td><td class="amt">20 ml</td></tr>
+          <tr><td class="ing">Roasted strawberry purée</td><td class="amt">20 ml</td></tr>
+          <tr><td class="ing">Lemon</td><td class="amt">15 ml</td></tr>
+          <tr><td class="ing">Prosecco, top</td><td class="amt"><em>~60 ml</em></td></tr>
+        </table>
+        <p class="line"><span class="lbl">Method</span> Shake gin, rosé, strawberry, lemon; strain into a coupe or wine glass, top prosecco. Strawberry fan.</p>
+        <div class="chem"><span class="lbl">Why it works</span> Rosé, strawberry &amp; prosecco all carry <b>beta-damascenone</b> (the rose-berry compound) — one aromatic thread. Roast the strawberries for a jammy body that survives the top-up.</div>
+        <div class="tags"><span class="pill body">Body — roasted fruit</span><span class="pill">Love returns</span></div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- UMAMI & HERB -->
+  <section class="section">
+    <div class="head"><h2>Umami &amp; Herb</h2><span class="rule"></span><span class="count">04</span></div>
+    <p class="intro">The sophistication layer. Umami (miso, shio koji) deepens sweet fruit through <span style="font-family:var(--mono);font-size:.85em;color:var(--ember)">furaneol</span>; terpene herbs extend citrus. Your old miso trick, mapped.</p>
+    <div class="grid">
+
+      <article class="drink">
+        <p class="eyebrow">Umami · <span class="topo">woven</span></p>
+        <h3>Umami Fields</h3>
+        <p class="descriptor">Savoury · Ripe · Sparkling</p>
+        <table class="spec">
+          <tr><td class="ing">Archie Rose True Cut Vodka</td><td class="amt">45 ml</td></tr>
+          <tr><td class="ing">Strawberry</td><td class="amt">20 ml</td></tr>
+          <tr><td class="ing">White miso or shio koji</td><td class="amt">1 bar spoon</td></tr>
+          <tr><td class="ing">Lemon</td><td class="amt">20 ml</td></tr>
+          <tr><td class="ing">Prosecco, top</td><td class="amt"><em>~60 ml</em></td></tr>
+        </table>
+        <p class="line"><span class="lbl">Method</span> Shake all but prosecco with ice, fine strain into a wine glass over fresh ice, top. Strawberry.</p>
+        <div class="chem"><span class="lbl">Why it works</span> Miso shares <b>furaneol</b> with strawberry (0.25) — the umami reads as <em>riper fruit</em>, not savoury, and the salt amplifies the sweetness. Your miso move, made legible.</div>
+        <div class="tags"><span class="pill body">Body — miso/salt</span><span class="pill">Furaneol</span></div>
+      </article>
+
+      <article class="drink">
+        <p class="eyebrow">Herb · <span class="topo">woven</span></p>
+        <h3>Garden Paloma</h3>
+        <p class="descriptor">Tall · Herbal · Citrus</p>
+        <table class="spec">
+          <tr><td class="ing">Ocho Blanco</td><td class="amt">45 ml</td></tr>
+          <tr><td class="ing">Pink grapefruit</td><td class="amt">45 ml</td></tr>
+          <tr><td class="ing">Lemongrass cordial</td><td class="amt">15 ml</td></tr>
+          <tr><td class="ing">Lime</td><td class="amt">10 ml</td></tr>
+          <tr><td class="ing">Salt · soda, top</td><td class="amt"><em>top</em></td></tr>
+        </table>
+        <p class="line"><span class="lbl">Method</span> Build over ice in a highball, top soda. Lemongrass stalk or grapefruit twist.</p>
+        <div class="chem"><span class="lbl">Why it works</span> Lemongrass bridges grapefruit via <b>myrcene</b> (0.20) with a citral lift — it smells like a garden without tasting green. Salt tightens the bitterness.</div>
+        <div class="tags"><span class="pill fix">Body — cordial</span><span class="pill">Myrcene</span></div>
+      </article>
+
+      <article class="drink">
+        <p class="eyebrow">Umami · <span class="topo">woven</span></p>
+        <h3>Adult Painkiller</h3>
+        <p class="descriptor">Tropical · Umami · Rich</p>
+        <table class="spec">
+          <tr><td class="ing">Plantation Pineapple Rum</td><td class="amt">45 ml</td></tr>
+          <tr><td class="ing">Diplomático Reserva</td><td class="amt">15 ml</td></tr>
+          <tr><td class="ing">Pineapple</td><td class="amt">30 ml</td></tr>
+          <tr><td class="ing">White miso</td><td class="amt">1 bar spoon</td></tr>
+          <tr><td class="ing">Lime</td><td class="amt">10 ml</td></tr>
+          <tr><td class="ing">Coconut</td><td class="amt">15 ml</td></tr>
+        </table>
+        <p class="line"><span class="lbl">Method</span> Shake hard, pour over crushed ice in a tiki or rocks glass. Nutmeg, pineapple frond.</p>
+        <div class="chem"><span class="lbl">Why it works</span> Miso &amp; pineapple share <b>furaneol</b> (0.20). The sweetest category on the bar gets salt-umami depth — grown-up tiki for a red-leather room.</div>
+        <div class="tags"><span class="pill body">Body OK</span><span class="pill">Furaneol</span></div>
+      </article>
+
+      <article class="drink">
+        <p class="eyebrow">Herb · <span class="topo">woven</span></p>
+        <h3>Blood &amp; Basil</h3>
+        <p class="descriptor">Aromatic · Bittersweet · Red</p>
+        <table class="spec">
+          <tr><td class="ing">Four Pillars Rare Dry Gin</td><td class="amt">45 ml</td></tr>
+          <tr><td class="ing">Blood orange</td><td class="amt">20 ml</td></tr>
+          <tr><td class="ing">Fresh basil</td><td class="amt">4 leaf</td></tr>
+          <tr><td class="ing">Cocchi / Bianco vermouth</td><td class="amt">15 ml</td></tr>
+          <tr><td class="ing">Soda, top</td><td class="amt"><em>top</em></td></tr>
+        </table>
+        <p class="line"><span class="lbl">Method</span> Gently muddle basil in the vermouth, add rest, short-shake, strain over ice, top soda. Basil crown.</p>
+        <div class="chem"><span class="lbl">Why it works</span> Basil bridges blood orange via <b>linalool</b> (0.17) — a classic Italian pairing, the herb lifting the citrus into something perfumed.</div>
+        <div class="tags"><span class="pill fix">Body — vermouth</span><span class="pill">Linalool</span></div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- LIQUEUR BUILDS -->
+  <section class="section">
+    <div class="head"><h2>Liqueur Builds</h2><span class="rule"></span><span class="count">03</span></div>
+    <p class="intro">Built on Massenez &amp; Marionette — concentrated fruit, built-in body, and season-independence (stone fruit on the shelf before it's on the tree).</p>
+    <div class="grid">
+
+      <article class="drink">
+        <p class="eyebrow">Liqueur · <span class="topo">woven</span></p>
+        <h3>Nightshade</h3>
+        <p class="descriptor">Dark · Herbal · Sophisticated</p>
+        <table class="spec">
+          <tr><td class="ing">H by Hine Cognac</td><td class="amt">45 ml</td></tr>
+          <tr><td class="ing">Massenez Crème de Griotte</td><td class="amt">15 ml</td></tr>
+          <tr><td class="ing">Fresh basil</td><td class="amt">4 leaf</td></tr>
+          <tr><td class="ing">Lemon</td><td class="amt">20 ml</td></tr>
+          <tr><td class="ing">Saline</td><td class="amt">3 drop</td></tr>
+        </table>
+        <p class="line"><span class="lbl">Method</span> Muddle basil gently, shake, fine strain into a coupe. Single basil leaf floated.</p>
+        <div class="chem"><span class="lbl">Why it works</span> The surprise: morello cherry &amp; basil share <b>eugenol</b> (0.20) — clove-warm herb against dark cherry. The cognac's own beta-damascenone ties into the cherry too.</div>
+        <div class="tags"><span class="pill body">Body — liqueur</span><span class="pill">Eugenol</span></div>
+      </article>
+
+      <article class="drink">
+        <p class="eyebrow">Liqueur · <span class="topo">woven</span></p>
+        <h3>Stone &amp; Lavender</h3>
+        <p class="descriptor">Floral · Stone-fruit · Bright</p>
+        <table class="spec">
+          <tr><td class="ing">Four Pillars Rare Dry Gin</td><td class="amt">45 ml</td></tr>
+          <tr><td class="ing">Marionette Apricot</td><td class="amt">20 ml</td></tr>
+          <tr><td class="ing">Lavender syrup</td><td class="amt">10 ml</td></tr>
+          <tr><td class="ing">Lemon</td><td class="amt">20 ml</td></tr>
+          <tr><td class="ing">Prosecco, top</td><td class="amt"><em>optional</em></td></tr>
+        </table>
+        <p class="line"><span class="lbl">Method</span> Shake, fine strain into a coupe (or top with prosecco in a wine glass). Lemon twist.</p>
+        <div class="chem"><span class="lbl">Why it works</span> Apricot bridges lavender via <b>linalool</b> (0.20) — a patisserie classic. The Marionette liqueur delivers stone fruit in September, two months before the fresh crop.</div>
+        <div class="tags"><span class="pill body">Body — liqueur</span><span class="pill">Linalool</span><span class="pill">Season-proof</span></div>
+      </article>
+
+      <article class="drink">
+        <p class="eyebrow">Liqueur · <span class="topo">woven</span></p>
+        <h3>Red Orchard</h3>
+        <p class="descriptor">Savoury · Orchard · Red</p>
+        <table class="spec">
+          <tr><td class="ing">Archie Rose Signature Dry Gin</td><td class="amt">45 ml</td></tr>
+          <tr><td class="ing">Massenez Crème de Cassis</td><td class="amt">15 ml</td></tr>
+          <tr><td class="ing">Fresh apple</td><td class="amt">30 ml</td></tr>
+          <tr><td class="ing">Shio koji</td><td class="amt">1 bar spoon</td></tr>
+          <tr><td class="ing">Lemon</td><td class="amt">20 ml</td></tr>
+        </table>
+        <p class="line"><span class="lbl">Method</span> Shake, fine strain into a coupe. Thin apple fan.</p>
+        <div class="chem"><span class="lbl">Why it works</span> Cassis &amp; apple bridge via <b>beta-damascenone</b> (0.25); the shio koji adds savoury depth that turns a fruity drink brooding. The miso move, aimed at a dark berry-orchard base.</div>
+        <div class="tags"><span class="pill body">Body — liqueur/koji</span><span class="pill">Damascenone + furaneol</span></div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- PATTERN SEEDS -->
+  <section class="section">
+    <div class="head"><h2>Pattern Seeds</h2><span class="rule"></span><span class="count">03</span></div>
+    <p class="intro">Fresh out of the web analysis — each rides one compound highway end to end. Starting points to riff on, all zero-gap.</p>
+    <div class="grid">
+
+      <article class="drink">
+        <p class="eyebrow">Furaneol trick · <span class="topo">woven</span></p>
+        <h3>Umami Tropical</h3>
+        <p class="descriptor">Savoury · Tropical · Bright</p>
+        <table class="spec">
+          <tr><td class="ing">Ocho Blanco</td><td class="amt">50 ml</td></tr>
+          <tr><td class="ing">Pineapple</td><td class="amt">30 ml</td></tr>
+          <tr><td class="ing">Strawberry</td><td class="amt">20 ml</td></tr>
+          <tr><td class="ing">Shio koji</td><td class="amt">1 bar spoon</td></tr>
+          <tr><td class="ing">Lime</td><td class="amt">15 ml</td></tr>
+        </table>
+        <p class="line"><span class="lbl">Method</span> Shake hard, fine strain over one rock or into a tiki mug on crushed. Pineapple leaf.</p>
+        <div class="chem"><span class="lbl">Why it works</span> Pineapple, strawberry, agave &amp; shio koji <em>all</em> share <b>furaneol</b> — a savoury tiki with no seams (avg 0.43, zero gaps).</div>
+        <div class="tags"><span class="pill body">Body OK</span><span class="pill">Furaneol highway</span></div>
+      </article>
+
+      <article class="drink">
+        <p class="eyebrow">Damascenone web · <span class="topo">woven</span></p>
+        <h3>Red Fortified</h3>
+        <p class="descriptor">Red · Opulent · Low-ABV</p>
+        <table class="spec">
+          <tr><td class="ing">H by Hine Cognac</td><td class="amt">30 ml</td></tr>
+          <tr><td class="ing">Toro Albalá 'Don PX'</td><td class="amt">20 ml</td></tr>
+          <tr><td class="ing">Ruby port</td><td class="amt">20 ml</td></tr>
+          <tr><td class="ing">Pomegranate</td><td class="amt">20 ml</td></tr>
+          <tr><td class="ing">Lemon</td><td class="amt">10 ml</td></tr>
+        </table>
+        <p class="line"><span class="lbl">Method</span> Stir over ice, strain over a block, or shake for a fuller version. Orange peel.</p>
+        <div class="chem"><span class="lbl">Why it works</span> Cognac, PX, port &amp; pomegranate all carry <b>beta-damascenone</b> — a deep-red, lower-ABV sipper that reads as one dried-fruit note (avg 0.43, zero gaps). Pure red-leather room.</div>
+        <div class="tags"><span class="pill body">Body — PX/port</span><span class="pill">Beta-damascenone highway</span></div>
+      </article>
+
+      <article class="drink">
+        <p class="eyebrow">Citrus-terpene ring · <span class="topo">woven</span></p>
+        <h3>Bergamot Citrus</h3>
+        <p class="descriptor">Citrus · Floral · Seamless</p>
+        <table class="spec">
+          <tr><td class="ing">Four Pillars Rare Dry Gin</td><td class="amt">45 ml</td></tr>
+          <tr><td class="ing">Italicus Rosolio di Bergamotto</td><td class="amt">20 ml</td></tr>
+          <tr><td class="ing">Lady Grey tea syrup</td><td class="amt">10 ml</td></tr>
+          <tr><td class="ing">Lemon</td><td class="amt">20 ml</td></tr>
+          <tr><td class="ing">Egg white</td><td class="amt"><em>optional</em></td></tr>
+        </table>
+        <p class="line"><span class="lbl">Method</span> Dry shake (if using egg), shake with ice, fine strain into a coupe. Lemon twist.</p>
+        <div class="chem"><span class="lbl">Why it works</span> Gin, Italicus, bergamot &amp; lemon all share <b>limonene / linalool</b> — a seamless Italicus sour (avg 0.42, zero gaps). Bergamot the aroma; the tea's tannin adds grip Cobber can't score.</div>
+        <div class="tags"><span class="pill fix">Body — syrup / egg</span><span class="pill">Limonene ring</span></div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- PREP -->
+  <section class="section">
+    <div class="head"><h2>Prep &amp; Infusions</h2><span class="rule"></span><span class="count">06</span></div>
+    <div class="grid">
+
+      <div class="prep">
+        <h3>Roasted Blood Orange Syrup <span class="kind">Syrup</span></h3>
+        <p><span class="lbl">Roast</span> Halve 4–5 blood oranges, dust with caster (or brown) sugar, 200 °C for 25–30 min until edges char.</p>
+        <p><span class="lbl">Syrup</span> Squeeze + scrape, strain to ~250 ml juice. Combine 1.5 : 1 sugar : juice (rich, for body), warm to dissolve — don't boil. Pinch of salt.</p>
+        <p><span class="lbl">Cardamom gomme</span> For Sanguine: dissolve gum arabic into the warm syrup for silky texture, and steep 2–3 crushed cardamom pods. Strain.</p>
+        <p><span class="lbl">Keeps</span> 2 wks plain; ~6–8 wks at 2:1 + a splash of cognac, bottled hot; indefinite frozen in cubes.</p>
+      </div>
+
+      <div class="prep">
+        <h3>Blood Orange Confit <span class="kind">Garnish + Syrup</span></h3>
+        <p><span class="lbl">Method</span> Slow-cook peeled segments in 1:1 syrup at a bare simmer 30–40 min until glossy and translucent.</p>
+        <p><span class="lbl">Use</span> Spoon syrup + a segment into the glass. Richer than the roasted syrup and edible.</p>
+        <p><span class="lbl">Keeps</span> Weeks to a couple of months, segments fully submerged in a sterile sealed jar.</p>
+      </div>
+
+      <div class="prep">
+        <h3>Cacao-Nib Cognac <span class="kind">Infusion</span></h3>
+        <p><span class="lbl">Method</span> 40 g roasted cacao nibs per 700 ml Hine. Room temp, 24–48 hr — taste from 24. Fine strain.</p>
+        <p><span class="lbl">Why</span> Chocolate as dry aroma, not sweetness — lets you cut the crème de cacao and keep the drink spirit-forward.</p>
+        <p><span class="lbl">Keeps</span> Shelf-stable for months once strained. Don't leave nibs in past 2 days (goes dusty).</p>
+      </div>
+
+      <div class="prep">
+        <h3>Earl Grey / Lady Grey Cognac <span class="kind">Infusion</span></h3>
+        <p><span class="lbl">Method</span> 1 heaped tbsp loose tea per 700 ml cognac, room temp. Taste from 30 min, pull by ~45. Strain at once.</p>
+        <p><span class="lbl">Why</span> Bergamot ties to blood orange; tea tannin adds a leathery grip (structure Cobber can't see — the aroma-only blind spot).</p>
+        <p><span class="lbl">Note</span> Over-steeping turns it harsh &amp; over-tannic. A brighter alternative to the cacao infusion.</p>
+      </div>
+
+      <div class="prep">
+        <h3>Lavender-Honey Syrup <span class="kind">Syrup</span></h3>
+        <p><span class="lbl">Method</span> Warm 100 g honey + 100 ml water (don't boil), off heat add 1 tbsp culinary lavender, steep 20 min, strain.</p>
+        <p><span class="lbl">Note</span> Go easy — over-steeped lavender turns soapy. Keeps ~2 wks refrigerated.</p>
+      </div>
+
+      <div class="prep">
+        <h3>Blood Orange / Loquat Shrub <span class="kind">Shrub</span></h3>
+        <p><span class="lbl">Method</span> Equal parts fruit + sugar, macerate 24 hr, add equal part vinegar (white wine or apple cider), rest 2–3 days, strain.</p>
+        <p><span class="lbl">Use</span> The bright, tangy body for the spritzes &amp; palomas — never in a spirit-forward stirred drink (the acid fights it).</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- DESIGN SYSTEM -->
+  <section class="section">
+    <div class="head"><h2>The System</h2><span class="rule"></span><span class="count">Ref</span></div>
+    <p class="intro">The rules that generate the drinks. Every coherent build rides at least one shared-compound highway.</p>
+    <div class="sys">
+      <table class="hwy">
+        <tr><td class="mol">limonene / linalool</td><td class="terr">citrus + floral</td><td class="who">all citrus, gin, Campari, Aperol, Montenegro, Italicus, bergamot, coriander seed, lavender</td></tr>
+        <tr><td class="mol">beta-damascenone</td><td class="terr">red berry / stone / grape</td><td class="who">strawberry, raspberry, cherry, apple, pear, apricot, pomegranate, blood orange, cognac, PX, port, pisco</td></tr>
+        <tr><td class="mol">vanillin</td><td class="terr">barrel / chocolate</td><td class="who">cognac, bourbon, aged rum, crème de cacao, Islay whisky, vanilla, coffee</td></tr>
+        <tr><td class="mol">eugenol</td><td class="terr">warm clove-spice</td><td class="who">cherry, cinnamon, clove, basil, allspice, riberry</td></tr>
+        <tr><td class="mol">furaneol</td><td class="terr">umami-sweet</td><td class="who">strawberry, pineapple, agave, miso, shio koji, maple, honey</td></tr>
+      </table>
+      <div class="topos">
+        <div class="topo-item"><b>Fully-woven</b><span>Every ingredient bridges every other — seamless, elegant, "one flavour." For aperitivos &amp; spritzes. (Sanguine, Umami Tropical, Red Fortified.)</span></div>
+        <div class="topo-item"><b>Hub-and-spoke</b><span>One anchor spirit ties disparate parts together — spirit-forward depth. For stirred sippers. (The Violet Leather — cognac is the hub.)</span></div>
+        <div class="topo-item"><b>Deliberate contrast</b><span>Ingredients that share nothing, on purpose — tension and drama. For a statement. (Ashes to Loquats — mezcal vs stone fruit.)</span></div>
+      </div>
+      <p style="margin:1.2rem 0 0;font-size:.9rem;color:var(--ink-soft)"><span style="font-family:var(--sans);text-transform:uppercase;letter-spacing:.13em;font-size:.56rem;font-weight:700;color:var(--ink-faint);margin-right:.5em">Keystones</span> Most connective bottles: <b style="color:var(--ink)">brandy</b> (on every highway), cherry / maraschino, coriander seed, Licor 43, crème de cassis.</p>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <em>Embers → scorched field → first fruit → love returns → the good life rebuilt.</em>
+    Bopp &amp; Tone · Ember &amp; After · Spring 2026 · scored by Cobber
+  </footer>
+
+</div>
