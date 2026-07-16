@@ -1720,5 +1720,30 @@
       "sweet": 0.55,
       "bitter": 0.15
     }
+  },
+  {
+    "id": "italicus",
+    "display_name": "Italicus Rosolio di Bergamotto",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "bergamot",
+      "lavender",
+      "gentian"
+    ],
+    "descriptors": [
+      "bergamot",
+      "floral",
+      "citrus",
+      "gentle bitter"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Italian bergamot rosolio. Full botanical bill is bergamot, cedro (citron), chamomile, lavender, gentian, yellow roses and melissa — modelled here via the three Cobber knows (bergamot, lavender, gentian), which carry the defining citrus-floral-bitter character. It effectively delivers the bergamot + lavender web nodes in one pour, plus a gentian bitterness that ties into the Campari/Montenegro axis. Chamomile/rose/citron/melissa not separately modelled.",
+    "source": "Italicus declared botanicals (bergamot, cedro, chamomile, lavender, gentian, yellow roses, melissa); compound profile derived from the bergamot/lavender/gentian botanicals (see those entries).",
+    "taste": {
+      "sweet": 0.6,
+      "bitter": 0.2
+    }
   }
 ]
