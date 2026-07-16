@@ -2039,5 +2039,28 @@
     "season": "sep-nov",
     "notes": "Distinct from sweet orange: keeps the limonene/linalool/octanal citrus base but adds a red-berry/floral layer. beta-damascenone carries the rose/berry/brambly/cherry character (the 'blood' note), beta-ionone the violet/hibiscus floral, decanal the rich peel aldehyde. This is what lets blood orange bridge into the berry, stone-fruit and grape families (cognac, PX/port, cherry, apricot, raspberry) that plain orange can't. AU season ~Sept-Nov (early spring); flagged provisional on the norisoprenoid assignment.",
     "source": "Flavour descriptor profile (Flavonomics: red berry, brambly, cherry-like, rosy, violic, apricoty, hibiscine over a limonene citrus base; documented port/raisin and vanilla synergies). Compound assignment: limonene/linalool/octanal from Citrus sinensis peel oil; beta-damascenone + beta-ionone (norisoprenoids) assigned to the red-berry/violet notes; decanal a documented blood-orange peel aldehyde. PROVISIONAL — norisoprenoid levels not GC-MS-verified for this entry."
+  },
+  {
+    "id": "bergamot",
+    "display_name": "Bergamot",
+    "type": "raw",
+    "role": "aromatic",
+    "compounds": [
+      "limonene",
+      "linalyl_acetate",
+      "linalool",
+      "gamma_terpinene",
+      "beta_pinene"
+    ],
+    "descriptors": [
+      "citrus",
+      "floral",
+      "tea",
+      "bergamot"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Citrus bergamia peel oil — the scent in Earl Grey / Lady Grey tea. Linalyl acetate + linalool give the floral-citrus signature (shared with lavender); limonene/beta-pinene/gamma-terpinene the bright citrus. Bridges blood orange (linalool/limonene), lavender (linalyl acetate) and the gin/amaro citrus family. NOTE: as a proxy for Earl Grey/Lady Grey it models only the bergamot AROMA — black tea's tannin/astringency (a real structural/leather contribution) is a non-volatile taste-active outside Cobber's aroma-only compound vocabulary.",
+    "source": "Citrus bergamia cold-pressed peel oil GC profiles (linalyl acetate ~30%, limonene ~30-40%, linalool ~10%, gamma-terpinene, beta-pinene); standard bergamot essential-oil composition."
   }
 ]
