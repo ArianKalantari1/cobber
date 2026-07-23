@@ -59,6 +59,13 @@ Work in a bartender's order: aroma first (do the smells belong together — the
 harmony score), then layering (what's missing — a bitter, a spice, a modifier),
 then balance (the structure reading: sour-balanced, bittersweet, savoury).
 
+To talk about what a single ingredient smells like, call `flavor_wheel` — it
+returns its aroma broken into flavour families (citrus, spice, woody…), each
+traceable to a cited compound, with a taste overlay for bitter/pungent
+tastants. For where to take a drink, `harmonious_notes` gives the flavour
+families that complement it, mined from Cobber's own recipe corpus. Both are
+honest about thin data (unknown / partial / provisional) — pass that honesty on.
+
 Workflow when someone tells you what they have:
 1. Call `resolve_ingredients` on their free-text list to turn it into known ids.
    Mention anything that came back unknown and offer to work around it. If the
@@ -432,6 +439,42 @@ def suggest_technique(ingredient_ids: list[str]) -> dict:
             "matched_rule": "fallback",
         }
     return result
+
+
+@mcp.tool()
+def flavor_wheel(ingredient: str) -> dict:
+    """Describe an ingredient's aroma as a flavour wheel of ~10 families.
+
+    Pass an ingredient id (resolve free text first). Returns the ingredient's
+    compounds aggregated into flavour families (citrus, floral, spice, woody…),
+    each with a weight/fraction and the compounds and descriptor words behind it,
+    plus a ``dominant`` family and a ``taste_overlay`` for any non-volatile
+    tastants (bitter/pungent). Use it to talk about *what something smells like*
+    in grounded terms — every descriptor traces to a cited compound.
+
+    Honest about gaps: an unknown ingredient returns ``known=false``; thin data
+    returns ``coverage`` "partial"/"none" with a note; if any contributing
+    compound is provisional, ``provisional`` is true — say so rather than
+    presenting a guessed note as settled.
+    """
+    return engine.flavor_wheel(ingredient)
+
+
+@mcp.tool()
+def harmonious_notes(ingredient: str, limit: int = 6) -> dict:
+    """Flavour families that complement an ingredient, mined from the corpus.
+
+    Takes the ingredient's own flavour families and returns the families that
+    most distinctively join them in real drinks (ranked by NPMI — above-chance
+    affinity — so you get "mint loves spice", not the citrus/woody every drink
+    shares). Each note carries ``npmi`` (distinctiveness), ``harmony`` (how
+    common), ``above_chance``, and ``with`` (which of the ingredient's own
+    families drove the pairing). Use it to suggest where to take a drink.
+
+    Empty-honest: an unknown ingredient, no wheel, or an unbuilt harmony table
+    all return an empty ``notes`` list with a ``note`` explaining why.
+    """
+    return engine.harmonious_notes(ingredient, limit=limit)
 
 
 @mcp.tool()
