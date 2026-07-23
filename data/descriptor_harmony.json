@@ -1,0 +1,418 @@
+{
+  "_meta": {
+    "description": "Flavour-family co-occurrence ('harmonious notes') mined from the recipe corpus.",
+    "generated_by": "scripts/compute_descriptor_harmony.py",
+    "source_corpus": "data/recipes_normalized.json (Cobber's own canon corpus)",
+    "npmi": "normalised PMI, co-occurrence above chance (per compute_npmi.py).",
+    "harmony": "log-scaled prevalence log1p(count)/log1p(max_count), 0..1 (per write_tradition.py).",
+    "recipes_used": 4586,
+    "pair_count": 45
+  },
+  "pairs": [
+    {
+      "pair": [
+        "citrus",
+        "woody_resinous"
+      ],
+      "count": 3768,
+      "npmi": 0.629946,
+      "harmony": 1.0
+    },
+    {
+      "pair": [
+        "floral",
+        "woody_resinous"
+      ],
+      "count": 3701,
+      "npmi": 0.264845,
+      "harmony": 0.997822
+    },
+    {
+      "pair": [
+        "citrus",
+        "floral"
+      ],
+      "count": 3578,
+      "npmi": 0.239348,
+      "harmony": 0.993718
+    },
+    {
+      "pair": [
+        "green_herbal",
+        "woody_resinous"
+      ],
+      "count": 3400,
+      "npmi": 0.222151,
+      "harmony": 0.987523
+    },
+    {
+      "pair": [
+        "citrus",
+        "green_herbal"
+      ],
+      "count": 3343,
+      "npmi": 0.274259,
+      "harmony": 0.985471
+    },
+    {
+      "pair": [
+        "floral",
+        "green_herbal"
+      ],
+      "count": 3301,
+      "npmi": 0.08092,
+      "harmony": 0.983936
+    },
+    {
+      "pair": [
+        "floral",
+        "fruity"
+      ],
+      "count": 3139,
+      "npmi": 0.152301,
+      "harmony": 0.977827
+    },
+    {
+      "pair": [
+        "fruity",
+        "woody_resinous"
+      ],
+      "count": 2898,
+      "npmi": -0.032296,
+      "harmony": 0.968129
+    },
+    {
+      "pair": [
+        "floral",
+        "sweet_creamy"
+      ],
+      "count": 2876,
+      "npmi": -0.012171,
+      "harmony": 0.967204
+    },
+    {
+      "pair": [
+        "sweet_creamy",
+        "woody_resinous"
+      ],
+      "count": 2793,
+      "npmi": -0.053075,
+      "harmony": 0.963649
+    },
+    {
+      "pair": [
+        "citrus",
+        "fruity"
+      ],
+      "count": 2773,
+      "npmi": -0.044466,
+      "harmony": 0.962776
+    },
+    {
+      "pair": [
+        "fruity",
+        "green_herbal"
+      ],
+      "count": 2738,
+      "npmi": 0.028764,
+      "harmony": 0.961235
+    },
+    {
+      "pair": [
+        "citrus",
+        "sweet_creamy"
+      ],
+      "count": 2633,
+      "npmi": -0.088269,
+      "harmony": 0.956488
+    },
+    {
+      "pair": [
+        "fruity",
+        "sweet_creamy"
+      ],
+      "count": 2569,
+      "npmi": 0.1004,
+      "harmony": 0.9535
+    },
+    {
+      "pair": [
+        "spice",
+        "woody_resinous"
+      ],
+      "count": 2527,
+      "npmi": 0.219439,
+      "harmony": 0.951499
+    },
+    {
+      "pair": [
+        "green_herbal",
+        "sweet_creamy"
+      ],
+      "count": 2527,
+      "npmi": -0.06821,
+      "harmony": 0.951499
+    },
+    {
+      "pair": [
+        "floral",
+        "spice"
+      ],
+      "count": 2447,
+      "npmi": 0.141484,
+      "harmony": 0.947594
+    },
+    {
+      "pair": [
+        "citrus",
+        "spice"
+      ],
+      "count": 2324,
+      "npmi": 0.121809,
+      "harmony": 0.941334
+    },
+    {
+      "pair": [
+        "green_herbal",
+        "spice"
+      ],
+      "count": 2293,
+      "npmi": 0.171768,
+      "harmony": 0.939704
+    },
+    {
+      "pair": [
+        "fruity",
+        "spice"
+      ],
+      "count": 2059,
+      "npmi": 0.1145,
+      "harmony": 0.926638
+    },
+    {
+      "pair": [
+        "mint_cooling",
+        "woody_resinous"
+      ],
+      "count": 2042,
+      "npmi": 0.152066,
+      "harmony": 0.925632
+    },
+    {
+      "pair": [
+        "floral",
+        "mint_cooling"
+      ],
+      "count": 2041,
+      "npmi": 0.14009,
+      "harmony": 0.925572
+    },
+    {
+      "pair": [
+        "citrus",
+        "mint_cooling"
+      ],
+      "count": 2014,
+      "npmi": 0.177567,
+      "harmony": 0.923956
+    },
+    {
+      "pair": [
+        "green_herbal",
+        "mint_cooling"
+      ],
+      "count": 2009,
+      "npmi": 0.234304,
+      "harmony": 0.923654
+    },
+    {
+      "pair": [
+        "mint_cooling",
+        "spice"
+      ],
+      "count": 1953,
+      "npmi": 0.62057,
+      "harmony": 0.920223
+    },
+    {
+      "pair": [
+        "spice",
+        "sweet_creamy"
+      ],
+      "count": 1903,
+      "npmi": 0.043025,
+      "harmony": 0.917075
+    },
+    {
+      "pair": [
+        "fruity",
+        "mint_cooling"
+      ],
+      "count": 1644,
+      "npmi": 0.070351,
+      "harmony": 0.899318
+    },
+    {
+      "pair": [
+        "mint_cooling",
+        "sweet_creamy"
+      ],
+      "count": 1489,
+      "npmi": -0.001706,
+      "harmony": 0.8873
+    },
+    {
+      "pair": [
+        "fruity",
+        "roasted_nutty"
+      ],
+      "count": 1029,
+      "npmi": 0.16202,
+      "harmony": 0.842463
+    },
+    {
+      "pair": [
+        "floral",
+        "roasted_nutty"
+      ],
+      "count": 942,
+      "npmi": -0.014877,
+      "harmony": 0.831746
+    },
+    {
+      "pair": [
+        "roasted_nutty",
+        "sweet_creamy"
+      ],
+      "count": 929,
+      "npmi": 0.103311,
+      "harmony": 0.83006
+    },
+    {
+      "pair": [
+        "roasted_nutty",
+        "woody_resinous"
+      ],
+      "count": 920,
+      "npmi": -0.023805,
+      "harmony": 0.828879
+    },
+    {
+      "pair": [
+        "green_herbal",
+        "roasted_nutty"
+      ],
+      "count": 875,
+      "npmi": -0.001384,
+      "harmony": 0.822796
+    },
+    {
+      "pair": [
+        "roasted_nutty",
+        "spice"
+      ],
+      "count": 837,
+      "npmi": 0.18584,
+      "harmony": 0.81741
+    },
+    {
+      "pair": [
+        "citrus",
+        "roasted_nutty"
+      ],
+      "count": 811,
+      "npmi": -0.073969,
+      "harmony": 0.813583
+    },
+    {
+      "pair": [
+        "mint_cooling",
+        "roasted_nutty"
+      ],
+      "count": 501,
+      "npmi": 0.003243,
+      "harmony": 0.755183
+    },
+    {
+      "pair": [
+        "savoury",
+        "sweet_creamy"
+      ],
+      "count": 277,
+      "npmi": 0.116736,
+      "harmony": 0.683414
+    },
+    {
+      "pair": [
+        "green_herbal",
+        "savoury"
+      ],
+      "count": 254,
+      "npmi": 0.046284,
+      "harmony": 0.672927
+    },
+    {
+      "pair": [
+        "roasted_nutty",
+        "savoury"
+      ],
+      "count": 202,
+      "npmi": 0.356256,
+      "harmony": 0.645232
+    },
+    {
+      "pair": [
+        "fruity",
+        "savoury"
+      ],
+      "count": 178,
+      "npmi": -0.043602,
+      "harmony": 0.629953
+    },
+    {
+      "pair": [
+        "savoury",
+        "woody_resinous"
+      ],
+      "count": 143,
+      "npmi": -0.152336,
+      "harmony": 0.603531
+    },
+    {
+      "pair": [
+        "floral",
+        "savoury"
+      ],
+      "count": 139,
+      "npmi": -0.161819,
+      "harmony": 0.60011
+    },
+    {
+      "pair": [
+        "citrus",
+        "savoury"
+      ],
+      "count": 136,
+      "npmi": -0.154014,
+      "harmony": 0.597479
+    },
+    {
+      "pair": [
+        "savoury",
+        "spice"
+      ],
+      "count": 99,
+      "npmi": -0.116988,
+      "harmony": 0.559249
+    },
+    {
+      "pair": [
+        "mint_cooling",
+        "savoury"
+      ],
+      "count": 50,
+      "npmi": -0.205069,
+      "harmony": 0.477478
+    }
+  ]
+}

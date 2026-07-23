@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "description": "Flavour-family buckets: each of the 71 odour descriptor words maps to exactly one of 10 families. The engine's flavor_wheel aggregates an ingredient's compound descriptors into these families. Taste-active classes (bitter/pungent) are a separate overlay, not odour families.",
+    "status": "Approved by Ari (bartender review, Phase 3 gate) — 10 families, as-is.",
+    "odor_family_count": 10,
+    "coverage": "all 71 odour descriptor words in compound_descriptors.json are assigned; no orphans."
+  },
+  "odor_families": {
+    "citrus":         ["citrus", "lemon", "orange", "grapefruit", "bergamot", "waxy", "soapy"],
+    "floral":         ["floral", "rose", "violet", "lavender", "lilac", "honey", "chamomile"],
+    "fruity":         ["fruity", "apple", "pineapple", "peach", "pear", "strawberry", "raspberry", "cherry", "grape"],
+    "green_herbal":   ["herbal", "green", "grassy", "fatty", "mushroom", "earthy", "oregano", "thyme", "celery", "hay", "terpene"],
+    "woody_resinous": ["woody", "pine", "resinous", "camphor", "eucalyptus", "medicinal"],
+    "spice":          ["spicy", "clove", "cinnamon", "nutmeg", "ginger", "peppery", "anise", "licorice", "balsamic", "caraway"],
+    "mint_cooling":   ["mint", "minty", "menthol", "peppermint", "cooling"],
+    "sweet_creamy":   ["sweet", "vanilla", "caramel", "maple", "creamy", "buttery", "coconut"],
+    "roasted_nutty":  ["roasted", "nutty", "bready", "coffee", "almond", "musty"],
+    "savoury":        ["savoury", "sulfury", "potato"]
+  },
+  "taste_overlay": {
+    "description": "Non-volatile tastants have no odour; they colour a wheel as a separate taste ring rather than an odour family.",
+    "classes": ["bitter", "pungent"]
+  }
+}
