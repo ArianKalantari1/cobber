@@ -74,9 +74,31 @@ failure the project forbids. So the enrichment ships as a two-step pipeline that
 lands real, attributed data with one command from an unblocked machine:
 
 ```
-python3 scripts/fetch_flavordb.py        # -> data/raw/flavordb_entities.json (entity->molecules + flavor_profile)
-python3 scripts/enrich_from_flavordb.py  # -> data/profile_enrichment.json (REVIEW proposal, human-approved)
+# from a machine WITH internet (your laptop, or an env with an open network policy):
+python3 scripts/fetch_flavordb.py               # -> data/raw/flavordb_entities.json
+python3 scripts/enrich_from_flavordb.py         # -> data/profile_enrichment.json (REVIEW proposal)
+#   ...read/trim the proposal, then:
+python3 scripts/enrich_from_flavordb.py --apply # writes into ingredients.json + descriptor stubs
+python3 scripts/compute_descriptor_harmony.py   # rebuild the harmony table
+python3 scripts/render_flavor_wheel.py          # rebuild the HTML
+python -m pytest tests/ -q                       # confirm green, then inspect `git diff` before committing
 ```
+
+**Coverage reality (why this isn't "100% of every ingredient"):** FlavorDB2 is a
+common-food database. It enriches citrus/fruit/herb/spice/veg raws — and every
+composite built on them, transitively, since composites derive from botanicals.
+It does NOT cover **Australian natives** (finger lime, wattleseed, lemon myrtle,
+pepperberry…), which have few/no FlavorDB entries and still need hand-curation
+from botanical literature (as they were first built), nor proprietary items
+(bitters, most liqueurs). The enrich step reports unmatched entities so the gap
+is visible, never hidden.
+
+The upgraded `enrich_from_flavordb.py`: fuzzy alias→ingredient matching (0.90
+accept / 0.80 review cutoffs, never coercing), auto descriptor stubs for new
+compounds (only the FlavorDB profile words that already map to a Cobber family,
+so the load cross-check stays satisfied; the rest are shelved for review), and an
+`--apply` mode that writes into the data files with the git diff as the review
+gate. Offline `--self-test` on both scripts.
 
 - `fetch_flavordb.py` pulls the per-entity JSON (`entities_json?id=N`), records
   license + citation in the dump's provenance, rate-limits, and **fails fast +
