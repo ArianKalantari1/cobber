@@ -77,6 +77,18 @@ python3 scripts/compute_descriptor_harmony.py # -> descriptor_harmony.json (fami
 python3 scripts/render_flavor_wheel.py        # -> flavor_wheel.html (self-contained visualiser)
 ```
 
+Profile enrichment (optional; FlavorDB2 is CC BY-NC-SA 3.0 — non-commercial use
+accepted for this project; run from an unblocked network):
+
+```
+python3 scripts/fetch_flavordb.py       # -> data/raw/flavordb_entities.json (entity->molecules + flavor_profile)
+python3 scripts/enrich_from_flavordb.py # -> data/profile_enrichment.json (REVIEW proposal; apply by hand)
+```
+
+The enrichment proposal is human-approved before touching `ingredients.json`;
+unmatched entities and unmappable molecule names are surfaced for review, never
+coerced onto an id.
+
 The flavour-family bucket map (`data/flavor_families.json`) is human-approved and
 edited by hand; `fetch_descriptors.py` cannot live-scrape in a blocked network,
 so it emits a curated, per-compound Flavornet-cited table (refresh path documented

@@ -61,11 +61,48 @@ standing build-time/human-approved pattern), NOT a live scrape.
 `fetch_descriptors.py` documents the refresh path (`webchem` per-CAS scheme,
 `flavornet.org/info/{CAS}.html`) for an unblocked environment.
 
+## Profile enrichment pipeline (FlavorDB2) — DONE as a runnable pipeline (23 July 2026)
+
+**NC decision:** Ari confirmed Cobber is **non-commercial** and accepts NC terms,
+so FlavorDB2 (CC BY-NC-SA 3.0) enrichment is in scope with attribution + ShareAlike.
+
+**Why a pipeline and not committed data:** the session that built this could not
+reach cosylab.iiitd.edu.in (egress 403, verified live). Fabricating compound
+lists from model memory was deliberately refused — compound *presence* feeds the
+harmony Jaccard directly, so a wrong compound is fabricated chemistry, the exact
+failure the project forbids. So the enrichment ships as a two-step pipeline that
+lands real, attributed data with one command from an unblocked machine:
+
+```
+python3 scripts/fetch_flavordb.py        # -> data/raw/flavordb_entities.json (entity->molecules + flavor_profile)
+python3 scripts/enrich_from_flavordb.py  # -> data/profile_enrichment.json (REVIEW proposal, human-approved)
+```
+
+- `fetch_flavordb.py` pulls the per-entity JSON (`entities_json?id=N`), records
+  license + citation in the dump's provenance, rate-limits, and **fails fast +
+  writes nothing** when the host is blocked (as it is here). Offline parse
+  self-test: `--self-test`.
+- `enrich_from_flavordb.py` proposes, per Cobber ingredient, extra compounds
+  FlavorDB lists for that food — each provisional + attributed — into a REVIEW
+  file, never editing ingredients.json directly. Guard-rails: molecule names that
+  don't normalise to a clean compound id, and FlavorDB entities that don't clearly
+  match a Cobber ingredient, go to review lists — **never coerced** (a stereo
+  prefix like "(R)-(+)-Limonene" is surfaced, not forced onto `limonene`). New
+  compounds come with FlavorDB `flavor_profile` words as *candidate* descriptors
+  to confirm against Flavornet before use.
+- **Apply step (Ari, by hand):** review `profile_enrichment.json`; add kept
+  compounds to `ingredients.json` with their source; add descriptor entries for
+  kept new compounds (confirm odour words vs Flavornet); re-run
+  `compute_descriptor_harmony.py` + `render_flavor_wheel.py`.
+
+FooDB (also NC, now in scope) is a candidate second enricher for concentrations;
+a `fetch_foodb.py` twin can follow the same pattern if the FlavorDB pass proves
+worth extending.
+
 ## Open items for Ari (this session)
 
-1. **NC-source decision.** If Cobber is non-commercial and you accept NC terms,
-   I can enrich ingredient compound profiles from FooDB/FlavorDB2 (more compounds
-   per ingredient → richer wheels). Held pending your call. Also worth a
+1. **Run the enrichment pipeline** from an unblocked machine (two commands above),
+   then review `data/profile_enrichment.json` before applying. Also worth a
    browser eyeball: the exact license badges on ChemTastesDB's Zenodo record and
    FooDB's About page (agents couldn't load them; findings rest on search snippets).
 2. **Verify the 16 provisional descriptors** against the live Flavornet page
