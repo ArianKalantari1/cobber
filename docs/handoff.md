@@ -1,8 +1,161 @@
 # Handoff — current state of the co-occurrence work
 
-*Updated 13 June 2026 (proportion templates + technique mining + preference layer + taste backfill — all merged to main).
+*Updated 23 July 2026 (sensory-descriptor layer: flavour wheels + harmonious
+notes + a self-contained HTML visualiser — on branch
+`claude/cobber-sensory-descriptors-bpeytg`, not yet merged).
 Supersedes the original Copilot handoff. Read `docs/cobber-design-notes.md`
 first for the project's thinking; this file is "where we are and what's next".*
+
+## Sensory-descriptor layer: DONE this session (23 July 2026)
+
+**What it is:** the flavour-wheel layer Cobber was missing — per-ingredient odour
+wheels plus a complementary "harmonious notes" table, reproducing what commercial
+sites (Flavonomics etc.) do, but from FREE upstream sources only.
+
+- **`data/compound_descriptors.json`** (built by `scripts/fetch_descriptors.py`):
+  all 71 aroma compounds → odour descriptor words, curated from **Flavornet**
+  Percepts and cited per compound by CAS; the 5 non-volatile taste-actives
+  (amarogentin, gentiopicroside → bitter; capsaicin, gingerol, polygodial →
+  pungent) carry a taste class cited to **ChemTastesDB** (cite-only). 16 entries
+  flagged PROVISIONAL where the Flavornet percept could not be confirmed against
+  the live site in the build environment (network-blocked — see below).
+- **`data/flavor_families.json`**: the 10-family bucket map Ari approved
+  (citrus, floral, fruity, green_herbal, woody_resinous, spice, mint_cooling,
+  sweet_creamy, roasted_nutty, savoury) + a bitter/pungent taste overlay. Every
+  one of the 71 descriptor words is assigned to exactly one family (load-time
+  cross-check raises on any orphan).
+- **`engine.flavor_wheel(id)`**: aggregates an ingredient's compounds into
+  families (weight = contributing-compound count), with honest coverage
+  (full/partial/none), provisional flagging, and the taste overlay. Unknown
+  ingredient → `known=false`, never a crash or a fake.
+- **`data/descriptor_harmony.json`** (built by
+  `scripts/compute_descriptor_harmony.py`): flavour-family co-occurrence mined
+  from Cobber's OWN recipe corpus (4,586 recipes) with the SAME NPMI +
+  log-prevalence machinery as tradition. `engine.harmonious_notes(id)` /
+  `harmonious_families(family)` rank complements by **NPMI** (above-chance
+  affinity) — so "mint loves spice" (+0.62, the julep/mojito axis) surfaces
+  instead of the ubiquitous citrus/woody every drink shares.
+- **MCP tools:** `flavor_wheel` and `harmonious_notes`; INSTRUCTIONS teach the
+  host to use them and to pass on their honesty about thin/provisional data.
+- **`data/flavor_wheel.html`** (built by `scripts/render_flavor_wheel.py`): a
+  SELF-CONTAINED page (no CDN/server/network) — donut of the 10 families per
+  ingredient, taste overlay, family proportion bars, and the harmonious-notes
+  table. 163 ingredients embedded; sources cited in the footer.
+- **Tests:** 15 new (`tests/test_flavor_wheel.py`); 66 total passing.
+
+**Phase 1 source due-diligence (5 agents; the license gate).** Ari greenlit
+Flavornet up front; the rest were verified before any use:
+
+| Source | License | Data fit | Decision |
+|---|---|---|---|
+| **Flavornet** (Acree & Arn) | No explicit license, but citable academic resource; EPA CompTox has a public-domain CAS mirror; `webchem` scrapes it as accepted practice | ✅ compound→odour descriptors (exactly right) | **USED** (Ari pre-approved; cite Acree & Arn) |
+| **ChemTastesDB** (Rojas et al. 2022) | Prior notes said CC BY 4.0 but agent found "freeware if cited" wording — UNVERIFIED (Zenodo blocked in-session) | ✅ compound→taste class | **USED cite-only** (taste-class labels are facts; paper cited; file not redistributed) |
+| **FooDB** (Wishart lab) | Custom **non-commercial** + attribution ("commercial needs permission"), not a formal CC deed | ✅ foods→compounds + descriptors + concentrations | **HELD** — NC; only needed for profile enrichment (not built). Awaiting Ari's non-commercial + NC-acceptable ruling |
+| **FlavorDB2** (Bagler lab) | Probable **CC BY-NC-SA 3.0** (NC + ShareAlike), UNVERIFIED | ✅ molecule→flavor_profile keywords | **HELD** — same as FooDB |
+| **FlavorGraph** (Park et al.) | Apache 2.0 (clean) | ❌ graph/embeddings, no descriptor words | **DROPPED** — clean but wrong data type |
+
+**Environment constraint that shaped the build:** this session's network cannot
+reach flavornet.org, foodb.ca, cosylab, or zenodo (403/Cloudflare/egress). So the
+descriptor map is a curated, per-compound Flavornet-CITED table (the project's
+standing build-time/human-approved pattern), NOT a live scrape.
+`fetch_descriptors.py` documents the refresh path (`webchem` per-CAS scheme,
+`flavornet.org/info/{CAS}.html`) for an unblocked environment.
+
+## Profile enrichment pipeline (FlavorDB2) — DONE as a runnable pipeline (23 July 2026)
+
+**NC decision:** Ari confirmed Cobber is **non-commercial** and accepts NC terms,
+so FlavorDB2 (CC BY-NC-SA 3.0) enrichment is in scope with attribution + ShareAlike.
+
+**Why a pipeline and not committed data:** the session that built this could not
+reach cosylab.iiitd.edu.in (egress 403, verified live). Fabricating compound
+lists from model memory was deliberately refused — compound *presence* feeds the
+harmony Jaccard directly, so a wrong compound is fabricated chemistry, the exact
+failure the project forbids. So the enrichment ships as a two-step pipeline that
+lands real, attributed data with one command from an unblocked machine:
+
+```
+# from a machine WITH internet (your laptop, or an env with an open network policy):
+python3 scripts/fetch_flavordb.py               # -> data/raw/flavordb_entities.json
+python3 scripts/enrich_from_flavordb.py         # -> data/profile_enrichment.json (REVIEW proposal)
+#   ...read/trim the proposal, then:
+python3 scripts/enrich_from_flavordb.py --apply # writes into ingredients.json + descriptor stubs
+python3 scripts/compute_descriptor_harmony.py   # rebuild the harmony table
+python3 scripts/render_flavor_wheel.py          # rebuild the HTML
+python -m pytest tests/ -q                       # confirm green, then inspect `git diff` before committing
+```
+
+**Coverage reality (why this isn't "100% of every ingredient"):** FlavorDB2 is a
+common-food database. It enriches citrus/fruit/herb/spice/veg raws — and every
+composite built on them, transitively, since composites derive from botanicals.
+It does NOT cover **Australian natives** (handled separately below — see the
+natives pass), nor proprietary items (bitters, most liqueurs). The enrich step
+reports unmatched entities so the gap is visible, never hidden.
+
+## Native enrichment — DONE this session (offline, cited, PROVISIONAL)
+
+The 15 Australian natives (Cobber's signature) were thin (2–4 compounds each) and
+FlavorDB has no entries for them, so they were hand-curated from published
+essential-oil / GC-MS composition studies via `scripts/enrich_natives.py`:
++39 documented aroma constituents across all 15, every one a compound already in
+Cobber's vocabulary (so it carries a cited descriptor — no orphans, no invented
+descriptors). Each addition is a characteristic constituent of that species
+(e.g. Tasmannia lanceolata's monoterpene base under its polygodial pungency;
+lemon myrtle's myrcene/limonene alongside citral). Wheels went from 2–3 families
+to 4–5 and read true (pepperberry woody+spice, wattleseed roasted-nutty, native
+river mint mint-dominant). **The whole pass is flagged PROVISIONAL** in each
+native's notes — Ari verifies against the cited studies and de-provisions per
+entry (same workflow as the taste-axis backfill). Re-runnable / idempotent.
+Remaining natives gap: none in the pantry; add new bush foods the same way.
+
+`enrich_from_flavordb.py` is deliberately **conservative** — FlavorDB lists every
+molecule ever detected in a food (dozens–hundreds, mostly trace/ubiquitous), and
+an early version that imported all of them (+8,882 links, +1,099 empty-descriptor
+stubs) flooded Cobber's curated profiles and broke the suite. The fixed policy:
+**known-vocabulary compounds only** (every addition already has a cited,
+family-mapped descriptor — no orphans, no foreign descriptor words), ranked
+**least-ubiquitous-first** and **capped at `--max-add` (default 6) per
+ingredient**, attributed to FlavorDB2 but **not** flagged provisional (it's a
+peer-reviewed DB, unlike the hand-curated natives). Guard-rail kept: fuzzy
+alias→ingredient matching (0.90 accept / 0.80 review), never coercing; out-of-vocab
+compounds and unmatched entities are counted and listed, never added. `--apply`
+writes into ingredients.json with the git diff as the review gate. Offline
+`--self-test` on both scripts. LICENSE: enriched data is a CC BY-NC-SA 3.0
+derivative — keep it attributed; note the ShareAlike license if the repo is public.
+
+- `fetch_flavordb.py` pulls the per-entity JSON (`entities_json?id=N`), records
+  license + citation in the dump's provenance, rate-limits, and **fails fast +
+  writes nothing** when the host is blocked (as it is here). Offline parse
+  self-test: `--self-test`.
+- `enrich_from_flavordb.py` proposes, per Cobber ingredient, extra compounds
+  FlavorDB lists for that food — each provisional + attributed — into a REVIEW
+  file, never editing ingredients.json directly. Guard-rails: molecule names that
+  don't normalise to a clean compound id, and FlavorDB entities that don't clearly
+  match a Cobber ingredient, go to review lists — **never coerced** (a stereo
+  prefix like "(R)-(+)-Limonene" is surfaced, not forced onto `limonene`). New
+  compounds come with FlavorDB `flavor_profile` words as *candidate* descriptors
+  to confirm against Flavornet before use.
+- **Apply step (Ari, by hand):** review `profile_enrichment.json`; add kept
+  compounds to `ingredients.json` with their source; add descriptor entries for
+  kept new compounds (confirm odour words vs Flavornet); re-run
+  `compute_descriptor_harmony.py` + `render_flavor_wheel.py`.
+
+FooDB (also NC, now in scope) is a candidate second enricher for concentrations;
+a `fetch_foodb.py` twin can follow the same pattern if the FlavorDB pass proves
+worth extending.
+
+## Open items for Ari (this session)
+
+1. **Run the enrichment pipeline** from an unblocked machine (two commands above),
+   then review `data/profile_enrichment.json` before applying. Also worth a
+   browser eyeball: the exact license badges on ChemTastesDB's Zenodo record and
+   FooDB's About page (agents couldn't load them; findings rest on search snippets).
+2. **Verify the 16 provisional descriptors** against the live Flavornet page
+   when convenient (run `fetch_descriptors.py`'s refresh path from an unblocked
+   box). They're flagged, not hidden — the wheel says "provisional" on the page.
+3. **Family map** is approved as-is; if your palate wants an 11th
+   fatty/aldehydic family (waxy/soapy/fatty currently fold into citrus/green),
+   it's a one-line edit to `flavor_families.json` + a rebuild.
+
 
 ## Status snapshot
 
@@ -24,7 +177,12 @@ first for the project's thinking; this file is "where we are and what's next".*
   (`src/cobber/preferences.py` → `~/.cobber/preferences.json`); learns only
   through verified taste-curated ingredients (25 learnable now after taste
   backfill; 33 more once Ari de-provisions composites.json).
-- **Tests:** 51 passing (`python -m pytest tests/ -q`).
+- **Tests:** 66 passing (`python -m pytest tests/ -q`) — +15 for the sensory layer.
+- **Sensory-descriptor layer (23 July 2026):** 71 compounds → cited odour/taste
+  descriptors (`data/compound_descriptors.json`), 10 approved flavour families
+  (`data/flavor_families.json`), `engine.flavor_wheel` + `harmonious_notes`,
+  corpus-mined family co-occurrence (`data/descriptor_harmony.json`), and a
+  self-contained `data/flavor_wheel.html`. See the section below.
 - **Flavour families:** 22 diagnostic clusters in `data/flavor_communities.json`
   that read like a bar menu (daiquiri/mojito family, martini family,
   after-dinner cream-coffee family, tiki, mulled-wine spices…).

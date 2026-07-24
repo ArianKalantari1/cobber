@@ -37,6 +37,18 @@ files — no LLM calls, no network, no database at runtime.
 - `data/recipes_components.json` — per-drink literal/implied/muted components
   (audit trail for the decomposition).
 - `data/flavor_communities.json` — diagnostic flavour-family clusters.
+- `data/compound_descriptors.json` — compound → odour descriptor words (curated
+  from Flavornet, cited per CAS) + taste class for non-volatile tastants
+  (ChemTastesDB, cite-only). Provisional entries flagged. Built by
+  `scripts/fetch_descriptors.py`.
+- `data/flavor_families.json` — the approved 10-family bucket map (every
+  descriptor word → exactly one family) + bitter/pungent taste overlay. Read by
+  `engine.flavor_wheel`.
+- `data/descriptor_harmony.json` — flavour-family co-occurrence ("harmonious
+  notes") mined from the recipe corpus with the tradition NPMI machinery. Built
+  by `scripts/compute_descriptor_harmony.py`; read by `engine.harmonious_notes`.
+- `data/flavor_wheel.html` — self-contained (no network) wheel + harmonious-notes
+  visualiser. Built by `scripts/render_flavor_wheel.py`.
 - `data/frontier_evidence.json` — pairings from the frontier corpus (craft
   bartenders, competitions) with attribution. Deliberately NOT in tradition:
   validated-novel evidence, not canon.
@@ -56,6 +68,31 @@ python3 scripts/write_tradition.py    # -> tradition.json
 python3 scripts/flavor_communities.py # -> flavor_communities.json (diagnostic)
 python3 scripts/render_graph.py       # -> flavor_graph.html (interactive picture)
 ```
+
+Sensory-descriptor layer (offline; outputs committed):
+
+```
+python3 scripts/fetch_descriptors.py          # -> compound_descriptors.json (Flavornet/ChemTastesDB, cited)
+python3 scripts/compute_descriptor_harmony.py # -> descriptor_harmony.json (family co-occurrence, NPMI)
+python3 scripts/render_flavor_wheel.py        # -> flavor_wheel.html (self-contained visualiser)
+```
+
+Profile enrichment (optional; FlavorDB2 is CC BY-NC-SA 3.0 — non-commercial use
+accepted for this project; run from an unblocked network):
+
+```
+python3 scripts/fetch_flavordb.py       # -> data/raw/flavordb_entities.json (entity->molecules + flavor_profile)
+python3 scripts/enrich_from_flavordb.py # -> data/profile_enrichment.json (REVIEW proposal; apply by hand)
+```
+
+The enrichment proposal is human-approved before touching `ingredients.json`;
+unmatched entities and unmappable molecule names are surfaced for review, never
+coerced onto an id.
+
+The flavour-family bucket map (`data/flavor_families.json`) is human-approved and
+edited by hand; `fetch_descriptors.py` cannot live-scrape in a blocked network,
+so it emits a curated, per-compound Flavornet-cited table (refresh path documented
+in the script for an unblocked environment).
 
 Canon dedupe priority: hand-curated craft > IBA > Difford's > Mr. Boston > TheCocktailDB.
 Frontier corpora (Hotaling, Kindred) feed data/frontier_evidence.json, not tradition.

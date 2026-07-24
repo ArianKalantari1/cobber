@@ -92,6 +92,19 @@ class Pantry:
     # has_egg_white, ...) to a method (shake/stir/build), service style, glass, and
     # optional pre-steps (dry_shake, muddle). PROVISIONAL — Ari to review.
     technique_rules: list[dict] = field(default_factory=list)
+    # Sensory-descriptor layer (build-time, cited). compound_descriptors maps each
+    # aroma compound id -> {"odor": [...words], "taste_class": str|None,
+    # "provisional": bool, "source": str, ...}. descriptor_word_to_family and
+    # taste_overlay come from the approved flavour-family map. See
+    # data/compound_descriptors.json and data/flavor_families.json.
+    compound_descriptors: dict[str, dict] = field(default_factory=dict)
+    odor_families: dict[str, list[str]] = field(default_factory=dict)
+    descriptor_word_to_family: dict[str, str] = field(default_factory=dict)
+    taste_overlay_classes: tuple[str, ...] = ()
+    # Descriptor-family co-occurrence, mined from the recipe corpus with the same
+    # NPMI/log-prevalence machinery as tradition. Keyed by an unordered family
+    # pair -> {"count", "npmi", "harmony"}. See data/descriptor_harmony.json.
+    descriptor_harmony: dict[frozenset[str], dict] = field(default_factory=dict)
 
     def get(self, ingredient_id: str) -> Ingredient | None:
         """Return the ingredient with this id, or ``None`` if it is unknown."""
@@ -233,7 +246,77 @@ def load_pantry() -> Pantry:
             technique_data = json.load(handle)
         pantry.technique_rules = technique_data.get("rules", [])
 
+    # Pass 7: compound descriptors + flavour families (the sensory layer). Loaded
+    # together and cross-checked: every descriptor word a compound carries must
+    # belong to a known family, or the wheel would silently drop it.
+    _load_descriptor_layer(pantry)
+
+    # Pass 8: descriptor-family co-occurrence, if the build script has run.
+    harmony_path = DATA_DIR / "descriptor_harmony.json"
+    if harmony_path.exists():
+        with harmony_path.open(encoding="utf-8") as handle:
+            for row in json.load(handle).get("pairs", []):
+                pair = row.get("pair")
+                if isinstance(pair, list) and len(pair) == 2:
+                    pantry.descriptor_harmony[frozenset(pair)] = {
+                        "count": int(row.get("count", 0)),
+                        "npmi": float(row.get("npmi", 0.0)),
+                        "harmony": float(row.get("harmony", 0.0)),
+                    }
+
     return pantry
+
+
+def _load_descriptor_layer(pantry: Pantry) -> None:
+    """Load compound_descriptors.json + flavor_families.json into the pantry.
+
+    Both are optional (older data snapshots predate the sensory layer), but if
+    the families file is present, every descriptor word used by a compound must
+    map to a family — an unmapped word is a data error, not something to drop
+    silently, so we raise. Descriptor entries for compounds no ingredient uses
+    are tolerated.
+    """
+    families_path = DATA_DIR / "flavor_families.json"
+    descriptors_path = DATA_DIR / "compound_descriptors.json"
+
+    if families_path.exists():
+        with families_path.open(encoding="utf-8") as handle:
+            families_data = json.load(handle)
+        odor_families = families_data.get("odor_families", {})
+        word_to_family: dict[str, str] = {}
+        for family, words in odor_families.items():
+            for word in words:
+                if word in word_to_family and word_to_family[word] != family:
+                    raise ValueError(
+                        f"Descriptor word {word!r} is assigned to two families "
+                        f"({word_to_family[word]!r} and {family!r}); each word "
+                        "must map to exactly one family."
+                    )
+                word_to_family[word] = family
+        pantry.odor_families = odor_families
+        pantry.descriptor_word_to_family = word_to_family
+        pantry.taste_overlay_classes = tuple(
+            families_data.get("taste_overlay", {}).get("classes", [])
+        )
+
+    if descriptors_path.exists():
+        with descriptors_path.open(encoding="utf-8") as handle:
+            descriptors_data = json.load(handle)
+        pantry.compound_descriptors = descriptors_data.get("compounds", {})
+
+        # Cross-check: every odour word a compound carries must have a family.
+        if pantry.descriptor_word_to_family:
+            unmapped: set[str] = set()
+            for record in pantry.compound_descriptors.values():
+                for word in record.get("odor", []):
+                    if word not in pantry.descriptor_word_to_family:
+                        unmapped.add(word)
+            if unmapped:
+                raise ValueError(
+                    f"{len(unmapped)} descriptor word(s) used by compounds are not "
+                    f"in any flavour family: {sorted(unmapped)}. Add them to "
+                    "data/flavor_families.json."
+                )
 
 
 def _is_provisional(entry: dict) -> bool:

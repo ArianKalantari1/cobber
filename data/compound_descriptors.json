@@ -1,0 +1,787 @@
+{
+  "_meta": {
+    "description": "Compound -> sensory descriptors (odour words + taste class), curated and cited.",
+    "generated_by": "scripts/fetch_descriptors.py",
+    "odor_source": "Flavornet — Acree, T. & Arn, H. (2004) Flavornet and Human Odor Space, flavornet.org; Arn & Acree (1998) Dev. Food Sci. 40:27. Odour words condensed from per-compound 'Percepts'.",
+    "taste_source": "ChemTastesDB — Rojas et al. (2022) Food Chem: Mol Sci 4:100090 (doi:10.1016/j.fochms.2022.100090). Used cite-only for taste-class labels of non-volatile tastants; database file not redistributed.",
+    "honesty_note": "Curated build-time table (the site could not be scraped in the build environment). Entries flagged 'provisional' could not be confirmed against the live Flavornet page in-session; verify before public claims.",
+    "refresh": "In an unblocked environment, verify/refresh via the rOpenSci webchem scheme: GET http://www.flavornet.org/info/{CAS}.html and read the 'Percepts' field. See refresh_from_flavornet() below.",
+    "compound_count": 71,
+    "provisional_count": 16,
+    "extra_not_in_vocab": []
+  },
+  "compounds": {
+    "1_octen_3_ol": {
+      "cas": "3391-86-4",
+      "odor": [
+        "mushroom",
+        "earthy",
+        "green"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 3391-86-4"
+    },
+    "2_acetylpyrrole": {
+      "cas": "1072-83-9",
+      "odor": [
+        "nutty",
+        "musty",
+        "bready"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 1072-83-9"
+    },
+    "2_furfurylthiol": {
+      "cas": "98-02-2",
+      "odor": [
+        "roasted",
+        "coffee",
+        "sulfury"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 98-02-2"
+    },
+    "allyl_hexanoate": {
+      "cas": "123-68-2",
+      "odor": [
+        "fruity",
+        "pineapple"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 123-68-2"
+    },
+    "alpha_pinene": {
+      "cas": "80-56-8",
+      "odor": [
+        "pine",
+        "woody",
+        "resinous"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 80-56-8"
+    },
+    "amarogentin": {
+      "cas": "21018-84-8",
+      "odor": [],
+      "taste_class": "bitter",
+      "provisional": false,
+      "source": "ChemTastesDB (Rojas et al. 2022, doi:10.1016/j.fochms.2022.100090); taste class for CAS 21018-84-8",
+      "note": "Gentian secoiridoid; one of the most bitter substances known. Not an aroma compound."
+    },
+    "anethole": {
+      "cas": "104-46-1",
+      "odor": [
+        "anise",
+        "licorice",
+        "sweet"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 104-46-1"
+    },
+    "benzaldehyde": {
+      "cas": "100-52-7",
+      "odor": [
+        "almond",
+        "cherry",
+        "nutty"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 100-52-7"
+    },
+    "beta_caryophyllene": {
+      "cas": "87-44-5",
+      "odor": [
+        "woody",
+        "spicy",
+        "peppery"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 87-44-5"
+    },
+    "beta_damascenone": {
+      "cas": "23726-93-4",
+      "odor": [
+        "fruity",
+        "apple",
+        "honey",
+        "floral"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 23726-93-4"
+    },
+    "beta_ionone": {
+      "cas": "14901-07-6",
+      "odor": [
+        "floral",
+        "violet",
+        "fruity"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 14901-07-6"
+    },
+    "beta_phellandrene": {
+      "cas": "555-10-2",
+      "odor": [
+        "mint",
+        "citrus",
+        "terpene"
+      ],
+      "taste_class": null,
+      "provisional": true,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 555-10-2",
+      "note": "Flavornet percept terse ('mint/terpene'); peppery facet is bartender-observed."
+    },
+    "beta_pinene": {
+      "cas": "127-91-3",
+      "odor": [
+        "pine",
+        "woody",
+        "resinous"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 127-91-3"
+    },
+    "camphor": {
+      "cas": "76-22-2",
+      "odor": [
+        "camphor",
+        "medicinal",
+        "woody"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 76-22-2"
+    },
+    "capsaicin": {
+      "cas": "404-86-4",
+      "odor": [],
+      "taste_class": "pungent",
+      "provisional": true,
+      "source": "ChemTastesDB (Rojas et al. 2022, doi:10.1016/j.fochms.2022.100090); taste class for CAS 404-86-4",
+      "note": "Chemesthetic pungency (TRPV1), not one of the 5 basic tastes; label kept as 'pungent'."
+    },
+    "carvacrol": {
+      "cas": "499-75-2",
+      "odor": [
+        "spicy",
+        "herbal",
+        "oregano"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 499-75-2"
+    },
+    "carvone": {
+      "cas": "99-49-0",
+      "odor": [
+        "mint",
+        "caraway",
+        "herbal"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 99-49-0",
+      "note": "Two enantiomers: (R) spearmint, (S) caraway."
+    },
+    "chamazulene": {
+      "cas": "529-05-5",
+      "odor": [
+        "herbal",
+        "chamomile"
+      ],
+      "taste_class": null,
+      "provisional": true,
+      "source": "Curated from published organoleptic literature / bartender knowledge",
+      "note": "Blue chamomile sesquiterpene; off-Flavornet, descriptors from general lit."
+    },
+    "cinnamaldehyde": {
+      "cas": "104-55-2",
+      "odor": [
+        "cinnamon",
+        "spicy",
+        "sweet"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 104-55-2"
+    },
+    "citral": {
+      "cas": "5392-40-5",
+      "odor": [
+        "citrus",
+        "lemon"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 5392-40-5"
+    },
+    "coumarin": {
+      "cas": "91-64-5",
+      "odor": [
+        "sweet",
+        "hay",
+        "vanilla"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 91-64-5"
+    },
+    "decanal": {
+      "cas": "112-31-2",
+      "odor": [
+        "citrus",
+        "waxy",
+        "soapy"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 112-31-2"
+    },
+    "delta_decalactone": {
+      "cas": "705-86-2",
+      "odor": [
+        "creamy",
+        "coconut",
+        "peach"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 705-86-2"
+    },
+    "diacetyl": {
+      "cas": "431-03-8",
+      "odor": [
+        "buttery",
+        "creamy"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 431-03-8"
+    },
+    "dodecanal": {
+      "cas": "112-54-9",
+      "odor": [
+        "citrus",
+        "waxy",
+        "soapy"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 112-54-9"
+    },
+    "estragole": {
+      "cas": "140-67-0",
+      "odor": [
+        "anise",
+        "licorice",
+        "sweet"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 140-67-0"
+    },
+    "ethyl_2_methylbutyrate": {
+      "cas": "7452-79-1",
+      "odor": [
+        "fruity",
+        "apple"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 7452-79-1"
+    },
+    "ethyl_butyrate": {
+      "cas": "105-54-4",
+      "odor": [
+        "fruity",
+        "apple",
+        "pineapple"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 105-54-4"
+    },
+    "ethyl_decadienoate": {
+      "cas": "3025-30-7",
+      "odor": [
+        "fruity",
+        "pear"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 3025-30-7"
+    },
+    "eucalyptol": {
+      "cas": "470-82-6",
+      "odor": [
+        "eucalyptus",
+        "mint",
+        "camphor"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 470-82-6"
+    },
+    "eugenol": {
+      "cas": "97-53-0",
+      "odor": [
+        "clove",
+        "spicy",
+        "woody"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 97-53-0"
+    },
+    "furaneol": {
+      "cas": "3658-77-3",
+      "odor": [
+        "caramel",
+        "sweet",
+        "strawberry"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 3658-77-3"
+    },
+    "furfural": {
+      "cas": "98-01-1",
+      "odor": [
+        "bready",
+        "almond",
+        "sweet"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 98-01-1"
+    },
+    "gamma_decalactone": {
+      "cas": "706-14-9",
+      "odor": [
+        "fruity",
+        "peach",
+        "creamy"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 706-14-9"
+    },
+    "gamma_terpinene": {
+      "cas": "99-85-4",
+      "odor": [
+        "citrus",
+        "terpene",
+        "herbal"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 99-85-4"
+    },
+    "gentiopicroside": {
+      "cas": "20831-76-9",
+      "odor": [],
+      "taste_class": "bitter",
+      "provisional": false,
+      "source": "ChemTastesDB (Rojas et al. 2022, doi:10.1016/j.fochms.2022.100090); taste class for CAS 20831-76-9",
+      "note": "Gentian secoiridoid glycoside; bitter principle. Not an aroma compound."
+    },
+    "geraniol": {
+      "cas": "106-24-1",
+      "odor": [
+        "floral",
+        "rose",
+        "citrus"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 106-24-1"
+    },
+    "gingerol": {
+      "cas": "23513-14-6",
+      "odor": [],
+      "taste_class": "pungent",
+      "provisional": true,
+      "source": "ChemTastesDB (Rojas et al. 2022, doi:10.1016/j.fochms.2022.100090); taste class for CAS 23513-14-6",
+      "note": "6-gingerol; chemesthetic warmth/pungency rather than a basic taste."
+    },
+    "hexanal": {
+      "cas": "66-25-1",
+      "odor": [
+        "green",
+        "grassy",
+        "fatty"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 66-25-1"
+    },
+    "hexyl_acetate": {
+      "cas": "142-92-7",
+      "odor": [
+        "fruity",
+        "apple",
+        "green"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 142-92-7"
+    },
+    "hexyl_butyrate": {
+      "cas": "2639-63-6",
+      "odor": [
+        "fruity",
+        "apple",
+        "green"
+      ],
+      "taste_class": null,
+      "provisional": true,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 2639-63-6",
+      "note": "Green-apple ester; Flavornet percept not confirmed in-session."
+    },
+    "ionone": {
+      "cas": "127-41-3",
+      "odor": [
+        "floral",
+        "violet",
+        "fruity"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 127-41-3"
+    },
+    "irone": {
+      "cas": "79-69-6",
+      "odor": [
+        "floral",
+        "violet",
+        "woody"
+      ],
+      "taste_class": null,
+      "provisional": true,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 79-69-6",
+      "note": "Orris/violet ketone; Flavornet listing not confirmed in-session."
+    },
+    "isomenthone": {
+      "cas": "491-07-6",
+      "odor": [
+        "mint",
+        "minty"
+      ],
+      "taste_class": null,
+      "provisional": true,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 491-07-6",
+      "note": "Menthone isomer; Flavornet listing not confirmed in-session."
+    },
+    "limonene": {
+      "cas": "5989-27-5",
+      "odor": [
+        "citrus",
+        "orange"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 5989-27-5"
+    },
+    "linalool": {
+      "cas": "78-70-6",
+      "odor": [
+        "floral",
+        "lavender",
+        "citrus"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 78-70-6"
+    },
+    "linalyl_acetate": {
+      "cas": "115-95-7",
+      "odor": [
+        "floral",
+        "lavender",
+        "bergamot"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 115-95-7"
+    },
+    "menthol": {
+      "cas": "89-78-1",
+      "odor": [
+        "mint",
+        "cooling",
+        "peppermint"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 89-78-1"
+    },
+    "menthone": {
+      "cas": "89-80-5",
+      "odor": [
+        "mint",
+        "minty"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 89-80-5"
+    },
+    "methional": {
+      "cas": "3268-49-3",
+      "odor": [
+        "savoury",
+        "potato",
+        "sulfury"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 3268-49-3"
+    },
+    "methyl_anthranilate": {
+      "cas": "134-20-3",
+      "odor": [
+        "fruity",
+        "grape",
+        "floral"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 134-20-3"
+    },
+    "methyl_cinnamate": {
+      "cas": "103-26-4",
+      "odor": [
+        "fruity",
+        "strawberry",
+        "balsamic"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 103-26-4"
+    },
+    "myrcene": {
+      "cas": "123-35-3",
+      "odor": [
+        "herbal",
+        "resinous",
+        "citrus"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 123-35-3"
+    },
+    "myristicin": {
+      "cas": "607-91-0",
+      "odor": [
+        "nutmeg",
+        "spicy",
+        "woody"
+      ],
+      "taste_class": null,
+      "provisional": true,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 607-91-0",
+      "note": "Nutmeg ether; Flavornet listing not confirmed in-session."
+    },
+    "nerol_oxide": {
+      "cas": "1786-08-9",
+      "odor": [
+        "floral",
+        "citrus",
+        "green"
+      ],
+      "taste_class": null,
+      "provisional": true,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 1786-08-9",
+      "note": "Flavornet coverage uncertain; descriptors from general lit (green-floral rose-oxide relative)."
+    },
+    "nootkatone": {
+      "cas": "4674-50-4",
+      "odor": [
+        "citrus",
+        "grapefruit",
+        "woody"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 4674-50-4"
+    },
+    "octanal": {
+      "cas": "124-13-0",
+      "odor": [
+        "citrus",
+        "green",
+        "waxy"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 124-13-0"
+    },
+    "phenylacetaldehyde": {
+      "cas": "122-78-1",
+      "odor": [
+        "floral",
+        "honey",
+        "rose"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 122-78-1"
+    },
+    "polygodial": {
+      "cas": "6754-20-7",
+      "odor": [],
+      "taste_class": "pungent",
+      "provisional": true,
+      "source": "Curated from published organoleptic literature / bartender knowledge",
+      "note": "Native pepperberry (Tasmannia) sesquiterpene dialdehyde; hot/pungent. Off-database; bartender/lit knowledge."
+    },
+    "pyrazine": {
+      "cas": "290-37-9",
+      "odor": [
+        "roasted",
+        "nutty",
+        "earthy"
+      ],
+      "taste_class": null,
+      "provisional": true,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 290-37-9",
+      "note": "Parent pyrazine is faint; roast/nut facet is the alkylpyrazine family it stands in for."
+    },
+    "raspberry_ketone": {
+      "cas": "5471-51-2",
+      "odor": [
+        "fruity",
+        "raspberry",
+        "sweet"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 5471-51-2"
+    },
+    "rose_oxide": {
+      "cas": "16409-43-1",
+      "odor": [
+        "floral",
+        "rose",
+        "green"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 16409-43-1"
+    },
+    "sabinene": {
+      "cas": "3387-41-5",
+      "odor": [
+        "woody",
+        "peppery",
+        "terpene"
+      ],
+      "taste_class": null,
+      "provisional": true,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 3387-41-5",
+      "note": "Peppery-terpene; Flavornet percept terse."
+    },
+    "sedanolide": {
+      "cas": "6415-59-4",
+      "odor": [
+        "celery",
+        "herbal",
+        "green"
+      ],
+      "taste_class": null,
+      "provisional": true,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 6415-59-4",
+      "note": "Celery phthalide (aroma-active, not a tastant); Flavornet listing not confirmed in-session."
+    },
+    "sotolon": {
+      "cas": "28664-35-9",
+      "odor": [
+        "caramel",
+        "maple",
+        "savoury"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 28664-35-9"
+    },
+    "terpineol": {
+      "cas": "98-55-5",
+      "odor": [
+        "floral",
+        "pine",
+        "lilac"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 98-55-5"
+    },
+    "terpinyl_acetate": {
+      "cas": "80-26-2",
+      "odor": [
+        "floral",
+        "herbal",
+        "bergamot"
+      ],
+      "taste_class": null,
+      "provisional": true,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 80-26-2",
+      "note": "Bergamot/herbal from lit; Flavornet percept not confirmed in-session."
+    },
+    "thujone": {
+      "cas": "546-80-5",
+      "odor": [
+        "herbal",
+        "menthol",
+        "woody"
+      ],
+      "taste_class": null,
+      "provisional": true,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 546-80-5",
+      "note": "Wormwood ketone; cedar/menthol facets from lit."
+    },
+    "thymol": {
+      "cas": "89-83-8",
+      "odor": [
+        "herbal",
+        "thyme",
+        "medicinal"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 89-83-8"
+    },
+    "vanillin": {
+      "cas": "121-33-5",
+      "odor": [
+        "vanilla",
+        "sweet",
+        "creamy"
+      ],
+      "taste_class": null,
+      "provisional": false,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 121-33-5"
+    },
+    "zingiberene": {
+      "cas": "495-60-3",
+      "odor": [
+        "spicy",
+        "ginger",
+        "woody"
+      ],
+      "taste_class": null,
+      "provisional": true,
+      "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 495-60-3",
+      "note": "Fresh-ginger sesquiterpene; Flavornet listing not confirmed in-session."
+    }
+  }
+}

@@ -220,6 +220,246 @@ def balance(ingredient_ids: list[str]) -> dict:
 
 
 # ---------------------------------------------------------------------------
+# Sensory-descriptor layer: flavour wheel + harmonious notes
+# ---------------------------------------------------------------------------
+
+
+def _descriptor_record(compound_id: str) -> dict | None:
+    """Return the sensory-descriptor record for one compound id, or None."""
+    return PANTRY.compound_descriptors.get(compound_id)
+
+
+def flavor_wheel(ingredient_id: str) -> dict:
+    """Return an ingredient's flavour wheel: its compounds aggregated into families.
+
+    Each compound of the ingredient carries a small set of odour descriptor words
+    (curated from Flavornet, cited in ``data/compound_descriptors.json``); those
+    words are bucketed into the ten approved flavour families. A family's weight is
+    the number of the ingredient's compounds that carry a descriptor in it, so the
+    wheel reads as "how much of this ingredient's chemistry points at citrus, at
+    spice, at woody…". Non-volatile tastants (bitter/pungent) have no odour and are
+    reported in a separate ``taste_overlay`` rather than faked into an odour family.
+
+    Honest about gaps: an unknown ingredient returns ``known=False``; a known
+    ingredient with no described compounds returns empty families with
+    ``coverage="none"``. If any contributing compound is provisional, the wheel
+    says so — it never presents a guessed descriptor as settled.
+
+    Returns::
+
+        {
+          "ingredient": id, "display_name": str, "known": bool,
+          "n_compounds": int, "n_described": int, "coverage": "full|partial|none",
+          "families": [ {"family", "weight", "fraction", "compounds": [...],
+                         "words": [...]} ],  # sorted, strongest first
+          "dominant": family|None,
+          "taste_overlay": [ {"class", "compounds": [...]} ],
+          "provisional": bool, "provisional_compounds": [...],
+          "note": str|None,
+        }
+    """
+    ingredient = PANTRY.get(ingredient_id)
+    if ingredient is None:
+        return {
+            "ingredient": ingredient_id,
+            "known": False,
+            "families": [],
+            "dominant": None,
+            "taste_overlay": [],
+            "coverage": "none",
+            "note": f"Unknown ingredient {ingredient_id!r}; no flavour wheel.",
+        }
+
+    compounds = sorted(profile(ingredient_id))
+    word_to_family = PANTRY.descriptor_word_to_family
+
+    family_compounds: dict[str, set[str]] = {}
+    family_words: dict[str, set[str]] = {}
+    taste_actives: dict[str, set[str]] = {}
+    provisional_compounds: list[str] = []
+    described: set[str] = set()
+
+    for compound_id in compounds:
+        record = _descriptor_record(compound_id)
+        if record is None:
+            continue
+        odor = record.get("odor", [])
+        taste_class = record.get("taste_class")
+        if odor or taste_class:
+            described.add(compound_id)
+        if record.get("provisional"):
+            provisional_compounds.append(compound_id)
+        for word in odor:
+            family = word_to_family.get(word)
+            if family is None:
+                continue  # guarded against at load time, belt-and-braces here
+            family_compounds.setdefault(family, set()).add(compound_id)
+            family_words.setdefault(family, set()).add(word)
+        if taste_class:
+            taste_actives.setdefault(taste_class, set()).add(compound_id)
+
+    total_weight = sum(len(cs) for cs in family_compounds.values())
+    families: list[dict] = []
+    for family, cs in family_compounds.items():
+        families.append(
+            {
+                "family": family,
+                "weight": len(cs),
+                "fraction": round(len(cs) / total_weight, 3) if total_weight else 0.0,
+                "compounds": sorted(cs),
+                "words": sorted(family_words.get(family, set())),
+            }
+        )
+    # Strongest family first; ties broken alphabetically for stable output.
+    families.sort(key=lambda f: (-f["weight"], f["family"]))
+
+    taste_overlay = [
+        {"class": cls, "compounds": sorted(cs)} for cls, cs in sorted(taste_actives.items())
+    ]
+
+    if not compounds:
+        coverage = "none"
+    elif described == set(compounds):
+        coverage = "full"
+    elif described:
+        coverage = "partial"
+    else:
+        coverage = "none"
+
+    note: str | None = None
+    if coverage == "none":
+        note = (
+            f"{ingredient.display_name} has no described compounds; no flavour wheel "
+            "can be drawn honestly."
+        )
+    elif coverage == "partial":
+        undescribed = sorted(set(compounds) - described)
+        note = (
+            f"Partial: {len(undescribed)} of {len(compounds)} compounds have no "
+            f"descriptor data ({', '.join(undescribed)})."
+        )
+
+    return {
+        "ingredient": ingredient_id,
+        "display_name": ingredient.display_name,
+        "known": True,
+        "n_compounds": len(compounds),
+        "n_described": len(described),
+        "coverage": coverage,
+        "families": families,
+        "dominant": families[0]["family"] if families else None,
+        "taste_overlay": taste_overlay,
+        "provisional": bool(provisional_compounds) or ingredient.provisional,
+        "provisional_compounds": sorted(set(provisional_compounds)),
+        "note": note,
+    }
+
+
+def harmonious_families(family: str, limit: int = 5) -> list[dict]:
+    """Return the flavour families that most distinctively join ``family`` in drinks.
+
+    A lookup over the descriptor-harmony table (built by
+    ``scripts/compute_descriptor_harmony.py`` with the same NPMI/log-prevalence
+    machinery as tradition). Ranked by **NPMI** — co-occurrence *above chance* —
+    because raw prevalence just re-surfaces the ubiquitous families (citrus,
+    woody) for every query; NPMI is what makes "mint loves spice" fall out of the
+    corpus instead of "mint loves citrus (like everything else does)". Each row
+    also carries ``harmony`` (log-scaled prevalence, "how common") and
+    ``above_chance`` (npmi > 0). Returns ``[]`` when the table is unbuilt or the
+    family never co-occurs — no fabricated affinities.
+    """
+    partners: list[dict] = []
+    for pair, row in PANTRY.descriptor_harmony.items():
+        if family in pair and len(pair) == 2:
+            other = next(iter(pair - {family}))
+            partners.append(
+                {
+                    "family": other,
+                    "npmi": round(row["npmi"], 4),
+                    "harmony": round(row["harmony"], 4),
+                    "count": row["count"],
+                    "above_chance": row["npmi"] > 0,
+                }
+            )
+    partners.sort(key=lambda p: (-p["npmi"], -p["count"], p["family"]))
+    return partners[:limit]
+
+
+def harmonious_notes(ingredient_id: str, limit: int = 6) -> dict:
+    """Return the flavour families that complement an ingredient's own wheel.
+
+    Takes the ingredient's dominant families (from :func:`flavor_wheel`) and asks
+    the corpus-derived descriptor-harmony table which families most often join
+    them in real drinks — the "harmonious notes" a bartender would reach for. The
+    ingredient's own families are excluded from the suggestions (we want partners,
+    not a mirror). Honest about gaps: unknown ingredient, no wheel, or an unbuilt
+    harmony table all yield an empty ``notes`` list with a ``note`` saying why.
+
+    Returns::
+
+        {
+          "ingredient": id, "own_families": [...],
+          "notes": [ {"family", "harmony", "count", "with": [own families it pairs]} ],
+          "note": str|None,
+        }
+    """
+    wheel = flavor_wheel(ingredient_id)
+    own_families = [f["family"] for f in wheel["families"]]
+
+    if not own_families:
+        return {
+            "ingredient": ingredient_id,
+            "own_families": [],
+            "notes": [],
+            "note": wheel.get("note") or "No flavour wheel; cannot suggest harmonious notes.",
+        }
+    if not PANTRY.descriptor_harmony:
+        return {
+            "ingredient": ingredient_id,
+            "own_families": own_families,
+            "notes": [],
+            "note": "Descriptor-harmony table not built; run scripts/compute_descriptor_harmony.py.",
+        }
+
+    own_set = set(own_families)
+    # Aggregate partner families across all of the ingredient's own families,
+    # keeping the strongest above-chance affinity (npmi) seen and which own
+    # family(ies) drove it. Prevalence (harmony) is carried for context.
+    aggregated: dict[str, dict] = {}
+    for own in own_families:
+        for partner in harmonious_families(own, limit=len(PANTRY.odor_families)):
+            other = partner["family"]
+            if other in own_set:
+                continue
+            slot = aggregated.setdefault(
+                other,
+                {"family": other, "npmi": partner["npmi"], "harmony": partner["harmony"],
+                 "count": partner["count"], "with": []},
+            )
+            if partner["npmi"] >= slot["npmi"]:
+                slot["npmi"] = partner["npmi"]
+                slot["harmony"] = partner["harmony"]
+                slot["count"] = partner["count"]
+            slot["with"].append(own)
+
+    # Rank by distinctive affinity (npmi). Above-chance partners first; a partner
+    # that only ever co-occurs below chance is a weak suggestion, flagged as such.
+    ranked = sorted(
+        aggregated.values(), key=lambda p: (-p["npmi"], -p["count"], p["family"])
+    )
+    for note_item in ranked:
+        note_item["with"] = sorted(set(note_item["with"]))
+        note_item["above_chance"] = note_item["npmi"] > 0
+
+    return {
+        "ingredient": ingredient_id,
+        "own_families": own_families,
+        "notes": ranked[:limit],
+        "note": None if ranked else "No co-occurring families found in the corpus.",
+    }
+
+
+# ---------------------------------------------------------------------------
 # Proportion template matching
 # ---------------------------------------------------------------------------
 
