@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "ingredient": "blood orange juice",
+    "provenance": "Hand-provided by Ari from an external commercial flavour-pairing website (Flavonomics-style).",
+    "status": "REFERENCE ONLY — NOT integrated into Cobber's engine/data, NOT verified, licensing unconfirmed. Do not wire into ingredients.json or the flavour wheel without clearing source terms first (project principle: free/cited sources only).",
+    "captured": "2026-07-24",
+    "use": "Reference for Ari's Four Pillars competition drink (gin + char-grilled blood orange)."
+  },
+  "summary": "Vivid sweet peel brightness over sugar, lemon and grapefruit; a raspberry note for bright sweetness, a hibiscus note for tart floral, plus rose and honey. Bridges: egg mirrors its mild creaminess; sweet vermouth's fig sweetness bridges its sweet-peel brightness.",
+  "dominant_families_0to5": {
+    "acidic": 4, "sweet": 3, "floral": 2, "earthy": 1, "herbal": 1
+  },
+  "profile_notes_0to10": {
+    "limonene": 8.8, "sugary": 5.8, "lemony": 4.2, "grapefruity": 3.8, "red_berry": 3.2,
+    "hibiscine": 3.2, "rosy": 3.2, "honeyed": 3.0, "brambly": 3.0, "gooseberry": 3.0,
+    "malic": 3.0, "apricoty": 3.0, "violic": 3.0, "pineappley": 2.8, "hoppy": 2.8,
+    "coriandric": 2.8, "astringent": 2.7, "bergamot": 2.4, "ferrous": 2.4, "cherry_like": 2.3,
+    "passionfruity": 2.3, "plummy": 2.0, "neroli": 2.0, "elder": 2.0, "lavandular": 2.0,
+    "cinchona": 2.0, "balsamic": 1.8, "peachy": 1.8, "tannic": 1.8, "grassy": 1.8
+  },
+  "strongest_notes": [
+    {"note": "limonene", "score": 8.8},
+    {"note": "sugary", "score": 5.8},
+    {"note": "lemony", "score": 4.2},
+    {"note": "grapefruity", "score": 3.8},
+    {"note": "red_berry", "score": 3.2}
+  ],
+  "harmonious_notes_wheel_0to10": {
+    "neroli": 1.7, "gamey": 1.6, "vanillic": 1.5, "figgy": 1.4, "milky": 1.4,
+    "ferrous": 1.3, "cinnamonic": 1.3, "almondy": 1.2, "raisiny": 1.1, "cinchona": 1.1,
+    "eugenolic": 1.1, "coconuty": 1.1, "gentian": 1.1, "alcohol": 1.1, "cupric": 1.1
+  },
+  "harmonious_notes_for_limonene": [
+    {"note": "raisiny", "harmony": 15.0},
+    {"note": "neroli", "harmony": 15.0},
+    {"note": "figgy", "harmony": 14.0},
+    {"note": "honeyed", "harmony": 13.0},
+    {"note": "gentian", "harmony": 13.0},
+    {"note": "alcohol", "harmony": 13.0},
+    {"note": "cinchona", "harmony": 12.0},
+    {"note": "cinnamonic", "harmony": 12.0}
+  ],
+  "complementary_ingredients": ["egg", "sweet vermouth", "vanilla extract", "walnut", "almond extract", "carpaccio"],
+  "example_recipe": {
+    "name": "Blood Orange Negroni (from Bottega, via Serious Eats)",
+    "ingredients": [
+      "1 oz freshly squeezed blood orange juice",
+      "1/2 oz Campari",
+      "1/2 oz sweet vermouth",
+      "1 oz gin",
+      "garnish: orange slice"
+    ]
+  },
+  "competition_notes": "Maps neatly to Cobber's live read: gin + blood orange is a proven bridge, and the harmonious notes (gentian, cinchona, vanillic, figgy, raisiny) point straight at amaro/Campari, tonic, vanilla and sweet vermouth — i.e. a Bloody-Shiraz-gin Negroni riff with a char-grilled blood orange oleo would sit right on these associations."
+}
