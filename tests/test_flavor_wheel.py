@@ -97,12 +97,19 @@ def test_harmonious_notes_excludes_own_families():
     assert own.isdisjoint(suggested)
 
 
-def test_mint_harmonises_with_spice_above_chance():
-    """The corpus should surface mint<->spice (julep/mojito) as a distinctive note."""
-    notes = engine.harmonious_notes("mint")
-    by_family = {n["family"]: n for n in notes["notes"]}
-    assert "spice" in by_family
-    assert by_family["spice"]["above_chance"] is True
+def test_mint_family_harmonises_with_spice_above_chance():
+    """The corpus should surface mint_cooling<->spice (julep/mojito) as distinctive.
+
+    Asserted at the FAMILY level, not the ingredient level: "mint loves spice" is a
+    corpus co-occurrence fact and must hold regardless of how rich any single
+    ingredient's profile becomes after enrichment. (harmonious_notes(<ingredient>)
+    is deliberately confounded — it excludes the ingredient's own families, so once
+    mint the ingredient carries a spice facet, spice correctly drops out of *its*
+    suggestions while the underlying family affinity is unchanged.)
+    """
+    partners = {p["family"]: p for p in engine.harmonious_families("mint_cooling", limit=10)}
+    assert "spice" in partners
+    assert partners["spice"]["above_chance"] is True
 
 
 def test_harmonious_notes_unknown_is_empty_honest():
