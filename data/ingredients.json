@@ -8,7 +8,13 @@
       "limonene",
       "citral",
       "beta_pinene",
-      "gamma_terpinene"
+      "gamma_terpinene",
+      "nootkatone",
+      "methyl_anthranilate",
+      "beta_phellandrene",
+      "carvone",
+      "sabinene",
+      "decanal"
     ],
     "descriptors": [
       "citrus",
@@ -17,8 +23,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Limonene-rich peel; citral gives the sharp lemon top note.",
-    "source": "Flavornet / common citrus essential-oil profiles (limonene-dominant peel oil).",
+    "notes": "Limonene-rich peel; citral gives the sharp lemon top note. [+FlavorDB2 constituents]",
+    "source": "Flavornet / common citrus essential-oil profiles (limonene-dominant peel oil). | Enriched from FlavorDB2 (Goel et al. 2024).",
     "taste": {
       "sour": 0.9
     }
@@ -32,7 +38,13 @@
       "limonene",
       "citral",
       "beta_pinene",
-      "terpineol"
+      "terpineol",
+      "nootkatone",
+      "methyl_anthranilate",
+      "beta_phellandrene",
+      "carvone",
+      "sabinene",
+      "gamma_terpinene"
     ],
     "descriptors": [
       "citrus",
@@ -41,8 +53,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Similar to lemon but with more terpineol and pinene lift.",
-    "source": "Citrus aurantifolia peel oil profiles (limonene + terpene mix).",
+    "notes": "Similar to lemon but with more terpineol and pinene lift. [+FlavorDB2 constituents]",
+    "source": "Citrus aurantifolia peel oil profiles (limonene + terpene mix). | Enriched from FlavorDB2 (Goel et al. 2024).",
     "taste": {
       "sour": 0.9
     }
@@ -56,7 +68,13 @@
       "limonene",
       "myrcene",
       "linalool",
-      "octanal"
+      "octanal",
+      "nootkatone",
+      "methyl_anthranilate",
+      "carvone",
+      "sabinene",
+      "ethyl_2_methylbutyrate",
+      "gamma_terpinene"
     ],
     "descriptors": [
       "citrus",
@@ -65,8 +83,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Sweet citrus; limonene >90% of peel oil with aldehyde sweetness.",
-    "source": "Sweet orange (Citrus sinensis) peel oil profiles."
+    "notes": "Sweet citrus; limonene >90% of peel oil with aldehyde sweetness. [+FlavorDB2 constituents]",
+    "source": "Sweet orange (Citrus sinensis) peel oil profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "grapefruit",
@@ -76,7 +94,13 @@
     "compounds": [
       "limonene",
       "myrcene",
-      "nootkatone"
+      "nootkatone",
+      "nerol_oxide",
+      "ethyl_2_methylbutyrate",
+      "decanal",
+      "beta_caryophyllene",
+      "alpha_pinene",
+      "cinnamaldehyde"
     ],
     "descriptors": [
       "citrus",
@@ -85,8 +109,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Nootkatone is the characteristic grapefruit/bitter marker.",
-    "source": "Grapefruit (Citrus paradisi) oil; nootkatone as the impact compound.",
+    "notes": "Nootkatone is the characteristic grapefruit/bitter marker. [+FlavorDB2 constituents]",
+    "source": "Grapefruit (Citrus paradisi) oil; nootkatone as the impact compound. | Enriched from FlavorDB2 (Goel et al. 2024).",
     "taste": {
       "sour": 0.6,
       "bitter": 0.3,
@@ -122,7 +146,13 @@
     "compounds": [
       "citral",
       "geraniol",
-      "myrcene"
+      "myrcene",
+      "decanal",
+      "linalyl_acetate",
+      "eucalyptol",
+      "beta_caryophyllene",
+      "alpha_pinene",
+      "linalool"
     ],
     "descriptors": [
       "citrus",
@@ -131,8 +161,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Citral-dominant grass; bridges to any lemon-type ingredient.",
-    "source": "Cymbopogon citratus oil (citral 65-85%)."
+    "notes": "Citral-dominant grass; bridges to any lemon-type ingredient. [+FlavorDB2 constituents]",
+    "source": "Cymbopogon citratus oil (citral 65-85%). | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "mint",
@@ -142,7 +172,13 @@
     "compounds": [
       "menthol",
       "menthone",
-      "limonene"
+      "limonene",
+      "rose_oxide",
+      "carvacrol",
+      "carvone",
+      "gamma_decalactone",
+      "sabinene",
+      "gamma_terpinene"
     ],
     "descriptors": [
       "mint",
@@ -151,8 +187,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Peppermint-type; menthol gives the cooling note.",
-    "source": "Mentha x piperita oil profiles."
+    "notes": "Peppermint-type; menthol gives the cooling note. [+FlavorDB2 constituents]",
+    "source": "Mentha x piperita oil profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "basil",
@@ -162,7 +198,13 @@
     "compounds": [
       "linalool",
       "eugenol",
-      "estragole"
+      "estragole",
+      "carvacrol",
+      "carvone",
+      "sabinene",
+      "gamma_terpinene",
+      "linalyl_acetate",
+      "eucalyptol"
     ],
     "descriptors": [
       "herbal",
@@ -171,8 +213,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Sweet basil; estragole and linalool dominate.",
-    "source": "Ocimum basilicum oil profiles."
+    "notes": "Sweet basil; estragole and linalool dominate. [+FlavorDB2 constituents]",
+    "source": "Ocimum basilicum oil profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "rosemary",
@@ -182,7 +224,13 @@
     "compounds": [
       "eucalyptol",
       "alpha_pinene",
-      "camphor"
+      "camphor",
+      "zingiberene",
+      "carvacrol",
+      "beta_phellandrene",
+      "carvone",
+      "sabinene",
+      "gamma_terpinene"
     ],
     "descriptors": [
       "herbal",
@@ -191,8 +239,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Cineole/camphor herb; bridges to pine-forward spirits.",
-    "source": "Rosmarinus officinalis oil profiles."
+    "notes": "Cineole/camphor herb; bridges to pine-forward spirits. [+FlavorDB2 constituents]",
+    "source": "Rosmarinus officinalis oil profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "thyme",
@@ -202,7 +250,13 @@
     "compounds": [
       "thymol",
       "carvacrol",
-      "alpha_pinene"
+      "alpha_pinene",
+      "rose_oxide",
+      "hexyl_butyrate",
+      "beta_phellandrene",
+      "carvone",
+      "gamma_terpinene",
+      "linalyl_acetate"
     ],
     "descriptors": [
       "herbal",
@@ -210,8 +264,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Thymol-dominant; sharp savoury herb.",
-    "source": "Thymus vulgaris oil profiles."
+    "notes": "Thymol-dominant; sharp savoury herb. [+FlavorDB2 constituents]",
+    "source": "Thymus vulgaris oil profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "coriander_leaf",
@@ -241,7 +295,13 @@
     "compounds": [
       "eucalyptol",
       "thujone",
-      "camphor"
+      "camphor",
+      "limonene",
+      "beta_phellandrene",
+      "sabinene",
+      "gamma_terpinene",
+      "linalyl_acetate",
+      "thymol"
     ],
     "descriptors": [
       "herbal",
@@ -249,8 +309,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Thujone-bearing herb; bridges to wormwood-based amari.",
-    "source": "Salvia officinalis oil profiles."
+    "notes": "Thujone-bearing herb; bridges to wormwood-based amari. [+FlavorDB2 constituents]",
+    "source": "Salvia officinalis oil profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "lavender",
@@ -277,7 +337,13 @@
     "role": "aromatic",
     "compounds": [
       "cinnamaldehyde",
-      "eugenol"
+      "eugenol",
+      "gingerol",
+      "methyl_cinnamate",
+      "estragole",
+      "carvacrol",
+      "beta_phellandrene",
+      "sabinene"
     ],
     "descriptors": [
       "warm",
@@ -286,8 +352,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Cinnamaldehyde is the dominant warm-spice marker.",
-    "source": "Cinnamomum verum bark oil profiles."
+    "notes": "Cinnamaldehyde is the dominant warm-spice marker. [+FlavorDB2 constituents]",
+    "source": "Cinnamomum verum bark oil profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "cassia",
@@ -296,7 +362,13 @@
     "role": "aromatic",
     "compounds": [
       "cinnamaldehyde",
-      "coumarin"
+      "coumarin",
+      "estragole",
+      "sabinene",
+      "gamma_terpinene",
+      "eucalyptol",
+      "beta_caryophyllene",
+      "beta_pinene"
     ],
     "descriptors": [
       "warm",
@@ -304,8 +376,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Cassia bark; higher cinnamaldehyde and coumarin than true cinnamon.",
-    "source": "Cinnamomum cassia bark oil profiles."
+    "notes": "Cassia bark; higher cinnamaldehyde and coumarin than true cinnamon. [+FlavorDB2 constituents]",
+    "source": "Cinnamomum cassia bark oil profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "clove",
@@ -314,7 +386,13 @@
     "role": "aromatic",
     "compounds": [
       "eugenol",
-      "beta_caryophyllene"
+      "beta_caryophyllene",
+      "zingiberene",
+      "gingerol",
+      "estragole",
+      "carvacrol",
+      "carvone",
+      "gamma_decalactone"
     ],
     "descriptors": [
       "warm",
@@ -323,8 +401,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Eugenol >80%; the canonical clove note.",
-    "source": "Syzygium aromaticum bud oil profiles."
+    "notes": "Eugenol >80%; the canonical clove note. [+FlavorDB2 constituents]",
+    "source": "Syzygium aromaticum bud oil profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "ginger",
@@ -334,7 +412,13 @@
     "compounds": [
       "gingerol",
       "zingiberene",
-      "alpha_pinene"
+      "alpha_pinene",
+      "capsaicin",
+      "nerol_oxide",
+      "rose_oxide",
+      "estragole",
+      "carvacrol",
+      "beta_phellandrene"
     ],
     "descriptors": [
       "pungent",
@@ -343,8 +427,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Gingerol/zingiberene pungency.",
-    "source": "Zingiber officinale profiles."
+    "notes": "Gingerol/zingiberene pungency. [+FlavorDB2 constituents]",
+    "source": "Zingiber officinale profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "black_pepper",
@@ -374,7 +458,13 @@
     "compounds": [
       "eucalyptol",
       "terpinyl_acetate",
-      "linalool"
+      "linalool",
+      "limonene",
+      "beta_phellandrene",
+      "carvone",
+      "sabinene",
+      "gamma_terpinene",
+      "linalyl_acetate"
     ],
     "descriptors": [
       "warm",
@@ -383,8 +473,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Cineole + terpinyl acetate; warm-citrus spice.",
-    "source": "Elettaria cardamomum oil profiles."
+    "notes": "Cineole + terpinyl acetate; warm-citrus spice. [+FlavorDB2 constituents]",
+    "source": "Elettaria cardamomum oil profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "star_anise",
@@ -393,7 +483,13 @@
     "role": "aromatic",
     "compounds": [
       "anethole",
-      "limonene"
+      "limonene",
+      "gingerol",
+      "estragole",
+      "carvacrol",
+      "beta_phellandrene",
+      "carvone",
+      "sabinene"
     ],
     "descriptors": [
       "anise",
@@ -402,8 +498,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Anethole-dominant; interchangeable aroma with aniseed.",
-    "source": "Illicium verum oil profiles."
+    "notes": "Anethole-dominant; interchangeable aroma with aniseed. [+FlavorDB2 constituents]",
+    "source": "Illicium verum oil profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "anise",
@@ -412,7 +508,13 @@
     "role": "aromatic",
     "compounds": [
       "anethole",
-      "estragole"
+      "estragole",
+      "zingiberene",
+      "myristicin",
+      "carvone",
+      "sabinene",
+      "thymol",
+      "beta_caryophyllene"
     ],
     "descriptors": [
       "anise",
@@ -421,8 +523,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Anethole-dominant seed; botanical for anise liqueurs.",
-    "source": "Pimpinella anisum oil profiles."
+    "notes": "Anethole-dominant seed; botanical for anise liqueurs. [+FlavorDB2 constituents]",
+    "source": "Pimpinella anisum oil profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "nutmeg",
@@ -432,7 +534,13 @@
     "compounds": [
       "sabinene",
       "alpha_pinene",
-      "myristicin"
+      "myristicin",
+      "gingerol",
+      "estragole",
+      "carvacrol",
+      "beta_phellandrene",
+      "eugenol",
+      "gamma_terpinene"
     ],
     "descriptors": [
       "warm",
@@ -441,8 +549,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Myristicin-bearing warm spice.",
-    "source": "Myristica fragrans oil profiles."
+    "notes": "Myristicin-bearing warm spice. [+FlavorDB2 constituents]",
+    "source": "Myristica fragrans oil profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "vanilla",
@@ -450,7 +558,13 @@
     "type": "raw",
     "role": "sweet",
     "compounds": [
-      "vanillin"
+      "vanillin",
+      "methyl_cinnamate",
+      "2_acetylpyrrole",
+      "hexyl_acetate",
+      "beta_pinene",
+      "1_octen_3_ol",
+      "alpha_pinene"
     ],
     "descriptors": [
       "sweet",
@@ -459,8 +573,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Vanillin-dominant; also the oak-derived note in aged spirits.",
-    "source": "Vanilla planifolia profiles."
+    "notes": "Vanillin-dominant; also the oak-derived note in aged spirits. [+FlavorDB2 constituents]",
+    "source": "Vanilla planifolia profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "allspice",
@@ -470,7 +584,13 @@
     "compounds": [
       "eugenol",
       "beta_caryophyllene",
-      "eucalyptol"
+      "eucalyptol",
+      "limonene",
+      "estragole",
+      "beta_phellandrene",
+      "sabinene",
+      "gamma_terpinene",
+      "beta_pinene"
     ],
     "descriptors": [
       "warm",
@@ -478,8 +598,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Eugenol-led; reads as clove-cinnamon-nutmeg at once.",
-    "source": "Pimenta dioica berry oil profiles."
+    "notes": "Eugenol-led; reads as clove-cinnamon-nutmeg at once. [+FlavorDB2 constituents]",
+    "source": "Pimenta dioica berry oil profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "caraway",
@@ -488,7 +608,12 @@
     "role": "aromatic",
     "compounds": [
       "carvone",
-      "limonene"
+      "limonene",
+      "beta_caryophyllene",
+      "beta_pinene",
+      "myrcene",
+      "alpha_pinene",
+      "octanal"
     ],
     "descriptors": [
       "caraway",
@@ -496,8 +621,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "S-carvone (vs spearmint's R-carvone) + limonene.",
-    "source": "Carum carvi oil profiles."
+    "notes": "S-carvone (vs spearmint's R-carvone) + limonene. [+FlavorDB2 constituents]",
+    "source": "Carum carvi oil profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "juniper",
@@ -528,7 +653,13 @@
     "compounds": [
       "linalool",
       "geraniol",
-      "limonene"
+      "limonene",
+      "sedanolide",
+      "myristicin",
+      "beta_phellandrene",
+      "carvone",
+      "sabinene",
+      "gamma_terpinene"
     ],
     "descriptors": [
       "citrus",
@@ -537,8 +668,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Linalool >60%; the citrus-floral lift in gin.",
-    "source": "Coriandrum sativum seed oil profiles."
+    "notes": "Linalool >60%; the citrus-floral lift in gin. [+FlavorDB2 constituents]",
+    "source": "Coriandrum sativum seed oil profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "orris_root",
@@ -642,7 +773,13 @@
     "type": "raw",
     "role": "aromatic",
     "compounds": [
-      "benzaldehyde"
+      "benzaldehyde",
+      "2_acetylpyrrole",
+      "beta_ionone",
+      "beta_pinene",
+      "alpha_pinene",
+      "cinnamaldehyde",
+      "menthone"
     ],
     "descriptors": [
       "nutty",
@@ -651,8 +788,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Benzaldehyde is the bitter-almond/marzipan marker.",
-    "source": "Prunus dulcis (benzaldehyde)."
+    "notes": "Benzaldehyde is the bitter-almond/marzipan marker. [+FlavorDB2 constituents]",
+    "source": "Prunus dulcis (benzaldehyde). | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "coffee",
@@ -662,7 +799,13 @@
     "compounds": [
       "furfural",
       "pyrazine",
-      "2_furfurylthiol"
+      "2_furfurylthiol",
+      "2_acetylpyrrole",
+      "ethyl_butyrate",
+      "hexyl_acetate",
+      "myrcene",
+      "1_octen_3_ol",
+      "geraniol"
     ],
     "descriptors": [
       "roasted",
@@ -671,8 +814,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Roast pyrazines/furans; bridges to roasted wattleseed.",
-    "source": "Roasted coffee volatile literature (furans, pyrazines, furfurylthiol).",
+    "notes": "Roast pyrazines/furans; bridges to roasted wattleseed. [+FlavorDB2 constituents]",
+    "source": "Roasted coffee volatile literature (furans, pyrazines, furfurylthiol). | Enriched from FlavorDB2 (Goel et al. 2024).",
     "taste": {
       "bitter": 0.7
     }
@@ -684,7 +827,13 @@
     "role": "fruit",
     "compounds": [
       "methyl_anthranilate",
-      "beta_damascenone"
+      "beta_damascenone",
+      "nerol_oxide",
+      "hexyl_butyrate",
+      "beta_ionone",
+      "ethyl_butyrate",
+      "hexyl_acetate",
+      "1_octen_3_ol"
     ],
     "descriptors": [
       "fruity",
@@ -692,8 +841,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Methyl anthranilate (foxy grape) + damascenone; base of brandy.",
-    "source": "Vitis labrusca/vinifera volatiles."
+    "notes": "Methyl anthranilate (foxy grape) + damascenone; base of brandy. [+FlavorDB2 constituents]",
+    "source": "Vitis labrusca/vinifera volatiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "apple",
@@ -703,7 +852,13 @@
     "compounds": [
       "hexanal",
       "beta_damascenone",
-      "ethyl_2_methylbutyrate"
+      "ethyl_2_methylbutyrate",
+      "estragole",
+      "hexyl_butyrate",
+      "2_acetylpyrrole",
+      "decanal",
+      "dodecanal",
+      "ethyl_butyrate"
     ],
     "descriptors": [
       "fruity",
@@ -712,8 +867,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Green hexanal + estery damascenone.",
-    "source": "Malus domestica volatile profiles."
+    "notes": "Green hexanal + estery damascenone. [+FlavorDB2 constituents]",
+    "source": "Malus domestica volatile profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "pear",
@@ -723,7 +878,13 @@
     "compounds": [
       "ethyl_decadienoate",
       "hexyl_acetate",
-      "beta_damascenone"
+      "beta_damascenone",
+      "cinnamaldehyde",
+      "menthone",
+      "citral",
+      "coumarin",
+      "benzaldehyde",
+      "geraniol"
     ],
     "descriptors": [
       "fruity",
@@ -731,8 +892,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Decadienoate ester gives the unmistakable pear note.",
-    "source": "Pyrus communis volatile profiles."
+    "notes": "Decadienoate ester gives the unmistakable pear note. [+FlavorDB2 constituents]",
+    "source": "Pyrus communis volatile profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "pineapple",
@@ -742,7 +903,13 @@
     "compounds": [
       "ethyl_butyrate",
       "furaneol",
-      "allyl_hexanoate"
+      "allyl_hexanoate",
+      "methyl_cinnamate",
+      "ethyl_2_methylbutyrate",
+      "myrcene",
+      "1_octen_3_ol",
+      "linalool",
+      "cinnamaldehyde"
     ],
     "descriptors": [
       "fruity",
@@ -751,8 +918,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Allyl hexanoate + furaneol tropical sweetness.",
-    "source": "Ananas comosus volatile profiles."
+    "notes": "Allyl hexanoate + furaneol tropical sweetness. [+FlavorDB2 constituents]",
+    "source": "Ananas comosus volatile profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "strawberry",
@@ -763,7 +930,13 @@
       "furaneol",
       "ethyl_butyrate",
       "methyl_cinnamate",
-      "beta_damascenone"
+      "beta_damascenone",
+      "delta_decalactone",
+      "hexyl_butyrate",
+      "methyl_anthranilate",
+      "gamma_decalactone",
+      "ethyl_2_methylbutyrate",
+      "decanal"
     ],
     "descriptors": [
       "fruity",
@@ -771,8 +944,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Furaneol is the impact compound; bridges to strawberry gum.",
-    "source": "Fragaria x ananassa volatile profiles."
+    "notes": "Furaneol is the impact compound; bridges to strawberry gum. [+FlavorDB2 constituents]",
+    "source": "Fragaria x ananassa volatile profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "raspberry",
@@ -782,7 +955,13 @@
     "compounds": [
       "raspberry_ketone",
       "beta_ionone",
-      "beta_damascenone"
+      "beta_damascenone",
+      "delta_decalactone",
+      "beta_caryophyllene",
+      "hexyl_acetate",
+      "beta_pinene",
+      "alpha_pinene",
+      "cinnamaldehyde"
     ],
     "descriptors": [
       "fruity",
@@ -790,8 +969,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Raspberry ketone + ionone floral-fruity.",
-    "source": "Rubus idaeus volatile profiles."
+    "notes": "Raspberry ketone + ionone floral-fruity. [+FlavorDB2 constituents]",
+    "source": "Rubus idaeus volatile profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "peach",
@@ -801,7 +980,13 @@
     "compounds": [
       "gamma_decalactone",
       "benzaldehyde",
-      "beta_ionone"
+      "beta_ionone",
+      "delta_decalactone",
+      "linalyl_acetate",
+      "hexyl_acetate",
+      "beta_pinene",
+      "alpha_pinene",
+      "cinnamaldehyde"
     ],
     "descriptors": [
       "fruity",
@@ -810,8 +995,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Gamma-decalactone is the creamy-peach marker.",
-    "source": "Prunus persica volatile profiles."
+    "notes": "Gamma-decalactone is the creamy-peach marker. [+FlavorDB2 constituents]",
+    "source": "Prunus persica volatile profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "cherry",
@@ -821,7 +1006,13 @@
     "compounds": [
       "benzaldehyde",
       "beta_damascenone",
-      "eugenol"
+      "eugenol",
+      "myrcene",
+      "cinnamaldehyde",
+      "menthone",
+      "citral",
+      "coumarin",
+      "geraniol"
     ],
     "descriptors": [
       "fruity",
@@ -830,8 +1021,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Benzaldehyde links cherry to almond and stone fruit.",
-    "source": "Prunus avium / marasca volatile profiles."
+    "notes": "Benzaldehyde links cherry to almond and stone fruit. [+FlavorDB2 constituents]",
+    "source": "Prunus avium / marasca volatile profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "passionfruit",
@@ -841,7 +1032,13 @@
     "compounds": [
       "ethyl_butyrate",
       "hexyl_butyrate",
-      "beta_ionone"
+      "beta_ionone",
+      "nerol_oxide",
+      "rose_oxide",
+      "hexyl_acetate",
+      "linalool",
+      "cinnamaldehyde",
+      "menthone"
     ],
     "descriptors": [
       "tropical",
@@ -850,8 +1047,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Sulfur esters dominate fresh fruit; modelled here via fruity esters + ionone.",
-    "source": "Passiflora edulis volatiles; TODO: verify thiol contribution."
+    "notes": "Sulfur esters dominate fresh fruit; modelled here via fruity esters + ionone. [+FlavorDB2 constituents]",
+    "source": "Passiflora edulis volatiles; TODO: verify thiol contribution. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "mango",
@@ -861,7 +1058,13 @@
     "compounds": [
       "myrcene",
       "ethyl_butyrate",
-      "gamma_decalactone"
+      "gamma_decalactone",
+      "delta_decalactone",
+      "hexyl_butyrate",
+      "2_acetylpyrrole",
+      "eugenol",
+      "ethyl_2_methylbutyrate",
+      "linalyl_acetate"
     ],
     "descriptors": [
       "tropical",
@@ -869,8 +1072,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Myrcene-forward terpenic tropical fruit.",
-    "source": "Mangifera indica volatile profiles."
+    "notes": "Myrcene-forward terpenic tropical fruit. [+FlavorDB2 constituents]",
+    "source": "Mangifera indica volatile profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "sugar_syrup",
@@ -897,7 +1100,10 @@
     "compounds": [
       "phenylacetaldehyde",
       "methyl_anthranilate",
-      "furaneol"
+      "furaneol",
+      "ethyl_butyrate",
+      "geraniol",
+      "hexanal"
     ],
     "descriptors": [
       "sweet",
@@ -905,8 +1111,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Phenylacetaldehyde floral-honey note (varies by floral source).",
-    "source": "Honey volatile literature; TODO: verify (varies widely by source).",
+    "notes": "Phenylacetaldehyde floral-honey note (varies by floral source). [+FlavorDB2 constituents]",
+    "source": "Honey volatile literature; TODO: verify (varies widely by source). | Enriched from FlavorDB2 (Goel et al. 2024).",
     "taste": {
       "sweet": 0.9
     }
@@ -917,15 +1123,21 @@
     "type": "raw",
     "role": "sweet",
     "compounds": [
-      "furaneol"
+      "furaneol",
+      "cinnamaldehyde",
+      "menthone",
+      "citral",
+      "coumarin",
+      "benzaldehyde",
+      "geraniol"
     ],
     "descriptors": [
       "sweet"
     ],
     "is_native": false,
     "season": null,
-    "notes": "Mild cooked-sugar sweetness.",
-    "source": "Agave syrup; TODO: verify volatile content (largely sweet, low aroma).",
+    "notes": "Mild cooked-sugar sweetness. [+FlavorDB2 constituents]",
+    "source": "Agave syrup; TODO: verify volatile content (largely sweet, low aroma). | Enriched from FlavorDB2 (Goel et al. 2024).",
     "taste": {
       "sweet": 0.9
     }
@@ -1415,7 +1627,14 @@
     "display_name": "Cranberry",
     "type": "raw",
     "role": "fruit",
-    "compounds": [],
+    "compounds": [
+      "methyl_cinnamate",
+      "hexyl_butyrate",
+      "eucalyptol",
+      "thymol",
+      "ethyl_butyrate",
+      "beta_pinene"
+    ],
     "descriptors": [
       "tart",
       "red",
@@ -1423,8 +1642,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified. [+FlavorDB2 constituents]",
+    "source": "Provisional entry; see notes. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "milk",
@@ -1432,7 +1651,13 @@
     "type": "raw",
     "role": "dairy",
     "compounds": [
-      "diacetyl"
+      "diacetyl",
+      "delta_decalactone",
+      "gamma_decalactone",
+      "pyrazine",
+      "ethyl_2_methylbutyrate",
+      "decanal",
+      "dodecanal"
     ],
     "descriptors": [
       "creamy",
@@ -1440,8 +1665,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes.",
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified. [+FlavorDB2 constituents]",
+    "source": "Provisional entry; see notes. | Enriched from FlavorDB2 (Goel et al. 2024).",
     "taste": {
       "fat": 0.4,
       "sweet": 0.1
@@ -1469,15 +1694,22 @@
     "display_name": "Olive",
     "type": "raw",
     "role": "seasoning",
-    "compounds": [],
+    "compounds": [
+      "ethyl_butyrate",
+      "hexyl_acetate",
+      "1_octen_3_ol",
+      "linalool",
+      "cinnamaldehyde",
+      "menthone"
+    ],
     "descriptors": [
       "savoury",
       "briny"
     ],
     "is_native": false,
     "season": null,
-    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes.",
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified. [+FlavorDB2 constituents]",
+    "source": "Provisional entry; see notes. | Enriched from FlavorDB2 (Goel et al. 2024).",
     "taste": {
       "salty": 0.7,
       "umami": 0.4,
@@ -1490,7 +1722,13 @@
     "type": "raw",
     "role": "aromatic",
     "compounds": [
-      "beta_damascenone"
+      "beta_damascenone",
+      "methyl_anthranilate",
+      "eugenol",
+      "gamma_decalactone",
+      "linalyl_acetate",
+      "beta_ionone",
+      "ethyl_butyrate"
     ],
     "descriptors": [
       "grape",
@@ -1499,8 +1737,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified. [+FlavorDB2 constituents]",
+    "source": "Provisional entry; see notes. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "port",
@@ -1526,7 +1764,13 @@
     "type": "raw",
     "role": "aromatic",
     "compounds": [
-      "beta_damascenone"
+      "beta_damascenone",
+      "methyl_anthranilate",
+      "eugenol",
+      "linalyl_acetate",
+      "beta_ionone",
+      "ethyl_butyrate",
+      "hexyl_acetate"
     ],
     "descriptors": [
       "grape",
@@ -1535,8 +1779,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified. [+FlavorDB2 constituents]",
+    "source": "Provisional entry; see notes. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "orgeat",
@@ -1565,7 +1809,13 @@
     "type": "raw",
     "role": "fruit",
     "compounds": [
-      "delta_decalactone"
+      "delta_decalactone",
+      "2_acetylpyrrole",
+      "decanal",
+      "cinnamaldehyde",
+      "menthone",
+      "citral",
+      "coumarin"
     ],
     "descriptors": [
       "coconut",
@@ -1574,8 +1824,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Creamy lactone (delta-decalactone) profile; shares the lactone family with cream. TODO: verify",
-    "source": "Common aroma-chemistry references; provisional."
+    "notes": "Creamy lactone (delta-decalactone) profile; shares the lactone family with cream. TODO: verify [+FlavorDB2 constituents]",
+    "source": "Common aroma-chemistry references; provisional. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "blackcurrant",
@@ -1584,7 +1834,13 @@
     "role": "fruit",
     "compounds": [
       "beta_damascenone",
-      "beta_ionone"
+      "beta_ionone",
+      "rose_oxide",
+      "beta_phellandrene",
+      "sabinene",
+      "eucalyptol",
+      "beta_caryophyllene",
+      "ethyl_butyrate"
     ],
     "descriptors": [
       "blackcurrant",
@@ -1593,8 +1849,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Cassis berry; ionone/damascenone berry-floral notes shared with raspberry. TODO: verify",
-    "source": "Common aroma-chemistry references; provisional."
+    "notes": "Cassis berry; ionone/damascenone berry-floral notes shared with raspberry. TODO: verify [+FlavorDB2 constituents]",
+    "source": "Common aroma-chemistry references; provisional. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "pomegranate",
@@ -1603,7 +1859,13 @@
     "role": "fruit",
     "compounds": [
       "hexanal",
-      "beta_damascenone"
+      "beta_damascenone",
+      "limonene",
+      "gamma_terpinene",
+      "beta_caryophyllene",
+      "beta_pinene",
+      "alpha_pinene",
+      "cinnamaldehyde"
     ],
     "descriptors": [
       "pomegranate",
@@ -1612,8 +1874,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Mild fruity-tart aroma; flavour is more tart/sweet than aromatic. TODO: verify",
-    "source": "Common aroma-chemistry references; provisional."
+    "notes": "Mild fruity-tart aroma; flavour is more tart/sweet than aromatic. TODO: verify [+FlavorDB2 constituents]",
+    "source": "Common aroma-chemistry references; provisional. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "apricot",
@@ -1624,7 +1886,13 @@
       "gamma_decalactone",
       "beta_ionone",
       "linalool",
-      "beta_damascenone"
+      "beta_damascenone",
+      "nerol_oxide",
+      "delta_decalactone",
+      "hexyl_butyrate",
+      "decanal",
+      "hexyl_acetate",
+      "beta_pinene"
     ],
     "descriptors": [
       "apricot",
@@ -1633,8 +1901,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Stone fruit; lactone + ionone profile, near-identical to peach (why peach was the old proxy). TODO: verify",
-    "source": "Common aroma-chemistry references; provisional."
+    "notes": "Stone fruit; lactone + ionone profile, near-identical to peach (why peach was the old proxy). TODO: verify [+FlavorDB2 constituents]",
+    "source": "Common aroma-chemistry references; provisional. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "tomato",
@@ -1642,7 +1910,13 @@
     "type": "raw",
     "role": "fruit",
     "compounds": [
-      "hexanal"
+      "hexanal",
+      "beta_phellandrene",
+      "decanal",
+      "linalyl_acetate",
+      "beta_caryophyllene",
+      "beta_ionone",
+      "beta_pinene"
     ],
     "descriptors": [
       "savoury",
@@ -1651,8 +1925,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Bloody Mary base; savoury/umami side is a V2 taste-axis job. TODO: verify",
-    "source": "Common aroma-chemistry references; provisional.",
+    "notes": "Bloody Mary base; savoury/umami side is a V2 taste-axis job. TODO: verify [+FlavorDB2 constituents]",
+    "source": "Common aroma-chemistry references; provisional. | Enriched from FlavorDB2 (Goel et al. 2024).",
     "taste": {
       "umami": 0.6,
       "sour": 0.4,
@@ -1851,7 +2125,13 @@
     "type": "raw",
     "role": "herb",
     "compounds": [
-      "sedanolide"
+      "sedanolide",
+      "myristicin",
+      "beta_phellandrene",
+      "carvone",
+      "gamma_decalactone",
+      "sabinene",
+      "gamma_terpinene"
     ],
     "taste": {
       "bitter": 0.2,
@@ -1864,8 +2144,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Sedanolide/phthalides are celery's signature aroma. TODO: verify (Part B citation pass).",
-    "source": "Common aroma-chemistry references; provisional."
+    "notes": "Sedanolide/phthalides are celery's signature aroma. TODO: verify (Part B citation pass). [+FlavorDB2 constituents]",
+    "source": "Common aroma-chemistry references; provisional. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "butter",
@@ -1874,7 +2154,13 @@
     "role": "dairy",
     "compounds": [
       "diacetyl",
-      "delta_decalactone"
+      "delta_decalactone",
+      "gamma_decalactone",
+      "decanal",
+      "dodecanal",
+      "linalool",
+      "vanillin",
+      "hexanal"
     ],
     "taste": {
       "fat": 0.9,
@@ -1887,8 +2173,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Diacetyl is the butter note; fat-washing carries it into spirits. TODO: verify (Part B citation pass).",
-    "source": "Common aroma-chemistry references; provisional."
+    "notes": "Diacetyl is the butter note; fat-washing carries it into spirits. TODO: verify (Part B citation pass). [+FlavorDB2 constituents]",
+    "source": "Common aroma-chemistry references; provisional. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "mushroom",
@@ -1896,7 +2182,13 @@
     "type": "raw",
     "role": "seasoning",
     "compounds": [
-      "1_octen_3_ol"
+      "1_octen_3_ol",
+      "allyl_hexanoate",
+      "2_acetylpyrrole",
+      "linalyl_acetate",
+      "beta_ionone",
+      "ethyl_butyrate",
+      "beta_pinene"
     ],
     "taste": {
       "umami": 0.7
@@ -1908,8 +2200,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "1-octen-3-ol is the mushroom alcohol; shiitake/porcini infusions. TODO: verify (Part B citation pass).",
-    "source": "Common aroma-chemistry references; provisional."
+    "notes": "1-octen-3-ol is the mushroom alcohol; shiitake/porcini infusions. TODO: verify (Part B citation pass). [+FlavorDB2 constituents]",
+    "source": "Common aroma-chemistry references; provisional. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "tamarind",
@@ -1917,7 +2209,13 @@
     "type": "raw",
     "role": "sour",
     "compounds": [
-      "furfural"
+      "furfural",
+      "carvacrol",
+      "beta_caryophyllene",
+      "beta_ionone",
+      "beta_pinene",
+      "myrcene",
+      "alpha_pinene"
     ],
     "taste": {
       "sour": 0.7,
@@ -1931,8 +2229,8 @@
     ],
     "is_native": false,
     "season": null,
-    "notes": "Sour-sweet pulp; ties to falernum and Worcestershire territory. TODO: verify (Part B citation pass).",
-    "source": "Common aroma-chemistry references; provisional."
+    "notes": "Sour-sweet pulp; ties to falernum and Worcestershire territory. TODO: verify (Part B citation pass). [+FlavorDB2 constituents]",
+    "source": "Common aroma-chemistry references; provisional. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
     "id": "hot_sauce",
