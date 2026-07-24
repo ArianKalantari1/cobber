@@ -2350,5 +2350,39 @@
       "acetic_acid",
       "sodium_chloride"
     ]
+  },
+  {
+    "id": "cacao",
+    "display_name": "Cacao (dark chocolate)",
+    "type": "raw",
+    "role": "bitter",
+    "compounds": [
+      "pyrazine",
+      "2_acetylpyrrole",
+      "furfural",
+      "benzaldehyde",
+      "beta_damascenone",
+      "vanillin",
+      "furaneol",
+      "phenylacetaldehyde",
+      "2_furfurylthiol"
+    ],
+    "descriptors": [
+      "chocolate",
+      "cocoa",
+      "roasted",
+      "nutty"
+    ],
+    "is_native": false,
+    "notes": "Dark chocolate/cacao: roasted-nutty pyrazines with vanillin, damascenone dark-fruit and a cherry-almond benzaldehyde edge. PROVISIONAL.",
+    "source": "Dark-chocolate key odorants from roasting/Maillard literature (pyrazines, vanillin, beta-damascenone, benzaldehyde, phenylacetaldehyde; e.g. Counet et al. 2002; Schnermann & Schieberle 1997).",
+    "taste": {
+      "bitter": 0.6,
+      "sweet": 0.15,
+      "fat": 0.4
+    },
+    "tastants": [
+      "caffeine"
+    ]
   }
 ]

@@ -867,7 +867,8 @@
     "type": "composite",
     "role": "sweet",
     "botanicals": [
-      "vanilla"
+      "vanilla",
+      "cacao"
     ],
     "descriptors": [
       "chocolate",
@@ -882,7 +883,8 @@
       "bitter": 0.2
     },
     "tastants": [
-      "sucrose"
+      "sucrose",
+      "caffeine"
     ]
   },
   {
