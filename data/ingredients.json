@@ -978,7 +978,10 @@
       "limonene",
       "citral",
       "beta_pinene",
-      "isomenthone"
+      "isomenthone",
+      "myrcene",
+      "alpha_pinene",
+      "linalool"
     ],
     "descriptors": [
       "citrus",
@@ -987,8 +990,8 @@
     ],
     "is_native": true,
     "season": null,
-    "notes": "Citrus australasica; limonene/citral citrus with a unique caviar texture. Bridges to lime and lemon.",
-    "source": "Citrus australasica peel oil studies (limonene + isomenthone)."
+    "notes": "Citrus australasica; limonene/citral citrus with a unique caviar texture. Bridges to lime and lemon. [native EO enrichment — PROVISIONAL, verify vs cited study]",
+    "source": "Citrus australasica peel oil studies (limonene + isomenthone). | Enrichment: Citrus australasica peel oil: limonene/citral citrus with myrcene, pinene and linalool."
   },
   {
     "id": "desert_lime",
@@ -997,7 +1000,11 @@
     "role": "sour",
     "compounds": [
       "limonene",
-      "citral"
+      "citral",
+      "myrcene",
+      "alpha_pinene",
+      "beta_pinene",
+      "linalool"
     ],
     "descriptors": [
       "citrus",
@@ -1006,8 +1013,8 @@
     ],
     "is_native": true,
     "season": null,
-    "notes": "Citrus glauca; intense limonene-citral citrus.",
-    "source": "Citrus glauca profiles; TODO: verify minor terpene fraction."
+    "notes": "Citrus glauca; intense limonene-citral citrus. [native EO enrichment — PROVISIONAL, verify vs cited study]",
+    "source": "Citrus glauca profiles; TODO: verify minor terpene fraction. | Enrichment: Citrus glauca peel oil: limonene-dominant with myrcene + pinene monoterpenes and trace linalool."
   },
   {
     "id": "lemon_myrtle",
@@ -1017,7 +1024,9 @@
     "compounds": [
       "citral",
       "geraniol",
-      "linalool"
+      "linalool",
+      "limonene",
+      "myrcene"
     ],
     "descriptors": [
       "citrus",
@@ -1026,8 +1035,8 @@
     ],
     "is_native": true,
     "season": null,
-    "notes": "Backhousia citriodora; citral-dominant (>90%), behaves like an intense lemon/lemongrass.",
-    "source": "Backhousia citriodora oil studies (citral ~90-98%)."
+    "notes": "Backhousia citriodora; citral-dominant (>90%), behaves like an intense lemon/lemongrass. [native EO enrichment — PROVISIONAL, verify vs cited study]",
+    "source": "Backhousia citriodora oil studies (citral ~90-98%). | Enrichment: Backhousia citriodora leaf oil: citral >90% with accompanying myrcene + limonene."
   },
   {
     "id": "lemon_aspen",
@@ -1037,7 +1046,9 @@
     "compounds": [
       "citral",
       "limonene",
-      "linalool"
+      "linalool",
+      "geraniol",
+      "myrcene"
     ],
     "descriptors": [
       "citrus",
@@ -1046,8 +1057,8 @@
     ],
     "is_native": true,
     "season": null,
-    "notes": "Acronychia acidula; tart citrus-honey fruit.",
-    "source": "Acronychia acidula; TODO: verify (limited published volatile data)."
+    "notes": "Acronychia acidula; tart citrus-honey fruit. [native EO enrichment — PROVISIONAL, verify vs cited study]",
+    "source": "Acronychia acidula; TODO: verify (limited published volatile data). | Enrichment: Acronychia acidula fruit: citral/limonene citrus with geraniol and myrcene."
   },
   {
     "id": "anise_myrtle",
@@ -1056,7 +1067,9 @@
     "role": "aromatic",
     "compounds": [
       "anethole",
-      "estragole"
+      "estragole",
+      "limonene",
+      "myrcene"
     ],
     "descriptors": [
       "anise",
@@ -1065,8 +1078,8 @@
     ],
     "is_native": true,
     "season": null,
-    "notes": "Syzygium anisatum; anethole-rich, a native stand-in for aniseed/star anise.",
-    "source": "Syzygium anisatum oil studies (anethole-dominant)."
+    "notes": "Syzygium anisatum; anethole-rich, a native stand-in for aniseed/star anise. [native EO enrichment — PROVISIONAL, verify vs cited study]",
+    "source": "Syzygium anisatum oil studies (anethole-dominant). | Enrichment: Syzygium anisatum leaf oil (Brophy et al.): anethole/methyl-chavicol dominant; minor limonene + myrcene."
   },
   {
     "id": "cinnamon_myrtle",
@@ -1075,7 +1088,10 @@
     "role": "aromatic",
     "compounds": [
       "cinnamaldehyde",
-      "eugenol"
+      "eugenol",
+      "methyl_cinnamate",
+      "beta_caryophyllene",
+      "linalool"
     ],
     "descriptors": [
       "warm",
@@ -1084,8 +1100,8 @@
     ],
     "is_native": true,
     "season": null,
-    "notes": "Backhousia myrtifolia; cinnamaldehyde-bearing, a native cinnamon analogue.",
-    "source": "Backhousia myrtifolia; TODO: verify dominant compound (chemotypes vary)."
+    "notes": "Backhousia myrtifolia; cinnamaldehyde-bearing, a native cinnamon analogue. [native EO enrichment — PROVISIONAL, verify vs cited study]",
+    "source": "Backhousia myrtifolia; TODO: verify dominant compound (chemotypes vary). | Enrichment: Backhousia myrtifolia leaf oil (cinnamaldehyde chemotype): cinnamic esters + caryophyllene + linalool."
   },
   {
     "id": "riberry",
@@ -1095,7 +1111,9 @@
     "compounds": [
       "eugenol",
       "cinnamaldehyde",
-      "methyl_cinnamate"
+      "methyl_cinnamate",
+      "beta_caryophyllene",
+      "ethyl_butyrate"
     ],
     "descriptors": [
       "clove",
@@ -1104,8 +1122,8 @@
     ],
     "is_native": true,
     "season": null,
-    "notes": "Syzygium luehmannii; small tart berry with a clove-cinnamon aroma.",
-    "source": "Syzygium luehmannii; TODO: verify (described as clove-like; sparse compound data)."
+    "notes": "Syzygium luehmannii; small tart berry with a clove-cinnamon aroma. [native EO enrichment — PROVISIONAL, verify vs cited study]",
+    "source": "Syzygium luehmannii; TODO: verify (described as clove-like; sparse compound data). | Enrichment: Syzygium luehmannii: clove-cinnamon eugenol/cinnamaldehyde with caryophyllene and berry esters."
   },
   {
     "id": "pepperberry",
@@ -1115,7 +1133,11 @@
     "compounds": [
       "alpha_pinene",
       "beta_caryophyllene",
-      "polygodial"
+      "polygodial",
+      "beta_pinene",
+      "sabinene",
+      "myrcene",
+      "limonene"
     ],
     "descriptors": [
       "pepper",
@@ -1124,8 +1146,8 @@
     ],
     "is_native": true,
     "season": null,
-    "notes": "Tasmannia lanceolata; polygodial gives the slow-building heat. Bridges to black pepper.",
-    "source": "Tasmannia lanceolata; polygodial is the pungent principle. TODO: verify terpene fraction."
+    "notes": "Tasmannia lanceolata; polygodial gives the slow-building heat. Bridges to black pepper. [native EO enrichment — PROVISIONAL, verify vs cited study]",
+    "source": "Tasmannia lanceolata; polygodial is the pungent principle. TODO: verify terpene fraction. | Enrichment: Tasmannia lanceolata leaf/berry oil: polygodial pungency over a monoterpene-rich base (pinenes, sabinene, myrcene, limonene)."
   },
   {
     "id": "wattleseed",
@@ -1135,7 +1157,9 @@
     "compounds": [
       "pyrazine",
       "furfural",
-      "2_acetylpyrrole"
+      "2_acetylpyrrole",
+      "2_furfurylthiol",
+      "vanillin"
     ],
     "descriptors": [
       "roasted",
@@ -1144,8 +1168,8 @@
     ],
     "is_native": true,
     "season": null,
-    "notes": "Roasted Acacia seed; coffee/chocolate/hazelnut from roasting. Deliberately shares nothing with raw citrus.",
-    "source": "Roasted wattleseed (Maillard pyrazines/furans by analogy to coffee). TODO: verify specific compounds."
+    "notes": "Roasted Acacia seed; coffee/chocolate/hazelnut from roasting. Deliberately shares nothing with raw citrus. [native EO enrichment — PROVISIONAL, verify vs cited study]",
+    "source": "Roasted wattleseed (Maillard pyrazines/furans by analogy to coffee). TODO: verify specific compounds. | Enrichment: Roasted Acacia seed: Maillard pyrazines/furans with coffee furfurylthiol and vanillin."
   },
   {
     "id": "davidson_plum",
@@ -1154,7 +1178,10 @@
     "role": "sour",
     "compounds": [
       "beta_damascenone",
-      "ethyl_butyrate"
+      "ethyl_butyrate",
+      "hexanal",
+      "beta_ionone",
+      "ethyl_2_methylbutyrate"
     ],
     "descriptors": [
       "plum",
@@ -1163,8 +1190,8 @@
     ],
     "is_native": true,
     "season": null,
-    "notes": "Davidsonia; intensely sour dark-plum fruit.",
-    "source": "Davidsonia spp.; TODO: verify (modelled on dark-plum volatiles; sparse data)."
+    "notes": "Davidsonia; intensely sour dark-plum fruit. [native EO enrichment — PROVISIONAL, verify vs cited study]",
+    "source": "Davidsonia spp.; TODO: verify (modelled on dark-plum volatiles; sparse data). | Enrichment: Davidsonia fruit volatiles: damascenone/ionone carotenoid notes over green C6 aldehydes and fruity esters."
   },
   {
     "id": "quandong",
@@ -1174,7 +1201,9 @@
     "compounds": [
       "gamma_decalactone",
       "benzaldehyde",
-      "beta_ionone"
+      "beta_ionone",
+      "delta_decalactone",
+      "hexanal"
     ],
     "descriptors": [
       "peach",
@@ -1183,8 +1212,8 @@
     ],
     "is_native": true,
     "season": null,
-    "notes": "Santalum acuminatum; the 'native peach', tart stone-fruit notes.",
-    "source": "Santalum acuminatum; TODO: verify (modelled on stone-fruit lactones; sparse data)."
+    "notes": "Santalum acuminatum; the 'native peach', tart stone-fruit notes. [native EO enrichment — PROVISIONAL, verify vs cited study]",
+    "source": "Santalum acuminatum; TODO: verify (modelled on stone-fruit lactones; sparse data). | Enrichment: Santalum acuminatum fruit: gamma/delta lactones and benzaldehyde stone-fruit with green C6 notes."
   },
   {
     "id": "muntries",
@@ -1194,7 +1223,10 @@
     "compounds": [
       "beta_damascenone",
       "hexanal",
-      "eugenol"
+      "eugenol",
+      "ethyl_2_methylbutyrate",
+      "hexyl_acetate",
+      "cinnamaldehyde"
     ],
     "descriptors": [
       "apple",
@@ -1203,8 +1235,8 @@
     ],
     "is_native": true,
     "season": null,
-    "notes": "Kunzea pomifera; 'native cranberry/apple', spiced-apple character.",
-    "source": "Kunzea pomifera; TODO: verify (described as spiced apple; sparse data)."
+    "notes": "Kunzea pomifera; 'native cranberry/apple', spiced-apple character. [native EO enrichment — PROVISIONAL, verify vs cited study]",
+    "source": "Kunzea pomifera; TODO: verify (described as spiced apple; sparse data). | Enrichment: Kunzea pomifera: spiced-apple damascenone with apple esters and a cinnamaldehyde lift."
   },
   {
     "id": "bush_tomato",
@@ -1213,7 +1245,9 @@
     "role": "aromatic",
     "compounds": [
       "sotolon",
-      "furaneol"
+      "furaneol",
+      "methional",
+      "beta_damascenone"
     ],
     "descriptors": [
       "caramel",
@@ -1222,8 +1256,8 @@
     ],
     "is_native": true,
     "season": null,
-    "notes": "Solanum centrale; dried, with caramel/tamarillo/sun-dried-tomato notes.",
-    "source": "Solanum centrale; TODO: verify (modelled on caramel/sotolon notes; sparse data)."
+    "notes": "Solanum centrale; dried, with caramel/tamarillo/sun-dried-tomato notes. [native EO enrichment — PROVISIONAL, verify vs cited study]",
+    "source": "Solanum centrale; TODO: verify (modelled on caramel/sotolon notes; sparse data). | Enrichment: Solanum centrale (dried): sotolon/furaneol caramel with methional savoury and damascenone."
   },
   {
     "id": "strawberry_gum",
@@ -1233,7 +1267,9 @@
     "compounds": [
       "furaneol",
       "ethyl_butyrate",
-      "beta_damascenone"
+      "beta_damascenone",
+      "methyl_cinnamate",
+      "ethyl_2_methylbutyrate"
     ],
     "descriptors": [
       "strawberry",
@@ -1242,8 +1278,8 @@
     ],
     "is_native": true,
     "season": null,
-    "notes": "Eucalyptus olida; vivid strawberry/passionfruit aroma. Bridges to strawberry.",
-    "source": "Eucalyptus olida; high in fruity esters/furaneol. TODO: verify exact profile."
+    "notes": "Eucalyptus olida; vivid strawberry/passionfruit aroma. Bridges to strawberry. [native EO enrichment — PROVISIONAL, verify vs cited study]",
+    "source": "Eucalyptus olida; high in fruity esters/furaneol. TODO: verify exact profile. | Enrichment: Eucalyptus olida leaf: furaneol-driven strawberry with fruity/balsamic esters."
   },
   {
     "id": "native_river_mint",
@@ -1253,7 +1289,10 @@
     "compounds": [
       "menthol",
       "menthone",
-      "carvone"
+      "carvone",
+      "isomenthone",
+      "limonene",
+      "eucalyptol"
     ],
     "descriptors": [
       "mint",
@@ -1262,8 +1301,8 @@
     ],
     "is_native": true,
     "season": null,
-    "notes": "Mentha australis; a genuine native mint. Bridges to common mint.",
-    "source": "Mentha australis oil; TODO: verify chemotype (menthol vs pulegone varies)."
+    "notes": "Mentha australis; a genuine native mint. Bridges to common mint. [native EO enrichment — PROVISIONAL, verify vs cited study]",
+    "source": "Mentha australis oil; TODO: verify chemotype (menthol vs pulegone varies). | Enrichment: Mentha australis oil: menthol/menthone/carvone mint with limonene and 1,8-cineole."
   },
   {
     "id": "brown_sugar",

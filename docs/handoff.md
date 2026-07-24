@@ -87,11 +87,25 @@ python -m pytest tests/ -q                       # confirm green, then inspect `
 **Coverage reality (why this isn't "100% of every ingredient"):** FlavorDB2 is a
 common-food database. It enriches citrus/fruit/herb/spice/veg raws — and every
 composite built on them, transitively, since composites derive from botanicals.
-It does NOT cover **Australian natives** (finger lime, wattleseed, lemon myrtle,
-pepperberry…), which have few/no FlavorDB entries and still need hand-curation
-from botanical literature (as they were first built), nor proprietary items
-(bitters, most liqueurs). The enrich step reports unmatched entities so the gap
-is visible, never hidden.
+It does NOT cover **Australian natives** (handled separately below — see the
+natives pass), nor proprietary items (bitters, most liqueurs). The enrich step
+reports unmatched entities so the gap is visible, never hidden.
+
+## Native enrichment — DONE this session (offline, cited, PROVISIONAL)
+
+The 15 Australian natives (Cobber's signature) were thin (2–4 compounds each) and
+FlavorDB has no entries for them, so they were hand-curated from published
+essential-oil / GC-MS composition studies via `scripts/enrich_natives.py`:
++39 documented aroma constituents across all 15, every one a compound already in
+Cobber's vocabulary (so it carries a cited descriptor — no orphans, no invented
+descriptors). Each addition is a characteristic constituent of that species
+(e.g. Tasmannia lanceolata's monoterpene base under its polygodial pungency;
+lemon myrtle's myrcene/limonene alongside citral). Wheels went from 2–3 families
+to 4–5 and read true (pepperberry woody+spice, wattleseed roasted-nutty, native
+river mint mint-dominant). **The whole pass is flagged PROVISIONAL** in each
+native's notes — Ari verifies against the cited studies and de-provisions per
+entry (same workflow as the taste-axis backfill). Re-runnable / idempotent.
+Remaining natives gap: none in the pantry; add new bush foods the same way.
 
 The upgraded `enrich_from_flavordb.py`: fuzzy alias→ingredient matching (0.90
 accept / 0.80 review cutoffs, never coercing), auto descriptor stubs for new
