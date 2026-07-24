@@ -107,12 +107,20 @@ native's notes — Ari verifies against the cited studies and de-provisions per
 entry (same workflow as the taste-axis backfill). Re-runnable / idempotent.
 Remaining natives gap: none in the pantry; add new bush foods the same way.
 
-The upgraded `enrich_from_flavordb.py`: fuzzy alias→ingredient matching (0.90
-accept / 0.80 review cutoffs, never coercing), auto descriptor stubs for new
-compounds (only the FlavorDB profile words that already map to a Cobber family,
-so the load cross-check stays satisfied; the rest are shelved for review), and an
-`--apply` mode that writes into the data files with the git diff as the review
-gate. Offline `--self-test` on both scripts.
+`enrich_from_flavordb.py` is deliberately **conservative** — FlavorDB lists every
+molecule ever detected in a food (dozens–hundreds, mostly trace/ubiquitous), and
+an early version that imported all of them (+8,882 links, +1,099 empty-descriptor
+stubs) flooded Cobber's curated profiles and broke the suite. The fixed policy:
+**known-vocabulary compounds only** (every addition already has a cited,
+family-mapped descriptor — no orphans, no foreign descriptor words), ranked
+**least-ubiquitous-first** and **capped at `--max-add` (default 6) per
+ingredient**, attributed to FlavorDB2 but **not** flagged provisional (it's a
+peer-reviewed DB, unlike the hand-curated natives). Guard-rail kept: fuzzy
+alias→ingredient matching (0.90 accept / 0.80 review), never coercing; out-of-vocab
+compounds and unmatched entities are counted and listed, never added. `--apply`
+writes into ingredients.json with the git diff as the review gate. Offline
+`--self-test` on both scripts. LICENSE: enriched data is a CC BY-NC-SA 3.0
+derivative — keep it attributed; note the ShareAlike license if the repo is public.
 
 - `fetch_flavordb.py` pulls the per-entity JSON (`entities_json?id=N`), records
   license + citation in the dump's provenance, rate-limits, and **fails fast +
