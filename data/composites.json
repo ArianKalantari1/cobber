@@ -204,7 +204,10 @@
     "taste": {
       "sweet": 0.7,
       "bitter": 0.1
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "cointreau",
@@ -228,7 +231,10 @@
     "taste": {
       "sweet": 0.65,
       "bitter": 0.1
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "sweet_vermouth",
@@ -251,7 +257,12 @@
     "taste": {
       "sweet": 0.6,
       "bitter": 0.3
-    }
+    },
+    "tastants": [
+      "tartaric_acid",
+      "absinthin",
+      "sucrose"
+    ]
   },
   {
     "id": "dry_vermouth",
@@ -273,7 +284,11 @@
     "taste": {
       "sour": 0.2,
       "bitter": 0.2
-    }
+    },
+    "tastants": [
+      "tartaric_acid",
+      "absinthin"
+    ]
   },
   {
     "id": "campari",
@@ -294,7 +309,10 @@
     "taste": {
       "bitter": 0.8,
       "sweet": 0.4
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "aperol",
@@ -316,7 +334,10 @@
     "taste": {
       "bitter": 0.5,
       "sweet": 0.5
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "st_germain",
@@ -339,7 +360,11 @@
     "taste": {
       "sweet": 0.75,
       "sour": 0.05
-    }
+    },
+    "tastants": [
+      "sucrose",
+      "fructose"
+    ]
   },
   {
     "id": "maraschino",
@@ -363,7 +388,10 @@
     "taste": {
       "sweet": 0.65,
       "bitter": 0.2
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "amaretto",
@@ -386,7 +414,10 @@
     "taste": {
       "sweet": 0.8,
       "bitter": 0.25
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "coffee_liqueur",
@@ -410,7 +441,11 @@
     "taste": {
       "sweet": 0.6,
       "bitter": 0.3
-    }
+    },
+    "tastants": [
+      "sucrose",
+      "caffeine"
+    ]
   },
   {
     "id": "green_chartreuse",
@@ -432,7 +467,10 @@
     "taste": {
       "bitter": 0.5,
       "sweet": 0.35
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "limoncello",
@@ -455,7 +493,11 @@
     "taste": {
       "sweet": 0.65,
       "sour": 0.3
-    }
+    },
+    "tastants": [
+      "sucrose",
+      "citric_acid"
+    ]
   },
   {
     "id": "angostura_bitters",
@@ -477,7 +519,11 @@
     "source": "TODO: verify (secret recipe; gentian + baking-spice representative).",
     "taste": {
       "bitter": 0.9
-    }
+    },
+    "tastants": [
+      "gentiopicroside",
+      "amarogentin"
+    ]
   },
   {
     "id": "peychauds_bitters",
@@ -501,7 +547,10 @@
       "bitter": 0.8,
       "sweet": 0.2,
       "sour": 0.1
-    }
+    },
+    "tastants": [
+      "gentiopicroside"
+    ]
   },
   {
     "id": "orange_bitters",
@@ -523,7 +572,10 @@
     "taste": {
       "bitter": 0.9,
       "sour": 0.1
-    }
+    },
+    "tastants": [
+      "gentiopicroside"
+    ]
   },
   {
     "id": "scotch",
@@ -613,7 +665,10 @@
     "taste": {
       "fat": 0.6,
       "sweet": 0.6
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "peach_schnapps",
@@ -636,7 +691,10 @@
     ],
     "taste": {
       "sweet": 0.8
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "apricot_brandy",
@@ -660,7 +718,11 @@
     "taste": {
       "sweet": 0.65,
       "sour": 0.1
-    }
+    },
+    "tastants": [
+      "sucrose",
+      "malic_acid"
+    ]
   },
   {
     "id": "sambuca",
@@ -684,7 +746,10 @@
     "taste": {
       "sweet": 0.8,
       "bitter": 0.05
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "absinthe",
@@ -707,7 +772,10 @@
     "source": "Provisional entry; see notes.",
     "taste": {
       "bitter": 0.4
-    }
+    },
+    "tastants": [
+      "absinthin"
+    ]
   },
   {
     "id": "benedictine",
@@ -729,7 +797,11 @@
     "taste": {
       "sweet": 0.5,
       "bitter": 0.3
-    }
+    },
+    "tastants": [
+      "sucrose",
+      "fructose"
+    ]
   },
   {
     "id": "galliano",
@@ -756,7 +828,10 @@
     "taste": {
       "sweet": 0.7,
       "bitter": 0.1
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "blue_curacao",
@@ -781,7 +856,10 @@
     "taste": {
       "sweet": 0.65,
       "bitter": 0.1
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "creme_de_cacao",
@@ -802,7 +880,10 @@
     "taste": {
       "sweet": 0.8,
       "bitter": 0.2
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "creme_de_cassis",
@@ -827,7 +908,11 @@
     "taste": {
       "sweet": 0.7,
       "sour": 0.2
-    }
+    },
+    "tastants": [
+      "sucrose",
+      "malic_acid"
+    ]
   },
   {
     "id": "coconut_liqueur",
@@ -851,7 +936,10 @@
     "taste": {
       "sweet": 0.8,
       "fat": 0.3
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "raspberry_liqueur",
@@ -875,7 +963,11 @@
     "taste": {
       "sweet": 0.7,
       "sour": 0.15
-    }
+    },
+    "tastants": [
+      "sucrose",
+      "citric_acid"
+    ]
   },
   {
     "id": "amaro_montenegro",
@@ -899,7 +991,10 @@
     "taste": {
       "bitter": 0.45,
       "sweet": 0.4
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "citron_vodka",
@@ -1097,7 +1192,10 @@
     "taste": {
       "sweet": 0.9,
       "sour": 0.1
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "creme_de_menthe",
@@ -1122,7 +1220,10 @@
     "imply_min_oz": 0.0,
     "taste": {
       "sweet": 0.75
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "cherry_liqueur",
@@ -1148,7 +1249,11 @@
       "sweet": 0.65,
       "sour": 0.1,
       "bitter": 0.1
-    }
+    },
+    "tastants": [
+      "sucrose",
+      "malic_acid"
+    ]
   },
   {
     "id": "pisco",
@@ -1194,7 +1299,11 @@
     "taste": {
       "sweet": 0.6,
       "bitter": 0.1
-    }
+    },
+    "tastants": [
+      "fructose",
+      "glucose"
+    ]
   },
   {
     "id": "calvados",
@@ -1219,7 +1328,10 @@
     "taste": {
       "sweet": 0.2,
       "sour": 0.1
-    }
+    },
+    "tastants": [
+      "malic_acid"
+    ]
   },
   {
     "id": "whole_egg",
@@ -1267,7 +1379,10 @@
       "sweet": 0.35,
       "sour": 0.15,
       "bitter": 0.1
-    }
+    },
+    "tastants": [
+      "tartaric_acid"
+    ]
   },
   {
     "id": "anisette",
@@ -1291,7 +1406,10 @@
     "taste": {
       "sweet": 0.75,
       "bitter": 0.05
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "cynar",
@@ -1360,7 +1478,10 @@
     "taste": {
       "bitter": 0.6,
       "sweet": 0.5
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "falernum",
@@ -1393,7 +1514,11 @@
       "sweet": 0.65,
       "sour": 0.15,
       "bitter": 0.1
-    }
+    },
+    "tastants": [
+      "sucrose",
+      "citric_acid"
+    ]
   },
   {
     "id": "ginger_liqueur",
@@ -1417,7 +1542,10 @@
     "taste": {
       "sweet": 0.55,
       "bitter": 0.15
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "allspice_dram",
@@ -1442,7 +1570,10 @@
     "taste": {
       "sweet": 0.4,
       "bitter": 0.2
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "celery_bitters",
@@ -1490,7 +1621,10 @@
     "taste": {
       "sweet": 0.5,
       "bitter": 0.2
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "sloe_gin",
@@ -1512,7 +1646,11 @@
     "taste": {
       "sweet": 0.6,
       "sour": 0.3
-    }
+    },
+    "tastants": [
+      "sucrose",
+      "malic_acid"
+    ]
   },
   {
     "id": "spiced_rum",
@@ -1536,6 +1674,9 @@
     "taste": {
       "sweet": 0.25,
       "bitter": 0.1
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   }
 ]

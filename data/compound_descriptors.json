@@ -9,23 +9,9 @@
     "compound_count": 88,
     "provisional_count": 19,
     "extra_not_in_vocab": [
-      "absinthin",
-      "acetic_acid",
-      "caffeine",
-      "citric_acid",
-      "fructose",
-      "glucose",
-      "glutamic_acid",
-      "inosinate",
       "iso_alpha_acids",
       "lactic_acid",
-      "malic_acid",
-      "naringin",
-      "quassin",
-      "quinine",
-      "sodium_chloride",
-      "sucrose",
-      "tartaric_acid"
+      "quassin"
     ]
   },
   "compounds": {

@@ -27,7 +27,11 @@
     "source": "Flavornet / common citrus essential-oil profiles (limonene-dominant peel oil). | Enriched from FlavorDB2 (Goel et al. 2024).",
     "taste": {
       "sour": 0.9
-    }
+    },
+    "tastants": [
+      "citric_acid",
+      "malic_acid"
+    ]
   },
   {
     "id": "lime",
@@ -57,7 +61,11 @@
     "source": "Citrus aurantifolia peel oil profiles (limonene + terpene mix). | Enriched from FlavorDB2 (Goel et al. 2024).",
     "taste": {
       "sour": 0.9
-    }
+    },
+    "tastants": [
+      "citric_acid",
+      "malic_acid"
+    ]
   },
   {
     "id": "orange",
@@ -84,7 +92,11 @@
     "is_native": false,
     "season": null,
     "notes": "Sweet citrus; limonene >90% of peel oil with aldehyde sweetness. [+FlavorDB2 constituents]",
-    "source": "Sweet orange (Citrus sinensis) peel oil profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
+    "source": "Sweet orange (Citrus sinensis) peel oil profiles. | Enriched from FlavorDB2 (Goel et al. 2024).",
+    "tastants": [
+      "citric_acid",
+      "malic_acid"
+    ]
   },
   {
     "id": "grapefruit",
@@ -115,7 +127,12 @@
       "sour": 0.6,
       "bitter": 0.3,
       "sweet": 0.2
-    }
+    },
+    "tastants": [
+      "citric_acid",
+      "malic_acid",
+      "naringin"
+    ]
   },
   {
     "id": "bitter_orange_peel",
@@ -818,7 +835,10 @@
     "source": "Roasted coffee volatile literature (furans, pyrazines, furfurylthiol). | Enriched from FlavorDB2 (Goel et al. 2024).",
     "taste": {
       "bitter": 0.7
-    }
+    },
+    "tastants": [
+      "caffeine"
+    ]
   },
   {
     "id": "grape",
@@ -868,7 +888,10 @@
     "is_native": false,
     "season": null,
     "notes": "Green hexanal + estery damascenone. [+FlavorDB2 constituents]",
-    "source": "Malus domestica volatile profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
+    "source": "Malus domestica volatile profiles. | Enriched from FlavorDB2 (Goel et al. 2024).",
+    "tastants": [
+      "malic_acid"
+    ]
   },
   {
     "id": "pear",
@@ -919,7 +942,11 @@
     "is_native": false,
     "season": null,
     "notes": "Allyl hexanoate + furaneol tropical sweetness. [+FlavorDB2 constituents]",
-    "source": "Ananas comosus volatile profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
+    "source": "Ananas comosus volatile profiles. | Enriched from FlavorDB2 (Goel et al. 2024).",
+    "tastants": [
+      "citric_acid",
+      "malic_acid"
+    ]
   },
   {
     "id": "strawberry",
@@ -1090,7 +1117,10 @@
     "source": "N/A (sucrose is essentially odourless).",
     "taste": {
       "sweet": 1.0
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "honey",
@@ -1115,7 +1145,11 @@
     "source": "Honey volatile literature; TODO: verify (varies widely by source). | Enriched from FlavorDB2 (Goel et al. 2024).",
     "taste": {
       "sweet": 0.9
-    }
+    },
+    "tastants": [
+      "fructose",
+      "glucose"
+    ]
   },
   {
     "id": "agave",
@@ -1140,7 +1174,11 @@
     "source": "Agave syrup; TODO: verify volatile content (largely sweet, low aroma). | Enriched from FlavorDB2 (Goel et al. 2024).",
     "taste": {
       "sweet": 0.9
-    }
+    },
+    "tastants": [
+      "fructose",
+      "glucose"
+    ]
   },
   {
     "id": "egg_white",
@@ -1534,7 +1572,10 @@
     "source": "Provisional entry; see notes.",
     "taste": {
       "sweet": 0.9
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "demerara",
@@ -1554,7 +1595,10 @@
     "source": "Provisional entry; see notes.",
     "taste": {
       "sweet": 0.9
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "soda_water",
@@ -1585,7 +1629,10 @@
     "is_native": false,
     "season": null,
     "notes": "PROVISIONAL — added for co-occurrence coverage; compound profile not yet verified.",
-    "source": "Provisional entry; see notes."
+    "source": "Provisional entry; see notes.",
+    "tastants": [
+      "quinine"
+    ]
   },
   {
     "id": "cola",
@@ -1687,7 +1734,10 @@
     "source": "Provisional entry; see notes.",
     "taste": {
       "salty": 1.0
-    }
+    },
+    "tastants": [
+      "sodium_chloride"
+    ]
   },
   {
     "id": "olive",
@@ -1714,7 +1764,11 @@
       "salty": 0.7,
       "umami": 0.4,
       "fat": 0.3
-    }
+    },
+    "tastants": [
+      "glutamic_acid",
+      "sodium_chloride"
+    ]
   },
   {
     "id": "red_wine",
@@ -1931,7 +1985,12 @@
       "umami": 0.6,
       "sour": 0.4,
       "sweet": 0.3
-    }
+    },
+    "tastants": [
+      "citric_acid",
+      "malic_acid",
+      "glutamic_acid"
+    ]
   },
   {
     "id": "egg_yolk",
@@ -1992,7 +2051,10 @@
     "source": "Provisional entry; see notes.",
     "taste": {
       "sweet": 0.85
-    }
+    },
+    "tastants": [
+      "sucrose"
+    ]
   },
   {
     "id": "miso",
@@ -2019,7 +2081,11 @@
     "is_native": false,
     "season": null,
     "notes": "Fermented soy paste; sotolon/furaneol from aging, pyrazines roasty. TODO: verify (Part B citation pass).",
-    "source": "Common aroma-chemistry references; provisional."
+    "source": "Common aroma-chemistry references; provisional.",
+    "tastants": [
+      "glutamic_acid",
+      "sodium_chloride"
+    ]
   },
   {
     "id": "shio_koji",
@@ -2043,7 +2109,11 @@
     "is_native": false,
     "season": null,
     "notes": "Koji-cultured rice + salt; gentler than miso, rounds and seasons. TODO: verify (Part B citation pass).",
-    "source": "Common aroma-chemistry references; provisional."
+    "source": "Common aroma-chemistry references; provisional.",
+    "tastants": [
+      "glutamic_acid",
+      "sodium_chloride"
+    ]
   },
   {
     "id": "soy_sauce",
@@ -2068,7 +2138,11 @@
     "is_native": false,
     "season": null,
     "notes": "Methional + sotolon are the key fermented-soy odorants. TODO: verify (Part B citation pass).",
-    "source": "Common aroma-chemistry references; provisional."
+    "source": "Common aroma-chemistry references; provisional.",
+    "tastants": [
+      "glutamic_acid",
+      "sodium_chloride"
+    ]
   },
   {
     "id": "worcestershire",
@@ -2094,7 +2168,13 @@
     "is_native": false,
     "season": null,
     "notes": "Anchovy-tamarind-clove ferment; eugenol gives the clove bridge. TODO: verify (Part B citation pass).",
-    "source": "Common aroma-chemistry references; provisional."
+    "source": "Common aroma-chemistry references; provisional.",
+    "tastants": [
+      "glutamic_acid",
+      "inosinate",
+      "acetic_acid",
+      "sodium_chloride"
+    ]
   },
   {
     "id": "fish_sauce",
@@ -2117,7 +2197,12 @@
     "is_native": false,
     "season": null,
     "notes": "Drops only; the deepest umami/funk lever on the shelf. TODO: verify (Part B citation pass).",
-    "source": "Common aroma-chemistry references; provisional."
+    "source": "Common aroma-chemistry references; provisional.",
+    "tastants": [
+      "glutamic_acid",
+      "inosinate",
+      "sodium_chloride"
+    ]
   },
   {
     "id": "celery",
@@ -2201,7 +2286,10 @@
     "is_native": false,
     "season": null,
     "notes": "1-octen-3-ol is the mushroom alcohol; shiitake/porcini infusions. TODO: verify (Part B citation pass). [+FlavorDB2 constituents]",
-    "source": "Common aroma-chemistry references; provisional. | Enriched from FlavorDB2 (Goel et al. 2024)."
+    "source": "Common aroma-chemistry references; provisional. | Enriched from FlavorDB2 (Goel et al. 2024).",
+    "tastants": [
+      "glutamic_acid"
+    ]
   },
   {
     "id": "tamarind",
@@ -2230,7 +2318,12 @@
     "is_native": false,
     "season": null,
     "notes": "Sour-sweet pulp; ties to falernum and Worcestershire territory. TODO: verify (Part B citation pass). [+FlavorDB2 constituents]",
-    "source": "Common aroma-chemistry references; provisional. | Enriched from FlavorDB2 (Goel et al. 2024)."
+    "source": "Common aroma-chemistry references; provisional. | Enriched from FlavorDB2 (Goel et al. 2024).",
+    "tastants": [
+      "tartaric_acid",
+      "citric_acid",
+      "glutamic_acid"
+    ]
   },
   {
     "id": "hot_sauce",
@@ -2252,6 +2345,10 @@
     "is_native": false,
     "season": null,
     "notes": "Capsaicin heat is trigeminal, not a taste axis yet; vinegar base gives sour. TODO: verify (Part B citation pass).",
-    "source": "Common aroma-chemistry references; provisional."
+    "source": "Common aroma-chemistry references; provisional.",
+    "tastants": [
+      "acetic_acid",
+      "sodium_chloride"
+    ]
   }
 ]
