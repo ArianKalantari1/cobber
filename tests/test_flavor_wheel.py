@@ -162,3 +162,70 @@ def test_family_map_covers_every_descriptor_word():
     for record in pantry.compound_descriptors.values():
         for word in record.get("odor", []):
             assert word in pantry.descriptor_word_to_family
+
+
+# ---------------------------------------------------------------------------
+# taste_provenance (the taste "why" layer)
+# ---------------------------------------------------------------------------
+
+
+def test_lemon_sourness_traces_to_acids():
+    prov = engine.taste_provenance("lemon")
+    assert prov["known"] is True
+    assert set(prov["provenance"]["sour"]) == {"citric_acid", "malic_acid"}
+    assert prov["gaps"] == []
+
+
+def test_campari_bitterness_traces_to_gentian_via_botanicals():
+    """A composite inherits its botanicals' tastants: Campari's bitter <- gentian."""
+    prov = engine.taste_provenance("campari")
+    assert "gentiopicroside" in prov["provenance"]["bitter"]
+    assert prov["provenance"]["sweet"] == ["sucrose"]
+
+
+def test_provenance_gap_is_reported_not_faked():
+    """miso is sweet (koji) with no recorded sugar -> honest gap, not invented."""
+    prov = engine.taste_provenance("miso")
+    assert prov["provenance"]["umami"] == ["glutamic_acid"]
+    assert "sweet" in prov["gaps"]
+
+
+def test_fat_and_funk_are_never_provenance_gaps():
+    """Texture/microbial axes have no single-molecule cause by design."""
+    for iid in ("cream", "butter", "mezcal"):
+        prov = engine.taste_provenance(iid)
+        assert "fat" not in prov["gaps"]
+        assert "funk" not in prov["gaps"]
+
+
+def test_provenance_flags_provisional_tastant():
+    """absinthe's bitterness traces to absinthin, which is provisional."""
+    prov = engine.taste_provenance("absinthe")
+    assert "absinthin" in prov["provenance"].get("bitter", [])
+    assert prov["provisional"] is True
+
+
+def test_unknown_ingredient_provenance_is_honest():
+    prov = engine.taste_provenance("definitely_not_an_ingredient")
+    assert prov["known"] is False
+    assert prov["provenance"] == {}
+
+
+def test_tastants_do_not_pollute_aroma_harmony():
+    """Tastants live in a separate field; they must never enter the aroma profile."""
+    # lemon and lime are both sour via citric_acid, but that must NOT show up as a
+    # shared *aroma* compound (harmony is chemistry of smell, not taste).
+    assert "citric_acid" not in engine.profile("lemon")
+    assert "citric_acid" not in engine.profile("lime")
+    _, shared = engine.harmony("lemon", "lime")
+    assert "citric_acid" not in shared
+
+
+def test_every_tastant_has_a_taste_class_descriptor():
+    """Data integrity: no ingredient may reference a tastant without a taste class."""
+    pantry = load_pantry()
+    for ingredient in pantry.ingredients.values():
+        for tastant in ingredient.tastants:
+            record = pantry.compound_descriptors.get(tastant)
+            assert record is not None, f"{ingredient.id}: {tastant} missing"
+            assert record.get("taste_class"), f"{tastant} has no taste_class"

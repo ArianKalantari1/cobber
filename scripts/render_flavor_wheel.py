@@ -50,6 +50,7 @@ def build_payload() -> dict:
     for iid in pantry.all_ids():
         wheel = engine.flavor_wheel(iid)
         notes = engine.harmonious_notes(iid)
+        prov = engine.taste_provenance(iid)
         ingredient = pantry.get(iid)
         ingredients[iid] = {
             "id": iid,
@@ -65,6 +66,9 @@ def build_payload() -> dict:
             "families": wheel.get("families", []),
             "taste_overlay": wheel.get("taste_overlay", []),
             "harmonious": notes.get("notes", []),
+            "taste_axes": prov.get("taste_axes", {}),
+            "taste_provenance": prov.get("provenance", {}),
+            "taste_gaps": prov.get("gaps", []),
         }
 
     # Compound -> descriptor sources, so the page can show a citation on hover.
@@ -158,6 +162,8 @@ PAGE = """<!DOCTYPE html>
   <div class="card" id="sideCard">
     <h2>Flavour families</h2>
     <table id="famTable"><tbody></tbody></table>
+    <h2 style="margin-top:18px">Taste — why <span class="muted" style="text-transform:none">— the molecules behind each taste</span></h2>
+    <table id="tasteTable"><tbody></tbody></table>
     <h2 style="margin-top:18px">Harmonious notes <span class="muted" style="text-transform:none">— complementary families from the corpus</span></h2>
     <table id="harmTable"><tbody></tbody></table>
   </div>
@@ -245,6 +251,28 @@ function render(id){
       `<td style="width:120px"><div class="bar"><span style="width:${pct}%;background:${famColor(f.family)}"></span></div></td>`+
       `<td class="muted">${pct}%</td>`+
       `<td class="muted">${f.words.map(w=>compoundTip(w,f.compounds)).join(', ')}</td></tr>`);
+  }
+
+  // taste — why (provenance)
+  const tt = document.querySelector('#tasteTable tbody'); tt.innerHTML='';
+  const axes = ing.taste_axes || {}, prov = ing.taste_provenance || {}, gaps = ing.taste_gaps || [];
+  const axisKeys = Object.keys(axes);
+  if(!axisKeys.length && !Object.keys(prov).length){
+    tt.innerHTML='<tr><td class="muted">No curated taste for this ingredient.</td></tr>';
+  } else {
+    // one row per taste class we can explain, plus gap rows
+    const classes = new Set([...Object.keys(prov), ...axisKeys]);
+    for(const cls of classes){
+      const cause = prov[cls];
+      const val = axes[cls];
+      let causeCell;
+      if(cause && cause.length) causeCell = cause.join(', ');
+      else if(gaps.includes(cls)) causeCell = '<span class="flag">cause not recorded (provenance gap)</span>';
+      else causeCell = '<span class="muted">—</span>';
+      tt.insertAdjacentHTML('beforeend',
+        `<tr><td>${titleCase(cls)}${val!=null?` <span class="muted">${val}</span>`:''}</td>`+
+        `<td class="muted">${causeCell}</td></tr>`);
+    }
   }
 
   // harmonious notes

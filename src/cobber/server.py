@@ -66,6 +66,12 @@ tastants. For where to take a drink, `harmonious_notes` gives the flavour
 families that complement it, mined from Cobber's own recipe corpus. Both are
 honest about thin data (unknown / partial / provisional) — pass that honesty on.
 
+For the taste side (not aroma), `taste_provenance` traces an ingredient's taste
+axes to the molecules that cause them ("sour because citric + malic acid",
+"bitter from gentian's gentiopicroside"). It reports honest `gaps` where a taste
+has intensity but no recorded cause (e.g. a proprietary amaro) — relay the cause
+when there is one, and don't invent one when there isn't.
+
 Workflow when someone tells you what they have:
 1. Call `resolve_ingredients` on their free-text list to turn it into known ids.
    Mention anything that came back unknown and offer to work around it. If the
@@ -475,6 +481,22 @@ def harmonious_notes(ingredient: str, limit: int = 6) -> dict:
     all return an empty ``notes`` list with a ``note`` explaining why.
     """
     return engine.harmonious_notes(ingredient, limit=limit)
+
+
+@mcp.tool()
+def taste_provenance(ingredient: str) -> dict:
+    """Explain WHY an ingredient tastes the way it does — the causal molecules.
+
+    Pass an ingredient id (resolve free text first). Returns each taste class
+    mapped to the non-volatile tastant(s) behind it (``sour`` ← citric/malic acid,
+    ``sweet`` ← sucrose, ``bitter`` ← quinine/gentiopicroside…), the curated taste
+    axes, and any ``gaps`` — a taste with real intensity but no recorded cause
+    (e.g. a proprietary amaro bitterness). Use it to ground taste talk in
+    chemistry: say "sour because citric and malic acid", and be honest about gaps
+    rather than inventing a molecule. ``fat``/``funk`` have no single-molecule
+    cause by design and never appear as gaps. Unknown ingredient → ``known=false``.
+    """
+    return engine.taste_provenance(ingredient)
 
 
 @mcp.tool()

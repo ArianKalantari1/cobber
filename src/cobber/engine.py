@@ -124,6 +124,101 @@ def taste_profile(ingredient_id: str) -> tuple[dict[str, float], bool]:
     return dict(ROLE_TASTE_PRIOR.get(ingredient.role, {})), True
 
 
+# Curated taste axes that can have a single-molecule cause. `fat` (texture/
+# mouthfeel) and `funk` (microbial/aromatic) deliberately have no tastant
+# provenance — claiming one would be faking chemistry.
+_PROVENANCE_TASTE_AXES = frozenset({"sour", "sweet", "bitter", "salty", "umami"})
+
+
+def taste_provenance(ingredient_id: str) -> dict:
+    """Return the molecules that CAUSE an ingredient's taste — the "why" layer.
+
+    Cobber's taste axes are curated intensities (``sour: 0.9``); this maps each to
+    the non-volatile tastant(s) behind it, so a bartender can hear *"sour because
+    citric and malic acid"* rather than a bare number. Causes come from the
+    ingredient's ``tastants`` field plus any aroma compound that carries a taste
+    class (the gentian bitters, native pepperberry's pungency), grouped by class.
+
+    Honest about gaps: a curated basic-taste axis (sour/sweet/bitter/salty/umami)
+    with intensity but no recorded cause is reported in ``gaps`` — e.g. the
+    proprietary bitterness of Campari, whose secret recipe we won't invent a
+    molecule for. ``fat`` and ``funk`` are excluded from gaps by design (no
+    single-molecule cause). Unknown ingredient → ``known=False``.
+
+    Returns::
+
+        {
+          "ingredient": id, "display_name": str, "known": bool,
+          "provenance": {taste_class: [compound_ids]},   # sorted
+          "taste_axes": {axis: value},                    # curated, >0
+          "gaps": [axes with intensity but no recorded cause],
+          "provisional": bool, "provisional_tastants": [...],
+          "note": str|None,
+        }
+    """
+    ingredient = PANTRY.get(ingredient_id)
+    if ingredient is None:
+        return {
+            "ingredient": ingredient_id,
+            "known": False,
+            "provenance": {},
+            "taste_axes": {},
+            "gaps": [],
+            "note": f"Unknown ingredient {ingredient_id!r}; no taste provenance.",
+        }
+
+    causal: dict[str, set[str]] = {}
+    provisional_tastants: list[str] = []
+
+    def _add(compound_id: str) -> None:
+        record = PANTRY.compound_descriptors.get(compound_id)
+        if record is None:
+            return
+        taste_class = record.get("taste_class")
+        if not taste_class:
+            return
+        causal.setdefault(taste_class, set()).add(compound_id)
+        if record.get("provisional"):
+            provisional_tastants.append(compound_id)
+
+    # Explicit tastants (the "why" layer) + aroma compounds that are also tastants
+    # (amarogentin, gentiopicroside, capsaicin, gingerol, polygodial).
+    for tastant in ingredient.tastants:
+        _add(tastant)
+    for compound in ingredient.compounds:
+        _add(compound)
+
+    provenance = {cls: sorted(cs) for cls, cs in sorted(causal.items())}
+    curated = {axis: value for axis, value in ingredient.taste if value > 0}
+
+    gaps = sorted(
+        axis
+        for axis, value in curated.items()
+        if axis in _PROVENANCE_TASTE_AXES and axis not in provenance
+    )
+
+    note: str | None = None
+    if not provenance and not curated:
+        note = f"No curated taste for {ingredient.display_name}; nothing to trace."
+    elif gaps:
+        note = (
+            f"No recorded molecular cause for {', '.join(gaps)} — likely a "
+            "proprietary or complex source; treated as a provenance gap, not invented."
+        )
+
+    return {
+        "ingredient": ingredient_id,
+        "display_name": ingredient.display_name,
+        "known": True,
+        "provenance": provenance,
+        "taste_axes": dict(sorted(curated.items())),
+        "gaps": gaps,
+        "provisional": bool(provisional_tastants),
+        "provisional_tastants": sorted(set(provisional_tastants)),
+        "note": note,
+    }
+
+
 def balance(ingredient_ids: list[str]) -> dict:
     """Run a deliberately simple V1 balance check over roles and taste axes.
 

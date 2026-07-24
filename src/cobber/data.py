@@ -59,6 +59,11 @@ class Ingredient:
     notes: str
     source: str
     botanicals: tuple[str, ...] = ()  # empty for raw ingredients
+    # Non-volatile tastant compound ids (the taste "why" layer): the molecules
+    # that CAUSE this ingredient's taste axes (citric_acid -> sour, sucrose ->
+    # sweet, quinine -> bitter). Kept separate from `compounds` (aroma) on
+    # purpose — tastants must never enter the aroma-harmony Jaccard.
+    tastants: tuple[str, ...] = ()
     season: str | None = None  # reserved for a future feature; always None in V1
     # Explicit taste-axis values (0..1 per axis in VALID_TASTE_AXES), stored as
     # a tuple of (axis, value) pairs to keep the dataclass safely immutable.
@@ -177,6 +182,7 @@ def load_pantry() -> Pantry:
             source=entry.get("source", ""),
             season=entry.get("season"),
             taste=_validate_taste(entry),
+            tastants=tuple(entry.get("tastants", [])),
             provisional=_is_provisional(entry),
         )
 
@@ -206,6 +212,7 @@ def load_pantry() -> Pantry:
             botanicals=tuple(botanicals),
             season=entry.get("season"),
             taste=_validate_taste(entry),
+            tastants=tuple(entry.get("tastants", [])),
             provisional=_is_provisional(entry),
         )
 
@@ -317,6 +324,21 @@ def _load_descriptor_layer(pantry: Pantry) -> None:
                     f"in any flavour family: {sorted(unmapped)}. Add them to "
                     "data/flavor_families.json."
                 )
+
+        # Cross-check the taste "why" layer: every tastant an ingredient names
+        # must have a descriptor entry with a taste_class (never a dangling ref).
+        dangling: set[str] = set()
+        for ingredient in pantry.ingredients.values():
+            for tastant in ingredient.tastants:
+                record = pantry.compound_descriptors.get(tastant)
+                if record is None or not record.get("taste_class"):
+                    dangling.add(tastant)
+        if dangling:
+            raise ValueError(
+                f"{len(dangling)} tastant(s) referenced by ingredients lack a "
+                f"descriptor entry with a taste_class: {sorted(dangling)}. Add them "
+                "to compound_descriptors.json (via fetch_descriptors.py)."
+            )
 
 
 def _is_provisional(entry: dict) -> bool:
