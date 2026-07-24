@@ -1,10 +1,40 @@
 # Handoff — current state of the co-occurrence work
 
-*Updated 23 July 2026 (sensory-descriptor layer: flavour wheels + harmonious
-notes + a self-contained HTML visualiser — on branch
-`claude/cobber-sensory-descriptors-bpeytg`, not yet merged).
-Supersedes the original Copilot handoff. Read `docs/cobber-design-notes.md`
-first for the project's thinking; this file is "where we are and what's next".*
+*Updated 24 July 2026. Sensory-descriptor layer (flavour wheels + harmonious
+notes + HTML) merged to main via PR #6; profile enrichment (natives from
+literature + common foods from FlavorDB2) merged with it. Taste-provenance layer
+built after on branch `claude/cobber-sensory-descriptors-bpeytg` (re-based off
+main after the merge). Supersedes the original Copilot handoff. Read
+`docs/cobber-design-notes.md` first for the project's thinking; this file is
+"where we are and what's next".*
+
+## Taste-provenance layer ("the why"): DONE (24 July 2026)
+
+The wheel covers *aroma*; this covers *taste*. Cobber's taste axes were bare
+numbers — now each traces to the molecule that causes it (Ari's OPEN IDEAS #2 /
+roadmap Part B).
+
+- **17 non-volatile tastants** added to `compound_descriptors.json` (via
+  `fetch_descriptors.py`), each cited to ChemTastesDB: sour acids
+  (citric/malic/tartaric/lactic/acetic), sugars (sucrose/fructose/glucose),
+  bitter principles (quinine/naringin/caffeine/iso-alpha-acids/quassin/absinthin
+  + the gentian ones already in), umami (glutamic_acid/inosinate), sodium_chloride.
+- **New `tastants` field** on ingredients (`scripts/link_tastants.py`, 67 linked),
+  kept SEPARATE from aroma `compounds` so tastants never enter the harmony
+  Jaccard (regression-tested). Only documented causes asserted; proprietary amaro
+  bitterness and fat/funk left unmapped → honest gaps, not invented molecules.
+- **`engine.taste_provenance(id)`**: taste class → causal compounds, pulling from
+  the tastants field AND aroma compounds that are also tastants — so composites
+  inherit botanical causes automatically (Campari/Fernet/Cynar/Aperol all carry
+  gentian → their bitterness traces to gentiopicroside/amarogentin). Reports
+  `gaps` for a taste with intensity but no recorded cause; `fat`/`funk` never
+  gaps. Exposed as the `taste_provenance` MCP tool; shown in a "Taste — why"
+  panel on `flavor_wheel.html`.
+- **Tests:** 8 new (incl. the tastants-don't-pollute-harmony guard); **74 total**.
+- PROVISIONAL tastants flagged: iso_alpha_acids, absinthin, inosinate (+ the
+  existing capsaicin/gingerol/polygodial). Ari verifies/de-provisions.
+- **Open for Ari:** extend `link_tastants.py` for more ingredients; decide whether
+  any proprietary-amaro gaps deserve a curated cause; verify the provisional ones.
 
 ## Sensory-descriptor layer: DONE this session (23 July 2026)
 

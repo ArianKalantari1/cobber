@@ -39,8 +39,13 @@ files — no LLM calls, no network, no database at runtime.
 - `data/flavor_communities.json` — diagnostic flavour-family clusters.
 - `data/compound_descriptors.json` — compound → odour descriptor words (curated
   from Flavornet, cited per CAS) + taste class for non-volatile tastants
-  (ChemTastesDB, cite-only). Provisional entries flagged. Built by
-  `scripts/fetch_descriptors.py`.
+  (acids, sugars, bitter principles, umami, salt — ChemTastesDB). Provisional
+  entries flagged. Built by `scripts/fetch_descriptors.py`.
+- Ingredients carry an optional `tastants` field (the taste "why" layer): the
+  non-volatile compound ids that CAUSE their taste axes (citric_acid → sour,
+  sucrose → sweet, quinine → bitter). Kept SEPARATE from aroma `compounds` so
+  tastants never enter the harmony Jaccard. Linked by `scripts/link_tastants.py`;
+  read by `engine.taste_provenance`.
 - `data/flavor_families.json` — the approved 10-family bucket map (every
   descriptor word → exactly one family) + bitter/pungent taste overlay. Read by
   `engine.flavor_wheel`.
@@ -74,6 +79,7 @@ Sensory-descriptor layer (offline; outputs committed):
 ```
 python3 scripts/fetch_descriptors.py          # -> compound_descriptors.json (Flavornet/ChemTastesDB, cited)
 python3 scripts/compute_descriptor_harmony.py # -> descriptor_harmony.json (family co-occurrence, NPMI)
+python3 scripts/link_tastants.py              # -> tastants field on ingredients (taste "why" layer)
 python3 scripts/render_flavor_wheel.py        # -> flavor_wheel.html (self-contained visualiser)
 ```
 
