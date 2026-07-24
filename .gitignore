@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# FlavorDB build artifacts (CC BY-NC-SA 3.0 raw dump + regenerable proposal) — do not commit
+data/raw/flavordb_entities.json
+data/profile_enrichment.json
