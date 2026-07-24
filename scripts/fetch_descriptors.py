@@ -173,6 +173,50 @@ CURATED: dict[str, dict] = {
                         "provisional": True, "note": "6-gingerol; chemesthetic warmth/pungency rather than a basic taste."},
     "polygodial":      {"cas": "6754-20-7",  "odor": [], "taste_class": "pungent", "src": "curated",
                         "provisional": True, "note": "Native pepperberry (Tasmannia) sesquiterpene dialdehyde; hot/pungent. Off-database; bartender/lit knowledge."},
+
+    # ---- Non-volatile tastants: the taste "why" layer -------------------
+    # Referenced by ingredients' `tastants` field (not `compounds`) so they give
+    # a taste its molecular cause without polluting the aroma-harmony Jaccard.
+    # Taste class from ChemTastesDB (five basic tastes); no odour.
+    # -- sour (organic acids) --
+    "citric_acid":     {"cas": "77-92-9",   "odor": [], "taste_class": "sour", "src": "chemtastes",
+                        "note": "Dominant acid of citrus; the classic cocktail sour."},
+    "malic_acid":      {"cas": "6915-15-7", "odor": [], "taste_class": "sour", "src": "chemtastes",
+                        "note": "Apple/stone-fruit acid; softer, rounder sourness than citric."},
+    "tartaric_acid":   {"cas": "87-69-4",   "odor": [], "taste_class": "sour", "src": "chemtastes",
+                        "note": "Grape acid; the sourness of wine, vermouth and verjus."},
+    "lactic_acid":     {"cas": "50-21-5",   "odor": [], "taste_class": "sour", "src": "chemtastes",
+                        "note": "Fermentation acid; the soft tang of dairy and lacto-ferments."},
+    "acetic_acid":     {"cas": "64-19-7",   "odor": [], "taste_class": "sour", "src": "chemtastes",
+                        "note": "Vinegar acid; sharp sourness (shrubs)."},
+    # -- sweet (sugars) --
+    "sucrose":         {"cas": "57-50-1",   "odor": [], "taste_class": "sweet", "src": "chemtastes",
+                        "note": "Table sugar; the reference sweetener of syrups."},
+    "fructose":        {"cas": "57-48-7",   "odor": [], "taste_class": "sweet", "src": "chemtastes",
+                        "note": "Fruit sugar; the dominant sweetness of honey and agave."},
+    "glucose":         {"cas": "50-99-7",   "odor": [], "taste_class": "sweet", "src": "chemtastes",
+                        "note": "Grape sugar; co-occurs with fructose in fruit and honey."},
+    # -- bitter (bitter principles) --
+    "quinine":         {"cas": "130-95-0",  "odor": [], "taste_class": "bitter", "src": "chemtastes",
+                        "note": "Cinchona alkaloid; the bitterness of tonic water."},
+    "naringin":        {"cas": "10236-47-2","odor": [], "taste_class": "bitter", "src": "chemtastes",
+                        "note": "Flavanone glycoside; grapefruit's bitter edge."},
+    "caffeine":        {"cas": "58-08-2",   "odor": [], "taste_class": "bitter", "src": "chemtastes",
+                        "note": "Purine alkaloid; part of coffee's bitterness."},
+    "iso_alpha_acids": {"cas": "26472-41-3","odor": [], "taste_class": "bitter", "src": "chemtastes",
+                        "provisional": True, "note": "Isomerised hop humulones; beer bitterness. Class stands in for the iso-alpha-acid family."},
+    "quassin":         {"cas": "76-78-8",   "odor": [], "taste_class": "bitter", "src": "chemtastes",
+                        "note": "Quassia bitter principle; extreme bitterness used in some amari/bitters."},
+    "absinthin":       {"cas": "1362-42-1", "odor": [], "taste_class": "bitter", "src": "chemtastes",
+                        "provisional": True, "note": "Wormwood (Artemisia absinthium) bitter dimeric guaianolide; absinthe/vermouth bitterness."},
+    # -- umami --
+    "glutamic_acid":   {"cas": "56-86-0",   "odor": [], "taste_class": "umami", "src": "chemtastes",
+                        "note": "Free glutamate; savoury depth of miso, tomato, mushroom, seaweed, soy."},
+    "inosinate":       {"cas": "4691-65-0", "odor": [], "taste_class": "umami", "src": "chemtastes",
+                        "provisional": True, "note": "Disodium 5'-inosinate; umami synergist (bonito, cured/aged foods)."},
+    # -- salty --
+    "sodium_chloride": {"cas": "7647-14-5", "odor": [], "taste_class": "salty", "src": "chemtastes",
+                        "note": "Table salt; the reference salty tastant (saline, olive brine)."},
 }
 
 
@@ -200,12 +244,20 @@ def _normalise_entry(compound_id: str, raw: dict) -> dict:
 
 
 def _compound_vocabulary() -> set[str]:
-    """The set of compound ids actually used by raw ingredients."""
-    with INGREDIENTS_PATH.open(encoding="utf-8") as handle:
-        entries = json.load(handle)
+    """The set of compound ids referenced by ingredients — aroma and tastant.
+
+    Reads both the aroma ``compounds`` list and the non-volatile ``tastants``
+    list (the taste "why" layer), plus composites' tastants, so the coverage
+    check catches any referenced compound that lacks a descriptor entry.
+    """
     vocab: set[str] = set()
-    for entry in entries:
-        vocab.update(entry.get("compounds", []))
+    for path in (INGREDIENTS_PATH, ROOT / "data" / "composites.json"):
+        if not path.exists():
+            continue
+        with path.open(encoding="utf-8") as handle:
+            for entry in json.load(handle):
+                vocab.update(entry.get("compounds", []))
+                vocab.update(entry.get("tastants", []))
     return vocab
 
 

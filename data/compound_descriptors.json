@@ -6,9 +6,27 @@
     "taste_source": "ChemTastesDB — Rojas et al. (2022) Food Chem: Mol Sci 4:100090 (doi:10.1016/j.fochms.2022.100090). Used cite-only for taste-class labels of non-volatile tastants; database file not redistributed.",
     "honesty_note": "Curated build-time table (the site could not be scraped in the build environment). Entries flagged 'provisional' could not be confirmed against the live Flavornet page in-session; verify before public claims.",
     "refresh": "In an unblocked environment, verify/refresh via the rOpenSci webchem scheme: GET http://www.flavornet.org/info/{CAS}.html and read the 'Percepts' field. See refresh_from_flavornet() below.",
-    "compound_count": 71,
-    "provisional_count": 16,
-    "extra_not_in_vocab": []
+    "compound_count": 88,
+    "provisional_count": 19,
+    "extra_not_in_vocab": [
+      "absinthin",
+      "acetic_acid",
+      "caffeine",
+      "citric_acid",
+      "fructose",
+      "glucose",
+      "glutamic_acid",
+      "inosinate",
+      "iso_alpha_acids",
+      "lactic_acid",
+      "malic_acid",
+      "naringin",
+      "quassin",
+      "quinine",
+      "sodium_chloride",
+      "sucrose",
+      "tartaric_acid"
+    ]
   },
   "compounds": {
     "1_octen_3_ol": {
@@ -43,6 +61,22 @@
       "taste_class": null,
       "provisional": false,
       "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 98-02-2"
+    },
+    "absinthin": {
+      "cas": "1362-42-1",
+      "odor": [],
+      "taste_class": "bitter",
+      "provisional": true,
+      "source": "ChemTastesDB (Rojas et al. 2022, doi:10.1016/j.fochms.2022.100090); taste class for CAS 1362-42-1",
+      "note": "Wormwood (Artemisia absinthium) bitter dimeric guaianolide; absinthe/vermouth bitterness."
+    },
+    "acetic_acid": {
+      "cas": "64-19-7",
+      "odor": [],
+      "taste_class": "sour",
+      "provisional": false,
+      "source": "ChemTastesDB (Rojas et al. 2022, doi:10.1016/j.fochms.2022.100090); taste class for CAS 64-19-7",
+      "note": "Vinegar acid; sharp sourness (shrubs)."
     },
     "allyl_hexanoate": {
       "cas": "123-68-2",
@@ -152,6 +186,14 @@
       "provisional": false,
       "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 127-91-3"
     },
+    "caffeine": {
+      "cas": "58-08-2",
+      "odor": [],
+      "taste_class": "bitter",
+      "provisional": false,
+      "source": "ChemTastesDB (Rojas et al. 2022, doi:10.1016/j.fochms.2022.100090); taste class for CAS 58-08-2",
+      "note": "Purine alkaloid; part of coffee's bitterness."
+    },
     "camphor": {
       "cas": "76-22-2",
       "odor": [
@@ -225,6 +267,14 @@
       "taste_class": null,
       "provisional": false,
       "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 5392-40-5"
+    },
+    "citric_acid": {
+      "cas": "77-92-9",
+      "odor": [],
+      "taste_class": "sour",
+      "provisional": false,
+      "source": "ChemTastesDB (Rojas et al. 2022, doi:10.1016/j.fochms.2022.100090); taste class for CAS 77-92-9",
+      "note": "Dominant acid of citrus; the classic cocktail sour."
     },
     "coumarin": {
       "cas": "91-64-5",
@@ -344,6 +394,14 @@
       "provisional": false,
       "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 97-53-0"
     },
+    "fructose": {
+      "cas": "57-48-7",
+      "odor": [],
+      "taste_class": "sweet",
+      "provisional": false,
+      "source": "ChemTastesDB (Rojas et al. 2022, doi:10.1016/j.fochms.2022.100090); taste class for CAS 57-48-7",
+      "note": "Fruit sugar; the dominant sweetness of honey and agave."
+    },
     "furaneol": {
       "cas": "3658-77-3",
       "odor": [
@@ -415,6 +473,22 @@
       "source": "ChemTastesDB (Rojas et al. 2022, doi:10.1016/j.fochms.2022.100090); taste class for CAS 23513-14-6",
       "note": "6-gingerol; chemesthetic warmth/pungency rather than a basic taste."
     },
+    "glucose": {
+      "cas": "50-99-7",
+      "odor": [],
+      "taste_class": "sweet",
+      "provisional": false,
+      "source": "ChemTastesDB (Rojas et al. 2022, doi:10.1016/j.fochms.2022.100090); taste class for CAS 50-99-7",
+      "note": "Grape sugar; co-occurs with fructose in fruit and honey."
+    },
+    "glutamic_acid": {
+      "cas": "56-86-0",
+      "odor": [],
+      "taste_class": "umami",
+      "provisional": false,
+      "source": "ChemTastesDB (Rojas et al. 2022, doi:10.1016/j.fochms.2022.100090); taste class for CAS 56-86-0",
+      "note": "Free glutamate; savoury depth of miso, tomato, mushroom, seaweed, soy."
+    },
     "hexanal": {
       "cas": "66-25-1",
       "odor": [
@@ -449,6 +523,14 @@
       "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 2639-63-6",
       "note": "Green-apple ester; Flavornet percept not confirmed in-session."
     },
+    "inosinate": {
+      "cas": "4691-65-0",
+      "odor": [],
+      "taste_class": "umami",
+      "provisional": true,
+      "source": "ChemTastesDB (Rojas et al. 2022, doi:10.1016/j.fochms.2022.100090); taste class for CAS 4691-65-0",
+      "note": "Disodium 5'-inosinate; umami synergist (bonito, cured/aged foods)."
+    },
     "ionone": {
       "cas": "127-41-3",
       "odor": [
@@ -472,6 +554,14 @@
       "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 79-69-6",
       "note": "Orris/violet ketone; Flavornet listing not confirmed in-session."
     },
+    "iso_alpha_acids": {
+      "cas": "26472-41-3",
+      "odor": [],
+      "taste_class": "bitter",
+      "provisional": true,
+      "source": "ChemTastesDB (Rojas et al. 2022, doi:10.1016/j.fochms.2022.100090); taste class for CAS 26472-41-3",
+      "note": "Isomerised hop humulones; beer bitterness. Class stands in for the iso-alpha-acid family."
+    },
     "isomenthone": {
       "cas": "491-07-6",
       "odor": [
@@ -482,6 +572,14 @@
       "provisional": true,
       "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 491-07-6",
       "note": "Menthone isomer; Flavornet listing not confirmed in-session."
+    },
+    "lactic_acid": {
+      "cas": "50-21-5",
+      "odor": [],
+      "taste_class": "sour",
+      "provisional": false,
+      "source": "ChemTastesDB (Rojas et al. 2022, doi:10.1016/j.fochms.2022.100090); taste class for CAS 50-21-5",
+      "note": "Fermentation acid; the soft tang of dairy and lacto-ferments."
     },
     "limonene": {
       "cas": "5989-27-5",
@@ -514,6 +612,14 @@
       "taste_class": null,
       "provisional": false,
       "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 115-95-7"
+    },
+    "malic_acid": {
+      "cas": "6915-15-7",
+      "odor": [],
+      "taste_class": "sour",
+      "provisional": false,
+      "source": "ChemTastesDB (Rojas et al. 2022, doi:10.1016/j.fochms.2022.100090); taste class for CAS 6915-15-7",
+      "note": "Apple/stone-fruit acid; softer, rounder sourness than citric."
     },
     "menthol": {
       "cas": "89-78-1",
@@ -592,6 +698,14 @@
       "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 607-91-0",
       "note": "Nutmeg ether; Flavornet listing not confirmed in-session."
     },
+    "naringin": {
+      "cas": "10236-47-2",
+      "odor": [],
+      "taste_class": "bitter",
+      "provisional": false,
+      "source": "ChemTastesDB (Rojas et al. 2022, doi:10.1016/j.fochms.2022.100090); taste class for CAS 10236-47-2",
+      "note": "Flavanone glycoside; grapefruit's bitter edge."
+    },
     "nerol_oxide": {
       "cas": "1786-08-9",
       "odor": [
@@ -657,6 +771,22 @@
       "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 290-37-9",
       "note": "Parent pyrazine is faint; roast/nut facet is the alkylpyrazine family it stands in for."
     },
+    "quassin": {
+      "cas": "76-78-8",
+      "odor": [],
+      "taste_class": "bitter",
+      "provisional": false,
+      "source": "ChemTastesDB (Rojas et al. 2022, doi:10.1016/j.fochms.2022.100090); taste class for CAS 76-78-8",
+      "note": "Quassia bitter principle; extreme bitterness used in some amari/bitters."
+    },
+    "quinine": {
+      "cas": "130-95-0",
+      "odor": [],
+      "taste_class": "bitter",
+      "provisional": false,
+      "source": "ChemTastesDB (Rojas et al. 2022, doi:10.1016/j.fochms.2022.100090); taste class for CAS 130-95-0",
+      "note": "Cinchona alkaloid; the bitterness of tonic water."
+    },
     "raspberry_ketone": {
       "cas": "5471-51-2",
       "odor": [
@@ -703,6 +833,14 @@
       "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 6415-59-4",
       "note": "Celery phthalide (aroma-active, not a tastant); Flavornet listing not confirmed in-session."
     },
+    "sodium_chloride": {
+      "cas": "7647-14-5",
+      "odor": [],
+      "taste_class": "salty",
+      "provisional": false,
+      "source": "ChemTastesDB (Rojas et al. 2022, doi:10.1016/j.fochms.2022.100090); taste class for CAS 7647-14-5",
+      "note": "Table salt; the reference salty tastant (saline, olive brine)."
+    },
     "sotolon": {
       "cas": "28664-35-9",
       "odor": [
@@ -713,6 +851,22 @@
       "taste_class": null,
       "provisional": false,
       "source": "Flavornet (Acree & Arn 2004, flavornet.org), Percepts for CAS 28664-35-9"
+    },
+    "sucrose": {
+      "cas": "57-50-1",
+      "odor": [],
+      "taste_class": "sweet",
+      "provisional": false,
+      "source": "ChemTastesDB (Rojas et al. 2022, doi:10.1016/j.fochms.2022.100090); taste class for CAS 57-50-1",
+      "note": "Table sugar; the reference sweetener of syrups."
+    },
+    "tartaric_acid": {
+      "cas": "87-69-4",
+      "odor": [],
+      "taste_class": "sour",
+      "provisional": false,
+      "source": "ChemTastesDB (Rojas et al. 2022, doi:10.1016/j.fochms.2022.100090); taste class for CAS 87-69-4",
+      "note": "Grape acid; the sourness of wine, vermouth and verjus."
     },
     "terpineol": {
       "cas": "98-55-5",
