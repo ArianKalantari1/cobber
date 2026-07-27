@@ -1757,8 +1757,11 @@
       "angelica_root",
       "lemon_myrtle",
       "orange",
+      "grapefruit",
       "olive",
-      "thyme"
+      "rosemary",
+      "thyme",
+      "lavender"
     ],
     "descriptors": [
       "olive",
@@ -1768,7 +1771,7 @@
       "juniper"
     ],
     "is_native": false,
-    "notes": "Four Pillars Olive Leaf Gin: Rare Dry base with olive leaf, olives, macadamia and lemon myrtle. Savoury-herbaceous, Mediterranean, green-citrus, gently briny. ~43.8% ABV. PROVISIONAL.",
+    "notes": "Four Pillars Olive Leaf Gin (43.8%): Rare Dry base with olive leaf + oil (picual/hojiblanca/coratina), rosemary, bay, macadamia, lemon myrtle, lavender, grapefruit. Savoury, creamy-nutty (macadamia/almond), earthy herbs, black-pepper warmth, green-tea tannin, subtle salinity, citrus finish. PROVISIONAL.",
     "source": "Four Pillars Olive Leaf botanicals (olive leaf/olives/macadamia/lemon myrtle + Rare Dry base); Four Pillars notes.",
     "taste": {
       "bitter": 0.1,
