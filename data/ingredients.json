@@ -2424,5 +2424,40 @@
       "fructose",
       "glucose"
     ]
+  },
+  {
+    "id": "pedro_ximenez",
+    "display_name": "Pedro Ximénez sherry",
+    "type": "raw",
+    "role": "aromatic",
+    "compounds": [
+      "sotolon",
+      "beta_damascenone",
+      "methyl_anthranilate",
+      "furaneol",
+      "vanillin",
+      "furfural",
+      "2_acetylpyrrole",
+      "phenylacetaldehyde"
+    ],
+    "descriptors": [
+      "raisin",
+      "fig",
+      "cocoa",
+      "grape",
+      "molasses"
+    ],
+    "is_native": false,
+    "notes": "Pedro Ximénez sherry: sun-dried PX grapes, oak-aged. Sotolon-driven raisin/fig/molasses with cocoa, coffee and vanilla; intensely sweet. PROVISIONAL.",
+    "source": "PX sherry aroma: sotolon (raisin/fig/maple), damascenone (dried fruit), methyl anthranilate (grape), furaneol/vanillin/furfural (caramel/oak/toast) — sweet-wine aroma literature.",
+    "taste": {
+      "sweet": 0.9,
+      "bitter": 0.1
+    },
+    "tastants": [
+      "fructose",
+      "glucose",
+      "tartaric_acid"
+    ]
   }
 ]
