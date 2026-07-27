@@ -2459,5 +2459,41 @@
       "glucose",
       "tartaric_acid"
     ]
+  },
+  {
+    "id": "kumquat",
+    "display_name": "Kumquat",
+    "type": "raw",
+    "role": "fruit",
+    "compounds": [
+      "limonene",
+      "myrcene",
+      "linalool",
+      "geraniol",
+      "methyl_anthranilate",
+      "decanal",
+      "beta_pinene"
+    ],
+    "descriptors": [
+      "kumquat",
+      "citrus",
+      "marmalade",
+      "orange blossom",
+      "bittersweet"
+    ],
+    "is_native": false,
+    "notes": "Whole-fruit citrus: sweet edible peel + tart flesh = bittersweet marmalade with orange-blossom florality and a pithy edge. Golden. PROVISIONAL.",
+    "source": "Fortunella/Citrus japonica peel + flesh volatiles (limonene-dominant with floral linalool/geraniol, methyl anthranilate).",
+    "taste": {
+      "sour": 0.5,
+      "sweet": 0.4,
+      "bitter": 0.2
+    },
+    "tastants": [
+      "citric_acid",
+      "malic_acid",
+      "fructose",
+      "glucose"
+    ]
   }
 ]

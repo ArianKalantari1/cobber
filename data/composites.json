@@ -1745,5 +1745,37 @@
       "caffeine",
       "sucrose"
     ]
+  },
+  {
+    "id": "olive_leaf_gin",
+    "display_name": "Olive Leaf gin",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "juniper",
+      "coriander_seed",
+      "angelica_root",
+      "lemon_myrtle",
+      "orange",
+      "olive",
+      "thyme"
+    ],
+    "descriptors": [
+      "olive",
+      "herbal",
+      "citrus",
+      "savoury",
+      "juniper"
+    ],
+    "is_native": false,
+    "notes": "Four Pillars Olive Leaf Gin: Rare Dry base with olive leaf, olives, macadamia and lemon myrtle. Savoury-herbaceous, Mediterranean, green-citrus, gently briny. ~43.8% ABV. PROVISIONAL.",
+    "source": "Four Pillars Olive Leaf botanicals (olive leaf/olives/macadamia/lemon myrtle + Rare Dry base); Four Pillars notes.",
+    "taste": {
+      "bitter": 0.1,
+      "salty": 0.1
+    },
+    "tastants": [
+      "sodium_chloride"
+    ]
   }
 ]
