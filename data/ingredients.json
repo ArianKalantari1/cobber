@@ -2384,5 +2384,45 @@
     "tastants": [
       "caffeine"
     ]
+  },
+  {
+    "id": "blood_orange",
+    "display_name": "Blood orange",
+    "type": "raw",
+    "role": "fruit",
+    "compounds": [
+      "limonene",
+      "myrcene",
+      "linalool",
+      "octanal",
+      "nootkatone",
+      "methyl_anthranilate",
+      "carvone",
+      "sabinene",
+      "ethyl_2_methylbutyrate",
+      "gamma_terpinene",
+      "raspberry_ketone",
+      "beta_damascenone",
+      "beta_ionone"
+    ],
+    "descriptors": [
+      "blood orange",
+      "citrus",
+      "red berry"
+    ],
+    "is_native": false,
+    "notes": "Sweet-orange citrus over a distinct raspberry/red-berry note (anthocyanin varieties); softer acid, a little more sweetness than common orange. PROVISIONAL.",
+    "source": "Modelled on sweet-orange peel/juice volatiles plus blood orange's characteristic raspberry/red-berry note (Citrus sinensis 'Moro/Tarocco' composition + tasting refs).",
+    "taste": {
+      "sour": 0.6,
+      "sweet": 0.35,
+      "bitter": 0.15
+    },
+    "tastants": [
+      "citric_acid",
+      "malic_acid",
+      "fructose",
+      "glucose"
+    ]
   }
 ]

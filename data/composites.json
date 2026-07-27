@@ -1680,5 +1680,70 @@
     "tastants": [
       "sucrose"
     ]
+  },
+  {
+    "id": "bloody_shiraz_gin",
+    "display_name": "Bloody Shiraz gin",
+    "type": "composite",
+    "role": "spirit",
+    "botanicals": [
+      "juniper",
+      "orange",
+      "lemon_myrtle",
+      "coriander_seed",
+      "cardamom",
+      "cassia",
+      "star_anise",
+      "lavender",
+      "angelica_root",
+      "pepperberry",
+      "grape",
+      "raspberry"
+    ],
+    "descriptors": [
+      "juniper",
+      "dark berry",
+      "spice",
+      "pepper",
+      "citrus"
+    ],
+    "is_native": false,
+    "notes": "Four Pillars Bloody Shiraz Gin: Rare Dry Gin steeped with Yarra Valley Shiraz grapes. Deep crimson, ~37.8% ABV, no added sugar (natural grape sweetness + colour). Pine juniper, raspberry/plum/blackcurrant dark fruit, black tea tannin, cardamom/cassia/star-anise spice, white/black pepper. PROVISIONAL.",
+    "source": "Four Pillars botanical list + tasting notes (Four Pillars / Difford's Guide; Drinkhacker). Shiraz character modelled via grape + raspberry.",
+    "taste": {
+      "bitter": 0.15,
+      "sweet": 0.2,
+      "sour": 0.05
+    },
+    "tastants": [
+      "tartaric_acid"
+    ]
+  },
+  {
+    "id": "dark_chocolate",
+    "display_name": "Dark chocolate",
+    "type": "composite",
+    "role": "bitter",
+    "botanicals": [
+      "cacao",
+      "vanilla"
+    ],
+    "descriptors": [
+      "dark chocolate",
+      "cocoa",
+      "roasted"
+    ],
+    "is_native": false,
+    "notes": "Dark chocolate: cacao mass + cocoa butter + a little sugar + vanilla. Roasted-nutty, dark-fruit, vanilla; bitter with cocoa-butter fat. PROVISIONAL.",
+    "source": "Derived from cacao (dark-chocolate odorants) + vanilla; taste from cacao bitterness, cocoa-butter fat, light added sugar.",
+    "taste": {
+      "bitter": 0.55,
+      "sweet": 0.25,
+      "fat": 0.45
+    },
+    "tastants": [
+      "caffeine",
+      "sucrose"
+    ]
   }
 ]
