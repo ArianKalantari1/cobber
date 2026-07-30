@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "ingredient": "kumquat",
+    "provenance": "Hand-provided by Ari from Flavonomics (external commercial flavour-pairing site).",
+    "status": "REFERENCE ONLY — NOT integrated into Cobber's engine/data, NOT verified, licensing unconfirmed. Same treatment as blood_orange.json.",
+    "captured": "2026-07-27",
+    "use": "Reference for the Golden Hour cocktail (Four Pillars Olive Leaf gin)."
+  },
+  "summary": "Crisp citrus (grapefruit/orange/lemon) over sugar, with a bergamot floral note, a sour-apple (malic) tartness, and quinine + cut-grass on the finish.",
+  "dominant_families": ["acidic", "sweet", "spice", "floral", "herbal"],
+  "top_profile_notes": {"grapefruity": 6.8, "orangey": null, "lemony": null, "sugary": null, "honeyed": null, "bergamot": null, "malic": null, "cinchona_quinine": null, "grassy": null, "coriandric": null, "piney": null},
+  "harmonious_notes": {"oleic": 8.1, "milky": null, "buttery": null, "cocoa": null, "vanillic": null, "gingery": null, "cinnamonic": null, "olivey": null, "briney": null, "coconuty": null, "almondy": null, "fennelly": null, "coriandric": null},
+  "grapefruity_note_associations": {"coconuty": 30, "gingery": 28, "sugary": 27, "spicy_heat": 22, "coriandric": 21, "mustardy": 21, "briney": 20, "algal": 19},
+  "key_pairings": {
+    "ginger": "match made in heaven (shared gingery notes draw out kumquat)",
+    "cream_cheese": "milky + oleic dairy match",
+    "cinnamon_chai": "cinnamonic harmony"
+  },
+  "drink_pairings": ["Golden Cadillac", "Chai Latte", "Dirty Martini", "Amarula", "Irish Cream", "Bloody Maria", "Buttery Nipple"],
+  "complementary_ingredients": ["milk", "chicken stock", "pistachio paste", "yogurt", "almond cream"],
+  "fruit_pairings": ["avocado", "pumpkin", "goji berry", "banana", "raisin", "date"],
+  "cocktail_notes": "Validates Ari's directions: dairy/milk-wash (oleic/milky harmonious), chai/cinnamon/ginger spice, AND olive brine (briney note + Dirty Martini pairing). Chai-milk and olive-brine are two distinct lanes, not one drink."
+}
