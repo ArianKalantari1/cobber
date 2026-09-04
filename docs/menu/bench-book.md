@@ -9,6 +9,7 @@ engine can't see; those are flagged as *(kitchen, not Cobber)*.
 ---
 
 ## Contents
+★ **Wave 1 — service-optimised (Apéritif & Co, build this week)**
 1. Competition — Applejack "Home Turf" (Four Pillars)
 2. Spring / creative menu — full specs
 3. Creative reserve — concepts to develop
@@ -16,6 +17,62 @@ engine can't see; those are flagged as *(kitchen, not Cobber)*.
 5. Prep library — detailed recipes
 6. Substitution master table
 7. Technique notes (clarification, steeping, colour, tea/flame, colour-change)
+
+---
+
+# ★ WAVE 1 — service-optimised (Apéritif & Co, build this week)
+
+Designed for a limited, busy bar: the hard work is prep-side (shelf-stable
+bottles made in the quiet); at service it's **≤2 fresh touches, pour-and-go**.
+
+## House Martini (Italicus) — the everyday seller
+Clean, floral-citrus, freezer-batched → pour-and-twist (one touch).
+- **Base:** clean/citrus gin (Poor Toms / Generous / Hendrick's) — or vodka (softer). *Not Spirit of Newtown.*
+- **Freezer batch:** 500 ml spirit · 200 ml Italicus · 150 ml water · 10 drops saline → bottle, freezer (~11 serves).
+- **Service:** pour 75 ml straight into a chilled coupe, express lemon twist.
+
+**The line — same template, swap the 20 ml:** Rinquinquin (peach), Briottet
+(elderflower), Le Poirier (pear), quince/rhubarb vermouth.
+
+**Dirty / olive requests (Italicus is floral-sweet, so tier it):**
+| Guest wants | Do | Works |
+|---|---|---|
+| Just an olive | swap twist → olive on the Italicus | ✅ garnish only |
+| A little saline | 1 drop saline (salt lifts bergamot) | ✅ |
+| A proper **dirty** | **switch base** → the savoury build below | ✅ savoury-on-savoury |
+| Savoury but elegant | +5–10 ml **Manzanilla** (not brine) to Italicus | ✅ middle ground |
+
+**Savoury / "dirty" house martini (own build):** 60 ml gin or vodka · 10 ml
+Manzanilla (or dry vermouth) · 10 ml olive brine · olive. Stir, up.
+*A full slug of brine fights Italicus's floral-sweet — pour the dirty as a
+different member of the family, don't muddy the Italicus.*
+
+## Maïs Fumé — smoked corn margarita
+A savoury, smoky margarita: mezcal + lime + corn cordial (the sweet). **Lapsang
+tea carries the smoke — no charring**, so the cordial stays clean gold, not muddy
+brown. The cordial holds sweet + acid + salt + smoke; fresh lime brings the Ting.
+- **Smoky corn cordial:** 300 g corn (canned/frozen fine) · 300 ml cold-brewed
+  lapsang (1 tbsp/300 ml, 2–4 hr, strained) · 250 g sugar · **10 g citric + 5 g
+  malic** (2:1 lime-mimic) · 3 g salt → fine-strain. (+ splash high-proof vodka
+  for life; freeze spares.) *Dose the lapsang light — taste; it goes ashtray fast.*
+- **Batch:** 450 ml mezcal + 50 ml Manzanilla.
+- **Service:** 50 ml batch · 30 ml smoky corn cordial · 12 ml fresh lime · short
+  shake · rock. **Rim: chilli-lime salt. Garnish: charred kernel** (char is fine
+  on a garnish, never in the liquid).
+- **Season:** canned/frozen year-round; fresh corn Dec–Feb.
+
+## Solstice — pisco, passionfruit & Manzanilla sour
+Double Cobber-validated: pisco × passionfruit **0.42**, Manzanilla × passionfruit
+**0.42**. Batched for speed; the Manzanilla dries/lengthens it so it's not just a
+sweet passionfruit martini.
+- **Honey-pisco batch:** 450 ml pisco · 100 ml honey (shake to dissolve) · 150 ml
+  Manzanilla · 200 ml passionfruit liqueur → bottle, fridge (~10 serves).
+- **Service:** 90 ml batch · 20 ml fresh lime · shake · coupe. Egg white optional
+  (skip when slammed). 3 drops Angostura on the foam if used.
+- **Garnish:** dried lime wheel.
+
+**Service speed:** House Martini = pour + twist · Maïs Fumé & Solstice = 2 pours
++ shake. All shelf-stable batches + 1 fresh citrus touch.
 
 ---
 
