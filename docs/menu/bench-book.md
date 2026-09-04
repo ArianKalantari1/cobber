@@ -26,26 +26,20 @@ Designed for a limited, busy bar: the hard work is prep-side (shelf-stable
 bottles made in the quiet); at service it's **≤2 fresh touches, pour-and-go**.
 
 ## House Martini (Italicus) — the everyday seller
-Clean, floral-citrus, freezer-batched → pour-and-twist (one touch).
-- **Base:** clean/citrus gin (Poor Toms / Generous / Hendrick's) — or vodka (softer). *Not Spirit of Newtown.*
-- **Freezer batch:** 500 ml spirit · 200 ml Italicus · 150 ml water · 10 drops saline → bottle, freezer (~11 serves).
-- **Service:** pour 75 ml straight into a chilled coupe, express lemon twist.
+Floral-citrus. **One batched bottle that pours clean OR dirty — no base swap.**
+Spirit of Newtown gin (floral) works here: the **Manzanilla backbone in the batch**
+keeps it from tasting too sweet AND makes it dirty-ready.
+- **Batch (fridge/freezer, ~11 serves):** 500 ml gin (or vodka) · 175 ml Italicus ·
+  75 ml Manzanilla (or dry vermouth) · 150 ml water · 10 drops saline → bottle.
+- **Clean (default):** pour ~75 ml straight into a chilled coupe, lemon twist. Done.
+- **Dirty (same bottle):** pour 75 ml · +5–10 ml olive brine · olive.
+- **Just an olive / a drop of saline:** fine on the clean pour (salt lifts bergamot).
+- **The line — swap the Italicus:** Rinquinquin (peach), Briottet (elderflower),
+  Le Poirier (pear), quince/rhubarb vermouth.
 
-**The line — same template, swap the 20 ml:** Rinquinquin (peach), Briottet
-(elderflower), Le Poirier (pear), quince/rhubarb vermouth.
-
-**Dirty / olive requests (Italicus is floral-sweet, so tier it):**
-| Guest wants | Do | Works |
-|---|---|---|
-| Just an olive | swap twist → olive on the Italicus | ✅ garnish only |
-| A little saline | 1 drop saline (salt lifts bergamot) | ✅ |
-| A proper **dirty** | **switch base** → the savoury build below | ✅ savoury-on-savoury |
-| Savoury but elegant | +5–10 ml **Manzanilla** (not brine) to Italicus | ✅ middle ground |
-
-**Savoury / "dirty" house martini (own build):** 60 ml gin or vodka · 10 ml
-Manzanilla (or dry vermouth) · 10 ml olive brine · olive. Stir, up.
-*A full slug of brine fights Italicus's floral-sweet — pour the dirty as a
-different member of the family, don't muddy the Italicus.*
+Dial: if the clean reads too sweet, drop Italicus toward **150 ml** (Ari testing) or
+bump Manzanilla to 100. *A full slug of brine would fight a straight Italicus pour —
+the Manzanilla backbone is what lets the one batch take the brine cleanly.*
 
 ## Maïs Fumé — smoked corn margarita
 A savoury, smoky margarita: mezcal + lime + corn cordial (the sweet). **Lapsang
@@ -70,9 +64,30 @@ sweet passionfruit martini.
 - **Service:** 90 ml batch · 20 ml fresh lime · shake · coupe. Egg white optional
   (skip when slammed). 3 drops Angostura on the foam if used.
 - **Garnish:** dried lime wheel.
+- **Fruity variant:** for a riper, more passionfruit-forward drink, add **15–20 ml
+  passionfruit purée** at service, drop the batch Manzanilla to 100 ml, + 2 drops
+  vanilla. Purée à la minute — never in the batch (perishable).
 
-**Service speed:** House Martini = pour + twist · Maïs Fumé & Solstice = 2 pours
-+ shake. All shelf-stable batches + 1 fresh citrus touch.
+## Sun-Dried Tomato Martini — the shelf-stable savoury one ("Caprese Martini")
+Sun-dried tomato = umami tomato with **no fresh-produce spoilage**; infused into the
+spirit it becomes a shelf-stable savoury base. Artichoke Vermouth (in stock) deepens
+the savoury-vegetal side; basil is the caprese layer, dialled to taste.
+- **Sun-dried tomato gin (prep, keeps months):** 60 g dry-packed sun-dried tomatoes
+  per 700 ml **Gin Mare** (or vodka). Steep room temp 4–12 hr (taste) or sous vide
+  50 °C / 90 min → strain. *(Oil-packed works — drain well; freeze-filter if it clouds.)*
+- **Batch (fridge/freezer, ~10 serves):** 600 ml sun-dried-tomato gin · 100 ml
+  Artichoke Vermouth · 100 ml water · 10 drops saline → bottle.
+- **Service:** pour ~80 ml, stir if needed. **Garnish:** basil leaf + sun-dried (or
+  cherry) tomato; optional parmesan/savoury salt half-rim.
+- **Basil layer (optional, à la minute):** a barspoon rich basil syrup **or** a basil-oil
+  float — add to taste; keep it small so the martini stays dry (and green syrup out of
+  the batch to avoid clouding).
+- **Dial:** Artichoke Vermouth's bitterness builds — start 10 ml/serve, push only if you
+  want it more aperitivo. Taste it neat first to learn its shape.
+- *Taste-driven (umami/savoury), not aroma — no Cobber score; chase seasoning, not a number.*
+
+**Service speed:** House Martini & Sun-Dried Tomato = pour (+ twist/garnish) · Maïs
+Fumé & Solstice = 2 pours + shake. All shelf-stable batches, 0–1 fresh touches.
 
 ---
 
