@@ -91,6 +91,114 @@ Fumé & Solstice = 2 pours + shake. All shelf-stable batches, 0–1 fresh touche
 
 ---
 
+# ★ WAVE 2 — Apéritif & Co new menu (final specs)
+
+Same rules: shelf-stable prep, ≤2 fresh touches, pour/shake-and-go. Allergens
+flagged per drink — **verify against real bottle labels before serving.**
+
+## 🍑 Abricot — clarified cognac-apricot sour
+Cobber: cognac × apricot 0.35, Manzanilla × apricot 0.385 (strongest stone fruit).
+- **Batch (~10):** 400 ml cognac · 150 ml apricot brandy · 150 ml Manzanilla ·
+  100 ml honey/sugar syrup → bottle.
+- **Service:** 80 ml batch · 22 ml lemon · shake → coupe (no egg; foamer optional).
+  Garnish: dried apricot. In-season boost: 15 ml apricot purée or a splash Rinquinquin.
+- **Allergens:** sulphites (Manzanilla, apricot brandy, dried-apricot garnish). Use a
+  nut-free essence, not apricot-kernel noyau, to stay nut-free.
+
+## 🍍 Ananas — grilled-pineapple rhum (mojito/highball); sister to the Yuzu Mock
+- **Grilled-pineapple rhum (prep, months):** char/grill pineapple → infuse 700 ml
+  rhum agricole 4–12 hr → strain.
+- **Two-bottle batch for shelf life:** A = pineapple rhum + cinnamon syrup (months);
+  B = yuzu-lime cordial (yuzu purée + lime super-juice + sugar + citric/malic +
+  splash vodka; 2–3 wks + freezes).
+- **Service:** ~45 ml A · ~25 ml B · top soda/tonic · crushed ice · **slap mint**
+  (don't muddle). Garnish: mint + dehydrated pineapple.
+- **Zero-waste byproducts:** rum-pineapple jam (spent flesh + sugar + lemon → months;
+  → Pineapple Breakfast Martini), pineapple cordial (juice), tepache/skin-oleo (skins).
+- **Allergens:** quinine (if tonic). Otherwise clean, vegan (check jam).
+
+## 🍓 Strawberry — two patterns (shared shelf-stable bases)
+Bases: strawberry cordial (purée + sugar + citric/malic + vodka) *or* freeze-dried-
+strawberry vodka (40 g / 700 ml, months). **No egg/foam.**
+- **Fraise & Poivre (shaken):** 55 ml strawberry vodka · 20 ml strawberry cordial ·
+  20 ml lemon · 3–5 drops black-pepper tincture → shake → coupe. Garnish: strawberry
+  fan + cracked pepper. *Allergens: very clean.*
+- **Strawberry Americano (long aperitivo):** 40 ml strawberry base · 20 ml Aperol
+  (or Campari) · 15 ml sweet vermouth · top soda. Optional: milk-clarify the batch for
+  crystal-clear. *Allergens: sulphites; carmine (Campari — not vegan); trace dairy
+  (clarified version only).*
+
+## 🥃 Confiture — PB&J Boulevardier (brown-butter Maker's Mark)
+- **Base (prep, months):** brown 50 g butter → stir into 700 ml Maker's Mark + 40 g
+  freeze-dried strawberry → infuse 2–4 hr → freeze, lift fat cap, fine-strain.
+- **Batch/build:** 35 ml brown-butter strawberry Maker's · 20 ml Campari · 20 ml sweet
+  vermouth · 5 ml PX → stir or freezer-batch (+15% water) → big rock. Garnish:
+  dehydrated strawberry + toasted walnut.
+- **Allergens: DAIRY (brown butter)**; sulphites + carmine (Campari/vermouth/PX).
+  *(Swap fat-wash → peanut = peanut allergen; macadamia = tree nut.)*
+
+## 🥒 Jardin — crisp cucumber & herb refresher (the green/fresh gap)
+- **Cucumber cordial (prep, ~2 wks + freeze):** cucumber juice + sugar + citric +
+  pinch salt + splash vodka. (Or clarify it, or cucumber-wash the gin.)
+- **Build (highball):** 45 ml Hendrick's (or vodka) · 20 ml cucumber cordial · 15 ml
+  verjus (or lime) · top soda · dill or tarragon. Garnish: cucumber ribbon + herb.
+  *Or up as a shaken gimlet.*
+- **Allergens:** sulphites (verjus). Otherwise very clean, vegan.
+
+## 🍋 Vacherin — foamed lemon-meringue pie (dessert)
+- **Lemon-curd cordial (squeeze bottle, ~1 month):** peels of 5–6 lemons + 250 g sugar
+  (oleo, 2–3 hr) + 120 ml lemon juice + 8 g citric + 4 g malic + 150 g sugar + 1
+  vanilla pod + big pinch salt + 40 ml vodka → warm to dissolve, fine-strain.
+- **Base batch:** vodka (or brown-butter-washed) + limoncello → bottle (shelf-stable).
+- **Service:** 65 ml base · ~20 ml lemon-curd cordial · few drops **foamer** → dry
+  shake → wet shake → coupe. Garnish: lemon zest + biscuit crumb / bought meringue kiss.
+- **Allergens:** foamer (check for soy/legume); dairy only if brown-butter base. The
+  cordial is egg/dairy-free (real jarred curd would add egg + milk).
+
+## 🍫 Dubai — clarified pistachio-chocolate (dessert)
+- **Prep:** cacao-nib vodka (60 g nibs / 700 ml, 24 hr, strain); pistachio orgeat
+  (pistachios + sugar + water, blend, strain).
+- **Batch:** 400 ml cacao-nib vodka (or + 100 ml white crème de cacao) · 150 ml
+  pistachio orgeat · sugar to taste · pinch salt → clarify with 250 ml milk + ~40 ml
+  citric/lemon (just to curdle) → filter → pale green.
+- **Service:** 80 ml over ice or coupe. Garnish: crushed pistachio + dark-chocolate
+  shavings / kunafa crumb.
+- **Allergens: TREE NUT (pistachio)**; trace dairy (milk-wash); gluten (if kunafa garnish).
+
+---
+
+# New prep to make (make-ahead, shelf-stable)
+
+- Grilled-pineapple rhum · rum-pineapple jam · pineapple cordial *(Ananas)*
+- Yuzu-lime super-juice cordial *(Ananas)*
+- Strawberry cordial · freeze-dried-strawberry vodka *(Strawberry, Confiture)*
+- Brown-butter strawberry Maker's Mark *(Confiture)*
+- Cucumber cordial *(Jardin)*
+- Lemon-curd cordial *(Vacherin)* · brown-butter vodka *(optional)*
+- Cacao-nib vodka · pistachio orgeat *(Dubai)*
+- Black-pepper tincture *(Strawberry, others)*
+- Smoky corn cordial (lapsang) *(Maïs Fumé)* · sun-dried-tomato gin *(Tomato)*
+- Cross-cutting: citric+malic acid solutions, saline (20%), sugar/honey syrups.
+
+Golden rule: **fresh juice + dairy never go in a long-life bottle** — swap juice for
+citric/malic or a super-juice cordial; add dairy/curd/foam à la minute.
+
+# Allergen quick-reference (verify vs labels)
+
+- **Sulphites:** anything wine-based — Manzanilla, vermouth, Aperol/Campari, PX,
+  apricot brandy, verjus, dried-fruit garnishes. (Most of the menu — declare broadly.)
+- **Dairy:** Confiture (brown butter); Vacherin if brown-butter base; trace in any
+  **milk-clarified** drink (Dubai, clarified Americano) — not safe for a real milk allergy.
+- **Tree nut:** Dubai (pistachio); Confiture if macadamia fat-wash. **Peanut:** Confiture
+  if peanut fat-wash.
+- **Egg:** only optional egg-white versions (default builds use none).
+- **Gluten:** distilled spirits are gluten-free post-distillation; Dubai's kunafa garnish
+  = wheat.
+- **Not vegan:** Campari (carmine); honey (Solstice, Abricot).
+- **Cleanest drinks:** Ananas, Fraise & Poivre, Jardin.
+
+---
+
 # 1. Competition — Applejack "Home Turf"
 
 Brief: ≤60 ml Four Pillars gin, prominent; represents Bopp & Tone (post-war
