@@ -42,17 +42,20 @@ bump Manzanilla to 100. *A full slug of brine would fight a straight Italicus po
 the Manzanilla backbone is what lets the one batch take the brine cleanly.*
 
 ## Maïs Fumé — smoked corn margarita
-A savoury, smoky margarita: mezcal + lime + corn cordial (the sweet). **Lapsang
-tea carries the smoke — no charring**, so the cordial stays clean gold, not muddy
-brown. The cordial holds sweet + acid + salt + smoke; fresh lime brings the Ting.
-- **Smoky corn cordial:** 300 g corn (canned/frozen fine) · 300 ml cold-brewed
-  lapsang (1 tbsp/300 ml, 2–4 hr, strained) · 250 g sugar · **10 g citric + 5 g
-  malic** (2:1 lime-mimic) · 3 g salt → fine-strain. (+ splash high-proof vodka
-  for life; freeze spares.) *Dose the lapsang light — taste; it goes ashtray fast.*
-- **Batch:** 450 ml mezcal + 50 ml Manzanilla.
-- **Service:** 50 ml batch · 30 ml smoky corn cordial · 12 ml fresh lime · short
-  shake · rock. **Rim: chilli-lime salt. Garnish: charred kernel** (char is fine
-  on a garnish, never in the liquid).
+A savoury, smoky margarita: mezcal + lime + corn cordial (the sweet). **The mezcal
+already carries the smoke — no lapsang, no charring** — so the tea is now a floral/
+toasty *complement* and the cordial stays clean gold. Keep it **acid-forward**: corn's
+top harmonious note is lemony/acidic (Flavonomics), so lime + citric/malic lead — and
+**corn + chilli is a proven pairing**, so the chilli-lime rim is *core*, not optional.
+- **Corn cordial:** 300 g corn (canned/frozen fine) · 300 ml **cold-brewed tea —
+  choose: chamomile (soft, floral-hay) OR genmaicha (toasty, a little grip)** (1 tbsp
+  / 300 ml, 2–4 hr, strained) · 250 g sugar · **10 g citric + 5 g malic** · 3 g salt →
+  fine-strain. (+ splash high-proof vodka for life; freeze spares.) *Optional: a whisper
+  of chilli in the cordial to extend the corn's sweetness.*
+- **Batch:** 450 ml mezcal + 50 ml Manzanilla *(its saline/dashi note answers corn's umami)*.
+- **Service:** 50 ml batch · 30 ml corn cordial · 12 ml fresh lime · short shake · rock.
+  **Rim: chilli-lime salt / Tajín (core). Garnish: kikos (corn nuts)** — whole perched,
+  or crushed into the rim for a corn-chilli lip.
 - **Season:** canned/frozen year-round; fresh corn Dec–Feb.
 
 ## Solstice — pisco, passionfruit & Manzanilla sour
