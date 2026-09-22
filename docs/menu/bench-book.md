@@ -202,6 +202,48 @@ citric/malic or a super-juice cordial; add dairy/curd/foam à la minute.
 
 ---
 
+# 🎃 HALLOWEEN SPECIAL — Bloody Piña (smoked carafe)
+
+Batched, poured tableside over a **smoke-filled glass** (smoke trapped over ice →
+guest pours the carafe in → smoke billows out = the show). Blood-magenta, tropical-
+smoky-tart. **Everything shelf-stable, nothing fresh in the bottle, smoke at the glass.**
+
+*Leaner build (fixed the syrup overload): hibiscus as unsweetened tea, pineapple
+infused into the tequila, sweeten once to taste.*
+
+## Batch (10 serves · concentrated, NO water — the ice dilutes on pour)
+- 350 ml **grilled-pineapple-infused blanco tequila**
+- 150 ml mezcal *(smoke echo)*
+- 250 ml **strong unsweetened hibiscus tea** (+ optional rooibos bag for tannin/texture)
+- 50 ml **pomegranate molasses** *(tart + deep red)*
+- 150 ml **lime super juice**
+- 75 ml Aperol *(or Campari for redder + more bitter)*
+- **sugar syrup / Monin agave TO TASTE** (~60–90 ml — the *only* added sweetener; dial last)
+→ bottle, fridge. ~20% ABV + acid + no fresh juice + no water = **keeps weeks**; freeze spares.
+**Pour ~110 ml over the smoked ice.**
+
+## Preps (leaner — one infusion + one tea, not three syrups)
+- **Grilled-pineapple tequila:** grill/char pineapple → steep in the blanco overnight →
+  strain. Shelf-stable spirit; *no pineapple syrup needed.*
+- **Strong hibiscus tea:** 30 g dried hibiscus / 500 ml hot water, 15–20 min, strain
+  (unsweetened). Optional rooibos for tannin.
+- **Lime super juice:** peels of ~6 limes + 15 g citric + 7 g malic (oleo 1 hr) → add
+  the juiced limes + ~100 ml water → fine-strain.
+- **Pomegranate molasses:** buy (shelf-stable).
+
+## Smoke & serve
+Smoke the empty glass (cherrywood / cinnamon / star-anise) → add ice → **cap it**
+(coaster/cloche) → carry out with the carafe → guest pours over ice, smoke billows.
+Garnish: dried pineapple wheel + hibiscus flower; optional Tajín rim.
+
+## Notes
+- **Sweeten LAST, to taste** — this leaner build avoids the earlier syrup overload; it
+  should land tart-tropical-smoky, not sweet.
+- **Colour:** hibiscus tea + pom molasses + Aperol = blood-magenta; add more hibiscus if pale.
+- **Allergens:** sulphites (Aperol). Vegan (agave). No dairy/nut/egg.
+
+---
+
 # 1. Competition — Applejack "Home Turf"
 
 Brief: ≤60 ml Four Pillars gin, prominent; represents Bopp & Tone (post-war
