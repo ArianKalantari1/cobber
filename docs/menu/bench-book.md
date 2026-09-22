@@ -244,6 +244,58 @@ Garnish: dried pineapple wheel + hibiscus flower; optional Tajín rim.
 
 ---
 
+# 🎃 HALLOWEEN CARAFE SET — Día de los Muertos · Nightshade · Black Forest
+
+**Service (all three):** ice → smoke the glass → cap it. Carafe = **shelf-stable batch
++ the fresh juice, swirled (no shake)**; guest pours over the smoked ice, smoke billows.
+Batches are **concentrated, NO water** (ice + fresh juice dilute on pour). Bottle the
+batch juice-free (keeps weeks); build the carafe per order.
+
+## Batches (10 serves each)
+**💀 Día de los Muertos** *(mezcal · blood-red · smoky-tart-earthy)*
+- 250 mezcal · 100 tequila · 250 hibiscus-rooibos tea · 60 pom molasses · 150 lime
+  super juice · ~80 agave (to taste) · 15 ml mole/chocolate bitters
+- Carafe adds: **20 ml fresh pomegranate.** Rim: chilli-salt. Garnish: dried
+  hibiscus/marigold. Smoke: cinnamon/cherrywood.
+
+**🖤 Nightshade** *(gin · inky purple-black · dark-fruit-bitter)*
+- 400 gin · 150 cassis · 200 hibiscus-rooibos tea · 60 pom molasses · 150 lime super
+  juice · 50 Suze · agave to taste
+- Carafe adds: **20 ml fresh pomegranate.** Rim: black-salt. Garnish: blackberries.
+  Smoke: applewood.
+
+**🍫 Black Forest** *(bourbon · dark-decadent · silky)*
+- 350 brown-butter bourbon · 150 cherry liqueur (Heering) · 75 crème de cacao · 30
+  amaretto · 50 sweet vermouth · 10 drops saline · 3 dash chocolate bitters
+- Carafe adds: **20 ml fresh orange (or an orange twist).** Garnish: grated dark
+  chocolate + smoked cherry. Smoke: cherrywood.
+
+## PREP LIST (make-ahead, shelf-stable)
+**Make:**
+1. **Hibiscus-rooibos tea** *(Día, Nightshade)* — 30 g dried hibiscus + 2 rooibos bags
+   per 500 ml hot water, steep 15–20 min, strain. Unsweetened (colour + tannin). Fridge
+   ~1 wk / freeze.
+2. **Lime super juice** *(Día, Nightshade)* — oleo the peels of 6 limes with 15 g citric
+   + 7 g malic (rest 1 hr) → add the juiced limes + 100 ml water → fine-strain. ~2–3 wks.
+3. **Brown-butter bourbon** *(Black Forest)* — brown 50 g butter → stir into 700 ml
+   bourbon → rest 2–3 hr → freeze overnight → lift the fat cap → fine-strain. Months.
+4. **Saline 20%** *(Black Forest)* — 20 g salt in 100 ml warm water, dissolve. Dropper. Months.
+5. **Rims:** chilli-salt (Día) · black-salt (Nightshade).
+
+**Buy (shelf-stable):** mezcal · tequila · gin · bourbon · pomegranate molasses ·
+mole/chocolate bitters · cassis · Suze · cherry liqueur (Heering) · crème de cacao ·
+amaretto · sweet vermouth · Monin agave.
+
+**Fresh (à la minute, into the carafe — NOT the batch):** pomegranate juice *(Día,
+Nightshade)* · orange *(Black Forest)*.
+
+**Smoke:** cherrywood / applewood chips · cinnamon sticks · star anise.
+
+**Allergens:** Black Forest = **dairy** (brown butter) + **nut** (amaretto); Día/Nightshade
+carry sulphites (bitters/Suze/cassis). All egg-free/foam-free.
+
+---
+
 # 1. Competition — Applejack "Home Turf"
 
 Brief: ≤60 ml Four Pillars gin, prominent; represents Bopp & Tone (post-war
