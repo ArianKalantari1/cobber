@@ -47,7 +47,7 @@ drink carries about 64–82 ml of original wine.
 5. **Fortify:** add the spirit, bitters and saline.
 6. **Citric acid to taste.** Aim for **pH 3.3 or below** (check with a pH strip).
 7. **Bottle and label:** name, date, best-by date (+6 weeks), and the pours:
-   **"HH 70 / Normal 90"**.
+   **"HH 60 / Normal 100"**.
 
 **Result:** about **3.3 L**, roughly **18% alcohol** (assuming a 37.5% house
 spirit) and about **140 g/L sugar**.
@@ -86,17 +86,28 @@ spirit) and about **140 g/L sugar**.
 
 ## 5. Service
 
-### Happy hour, built (rocks glass): about 1.0 standard drink
+### Pour sizes at a glance (batch at ~18% alcohol, ~140 g/L sugar)
+
+| Pour | Citrus | Std drinks | Wine per drink | Drinks per 3.3 L batch |
+|---|---|---|---|---|
+| **HH 60 ml** (built) | 1 lemon + 1 lime slice, muddled | ~0.85 | ~55 ml | ~55 |
+| Normal 90 ml (shaken) | 20 ml | ~1.3 | ~82 ml | ~37 |
+| **Normal 100 ml** (shaken, default) | 25 ml | ~1.4 | ~91 ml | ~33 |
+
+HH 60 is slightly lighter than the HH light Aperol (~1.0). To match it, the
+batch would need ~21% alcohol (2.1 L spirit per 3 L wine instead of 1.4 L).
+
+### Happy hour, built (rocks glass): about 0.85 standard drinks
 1. 1 lemon slice + 1 lime slice in the glass, **muddle lightly** (no pith crushing).
-2. **70 ml** cobbler batch.
+2. **60 ml** cobbler batch.
 3. Fill with cubes, top with **20–30 ml soda**, quick stir, straw.
 
 If it tastes too sweet (there's less juice and no shake dilution), add **+2 g
-citric per litre** to the batch and drop normal service to 15 ml citrus.
+citric per litre** to the batch.
 
-### Normal service, shaken (wine glass): about 1.3 standard drinks
-1. **90 ml** cobbler batch + **20 ml citrus** (lime for coconut, lemon for
-   apricot) + a citrus half-wheel in the tin.
+### Normal service, shaken (wine glass): about 1.4 standard drinks
+1. **100 ml** cobbler batch + **25 ml citrus** (lime for coconut, lemon for
+   apricot) + a citrus half-wheel in the tin. (For a 90 ml pour, use 20 ml citrus.)
 2. Shake hard for 6–8 s. Dump **everything** (the ice shards stand in for crushed ice)
    into a wine glass pre-chilled with ice and soda.
 3. 2–3 fresh cubes + 20 ml soda.
@@ -107,7 +118,7 @@ Busy nights (optional): crack a bucket of cubes in a tea towel before service
 and keep it in an insulated ice bucket (lasts 1–2 h).
 
 For comparison: HH light Aperol (30/90/30) is about 1.0 standard drink, and the
-HH Negroni (60 ml) is about 1.25.
+HH Negroni (60 ml) is about 1.25. Standard drinks assume a 37.5% house spirit.
 
 ## 6. Other serves
 
@@ -139,16 +150,17 @@ dried apricots $57/kg (The Source); Angas Park Fancy ~$50/kg; Angas Park Diced
 
 | Per drink | Apricot (Australian) | Apricot (Diced) | Coconut |
 |---|---|---|---|
-| Happy hour (70 ml, built) | $2.03 | $1.79 | $1.82 |
-| Normal (90 ml, shaken) | $2.78 | $2.46 | $2.94 |
+| Happy hour (60 ml, built) | $1.74 | $1.56 | $1.56 |
+| Normal (90 ml, 20 ml citrus) | $2.78 | $2.46 | $2.94 |
+| Normal (100 ml, 25 ml citrus) | $3.10 | $2.80 | $3.28 |
 
 **Ways to cut cost:**
 - Bitters at ⅔ dose saves $4.40 per apricot batch.
 - Gin instead of vodka in the coconut batch saves $10 per batch (taste first).
 - Diced apricots save ~$11 per batch. Check for rice flour; if present, rinse first.
-- 15 ml lime instead of 20 in normal service saves ~$0.17.
+- 20 ml lime instead of 25 in the 100 ml pour saves ~$0.17.
 
-With all four: about **$1.60 at happy hour** and **$2.30 at normal service**.
+With all four: about **$1.45 at happy hour (60 ml)** and **$2.50–2.80 at normal service (100 ml)**.
 
 ## 8. Sourcing dried apricots (test both, raw, side by side)
 
