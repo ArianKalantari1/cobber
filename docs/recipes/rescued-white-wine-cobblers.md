@@ -1,7 +1,7 @@
 # Rescued White Wine Cobblers: Coconut & Lime / Apricot & Lemon
 
 Status: **R&D**. Run the quarter test batch, taste on day 3, then scale up.
-Last updated: 2026-10-12.
+Last updated: 2026-10-13.
 
 Leftover white wine from functions and by-the-glass service is cooked down with
 fruit, sweetened with an oleo made from squeezed citrus husks, then fortified.
@@ -67,6 +67,18 @@ spirit) and about **140 g/L sugar**.
 | 20% saline | 4 ml | 1 ml |
 | Citric | 2–4 g, to taste | ~1 g, to taste |
 | Extra step | Lift off the coconut fat (step 4) | Same |
+
+**R&D: three versions.** Choose by reverse engineering: taste each version in the
+cocktails the batch has to feed, not just neat.
+
+| Version | Full batch | Quarter test | Likely best for |
+|---|---|---|---|
+| A. Plain (control) | As above | As above | Most versatile: Paloma, stirred Martinez, the cobbler itself |
+| B. Ginger | + 15 g fresh ginger, sliced, in the last 10 min of the simmer | + 4 g | The cobbler, Coconut Mule |
+| C. Ginger + allspice | B + 6 allspice berries, cracked, simmered with the wine | + 4 g ginger, 2 berries | Coconut Daiquiri: ginger + allspice + lime is the falernum profile, the daiquiri's classic partner (Royal Bermuda Yacht Club) |
+
+If A is close, choose A. A plain batch feeds the most drinks, and ginger or allspice
+can go into individual drinks as a few drops of tincture.
 
 ### Apricot & Lemon (gin)
 
@@ -194,6 +206,16 @@ provisional.
 ## 10. Open items
 
 - [ ] Quarter test batches → taste on day 3 → adjust only citric and sugar.
+- [ ] Coconut: test versions A / B / C (section 4). Fastest way, from one quarter batch of A:
+  - Tinctures (24 h in vodka, then strain): ginger 20 g sliced per 100 ml; allspice 5 cracked
+    berries per 50 ml.
+  - Per 100 ml of A: B = +1 ml ginger tincture (up to 2 ml); C = B + 0.5 ml allspice tincture
+    (up to 1 ml).
+  - Taste each neat, then in half-size target cocktails (30 batch + 15 spirit + 7.5 citrus):
+    Daiquiri (white rum, lime), Paloma (tequila, grapefruit, lime, soda), Martinez (gin, a
+    little maraschino, stirred), Mule (vodka, lime, ginger beer).
+  - Confirm the winner with a cooked quarter batch (cooked ginger tastes warmer than tincture).
+- [ ] Optional: apricot with 40 ml orange bitters + 20 ml Peychaud's (the Pendennis Club pairing).
 - [ ] Apricot: owner sign-off (peach-adjacent).
 - [ ] Apricot sourcing: Australian vs Angas Park, raw taste test.
 - [ ] Coconut: vodka vs gin fortifier taste test.
