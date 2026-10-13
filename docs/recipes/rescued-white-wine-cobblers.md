@@ -75,7 +75,7 @@ cocktails the batch has to feed, not just neat.
 |---|---|---|---|
 | A. Plain (control) | As above | As above | Most versatile: Paloma, stirred Martinez, the cobbler itself |
 | B. Ginger | + 15 g fresh ginger, sliced, in the last 10 min of the simmer | + 4 g | The cobbler, Coconut Mule |
-| C. Allspice | + 6 allspice berries, cracked, simmered with the wine | + 2 berries | Coconut Daiquiri: allspice (Jamaican pimento) is a classic rum partner, as in allspice dram |
+| C. Allspice | + 6 allspice berries, cracked, simmered with the wine (no more: above this it turns mulled) | + 2 berries | Coconut Daiquiri: allspice (Jamaican pimento) is a classic rum partner, as in allspice dram. Also a warmer cobbler (garnish with toasted coconut chips) |
 
 If A is close, choose A. A plain batch feeds the most drinks, and ginger or allspice
 can go into individual drinks as a few drops of tincture.
@@ -212,7 +212,8 @@ provisional.
   - Per 100 ml of A: B = +1 ml ginger tincture (up to 2 ml); C = +0.5 ml allspice tincture
     (up to 1 ml). If B and C each win different drinks, add both tinctures to one sample to
     test the combination.
-  - Taste each neat, then in half-size target cocktails (30 batch + 15 spirit + 7.5 citrus):
+  - Taste each as the cobbler (HH 60 built and normal 100 shaken; the built HH shows spice
+    most), then in half-size target cocktails (30 batch + 15 spirit + 7.5 citrus):
     Daiquiri (white rum, lime), Paloma (tequila, grapefruit, lime, soda), Martinez (gin, a
     little maraschino, stirred), Mule (vodka, lime, ginger beer).
   - Confirm the winner with a cooked quarter batch (cooked ginger tastes warmer than tincture).
