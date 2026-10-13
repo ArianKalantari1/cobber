@@ -30,7 +30,10 @@ drink carries about 64–82 ml of original wine.
 
 - **Oleo (replaces plain sugar):** bag the squeezed husks with the sugar and
   leave in the fridge overnight (**24 h at most**, or the pith turns bitter).
-  Squeeze the bag, strain out the syrup, and keep it for cook day.
+  Squeeze the bag, strain out the syrup, and keep it for cook day. Keep the
+  squeezed husks in the bag in the fridge for the spirit rinse (step 5).
+  **Never cook the husks:** heat pulls bitterness out of the pith and boils off
+  the lime oils.
 - **Collecting husks during service:** keep two zip-lock bags in the fridge,
   *"lime husks"* and *"lemon husks"*, dated.
 
@@ -44,7 +47,9 @@ drink carries about 64–82 ml of original wine.
 3. **Fine strain, cool, fine strain again.**
 4. Coconut only: chill 2 h (or 30–45 min in the back-of-house freezer), **lift
    off the set coconut fat**, and strain again.
-5. **Fortify:** add the spirit, bitters and saline.
+5. **Fortify:** add the spirit, bitters and saline. First pour ~200 ml of the
+   spirit into the husk bag, massage for 1 min and strain it into the batch. This
+   recovers leftover sugar and peel oil without heat, so no bitterness. Then bin the husks.
 6. **Citric acid to taste.** Aim for **pH 3.3 or below** (check with a pH strip).
 7. **Bottle and label:** name, date, best-by date (+6 weeks), and the pours:
    **"HH 60 / Normal 100"**.
