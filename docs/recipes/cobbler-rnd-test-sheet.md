@@ -15,9 +15,15 @@ One quarter batch = 750 ml rescued wine → about 800 ml finished batch at ~18% 
 - [ ] Oleo, in zip-lock bags, fridge, **24 h at most**:
   - Coconut: 9 squeezed lime halves + 100 g sugar
   - Apricot: 9 squeezed lemon halves + 75 g sugar
-- [ ] Tinctures for round 1, in vodka, 24 h, then strain:
-  - Ginger: 20 g fresh ginger, sliced, in 100 ml
-  - Allspice: 5 berries, cracked, in 50 ml
+- [ ] Tinctures for round 1 (start 1–3 days before). Clean glass jar rinsed with boiling
+      water or vodka, lid on, room temp (18–25°C), out of the sun, shake once a day:
+  - Ginger: 20 g fresh ginger, washed, unpeeled, sliced 1–2 mm, in 100 ml vodka.
+    24 h; up to 72 h for stronger. Not past a week (turns woody).
+  - Allspice: 5 whole berries (~1 g), lightly cracked (not powdered), in 50 ml vodka.
+    24 h; no more than 48 h (turns clove-medicinal and tannic).
+  - Strain through a fine strainer, then a coffee filter, into labelled, dated dropper
+    bottles. Ginger is best within a month; allspice keeps 6+ months.
+  - Measure doses with 1 ml and 5 ml oral syringes from a chemist (a dash is too rough).
 
 ## Cook-day steps (both batches)
 
@@ -82,6 +88,9 @@ Cook coconut **A** and the apricot as specced. Split coconut A into three jars o
 | Apricot | Nothing (control) | |
 | Apricot + Peychaud's | 0.5 ml Peychaud's per 100 ml | 1 ml per 100 ml |
 
+Judge the doses cold, in the HH serve on ice: cold mutes spice, so dosing at room
+temperature under-spices the drink. Add ginger 1 ml at a time and allspice 0.5 ml at a time.
+
 Write down the dose that tastes right. If B and C win different drinks, add both tinctures
 to one sample to test the combination.
 
@@ -119,6 +128,10 @@ to one sample to test the combination.
 most drinks, and ginger or allspice can go into single drinks as tincture drops.
 
 ## Round 2
+
+Scale the in-pot amount by the same multiple as the winning tincture dose: for example, if
+ginger won at 5 ml (double the 2.5 ml start), use 8 g in the quarter batch (30 g full batch).
+This is rough, because simmering uncovered steams off aroma that a cold tincture keeps.
 
 Cook a quarter batch of the winning version with the in-pot amounts above. Cooked ginger
 tastes warmer than tincture, so confirm before scaling to the full 3 L batch.
