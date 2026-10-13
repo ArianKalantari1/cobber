@@ -1,6 +1,7 @@
 # Rescued White Wine Cobblers: Coconut & Lime / Apricot & Lemon
 
 Status: **R&D**. Run the quarter test batch, taste on day 3, then scale up.
+Test-day sheet: [cobbler-rnd-test-sheet.md](cobbler-rnd-test-sheet.md).
 Last updated: 2026-10-13.
 
 Leftover white wine from functions and by-the-glass service is cooked down with
