@@ -75,7 +75,7 @@ cocktails the batch has to feed, not just neat.
 |---|---|---|---|
 | A. Plain (control) | As above | As above | Most versatile: Paloma, stirred Martinez, the cobbler itself |
 | B. Ginger | + 15 g fresh ginger, sliced, in the last 10 min of the simmer | + 4 g | The cobbler, Coconut Mule |
-| C. Ginger + allspice | B + 6 allspice berries, cracked, simmered with the wine | + 4 g ginger, 2 berries | Coconut Daiquiri: ginger + allspice + lime is the falernum profile, the daiquiri's classic partner (Royal Bermuda Yacht Club) |
+| C. Allspice | + 6 allspice berries, cracked, simmered with the wine | + 2 berries | Coconut Daiquiri: allspice (Jamaican pimento) is a classic rum partner, as in allspice dram |
 
 If A is close, choose A. A plain batch feeds the most drinks, and ginger or allspice
 can go into individual drinks as a few drops of tincture.
@@ -209,8 +209,9 @@ provisional.
 - [ ] Coconut: test versions A / B / C (section 4). Fastest way, from one quarter batch of A:
   - Tinctures (24 h in vodka, then strain): ginger 20 g sliced per 100 ml; allspice 5 cracked
     berries per 50 ml.
-  - Per 100 ml of A: B = +1 ml ginger tincture (up to 2 ml); C = B + 0.5 ml allspice tincture
-    (up to 1 ml).
+  - Per 100 ml of A: B = +1 ml ginger tincture (up to 2 ml); C = +0.5 ml allspice tincture
+    (up to 1 ml). If B and C each win different drinks, add both tinctures to one sample to
+    test the combination.
   - Taste each neat, then in half-size target cocktails (30 batch + 15 spirit + 7.5 citrus):
     Daiquiri (white rum, lime), Paloma (tequila, grapefruit, lime, soda), Martinez (gin, a
     little maraschino, stirred), Mule (vodka, lime, ginger beer).
