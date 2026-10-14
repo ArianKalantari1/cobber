@@ -93,10 +93,10 @@ drink carries about 64–82 ml of original wine.
 | Part | Full batch (3 L wine) | Quarter test (750 ml wine) |
 |---|---|---|
 | Rescued white wine | 3 L → reduce to 1.5 L | 750 ml → reduce to 375 ml |
-| Start | 180 g desiccated coconut, toasted golden in a dry pan · 1 can (825 g) pears in juice, juice included · 3 g salt | 45 g toasted coconut · ~200 g pears (¼ can) · 1 g salt |
+| Start | 180 g desiccated coconut, toasted golden in a dry pan · 1 can (825 g) pears in juice, juice included · 3 g salt · peel of 2 oranges (no pith), then juice those 2 oranges into the pot | 45 g toasted coconut · ~200 g pears (¼ can) · 1 g salt · peel and juice of ½ orange |
 | Oleo | 36 squeezed lime halves + 400 g sugar | 9 lime halves + 100 g sugar |
 | Spirit | 1.4 L vodka (2 × 700 ml) | 350 ml vodka |
-| Bitters | 40 ml orange bitters + 20 ml Peychaud's (start at ⅔: 27 + 13) | 10 ml orange + 5 ml Peychaud's |
+| Bitters | 20 ml Peychaud's only (start at 15). No orange bitters: the real orange covers that note | 5 ml Peychaud's (start at 4) |
 | 20% saline | 4 ml | 1 ml |
 | Citric | 2–4 g, to taste | ~1 g, to taste |
 | Extra step | Lift off the coconut fat (step 4) | Same |
@@ -106,12 +106,22 @@ cocktails the batch has to feed, not just neat.
 
 | Version | Full batch | Quarter test | Likely best for |
 |---|---|---|---|
-| A. Plain (control) | As above | As above | Most versatile: Paloma, stirred Martinez, the cobbler itself |
+| A. Orange (control) | As above | As above | Most versatile: Paloma, stirred Martinez, the cobbler itself |
 | B. Ginger | + 15 g fresh ginger, sliced, in the last 10 min of the simmer | + 4 g | The cobbler, Coconut Mule |
 | C. Allspice | + 6 allspice berries, cracked, simmered with the wine (no more: above this it turns mulled) | + 2 berries | Coconut Daiquiri: allspice (Jamaican pimento) is a classic rum partner, as in allspice dram. Also a warmer cobbler (garnish with toasted coconut chips) |
 
 If A is close, choose A. A plain batch feeds the most drinks, and ginger or allspice
 can go into individual drinks as a few drops of tincture.
+
+**Why these layers (they also cover tired or mixed wines):**
+- **Toasted coconut:** oxidised white wine reads nutty and sherry-like; next to toasted
+  coconut that reads as "toasty", so tired notes become depth.
+- **Orange peel + juice:** tired wine loses its fresh fruit first; orange puts fruit and
+  peel oil back (orange–lime 0.87 classic) and uses the whole orange.
+- **Allspice or ginger:** warm spice is the original reason spiced wine exists, making older
+  wine taste good. Cobber ranks allspice highest of the spices that don't clash with the menu.
+- **Peychaud's, small dose:** the bitters with the strongest link to this base (pear 0.26,
+  coconut 0.14, lime 0.17 shared); its anise lifts flat wine.
 
 ### Apricot & Lemon (gin)
 
@@ -186,20 +196,20 @@ HH Negroni (60 ml) is about 1.25. Standard drinks assume a 37.5% house spirit.
 Price assumptions: gin $20/700 ml, vodka $25/700 ml (house prices); Australian
 dried apricots $57/kg (The Source); Angas Park Fancy ~$50/kg; Angas Park Diced
 ~$31.50/kg; orange bitters ~$0.22/ml; Peychaud's ~$0.15/ml; canned pears
-~$5.30; lemon ~$0.80 each; lime ~$1.00 each. Wine and husks are free.
+~$5.30; lemon ~$0.80 each; lime ~$1.00 each; orange ~$0.90 each. Wine and husks are free.
 
 | Batch (3 L wine → ~3.3 L) | Total | Per ml |
 |---|---|---|
 | Apricot, Australian apricots | $80.25 | $0.024 |
 | Apricot, Angas Park Fancy | $77.10 | $0.023 |
 | Apricot, Angas Park Diced | $68.80 | $0.021 |
-| Coconut | $70.35 | $0.021 |
+| Coconut (orange peel + juice, Peychaud's only) | $63.35 | $0.019 |
 
 | Per drink | Apricot (Australian) | Apricot (Diced) | Coconut |
 |---|---|---|---|
-| Happy hour (60 ml, built) | $1.74 | $1.56 | $1.56 |
-| Normal (90 ml, 20 ml citrus) | $2.78 | $2.46 | $2.94 |
-| Normal (100 ml, 25 ml citrus) | $3.10 | $2.80 | $3.28 |
+| Happy hour (60 ml, built) | $1.74 | $1.56 | $1.43 |
+| Normal (90 ml, 20 ml citrus) | $2.78 | $2.46 | $2.75 |
+| Normal (100 ml, 25 ml citrus) | $3.10 | $2.80 | $3.07 |
 
 **Ways to cut cost:**
 - Bitters at ⅔ dose saves $4.40 per apricot batch.
@@ -226,6 +236,7 @@ With all four: about **$1.45 at happy hour (60 ml)** and **$2.50–2.80 at norma
 |---|---|---|
 | Coconut–pear | 0.33 shared | Strong, rarely made |
 | Coconut–Peychaud's | 0.14 shared | Only bitters with a coconut link |
+| Layer loop on the coconut base (wine, coconut, pear, lime) | Orange bitters + Peychaud's 0.232 · orange + Peychaud's 0.219 · **+ allspice 0.226** · + star anise 0.224 · + cinnamon 0.210 · + ginger 0.171 | All within a few points: the switch to real orange is for body, cost and zero waste. Allspice has the highest harmony. Cardamom combos rank top (~0.28) but clash with the cardamom gimlet |
 | Coconut ↔ floral / woody flavour families | 0.49 / 0.30 | Floral wines and oak suit it; hence the edible-flower garnish |
 | Coconut–tequila / mezcal | 0.40 shared | Basis of the Coconut Paloma |
 | Apricot–gin | 0.65 classic | Apricot's most classic pairing |

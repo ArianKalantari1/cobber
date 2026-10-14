@@ -49,16 +49,16 @@ If a quarter batch ends up over 875 ml, the pot was under-reduced: add 50 ml vod
 | Part | Amount |
 |---|---|
 | Wine | 750 ml → 375 ml |
-| Start | 45 g desiccated coconut, toasted golden in a dry pan · ~200 g canned pears in juice (¼ can, juice included) · 1 g salt |
+| Start | 45 g desiccated coconut, toasted golden in a dry pan · ~200 g canned pears in juice (¼ can, juice included) · 1 g salt · peel of ½ orange (no pith), then its juice into the pot |
 | Oleo | 9 lime halves + 100 g sugar |
 | Spirit | 350 ml vodka (50 ml of it for the husk rinse) |
-| Bitters | 10 ml orange + 5 ml Peychaud's (start at 7 + 3) |
+| Bitters | 5 ml Peychaud's only (start at 4); no orange bitters |
 | 20% saline | 1 ml |
 | Citric | ~1 g, to taste |
 
 | Version | Change (cooked, round 2) |
 |---|---|
-| A. Plain | As above |
+| A. Orange | As above |
 | B. Ginger | + 4 g fresh ginger, sliced, in the last 10 min of the simmer |
 | C. Allspice | + 2 allspice berries, cracked, from the start of the simmer (no more) |
 
@@ -119,7 +119,7 @@ to one sample to test the combination.
 
 | Sample | HH 60 | Normal 100 | Cocktail 1 | Cocktail 2 | Notes |
 |---|---|---|---|---|---|
-| Coconut A (plain) | | | | | |
+| Coconut A (orange) | | | | | |
 | Coconut B (ginger) | | | | | |
 | Coconut C (allspice) | | | | | |
 | Apricot | | | | | |
