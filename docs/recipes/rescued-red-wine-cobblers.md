@@ -41,7 +41,7 @@ Allspice tastes of clove, cinnamon and nutmeg in one berry, so the clove note st
 
 | Part | Full batch (3 L wine) | Quarter test (750 ml wine) |
 |---|---|---|
-| Spices, simmered from the start | 8 allspice berries, cracked · 15 g fresh ginger, sliced · 1 cinnamon quill · peel of 2 oranges, no pith | 2 allspice · 4 g ginger · a quarter of a cinnamon quill · peel of ½ orange |
+| Spices, simmered from the start | 8 allspice berries, cracked · 15 g fresh ginger, sliced · 1 cinnamon quill · peel of 2 oranges, no pith, **then juice those 2 oranges into the pot** (~150–200 ml) | 2 allspice · 4 g ginger · a quarter of a cinnamon quill · peel and juice of ½ orange |
 | Hibiscus, off the heat | 10 g dried (about 5 teabags), lid on, 5 min | 2.5 g (1–2 teabags) |
 | Oleo | 36 squeezed lemon halves + sugar (per variant) | 9 lemon halves + sugar (per variant) |
 | Spirit | 1.4 L vodka (200 ml of it for the husk rinse) | 350 ml vodka (50 ml for the husk rinse) |
@@ -56,7 +56,8 @@ Allspice tastes of clove, cinnamon and nutmeg in one berry, so the clove note st
 3. **Fine strain** (press the fruit hard), cool, fine strain again.
 4. **Husk rinse** with 200 ml of the vodka, strain it in, then add the rest of the vodka,
    the bitters and the saline.
-5. **Citric** only if needed: hibiscus already adds acid, so check with a pH strip first.
+5. **Citric** only if needed: the hibiscus and orange juice already add acid, so check with a
+   pH strip first. (The juice adds only ~20 g sugar, too little to change the oleo.)
 6. **Bottle and label:** variant, bitters pattern, date, and **"HH 60 / Normal 100"**.
 
 **Result:** about 3.3 L at roughly 18%. Safe for 2–3 months in the fridge; best within 6 weeks.
@@ -108,7 +109,7 @@ close to a commercial rosso: swap it 1:1 into the 30 ml Negroni pour (~150 Negro
 | Part | Amount |
 |---|---|
 | Spice tincture (24–48 h, room temp, then strain) | 900 ml vodka · peel of 3 oranges, no pith · 2 cinnamon quills · 2 star anise · 4 cloves |
-| Caramel syrup | 300 g sugar cooked dry to dark amber; off the heat carefully add 200 ml hot water (it spits); stir in another 300 g sugar |
+| Caramel syrup | 300 g sugar cooked dry to dark amber; off the heat carefully add 200 ml **juice from the 3 peeled oranges** (or hot water). It spits, so pour slowly. Stir in another 300 g sugar, then strain |
 | Bitter backbone | 30 ml Angostura (gentian-based) |
 | Wine | 3 L rescued red, strained |
 | Citric | 0–2 g, only if it tastes flat |
