@@ -41,7 +41,7 @@ Allspice tastes of clove, cinnamon and nutmeg in one berry, so the clove note st
 
 | Part | Full batch (3 L wine) | Quarter test (750 ml wine) |
 |---|---|---|
-| Spices, simmered from the start | 8 allspice berries, cracked · 15 g fresh ginger, sliced · 1 cinnamon quill · peel of 2 oranges, no pith, **then juice those 2 oranges into the pot** (~150–200 ml) | 2 allspice · 4 g ginger · a quarter of a cinnamon quill · peel and juice of ½ orange |
+| Spices, simmered from the start | 8 allspice berries, cracked · 15 g fresh ginger, sliced · 1 cinnamon quill · peel of 2 oranges, no pith, **then juice those 2 oranges into the pot** (~150–200 ml; no extra wine or vodka needed, it reduces with the pot) | 2 allspice · 4 g ginger · a quarter of a cinnamon quill · peel and juice of ½ orange |
 | Hibiscus, off the heat | 10 g dried (about 5 teabags), lid on, 5 min | 2.5 g (1–2 teabags) |
 | Oleo | 36 squeezed lemon halves + sugar (per variant) | 9 lemon halves + sugar (per variant) |
 | Spirit | 1.4 L vodka (200 ml of it for the husk rinse) | 350 ml vodka (50 ml for the husk rinse) |
