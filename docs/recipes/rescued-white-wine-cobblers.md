@@ -56,9 +56,35 @@ drink carries about 64–82 ml of original wine.
 7. **Bottle and label:** name, date, best-by date (+6 weeks), and the pours:
    **"HH 60 / Normal 100"**.
 
-**Result:** about **3.3 L**, roughly **18% alcohol** (assuming a 37.5% house
-spirit) and about **140 g/L sugar**.
+**Result:** about **3.3 L** at **16–18% alcohol** (37.5% house spirit) and about
+**140 g/L sugar**.
 **Shelf life:** safe for 2–3 months in the fridge; **best within 6 weeks**.
+
+### Strength and shelf life (no testing gear needed)
+
+- **The vodka sets the strength.** 1.4 L of 37.5% vodka in a 3.3 L batch is ~16% on its
+  own, even if all the wine's alcohol cooks off. What survives the simmer adds 0–2%, so
+  batches land at **16–18%** (about 1% higher with a 40% vodka).
+- **You can't measure it at the bar:** sugar fools hydrometers. Control it with the recipe:
+  the full 1.4 L of vodka, and the 1.5 L dipstick.
+- **Volume check:** the finished batch should be about 3.3 L (4½ wine bottles). If it's over
+  3.5 L, the pot was under-reduced: add 200 ml vodka. Each 200 ml adds about 1%.
+
+| Strength | Safe, sealed in the fridge | Best flavour |
+|---|---|---|
+| 19–21% | 3+ months | 6 weeks |
+| **16–18%** (normal) | **2–3 months** | **6 weeks** |
+| 15% | 4–6 weeks | 4 weeks |
+| Under 15% (vodka short, or pot under-reduced) | 1–2 weeks | Fix it: add vodka |
+
+- **Opened bottles:** finish within 2 weeks; air speeds up staling. Decant a half-empty
+  bottle into a smaller one.
+- **Throw it out if** it fizzes or the cap domes, smells of vinegar or nail polish, grows a
+  film or mould, or turns cloudy with a yeasty smell.
+- **Dull or brownish but clean-smelling** means stale, not unsafe: use it in the hot serve or
+  in cooking.
+- Flavour fades before safety: the fresh citrus oil goes first, and any coconut fat left
+  behind can turn stale. That's why "best within 6 weeks".
 
 ## 4. Recipes
 
@@ -112,6 +138,8 @@ can go into individual drinks as a few drops of tincture.
 | **HH 60 ml** (built) | 1 lemon + 1 lime slice, muddled | ~0.85 | ~55 ml | ~55 |
 | Normal 90 ml (shaken) | 20 ml | ~1.3 | ~82 ml | ~37 |
 | **Normal 100 ml** (shaken, default) | 25 ml | ~1.4 | ~91 ml | ~33 |
+
+Std drinks assume an 18% batch; at 16% they're about 10% lower.
 
 HH 60 is slightly lighter than the HH light Aperol (~1.0). To match it, the
 batch would need ~21% alcohol (2.1 L spirit per 3 L wine instead of 1.4 L).

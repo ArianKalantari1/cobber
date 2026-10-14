@@ -4,7 +4,8 @@ Test-day sheet for the two white cobblers. Full specs, costing and service are i
 [rescued-white-wine-cobblers.md](rescued-white-wine-cobblers.md).
 Last updated: 2026-10-13.
 
-One quarter batch = 750 ml rescued wine → about 800 ml finished batch at ~18% alcohol.
+One quarter batch = 750 ml rescued wine → about 800 ml finished batch at 16–18% alcohol.
+If a quarter batch ends up over 875 ml, the pot was under-reduced: add 50 ml vodka.
 
 ---
 

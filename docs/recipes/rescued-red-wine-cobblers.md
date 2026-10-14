@@ -60,7 +60,9 @@ Allspice tastes of clove, cinnamon and nutmeg in one berry, so the clove note st
    pH strip first. (The juice adds only ~20 g sugar, too little to change the oleo.)
 6. **Bottle and label:** variant, bitters pattern, date, and **"HH 60 / Normal 100"**.
 
-**Result:** about 3.3 L at roughly 18%. Safe for 2–3 months in the fridge; best within 6 weeks.
+**Result:** about 3.3 L at 16–18%. Safe for 2–3 months in the fridge; best within 6 weeks.
+Strength check, shelf life by strength and spoilage signs: see section 3 of the
+[white spec](rescued-white-wine-cobblers.md).
 
 ## 4. Fruit variants
 
