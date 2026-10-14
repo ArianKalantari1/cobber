@@ -2,6 +2,7 @@
 
 Status: **R&D**. Run the quarter test batch, taste on day 3, then scale up.
 Test-day sheet: [cobbler-rnd-test-sheet.md](cobbler-rnd-test-sheet.md).
+Red version: [rescued-red-wine-cobblers.md](rescued-red-wine-cobblers.md).
 Last updated: 2026-10-13.
 
 Leftover white wine from functions and by-the-glass service is cooked down with
