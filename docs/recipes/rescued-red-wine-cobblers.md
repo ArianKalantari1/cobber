@@ -78,20 +78,34 @@ Strength check, shelf life by strength and spoilage signs: see section 3 of the
 - Pomegranate adds its own tannin: soft reds only.
 - Plum pectin softens tannin: the most forgiving variant if a bigger red slips in.
 
-**Cherry, 500 ml test batch (⅙ of a full batch; first run with Shiraz):**
+**Cherry: 1 L base + 60 ml tests (fortify only what you test, to save vodka):**
 
-| Part | Amount |
+| Base part (per 1 L red; makes ~700 ml, unfortified) | Amount |
 |---|---|
-| Wine | 500 ml, reduced (whole pot) to 250 ml |
-| From the start | 1–2 allspice berries, cracked · 2.5 g fresh ginger (2–3 thin slices) · 1–2 cm cinnamon quill · peel of ⅓ orange (2 strips, no pith), then its juice (~30 ml) |
-| Cherries | 170 g frozen pitted, added when the pot is down to ~400 ml |
-| Hibiscus | 1 teabag, off the heat, lid on, 5 min |
-| Oleo | 6 squeezed lemon halves + 60 g sugar (no husks: rub the peel of 1 lemon into the sugar for 30–60 min) |
-| Fortify | 235 ml vodka (35 ml of it for the husk rinse) · 5 ml Peychaud's (start at 4) · 0.7 ml 20% saline (~14 drops) |
-| Makes | ~550 ml at 16–18%: 5 × Normal 100 or 9 × HH 60. Over 600 ml means under-reduced: add 35 ml vodka |
+| Wine | 1 L, reduced to 500 ml **before** the fruit goes in, so the dipstick reads true |
+| From the start | 3 allspice berries, cracked · 5 g fresh ginger, sliced · 3 cm cinnamon quill · peel of ⅔ orange (4 strips, no pith), then its juice (~60 ml) |
+| Cherries | 330 g frozen pitted: add at the 500 ml mark, lid on, gentle simmer 15–20 min |
+| Hibiscus | 2 teabags, off the heat, lid on, 5 min |
+| Oleo | 12 squeezed lemon halves + 120 g sugar, stirred in off the heat |
+| 20% saline | 1.3 ml (~25 drops), stirred into the base |
 
-Shiraz is a big red, so its tannin concentrates in the reduction: simmer gently, and if the
-finished batch tastes grippy, add 5 g sugar and 2–3 more drops of saline.
+Strain hard, cool, strain again. Keeps up to 1 week in the fridge unfortified, or freeze it
+in ice-cube trays. Shiraz is a big red: simmer gently.
+
+**60 ml test:** 34 ml base + 26 ml vodka + one layer = ~16–17%, ~135 g/L sugar, the same as a
+full batch. Rule for any size: **vodka = ¾ of the base volume**.
+
+| Layer | Per 60 ml test (1 drop ≈ 0.05 ml; use a dropper or 1 ml syringe) |
+|---|---|
+| Peychaud's (Bright) | 0.5 ml (10 drops) |
+| Angostura (Warm) | 0.5 ml (10 drops) |
+| Split | 7 drops Peychaud's + 4 drops Angostura |
+| Maraschino + Angostura | 1.1 ml + 6 drops |
+| Absinthe | 1–2 drops |
+| Campari | 1.6 ml |
+| Sweet vermouth | 4 ml, on top |
+
+Check one sample with a pH strip: if it reads above 3.3, add citric to the base, 0.3 g at a time.
 
 ## 5. Bitters patterns
 
