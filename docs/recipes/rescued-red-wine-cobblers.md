@@ -78,6 +78,21 @@ Strength check, shelf life by strength and spoilage signs: see section 3 of the
 - Pomegranate adds its own tannin: soft reds only.
 - Plum pectin softens tannin: the most forgiving variant if a bigger red slips in.
 
+**Cherry, 500 ml test batch (⅙ of a full batch; first run with Shiraz):**
+
+| Part | Amount |
+|---|---|
+| Wine | 500 ml, reduced (whole pot) to 250 ml |
+| From the start | 1–2 allspice berries, cracked · 2.5 g fresh ginger (2–3 thin slices) · 1–2 cm cinnamon quill · peel of ⅓ orange (2 strips, no pith), then its juice (~30 ml) |
+| Cherries | 170 g frozen pitted, added when the pot is down to ~400 ml |
+| Hibiscus | 1 teabag, off the heat, lid on, 5 min |
+| Oleo | 6 squeezed lemon halves + 60 g sugar (no husks: rub the peel of 1 lemon into the sugar for 30–60 min) |
+| Fortify | 235 ml vodka (35 ml of it for the husk rinse) · 5 ml Peychaud's (start at 4) · 0.7 ml 20% saline (~14 drops) |
+| Makes | ~550 ml at 16–18%: 5 × Normal 100 or 9 × HH 60. Over 600 ml means under-reduced: add 35 ml vodka |
+
+Shiraz is a big red, so its tannin concentrates in the reduction: simmer gently, and if the
+finished batch tastes grippy, add 5 g sugar and 2–3 more drops of saline.
+
 ## 5. Bitters patterns
 
 | Pattern | Full batch | Per 100 ml sample | Character | Why |
