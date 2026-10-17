@@ -102,6 +102,12 @@ finished batch tastes grippy, add 5 g sugar and 2–3 more drops of saline.
 | **Fresh** | 30 ml orange bitters + 10 ml Angostura | 0.9 + 0.3 ml | Peel, lifted | Pomegranate–orange bitters 0.36, pomegranate–Angostura 0.52 classic |
 | **Split** | 20 ml Peychaud's + 10 ml Angostura | 0.6 + 0.3 ml | Sazerac-style, in between | Peychaud's lifts, Angostura grounds |
 
+**No Peychaud's?** Per 100 ml of batch: Angostura 0.9 ml (Warm) · maraschino 1.8 ml + Angostura
+0.5 ml (cherry–maraschino 0.69 shared, Shiraz–maraschino 0.18) · absinthe 2–4 drops for
+Peychaud's anise (the Remember the Maine pairing) · Campari 2.7 ml for a bitter-orange
+backbone (cherry–Campari 0.26 classic) · sweet vermouth 7 ml for depth, on top of the vodka,
+never instead of it (cherry–sweet vermouth 0.53 classic).
+
 ## 6. Service
 
 Same pours as the whites:
