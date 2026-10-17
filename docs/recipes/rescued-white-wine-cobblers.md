@@ -27,6 +27,10 @@ drink carries about 64–82 ml of original wine.
   - Apricot: up to **20%**.
 - Pink and rosé wines will tint the batch blush. That's fine for coconut;
   keep them out of the apricot batch.
+- **Non-alcoholic wine and sparkling are usable too** (flat is fine; it all gets cooked). The
+  vodka sets the strength, so the batch still lands at ~16%. Two rules: use them within 1–2
+  days of opening or freeze them (no alcohol means no protection), and cut the oleo sugar if
+  they're sweetened (Lyre's Classico has 3.9 g sugar per 100 ml: take ~4 g off per 100 ml used).
 
 ## 2. Prep the day before
 
