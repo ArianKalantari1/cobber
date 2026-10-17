@@ -27,7 +27,7 @@ reds go uncooked into the **House Rosso** for the Negroni batch instead (section
 | | Old bar card | House red |
 |---|---|---|
 | Spice | 3 cinnamon quills, 3 star anise, 10 cloves, 3 orange zests | 8 allspice, 15 g ginger, 1 cinnamon quill, peel of 2 oranges (the spice set of Caribbean sorrel) |
-| Tartness | Rhubarb | Hibiscus, steeped off the heat; also deepens the colour |
+| Tartness | Rhubarb | Citric to pH 3.3 or below (clean, no flavour). Hibiscus optional, for pale or soft reds |
 | Sweetness | 450 g plain sugar | Lemon-husk oleo, off the heat |
 | Fruit | None | Four variants (section 4) |
 | Finish | Unfortified, 2–3 weeks | Vodka, saline, pH 3.3 or below, a bitters pattern: ~18%, 2–3 months |
@@ -42,7 +42,7 @@ Allspice tastes of clove, cinnamon and nutmeg in one berry, so the clove note st
 | Part | Full batch (3 L wine) | Quarter test (750 ml wine) |
 |---|---|---|
 | Spices, simmered from the start | 8 allspice berries, cracked · 15 g fresh ginger, sliced · 1 cinnamon quill · peel of 2 oranges, no pith, **then juice those 2 oranges into the pot** (~150–200 ml; no extra wine or vodka needed, it reduces with the pot) | 2 allspice · 4 g ginger · a quarter of a cinnamon quill · peel and juice of ½ orange |
-| Hibiscus, off the heat | 10 g dried (about 5 teabags), lid on, 5 min | 2.5 g (1–2 teabags) |
+| Hibiscus, off the heat (**optional**: pale or soft reds only; skip for Shiraz and other big reds) | 10 g dried (about 5 teabags), lid on, 5 min | 2.5 g (1–2 teabags) |
 | Oleo | 36 squeezed lemon halves + sugar (per variant) | 9 lemon halves + sugar (per variant) |
 | Spirit | 1.4 L vodka (200 ml of it for the husk rinse) | 350 ml vodka (50 ml for the husk rinse) |
 | Bitters | Per pattern (section 5) | Per pattern |
@@ -51,12 +51,12 @@ Allspice tastes of clove, cinnamon and nutmeg in one berry, so the clove note st
 
 1. **Simmer** the wine with the spices, uncovered. Add the fruit at the time given in
    section 4. Reduce until the whole pot, fruit juice included, is down to **1.5 L**.
-2. **Off the heat:** steep the hibiscus (lid on, 5 min) and remove it. Stir in the strained
+2. **Off the heat:** if using hibiscus, steep it (lid on, 5 min) and remove it. Stir in the strained
    oleo syrup until any sugar dissolves. **Never cook the husks.**
 3. **Fine strain** (press the fruit hard), cool, fine strain again.
 4. **Husk rinse** with 200 ml of the vodka, strain it in, then add the rest of the vodka,
    the bitters and the saline.
-5. **Citric** only if needed: the hibiscus and orange juice already add acid, so check with a
+5. **Citric** to pH 3.3 or below. The orange juice (and hibiscus, if used) add some acid, so check with a
    pH strip first. (The juice adds only ~20 g sugar, too little to change the oleo.)
 6. **Bottle and label:** variant, bitters pattern, date, and **"HH 60 / Normal 100"**.
 
@@ -70,7 +70,7 @@ Strength check, shelf life by strength and spoilage signs: see section 3 of the
 |---|---|---|---|---|---|
 | **Cherry** (lead) | 1 kg frozen pitted cherries / 250 g | Last 20 min | 350 g / 90 g | Bright | Cherry + orange wheel |
 | **Plum** | 2 cans SPC plums in juice, stones out (or 1 kg fresh dark plums, Dec–Mar) / ½ can | Whole simmer | 300 g / 75 g | Warm | Orange wheel |
-| **Pomegranate** | 150 ml pomegranate molasses / 40 ml. Halve the hibiscus: the molasses is already tart | Off the heat, with the oleo | 400 g / 100 g | Fresh | Lemon wheel |
+| **Pomegranate** | 150 ml pomegranate molasses / 40 ml. If using hibiscus, halve it: the molasses is already tart | Off the heat, with the oleo | 400 g / 100 g | Fresh | Lemon wheel |
 | **Blackberry** | 1 kg frozen blackberries / 250 g | Last 20 min | 400 g / 100 g | Split | Blackberry + lemon wheel |
 
 - Cherries add about 130 g of their own sugar per kg, and canned plums add more through the
@@ -85,7 +85,7 @@ Strength check, shelf life by strength and spoilage signs: see section 3 of the
 | Wine | 1 L, reduced to 500 ml **before** the fruit goes in, so the dipstick reads true |
 | From the start | 3 allspice berries, cracked · 5 g fresh ginger, sliced · 3 cm cinnamon quill · peel of ⅔ orange (4 strips, no pith), then its juice (~60 ml) |
 | Cherries | 330 g frozen pitted: add at the 500 ml mark, lid on, gentle simmer 15–20 min |
-| Hibiscus | 2 teabags, off the heat, lid on, 5 min |
+| Hibiscus | Optional: skip for Shiraz. For pale or soft reds, 2 teabags, off the heat, lid on, 5 min |
 | Oleo | 12 squeezed lemon halves + 120 g sugar, stirred in off the heat |
 | 20% saline | 1.3 ml (~25 drops), stirred into the base |
 
@@ -167,7 +167,7 @@ close to a commercial rosso: swap it 1:1 into the 30 ml Negroni pour (~150 Negro
 - [Woolworths Frozen Blackberries, 500 g](https://www.woolworths.com.au/shop/productdetails/777900): 2 per batch.
 - [SPC Plums in Juice](https://www.woolworths.com.au/shop/productdetails/316642/spc-plums-in-juice) (825 g can).
 - Pomegranate molasses: not listed at Woolworths online; try a Middle Eastern grocer.
-- Hibiscus: the hibiscus tea already in stock.
+- Hibiscus (optional): the hibiscus tea already in stock.
 
 ## 9. Cobber notes
 
@@ -188,7 +188,8 @@ choices rest on classic pairings. Red wine data is provisional.
 - [ ] Quarter batches: cherry first, then plum, pomegranate and blackberry.
 - [ ] Bitters: split each quarter batch into three jars before the bitters; dose its own
       pattern plus two others; judge cold, in the HH serve.
-- [ ] Hibiscus level: 10 g per full batch to start (halved for pomegranate).
+- [ ] Hibiscus (optional): test it as a layer, not in the pot. Steep 1 teabag in 50 ml vodka for
+      30–60 min, strain, add 1–2 ml per 60 ml sample.
 - [ ] Cherry clashes with Sang et Sable if that wins the pisco slot; plum is the swap.
 - [ ] House Rosso: first batch for the Negroni; owner sign-off before it replaces the
       bought vermouth in the HH Negroni.
