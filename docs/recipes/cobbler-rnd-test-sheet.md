@@ -51,6 +51,10 @@ If a quarter batch ends up over 875 ml, the pot was under-reduced: add 50 ml vod
    - My guess: 150 ml lime vodka (3 limes), 100 ml lemon gin (2 lemons).
    - Make up whatever you don't use with plain spirit, so the total stays 350 ml.
    - Write down the dose: × 4 = limes or lemons for the full batch.
+   - **Lime check:** taste the batch neat and cold (that's how it reads in the Martinez, the
+     one drink with no fresh lime), then in an HH 60 serve. The lime should be clear in both.
+     Still not clear at 200 ml (4 limes)? Next time make the lime vodka stronger (6 limes in
+     200 ml), not bigger.
 7. **Acid** to taste: 1 ml of the solution at a time, to pH 3.3 or below (pH strip). If you
    added the juice in step 1, you may need little or none.
 8. **Bottle and label** (batch, version, date). Fridge. Re-taste on day 3 and adjust only
@@ -115,7 +119,7 @@ to one sample to test the combination.
 
 **Step 1: cobbler serves, all versions.**
 - **HH 60 built:** 60 batch, 1 lemon + 1 lime slice lightly muddled, cubes, 20–30 soda.
-  This shows the spice most.
+  This shows the spice most. Coconut: also try 2 lime slices and no lemon, for more lime.
 - **Normal 100 shaken:** 100 batch + 25 citrus (lime for coconut, lemon for apricot),
   shake, dump into a wine glass, 20 soda.
 

@@ -112,6 +112,9 @@ husk problems:
   in cooking.
 - Flavour fades before safety: the fresh citrus oil goes first, and any coconut fat left
   behind can turn stale. That's why "best within 6 weeks".
+- **Lime fading?** Top up with lime vodka made at the same strength (3 g zest per 50 ml):
+  50 ml per quarter batch or 200 ml per full batch, about 1 lime per 50 ml. It also adds
+  about 1% alcohol, which is fine.
 
 ## 4. Recipes
 
