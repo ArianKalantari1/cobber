@@ -35,11 +35,18 @@ drink carries about 64–82 ml of original wine.
 ## 2. Prep the day before
 
 - **Oleo (replaces plain sugar):** bag the squeezed husks with the sugar and
-  leave in the fridge overnight (**24 h at most**, or the pith turns bitter).
-  Squeeze the bag, strain out the syrup, and keep it for cook day. Keep the
+  leave in the fridge (lemons **24 h at most**; **limes 4–12 h**, tasting from 4 h,
+  because lime pith turns bitter faster). Flick out any seeds first: they're the
+  most bitter part. **Press the bag gently**, don't wring it: the last hard squeeze
+  is mostly pith bitterness. Strain out the syrup and keep it for cook day. Keep the
   squeezed husks in the bag in the fridge for the spirit rinse (step 5).
   **Never cook the husks:** heat pulls bitterness out of the pith and boils off
   the lime oils.
+- **Oleo tastes bitter?** Taste it diluted (10 ml oleo + 90 ml water + a pinch of
+  salt) before judging: neat oleo is like tasting bitters neat, and in the batch it's
+  only ~1/10 of the volume. Still bitter: strain the husks off now, then add 1 ml 20%
+  saline per 100 g sugar used (salt blocks bitterness), and/or 10–20% more sugar.
+  Start the batch bitters at ⅔.
 - **Collecting husks during service:** keep two zip-lock bags in the fridge,
   *"lime husks"* and *"lemon husks"*, dated.
 
