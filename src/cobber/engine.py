@@ -81,8 +81,9 @@ def novelty(a: str, b: str) -> float:
 def frontier_support(a: str, b: str) -> dict | None:
     """Return craft-corpus evidence for a pairing, or ``None`` if there is none.
 
-    The frontier table holds pairings seen in the craft/competition corpora
-    with attribution (``{"count": int, "examples": [{"drink", "bartender"?}]}``).
+    The frontier table holds pairings seen in the craft/competition corpora and
+    scraped bar menus, with attribution
+    (``{"count": int, "examples": [{"drink", "bartender"?, "venue"?}]}``).
     It deliberately does not feed the tradition score: a working bartender
     using a pairing is *validation* that a novel idea works in a glass, not
     evidence that it is canon. High novelty + frontier support is the

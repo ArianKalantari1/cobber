@@ -159,6 +159,15 @@ def test_frontier_support_returns_attributed_evidence():
     assert evidence["examples"] and "drink" in evidence["examples"][0]
 
 
+def test_frontier_includes_scraped_bar_menus_by_venue():
+    """Current bar menus feed the frontier channel, attributed to venue and city."""
+    pantry = load_pantry()
+    venues = [example["venue"] for evidence in pantry.frontier.values()
+              for example in evidence["examples"] if "venue" in example]
+    assert venues, "no bar-menu examples in frontier_evidence.json"
+    assert all(", " in venue for venue in venues)
+
+
 def test_frontier_support_is_separate_from_tradition():
     """Frontier evidence must not have leaked into the tradition score's corpus.
 

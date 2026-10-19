@@ -188,6 +188,15 @@ def _provisional_among(ingredient_ids: list[str]) -> list[str]:
     )
 
 
+def _attribution(example: dict) -> str:
+    """' by <bartender>' for craft/competition drinks, ' at <venue>' for bar menus."""
+    if example.get("bartender"):
+        return f" by {example['bartender']}"
+    if example.get("venue"):
+        return f" at {example['venue']}"
+    return ""
+
+
 @mcp.tool()
 def resolve_ingredients(names: list[str]) -> dict:
     """Map free-text ingredient names to known ids.
@@ -318,7 +327,7 @@ def explain_pairing(a: str, b: str) -> str:
         frontier = engine.frontier_support(a, b)
         if frontier is not None and frontier.get("examples"):
             example = frontier["examples"][0]
-            attribution = f" by {example['bartender']}" if example.get("bartender") else ""
+            attribution = _attribution(example)
             no_bridge += (
                 f" That said, contrast can absolutely work: craft bartenders have "
                 f"paired them {frontier['count']}x in the frontier corpus "
@@ -343,7 +352,7 @@ def explain_pairing(a: str, b: str) -> str:
     frontier = engine.frontier_support(a, b)
     if frontier is not None and trad <= 0.3 and frontier.get("examples"):
         example = frontier["examples"][0]
-        attribution = f" by {example['bartender']}" if example.get("bartender") else ""
+        attribution = _attribution(example)
         sentences.append(
             f"Rarely done in the canon, but craft bartenders have proven it "
             f"({frontier['count']}x in the frontier corpus, e.g. "
@@ -400,13 +409,16 @@ def get_native_twist(base_id: str, n: int = 3) -> list[dict]:
 def frontier_support(a: str, b: str) -> dict:
     """Check whether craft bartenders have validated a pairing in the wild.
 
-    The frontier corpus (craft bars, competitions) is kept separate from the
-    tradition score: it proves a novel pairing works in a glass without making
-    it "traditional". Use this when a suggestion scores high on novelty - if
-    there's support, cite it ("rarely done, but X built 'Y' on it"); if there
-    isn't, say the pairing is genuinely untried as far as the data knows.
+    The frontier corpus (craft bars, competitions, current menus scraped from
+    Sydney, Paris and London bars) is kept separate from the tradition score:
+    it proves a novel pairing works in a glass without making it
+    "traditional". Use this when a suggestion scores high on novelty - if
+    there's support, cite it ("rarely done, but X built 'Y' on it", or "'Y' at
+    <venue>" for a bar-menu example); if there isn't, say the pairing is
+    genuinely untried as far as the data knows.
 
-    Returns ``{"supported": bool, "count": int, "examples": [...]}``.
+    Returns ``{"supported": bool, "count": int, "examples": [...]}``; each
+    example has ``drink`` plus ``bartender`` or ``venue`` when known.
     """
     evidence = engine.frontier_support(a, b)
     if evidence is None:
