@@ -6,6 +6,34 @@ notes + a self-contained HTML visualiser — on branch
 Supersedes the original Copilot handoff. Read `docs/cobber-design-notes.md`
 first for the project's thinking; this file is "where we are and what's next".*
 
+## Scraped bar menus as a frontier corpus (19 October 2026)
+
+- **What:** 995 current drinks from Ari's cleaned city datasets (Sydney 327, Paris 307,
+  London 361; includes the Paris/Sydney "net new culinary" file) are saved in
+  `data/raw/city_bar_cocktails.json`. Each row has city, venue, drink, base and
+  ingredient list. Prices were dropped.
+- **How it feeds Cobber:** `normalize.py` reads it as a **frontier** source
+  (`bar_menus`), never canon.
+  - Items are split on "&"/"and" and matched with the Hotaling branded-phrase
+    rules; the base-spirit column is matched too.
+  - Duplicates are keyed by city + venue + name.
+  - Frontier examples carry `venue` ("Andy Wahloo, Paris"), and the server cites
+    these as "at <venue>".
+- **Result:**
+  - 830 drinks matched 2+ ingredients.
+  - Frontier pairs went from 3,555 to 4,079 (524 seen only on menus).
+  - `recipes_normalized.json` is unchanged, so tradition is untouched.
+  - 18 new learned aliases, all exact (e.g. "citroen vodka", "rye whisky", "dessert lime").
+- **Ari's review queue:** `unmatched_ingredients.txt` gained 957 menu terms.
+  - Missing ingredients, top: generic "whisky" 82, sake 51, cucumber 31, yuzu 26,
+    amaro 24, verjus 24, tonic 23, chilli 18, lychee 17, pandan 16, aquavit 15,
+    rhubarb 15, watermelon 14, banana 13, blackberry 11.
+  - Brand-only stubs ("goose", "blanco", "12") are noise: the base column already
+    covers those drinks.
+- **Next:** import the two new datasets and the martini-heavy one:
+  `python3 scripts/import_city_menus.py <files>` (add `--city` if the file has no City
+  column and no city prefix), then re-run `normalize.py`.
+
 ## Sensory-descriptor layer: DONE this session (23 July 2026)
 
 **What it is:** the flavour-wheel layer Cobber was missing — per-ingredient odour

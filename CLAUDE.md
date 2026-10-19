@@ -50,9 +50,13 @@ files — no LLM calls, no network, no database at runtime.
 - `data/flavor_wheel.html` — self-contained (no network) wheel + harmonious-notes
   visualiser. Built by `scripts/render_flavor_wheel.py`.
 - `data/frontier_evidence.json` — pairings from the frontier corpus (craft
-  bartenders, competitions) with attribution. Deliberately NOT in tradition:
-  validated-novel evidence, not canon.
+  bartenders, competitions, scraped bar menus) with attribution. Deliberately
+  NOT in tradition: validated-novel evidence, not canon.
 - `data/raw/craft_recipes.json` — hand-curated recipes (append by hand).
+- `data/raw/city_bar_cocktails.json` — current menus scraped from city bars
+  (Sydney, Paris, London so far), attributed by venue + city. Frontier corpus.
+  Built by `scripts/import_city_menus.py` from Ari's cleaned datasets; re-importing
+  a dataset replaces its rows, other datasets are kept.
 
 ## Build pipeline (offline; outputs are committed)
 
@@ -62,6 +66,7 @@ python3 scripts/fetch_iba.py          # IBA official  -> data/raw/iba.json
 python3 scripts/fetch_boston.py       # Mr. Boston    -> data/raw/boston_cocktails.csv
 python3 scripts/fetch_hotaling.py     # Hotaling craft -> data/raw/hotaling_cocktails.csv (frontier)
 python3 scripts/fetch_cocktailapp.py  # Difford's+Kindred (cocktailApp/CRAN) -> data/raw/cocktailapp_recipes.json
+python3 scripts/import_city_menus.py <cleaned.xlsx ...>  # bar menus -> data/raw/city_bar_cocktails.json (frontier; needs openpyxl)
 python3 scripts/normalize.py          # -> recipes_normalized/components, aliases, unmatched
 python3 scripts/compute_npmi.py       # -> tradition_npmi.json
 python3 scripts/write_tradition.py    # -> tradition.json
@@ -95,7 +100,7 @@ so it emits a curated, per-compound Flavornet-cited table (refresh path document
 in the script for an unblocked environment).
 
 Canon dedupe priority: hand-curated craft > IBA > Difford's > Mr. Boston > TheCocktailDB.
-Frontier corpora (Hotaling, Kindred) feed data/frontier_evidence.json, not tradition.
+Frontier corpora (Hotaling, Kindred, scraped bar menus) feed data/frontier_evidence.json, not tradition.
 
 ## Commit discipline
 
