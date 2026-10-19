@@ -30,9 +30,26 @@ first for the project's thinking; this file is "where we are and what's next".*
     rhubarb 15, watermelon 14, banana 13, blackberry 11.
   - Brand-only stubs ("goose", "blanco", "12") are noise: the base column already
     covers those drinks.
-- **Next:** import the two new datasets and the martini-heavy one:
+- **Update, same day: New York and Milan added.** Each file has 180 drinks.
+  - All the menus are current: Milan's oldest is a menu published in July 2026.
+    No rows had empty or placeholder ingredients. 21 rows are flagged
+    `ingredients_complete: "Partial"`; they're kept, because what they list is real.
+  - Milan menus are partly in Italian, so they were imported with `--translate it`
+    using the new `data/menu_glossary.json` (171 entries). 92 drinks were translated,
+    with the original wording kept.
+  - The re-sent Paris/Sydney "net new" file was byte-identical to the one already
+    imported, so it added nothing.
+  - **Totals now:** 1,355 drinks, of which 1,107 match 2+ ingredients.
+    Frontier pairs 4,156 (601 seen only on menus). Tradition is still untouched.
+  - **Quick wins for Ari to approve as aliases.** These are brands Cobber reads
+    only as their last word: "Angostura" (bitters), "Bombay Sapphire", "Grey Goose",
+    "Wild Turkey 101", "tequila blanco", "sherry fino", "rosso".
+  - Adding them can also change canon recipes, so re-run `compute_npmi.py` and
+    `write_tradition.py` after.
+- **Next:** further cities go in the same way:
   `python3 scripts/import_city_menus.py <files>` (add `--city` if the file has no City
-  column and no city prefix), then re-run `normalize.py`.
+  column and no city prefix, `--translate <lang>` for non-English menus), then
+  re-run `normalize.py`.
 
 ## Sensory-descriptor layer: DONE this session (23 July 2026)
 
