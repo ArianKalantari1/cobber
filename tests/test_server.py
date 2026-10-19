@@ -37,3 +37,14 @@ def test_proxy_resolves_to_stand_in_and_announces():
     result = server.resolve_ingredients(["dubonnet"])
     assert result["resolved"].get("dubonnet") == "sweet_vermouth"
     assert any(s["input"] == "dubonnet" for s in result["substitutions"])
+
+
+def test_bar_menu_examples_cite_the_venue():
+    """Bar-menu drinks read 'at <venue>'; craft drinks keep 'by <bartender>'."""
+    assert server._attribution({"drink": "Coka Daiquiri", "venue": "Andy Wahloo, Paris"}) == (
+        " at Andy Wahloo, Paris"
+    )
+    assert server._attribution({"drink": "OH Snap!", "bartender": "Kevin Diedrich"}) == (
+        " by Kevin Diedrich"
+    )
+    assert server._attribution({"drink": "Untitled"}) == ""

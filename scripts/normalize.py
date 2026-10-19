@@ -39,6 +39,7 @@ BOSTON_RECIPES = ROOT / "data" / "raw" / "boston_cocktails.csv"
 CRAFT_RECIPES = ROOT / "data" / "raw" / "craft_recipes.json"
 HOTALING_RECIPES = ROOT / "data" / "raw" / "hotaling_cocktails.csv"
 COCKTAILAPP_RECIPES = ROOT / "data" / "raw" / "cocktailapp_recipes.json"
+BAR_MENUS_RECIPES = ROOT / "data" / "raw" / "city_bar_cocktails.json"
 INGREDIENTS_PATH = ROOT / "data" / "ingredients.json"
 COMPOSITES_PATH = ROOT / "data" / "composites.json"
 ALIASES_PATH = ROOT / "data" / "ingredient_aliases.json"
@@ -60,6 +61,7 @@ SOURCE_CLASS = {
     "thecocktaildb": "canon",
     "hotaling": "frontier",
     "kindred": "frontier",
+    "bar_menus": "frontier",
 }
 
 # Below this pour (in oz), a composite is a modifier dose and its
@@ -504,6 +506,48 @@ def _iter_cocktailapp() -> list[dict]:
     return drinks
 
 
+def _iter_bar_menus() -> list[dict]:
+    """Yield scraped city bar menu drinks (frontier corpus), venue-attributed.
+
+    From data/raw/city_bar_cocktails.json (see import_city_menus.py). Menu
+    text has no measures, and one listed item often names two flavours
+    ("watermelon & pink pepper cordial"), so items are split on "&"/"and"
+    before the branded-phrase matching Hotaling uses. The base spirit column
+    is matched too, in case the ingredient list leaves it out. Two bars can
+    share a drink name, so duplicates are keyed by city + venue + name.
+    """
+    if not BAR_MENUS_RECIPES.exists():
+        return []
+    payload = _load_json(BAR_MENUS_RECIPES)
+    if not isinstance(payload, list):
+        raise ValueError("data/raw/city_bar_cocktails.json must contain a JSON list.")
+    drinks = []
+    for row in payload:
+        if not isinstance(row, dict):
+            continue
+        name = str(row.get("name", "")).strip()
+        venue = str(row.get("venue", "")).strip()
+        city = str(row.get("city", "")).strip()
+        if not name or not row.get("ingredients"):
+            continue
+        parts = [piece for text in row["ingredients"]
+                 for piece in re.split(r"\s*&\s*|\s+and\s+", str(text))]
+        parts += re.split(r"\s*[+/,&]\s*", str(row.get("base") or ""))
+        items = []
+        for part in parts:
+            candidates = _hotaling_candidates(part)
+            if candidates:
+                items.append((candidates, None))
+        drinks.append({
+            "name": name,
+            "source": "bar_menus",
+            "venue": ", ".join(p for p in (venue, city) if p) or None,
+            "dedupe_key": _dedupe_key(f"{city} {venue} {name}"),
+            "items": items,
+        })
+    return drinks
+
+
 def _dedupe_key(drink_name: str) -> str:
     return re.sub(r"[^a-z0-9]", "", drink_name.lower())
 
@@ -538,16 +582,17 @@ def normalize_recipes(
 
     # Priority order for cross-corpus duplicates: hand-curated recipes win,
     # then IBA official, then Difford's, then Mr. Boston, then TheCocktailDB.
-    # Frontier corpora (Hotaling, Kindred) are deduped only among themselves.
+    # Frontier corpora (Hotaling, Kindred, scraped bar menus) are deduped only
+    # among themselves.
     cocktailapp = _iter_cocktailapp()
     diffords = [d for d in cocktailapp if d["source"] == "diffords"]
     kindred = [d for d in cocktailapp if d["source"] == "kindred"]
     seen_names: set[str] = set()
     frontier_seen: set[str] = set()
     for drink in [*_iter_craft(), *_iter_iba(), *diffords, *_iter_boston(),
-                  *_iter_cocktaildb(), *_iter_hotaling(), *kindred]:
+                  *_iter_cocktaildb(), *_iter_hotaling(), *kindred, *_iter_bar_menus()]:
         corpus_class = SOURCE_CLASS.get(drink["source"], "canon")
-        key = _dedupe_key(drink["name"])
+        key = drink.get("dedupe_key") or _dedupe_key(drink["name"])
         if corpus_class == "canon":
             if key and key in seen_names:
                 continue
@@ -601,6 +646,8 @@ def normalize_recipes(
             }
             if drink.get("creator"):
                 record["creator"] = drink["creator"]
+            if drink.get("venue"):
+                record["venue"] = drink["venue"]
             component_records.append(record)
 
             if corpus_class == "canon":
@@ -622,6 +669,8 @@ def normalize_recipes(
                         example = {"drink": drink["name"]}
                         if drink.get("creator"):
                             example["bartender"] = drink["creator"]
+                        if drink.get("venue"):
+                            example["venue"] = drink["venue"]
                         row["examples"].append(example)
 
     frontier_rows = [
