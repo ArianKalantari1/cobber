@@ -3,10 +3,10 @@
 Status: **R&D**. Run the quarter test batch, taste on day 3, then scale up.
 Test-day sheet: [cobbler-rnd-test-sheet.md](cobbler-rnd-test-sheet.md).
 Red version: [rescued-red-wine-cobblers.md](rescued-red-wine-cobblers.md).
-Last updated: 2026-10-13.
+Last updated: 2026-10-19.
 
 Leftover white wine from functions and by-the-glass service is cooked down with
-fruit, sweetened with an oleo made from squeezed citrus husks, then fortified.
+fruit and sugar, then fortified with spirit that has had citrus zest steeped in it.
 The result is one bottled **cobbler batch**. The rescued wine is the hero: each
 drink carries about 64–82 ml of original wine.
 
@@ -29,41 +29,57 @@ drink carries about 64–82 ml of original wine.
   keep them out of the apricot batch.
 - **Non-alcoholic wine and sparkling are usable too** (flat is fine; it all gets cooked). The
   vodka sets the strength, so the batch still lands at ~16%. Two rules: use them within 1–2
-  days of opening or freeze them (no alcohol means no protection), and cut the oleo sugar if
+  days of opening or freeze them (no alcohol means no protection), and cut the sugar if
   they're sweetened (Lyre's Classico has 3.9 g sugar per 100 ml: take ~4 g off per 100 ml used).
 
-## 2. Prep the day before
+## 2. Prep the day before: citrus spirit
 
-- **Oleo (replaces plain sugar):** bag the squeezed husks with the sugar and
-  leave in the fridge (lemons **24 h at most**; **limes 4–12 h**, tasting from 4 h,
-  because lime pith turns bitter faster). Flick out any seeds first: they're the
-  most bitter part. **Press the bag gently**, don't wring it: the last hard squeeze
-  is mostly pith bitterness. Strain out the syrup and keep it for cook day. Keep the
-  squeezed husks in the bag in the fridge for the spirit rinse (step 5).
-  **Never cook the husks:** heat pulls bitterness out of the pith and boils off
-  the lime oils.
-- **Oleo tastes bitter?** Taste it diluted (10 ml oleo + 90 ml water + a pinch of
-  salt) before judging: neat oleo is like tasting bitters neat, and in the batch it's
-  only ~1/10 of the volume. Still bitter: strain the husks off now, then add 1 ml 20%
-  saline per 100 g sugar used (salt blocks bitterness), and/or 10–20% more sugar.
-  Start the batch bitters at ⅔.
-- **Collecting husks during service:** keep two zip-lock bags in the fridge,
-  *"lime husks"* and *"lemon husks"*, dated.
+Zest steeped in part of the batch's own spirit replaces the old husk oleo. It fixes the three
+husk problems:
+- **Less bitterness:** there's no pith, seeds or long husk soak.
+- **No lost sugar:** the sugar dissolves in the hot pot, so none is left behind on the husks.
+- **More lime:** the oil goes in after the coconut fat is lifted, so it isn't binned with the fat.
+
+- **Limes:** wash and dry, then microplane with light strokes, green only. Stop when you see
+  white. About **3 g zest per lime**.
+- **Lemons:** Y-peeler strips, yellow only; if the back of a strip is thick and white, peel
+  lighter. About **8 g per lemon**.
+- Only zest fruit you'll juice that same shift: zested fruit dries out within a day.
+- **Steep 12–24 h** in the spirit (amounts in section 4): sealed jar, room temperature, shake
+  2–3 times. Microplaned zest gives most of its oil in the first few hours, so **4 h** will do
+  if you're short of time. Don't go past **48 h**, or bitterness creeps in. Lemon strips are
+  slower, so give them the full 24 h.
+- **Never put the zest in the simmer.** An open simmer steams the oil out of the pot (it's how
+  essential oils are distilled). Heat plus acid also turns fresh lime stale. In the coconut
+  batch, any lime oil in the pot also dissolves into the coconut fat you lift off. The orange
+  peel can stay in the simmer: it's the cooked background note, as in mulled wine.
+- **Collecting zest during service:** zest the limes (or peel the lemons) before juicing them
+  for service. Bag it flat, squeeze out the air, label the weight and date, and freeze. It's
+  best within 1 month, 3 months at most. Add it to the spirit still frozen. Freezing bursts a
+  few more cells, but its real job is holding the aroma: zest left out loses it within hours.
+- **Bitter?** The zest went into the white or steeped too long. Add 1 ml extra 20% saline per
+  quarter batch (salt blocks bitterness) and start the bitters at ⅔. The citrus spirit tastes
+  harsh neat, like bitters, so judge it in the batch, cold.
 
 ## 3. Method (per 3 L rescued wine)
 
-1. **Simmer** the wine with the *Start* ingredients, uncovered, until the whole
-   pot (including fruit juice) is down to **1.5 L**. Mark a chopstick at the
-   1.5 L level and use it as a dipstick.
-2. **Off the heat:** steep any *Steep* ingredients (lid on), then stir in the
-   **oleo syrup**.
+1. **Simmer** the wine with the *Start* ingredients (and the optional citrus juice),
+   uncovered, until the whole pot (including fruit juice) is down to **1.5 L**. Mark a
+   chopstick at the 1.5 L level and use it as a dipstick.
+2. **Off the heat:** steep any *Steep* ingredients (lid on), then stir in all the
+   **sugar** until it's fully dissolved (2–3 min). The hot pot melts it, so none is lost.
 3. **Fine strain, cool, fine strain again.**
 4. Coconut only: chill 2 h (or 30–45 min in the back-of-house freezer), **lift
    off the set coconut fat**, and strain again.
-5. **Fortify:** add the spirit, bitters and saline. First pour ~200 ml of the
-   spirit into the husk bag, massage for 1 min and strain it into the batch. This
-   recovers leftover sugar and peel oil without heat, so no bitterness. Then bin the husks.
-6. **Citric acid to taste.** Aim for **pH 3.3 or below** (check with a pH strip).
+5. **Fortify:** strain in the **citrus spirit** through a fine sieve (press the zest to get
+   the spirit back), then add the rest of the spirit, the bitters and the saline. A faint haze
+   is the citrus oil, which is normal.
+6. **Acid to taste,** to **pH 3.3 or below** (check with a pH strip):
+   - Coconut & lime: citric and malic at 2:1. That's the bartenders' "lime acid" blend, and
+     it tastes more like lime than citric alone.
+   - Apricot & lemon: citric only, because lemon juice is nearly all citric.
+   - Easiest dosed as a solution, topped up with warm water to 100 ml, giving 0.3 g acid per
+     ml: lime is 20 g citric + 10 g malic; lemon is 30 g citric.
 7. **Bottle and label:** name, date, best-by date (+6 weeks), and the pours:
    **"HH 60 / Normal 100"**.
 
@@ -105,12 +121,14 @@ drink carries about 64–82 ml of original wine.
 |---|---|---|
 | Rescued white wine | 3 L → reduce to 1.5 L | 750 ml → reduce to 375 ml |
 | Start | 180 g desiccated coconut, toasted golden in a dry pan · 1 can (825 g) pears in juice, juice included · 3 g salt · peel of 2 oranges (no pith), then juice those 2 oranges into the pot | 45 g toasted coconut · ~200 g pears (¼ can) · 1 g salt · peel and juice of ½ orange |
-| Oleo | 36 squeezed lime halves + 400 g sugar | 9 lime halves + 100 g sugar |
-| Spirit | 1.4 L vodka (2 × 700 ml) | 350 ml vodka |
+| Lime juice (optional) | 100 ml, in the pot at the start. It's for sourness: it reduces with the wine, so the strength doesn't change | 25 ml |
+| Sugar | 400 g, stirred in off the heat (step 2) | 100 g |
+| Lime vodka | Zest of 12 limes (~36 g), steeped 12–24 h in 400 ml of the vodka | Zest of 3 limes (~9 g) in 100 ml of the vodka |
+| Spirit | 1.4 L vodka (2 × 700 ml), counting the lime vodka | 350 ml vodka, counting the lime vodka |
 | Bitters | 20 ml Peychaud's only (start at 15). No orange bitters: the real orange covers that note | 5 ml Peychaud's (start at 4) |
 | 20% saline | 4 ml | 1 ml |
-| Citric | 2–4 g, to taste | ~1 g, to taste |
-| Extra step | Lift off the coconut fat (step 4) | Same |
+| Acid | Citric + malic 2:1, to taste (little or none if you used the lime juice) | ~1 g, to taste |
+| Extra step | Lift off the coconut fat (step 4); the lime vodka goes in after | Same |
 
 **R&D: three versions.** Choose by reverse engineering: taste each version in the
 cocktails the batch has to feed, not just neat.
@@ -140,12 +158,14 @@ can go into individual drinks as a few drops of tincture.
 |---|---|---|
 | Rescued white wine | 3 L → reduce to 1.5 L (rich/orange wines are ideal) | 750 ml → reduce to 375 ml |
 | Start | 450 g dried apricots, chopped · 15 g fresh ginger, sliced | 115 g dried apricots · 4 g ginger |
+| Lemon juice (optional) | 100 ml, in the pot at the start | 25 ml |
 | Steep (off the heat) | 3 chamomile teabags, 5 min, then remove | 1 chamomile teabag |
-| Oleo | 36 squeezed lemon halves + 300 g sugar | 9 lemon halves + 75 g sugar |
-| Spirit | 1.4 L gin (2 × 700 ml) | 350 ml gin |
+| Sugar | 300 g, stirred in after the chamomile comes out | 75 g |
+| Lemon gin | Peel of 8 lemons (Y-peeler strips, ~60 g), steeped 24 h in 400 ml of the gin | Peel of 2 lemons (~15 g) in 100 ml of the gin |
+| Spirit | 1.4 L gin (2 × 700 ml), counting the lemon gin | 350 ml gin, counting the lemon gin |
 | Bitters | 60 ml orange bitters (start at 40) | 15 ml (start at 10) |
 | 20% saline | 4 ml | 1 ml |
-| Citric | 2–4 g, to taste | ~1 g, to taste |
+| Acid | Citric, to taste (little or none if you used the lemon juice) | ~1 g, to taste |
 | Extra step | Press the apricots hard when straining | Same |
 
 ⚠️ Apricot is close to peach: get owner sign-off (Sangria Branco).
@@ -207,7 +227,8 @@ HH Negroni (60 ml) is about 1.25. Standard drinks assume a 37.5% house spirit.
 Price assumptions: gin $20/700 ml, vodka $25/700 ml (house prices); Australian
 dried apricots $57/kg (The Source); Angas Park Fancy ~$50/kg; Angas Park Diced
 ~$31.50/kg; orange bitters ~$0.22/ml; Peychaud's ~$0.15/ml; canned pears
-~$5.30; lemon ~$0.80 each; lime ~$1.00 each; orange ~$0.90 each. Wine and husks are free.
+~$5.30; lemon ~$0.80 each; lime ~$1.00 each; orange ~$0.90 each. Wine and zest are free
+(the zest comes off limes and lemons juiced for service).
 
 | Batch (3 L wine → ~3.3 L) | Total | Per ml |
 |---|---|---|
@@ -262,7 +283,9 @@ provisional.
 
 ## 10. Open items
 
-- [ ] Quarter test batches → taste on day 3 → adjust only citric and sugar.
+- [ ] Quarter test batches → taste on day 3 → adjust only acid and sugar.
+- [ ] Zest dose: find it in the quarter test (50 ml citrus spirit = 1 fruit, see the test
+  sheet), then update the full-batch zest. Starting guess: 12 limes / 8 lemons per batch.
 - [ ] Coconut: test versions A / B / C (section 4). Fastest way, from one quarter batch of A:
   - Tinctures (24 h in vodka, then strain): ginger 20 g sliced per 100 ml; allspice 5 cracked
     berries per 50 ml.

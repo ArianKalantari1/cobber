@@ -2,7 +2,7 @@
 
 Test-day sheet for the two white cobblers. Full specs, costing and service are in
 [rescued-white-wine-cobblers.md](rescued-white-wine-cobblers.md).
-Last updated: 2026-10-13.
+Last updated: 2026-10-19.
 
 One quarter batch = 750 ml rescued wine → about 800 ml finished batch at 16–18% alcohol.
 If a quarter batch ends up over 875 ml, the pot was under-reduced: add 50 ml vodka.
@@ -13,9 +13,18 @@ If a quarter batch ends up over 875 ml, the pot was under-reduced: add 50 ml vod
 
 - [ ] Taste every wine and discard faulty bottles. 750 ml per batch. Oaky Chardonnay: up to
       40% of the coconut wine, 20% of the apricot wine. No pink wine in the apricot.
-- [ ] Oleo, in zip-lock bags, fridge, **24 h at most**:
-  - Coconut: 9 squeezed lime halves + 100 g sugar
-  - Apricot: 9 squeezed lemon halves + 75 g sugar
+- [ ] **Citrus spirit**, 12–24 h before you fortify. Microplaned lime zest can get by on 4 h
+      (zest the morning you cook). Lemon strips need the full time, so start them the night
+      before:
+  - Coconut: zest of **4 limes** (~12 g, green only) in **200 ml** of the quarter's vodka.
+    Each 50 ml = 1 lime.
+  - Apricot: peel of **3 lemons** (~24 g, Y-peeler strips, yellow only) in **150 ml** of the
+    quarter's gin. Each 50 ml = 1 lemon.
+  - Sealed jar, room temperature, shake 2–3 times. Frozen zest goes in still frozen. Then
+    juice those limes and lemons for service.
+- [ ] **Acid solution**, topped up with warm water to 100 ml (0.3 g acid per ml), dated:
+  - Lime: 20 g citric + 10 g malic.
+  - Lemon: 30 g citric.
 - [ ] Tinctures for round 1 (start 1–3 days before). Clean glass jar rinsed with boiling
       water or vodka, lid on, room temp (18–25°C), out of the sun, shake once a day:
   - Ginger: 20 g fresh ginger, washed, unpeeled, sliced 1–2 mm, in 100 ml vodka.
@@ -28,19 +37,24 @@ If a quarter batch ends up over 875 ml, the pot was under-reduced: add 50 ml vod
 
 ## Cook-day steps (both batches)
 
-1. **Simmer** the wine with the *Start* ingredients, uncovered, until the whole pot is down
-   to **375 ml**. Mark a chopstick at 375 ml and use it as a dipstick.
+1. **Simmer** the wine with the *Start* ingredients (plus 25 ml lime or lemon juice if you're
+   using it), uncovered, until the whole pot is down to **375 ml**. Mark a chopstick at
+   375 ml and use it as a dipstick.
 2. **Off the heat:** apricot only, steep the chamomile (lid on, 5 min) and remove it. Then
-   stir in the strained **oleo syrup** until any leftover sugar dissolves. Keep the husks
-   in the fridge. **Never cook the husks.**
+   stir in the **sugar** until it's fully dissolved. **No zest in the pot.**
 3. **Fine strain** (press the fruit hard), cool, fine strain again.
 4. Coconut only: chill 2 h (or 30–45 min in the freezer), **lift off the set fat**, strain.
-5. **Husk rinse:** pour 50 ml of the spirit into the husk bag, massage 1 min, strain it into
-   the batch. Bin the husks.
-6. **Fortify:** add the rest of the spirit (350 ml in total), bitters and saline.
-7. **Citric** to taste, to pH 3.3 or below (pH strip).
+5. **Fortify with the plain spirit first:** coconut 150 ml vodka, apricot 200 ml gin. Add
+   the bitters and saline.
+6. **Strain the citrus spirit** (fine sieve, press the zest, then a coffee filter). Add it
+   **50 ml at a time** (each 50 ml = 1 fruit), tasting cold:
+   - My guess: 150 ml lime vodka (3 limes), 100 ml lemon gin (2 lemons).
+   - Make up whatever you don't use with plain spirit, so the total stays 350 ml.
+   - Write down the dose: × 4 = limes or lemons for the full batch.
+7. **Acid** to taste: 1 ml of the solution at a time, to pH 3.3 or below (pH strip). If you
+   added the juice in step 1, you may need little or none.
 8. **Bottle and label** (batch, version, date). Fridge. Re-taste on day 3 and adjust only
-   citric and sugar.
+   acid and sugar.
 
 ## Quarter specs
 
@@ -49,12 +63,13 @@ If a quarter batch ends up over 875 ml, the pot was under-reduced: add 50 ml vod
 | Part | Amount |
 |---|---|
 | Wine | 750 ml → 375 ml |
-| Start | 45 g desiccated coconut, toasted golden in a dry pan · ~200 g canned pears in juice (¼ can, juice included) · 1 g salt · peel of ½ orange (no pith), then its juice into the pot |
-| Oleo | 9 lime halves + 100 g sugar |
-| Spirit | 350 ml vodka (50 ml of it for the husk rinse) |
+| Start | 45 g desiccated coconut, toasted golden in a dry pan · ~200 g canned pears in juice (¼ can, juice included) · 1 g salt · peel of ½ orange (no pith), then its juice into the pot · optional 25 ml lime juice |
+| Sugar | 100 g, stirred in off the heat |
+| Lime vodka | Zest of 4 limes in 200 ml of the vodka; use ~150 ml (3 limes) |
+| Spirit | 350 ml vodka in total, counting the lime vodka |
 | Bitters | 5 ml Peychaud's only (start at 4); no orange bitters |
 | 20% saline | 1 ml |
-| Citric | ~1 g, to taste |
+| Acid | Citric + malic 2:1, ~1 g, to taste |
 
 | Version | Change (cooked, round 2) |
 |---|---|
@@ -67,13 +82,14 @@ If a quarter batch ends up over 875 ml, the pot was under-reduced: add 50 ml vod
 | Part | Amount |
 |---|---|
 | Wine | 750 ml → 375 ml |
-| Start | 115 g dried apricots, chopped · 4 g fresh ginger, sliced |
+| Start | 115 g dried apricots, chopped · 4 g fresh ginger, sliced · optional 25 ml lemon juice |
 | Steep | 1 chamomile teabag, 5 min off the heat |
-| Oleo | 9 lemon halves + 75 g sugar |
-| Spirit | 350 ml gin (50 ml of it for the husk rinse) |
+| Sugar | 75 g, stirred in after the chamomile comes out |
+| Lemon gin | Peel of 3 lemons in 150 ml of the gin; use ~100 ml (2 lemons) |
+| Spirit | 350 ml gin in total, counting the lemon gin |
 | Bitters | 15 ml orange bitters (start at 10). Variant to test: 10 orange + 5 Peychaud's |
 | 20% saline | 1 ml |
-| Citric | ~1 g, to taste |
+| Acid | Citric, ~1 g, to taste |
 
 ⚠️ Apricot is close to peach: owner sign-off needed (Sangria Branco).
 
