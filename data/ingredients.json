@@ -1076,6 +1076,30 @@
     "source": "Mangifera indica volatile profiles. | Enriched from FlavorDB2 (Goel et al. 2024)."
   },
   {
+    "id": "guava",
+    "display_name": "Guava",
+    "type": "raw",
+    "role": "fruit",
+    "compounds": [
+      "hexyl_acetate",
+      "ethyl_butyrate",
+      "hexanal",
+      "beta_caryophyllene",
+      "limonene",
+      "alpha_pinene",
+      "eucalyptol"
+    ],
+    "descriptors": [
+      "tropical",
+      "fruity",
+      "musky"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "Pink/white guava (Psidium guajava): green C6 notes + fruity esters over a caryophyllene/terpene base. Also covers guava nectar, juice and puree. PROVISIONAL — the tropical sulfur thiols that define ripe guava are not in the compound vocabulary yet.",
+    "source": "Psidium guajava fruit volatile literature (C6 aldehydes/esters, beta-caryophyllene, limonene). TODO: verify vs a cited study + thiol contribution."
+  },
+  {
     "id": "sugar_syrup",
     "display_name": "Sugar syrup",
     "type": "raw",

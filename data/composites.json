@@ -1100,6 +1100,32 @@
     }
   },
   {
+    "id": "guava_syrup",
+    "display_name": "Guava syrup",
+    "type": "composite",
+    "role": "sweet",
+    "botanicals": [
+      "guava"
+    ],
+    "flavor_forward": [
+      "guava"
+    ],
+    "descriptors": [
+      "guava",
+      "tropical",
+      "sweet"
+    ],
+    "is_native": false,
+    "season": null,
+    "notes": "House syrup from supermarket guava nectar (e.g. Coles): 1 part nectar to 1 part white sugar by volume, warmed just enough to dissolve (do not boil — heat flattens the fresh esters), cooled, refrigerated ~2 weeks. Nectar is already sweetened, so this sits a touch sweeter than 1:1 simple. Flavour-dense; always implies guava. PROVISIONAL — taste values are an estimate pending Ari's tasting.",
+    "source": "Provisional entry; see notes.",
+    "imply_min_oz": 0.0,
+    "taste": {
+      "sweet": 0.9,
+      "sour": 0.1
+    }
+  },
+  {
     "id": "creme_de_menthe",
     "display_name": "Creme de menthe",
     "type": "composite",
