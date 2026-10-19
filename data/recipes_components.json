@@ -62354,6 +62354,7 @@
     ],
     "literal": [
       "ginger_liqueur",
+      "rye_whiskey",
       "white_rum"
     ],
     "muted": [],
@@ -135249,6 +135250,7 @@
     "drink": "Dutch Collins",
     "implied": [],
     "literal": [
+      "citron_vodka",
       "lemon",
       "soda_water",
       "sugar_syrup",
@@ -138628,6 +138630,3410 @@
     "muted": [],
     "source": "bar_menus",
     "venue": "Waltz, London"
+  },
+  {
+    "drink": "Cannolo siciliano",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "cherry"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "1930, Milan"
+  },
+  {
+    "drink": "Fettuccine Alfredo",
+    "implied": [],
+    "literal": [
+      "black_pepper",
+      "butter",
+      "mezcal"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "1930, Milan"
+  },
+  {
+    "drink": "Gazpacho",
+    "implied": [],
+    "literal": [
+      "gin",
+      "tomato"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "1930, Milan"
+  },
+  {
+    "drink": "Pizza marinara",
+    "implied": [],
+    "literal": [
+      "tomato",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "1930, Milan"
+  },
+  {
+    "drink": "Arrow",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "amaretto",
+      "coffee",
+      "sweet_vermouth",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "BOB Milano, Milan"
+  },
+  {
+    "drink": "Boo!",
+    "implied": [
+      "almond",
+      "clove",
+      "ginger",
+      "lime"
+    ],
+    "literal": [
+      "falernum",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "BOB Milano, Milan"
+  },
+  {
+    "drink": "Dandy",
+    "implied": [],
+    "literal": [
+      "amaro_montenegro",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "BOB Milano, Milan"
+  },
+  {
+    "drink": "Desire",
+    "implied": [
+      "elderflower"
+    ],
+    "literal": [
+      "coconut",
+      "pineapple",
+      "sparkling_wine",
+      "st_germain",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "BOB Milano, Milan"
+  },
+  {
+    "drink": "Devil’s Playground",
+    "implied": [],
+    "literal": [
+      "campari",
+      "gin"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "BOB Milano, Milan"
+  },
+  {
+    "drink": "Naked",
+    "implied": [],
+    "literal": [
+      "mint",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "BOB Milano, Milan"
+  },
+  {
+    "drink": "AMARCORD",
+    "implied": [],
+    "literal": [
+      "campari",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "BOB The Other Side, Milan"
+  },
+  {
+    "drink": "C.R.E.A.M.",
+    "implied": [],
+    "literal": [
+      "coconut",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "BOB The Other Side, Milan"
+  },
+  {
+    "drink": "MAGICO",
+    "implied": [],
+    "literal": [
+      "sparkling_wine",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "BOB The Other Side, Milan"
+  },
+  {
+    "drink": "Americano",
+    "implied": [],
+    "literal": [
+      "campari",
+      "soda_water",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Camparino in Galleria, Milan"
+  },
+  {
+    "drink": "Bitter Paloma",
+    "implied": [],
+    "literal": [
+      "agave",
+      "campari",
+      "dry_vermouth",
+      "grapefruit"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Camparino in Galleria, Milan"
+  },
+  {
+    "drink": "Campari Seltz",
+    "implied": [],
+    "literal": [
+      "campari",
+      "soda_water"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Camparino in Galleria, Milan"
+  },
+  {
+    "drink": "Campari Spritz",
+    "implied": [],
+    "literal": [
+      "campari",
+      "soda_water"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Camparino in Galleria, Milan"
+  },
+  {
+    "drink": "Compadre",
+    "implied": [],
+    "literal": [
+      "campari",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Camparino in Galleria, Milan"
+  },
+  {
+    "drink": "Garibaldi",
+    "implied": [],
+    "literal": [
+      "campari",
+      "orange"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Camparino in Galleria, Milan"
+  },
+  {
+    "drink": "Negroni",
+    "implied": [],
+    "literal": [
+      "campari",
+      "gin",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Camparino in Galleria, Milan"
+  },
+  {
+    "drink": "Porcini Negroni",
+    "implied": [],
+    "literal": [
+      "campari",
+      "mushroom",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Camparino in Galleria, Milan"
+  },
+  {
+    "drink": "Black Sicily - Puerto Banus",
+    "implied": [],
+    "literal": [
+      "gin",
+      "grapefruit"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "DG Martini, Milan"
+  },
+  {
+    "drink": "DG Milano",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "DG Martini, Milan"
+  },
+  {
+    "drink": "DG Portofino",
+    "implied": [
+      "elderflower"
+    ],
+    "literal": [
+      "gin",
+      "st_germain"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "DG Martini, Milan"
+  },
+  {
+    "drink": "DG Taormina",
+    "implied": [],
+    "literal": [
+      "agave",
+      "angostura_bitters"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "DG Martini, Milan"
+  },
+  {
+    "drink": "Piazzetta - Portofino",
+    "implied": [],
+    "literal": [
+      "basil",
+      "lemon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "DG Martini, Milan"
+  },
+  {
+    "drink": "Sombrero",
+    "implied": [],
+    "literal": [
+      "ginger",
+      "lemon",
+      "mezcal"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "DG Martini, Milan"
+  },
+  {
+    "drink": "Tiramisù Martini",
+    "implied": [],
+    "literal": [
+      "almond",
+      "coffee"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "DG Martini, Milan"
+  },
+  {
+    "drink": "ACHIOTE NEGRONI",
+    "implied": [],
+    "literal": [
+      "campari",
+      "cinnamon",
+      "pink_peppercorn"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Drinc. Milano, Milan"
+  },
+  {
+    "drink": "LICI MIUL",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "ginger_ale",
+      "lime"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Drinc. Milano, Milan"
+  },
+  {
+    "drink": "SELERITONIC",
+    "implied": [],
+    "literal": [
+      "celery",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Drinc. Milano, Milan"
+  },
+  {
+    "drink": "SICRET GARDEN",
+    "implied": [],
+    "literal": [
+      "campari",
+      "celery",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Drinc. Milano, Milan"
+  },
+  {
+    "drink": "TINA",
+    "implied": [],
+    "literal": [
+      "apple",
+      "cinnamon"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Drinc. Milano, Milan"
+  },
+  {
+    "drink": "BELL’ART MARTINI",
+    "implied": [],
+    "literal": [
+      "black_pepper",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Etereo, Milan"
+  },
+  {
+    "drink": "GLOBETROTTER",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "fernet",
+      "juniper"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Etereo, Milan"
+  },
+  {
+    "drink": "HERITAGE",
+    "implied": [],
+    "literal": [
+      "passionfruit",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Etereo, Milan"
+  },
+  {
+    "drink": "IL SOLITO",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "cardamom",
+      "gin",
+      "ginger_ale"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Etereo, Milan"
+  },
+  {
+    "drink": "Mr Bergman",
+    "implied": [],
+    "literal": [
+      "campari",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Gerry’s Bar, Milan"
+  },
+  {
+    "drink": "Duomo",
+    "implied": [],
+    "literal": [
+      "gin",
+      "grapefruit"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Grand Lounge & Bar, Milan"
+  },
+  {
+    "drink": "AMERICANO COSMOPOLITA",
+    "implied": [],
+    "literal": [
+      "campari",
+      "cardamom",
+      "grapefruit",
+      "vanilla"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Lubna, Milan"
+  },
+  {
+    "drink": "BLACKBERRY ESPRESSO",
+    "implied": [],
+    "literal": [
+      "almond",
+      "coffee"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Lubna, Milan"
+  },
+  {
+    "drink": "GUAVA BELLINI",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "egg_white",
+      "lemon",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Lubna, Milan"
+  },
+  {
+    "drink": "THAI MICHELADA",
+    "implied": [],
+    "literal": [
+      "lime",
+      "tomato"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Lubna, Milan"
+  },
+  {
+    "drink": "TROPICAL AMERICANO",
+    "implied": [],
+    "literal": [
+      "campari",
+      "passionfruit"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Lubna, Milan"
+  },
+  {
+    "drink": "DESERT BLOOM",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "cardamom",
+      "mezcal"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Mandarin Garden, Milan"
+  },
+  {
+    "drink": "ESCAPE",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "gin",
+      "raspberry"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Mandarin Garden, Milan"
+  },
+  {
+    "drink": "LA PAZ",
+    "implied": [],
+    "literal": [
+      "lime",
+      "passionfruit",
+      "vanilla"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Mandarin Garden, Milan"
+  },
+  {
+    "drink": "MARGARET’S HOPE",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Mandarin Garden, Milan"
+  },
+  {
+    "drink": "PORT ELIZABETH",
+    "implied": [],
+    "literal": [
+      "brandy",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Mandarin Garden, Milan"
+  },
+  {
+    "drink": "Amalfi Coast",
+    "implied": [],
+    "literal": [
+      "orange_bitters",
+      "peach"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Mio Lab, Milan"
+  },
+  {
+    "drink": "Ettore",
+    "implied": [],
+    "literal": [
+      "campari",
+      "gin",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Mio Lab, Milan"
+  },
+  {
+    "drink": "French Riviera",
+    "implied": [],
+    "literal": [
+      "gin",
+      "ginger",
+      "pineapple"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Mio Lab, Milan"
+  },
+  {
+    "drink": "Red Soul | Americano",
+    "implied": [],
+    "literal": [
+      "campari",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Mio Lab, Milan"
+  },
+  {
+    "drink": "BERGAMOT MARGARITA",
+    "implied": [],
+    "literal": [
+      "lime",
+      "olive"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Moebius Milano, Milan"
+  },
+  {
+    "drink": "COFFEE AMARETTO SOUR 0.0",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Moebius Milano, Milan"
+  },
+  {
+    "drink": "Geranium Corretto",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "milk"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Moebius Milano, Milan"
+  },
+  {
+    "drink": "Granny Rye Pie",
+    "implied": [],
+    "literal": [
+      "apple",
+      "cinnamon",
+      "rye_whiskey"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Moebius Milano, Milan"
+  },
+  {
+    "drink": "ORCHARD PUNCH",
+    "implied": [],
+    "literal": [
+      "apple",
+      "brandy",
+      "honey",
+      "olive",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Moebius Milano, Milan"
+  },
+  {
+    "drink": "PEACH PUNCH 0.0",
+    "implied": [],
+    "literal": [
+      "coconut",
+      "peach"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Moebius Milano, Milan"
+  },
+  {
+    "drink": "PLUM VODKA SODA",
+    "implied": [],
+    "literal": [
+      "basil",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Moebius Milano, Milan"
+  },
+  {
+    "drink": "TROPICAL SHAKERATO",
+    "implied": [],
+    "literal": [
+      "aperol",
+      "basil",
+      "campari",
+      "coconut",
+      "pineapple"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Moebius Milano, Milan"
+  },
+  {
+    "drink": "WINTER MELON NEGRONI",
+    "implied": [],
+    "literal": [
+      "campari",
+      "gin",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Moebius Milano, Milan"
+  },
+  {
+    "drink": "americano",
+    "implied": [],
+    "literal": [
+      "campari",
+      "orange_bitters",
+      "soda_water",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Namascè, Milan"
+  },
+  {
+    "drink": "carrie",
+    "implied": [
+      "blackcurrant"
+    ],
+    "literal": [
+      "creme_de_cassis",
+      "lime",
+      "sparkling_wine",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Namascè, Milan"
+  },
+  {
+    "drink": "cucù",
+    "implied": [],
+    "literal": [
+      "campari",
+      "soda_water",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Namascè, Milan"
+  },
+  {
+    "drink": "gin fig",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lime",
+      "soda_water",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Namascè, Milan"
+  },
+  {
+    "drink": "mezè",
+    "implied": [],
+    "literal": [
+      "campari",
+      "passionfruit",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Namascè, Milan"
+  },
+  {
+    "drink": "negroni",
+    "implied": [],
+    "literal": [
+      "campari",
+      "gin",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Namascè, Milan"
+  },
+  {
+    "drink": "non alcoholic gin",
+    "implied": [],
+    "literal": [
+      "gin",
+      "tonic_water"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Namascè, Milan"
+  },
+  {
+    "drink": "sbagliato",
+    "implied": [],
+    "literal": [
+      "campari",
+      "sparkling_wine",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Namascè, Milan"
+  },
+  {
+    "drink": "scamorzina",
+    "implied": [],
+    "literal": [
+      "lime",
+      "mezcal"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Namascè, Milan"
+  },
+  {
+    "drink": "AMERICANO IN LOVE",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "orange"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Organics SkyGarden Rooftop, Milan"
+  },
+  {
+    "drink": "CILCANO",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "lemongrass"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Organics SkyGarden Rooftop, Milan"
+  },
+  {
+    "drink": "GIN & SOUL",
+    "implied": [],
+    "literal": [
+      "gin",
+      "tonic_water"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Organics SkyGarden Rooftop, Milan"
+  },
+  {
+    "drink": "GOLD RUSH 24K",
+    "implied": [],
+    "literal": [
+      "agave",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Organics SkyGarden Rooftop, Milan"
+  },
+  {
+    "drink": "MARTINI IN THE CLOUDS",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Organics SkyGarden Rooftop, Milan"
+  },
+  {
+    "drink": "SANTO VERANO",
+    "implied": [
+      "apple"
+    ],
+    "literal": [
+      "calvados",
+      "lime",
+      "orange",
+      "passionfruit",
+      "peach",
+      "pineapple",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Organics SkyGarden Rooftop, Milan"
+  },
+  {
+    "drink": "SUMMER IN THE CITY",
+    "implied": [
+      "ginger"
+    ],
+    "literal": [
+      "ginger_ale",
+      "lime",
+      "mango",
+      "spiced_rum"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Organics SkyGarden Rooftop, Milan"
+  },
+  {
+    "drink": "Bamboo",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "orange_bitters"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Principe Bar, Milan"
+  },
+  {
+    "drink": "Bijou",
+    "implied": [],
+    "literal": [
+      "gin",
+      "green_chartreuse",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Principe Bar, Milan"
+  },
+  {
+    "drink": "Buck and Breck",
+    "implied": [],
+    "literal": [
+      "brandy",
+      "sparkling_wine",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Principe Bar, Milan"
+  },
+  {
+    "drink": "Corpse Revival N2",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Principe Bar, Milan"
+  },
+  {
+    "drink": "Don Honey",
+    "implied": [],
+    "literal": [
+      "ginger",
+      "honey",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Principe Bar, Milan"
+  },
+  {
+    "drink": "El Milanes",
+    "implied": [],
+    "literal": [
+      "butter",
+      "rye_whiskey",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Principe Bar, Milan"
+  },
+  {
+    "drink": "Wish You Were Here (1975)",
+    "implied": [],
+    "literal": [
+      "gin",
+      "grapefruit"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Principe Bar, Milan"
+  },
+  {
+    "drink": "25OGTO",
+    "implied": [],
+    "literal": [
+      "cinnamon",
+      "grapefruit"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Rita & Cocktails, Milan"
+  },
+  {
+    "drink": "Cubo",
+    "implied": [],
+    "literal": [
+      "fernet",
+      "mezcal",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Rita & Cocktails, Milan"
+  },
+  {
+    "drink": "Martinez",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "gin",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Rita & Cocktails, Milan"
+  },
+  {
+    "drink": "Sou Ellen",
+    "implied": [],
+    "literal": [
+      "campari",
+      "gin",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Rita & Cocktails, Milan"
+  },
+  {
+    "drink": "Tomato Platters",
+    "implied": [
+      "almond",
+      "clove",
+      "ginger",
+      "lime"
+    ],
+    "literal": [
+      "black_pepper",
+      "falernum",
+      "gin",
+      "salt",
+      "tomato"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Rita & Cocktails, Milan"
+  },
+  {
+    "drink": "Hawa Hawa Hu – NEW",
+    "implied": [],
+    "literal": [
+      "cinnamon",
+      "grapefruit"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Rita’s Tiki Room, Milan"
+  },
+  {
+    "drink": "Jamaican Tea Sour",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Rita’s Tiki Room, Milan"
+  },
+  {
+    "drink": "Marge",
+    "implied": [],
+    "literal": [
+      "cinnamon",
+      "lime",
+      "mint"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Rita’s Tiki Room, Milan"
+  },
+  {
+    "drink": "Mexican Blast",
+    "implied": [
+      "almond",
+      "clove",
+      "ginger",
+      "lime"
+    ],
+    "literal": [
+      "falernum",
+      "mezcal",
+      "pineapple",
+      "soda_water"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Rita’s Tiki Room, Milan"
+  },
+  {
+    "drink": "Pincho Asado",
+    "implied": [],
+    "literal": [
+      "pisco",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Rita’s Tiki Room, Milan"
+  },
+  {
+    "drink": "Tefiti-MOKA",
+    "implied": [],
+    "literal": [
+      "brandy",
+      "lime",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Rita’s Tiki Room, Milan"
+  },
+  {
+    "drink": "TikiKaka Fizz",
+    "implied": [
+      "elderflower"
+    ],
+    "literal": [
+      "dry_vermouth",
+      "lemon",
+      "soda_water",
+      "st_germain"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Rita’s Tiki Room, Milan"
+  },
+  {
+    "drink": "Venezuelano",
+    "implied": [],
+    "literal": [
+      "lime",
+      "nutmeg",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Rita’s Tiki Room, Milan"
+  },
+  {
+    "drink": "CLASSIC MANHATTAN",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "cherry",
+      "rye_whiskey",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Rivington, Milan"
+  },
+  {
+    "drink": "MAÑANITA",
+    "implied": [],
+    "literal": [
+      "campari",
+      "mezcal",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Rivington, Milan"
+  },
+  {
+    "drink": "MONTAUK",
+    "implied": [],
+    "literal": [
+      "gin",
+      "orange",
+      "peychauds_bitters",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Rivington, Milan"
+  },
+  {
+    "drink": "PENICILLIN",
+    "implied": [],
+    "literal": [
+      "ginger",
+      "lemon",
+      "scotch"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Rivington, Milan"
+  },
+  {
+    "drink": "Banana Old Fashioned",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "salt",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Spirit, Milan"
+  },
+  {
+    "drink": "Black Manaia",
+    "implied": [
+      "elderflower"
+    ],
+    "literal": [
+      "absinthe",
+      "gin",
+      "lime",
+      "passionfruit",
+      "pineapple",
+      "st_germain"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Spirit, Milan"
+  },
+  {
+    "drink": "Coconut & Pear Milk Punch",
+    "implied": [],
+    "literal": [
+      "coconut",
+      "coconut_liqueur",
+      "mezcal",
+      "pear"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Spirit, Milan"
+  },
+  {
+    "drink": "Kaze No Kaori",
+    "implied": [],
+    "literal": [
+      "apple",
+      "scotch",
+      "soda_water"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Spirit, Milan"
+  },
+  {
+    "drink": "Okinawa Chatter",
+    "implied": [],
+    "literal": [
+      "scotch",
+      "tomato",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Spirit, Milan"
+  },
+  {
+    "drink": "Rye Whiskey Sour ++",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "rye_whiskey"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Spirit, Milan"
+  },
+  {
+    "drink": "Yerba Matè Negroni",
+    "implied": [],
+    "literal": [
+      "gin",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Spirit, Milan"
+  },
+  {
+    "drink": "APEROL SPRITZ",
+    "implied": [],
+    "literal": [
+      "aperol",
+      "soda_water",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Time Café Milano, Milan"
+  },
+  {
+    "drink": "CAMPARI SPRITZ",
+    "implied": [],
+    "literal": [
+      "campari",
+      "soda_water",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Time Café Milano, Milan"
+  },
+  {
+    "drink": "HUGO SPRITZ",
+    "implied": [],
+    "literal": [
+      "soda_water",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Time Café Milano, Milan"
+  },
+  {
+    "drink": "LIMONCELLO SPRITZ",
+    "implied": [
+      "lemon"
+    ],
+    "literal": [
+      "limoncello",
+      "soda_water",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Time Café Milano, Milan"
+  },
+  {
+    "drink": "VIOLET SPRITZ",
+    "implied": [],
+    "literal": [
+      "soda_water",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Time Café Milano, Milan"
+  },
+  {
+    "drink": "ANNA MAGNANI",
+    "implied": [],
+    "literal": [
+      "lime",
+      "mezcal"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Tusa Isola, Milan"
+  },
+  {
+    "drink": "CONSUELO DE SAINT-EXUPÉRY",
+    "implied": [],
+    "literal": [
+      "coconut",
+      "lime",
+      "pineapple"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Tusa Isola, Milan"
+  },
+  {
+    "drink": "ELIZABETH TAYLOR",
+    "implied": [],
+    "literal": [
+      "gin",
+      "raspberry"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Tusa Isola, Milan"
+  },
+  {
+    "drink": "EVA PERÓN",
+    "implied": [],
+    "literal": [
+      "agave",
+      "coconut",
+      "coffee",
+      "lime",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Tusa Isola, Milan"
+  },
+  {
+    "drink": "JACKIE KENNEDY ONASSIS",
+    "implied": [],
+    "literal": [
+      "agave",
+      "coffee",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Tusa Isola, Milan"
+  },
+  {
+    "drink": "MARIE ANTOINETTE",
+    "implied": [
+      "elderflower"
+    ],
+    "literal": [
+      "raspberry",
+      "st_germain"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Tusa Isola, Milan"
+  },
+  {
+    "drink": "TINA TURNER",
+    "implied": [],
+    "literal": [
+      "agave",
+      "apple",
+      "gin",
+      "lime",
+      "mango"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Tusa Isola, Milan"
+  },
+  {
+    "drink": "Uranus",
+    "implied": [],
+    "literal": [
+      "cherry",
+      "coffee",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "UGO, Milan"
+  },
+  {
+    "drink": "Juneau",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin",
+      "orange"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Bar Blondeau, New York"
+  },
+  {
+    "drink": "Kyūrū",
+    "implied": [],
+    "literal": [
+      "gin",
+      "honey",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Bar Blondeau, New York"
+  },
+  {
+    "drink": "Little Apple",
+    "implied": [],
+    "literal": [
+      "apple",
+      "gin"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Bar Blondeau, New York"
+  },
+  {
+    "drink": "Midnight Sun",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "rye_whiskey"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Bar Blondeau, New York"
+  },
+  {
+    "drink": "Spritz au Crocodile",
+    "implied": [],
+    "literal": [
+      "aperol",
+      "dry_vermouth",
+      "orange"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Bar Blondeau, New York"
+  },
+  {
+    "drink": "Stop Making Sense",
+    "implied": [
+      "almond",
+      "clove",
+      "ginger",
+      "lime"
+    ],
+    "literal": [
+      "falernum",
+      "mezcal",
+      "sweet_vermouth",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Bar Blondeau, New York"
+  },
+  {
+    "drink": "Zephyr",
+    "implied": [],
+    "literal": [
+      "gin",
+      "sage",
+      "sweet_vermouth",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Bar Blondeau, New York"
+  },
+  {
+    "drink": "Bar Goto Vesper",
+    "implied": [],
+    "literal": [
+      "gin",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Bar Goto, New York"
+  },
+  {
+    "drink": "Hojicha Old Fashioned",
+    "implied": [],
+    "literal": [
+      "brandy",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Bar Goto, New York"
+  },
+  {
+    "drink": "Lemon Chuhai",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "soda_water"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Bar Goto, New York"
+  },
+  {
+    "drink": "Plum Boulevardier",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Bar Goto, New York"
+  },
+  {
+    "drink": "Sakura Martini",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "gin",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Bar Goto, New York"
+  },
+  {
+    "drink": "Shiso Chuhai",
+    "implied": [],
+    "literal": [
+      "gin",
+      "soda_water"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Bar Goto, New York"
+  },
+  {
+    "drink": "Beehive Martinez",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "maraschino",
+      "orange_bitters"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Clover Club, New York"
+  },
+  {
+    "drink": "Bonfire Old Fashioned",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "demerara",
+      "vanilla"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Clover Club, New York"
+  },
+  {
+    "drink": "Clover Club",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "egg_white",
+      "gin",
+      "lemon",
+      "raspberry"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Clover Club, New York"
+  },
+  {
+    "drink": "Clover Manhattan",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "bourbon",
+      "cherry",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Clover Club, New York"
+  },
+  {
+    "drink": "Express Yourself",
+    "implied": [
+      "coffee"
+    ],
+    "literal": [
+      "cardamom",
+      "coffee_liqueur",
+      "vodka",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Clover Club, New York"
+  },
+  {
+    "drink": "Filthy Martini",
+    "implied": [],
+    "literal": [
+      "olive",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Clover Club, New York"
+  },
+  {
+    "drink": "Gin Blossom",
+    "implied": [],
+    "literal": [
+      "gin",
+      "orange_bitters",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Clover Club, New York"
+  },
+  {
+    "drink": "Lei’d to Rest",
+    "implied": [
+      "almond",
+      "clove",
+      "ginger",
+      "lime"
+    ],
+    "literal": [
+      "cinnamon",
+      "falernum",
+      "sherry",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Clover Club, New York"
+  },
+  {
+    "drink": "Negroni Hunter",
+    "implied": [],
+    "literal": [
+      "gin",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Clover Club, New York"
+  },
+  {
+    "drink": "Bell and Vine",
+    "implied": [],
+    "literal": [
+      "black_pepper",
+      "gin",
+      "lemon",
+      "peach"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Death & Co New York, New York"
+  },
+  {
+    "drink": "Ghost Machine",
+    "implied": [],
+    "literal": [
+      "aperol",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Death & Co New York, New York"
+  },
+  {
+    "drink": "Native Lion",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "lime",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Death & Co New York, New York"
+  },
+  {
+    "drink": "Stepping Razor",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "orgeat",
+      "rye_whiskey"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Death & Co New York, New York"
+  },
+  {
+    "drink": "Banana Barley Bamboo",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Double Chicken Please, New York"
+  },
+  {
+    "drink": "DMV",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lime",
+      "olive",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Double Chicken Please, New York"
+  },
+  {
+    "drink": "Dirty Margarita",
+    "implied": [],
+    "literal": [
+      "mezcal",
+      "olive"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Double Chicken Please, New York"
+  },
+  {
+    "drink": "Earl Grey Vieux Carré",
+    "implied": [],
+    "literal": [
+      "benedictine",
+      "brandy",
+      "rye_whiskey"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Double Chicken Please, New York"
+  },
+  {
+    "drink": "Fireside Tipple",
+    "implied": [],
+    "literal": [
+      "campari",
+      "mezcal",
+      "sage"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Double Chicken Please, New York"
+  },
+  {
+    "drink": "Osmanthus Bronx",
+    "implied": [],
+    "literal": [
+      "gin",
+      "orange",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Double Chicken Please, New York"
+  },
+  {
+    "drink": "Raspberry Espresso Martini",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "raspberry",
+      "rosemary",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Double Chicken Please, New York"
+  },
+  {
+    "drink": "Tomatillo Mojito",
+    "implied": [],
+    "literal": [
+      "lime",
+      "mint",
+      "soda_water",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Double Chicken Please, New York"
+  },
+  {
+    "drink": "Amelía",
+    "implied": [
+      "elderflower"
+    ],
+    "literal": [
+      "lemon",
+      "st_germain",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Employees Only, New York"
+  },
+  {
+    "drink": "Billionaire Cocktail",
+    "implied": [
+      "pomegranate"
+    ],
+    "literal": [
+      "bourbon",
+      "grenadine",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Employees Only, New York"
+  },
+  {
+    "drink": "EO Espresso Martini",
+    "implied": [],
+    "literal": [
+      "cinnamon",
+      "coffee",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Employees Only, New York"
+  },
+  {
+    "drink": "Fraise Sauvage",
+    "implied": [],
+    "literal": [
+      "gin",
+      "sparkling_wine",
+      "strawberry",
+      "vanilla"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Employees Only, New York"
+  },
+  {
+    "drink": "Lost in Translation",
+    "implied": [],
+    "literal": [
+      "ginger",
+      "lime",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Employees Only, New York"
+  },
+  {
+    "drink": "Mamma Mia",
+    "implied": [],
+    "literal": [
+      "gin",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Employees Only, New York"
+  },
+  {
+    "drink": "Manhattan Cocktail",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "sweet_vermouth",
+      "triple_sec"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Employees Only, New York"
+  },
+  {
+    "drink": "Merci Ciao",
+    "implied": [
+      "coffee"
+    ],
+    "literal": [
+      "brandy",
+      "coffee_liqueur",
+      "rye_whiskey"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Employees Only, New York"
+  },
+  {
+    "drink": "West Side",
+    "implied": [
+      "vodka"
+    ],
+    "literal": [
+      "citron_vodka",
+      "lemon",
+      "mint"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Employees Only, New York"
+  },
+  {
+    "drink": "Full-Fat Old Fashioned",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "butter",
+      "rye_whiskey"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Hawksmoor New York, New York"
+  },
+  {
+    "drink": "Shaky Pete’s Ginger Brew",
+    "implied": [],
+    "literal": [
+      "ginger",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Hawksmoor New York, New York"
+  },
+  {
+    "drink": "Sour Cherry Negroni",
+    "implied": [],
+    "literal": [
+      "campari",
+      "cherry",
+      "gin"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Hawksmoor New York, New York"
+  },
+  {
+    "drink": "Wallflower",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "lemon",
+      "milk",
+      "orange",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Hawksmoor New York, New York"
+  },
+  {
+    "drink": "Anda Paloma",
+    "implied": [],
+    "literal": [
+      "grapefruit",
+      "lime"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Holiday Cocktail Lounge, New York"
+  },
+  {
+    "drink": "Harvey Wallbanger",
+    "implied": [
+      "anise",
+      "vanilla"
+    ],
+    "literal": [
+      "galliano",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Holiday Cocktail Lounge, New York"
+  },
+  {
+    "drink": "Lot Lizard",
+    "implied": [],
+    "literal": [
+      "gin",
+      "ginger",
+      "lime"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Holiday Cocktail Lounge, New York"
+  },
+  {
+    "drink": "Old Fashioned",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "sugar_syrup"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Holiday Cocktail Lounge, New York"
+  },
+  {
+    "drink": "Singapore Sling",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "cherry_liqueur",
+      "gin",
+      "lime"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Holiday Cocktail Lounge, New York"
+  },
+  {
+    "drink": "amaretto sour",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "amaretto",
+      "egg_white",
+      "honey",
+      "lemon",
+      "rye_whiskey"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Katana Kitten, New York"
+  },
+  {
+    "drink": "bamboo soda",
+    "implied": [],
+    "literal": [
+      "olive",
+      "sherry",
+      "soda_water",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Katana Kitten, New York"
+  },
+  {
+    "drink": "hinoki martini",
+    "implied": [],
+    "literal": [
+      "gin",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Katana Kitten, New York"
+  },
+  {
+    "drink": "japerol spritz",
+    "implied": [],
+    "literal": [
+      "aperol",
+      "soda_water"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Katana Kitten, New York"
+  },
+  {
+    "drink": "momoiro highball",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemongrass",
+      "peach",
+      "soda_water"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Katana Kitten, New York"
+  },
+  {
+    "drink": "shiso gin & tonic",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lime"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Katana Kitten, New York"
+  },
+  {
+    "drink": "yokocho paloma",
+    "implied": [],
+    "literal": [
+      "grapefruit",
+      "soda_water"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Katana Kitten, New York"
+  },
+  {
+    "drink": "Au Poivre",
+    "implied": [],
+    "literal": [
+      "olive",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Le Rock, New York"
+  },
+  {
+    "drink": "Café Noir",
+    "implied": [],
+    "literal": [
+      "benedictine",
+      "brandy",
+      "coffee",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Le Rock, New York"
+  },
+  {
+    "drink": "L’Alaska",
+    "implied": [],
+    "literal": [
+      "gin",
+      "yellow_chartreuse"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Le Rock, New York"
+  },
+  {
+    "drink": "Martineau",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "amaretto",
+      "gin",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Le Rock, New York"
+  },
+  {
+    "drink": "Mezquital",
+    "implied": [],
+    "literal": [
+      "mezcal",
+      "sweet_vermouth",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Le Rock, New York"
+  },
+  {
+    "drink": "Pineau Colada",
+    "implied": [],
+    "literal": [
+      "coconut",
+      "lime",
+      "pineapple"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Le Rock, New York"
+  },
+  {
+    "drink": "Super Sec",
+    "implied": [],
+    "literal": [
+      "gin",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Le Rock, New York"
+  },
+  {
+    "drink": "The Three Amis",
+    "implied": [
+      "almond",
+      "clove",
+      "ginger"
+    ],
+    "literal": [
+      "cardamom",
+      "falernum",
+      "lemon",
+      "lime",
+      "mezcal",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Le Rock, New York"
+  },
+  {
+    "drink": "pomme pomme",
+    "implied": [
+      "apple"
+    ],
+    "literal": [
+      "brandy",
+      "calvados",
+      "honey",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Le Rock, New York"
+  },
+  {
+    "drink": "1884 Martini",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Lobby Bar at Hotel Chelsea, New York"
+  },
+  {
+    "drink": "Astoria",
+    "implied": [],
+    "literal": [
+      "black_pepper",
+      "tomato"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Manhatta, New York"
+  },
+  {
+    "drink": "Closing Bell",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "coffee",
+      "demerara",
+      "triple_sec"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Manhatta, New York"
+  },
+  {
+    "drink": "FiDi",
+    "implied": [],
+    "literal": [
+      "green_chartreuse",
+      "orange_bitters",
+      "rye_whiskey"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Manhatta, New York"
+  },
+  {
+    "drink": "Little Italy",
+    "implied": [],
+    "literal": [
+      "aperol",
+      "campari",
+      "gin"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Manhatta, New York"
+  },
+  {
+    "drink": "Manhatta(n)",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "raspberry",
+      "rye_whiskey"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Manhatta, New York"
+  },
+  {
+    "drink": "Aviation",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "gin",
+      "lemon",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Minetta Tavern, New York"
+  },
+  {
+    "drink": "Classic Sidecar",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "brandy",
+      "lemon",
+      "triple_sec"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Minetta Tavern, New York"
+  },
+  {
+    "drink": "Copperhead",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "angostura_bitters",
+      "bourbon",
+      "maraschino",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Minetta Tavern, New York"
+  },
+  {
+    "drink": "French 75",
+    "implied": [],
+    "literal": [
+      "brandy",
+      "lemon",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Minetta Tavern, New York"
+  },
+  {
+    "drink": "Maple Old Fashioned",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "bourbon",
+      "maple_syrup",
+      "orange"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Minetta Tavern, New York"
+  },
+  {
+    "drink": "Pear Fizz",
+    "implied": [],
+    "literal": [
+      "honey",
+      "lemon",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Minetta Tavern, New York"
+  },
+  {
+    "drink": "Vesper",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Minetta Tavern, New York"
+  },
+  {
+    "drink": "Vieux Carré",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "benedictine",
+      "brandy",
+      "rye_whiskey"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Minetta Tavern, New York"
+  },
+  {
+    "drink": "Bourbon",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "demerara"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Monkey Bar, New York"
+  },
+  {
+    "drink": "Classic",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "demerara"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Monkey Bar, New York"
+  },
+  {
+    "drink": "Cucumber",
+    "implied": [
+      "elderflower"
+    ],
+    "literal": [
+      "st_germain",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Monkey Bar, New York"
+  },
+  {
+    "drink": "Dirty Blue",
+    "implied": [],
+    "literal": [
+      "olive",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Monkey Bar, New York"
+  },
+  {
+    "drink": "Espresso",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Monkey Bar, New York"
+  },
+  {
+    "drink": "French",
+    "implied": [],
+    "literal": [
+      "pineapple",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Monkey Bar, New York"
+  },
+  {
+    "drink": "Gibson",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Monkey Bar, New York"
+  },
+  {
+    "drink": "Martinez",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "gin",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Monkey Bar, New York"
+  },
+  {
+    "drink": "Monkey Bar Martini",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin",
+      "olive"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Monkey Bar, New York"
+  },
+  {
+    "drink": "Oaxacan",
+    "implied": [],
+    "literal": [
+      "agave",
+      "angostura_bitters",
+      "mezcal",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Monkey Bar, New York"
+  },
+  {
+    "drink": "Vera",
+    "implied": [],
+    "literal": [
+      "orange",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Monkey Bar, New York"
+  },
+  {
+    "drink": "Vesper",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Monkey Bar, New York"
+  },
+  {
+    "drink": "Brown Butter Sidecar",
+    "implied": [],
+    "literal": [
+      "apricot",
+      "brandy",
+      "butter",
+      "lemon"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Nubeluz, New York"
+  },
+  {
+    "drink": "L’Appel Du Vide",
+    "implied": [],
+    "literal": [
+      "coconut",
+      "lemon",
+      "lemongrass",
+      "vanilla",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Nubeluz, New York"
+  },
+  {
+    "drink": "Salt Air Margarita",
+    "implied": [],
+    "literal": [
+      "lime",
+      "orange",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Nubeluz, New York"
+  },
+  {
+    "drink": "Second Marriage",
+    "implied": [
+      "apple"
+    ],
+    "literal": [
+      "bourbon",
+      "calvados",
+      "orange_bitters"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Nubeluz, New York"
+  },
+  {
+    "drink": "Uptown Expat",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "bourbon",
+      "lime"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Nubeluz, New York"
+  },
+  {
+    "drink": "Cold Snap",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin",
+      "peach"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Overstory, New York"
+  },
+  {
+    "drink": "Easy Money",
+    "implied": [],
+    "literal": [
+      "coconut",
+      "lime",
+      "soda_water",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Overstory, New York"
+  },
+  {
+    "drink": "Five Spice Milk Punch",
+    "implied": [],
+    "literal": [
+      "lime",
+      "milk",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Overstory, New York"
+  },
+  {
+    "drink": "In The Clouds",
+    "implied": [],
+    "literal": [
+      "milk",
+      "sparkling_wine",
+      "vanilla"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Overstory, New York"
+  },
+  {
+    "drink": "Pink Tuxedo",
+    "implied": [],
+    "literal": [
+      "absinthe",
+      "strawberry",
+      "sweet_vermouth",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Overstory, New York"
+  },
+  {
+    "drink": "Royal Bombay",
+    "implied": [
+      "almond",
+      "clove",
+      "ginger",
+      "lime"
+    ],
+    "literal": [
+      "falernum",
+      "sweet_vermouth",
+      "tamarind"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Overstory, New York"
+  },
+  {
+    "drink": "Sungold",
+    "implied": [],
+    "literal": [
+      "gin",
+      "peach",
+      "tomato"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Overstory, New York"
+  },
+  {
+    "drink": "Donkey Conga",
+    "implied": [],
+    "literal": [
+      "bourbon",
+      "cachaca",
+      "cynar",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Sunken Harbor Club, New York"
+  },
+  {
+    "drink": "El Diablo",
+    "implied": [],
+    "literal": [
+      "blackcurrant",
+      "ginger",
+      "raspberry",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Sunken Harbor Club, New York"
+  },
+  {
+    "drink": "Immortal Martini",
+    "implied": [],
+    "literal": [
+      "black_pepper",
+      "gin"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Sunken Harbor Club, New York"
+  },
+  {
+    "drink": "Mai Tai",
+    "implied": [],
+    "literal": [
+      "almond",
+      "mint",
+      "orange",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Sunken Harbor Club, New York"
+  },
+  {
+    "drink": "Spaghetti Western",
+    "implied": [],
+    "literal": [
+      "campari",
+      "orange",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Sunken Harbor Club, New York"
+  },
+  {
+    "drink": "Special Daiquiri №2",
+    "implied": [],
+    "literal": [
+      "lime",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Sunken Harbor Club, New York"
+  },
+  {
+    "drink": "Star Cycle",
+    "implied": [],
+    "literal": [
+      "campari",
+      "gin",
+      "grapefruit"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Sunken Harbor Club, New York"
+  },
+  {
+    "drink": "Breakfast Margarita",
+    "implied": [
+      "orange"
+    ],
+    "literal": [
+      "lime",
+      "salt",
+      "tequila",
+      "triple_sec"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Superbueno, New York"
+  },
+  {
+    "drink": "Green Mango Martini",
+    "implied": [],
+    "literal": [
+      "honey",
+      "mango",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Superbueno, New York"
+  },
+  {
+    "drink": "Mole Negroni",
+    "implied": [],
+    "literal": [
+      "mezcal",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Superbueno, New York"
+  },
+  {
+    "drink": "Mushroom Margarita",
+    "implied": [],
+    "literal": [
+      "lime",
+      "mezcal"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Superbueno, New York"
+  },
+  {
+    "drink": "Roasted Corn Sour",
+    "implied": [],
+    "literal": [
+      "egg_white",
+      "lemon",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Superbueno, New York"
+  },
+  {
+    "drink": "Salted Plum & Tamarind Milk Punch",
+    "implied": [],
+    "literal": [
+      "milk",
+      "tamarind"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Superbueno, New York"
+  },
+  {
+    "drink": "Vodka y Soda",
+    "implied": [],
+    "literal": [
+      "soda_water",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "Superbueno, New York"
+  },
+  {
+    "drink": "5 Beekman Old Fashioned",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "honey",
+      "orange"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Bar Room at The Beekman, New York"
+  },
+  {
+    "drink": "6pm in Osaka",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "orgeat",
+      "passionfruit",
+      "pomegranate",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Bar Room at The Beekman, New York"
+  },
+  {
+    "drink": "Arvo Pärt",
+    "implied": [
+      "elderflower"
+    ],
+    "literal": [
+      "lemon",
+      "st_germain",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Bar Room at The Beekman, New York"
+  },
+  {
+    "drink": "Black Car Martini",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "coffee_liqueur"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Bar Room at The Beekman, New York"
+  },
+  {
+    "drink": "Empire State Negroni",
+    "implied": [],
+    "literal": [
+      "gin",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Bar Room at The Beekman, New York"
+  },
+  {
+    "drink": "Espresso Martini",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "coffee_liqueur",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Bar Room at The Beekman, New York"
+  },
+  {
+    "drink": "New York Vesper",
+    "implied": [],
+    "literal": [
+      "gin",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Bar Room at The Beekman, New York"
+  },
+  {
+    "drink": "The Perfect Martini",
+    "implied": [],
+    "literal": [
+      "sweet_vermouth",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Bar Room at The Beekman, New York"
+  },
+  {
+    "drink": "Coast to Coast",
+    "implied": [],
+    "literal": [
+      "campari",
+      "gin",
+      "pear",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Dead Rabbit, New York"
+  },
+  {
+    "drink": "Frozen Irish Coffee",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "coffee_liqueur",
+      "cream",
+      "irish_whiskey"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Dead Rabbit, New York"
+  },
+  {
+    "drink": "Irish Coffee",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "cream",
+      "demerara",
+      "irish_whiskey",
+      "nutmeg"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Dead Rabbit, New York"
+  },
+  {
+    "drink": "Irish Coffee Alexander",
+    "implied": [
+      "coffee"
+    ],
+    "literal": [
+      "coffee_liqueur",
+      "irish_whiskey",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Dead Rabbit, New York"
+  },
+  {
+    "drink": "Irish Coffee Martini",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "coffee_liqueur",
+      "demerara",
+      "irish_whiskey",
+      "nutmeg"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Dead Rabbit, New York"
+  },
+  {
+    "drink": "Mulberry Tree",
+    "implied": [],
+    "literal": [
+      "angostura_bitters",
+      "brandy",
+      "raspberry",
+      "rye_whiskey",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Dead Rabbit, New York"
+  },
+  {
+    "drink": "Aviation",
+    "implied": [
+      "cherry"
+    ],
+    "literal": [
+      "gin",
+      "lemon",
+      "maraschino"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Dickens, New York"
+  },
+  {
+    "drink": "Cosmopolitan",
+    "implied": [],
+    "literal": [
+      "cranberry",
+      "lime",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Dickens, New York"
+  },
+  {
+    "drink": "Dill Pickle",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Dickens, New York"
+  },
+  {
+    "drink": "Espresso",
+    "implied": [],
+    "literal": [
+      "coffee",
+      "coffee_liqueur",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Dickens, New York"
+  },
+  {
+    "drink": "French",
+    "implied": [],
+    "literal": [
+      "pineapple",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Dickens, New York"
+  },
+  {
+    "drink": "Lemondrop",
+    "implied": [],
+    "literal": [
+      "lemon",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Dickens, New York"
+  },
+  {
+    "drink": "Pornstar",
+    "implied": [],
+    "literal": [
+      "lime",
+      "passionfruit",
+      "sparkling_wine",
+      "vanilla",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Dickens, New York"
+  },
+  {
+    "drink": "Vesper",
+    "implied": [],
+    "literal": [
+      "dry_vermouth",
+      "gin",
+      "vodka"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Dickens, New York"
+  },
+  {
+    "drink": "Boulevardier",
+    "implied": [],
+    "literal": [
+      "campari",
+      "rye_whiskey",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Long Island Bar, New York"
+  },
+  {
+    "drink": "Cognac French 75",
+    "implied": [],
+    "literal": [
+      "brandy",
+      "lemon",
+      "sparkling_wine"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Long Island Bar, New York"
+  },
+  {
+    "drink": "Dolores del Rio",
+    "implied": [],
+    "literal": [
+      "aperol",
+      "lime",
+      "passionfruit",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Long Island Bar, New York"
+  },
+  {
+    "drink": "Improved Pendennis Club",
+    "implied": [],
+    "literal": [
+      "apricot",
+      "gin",
+      "lime",
+      "peychauds_bitters"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Long Island Bar, New York"
+  },
+  {
+    "drink": "Paloma",
+    "implied": [],
+    "literal": [
+      "lime",
+      "tequila"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Long Island Bar, New York"
+  },
+  {
+    "drink": "The Erin",
+    "implied": [],
+    "literal": [
+      "rye_whiskey",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Long Island Bar, New York"
+  },
+  {
+    "drink": "The Long Island Gimlet",
+    "implied": [],
+    "literal": [
+      "gin",
+      "lime"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Long Island Bar, New York"
+  },
+  {
+    "drink": "White Negroni Sbagliato",
+    "implied": [],
+    "literal": [
+      "sparkling_wine",
+      "sweet_vermouth"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Long Island Bar, New York"
+  },
+  {
+    "drink": "Barrio Getsemani",
+    "implied": [],
+    "literal": [
+      "gin",
+      "passionfruit",
+      "sherry"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Portrait Bar, New York"
+  },
+  {
+    "drink": "Cebu Island",
+    "implied": [],
+    "literal": [
+      "coconut",
+      "scotch",
+      "white_rum"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Portrait Bar, New York"
+  },
+  {
+    "drink": "Cognac",
+    "implied": [
+      "almond"
+    ],
+    "literal": [
+      "brandy",
+      "grapefruit",
+      "orgeat"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Portrait Bar, New York"
+  },
+  {
+    "drink": "Torino",
+    "implied": [],
+    "literal": [
+      "campari",
+      "soda_water"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Portrait Bar, New York"
+  },
+  {
+    "drink": "Vieux Carré XOXO",
+    "implied": [],
+    "literal": [
+      "benedictine",
+      "rye_whiskey"
+    ],
+    "muted": [],
+    "source": "bar_menus",
+    "venue": "The Portrait Bar, New York"
   },
   {
     "drink": "Bonita’s",
