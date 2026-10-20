@@ -3,7 +3,7 @@
 Three new signatures for the spring/summer menu, one per base: rum, pisco and tequila.
 Test-day specs come first, then the long-life service plan for each drink once it's approved,
 then why each choice was made.
-Last updated: 2026-10-19.
+Last updated: 2026-10-20.
 
 House rules these follow:
 - Every prep keeps about a month (freezing half is fine).
@@ -23,17 +23,19 @@ House rules these follow:
   2. Mash, then sieve out the seeds.
   3. Stir in 2.5 g citric acid and 10 ml red wine vinegar.
   4. Cool covered, then fill squeeze bottles (cut the tip wider).
-- [ ] **Guava purée** (about 8 drinks). Drain 1 Koo can and keep the syrup. Blend the halves with
-      2 tbsp of the syrup, then sieve. Keeps 3 days in the fridge; freeze the rest in 30 ml cubes.
-- [ ] **Macadamia orgeat:**
-  1. Blend 80 g lightly toasted macadamias with 160 ml warm macadamia milk, then strain and
-     squeeze.
-  2. Weigh it and stir in the same weight of sugar, then add 15 ml vodka.
+- [ ] **Guava-macadamia cordial** (per Koo can, about 10 drinks; make 3 cans at a time):
+  1. Blend the halves with all of the can syrup, then sieve.
+  2. Simmer for 2 min.
+  3. Off the heat, stir in 50 ml Monin Macadamia, 8 g citric, 4 g malic and 1.7 ml sorbate stock.
+  4. Cool covered and bottle. About 430 ml.
+- [ ] **Sorbate stock:** dissolve 10 g potassium sorbate in about 80 ml water, then top up to the
+      100 ml mark. 1 ml holds 0.1 g. Keep it in the fridge.
 - [ ] **Watermelon juice.** Blend a wedge and sieve it. Keeps 1–2 days.
 - [ ] Optional: **dried grapefruit wheels.** Slice 3 mm thick, dry at 80 °C fan-forced for
       4–6 h and flip once. Store airtight.
 - [ ] Check stock:
   - Spirits and liqueurs: Lillet Rosé, Cointreau, absinthe, Aperol, crème de mûre.
+  - Syrups and soda: Monin Macadamia, Monin Agave, pink grapefruit soda.
   - Bitters and Tajín: fire bitters, Angostura, Tajín.
   - Wine and juice: rescued Sauvignon Blanc, pomegranate juice.
 
@@ -54,24 +56,27 @@ Shake and double-strain into a coupe. Garnish with a dried grapefruit half-wheel
 **Side by side:** pomegranate version. Use 25 ml pomegranate juice in place of the watermelon,
 and 15 ml lemon if it's too sharp.
 
-## 2. Guava and Macadamia Pisco, coupe
+## 2. Guava and Macadamia Pisco, highball (name to be decided)
 
-| What goes in | Per drink |
-|---|---|
-| Pisco | 40 ml |
-| Guava purée | 30 ml |
-| Aperol | 10 ml |
-| Sauvignon Blanc | 10 ml |
-| Lime | 20 ml |
-| Macadamia orgeat | 5 ml |
-| 20% saline | 3 drops |
+Built in the glass from one rail bottle; no shaker.
 
-Shake hard and double-strain into a coupe. Put 3 drops of Angostura on the froth.
+| What goes in | Per drink | 5-drink bottle (450 ml) |
+|---|---|---|
+| Pisco | 40 ml | 200 ml |
+| Guava-macadamia cordial | 40 ml | 200 ml |
+| Sauvignon Blanc | 10 ml | 50 ml |
+| 20% saline | 3 drops | 15 drops |
+| Angostura | 1 dash | 5 dashes |
+
+Shake the bottle (the purée settles), pour 90 ml over cubes in a highball, top with 40 ml pink
+grapefruit soda and give it one stir. Garnish with a dried pink grapefruit wheel inside the glass,
+and a straw.
 
 **Side by side:**
-- Without the Sauvignon Blanc.
-- 15 ml lime plus 2.5 ml citric-malic solution, to see whether the guava comes through more.
-- 45 ml purée if the guava is faint.
+- With 10 ml fresh lime, if it tastes flat.
+- With 10 ml Aperol, to decide whether it stays.
+- If the guava is faint: melt 50 g guava paste per can into the hot purée, with 1 g extra citric
+  to balance its sugar.
 
 ## 3. Blackberry Tommy's (tequila and mezcal), rocks glass with a Tajín rim
 
@@ -95,11 +100,11 @@ No garnish.
 
 | Drink | Version | Notes | Keep? |
 |---|---|---|---|
-| Watermelon Reviver | Watermelon | | |
+| Watermelon Reviver | Watermelon (2026-10-20) | Too thin: watermelon juice is mostly water. A little rose syrup helped the texture, and rose, absinthe and watermelon went well together. No grapefruit rum this time | |
 | Watermelon Reviver | Pomegranate | | |
-| Guava Pisco | Spec | | |
-| Guava Pisco | No Sauvignon Blanc | | |
-| Guava Pisco | Lime + acid solution | | |
+| Guava Pisco | First spec, coupe (2026-10-20) | Great colour. The Sauvignon Blanc amplifies the guava. Too thick (unsieved purée, thick orgeat). 20 ml lime was sharp until the orgeat went to 10 ml. Under-diluted served up | Moved to a highball over ice |
+| Guava Pisco | Highball rail bottle | | |
+| Guava Pisco | + 10 ml Aperol | | |
 | Blackberry Tommy's | 1 / 2 / 3 dashes | | |
 
 ---
@@ -132,13 +137,17 @@ No garnish.
 
 ### Guava and Macadamia Pisco
 
-- **Guava purée:** freeze it in 30 ml cubes, which keep for months, and thaw a few days' worth at
-  a time. Koo cans sell out, so buy ahead.
-- **If Koo cans are unavailable:** use 45 ml guava nectar per drink. For service,
-  freeze-concentrate the nectar: freeze it, keep the first half of the melt, and use 30 ml.
-- **Orgeat:** add 0.2 g potassium sorbate for 4–6 weeks in the fridge, and freeze half.
-- **Batch:** set the spec after the test. Pisco, Aperol, Sauvignon Blanc and saline batch well;
-  the guava, orgeat and lime go in at service.
+- **Cordial:** see the prep list. One 20-minute session turns 3 cans into about 30 drinks, roughly
+  40c of guava per drink. Unopened Koo cans keep a year or more; buy ahead, because they sell out.
+- **Keeping:** the cordial keeps 3–4 weeks in the fridge; freeze half. The rail bottle is about
+  19% alcohol and keeps 3–4 weeks in the fridge. It needs no extra sorbate: the alcohol and the
+  cordial's sorbate cover it.
+- **Before relying on it:** leave one rail bottle for 2–3 days and check it hasn't turned stringy
+  (guava is high in pectin). If it has, keep the cordial out of the bottle and pour it
+  separately.
+- **If Koo cans are unavailable:** Golden Circle Guava Nectar (Woolworths, 29% guava). Expect
+  about half the guava of the cans.
+- **Glass:** highball, freed up by the Paloma coming off the menu.
 
 ### Blackberry Tommy's
 
@@ -172,10 +181,20 @@ version only keeps about 10 days. One 500 g bag makes about 18 drinks.
 
 ### Guava and Macadamia Pisco
 - **Sauvignon Blanc:** it shares guava's tropical sulphur compounds (3-sulfanylhexyl acetate and
-  3-sulfanylhexanol).
+  3-sulfanylhexanol). The first tasting confirmed it amplifies the guava.
+- **Pink grapefruit soda:** grapefruit belongs to the same family of tropical sulphur aromas, so
+  it lifts the guava instead of competing with it.
+- **Highball over ice:** 9 of the 13 guava drinks on the scraped bar menus are long, sparkling, on
+  ice or blended. Guava purée is thick, and ice and bubbles open it up.
+- **Acid in the cordial, no fresh lime:** lime's smell covers guava's, and it lets the drink be
+  built without a shaker.
+- **Monin Macadamia instead of orgeat:** it has no fat, so nothing separates in the bottle, and fat
+  mutes fruit aroma.
+- **Whole can, syrup included:** the syrup tastes of guava and replaces some of the sugar, so
+  nothing is thrown away.
 - **Angostura:** its spice echoes guava's cinnamon note (cinnamyl acetate).
-- **Small orgeat pour:** the fat in orgeat mutes fruit aroma.
-- **Aperol at 10 ml:** cut down so it doesn't cover the guava.
+- **Pairing evidence:** guava with Aperol (Mr Fogg's, London) and guava with macadamia (The Sun
+  Tavern, London) are both on menus; none of the 25 guava drinks in Cobber's data uses pisco.
 
 ### Blackberry Tommy's
 - **Blackberry:**
@@ -193,6 +212,7 @@ version only keeps about 10 days. One 500 g bag makes about 18 drinks.
 ## Open questions
 
 - Fire bitters dash count.
-- Guava: Sauvignon Blanc in or out; 20 ml lime, or 15 ml lime plus acid solution.
+- Guava: Aperol in or out; whether it needs a 10 ml lime top-up.
 - Watermelon: H2melon or homemade clarified.
-- Names and prices ($23–24).
+- Names and prices ($23–24). Guava shortlist: Summer Hill Fizz, Pisco Disco, La Vie en Goyave,
+  Goyave Pétillante, Pink Pacific, Vin Tropical, Fiesta Rosa, Guava Nova, Tropicália, Isla Rosa.
