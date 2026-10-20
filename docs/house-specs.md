@@ -1,0 +1,135 @@
+# House specs
+
+Service, batch, and prep specs for house drinks worked on with Cobber.
+The engine suggested the flavour bridges; the amounts are bartender judgement.
+None of it has been taste-tested yet unless a section says so.
+
+---
+
+## Olivia (venue owner's signature)
+
+**Original:** 45 gin · 7.5 amaretto · 7.5 honey syrup · 7.5 olive oil · 10 lemon ·
+foamer · basil leaf garnish.
+**As made in practice:** 45 gin · 7.5 amaretto · 15 honey syrup · 20 lemon · foamer.
+
+**What Cobber found:** amaretto with olive is the signature. It is a pairing the
+classic recipes never use (tradition 0) that still shares compounds (harmony 0.18).
+Whole-drink harmony was low (0.08). Of the single additions tested, French dry
+vermouth raised it most (to 0.114) and orange bitters also helped (0.104).
+
+### v2 service spec (pending owner tasting)
+
+| Per serve | ×8 (700 ml bottle) | |
+|---|---|---|
+| 45 ml | 360 ml | gin washed with olive oil |
+| 15 ml | 120 ml | French dry vermouth (Dolin / Noilly Prat) |
+| 7.5 ml | 60 ml | amaretto |
+| 12.5 ml | 100 ml | honey syrup |
+| 1 dash | 7 ml | orange bitters |
+| 2 drops | 1 ml | saline (20%) |
+| ≈ 81 ml | ≈ 648 ml | **batch** |
+
+**Service:** 80 ml batch + 22.5 ml fresh lemon + foamer. Shake hard (a reverse dry
+shake gives a taller foam layer), double-strain into a chilled 180–220 ml coupe,
+then 3 drops of basil oil on the foam. If a guest wants more olive, add 2.5–5 ml
+olive oil to the shake.
+
+If the vermouth is too noticeable, use 10 ml vermouth and 25 ml lemon. The volume
+stays about the same.
+
+**Batch storage:** about 28% alcohol, fine on the rail all shift, cool room
+overnight. Vermouth fades once opened, so make bottles to last about a week.
+Shake the bottle before service.
+
+### Gin washed with olive oil
+- 100 ml extra-virgin olive oil per 700 ml gin (up to about 140 ml for more olive).
+- A buttery oil (e.g. Arbequina) gives a rounder drink; a peppery oil
+  (Picual / Coratina) gives a more divisive peppery catch at the back of the throat.
+- Shake hard, rest 4–24 h at room temperature, freeze overnight, lift off the
+  solid oil, then **filter through a coffee filter** so the gin doesn't go
+  cloudy in the cool room.
+- Label and date it. The olive aroma fades after about 2–4 weeks.
+
+### Basil oil garnish (shelf-stable)
+Fresh basil in oil is a botulism risk at room temperature: low acid, sealed
+from air, and spores live on herbs. A good green colour doesn't mean it's safe.
+The safe version uses **fully dried basil**:
+
+1. Microwave about 100 g fresh basil leaves in a single layer between paper towels,
+   in 30 s bursts (1.5–3 min total), until the leaves **crumble to dust** and are
+   still green. Any bendy or leathery leaf is not dry enough. Blanching first is
+   optional, and the leaves must still end up completely crisp.
+2. Crush the leaves (about 8–10 g dried) into 200 ml of 50/50 mild olive oil and
+   grapeseed oil. Optional: 1 tsp spinach powder for colour.
+3. Warm to about 60 °C, no hotter. Blend 1 min, steep 1–2 h, then strain through a
+   coffee filter and let it drip.
+4. Amber dropper bottle, on the rail, out of direct sun. Make 200 ml at a time.
+
+Never use fresh leaves, water, or "lightly dried" tube basil (it still has
+moisture). Worth confirming with the council's food-safety officer.
+
+---
+
+## Strawberry Alexander (Ari)
+
+**Idea:** a twist on the Alexander, with brandy, cream liqueur, chocolate, vanilla
+and strawberry. No fresh cream (shelf life) and no foamer.
+
+**What Cobber found:** the core drink scores high harmony (0.395 with vanilla from
+the Licor 43). Every one of the 16 additions tested lowered it, so don't add new
+flavours: make the strawberry stronger instead.
+
+### Strawberry and cacao brandy
+- 700 ml brandy (a cheaper VS is fine, since the nibs cover the difference),
+  25 g cacao nibs (optionally toasted 2 min), and 250–300 g strawberries, hulled
+  and quartered (slightly overripe is cheaper and has more flavour).
+- Put the nibs in a muslin or tea bag and pull them at about 24 h, before they
+  turn bitter. Leave the strawberries in for 48 h, shaking daily.
+- Strain through a coffee filter and **don't press the fruit**. It stays above 30%
+  alcohol and keeps at room temperature. Colour and flavour soften over a few
+  weeks, so store it out of light.
+
+### Batch (no dairy)
+
+| Per serve | ×15 | |
+|---|---|---|
+| 40 ml | 600 ml | brandy infused with strawberry and cacao |
+| 5 ml | 75 ml | Licor 43 |
+| 2 drops | 1.5 ml | saline (20%) |
+
+**Service:** 45 ml batch + 20 ml cream liqueur (from a squeeze bottle on ice) +
+10 ml Monin strawberry. Add the cream liqueur last, shake hard right away, and
+strain into a chilled 150–180 ml coupe. About 95 ml.
+
+**Garnish:** 3–4 drops of Monin strawberry on top, dragged into hearts with a
+toothpick. Optional: a light dusting of cocoa on half.
+
+**Never batch the cream liqueur with the strawberry brandy.** Over days, fruit
+acid plus the higher alcohol (about 30% against the liqueur's 17%) can curdle it.
+In the shaker the contact is a few minutes and the acid is small, about 2 ml of
+lemon juice equivalent per serve.
+
+**Squeeze bottle:** empty and wash it daily, never top up old cream liqueur with
+new, and squeeze into the jigger so the 20 ml stays accurate.
+
+### Optional: Monin in the batch
+×12 bottle: 480 brandy · 120 Monin · 60 Licor 43 · 1.2 saline. Service: 55 ml
+batch + 20 ml cream liqueur. Alcohol isn't the risk (about 30%). The risks are
+**pectin clumping** (stringy bits that won't shake back in), settling, and the
+colour dulling. Test a 3–4 serve bottle through 3 days of the normal rail and
+cool-room routine before adopting it. If it passes, make bottles that last
+3–4 days and shake before every pour.
+
+### If the strawberry tastes weak, in this order
+1. More strawberries in the infusion (300–350 g per 700 ml), which adds no sugar.
+2. Swap 5 ml of Monin for crème de framboise. Raspberry had the smallest negative
+   effect of the fruits tested (−0.06), and the sugar stays the same.
+3. Only then add more Monin.
+
+---
+
+## Open tests
+- Olivia v2 against the current spec, side by side (and 10 against 15 ml vermouth).
+- Basil oil: microwave-dried with and without blanching; colour on the foam.
+- Strawberry Alexander: Monin in the batch, 3-day stability test.
+- Strawberry Alexander: 10 against 12.5 ml Monin; strawberry level in the infusion.
