@@ -97,5 +97,78 @@
         "name": "orange bitters"
       }
     ]
+  },
+  {
+    "name": "Olivia",
+    "creator": "Venue owner (house signature); service spec refined by Ari",
+    "origin": "house",
+    "notes": "v2 service spec, pending owner tasting vs current. Gin is fat-washed with extra-virgin olive oil (~100 ml per 700 ml, frozen and filtered). Batch = washed gin + dry vermouth + amaretto + honey syrup + orange bitters + saline; lemon, foamer and garnish at service. Garnish: 3 drops of green basil oil on the foam (made from microwave-dried basil so it is shelf-stable). 'olive oil' is left unmatched on purpose: the 'olive' id is the fruit/brine, not the oil. Full prep in docs/house-specs.md.",
+    "ingredients": [
+      {
+        "name": "gin",
+        "oz": 1.5
+      },
+      {
+        "name": "olive oil"
+      },
+      {
+        "name": "dry vermouth",
+        "oz": 0.5
+      },
+      {
+        "name": "amaretto",
+        "oz": 0.25
+      },
+      {
+        "name": "honey syrup",
+        "oz": 0.42
+      },
+      {
+        "name": "lemon juice",
+        "oz": 0.75
+      },
+      {
+        "name": "orange bitters"
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "egg white"
+      },
+      {
+        "name": "basil"
+      }
+    ]
+  },
+  {
+    "name": "Strawberry Alexander",
+    "creator": "Ari",
+    "origin": "ari",
+    "notes": "Brandy is infused with cacao nibs (~25 g, pulled at 24 h) and strawberries (250-300 g, 48 h) per 700 ml. Batch = infused brandy + Licor 43 + saline, with Monin strawberry optional in the batch (test it for pectin clumping first). Cream liqueur (any; 'irish cream' is the category) comes from a squeeze bottle on ice at service and is never batched with the strawberry brandy. No fresh cream, no foamer. 'licor 43' and 'cacao nibs' are left unmatched for review (no ids yet). Full prep in docs/house-specs.md.",
+    "ingredients": [
+      {
+        "name": "brandy",
+        "oz": 1.33
+      },
+      {
+        "name": "cacao nibs"
+      },
+      {
+        "name": "strawberry",
+        "oz": 0.33
+      },
+      {
+        "name": "licor 43",
+        "oz": 0.17
+      },
+      {
+        "name": "irish cream",
+        "oz": 0.67
+      },
+      {
+        "name": "salt"
+      }
+    ]
   }
 ]
