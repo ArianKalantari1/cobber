@@ -22,7 +22,7 @@ House rules these follow:
 | Drink | Status | Next step |
 |---|---|---|
 | Watermelon Reviver | Trimmed to fit the coupe; H2melon freeze-concentrate cordial chosen | Cucumber steep and saline tests |
-| La Pasión | Passionfruit base settled; macadamia dropped for allergy reasons | Choose the nut-free accent: fino, medium sherry or Topaque |
+| La Pasión | Simplified to pisco, passionfruit and one sherry (optimisation loop) | Taste the five versions side by side |
 | C'est Chamoy | Batch and chamoy settled | Fire bitters and Tajín levels |
 | Olivia, reinvented | Rebalanced with 1:1 honey syrup | Lemon 12.5 or 10 ml; basil dot colour |
 | Retired | Pisco Disco (guava), Blackberry Tommy's | See [Retired](#retired) |
@@ -139,8 +139,89 @@ cool room. The raw cordial keeps about 2 weeks.
 
 Passionfruit replaced guava in the pisco slot on 2026-10-21 because it's much easier to batch.
 The macadamia was dropped the same day because of allergen cross-contact in shared tins. The
-current direction is nut-free: fino (in stock) with burnt-sugar hibiscus syrup, against a sweet
-fortified wine from the Summer Hill Wine Shop. No clarification.
+current direction is the simplified build below: pisco, passionfruit and one sherry, with five
+versions to taste. No clarification.
+
+### Simplified build (optimisation loop, 2026-10-21)
+
+The aim: passionfruit and nut up front, pisco the hero, far fewer ingredients. The previous build
+had seven flavour ingredients and three preps (pisco, passionfruit, Sauvignon Blanc, hibiscus,
+fino, Angostura and saline; a base, a syrup and a pisco batch). This one has three and one prep.
+
+How it was found: `scripts/la_pasion_loop.py` started from the previous build, changed one or two
+things at a time (which sherry and how much, where it goes, the sweetener, the top, the extras),
+kept the best and repeated for 20 rounds, about 16,000 variants. Sugar, ABV, volume and cost are
+calculated. How nutty each sherry tastes, and how much it hides the passionfruit, are judgement
+weights, so this is a tasting shortlist, not a verdict. The leader settled at round 5, and 15 more
+rounds found nothing better.
+
+What changed:
+- **Sherry replaces the Sauvignon Blanc, 1:1 (280 ml per can).** It loosens the pulp for
+  straining just as the wine did, and it brings the nut. It lives in the base, so the pisco is
+  poured straight from the bottle: no pisco batch.
+- **Sugar goes straight into the base.** Dissolve it in the sherry first; no syrup to cook.
+- **Out:** Sauvignon Blanc, hibiscus, Angostura, saline and the pisco batch. Cacao stays parked.
+- **More pulp per drink:** 14 drinks a can instead of 16 (60 g of pulp each), to make up for the
+  Sauvignon Blanc's passionfruit lift.
+- **Pisco up from 30 to 40 ml.** The loop kept pisco at least twice the sherry.
+- **Ruled out by the loop:** lemonade as the only sweetener (too sour: it can't carry enough sugar
+  without drowning the drink); most two-sherry pairs (Medium with Inocente is the exception, #2);
+  Topaque, Solera 1847 and Pedro Ximénez (raisin and caramel hide the passionfruit, and 1847 has
+  vanilla); Cointreau and bitters (not worth an extra ingredient).
+
+#### The five, ranked by the loop
+
+| # | Sherry in the base (per drink · per can) | Sugar per can | Flavour ingredients | Loop score | Notes |
+|---|---|---|---|---|---|
+| 1 | Elegante Medium 20 ml · 280 ml | 160–180 g demerara | 3 | 9.0 | The pick. Nut, wood, cocoa and toasted caramel. Already oxidised, so it doesn't fade in the base the way fino does |
+| 2 | Elegante Medium 15 ml + Inocente Fino 5 ml · 210 + 70 ml | 160–180 g demerara | 4 | 8.4 | Salted nuts: amontillado-style nut plus fino salt and flor. The nearest thing to the salted macadamia |
+| 3 | Inocente Fino 20 ml · 280 ml | 160–180 g demerara | 3 | 7.8 | The fino direction, upgraded. Brightest passionfruit, least nut. Use within 2 weeks. Chambers Dry Flor Apera is the cheaper swap (7.5) |
+| 4 | Elegante Cream 20 ml · 280 ml | 130–145 g demerara | 3 | 7.6 | Sweeter, with raisin and date, so less sugar. Hides the passionfruit most |
+| 5 | Elegante Medium 20 ml · 280 ml | 200 ml hibiscus syrup instead of demerara | 4 | 7.2 | Keeps the pink. Without hibiscus the drink is golden orange, close to C'est Chamoy |
+
+The previous build scores 1.5 on the same scale.
+
+#### Base (one 840 g can, about 1.1 L, 14 drinks)
+
+1. Shake the sugar into the sherry in a sealed bottle until it dissolves (a few minutes; 160 g in
+   280 ml dissolves cold).
+2. Shake the pulp with the sweetened sherry in rounds, without ice, with the Hawthorne spring in
+   the tin.
+3. Fine-strain it, pressing with a bar spoon. Stir in 4 ml sorbate stock.
+4. Put it in squeeze bottles. Fridge, 2–3 weeks (2 weeks with fino); freeze half.
+
+Start at 160 g of sugar. If the drink is sour, go to 180 g, the same sugar as the old "200 ml
+syrup per can" fix. For the Elegante Cream, start at 130 g.
+
+**Purée version of #1** (Adamance 1 kg tub, seedless, so no straining): 650 ml Elegante Medium and
+about 520 g demerara, about 33 drinks. Pour 60 ml base and top with 80 ml soda. Re-check the sugar
+once the canned version is settled.
+
+#### Service
+
+1. Pour 40 ml pisco and 80 ml base into the tin.
+2. Shake hard with cubes for 5–8 seconds, then dump everything into a highball.
+3. Fill with fresh cubes and top with about 60 ml soda water. Black straw.
+
+About 200 ml, 9.6% ABV and 1.5 standard drinks. Pisco and sherry cost about $3.40 a drink at the
+shop's six-bottle prices (the previous build was about $2.80, with 30 ml pisco). With 35 ml pisco
+and 17.5 ml sherry it's about $3.00 and 1.3 standard drinks.
+
+#### Side-by-side test
+
+One Woolworths 170 g can per version makes almost 3 drinks. Per can: 57 ml sherry and 32 g
+demerara (version 2: 43 ml Medium and 14 ml Inocente; version 4: 26 g demerara; version 5: 40 ml
+hibiscus syrup instead of the demerara). Taste 1 to 4 together, and 5 only if the menu needs pink.
+
+Judge in this order: passionfruit on the first sip, nut on the finish, pisco still there, then
+sweetness. Levers on the winner:
+- **Passionfruit too quiet:** 12 drinks a can (70 g pulp) and 80 ml soda.
+- **Nut too quiet:** 25 ml sherry (350 ml per can) with 45 ml pisco, so pisco stays twice the
+  sherry.
+- **Pisco lost:** 45 ml pisco.
+- **Too sweet or sour:** 20 g less or more sugar per can.
+
+The previous build follows, kept for reference. Version 5 still uses its hibiscus syrup.
 
 ### Passionfruit base (one 840 g can, about 1.1 L, 16 drinks)
 
@@ -205,7 +286,7 @@ browns it, with a light cherry-anise note.
 3. Fill with fresh cubes and top with about 40 ml soda water.
 4. Black straw.
 
-### Next test, side by side
+### Next test, side by side (previous build)
 
 Make a little base without syrup. Each drink gets 60 ml of it plus 10 ml syrup:
 
@@ -226,24 +307,21 @@ Then try these one at a time on the winner:
 ### What to buy (Summer Hill Wine Shop)
 
 See [suppliers.md](suppliers.md) for the shop's details and full fortified range.
-1. **Buller Fine Old Topaque, $26** (pick). At least 10 years old, butterscotch and toffee, and it
-   keeps for months once open. Morris Classic Topaque ($25) is a fine swap.
-2. **Gonzalez Byass Elegante Medium sherry, $25 ($19.99 in a six)** (sherry pick). The shop has
-   no amontillado or dry oloroso (the Osborne Bailén is gone), and this is the closest: Palomino
-   and Pedro Ximénez, with nuts, wood and cocoa and a toasted-caramel finish. No vanilla in its
-   notes. It sits between the fino and the Topaque, nutty like one and caramel like the other, so
-   it suits the burnt-sugar syrup. Somewhat sweet: use the dry-sherry batch row and cut the syrup
-   if it tastes sweet.
-3. **Valdespino Inocente Fino 375 ml, $32 ($24 in a six).** If the bar's fino tastes thin in
-   test 2. Over 8 years under flor, so it's fuller than most finos and still dry. Tío Pepe ($40)
-   is the standard fino; La Guita manzanilla ($19.99) is the salty one.
-4. **Little Giant Fine Aged Tawny 375 ml, $19.99.** The cheapest test bottle. Dow's Fine Tawny
-   ($38) is the step up.
+1. **Gonzalez Byass Elegante Medium sherry, $25 ($19.99 in a six)** (pick: versions 1, 2 and 5).
+   The shop has no amontillado or dry oloroso (the Osborne Bailén is gone), and this is the
+   closest: an amontillado-style medium with about 2% Pedro Ximénez, so off-dry. Nuts, wood and
+   cocoa with a toasted-caramel finish, and no vanilla in its notes. One bottle does about 2.7
+   cans (37 drinks).
+2. **Valdespino Inocente Fino 375 ml, $32 ($24 in a six)** (versions 2 and 3). Over 8 years under
+   flor, so it's fuller than most finos and still dry. Chambers Dry Flor Apera ($19.99, $15.99 in
+   a six) is the cheaper swap; Tío Pepe ($40) is the standard fino.
+3. **Gonzalez Byass Elegante Cream, $25 ($19.99 in a six)** (version 4).
 
-Skip Pedro Ximénez (too sweet and dark), Solera 1847 Cream and Leonor Palo Cortado (vanilla in
-their notes), ruby or LBV port (berry, not caramel), and anything labelled vanilla or salted
-caramel. At 10–13 ml a drink, any bottle under about $55 costs under a
-dollar a drink.
+The six-bottle price is for any six, so a test buy of four Medium, one Inocente and one Cream is
+about $124. Topaque and tawny are no longer needed for La Pasión: the loop scored them low because
+caramel and raisin hide the passionfruit. Skip Pedro Ximénez (too sweet and dark), Solera 1847
+Cream and Leonor Palo Cortado (vanilla in their notes), ruby or LBV port (berry, not caramel), and
+anything labelled vanilla or salted caramel.
 
 ### Parked ideas
 
@@ -298,6 +376,12 @@ soda (grapefruit-forward), Aperol (not needed), crushed ice, clarification.
   and "Walk This Way" on Kindred Cocktails (cream sherry and passionfruit). Cobber's pairing score
   for passionfruit and sherry is 0.42, the same as for pisco and passionfruit.
 - **No vanilla:** it's already in three menu drinks.
+- **Oxidative sherry for the nut (simplified build):** every drink in Cobber's corpora that names
+  a sherry style next to passionfruit uses an oxidative one: amontillado in The Sun Tavern's
+  Wobbles On Cobbles, oloroso in two Kindred drinks, cream sherry in Walk This Way. None uses fino.
+- **Demerara:** Cobber's profile for it is sotolon, the caramel-and-walnut molecule also found in
+  aged, oxidative sherry, so the sugar backs up the nut instead of just sweetening.
+- **Pisco and passionfruit:** Peru's maracuyá sour, so the pair needs no help from a third flavour.
 
 ---
 
@@ -445,8 +529,8 @@ basil tincture (drag a toothpick through them for hearts).
 
 ## Open questions
 
-- La Pasión: fino, medium sherry or Topaque; burnt or plain syrup; Peychaud's; soda or half
-  lemonade; the purée's sugar level.
+- La Pasión: which of the five versions; pink (version 5) or golden; 160 or 180 g sugar per can;
+  the purée's sugar level.
 - Reviver: A or B; cucumber in or out; whether it needs any saline with H2melon.
 - C'est Chamoy: fire bitters; Tajín level.
 - Olivia: lemon 12.5 or 10 ml; dried or fresh basil for the dots.

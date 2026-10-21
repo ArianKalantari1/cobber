@@ -18,20 +18,20 @@ means it showed as out of stock then. "In a six" is the shop's any-six-bottle pr
 
 | Style | Bottle | Price | Notes |
 |---|---|---|---|
-| Topaque | Buller Fine Old Topaque | $26 | At least 10 years old. The La Pasión pick |
+| Topaque | Buller Fine Old Topaque | $26 | At least 10 years old |
 | Topaque | Morris Classic Topaque | $25 | |
 | Topaque | Stanton & Killeen Topaque 500 ml | $27 | Younger, 2–4 years |
 | Topaque | Buller Victoria Tokay | $14.99 | |
 | Topaque | Morris Old Premium Rare Liqueur Topaque | $95 | |
 | Muscat | Buller Fine Old Muscat | $26 | |
 | Muscat | Morris Classic Muscat | $25 | |
-| Sherry | Gonzalez Byass Elegante Medium | $25, $19.99 in a six | The La Pasión sherry pick. Palomino and Pedro Ximénez: nuts, wood and cocoa, slightly raisiny, toasted-caramel finish. Somewhat sweet |
-| Sherry | Valdespino Inocente Fino 375 ml | $32, $24 in a six | Single vineyard, over 8 years under flor. Fuller than most finos, still dry |
+| Sherry | Gonzalez Byass Elegante Medium | $25, $19.99 in a six | The La Pasión pick (versions 1, 2 and 5). Amontillado style with about 2% Pedro Ximénez, so off-dry: nuts, wood and cocoa, slightly raisiny, toasted-caramel finish |
+| Sherry | Valdespino Inocente Fino 375 ml | $32, $24 in a six | La Pasión versions 2 and 3. Single vineyard, over 8 years under flor. Fuller than most finos, still dry |
 | Sherry | Tío Pepe Fino Muy Seco | $40, $32 in a six | Toasted almond, completely dry |
 | Sherry | Gonzalez Byass Elegante Fino | $25, $19.99 in a six | Light and dry |
 | Sherry | Valdespino La Guita Manzanilla 375 ml | $19.99, $15.99 in a six | Salt, chalk and a light nuttiness |
 | Sherry | Chambers Rosewood Dry Flor Apera (Australian) | $19.99, $15.99 in a six | Fino style: nuts, cheese and sea spray |
-| Sherry | Gonzalez Byass Elegante Cream | $25, $19.99 in a six | Toasted nuts, raisins and dates; sweet |
+| Sherry | Gonzalez Byass Elegante Cream | $25, $19.99 in a six | La Pasión version 4. Toasted nuts, raisins and dates; sweet |
 | Sherry | Gonzalez Byass Solera 1847 Cream | $40, $32 in a six | Sweet oloroso with Pedro Ximénez: raisin, fig and vanilla |
 | Sherry | Gonzalez Byass Leonor Palo Cortado | $60, $45 in a six | Out of stock. Hazelnut, dried fruit and vanilla |
 | Sherry | Pedro Ximénez: Valdespino Yellow Label, Valdespino El Candado, Gonzalez Byass Néctar | From $30, $42 and $38 | Néctar out of stock. Too sweet and dark for La Pasión |
