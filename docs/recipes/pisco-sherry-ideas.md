@@ -233,6 +233,13 @@ separate sugar caramel, and there's no miso.
 - **Why:** furaneol, strawberry's signature molecule, smells of both caramel and strawberry, so
   caramelising the fruit's own sugar pushes the strawberry further, while the raw syrup in the
   cordial keeps it bright. The Medium's toasted caramel meets the pan caramel.
+- **One bottle to buy:** Elegante Medium ($25, $19.99 in a six). Its own notes are nuts, cocoa and
+  a toasted-caramel finish; it's already oxidised, so it doesn't fade once open the way a fino
+  does; and it's the same bottle as La Pasión's pick. At 15 ml a drink, one bottle is 50 drinks.
+  It does pull the colour from red towards brick.
+- **If it tastes heavy:** deglaze the pan with 50 ml sherry vinegar plus 200 ml water instead of
+  250 ml water (a gastrique: caramel deglazed with vinegar), and cut the citric to about 13 g.
+  That gives it the shrub's brightness without a second prep.
 - **Test against:** the same cordial with Tío Pepe Fino in the batch instead of the Medium
   (Fresa Entera's pairing): toasted almond and bread, more strawberry tart than caramel.
 
