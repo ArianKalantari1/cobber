@@ -186,7 +186,7 @@ November to March.
 
 ## Strawberry highballs: one prep day
 
-Refined 2026-10-21. Two strawberry highballs from one bag of frozen strawberries and one overnight
+Refined 2026-10-21; Fresa Tostada (the hybrid) is the spring/summer pick. Two strawberry highballs from one bag of frozen strawberries and one overnight
 maceration: the raw syrup becomes the shrub, and the leftover fruit is caramelised in a pan. Both
 are built over ice from the pisco–Medium rail batch (40:15, 55 ml a drink, shared with Mango
 Asado), with nothing fresh at service: the acid is in the preps.
@@ -242,6 +242,36 @@ separate sugar caramel, and there's no miso.
   That gives it the shrub's brightness without a second prep.
 - **Test against:** the same cordial with Tío Pepe Fino in the batch instead of the Medium
   (Fresa Entera's pairing): toasted almond and bread, more strawberry tart than caramel.
+
+### Fresa Tostada (the hybrid: the spring/summer pick)
+
+Mostly the shrub's fresh strawberry, with the caramel underneath. The pan caramel is deglazed with
+the sherry vinegar (a gastrique) and mixed back into all the raw syrup, so it's one cordial, not
+two.
+
+- **Prep (one maceration, about 35 minutes on the day):**
+  1. The day before: 1 kg frozen strawberries and 500 g white sugar, covered, cool room.
+  2. Strain without pressing: about 900 ml raw syrup and 350 g soft fruit.
+  3. Pan-caramelise the fruit with 100 g demerara to deep amber (6–8 minutes). Demerara gets there
+     faster and its sotolon is the caramel-maple note of the aged sherry (Cobber's demerara
+     profile is sotolon).
+  4. Off the heat, deglaze with 100 ml sherry vinegar and 100 ml water (open the window: hot
+     vinegar stings), scrape, simmer 1 minute, strain pressing hard.
+  5. Combine with all the raw syrup, then whisk in the other 100 ml sherry vinegar cold, 20 g
+     citric, 5 g malic and 1 g salt. Half the vinegar is cooked (mellow, part of the caramel) and
+     half raw (bright). About 1.2 L, 40 drinks; a month in the fridge (2 ml sorbate stock for
+     insurance).
+- **Per drink:** the same build: cubes, 55 ml pisco–Medium batch, 30 ml cordial, 90 ml soda, one
+  lift.
+- **Numbers:** about 185 ml, 10.1% ABV, 1.5 standard drinks, 13.6:1, sugar about 8.8 g per 100 ml.
+  The caramel is about a quarter of the cordial.
+- **More caramel, to meet the Medium:** take the pan to the dark side of amber, or raise the Medium
+  to 20 ml (pisco stays twice the sherry). **Fresher:** caramelise only half the strained fruit
+  and stir the rest straight into the syrup before straining again.
+
+What to expect (not yet tasted): fresh strawberry and pisco's grape first, a toasted-caramel
+middle where the Medium joins in, then a bright, vinegar-sharpened finish that keeps it
+thirst-quenching. Strawberries with balsamic under a crème-brûlée crust, in a highball.
 
 ### Garnish
 
