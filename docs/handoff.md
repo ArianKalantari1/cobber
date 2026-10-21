@@ -6,6 +6,24 @@ notes + a self-contained HTML visualiser — on branch
 Supersedes the original Copilot handoff. Read `docs/cobber-design-notes.md`
 first for the project's thinking; this file is "where we are and what's next".*
 
+## Bar R&D saved, and the data gaps it showed (21 October 2026)
+
+- **Where it lives:** Ari's spring R&D is in `docs/recipes/`.
+  - `spring-signatures-rnd.md`: La Pasión, Watermelon Reviver, C'est Chamoy, the reinvented
+    Olivia, and a bar-wide allergen protocol.
+  - `cobbler-rnd-test-sheet.md`: a 450 ml Coconut & Lime quick test.
+  - `suppliers.md`: includes the Summer Hill Wine Shop's fortified range.
+- **Ari's feedback:** Cobber's data felt limited for this work. The R&D needed ingredients the
+  pantry doesn't have:
+  - hibiscus;
+  - Sauvignon Blanc (only `grape`, `sparkling_wine` and `red_wine` exist);
+  - cacao nibs (only `creme_de_cacao`);
+  - sherry styles: fino, manzanilla, oloroso (only `sherry`);
+  - Topaque and Rutherglen Muscat, Madeira, lúcuma, purple corn.
+
+  `wattleseed` exists but shares no compounds with passionfruit, pisco or grape, so it scores 0.
+- **Candidate next task (not started):** add these ingredients, with cited profiles.
+
 ## Scraped bar menus as a frontier corpus (19 October 2026)
 
 - **What:** 995 current drinks from Ari's cleaned city datasets (Sydney 327, Paris 307,
