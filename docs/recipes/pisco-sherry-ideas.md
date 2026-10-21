@@ -81,7 +81,7 @@ pick one or the other for a menu, not both.
 - **Mango:** canned Kesar mango pulp from an Indian grocer (850 g; Kashish or KTC have 20–23 g
   sugar per 100 g and citric acid). Once opened, about 5 days in the fridge; freeze it in
   portions. No chilli: Tajín is C'est Chamoy's.
-- **Numbers:** about 205 ml, 9.3% ABV, 1.4 standard drinks, about 10:1.
+- **Numbers:** about 205 ml, 8.9% ABV, 1.4 standard drinks, about 10:1.
 - **Why:** mango and lime is well trodden (10 bar drinks in Cobber); sherry and mango has one
   (Jardin).
 
