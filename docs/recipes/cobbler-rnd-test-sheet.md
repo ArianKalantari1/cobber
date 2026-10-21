@@ -2,7 +2,7 @@
 
 Test-day sheet for the two white cobblers. Full specs, costing and service are in
 [rescued-white-wine-cobblers.md](rescued-white-wine-cobblers.md).
-Last updated: 2026-10-19.
+Last updated: 2026-10-21 (added the 450 ml Coconut & Lime quick test at the end).
 
 One quarter batch = 750 ml rescued wine → about 800 ml finished batch at 16–18% alcohol.
 If a quarter batch ends up over 875 ml, the pot was under-reduced: add 50 ml vodka.
@@ -156,3 +156,57 @@ This is rough, because simmering uncovered steams off aroma that a cold tincture
 
 Cook a quarter batch of the winning version with the in-pot amounts above. Cooked ginger
 tastes warmer than tincture, so confirm before scaling to the full 3 L batch.
+
+## Coconut & Lime: 450 ml quick test (2026-10-21)
+
+A smaller round with what was on hand: 450 ml of rescued whites, no allspice berries and no
+canned pears. It's 0.6 times the quarter batch; otherwise the method is the same.
+
+**Before anything else:** microplane the zest of 2–3 limes (about 7 g, green only) into 120 ml
+of the batch's vodka and seal it. It steeps while the wine reduces and chills, about 3 hours.
+The zest never goes in the pot: the simmer steams off the lime oil, and the coconut fat takes
+the rest. Lime juice can go in the pot.
+
+**Reduction**
+1. Mark a chopstick at the 225 ml level in your pot: pour in 225 ml water, mark it, tip it out.
+2. Toast 27 g desiccated coconut in a dry pan for 2–4 minutes, stirring, until golden. Tip it
+   straight into the pot.
+3. Add 450 ml white wine, the peel of a third of an orange (no pith) and that piece's juice,
+   15 ml lime juice and a small pinch of salt (0.6 g).
+4. Simmer gently, uncovered, down to the 225 ml mark, about 20–30 minutes. Stir now and then so
+   the coconut doesn't catch.
+5. Off the heat, stir in 60 g sugar until it dissolves.
+6. Strain through a fine strainer, pressing the coconut hard (a cloth or nut-milk bag gets more
+   out). Let it cool, then strain again.
+7. Chill it 2 hours (or 30–45 minutes in the freezer), lift off the set coconut fat and strain
+   once more.
+
+**Fortify**
+1. 90 ml plain vodka first.
+2. **Pear liqueur, in place of the pears:** 20 ml, tasting it cold, up to 40 ml in 10 ml steps.
+   For every 10 ml of liqueur, take 5 ml off the plain vodka. If it's a dry pear brandy (about
+   40%, not sweet), swap it 1:1 for vodka and add 12 g more sugar to the pot.
+3. Strain in the lime vodka 30 ml at a time, tasting it cold; expect about 90 ml. Make up the rest
+   of the 210 ml total vodka with plain vodka.
+4. Peychaud's from 2.5 ml, up to 3 ml, and 0.6 ml 20% saline (about 12 drops).
+5. Acid solution (20 g citric and 10 g malic, topped up to 100 ml with warm water), 1 ml at a time
+   until a pH strip reads 3.3 or lower. Expect about 2 ml.
+6. If it tastes lean, dissolve 5 g more sugar in a splash of warm batch and stir it back in.
+
+Makes about 480 ml at 16–18% alcohol. Bottle, label and refrigerate; taste again on day 3.
+
+**Spice stand-ins (tinctures for the split jars)**
+- **Clove-cinnamon, for allspice:** 2 whole cloves and a 3 cm piece of cinnamon stick (about 1 g)
+  in 50 ml vodka. Taste at 12 hours and strain by 24 hours at most; clove turns medicinal fast.
+- **Ginger:** 20 g fresh ginger, sliced, in 100 ml vodka for 24 hours.
+- **No juniper:** it's piney and pulls the batch towards gin, which is the apricot batch's job.
+
+| Jar (about 160 ml each) | Add | Taste up to |
+|---|---|---|
+| A, plain | Nothing | |
+| B, ginger | 1.5 ml ginger tincture | 3 ml |
+| C, clove-cinnamon | 0.5 ml, then 0.25 ml at a time | 1.2 ml |
+
+Use a 1 ml syringe. To make one spiced batch instead of testing, simmer 1 clove and a 2 cm piece
+of cinnamon stick with the wine and remove them when you strain. No more than that, or it turns
+into mulled wine.
