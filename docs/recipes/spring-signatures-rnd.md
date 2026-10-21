@@ -193,6 +193,10 @@ The previous build scores 1.5 on the same scale.
 Start at 160 g of sugar. If the drink is sour, go to 180 g, the same sugar as the old "200 ml
 syrup per can" fix. For the Elegante Cream, start at 130 g.
 
+No lime: the pulp is the acid. It tasted sour on its own with no citric added, and lime would mean
+more sugar and a citrus note on top of the passionfruit. If the drink tastes flat, check the sugar
+(too sweet reads as flat) and the freshness before adding acid.
+
 **Purée version of #1** (Adamance 1 kg tub, seedless, so no straining): 650 ml Elegante Medium and
 about 520 g demerara, about 33 drinks. Pour 60 ml base and top with 80 ml soda. Re-check the sugar
 once the canned version is settled.
@@ -222,6 +226,14 @@ passionfruit is acidic (about pH 3).
 - **Not tested yet:** keep a 100 ml sample in the fridge and taste it against a fresh batch on
   days 3, 7 and 14. Throw a batch out if it hisses when opened, grows a film, or smells yeasty or
   of vinegar.
+- **If the passionfruit fades:** that's time, not the recipe, so the fix is freshness: smaller
+  batches made more often, with the rest frozen on day 0. Sauvignon Blanc boosts passionfruit (it
+  carries the same tropical sulphur aromas) but fades with the batch, and an open bottle loses
+  those aromas within a few days. Use it only if the drink is quiet even when fresh: 10 ml per
+  drink (140 ml per can) into the base from a just-opened bottle, or the 12-drinks-a-can lever.
+- **Separate or together:** keeping the base and pisco apart doesn't slow the fade. It means two
+  pours, and the base on its own (4.4% ABV) needs its sorbate again. It's worth it only to adjust
+  the pisco drink by drink or to use the base elsewhere.
 - **No water in the bottle:** the shaking water belongs in service. Pre-diluting drops the batch
   to about 14% ABV, which preserves it less well.
 
