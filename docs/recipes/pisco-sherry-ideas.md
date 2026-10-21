@@ -106,6 +106,84 @@ No fruit, but it fits the Martini Corner, where every drink already uses manzani
 serve and keep it in the fridge. Sherry and dry vermouth is Cobber's strongest sherry pairing
 (0.48, the Bamboo).
 
+## Strawberry and mango, more sophisticated
+
+Two drinks per fruit: a long signature and a stirred one for the Martini Corner. Each uses at
+most 3 fresh ingredients when batching (here 1–2), and service stays a batch plus at most 2
+fresh items. Fresa y Jerez and Mango Asado share one rail batch: pisco and Elegante Medium,
+40:15, 55 ml a drink (480 ml pisco and 180 ml Medium per 700 ml bottle, 12 drinks).
+
+| Drink | Format | Fresh at batching | The idea |
+|---|---|---|---|
+| Fresa y Jerez | Highball | Strawberries, lemons | Sherry two ways: the wine in the batch, the vinegar in a shrub |
+| Fresa Martini | Stirred | Strawberries | Strawberry pisco and manzanilla; native strawberry gum repeats strawberry's own aroma |
+| Mango Asado | Highball | Mangoes, limes | Charred mango, so the caramel meets the Medium's toasted caramel |
+| Mango y Manzanilla | Stirred | Mangoes | Mango pisco, manzanilla salt and a dash of spice |
+
+### Fresa y Jerez (strawberry and sherry)
+
+- **Per drink:** 55 ml pisco–Medium batch, 30 ml strawberry shrub, 10 ml lemon. Shake 5–8
+  seconds, dump into a highball, fresh cubes, top with 80 ml soda.
+- **Strawberry shrub (about 710 ml, 23 drinks):** 500 g hulled strawberries (fresh in season, or
+  frozen), 350 g sugar and the peel of 2 lemons, covered in the fridge for 24 hours. Strain
+  without pressing, lift out the peel, then stir in 120 ml sherry vinegar (Vinagre de Jerez, 7%
+  acidity). Sugar and vinegar keep it a month in the fridge. The same trick as strawberries with
+  balsamic, using the vinegar made from sherry.
+- **Numbers:** about 195 ml, 9.6% ABV, 1.5 standard drinks, 13.8:1 (La Pasión's balance).
+  Rosy coral.
+- **Why:** strawberry's strongest flavour family partner in Cobber's recipe corpus is
+  roasted-nutty (NPMI +0.46, above chance), so the nuttiest sherry, not fino. Strawberry and
+  lemon is classic (tradition 0.26, 10 drinks).
+
+### Fresa Martini
+
+- **Per serve:** 97.5 ml from the fridge, poured into a chilled glass. No stirring at service.
+- **Batch (7 serves, 700 ml rail):** 315 ml strawberry pisco, 140 ml manzanilla, 70 ml dry
+  vermouth, 17.5 ml simple syrup, 140 ml water. About 22% ABV, 1.7 standard drinks, dry (about 2 g
+  sugar per 100 ml). Use within 2 weeks: the manzanilla fades first.
+- **Strawberry pisco:** 300 g sliced strawberries in 700 ml pisco, fridge, 48 hours, then strain
+  without pressing (pressing clouds it). Pale pink; it drifts towards salmon over weeks.
+- **Optional native accent:** 1 g ground dried strawberry gum leaf in the strawberry pisco for
+  its last 6–12 hours; taste at 6. Strawberry gum's oil is mostly methyl cinnamate, the
+  fruity-balsamic note in strawberries themselves (Cobber harmony 0.50), so it reads as more
+  strawberry, not eucalyptus. If it tastes minty or medicinal, it's out (house rule). Warndu sells
+  whole dried leaf all year; FISH sells 30 g ground for $15.
+
+### Mango Asado (charred mango)
+
+- **Per drink:** 55 ml pisco–Medium batch, 50 ml charred mango cordial, 15 ml lime. Shake, dump,
+  fresh cubes, top with 60 ml soda.
+- **Charred mango cordial (about 1.45 L, 29 drinks):** cheek 4 ripe mangoes (about 1 kg flesh).
+  Char them flesh-down in a dry, very hot pan until blackened in patches (3–4 minutes), then scoop
+  the flesh. Blend with 400 g sugar, 100 ml lime juice, 300 ml water and 2 g salt, fine-strain, add
+  2 ml sorbate stock. About a month in the fridge; freeze half.
+- **Off season:** 850 g canned Kesar pulp with burnt sugar instead of the char (the method of
+  La Pasión's old burnt-sugar syrup: take the sugar to medium amber, then whisk in the lime and
+  water before blending in the pulp). Cut the sugar to about 330 g; the pulp is sweetened.
+- **Numbers:** about 205 ml, 9.1% ABV, 1.5 standard drinks, 14.3:1. Golden amber.
+- **Why:** the char's caramel meets the Medium's toasted caramel; the pinch of salt follows
+  mango's savoury family in Cobber (NPMI +0.10, above chance). Mango and lime is well trodden
+  (10 bar drinks).
+
+### Mango y Manzanilla
+
+- **Per serve:** 97.5 ml from the fridge into a chilled glass.
+- **Batch (7 serves, 700 ml rail):** 315 ml mango pisco, 140 ml manzanilla, 70 ml dry vermouth,
+  17.5 ml simple syrup, 6 ml Angostura, 1 ml 20% saline, 140 ml water. About 22% ABV, 1.7 standard
+  drinks, dry. Use within 2 weeks.
+- **Mango pisco:** 300 g diced ripe mango in 700 ml pisco, fridge, 48 hours, then strain through
+  a fine sieve and a coffee filter. Pale gold.
+- **Why:** savoury is mango's strongest usable family in Cobber; mango has bar-drink support with
+  dry vermouth (White Lies, Mango y Machado) and Angostura (Mango No. 3).
+
+**Mango and nut allergies:** mango is in the cashew family, like the pink peppercorn the bar
+ruled out. Cross-reactions with cashew or pistachio are reported but inconsistent, and mango flesh
+is usually tolerated, so it isn't a nut, but staff should know if a guest with a cashew or
+pistachio allergy asks.
+
+**Seasons:** strawberries are at their best in Sydney through spring; Kensington Pride mangoes run
+November to March.
+
 ## Sources
 
 - Davidson plum: [Bush to Bowl](https://bush-to-bowl.square.site/products/davidson-plum-davidsonia-jerseyana),
@@ -115,3 +193,8 @@ serve and keep it in the fridge. Sherry and dry vermouth is Cobber's strongest s
 - Kesar mango pulp: [Kashish (Woolworths NZ)](https://www.woolworths.co.nz/shop/product-details/127713/kashish-kesar-mango-pulp),
   [KTC](https://www.sainsburys.co.uk/groceries/product/ktc-kesar-mango-pulp-850g)
 - Menu overlaps: [menu.json](../menu/menu.json)
+- Strawberry gum: [Warndu](https://warndu.com/blogs/first-nations-food-guide/warndu-strawberry-gum),
+  [FISH](https://shop.fish.asn.au/products/strawberry-gum-leaf-dried-ground)
+- Sherry vinegar acidity: [Quill & Pad](https://quillandpad.com/2023/05/11/sherry-vinegar-a-truly-wonderful-indulgence-for-your-kitchen/)
+- Mango and cashew cross-reactivity: [AAAAI](https://www.aaaai.org/ask-the-expert/cross-reactivity-papaya-mango-cashew.aspx),
+  [Karger](https://karger.com/iaa/article/178/1/19/168275)
