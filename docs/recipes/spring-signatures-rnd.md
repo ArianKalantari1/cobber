@@ -177,7 +177,7 @@ What changed:
 | 2 | Elegante Medium 15 ml + Inocente Fino 5 ml · 210 + 70 ml | 160–180 g demerara | 4 | 8.4 | Salted nuts: amontillado-style nut plus fino salt and flor. The nearest thing to the salted macadamia |
 | 3 | Inocente Fino 20 ml · 280 ml | 160–180 g demerara | 3 | 7.8 | The fino direction, upgraded. Brightest passionfruit, least nut. Use within 2 weeks. Chambers Dry Flor Apera is the cheaper swap (7.5) |
 | 4 | Elegante Cream 20 ml · 280 ml | 130–145 g demerara | 3 | 7.6 | Sweeter, with raisin and date, so less sugar. Hides the passionfruit most |
-| 5 | Elegante Medium 20 ml · 280 ml | 200 ml hibiscus syrup instead of demerara | 4 | 7.2 | Keeps the pink. Without hibiscus the drink is golden orange, close to C'est Chamoy |
+| 5 | Elegante Medium 20 ml · 280 ml | 200 ml hibiscus syrup instead of demerara | 4 | 7.2 | Keeps the pink, but hibiscus at sweetener level is a fourth flavour. For colour only, use the hibiscus colour drops (see Colour) on version 1 instead. Without any red the drink is golden orange, close to C'est Chamoy |
 
 The previous build scores 1.5 on the same scale.
 
@@ -196,6 +196,31 @@ syrup per can" fix. For the Elegante Cream, start at 130 g.
 No lime: the pulp is the acid. It tasted sour on its own with no citric added, and lime would mean
 more sugar and a citrus note on top of the passionfruit. If the drink tastes flat, check the sugar
 (too sweet reads as flat) and the freshness before adding acid.
+
+#### Colour: coral without a new flavour
+
+Passionfruit is yellow-orange, so any red turns it coral, not pale pink; a true pale pink would mean
+taking the passionfruit's yellow out. In the glass, ice and soda lighten it to a pale coral. Judge
+the colour in a finished drink, not in the bottle.
+
+1. **White sugar instead of demerara.** Demerara browns the base towards brick. The nut comes from
+   the sherry anyway.
+2. **Hibiscus colour drops** (pick): 10 g dried hibiscus in 150 ml pisco for 24 hours, then strain
+   through a coffee filter and press. About 120 ml; keeps for months. Start at 7.5 ml per can of
+   base (a sixth of the old syrup's hibiscus per drink) and add 2.5 ml at a time until a finished
+   drink is coral, up to about 15 ml (a third). At this dose it's a colour, not a flavour: if you
+   can taste hibiscus, you've gone past it. Its red pigments (anthocyanins) are at their reddest and
+   steadiest in a drink this sour. For a 170 g test can, 1.5–3 ml.
+3. **No hibiscus at all:** natural red colour from the baking aisle whose label says black carrot,
+   anthocyanin or E163, a few drops per can. Avoid beetroot red (E162): its pigment prefers pH 4–5
+   and fades with light and air.
+4. **Red dragon fruit powder** (GnG Pink Pitaya, The Source Bulk Foods, $19.95 for 55 g): no flavour
+   at this dose and a good menu line, but it's the same pigment family as beetroot, so it may fade
+   over a week. Small batches, stored dark; check the colour on day 3.
+
+Skip Peychaud's (anise, and too little colour in a 200 ml drink) and butterfly pea (blue and yellow
+make green). Grenadine works, since passionfruit and grenadine is the Hurricane, but it adds a
+pomegranate note.
 
 **Purée version of #1** (Adamance 1 kg tub, seedless, so no straining): 650 ml Elegante Medium and
 about 520 g demerara, about 33 drinks. Pour 60 ml base and top with 80 ml soda. Re-check the sugar
@@ -572,8 +597,8 @@ basil tincture (drag a toothpick through them for hearts).
 
 ## Open questions
 
-- La Pasión: which of the five versions; pink (version 5) or golden; 160 or 180 g sugar per can;
-  the purée's sugar level.
+- La Pasión: which of the five versions; coral (hibiscus colour drops or natural colour) or golden;
+  160 or 180 g sugar per can; the purée's sugar level.
 - Reviver: A or B; cucumber in or out; whether it needs any saline with H2melon.
 - C'est Chamoy: fire bitters; Tajín level.
 - Olivia: lemon 12.5 or 10 ml; dried or fresh basil for the dots.

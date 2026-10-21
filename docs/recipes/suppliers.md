@@ -66,6 +66,8 @@ The Osborne Bailén Oloroso and Osborne Fino Quinta are no longer listed.
 
 ## Specialty
 
+- **Red dragon fruit powder** (La Pasión colour, backup): GnG Pink Pitaya 55 g, $19.95, The Source
+  Bulk Foods ([listing](https://shop.thesourcebulkfoods.com.au/product/gng-pink-pitaya-55g)).
 - **Roasted ground wattleseed:** Herbie's Spices, or online (for example Australian Superfood Co,
   30 g).
 - **Lúcuma powder:** health-food shops.
