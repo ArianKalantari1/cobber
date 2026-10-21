@@ -22,7 +22,7 @@ House rules these follow:
 | Drink | Status | Next step |
 |---|---|---|
 | Watermelon Reviver | Trimmed to fit the coupe; H2melon freeze-concentrate cordial chosen | Cucumber steep and saline tests |
-| La Pasión | Passionfruit base settled; macadamia dropped for allergy reasons | Choose the nut-free accent: fino or Topaque |
+| La Pasión | Passionfruit base settled; macadamia dropped for allergy reasons | Choose the nut-free accent: fino, medium sherry or Topaque |
 | C'est Chamoy | Batch and chamoy settled | Fire bitters and Tajín levels |
 | Olivia, reinvented | Rebalanced with 1:1 honey syrup | Lemon 12.5 or 10 ml; basil dot colour |
 | Retired | Pisco Disco (guava), Blackberry Tommy's | See [Retired](#retired) |
@@ -191,7 +191,7 @@ recipe with demerara (the bar has it for the Nutty Old Fashioned).
 | Plain | 684 ml | none | 12 ml | 4 ml | 1.6 | Control |
 | Fino (current pick) | 475 ml | fino 200 ml | 12 ml | 4 ml | 1.3 | With burnt-sugar syrup. Fridge, use within 2–3 weeks, batch from a fresh bottle |
 | Manzanilla | 475 ml | manzanilla 200 ml | 12 ml | 2 ml | 1.3 | Saltier than fino, so half the saline |
-| Dry oloroso or amontillado | 475 ml | 200 ml | 12 ml | 4 ml | 1.3 | With burnt-sugar syrup |
+| Dry oloroso, amontillado or medium | 475 ml | 200 ml | 12 ml | 4 ml | 1.3 | With burnt-sugar syrup. Medium is somewhat sweet: if it tastes sweet, cut the base syrup toward 120 ml per can |
 | Sweet: Topaque, tawny, cream sherry, Madeira | 525 ml | 150 ml | 12 ml | 4 ml | 1.4–1.5 | Cut the base syrup to about 120 ml per can; burnt sugar optional |
 
 **Peychaud's instead of Angostura** (same 12 ml) pulls the colour back to pink if the caramel
@@ -215,6 +215,7 @@ Make a little base without syrup. Each drink gets 60 ml of it plus 10 ml syrup:
 | 2 | Burnt-sugar hibiscus | 30 ml plain pisco batch + 15 ml fino |
 | 3 | Burnt-sugar hibiscus | 40 ml plain pisco batch + 5 ml Averna (caramel and cola, but it can read herbal) |
 | 4 | Plain hibiscus | 35 ml plain pisco batch + 10 ml Topaque (after the wine shop) |
+| 5 | Burnt-sugar hibiscus | 30 ml plain pisco batch + 15 ml Elegante Medium sherry (after the wine shop) |
 
 Then try these one at a time on the winner:
 - Peychaud's instead of Angostura, for colour.
@@ -227,15 +228,21 @@ Then try these one at a time on the winner:
 See [suppliers.md](suppliers.md) for the shop's details and full fortified range.
 1. **Buller Fine Old Topaque, $26** (pick). At least 10 years old, butterscotch and toffee, and it
    keeps for months once open. Morris Classic Topaque ($25) is a fine swap.
-2. **Osborne Bailén Oloroso, $38 ($30 in a six).** The dry, nutty option. Was showing out of
-   stock; the listing mentions vanilla from the oak, but hazelnut, coffee and wood lead.
-3. **Little Giant Fine Aged Tawny 375 ml, $19.99.** The cheapest test bottle. Dow's Fine Tawny
+2. **Gonzalez Byass Elegante Medium sherry, $25 ($19.99 in a six)** (sherry pick). The shop has
+   no amontillado or dry oloroso (the Osborne Bailén is gone), and this is the closest: Palomino
+   and Pedro Ximénez, with nuts, wood and cocoa and a toasted-caramel finish. No vanilla in its
+   notes. It sits between the fino and the Topaque, nutty like one and caramel like the other, so
+   it suits the burnt-sugar syrup. Somewhat sweet: use the dry-sherry batch row and cut the syrup
+   if it tastes sweet.
+3. **Valdespino Inocente Fino 375 ml, $32 ($24 in a six).** If the bar's fino tastes thin in
+   test 2. Over 8 years under flor, so it's fuller than most finos and still dry. Tío Pepe ($40)
+   is the standard fino; La Guita manzanilla ($19.99) is the salty one.
+4. **Little Giant Fine Aged Tawny 375 ml, $19.99.** The cheapest test bottle. Dow's Fine Tawny
    ($38) is the step up.
-4. **Gonzalez Byass Solera 1847 Cream, $32.** Sweet oloroso with Pedro Ximénez: caramel and raisin,
-   and the darkest and sweetest.
 
-Skip Pedro Ximénez (too sweet and dark), ruby or LBV port (berry, not caramel), and anything
-labelled vanilla or salted caramel. At 10–13 ml a drink, any bottle under about $55 costs under a
+Skip Pedro Ximénez (too sweet and dark), Solera 1847 Cream and Leonor Palo Cortado (vanilla in
+their notes), ruby or LBV port (berry, not caramel), and anything labelled vanilla or salted
+caramel. At 10–13 ml a drink, any bottle under about $55 costs under a
 dollar a drink.
 
 ### Parked ideas
@@ -438,7 +445,7 @@ basil tincture (drag a toothpick through them for hearts).
 
 ## Open questions
 
-- La Pasión: fino or Topaque (or oloroso); burnt or plain syrup; Peychaud's; soda or half
+- La Pasión: fino, medium sherry or Topaque; burnt or plain syrup; Peychaud's; soda or half
   lemonade; the purée's sugar level.
 - Reviver: A or B; cucumber in or out; whether it needs any saline with H2melon.
 - C'est Chamoy: fire bitters; Tajín level.

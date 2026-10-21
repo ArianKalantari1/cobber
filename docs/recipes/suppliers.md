@@ -9,11 +9,12 @@ Last updated: 2026-10-21.
 - 7 Lackey Street, Summer Hill NSW 2130 · (02) 9798 7282 ·
   [summerhillwineshop.com.au](https://www.summerhillwineshop.com.au/)
 - Independent and family-run since 1986. Wine only: no beer or spirits. Ships within Australia.
-- Fortified wines online: port, Tokay (Topaque), Muscat and sherry (18 sherries). No Madeira or
-  amontillado was listed.
+- Fortified wines online: port, Tokay (Topaque), Muscat and sherry (12 sherries). No Madeira,
+  amontillado or dry oloroso is listed.
 
-Prices below come from search-engine copies of the shop's pages, read on 2026-10-21, so some may
-be out of date. "Out of stock" means it showed as out of stock then.
+The sherry and Topaque rows were read from the shop's own site on 2026-10-21. The other rows come
+from search-engine copies of its pages the same day, so some may be out of date. "Out of stock"
+means it showed as out of stock then. "In a six" is the shop's any-six-bottle price.
 
 | Style | Bottle | Price | Notes |
 |---|---|---|---|
@@ -24,12 +25,18 @@ be out of date. "Out of stock" means it showed as out of stock then.
 | Topaque | Morris Old Premium Rare Liqueur Topaque | $95 | |
 | Muscat | Buller Fine Old Muscat | $26 | |
 | Muscat | Morris Classic Muscat | $25 | |
-| Sherry | Osborne Bailén Oloroso (dry) | $38, $30 in any six | Out of stock. Hazelnut, coffee and wood, with some vanilla from the oak |
-| Sherry | Gonzalez Byass Solera 1847 Cream | From $32 | Sweet oloroso with Pedro Ximénez |
-| Sherry | Gonzalez Byass Leonor Palo Cortado | $45 | Out of stock |
-| Sherry | Gonzalez Byass Elegante Fino | $19.99 in a six | |
-| Sherry | Valdespino Inocente Fino 375 ml | $32, $24 in a six | |
-| Sherry | Tío Pepe Fino Muy Seco, Osborne Fino Quinta, Gonzalez Byass Elegante Medium | | Listed |
+| Sherry | Gonzalez Byass Elegante Medium | $25, $19.99 in a six | The La Pasión sherry pick. Palomino and Pedro Ximénez: nuts, wood and cocoa, slightly raisiny, toasted-caramel finish. Somewhat sweet |
+| Sherry | Valdespino Inocente Fino 375 ml | $32, $24 in a six | Single vineyard, over 8 years under flor. Fuller than most finos, still dry |
+| Sherry | Tío Pepe Fino Muy Seco | $40, $32 in a six | Toasted almond, completely dry |
+| Sherry | Gonzalez Byass Elegante Fino | $25, $19.99 in a six | Light and dry |
+| Sherry | Valdespino La Guita Manzanilla 375 ml | $19.99, $15.99 in a six | Salt, chalk and a light nuttiness |
+| Sherry | Chambers Rosewood Dry Flor Apera (Australian) | $19.99, $15.99 in a six | Fino style: nuts, cheese and sea spray |
+| Sherry | Gonzalez Byass Elegante Cream | $25, $19.99 in a six | Toasted nuts, raisins and dates; sweet |
+| Sherry | Gonzalez Byass Solera 1847 Cream | $40, $32 in a six | Sweet oloroso with Pedro Ximénez: raisin, fig and vanilla |
+| Sherry | Gonzalez Byass Leonor Palo Cortado | $60, $45 in a six | Out of stock. Hazelnut, dried fruit and vanilla |
+| Sherry | Pedro Ximénez: Valdespino Yellow Label, Valdespino El Candado, Gonzalez Byass Néctar | From $30, $42 and $38 | Néctar out of stock. Too sweet and dark for La Pasión |
+
+The Osborne Bailén Oloroso and Osborne Fino Quinta are no longer listed.
 | Tawny | Little Giant Fine Aged Tawny 375 ml (Australian) | $19.99, $15.99 in a six | Cheapest test bottle |
 | Tawny | Dow's Fine Tawny | $38, $30 in a six | "Nutty and caramel" |
 | Tawny | Graham's Fine Tawny | $48, $36 in a six | |
