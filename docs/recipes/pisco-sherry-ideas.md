@@ -18,8 +18,8 @@ stock in [suppliers.md](suppliers.md), read 2026-10-21):
 
 | Style | Bottles | Use for |
 |---|---|---|
-| Manzanilla, fino, apera (dry, salty, bready) | La Guita Manzanilla 375 ml, Tío Pepe Fino, Inocente Fino 375 ml, Elegante Fino, Chambers Dry Flor Apera (Australian) | Salt and flor: Tres Uvas, Mango con Sal, the stirred drinks, Shortcake, Fresa Entera |
-| Medium (nutty, off-dry) | Elegante Medium | The nut: Ciruela, Sidecar de Jerez, Fresa y Jerez, Mango Asado, Fresa Miso |
+| Manzanilla, fino, apera (dry, salty, bready) | La Guita Manzanilla 375 ml, Tío Pepe Fino, Inocente Fino 375 ml, Elegante Fino, Chambers Dry Flor Apera (Australian) | Salt and flor: Tres Uvas, Mango con Sal, the stirred drinks, the Fresa Caramelo test |
+| Medium (nutty, off-dry) | Elegante Medium | The nut: Ciruela, Sidecar de Jerez, Fresa y Jerez, Fresa Caramelo, Mango Asado |
 | Cream (sweet) | Elegante Cream | Fresas con Crema |
 | Not used | Solera 1847 (vanilla), the three Pedro Ximénez (too sweet and dark), Leonor Palo Cortado (out of stock) | |
 
@@ -125,25 +125,15 @@ fresh items. Fresa y Jerez and Mango Asado share one rail batch: pisco and Elega
 
 | Drink | Format | Fresh at batching | The idea |
 |---|---|---|---|
-| Fresa y Jerez | Highball | Strawberries, lemons | Sherry two ways: the wine in the batch, the vinegar in a shrub |
+| Fresa y Jerez | Highball | Strawberries | Sherry two ways: the wine in the batch, the vinegar in a shrub (refined below) |
 | Fresa Martini | Stirred | Strawberries | Strawberry pisco and manzanilla; native strawberry gum repeats strawberry's own aroma |
 | Mango Asado | Highball | Mangoes, limes | Charred mango, so the caramel meets the Medium's toasted caramel |
 | Mango y Manzanilla | Stirred | Mangoes | Mango pisco, manzanilla salt and a dash of spice |
 
 ### Fresa y Jerez (strawberry and sherry)
 
-- **Per drink:** 55 ml pisco–Medium batch, 30 ml strawberry shrub, 10 ml lemon. Shake 5–8
-  seconds, dump into a highball, fresh cubes, top with 80 ml soda.
-- **Strawberry shrub (about 710 ml, 23 drinks):** 500 g hulled strawberries (fresh in season, or
-  frozen), 350 g sugar and the peel of 2 lemons, covered in the fridge for 24 hours. Strain
-  without pressing, lift out the peel, then stir in 120 ml sherry vinegar (Vinagre de Jerez, 7%
-  acidity). Sugar and vinegar keep it a month in the fridge. The same trick as strawberries with
-  balsamic, using the vinegar made from sherry.
-- **Numbers:** about 195 ml, 9.6% ABV, 1.5 standard drinks, 13.8:1 (La Pasión's balance).
-  Rosy coral.
-- **Why:** strawberry's strongest flavour family partner in Cobber's recipe corpus is
-  roasted-nutty (NPMI +0.46, above chance), so the nuttiest sherry, not fino. Strawberry and
-  lemon is classic (tradition 0.26, 10 drinks).
+Refined into a one-day prep with Fresa Caramelo: see
+[Strawberry highballs: one prep day](#strawberry-highballs-one-prep-day).
 
 ### Fresa Martini
 
@@ -194,83 +184,67 @@ pistachio allergy asks.
 **Seasons:** strawberries are at their best in Sydney through spring; Kensington Pride mangoes run
 November to March.
 
-## Strawberry highballs: three culinary versions
+## Strawberry highballs: one prep day
 
-Three more tall strawberry drinks, each built on one kitchen technique and one shared-molecule
-bridge from Cobber's compound data. All are about 9–10% ABV and 1.45 standard drinks, keep the
-house rules, use at most 2 fresh ingredients at batching and at most 1 at service.
+Refined 2026-10-21. Two strawberry highballs from one bag of frozen strawberries and one overnight
+maceration: the raw syrup becomes the shrub, and the leftover fruit is caramelised in a pan. Both
+are built over ice from the pisco–Medium rail batch (40:15, 55 ml a drink, shared with Mango
+Asado), with nothing fresh at service: the acid is in the preps.
 
-| Drink | Technique | Bridge | Sherry | Fresh at batching | At service |
-|---|---|---|---|---|---|
-| Fresa Entera | The same fruit raw and roasted; acids matched to strawberry's own | Roasting builds caramel notes (furaneol, already strawberry's signature); raw juice keeps the esters heat drives off | Tío Pepe Fino | Strawberries | Nothing (built) |
-| Shortcake | Brown-butter fat-wash of the pisco | Butter and strawberry share their creamy lactones (γ- and δ-decalactone) | La Guita Manzanilla | Strawberries, butter | Lemon |
-| Fresa Miso | Strawberry caramel, finished with white miso or just salt | Miso and strawberry share furaneol; miso's sotolon is the caramel-maple note of aged sherry | Elegante Medium | Strawberries | Lemon |
+The Shortcake (brown-butter pisco) is dropped. Fresa Entera's raw-and-roasted idea and Fresa
+Miso's caramel are now one drink, Fresa Caramelo: the caramel comes from the pan, not from a
+separate sugar caramel, and there's no miso.
 
-Leftover pulp from the Shortcake and Fresa Miso macerations can go into Fresa Entera's roast.
+### The prep
 
-### Fresa Entera (whole strawberry)
+**The day before (5 minutes):** 1 kg frozen strawberries (they come hulled; no need to thaw) and
+600 g sugar in a covered tub in the cool room, 12–24 hours.
 
-- **Per drink (built):** 40 ml pisco and 15 ml Tío Pepe Fino (batched, 55 ml), 30 ml two-way strawberry
-  cordial over cubes in a highball, top with 90 ml soda, one lift with a bar spoon.
-- **Two-way cordial (about 1 L, 33 drinks):**
-  1. Day 1: 1 kg hulled, halved strawberries and 400 g sugar, covered in the fridge for 24 hours.
-     Strain off the syrup without pressing and keep it cold: this is the raw side.
-  2. Day 2: toss the strained fruit with 100 g sugar on a lined tray and roast at 180 °C for
-     30–40 minutes, until jammy and catching at the edges, not burnt. Scrape into a pot with
-     250 ml water, simmer 2 minutes and fine-strain, pressing hard: this is the roasted side.
-  3. Combine, then stir in 25 g citric and 6 g malic acid (roughly strawberry's own mix: mostly
-     citric, some malic) and 2 ml sorbate stock. A month in the fridge; freeze half.
-- **Numbers:** about 185 ml, 9.9% ABV, 13.4:1. Bright red-pink.
-- **Why Tío Pepe:** the roasted side already brings the caramel, so the fino's toasted almond and
-  bread make it a strawberry tart rather than a jam. Use within 2–3 weeks of opening; Inocente
-  (375 ml, fuller) is the half-bottle option.
+**Prep day (about 30 minutes):**
+1. **Strain** through a sieve over a jug, without pressing: about 950 ml raw syrup and 350 g
+   soft fruit.
+2. **Shrub:** whisk 600 ml of the raw syrup with 150 ml sherry vinegar (Vinagre de Jerez, 7%
+   acidity) and 15 g citric acid until the citric dissolves. About 755 ml, 25 drinks.
+3. **Pan caramel:** the strained fruit and 100 g sugar in a wide pan (about 28 cm) over
+   medium-high heat, in one layer. Leave it 3–4 minutes while the juice boils off, then scrape
+   every 30 seconds until the syrup is amber and the edges catch: 6–8 minutes in all. Stop at
+   amber; dark is bitter. The fruit is already soft from freezing, so this caramelises the sugar
+   and juice rather than stewing the fruit.
+4. **Deglaze:** off the heat, add 250 ml water (stand back: it spits), scrape up everything stuck
+   to the pan (that's the caramel), simmer 1 minute, then strain, pressing hard. About 350 ml.
+5. **Caramel cordial:** the pan liquid, the remaining 350 ml raw syrup, 17 g citric acid, 4 g
+   malic acid and 1 g salt. About 700 ml, 23 drinks.
+6. Bottle, label and date both. A month in the fridge (sugar and acid; 2 ml sorbate stock in each
+   for insurance); freeze half if they sell slowly.
 
-### Shortcake (brown-butter strawberry)
+### Fresa y Jerez (the bright one)
 
-- **Per drink:** 40 ml brown-butter pisco and 15 ml La Guita Manzanilla (batched), 30 ml raw strawberry
-  cordial, 20 ml lemon. Shake 5–8 seconds, dump, fresh cubes, top with 70 ml soda.
-- **Brown-butter pisco (about 660 ml):** cook 100 g unsalted butter until the solids are
-  hazelnut-brown and it smells nutty (5–7 minutes), cool to about 50 °C, and stir it into 700 ml
-  pisco in a wide container. Stand 4 hours at room temperature, stirring now and then, then
-  freeze overnight (back of house), lift off the fat and coffee-filter. Keeps a month or more in
-  the fridge.
-- **Test it first (200 ml pisco each):** 15 g and 30 g brown butter (the 50 g and 100 g per 700 ml
-  doses) against plain pisco, in a finished drink. Fat-washing works on any 40% spirit (the
-  bacon-washed bourbon in PDT's Benton's Old Fashioned made it famous), but pisco is unaged and
-  aromatic, so the butter can bury the grape. Pick the lighter dose if the pisco disappears; drop
-  the idea if both do. Keep the washed pisco cold and use it within a month: any fat left behind
-  can turn rancid.
-- **Raw strawberry cordial:** as for Fresas con Crema (1 kg frozen strawberries and 500 g sugar,
-  24 hours, strained). Add 2 ml sorbate stock for a month, or freeze half.
-- **Numbers:** about 195 ml, 9.3% ABV, 10.4:1. Pink.
-- **Why:** browning the milk solids (Maillard) gives the nutty, toffee notes, and the fat-wash
-  carries butter's fat-soluble aromas into the spirit before the fat comes out. The manzanilla is
-  the salt in salted butter. Cobber: strawberry and butter share γ-decalactone, δ-decalactone and
-  decanal (harmony 0.20).
-- **Allergen:** contains milk. Say "brown butter" on the menu, not "noisette", so nobody reads it
-  as hazelnut.
+- **Per drink:** cubes in a highball, 55 ml pisco–Medium batch, 30 ml shrub, top with 90 ml soda,
+  one lift with a bar spoon.
+- **Numbers:** about 185 ml, 10.1% ABV, 1.5 standard drinks, 13.3:1. Rosy coral.
+- **Why:** strawberries with vinegar is the balsamic trick, here with vinegar made from sherry,
+  so the sherry shows up twice. Strawberry's strongest flavour family in Cobber's recipe corpus
+  is roasted-nutty (NPMI +0.46, above chance), hence the Medium.
 
-### Fresa Miso (strawberry caramel, miso optional)
+### Fresa Caramelo (the deep one)
 
-- **Per drink:** 55 ml pisco–Medium batch (the same rail bottle as Fresa y Jerez and Mango Asado),
-  25 ml strawberry miso caramel, 10 ml lemon. Shake, dump, fresh cubes, top with 80 ml soda.
-- **Strawberry miso caramel (about 950 ml, 38 drinks):**
-  1. 1 kg hulled strawberries and 200 g sugar, covered in the fridge for 24 hours; strain off the
-     syrup (about 750 ml) and warm it.
-  2. Take 300 g sugar and 60 ml water to medium amber (La Pasión's burnt-sugar method), then, off
-     the heat, whisk in the warm strawberry syrup a little at a time. Stand back: it spits.
-  3. Back on low heat just until any hard caramel dissolves; keep it brief to save the fresh
-     aroma. Off the heat, whisk in 50 g white (shiro) miso, then 15 g citric acid. Fine-strain,
-     cool, add 2 ml sorbate stock. A month in the fridge.
-- **Numbers:** about 190 ml, 9.9% ABV, 11.9:1. The miso adds about 0.08 g salt a drink (0.04%):
-  seasoning, not saltiness, and its glutamate rounds the body.
-- **Why:** miso shares furaneol (caramel-strawberry) with strawberry in Cobber, and its sotolon is
-  also the caramel-maple note of aged, oxidative sherry like the Medium (Cobber's sherry profile is
-  still a placeholder, so that link is from the literature, not Cobber).
-- **Allergen:** contains soy; check the miso's label for barley or wheat (gluten).
-- **Without the miso:** leave it out and add 2 g salt to the caramel instead (salted caramel; the
-  salt keeps it from tasting flat). The core bridge stays: furaneol smells of both caramel and
-  strawberry. Everything else, and the numbers, stay the same, and the soy note goes.
+- **Per drink:** the same build with 30 ml caramel cordial.
+- **Numbers:** about 185 ml, 10.1% ABV, 1.5 standard drinks, 12.8:1. Deeper red.
+- **Why:** furaneol, strawberry's signature molecule, smells of both caramel and strawberry, so
+  caramelising the fruit's own sugar pushes the strawberry further, while the raw syrup in the
+  cordial keeps it bright. The Medium's toasted caramel meets the pan caramel.
+- **Test against:** the same cordial with Tío Pepe Fino in the batch instead of the Medium
+  (Fresa Entera's pairing): toasted almond and bread, more strawberry tart than caramel.
+
+### Garnish
+
+- **Freeze-dried strawberry slices** (pick): 2–3 on top of the ice. Shelf-stable for months in an
+  airtight jar, pink, and they smell of strawberry as they soften, with no fresh fruit behind the
+  bar. From bulk-food or health-food shops.
+- **Basil:** it's a herb, so it breaks the house rule (no herby flavours) unless the owner signs
+  off, and fresh basil blackens in days, the same problem as fresh strawberries.
+- **Black pepper** (Fresa y Jerez only): one grind over the top is strawberry's classic partner.
+  Cobber has no data on it, and it's an extra step at service.
 
 ## Sources
 
