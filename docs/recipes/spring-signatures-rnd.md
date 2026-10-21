@@ -218,9 +218,25 @@ the colour in a finished drink, not in the bottle.
    at this dose and a good menu line, but it's the same pigment family as beetroot, so it may fade
    over a week. Small batches, stored dark; check the colour on day 3.
 
+5. **Grenadine, 5 ml a drink:** fine, and the most familiar: passionfruit and grenadine is the
+   Hurricane. It adds a light pomegranate note (berry-cherry in some brands) and about 4 g sugar in
+   most syrup grenadines, so put 70 ml in a can's base and cut the sugar by about 55 g. Bottled
+   grenadine colours more strongly than homemade.
+6. **Crème de mûre, sparingly (2.5 ml a drink):** blackberry is a flavour of its own, and its
+   purple-red against the yellow can turn a muddy mauve.
+
+**Hibiscus tea with rooibos** is fine for the test. Rooibos adds a red-brown colour and a honeyed,
+woody note, which push the coral towards brick, so steep the drops for 2–4 hours, not 24: hibiscus
+gives up its red first. Check the label for added flavouring. For service, buy pure dried hibiscus
+from a spice shop, or from a Latin or Middle Eastern grocer (as flor de jamaica or karkade).
+
 Skip Peychaud's (anise, and too little colour in a 200 ml drink) and butterfly pea (blue and yellow
-make green). Grenadine works, since passionfruit and grenadine is the Hurricane, but it adds a
-pomegranate note.
+make green).
+
+**Colour test** (one 170 g can each, judged in finished drinks): no colour; hibiscus drops 1.5 ml
+and 3 ml; grenadine 14 ml with 11 g less sugar; crème de mûre 7 ml. Then taste the favourite blind
+against the uncoloured drink: pour two of one and one of the other, and if tasters can't pick the
+odd one out, the colour adds no flavour.
 
 **Purée version of #1** (Adamance 1 kg tub, seedless, so no straining): 650 ml Elegante Medium and
 about 520 g demerara, about 33 drinks. Pour 60 ml base and top with 80 ml soda. Re-check the sugar
