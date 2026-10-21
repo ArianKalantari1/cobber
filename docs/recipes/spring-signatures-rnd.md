@@ -207,6 +207,37 @@ About 200 ml, 9.6% ABV and 1.5 standard drinks. Pisco and sherry cost about $3.4
 shop's six-bottle prices (the previous build was about $2.80, with 30 ml pisco). With 35 ml pisco
 and 17.5 ml sherry it's about $3.00 and 1.3 standard drinks.
 
+#### Full batch: base and pisco in one bottle (no sorbate)
+
+Stir 560 ml pisco into the strained base from one can: about 1.65 L, 14 drinks at 120 ml. That's
+16.5% ABV and about 20 g sugar per 100 ml, against 4.4% ABV for the base alone, so the pisco does
+the preserving and the sorbate can go. The pulp is canned, so it starts pasteurised, and
+passionfruit is acidic (about pH 3).
+
+- **Keeping it:** fridge at 5 °C or below, in sanitised bottles filled to the shoulder. Bottles
+  you'll empty in a shift (500–700 ml) mean less air in an opened one. Plan on about a week: the
+  passionfruit aroma will fade before anything spoils. Freeze what you won't use in a week, in
+  plastic bottles with room to expand (at −18 °C it sets to a hard slush), and thaw it overnight
+  in the fridge.
+- **Not tested yet:** keep a 100 ml sample in the fridge and taste it against a fresh batch on
+  days 3, 7 and 14. Throw a batch out if it hisses when opened, grows a film, or smells yeasty or
+  of vinegar.
+- **No water in the bottle:** the shaking water belongs in service. Pre-diluting drops the batch
+  to about 14% ABV, which preserves it less well.
+
+Service with the full batch:
+1. Shake the bottle before each round; the pulp settles.
+2. **Shaken:** 120 ml batch into the tin, shake hard for 5–8 seconds, dump, fresh cubes, 60 ml
+   soda. The shake whips up a passionfruit froth.
+3. **Built** (faster; test it against shaken): a highball full of cubes, 120 ml cold batch, 80 ml
+   soda and one lift with a bar spoon. The extra 20 ml of soda stands in for the shaking water:
+   about 210 ml and 9.3% ABV. No tin to wash, and more sparkle.
+
+To make it one pour, mark a 120 ml line on the tin (or glass) you use, with a measuring jug and a
+paint pen, and pour straight from the bottle to the line. Use a wide-mouth squeeze bottle or a
+free-flow pourer; speed pourers can clog on pulp fibre. Keep the batch and the soda cold, so the
+melt and the dilution stay the same drink to drink.
+
 #### Side-by-side test
 
 One Woolworths 170 g can per version makes almost 3 drinks. Per can: 57 ml sherry and 32 g
