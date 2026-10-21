@@ -417,6 +417,9 @@ anything labelled vanilla or salted caramel.
 
 ### Parked ideas
 
+- **Other pisco-and-sherry drinks** (strawberry, Davidson plum, verjuice, mango, a Sidecar): see
+  [pisco-sherry-ideas.md](pisco-sherry-ideas.md).
+
 - **Cacao nib vodka** (no vanilla, no sugar): toast 30 g nibs in a dry pan for 5 minutes if
   they're raw, add 200 ml vodka, taste daily and strain through a coffee filter at 2–3 days. Use
   it in a spray for a cocoa nose, or swap 50 ml into the batch. Passionfruit and chocolate is a
