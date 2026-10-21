@@ -184,6 +184,74 @@ pistachio allergy asks.
 **Seasons:** strawberries are at their best in Sydney through spring; Kensington Pride mangoes run
 November to March.
 
+## Strawberry highballs: three culinary versions
+
+Three more tall strawberry drinks, each built on one kitchen technique and one shared-molecule
+bridge from Cobber's compound data. All are about 9–10% ABV and 1.45 standard drinks, keep the
+house rules, use at most 2 fresh ingredients at batching and at most 1 at service.
+
+| Drink | Technique | Bridge | Sherry | Fresh at batching | At service |
+|---|---|---|---|---|---|
+| Fresa Entera | The same fruit raw and roasted; acids matched to strawberry's own | Roasting builds caramel notes (furaneol, already strawberry's signature); raw juice keeps the esters heat drives off | Fino | Strawberries | Nothing (built) |
+| Shortcake | Brown-butter fat-wash of the pisco | Butter and strawberry share their creamy lactones (γ- and δ-decalactone) | Manzanilla | Strawberries, butter | Lemon |
+| Fresa Miso | Strawberry caramel finished with white miso | Miso and strawberry share furaneol; miso's sotolon is the caramel-maple note of aged sherry | Elegante Medium | Strawberries | Lemon |
+
+Leftover pulp from the Shortcake and Fresa Miso macerations can go into Fresa Entera's roast.
+
+### Fresa Entera (whole strawberry)
+
+- **Per drink (built):** 40 ml pisco and 15 ml fino (batched, 55 ml), 30 ml two-way strawberry
+  cordial over cubes in a highball, top with 90 ml soda, one lift with a bar spoon.
+- **Two-way cordial (about 1 L, 33 drinks):**
+  1. Day 1: 1 kg hulled, halved strawberries and 400 g sugar, covered in the fridge for 24 hours.
+     Strain off the syrup without pressing and keep it cold: this is the raw side.
+  2. Day 2: toss the strained fruit with 100 g sugar on a lined tray and roast at 180 °C for
+     30–40 minutes, until jammy and catching at the edges, not burnt. Scrape into a pot with
+     250 ml water, simmer 2 minutes and fine-strain, pressing hard: this is the roasted side.
+  3. Combine, then stir in 25 g citric and 6 g malic acid (roughly strawberry's own mix: mostly
+     citric, some malic) and 2 ml sorbate stock. A month in the fridge; freeze half.
+- **Numbers:** about 185 ml, 9.9% ABV, 13.4:1. Bright red-pink.
+- **Why fino:** the roasted side already brings the caramel, so a fino's almond and bread make it
+  a strawberry tart rather than a jam. Use within 2–3 weeks of opening the fino.
+
+### Shortcake (brown-butter strawberry)
+
+- **Per drink:** 40 ml brown-butter pisco and 15 ml manzanilla (batched), 30 ml raw strawberry
+  cordial, 20 ml lemon. Shake 5–8 seconds, dump, fresh cubes, top with 70 ml soda.
+- **Brown-butter pisco (about 660 ml):** cook 100 g unsalted butter until the solids are
+  hazelnut-brown and it smells nutty (5–7 minutes), cool to about 50 °C, and stir it into 700 ml
+  pisco in a wide container. Stand 4 hours at room temperature, stirring now and then, then
+  freeze overnight (back of house), lift off the fat and coffee-filter. Keeps a month or more in
+  the fridge.
+- **Raw strawberry cordial:** as for Fresas con Crema (1 kg frozen strawberries and 500 g sugar,
+  24 hours, strained). Add 2 ml sorbate stock for a month, or freeze half.
+- **Numbers:** about 195 ml, 9.3% ABV, 10.4:1. Pink.
+- **Why:** browning the milk solids (Maillard) gives the nutty, toffee notes, and the fat-wash
+  carries butter's fat-soluble aromas into the spirit before the fat comes out. The manzanilla is
+  the salt in salted butter. Cobber: strawberry and butter share γ-decalactone, δ-decalactone and
+  decanal (harmony 0.20).
+- **Allergen:** contains milk. Say "brown butter" on the menu, not "noisette", so nobody reads it
+  as hazelnut.
+
+### Fresa Miso (strawberry miso caramel)
+
+- **Per drink:** 55 ml pisco–Medium batch (the same rail bottle as Fresa y Jerez and Mango Asado),
+  25 ml strawberry miso caramel, 10 ml lemon. Shake, dump, fresh cubes, top with 80 ml soda.
+- **Strawberry miso caramel (about 950 ml, 38 drinks):**
+  1. 1 kg hulled strawberries and 200 g sugar, covered in the fridge for 24 hours; strain off the
+     syrup (about 750 ml) and warm it.
+  2. Take 300 g sugar and 60 ml water to medium amber (La Pasión's burnt-sugar method), then, off
+     the heat, whisk in the warm strawberry syrup a little at a time. Stand back: it spits.
+  3. Back on low heat just until any hard caramel dissolves; keep it brief to save the fresh
+     aroma. Off the heat, whisk in 50 g white (shiro) miso, then 15 g citric acid. Fine-strain,
+     cool, add 2 ml sorbate stock. A month in the fridge.
+- **Numbers:** about 190 ml, 9.9% ABV, 11.9:1. The miso adds about 0.08 g salt a drink (0.04%):
+  seasoning, not saltiness, and its glutamate rounds the body.
+- **Why:** miso shares furaneol (caramel-strawberry) with strawberry in Cobber, and its sotolon is
+  also the caramel-maple note of aged, oxidative sherry like the Medium (Cobber's sherry profile is
+  still a placeholder, so that link is from the literature, not Cobber).
+- **Allergen:** contains soy; check the miso's label for barley or wheat (gluten).
+
 ## Sources
 
 - Davidson plum: [Bush to Bowl](https://bush-to-bowl.square.site/products/davidson-plum-davidsonia-jerseyana),
