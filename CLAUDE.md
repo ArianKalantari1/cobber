@@ -127,3 +127,7 @@ Push after each commit so work survives a session limit or crash.
   Don't add a database. When developing here, read slices of the data files
   or use scripts — don't dump whole files into context.
 - Don't put the session/model id in commits, code, or docs.
+- Bar R&D specs (`docs/recipes/`): sherries come only from the Summer Hill Wine
+  Shop lineup in `docs/recipes/suppliers.md`, named by bottle (e.g. La Guita
+  Manzanilla, Elegante Medium), never a generic "fino" or "sherry". Pisco stays
+  the hero, and the house rules at the top of `spring-signatures-rnd.md` apply.

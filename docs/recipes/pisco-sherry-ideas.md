@@ -13,12 +13,22 @@ fine). Each one keeps pisco at 40 ml and the sherry at 15–20 ml. The numbers c
 maths as La Pasión's loop; the acid in Davidson plum and verjuice is an estimate, so balance those
 by taste.
 
+**Sherries: only the Summer Hill Wine Shop's lineup**, named by bottle in every spec (prices and
+stock in [suppliers.md](suppliers.md), read 2026-10-21):
+
+| Style | Bottles | Use for |
+|---|---|---|
+| Manzanilla, fino, apera (dry, salty, bready) | La Guita Manzanilla 375 ml, Tío Pepe Fino, Inocente Fino 375 ml, Elegante Fino, Chambers Dry Flor Apera (Australian) | Salt and flor: Tres Uvas, Mango con Sal, the stirred drinks, Shortcake, Fresa Entera |
+| Medium (nutty, off-dry) | Elegante Medium | The nut: Ciruela, Sidecar de Jerez, Fresa y Jerez, Mango Asado, Fresa Miso |
+| Cream (sweet) | Elegante Cream | Fresas con Crema |
+| Not used | Solera 1847 (vanilla), the three Pedro Ximénez (too sweet and dark), Leonor Palo Cortado (out of stock) | |
+
 | # | Drink | Fruit | Sherry | Glass | Colour | Service |
 |---|---|---|---|---|---|---|
 | 1 | Fresas con Crema | Strawberry | Elegante Cream | Highball | Pink, naturally | Batch, cordial, lemon |
 | 2 | Ciruela | Davidson plum (native) | Elegante Medium | Highball | Magenta-pink, naturally | Batch, cordial, lemon |
-| 3 | Tres Uvas | Verjuice (grape) | Manzanilla | Highball | Pale straw | Batch only |
-| 4 | Mango con Sal | Mango | Manzanilla | Highball | Golden | Batch, mango, lime |
+| 3 | Tres Uvas | Verjuice (grape) | La Guita Manzanilla | Highball | Pale straw | Batch only |
+| 4 | Mango con Sal | Mango | La Guita Manzanilla | Highball | Golden | Batch, mango, lime |
 | 5 | Sidecar de Jerez | Orange (Cointreau) | Elegante Medium | Coupe | Amber | Batch, lemon |
 
 ## 1. Fresas con Crema (strawberries and cream)
@@ -61,7 +71,7 @@ wine and verjuice is unripe grape juice, so the whole drink is grape. Best with 
 
 - **Per drink:** 107.5 ml batch over cubes in a highball, top with 75 ml soda, one lift with a bar
   spoon. A frozen white grape on a pick if you want a garnish.
-- **Batch (6 drinks, 645 ml):** 240 ml pisco, 90 ml manzanilla, 270 ml Maggie Beer verjuice,
+- **Batch (6 drinks, 645 ml):** 240 ml pisco, 90 ml La Guita Manzanilla, 270 ml Maggie Beer verjuice,
   45 ml simple syrup (1:1). About 17% ABV. The manzanilla fades first, so use it within 2 weeks.
 - **Numbers:** about 190 ml, 9.5% ABV, 1.4 standard drinks, about 10:1. Dry and crisp, like a
   wine spritz. If it's too sharp, add simple 2.5 ml a drink at a time.
@@ -74,9 +84,9 @@ wine and verjuice is unripe grape juice, so the whole drink is grape. Best with 
 Summer's crowd-pleaser: mango with the manzanilla's salt. Mango is tropical, like La Pasión, so
 pick one or the other for a menu, not both.
 
-- **Per drink:** 40 ml pisco, 15 ml manzanilla, 50 g Kesar mango pulp, 15 ml lime. Shake, dump,
+- **Per drink:** 40 ml pisco, 15 ml La Guita Manzanilla, 50 g Kesar mango pulp, 15 ml lime. Shake, dump,
   fresh cubes, top with 60 ml soda. No syrup: the pulp is already sweetened.
-- **Batch:** pisco and manzanilla, 40:15 (55 ml a drink). Optional: 3 ml 20% saline per 700 ml if
+- **Batch:** pisco and La Guita, 40:15 (55 ml a drink). Optional: 3 ml 20% saline per 700 ml if
   the manzanilla's salt doesn't come through.
 - **Mango:** canned Kesar mango pulp from an Indian grocer (850 g; Kashish or KTC have 20–23 g
   sugar per 100 g and citric acid). Once opened, about 5 days in the fridge; freeze it in
@@ -102,7 +112,7 @@ but the lemon is shelf-stable, so the batch keeps for months.
 ## Bonus: Pisco Bamboo (Martini Corner)
 
 No fruit, but it fits the Martini Corner, where every drink already uses manzanilla: 30 ml pisco,
-30 ml manzanilla, 15 ml dry vermouth, 2 dashes orange bitters, stirred. Batch with 20 ml water a
+30 ml La Guita Manzanilla, 15 ml dry vermouth, 2 dashes orange bitters, stirred. Batch with 20 ml water a
 serve and keep it in the fridge. Sherry and dry vermouth is Cobber's strongest sherry pairing
 (0.48, the Bamboo).
 
@@ -138,7 +148,7 @@ fresh items. Fresa y Jerez and Mango Asado share one rail batch: pisco and Elega
 ### Fresa Martini
 
 - **Per serve:** 97.5 ml from the fridge, poured into a chilled glass. No stirring at service.
-- **Batch (7 serves, 700 ml rail):** 315 ml strawberry pisco, 140 ml manzanilla, 70 ml dry
+- **Batch (7 serves, 700 ml rail):** 315 ml strawberry pisco, 140 ml La Guita Manzanilla, 70 ml dry
   vermouth, 17.5 ml simple syrup, 140 ml water. About 22% ABV, 1.7 standard drinks, dry (about 2 g
   sugar per 100 ml). Use within 2 weeks: the manzanilla fades first.
 - **Strawberry pisco:** 300 g sliced strawberries in 700 ml pisco, fridge, 48 hours, then strain
@@ -168,7 +178,7 @@ fresh items. Fresa y Jerez and Mango Asado share one rail batch: pisco and Elega
 ### Mango y Manzanilla
 
 - **Per serve:** 97.5 ml from the fridge into a chilled glass.
-- **Batch (7 serves, 700 ml rail):** 315 ml mango pisco, 140 ml manzanilla, 70 ml dry vermouth,
+- **Batch (7 serves, 700 ml rail):** 315 ml mango pisco, 140 ml La Guita Manzanilla, 70 ml dry vermouth,
   17.5 ml simple syrup, 6 ml Angostura, 1 ml 20% saline, 140 ml water. About 22% ABV, 1.7 standard
   drinks, dry. Use within 2 weeks.
 - **Mango pisco:** 300 g diced ripe mango in 700 ml pisco, fridge, 48 hours, then strain through
@@ -192,15 +202,15 @@ house rules, use at most 2 fresh ingredients at batching and at most 1 at servic
 
 | Drink | Technique | Bridge | Sherry | Fresh at batching | At service |
 |---|---|---|---|---|---|
-| Fresa Entera | The same fruit raw and roasted; acids matched to strawberry's own | Roasting builds caramel notes (furaneol, already strawberry's signature); raw juice keeps the esters heat drives off | Fino | Strawberries | Nothing (built) |
-| Shortcake | Brown-butter fat-wash of the pisco | Butter and strawberry share their creamy lactones (γ- and δ-decalactone) | Manzanilla | Strawberries, butter | Lemon |
-| Fresa Miso | Strawberry caramel finished with white miso | Miso and strawberry share furaneol; miso's sotolon is the caramel-maple note of aged sherry | Elegante Medium | Strawberries | Lemon |
+| Fresa Entera | The same fruit raw and roasted; acids matched to strawberry's own | Roasting builds caramel notes (furaneol, already strawberry's signature); raw juice keeps the esters heat drives off | Tío Pepe Fino | Strawberries | Nothing (built) |
+| Shortcake | Brown-butter fat-wash of the pisco | Butter and strawberry share their creamy lactones (γ- and δ-decalactone) | La Guita Manzanilla | Strawberries, butter | Lemon |
+| Fresa Miso | Strawberry caramel, finished with white miso or just salt | Miso and strawberry share furaneol; miso's sotolon is the caramel-maple note of aged sherry | Elegante Medium | Strawberries | Lemon |
 
 Leftover pulp from the Shortcake and Fresa Miso macerations can go into Fresa Entera's roast.
 
 ### Fresa Entera (whole strawberry)
 
-- **Per drink (built):** 40 ml pisco and 15 ml fino (batched, 55 ml), 30 ml two-way strawberry
+- **Per drink (built):** 40 ml pisco and 15 ml Tío Pepe Fino (batched, 55 ml), 30 ml two-way strawberry
   cordial over cubes in a highball, top with 90 ml soda, one lift with a bar spoon.
 - **Two-way cordial (about 1 L, 33 drinks):**
   1. Day 1: 1 kg hulled, halved strawberries and 400 g sugar, covered in the fridge for 24 hours.
@@ -211,18 +221,25 @@ Leftover pulp from the Shortcake and Fresa Miso macerations can go into Fresa En
   3. Combine, then stir in 25 g citric and 6 g malic acid (roughly strawberry's own mix: mostly
      citric, some malic) and 2 ml sorbate stock. A month in the fridge; freeze half.
 - **Numbers:** about 185 ml, 9.9% ABV, 13.4:1. Bright red-pink.
-- **Why fino:** the roasted side already brings the caramel, so a fino's almond and bread make it
-  a strawberry tart rather than a jam. Use within 2–3 weeks of opening the fino.
+- **Why Tío Pepe:** the roasted side already brings the caramel, so the fino's toasted almond and
+  bread make it a strawberry tart rather than a jam. Use within 2–3 weeks of opening; Inocente
+  (375 ml, fuller) is the half-bottle option.
 
 ### Shortcake (brown-butter strawberry)
 
-- **Per drink:** 40 ml brown-butter pisco and 15 ml manzanilla (batched), 30 ml raw strawberry
+- **Per drink:** 40 ml brown-butter pisco and 15 ml La Guita Manzanilla (batched), 30 ml raw strawberry
   cordial, 20 ml lemon. Shake 5–8 seconds, dump, fresh cubes, top with 70 ml soda.
 - **Brown-butter pisco (about 660 ml):** cook 100 g unsalted butter until the solids are
   hazelnut-brown and it smells nutty (5–7 minutes), cool to about 50 °C, and stir it into 700 ml
   pisco in a wide container. Stand 4 hours at room temperature, stirring now and then, then
   freeze overnight (back of house), lift off the fat and coffee-filter. Keeps a month or more in
   the fridge.
+- **Test it first (200 ml pisco each):** 15 g and 30 g brown butter (the 50 g and 100 g per 700 ml
+  doses) against plain pisco, in a finished drink. Fat-washing works on any 40% spirit (the
+  bacon-washed bourbon in PDT's Benton's Old Fashioned made it famous), but pisco is unaged and
+  aromatic, so the butter can bury the grape. Pick the lighter dose if the pisco disappears; drop
+  the idea if both do. Keep the washed pisco cold and use it within a month: any fat left behind
+  can turn rancid.
 - **Raw strawberry cordial:** as for Fresas con Crema (1 kg frozen strawberries and 500 g sugar,
   24 hours, strained). Add 2 ml sorbate stock for a month, or freeze half.
 - **Numbers:** about 195 ml, 9.3% ABV, 10.4:1. Pink.
@@ -233,7 +250,7 @@ Leftover pulp from the Shortcake and Fresa Miso macerations can go into Fresa En
 - **Allergen:** contains milk. Say "brown butter" on the menu, not "noisette", so nobody reads it
   as hazelnut.
 
-### Fresa Miso (strawberry miso caramel)
+### Fresa Miso (strawberry caramel, miso optional)
 
 - **Per drink:** 55 ml pisco–Medium batch (the same rail bottle as Fresa y Jerez and Mango Asado),
   25 ml strawberry miso caramel, 10 ml lemon. Shake, dump, fresh cubes, top with 80 ml soda.
@@ -251,6 +268,9 @@ Leftover pulp from the Shortcake and Fresa Miso macerations can go into Fresa En
   also the caramel-maple note of aged, oxidative sherry like the Medium (Cobber's sherry profile is
   still a placeholder, so that link is from the literature, not Cobber).
 - **Allergen:** contains soy; check the miso's label for barley or wheat (gluten).
+- **Without the miso:** leave it out and add 2 g salt to the caramel instead (salted caramel; the
+  salt keeps it from tasting flat). The core bridge stays: furaneol smells of both caramel and
+  strawberry. Everything else, and the numbers, stay the same, and the soy note goes.
 
 ## Sources
 
