@@ -29,13 +29,14 @@ Tall, Juicy, Tangy
 
 | Ingredient | Amount |
 |---|---|
-| FORVM Chardonnay vinegar | 120 ml |
-| Citric acid | 21 g |
-| Malic acid | 7 g |
+| Moro Sherry Vinegar (Vinagre de Jerez D.O.P., 250 ml bottle) | 120 ml |
+| Citric acid | 18 g |
+| Malic acid | 6 g |
 | Salt | 1.5 g |
 
 3. Taste 15 ml with 45 ml cold soda. If it's flat, add 3 g citric and 1 g malic and taste again;
-   at most twice. It should taste like a bright strawberry soda, with no prickle in the nose.
+   at most twice. (Sherry vinegar is sharper than FORVM, hence the lower start. With FORVM
+   Chardonnay instead, start at 21 g citric and 7 g malic.) It should taste like a bright strawberry soda, with no prickle in the nose.
 4. Bottle full to the top, label and date. Fridge, and rest 2 days before batching.
 
 **Keeps:** about 3–4 weeks in the fridge without sorbate (not yet tested); freeze half on day 0 if
@@ -86,12 +87,13 @@ About 190 ml, 10.2% ABV, 1.54 standard drinks. 7 full pours per rail bottle.
 | Item | Where | Notes |
 |---|---|---|
 | Elegante Medium sherry | Summer Hill Wine Shop | $25, $19.99 in any six; 140 ml per rail |
-| FORVM Chardonnay vinegar, 250 ml | Supermarket gourmet vinegar shelf | About $23–26; 120 ml per shrub batch |
+| Moro Sherry Vinegar (Vinagre de Jerez D.O.P.), 250 ml | Supermarket vinegar shelf | Cheap; 120 ml per shrub batch. FORVM Chardonnay (about $23–26) is the gentler backup |
 | Frozen strawberries, 1 kg | Supermarket | One bag per shrub batch |
 | Pisco, demerara, white sugar, black peppercorns, citric, malic, salt, soda | Bar stock | |
 
-Cost: pisco and sherry about $3.40 a drink, shrub about 60c (mostly the FORVM), soda and garnish
-about 20c: roughly $4.20 a drink, assuming frozen strawberries at about $8 a kilo.
+Cost: pisco and sherry about $3.40 a drink, shrub about 35–40c with Moro sherry vinegar, soda and
+garnish about 20c: roughly $4.00 a drink, assuming frozen strawberries at about $8 a kilo (check the
+Moro price).
 
 **Allergens:** sulphites (sherry and vinegar). No nuts; the nutty taste comes from the sherry.
 
