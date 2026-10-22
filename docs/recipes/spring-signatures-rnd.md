@@ -52,6 +52,15 @@ House rules these follow:
 
 It comes out about 1.6 times as strong as the juice.
 
+**Why freeze, not boil, and why the cucumber rum (2026-10-22):** H2melon is long-life with no
+preservatives, which almost always means heat treatment (the brand doesn't say), so it carries a
+slightly cooked note that freeze-concentration concentrates along with everything else. Don't
+reduce it with heat: that adds more cooked notes. The cucumber rum offsets it: much of fresh-cut
+watermelon's green smell comes from the same aldehydes that make cucumber smell like cucumber, and
+those are the first notes processing strips out, so the cucumber puts them back. Keep the cucumber
+steep cold, strain at 24–48 hours and check it weekly. (Cobber has no watermelon or cucumber profile
+yet, so this is from flavour chemistry, not Cobber.)
+
 **About H2melon:** watermelon juice with cane juice, not from concentrate, 9.5 g sugar and 40 mg
 sodium per 100 ml. Use it within 3 days of opening, so freeze it the day you open it. Sold at
 Dan Murphy's, IGA and Chemist Warehouse (1.25 L bottles and 500 ml cans).
