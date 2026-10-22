@@ -248,13 +248,26 @@ liqueur : 5 agave, at about 14% less spirit cost per drink than a 70 ml pour.
 | **60 ml** | **660 ml** | |
 
 **Into the tin:** 60 ml batch + 30 ml apricot purée + 20 ml lime (use 17.5 ml
-for a softer drink). Shake hard and single-strain (Hawthorne only).
+for a softer drink). Shake hard and short (6–8 s; the ice in the glass does
+the rest of the dilution) and single-strain (Hawthorne only) over fresh
+cubed ice in a rocks glass.
 
 **The drink (estimated):** 110 ml into the tin gives about 134 ml in the glass
 at about 14% ABV (about 1.5 standard drinks), with about 9.3 g sugar per
 100 ml and about 1.1% acid. The batch is about 31% ABV, so it is
 shelf-stable. Floc's fresh grape notes fade, so make bottles to last about
 1–2 weeks and keep them in the cool room overnight.
+
+**Why 13 ml of Floc:** at around 17% ABV it is gentle, and at 5–7 ml its
+honey and stone-fruit notes disappear behind the tequila, smoke, lime and
+purée. It also does double duty as part of the sweetener, which is why the
+agave is so small. If it reads too strong, go to 10 ml Floc and add 2.5 ml
+tequila and 1 ml agave per pour. Cobber can't score Floc (it is not in the
+data), so this comes from bartending judgement and the sugar maths.
+
+**Without apricot liqueur (test):** replace its 47.5 ml in the bottle with
+tequila; the drink comes out a touch drier. If the apricot fades, add 30 ml
+of Monin peach to the purée batch.
 
 **Why these numbers:** Floc, apricot liqueur and the purée all bring sugar,
 so the agave stays small. The old build (45 tequila + 10 agave + purée +
