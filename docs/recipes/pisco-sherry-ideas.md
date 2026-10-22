@@ -279,8 +279,35 @@ sour strawberry soda: if it's flat, add citric 2 g at a time; if it's sharp, giv
   100 ml or so if you don't mind a hazier shrub.
 - Whisk in 240 ml vinegar, 1.5 g salt and the acids, then 2 ml sorbate stock. About 1.2 L,
   40 drinks.
-- **Acids:** with sherry vinegar (7%), 18 g citric and 5 g malic; with FORVM Chardonnay (milder),
-  about 22 g citric and 6 g malic. Taste and adjust.
+- **Acids:** set by the bump test below. First tasting (2026-10-22) with FORVM and 22 g citric
+  plus 6 g malic was too sharp and tangy: FORVM is more acidic than estimated, so treat those
+  amounts as a ceiling, not a start.
+
+**Bump test (finding the acid):**
+1. **Acid stock:** 22.5 g citric and 7.5 g malic (3:1, strawberry's own balance), dissolved in
+   warm water and topped up to 100 ml. That's 0.3 g acid per ml, the same strength as the cobbler
+   acid solutions. Label it; it keeps for months.
+2. **Base shrub with no added acid:** strawberry syrup, vinegar and salt only. Rest it 2 days
+   first, so the vinegar mellows before you judge it; the citric and malic don't need resting.
+3. **Step 0:** take 200 ml of base. Taste 15 ml with 45 ml cold soda over ice (the 1:3 QC mix).
+   Sip and spit.
+4. **Bump:** add 2 ml acid stock to the 200 ml (1 ml per 100 ml, 0.3 g acid), stir, taste again.
+   A 5 ml syringe from the pharmacy makes this exact. Repeat up to 8 bumps.
+5. **Note two points:** the first bump where it tastes like bright strawberry, and the bump
+   where it tips into sharp. If in doubt, take the one before sharp.
+6. **Confirm blind** in two half-size finished drinks (27.5 ml batch, 15 ml shrub, 45 ml soda):
+   your pick against one bump lower.
+7. **Scale:** each bump is 1 ml stock per 100 ml of shrub. For example, 4 bumps on a 1.2 L batch
+   is 48 ml stock, or 10.8 g citric and 3.6 g malic weighed dry.
+
+What right tastes like: strawberry first, a clean sourness at the front, a little lingering tang,
+and no prickle in the nose or throat. That prickle is the vinegar's acetic acid, not the citric.
+
+- **Sharp even at step 0:** the vinegar is doing all the work. Rest the base another 2–3 days,
+  and cut the FORVM to 180 ml per batch next time.
+- **The batch that's already too sharp:** rest it 2–3 days and taste again. If it's still sharp,
+  blend in plain strawberry syrup from a new maceration (no vinegar, no acid) about 10% at a time
+  until it comes back. That's the same test in reverse.
 
 ### Fresa Caramelo (the deep one)
 
