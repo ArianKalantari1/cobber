@@ -47,6 +47,7 @@ The Osborne Bailén Oloroso and Osborne Fino Quinta are no longer listed.
 
 | Item | Where | For | Notes |
 |---|---|---|---|
+| FORVM Chardonnay vinegar, 250 ml | Supermarket gourmet vinegar shelf (seen 2026-10-22), about $23–26 | Fresa Tostada | Stand-in for sherry vinegar: oak-aged, sweet-sour. Pair with a cheap white wine vinegar (Moro, La Nova) for deglazing |
 | Passionfruit pulp, 170 g | Woolworths | La Pasión tests | 20.1 g sugar per 100 g; one can makes 3 test drinks |
 | John West passionfruit pulp, 840 g | Food-service case of 12 | La Pasión service | 21.4 g sugar per 100 g |
 | Apricot halves in syrup, 825 g | Woolworths | C'est Chamoy | The full-can chamoy recipe |

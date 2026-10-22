@@ -261,6 +261,16 @@ two.
      citric, 5 g malic and 1 g salt. Half the vinegar is cooked (mellow, part of the caramel) and
      half raw (bright). About 1.2 L, 40 drinks; a month in the fridge (2 ml sorbate stock for
      insurance).
+- **Vinegar if there's no sherry vinegar** (supermarket shelves, 2026-10-22): deglaze with a cheap
+  white wine vinegar (Moro or La Nova, about $3.50 for 500 ml) and use FORVM Chardonnay vinegar
+  (Penedès, oak-aged by a solera-like method, 70% Chardonnay vinegar and 30% grape juice, about
+  $23–26 for 250 ml) for the raw half. Cook with the cheap one, finish with the good one: one
+  FORVM bottle covers 2½ batches, about 25c a drink. It's milder than sherry vinegar, so raise
+  the citric to about 23 g. Skip the Cabernet FORVM (red, it browns the pink), apple cider
+  vinegars (apple is an owner overlap), the raspberry, pomegranate, date and fig-honey-vanilla
+  caramelised balsamics (overlaps), dark balsamic and red wine vinegar (colour), and glazes.
+  Caramelised white balsamic (for example Tar10) is mostly sugar and burnt sugar with a little
+  vinegar: it could stand in for the pan step, but it's generic caramel, not toasted strawberry.
 - **Per drink:** the same build: cubes, 55 ml pisco–Medium batch, 30 ml cordial, 90 ml soda, one
   lift.
 - **Numbers:** about 185 ml, 10.1% ABV, 1.5 standard drinks, 13.6:1, sugar about 8.8 g per 100 ml.
@@ -294,6 +304,9 @@ thirst-quenching. Strawberries with balsamic under a crème-brûlée crust, in a
 - Menu overlaps: [menu.json](../menu/menu.json)
 - Strawberry gum: [Warndu](https://warndu.com/blogs/first-nations-food-guide/warndu-strawberry-gum),
   [FISH](https://shop.fish.asn.au/products/strawberry-gum-leaf-dried-ground)
+- FORVM vinegars: [Simon Johnson](https://simonjohnson.com/product/forvm-bittersweet-chardonnay-vinegar-3-years-500ml/),
+  [Sous Chef](https://www.souschef.co.uk/products/forum-chardonnay-vinegar-500ml)
+- Caramelised vinegar make-up: [Pukara Estate](https://pukaraestate.com.au/products/caramelised-balsamic-vinegar)
 - Sherry vinegar acidity: [Quill & Pad](https://quillandpad.com/2023/05/11/sherry-vinegar-a-truly-wonderful-indulgence-for-your-kitchen/)
 - Mango and cashew cross-reactivity: [AAAAI](https://www.aaaai.org/ask-the-expert/cross-reactivity-papaya-mango-cashew.aspx),
   [Karger](https://karger.com/iaa/article/178/1/19/168275)
