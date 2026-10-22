@@ -236,18 +236,20 @@ dissolve 500 g sugar; frozen strawberries do. There's no citric because their dr
 at service. Champagne vinegar (Chardonnay and Pinot wines, FORVM's cousin) is the swap if FORVM
 is too sharp.
 
-**Batch (700 ml rail, 12 drinks):** 510 ml pisco, 190 ml Elegante Medium.
+**Batch (700 ml rail, 12 drinks), pisco to Medium 40 : 17.5 (chosen 2026-10-22):** 480 ml pisco,
+210 ml Elegante Medium.
 
-**Build:** highball full of cubes, 55 ml batch, 30 ml shrub, top with 90 ml soda, one lift.
+**Build:** highball full of cubes, 60 ml batch (one jigger), 30 ml shrub, top with 90 ml soda, one
+lift.
 
-**Full batch option (shrub in the bottle):** per 700 ml rail, 320 ml pisco, 120 ml Elegante Medium
-and 240 ml shrub (8 drinks, 680 ml). About 22% ABV and 20 g sugar per 100 ml, acidic, kept in the
+**Full batch option (shrub in the bottle):** per 700 ml rail, 320 ml pisco, 140 ml Elegante Medium
+and 240 ml shrub (8 drinks, exactly 700 ml). About 22% ABV and 20 g sugar per 100 ml, acidic, kept in the
 cool room. That's liqueur territory, so it's safe for well over a month. The limit is quality:
 strawberry's red and its fresh aroma fade faster in alcohol, drifting to orange-brown and jammy.
 Expect it at its best for about 2 weeks (not yet tested; check colour and taste on days 7, 14 and
 21), so make 2 weeks' worth at a time, keep it dark and the bottles full, and add no water.
 Service: highball full of cubes, 90 ml batch (a 60 and a 30 jigger), top with about 90 ml soda,
-one lift. About 190 ml, 10.4% ABV, 1.55 standard drinks; 7 pours per 700 ml rail. If it's too
+one lift. About 190 ml, 10.3% ABV, 1.54 standard drinks; 7 pours per 700 ml rail, plus a short one. If it's too
 sweet or strong, drop to 80 ml; if it's thin, go to 100 ml. Elegante Medium suits the drum because it's
 already oxidised; a fino or manzanilla would fade within weeks.
 
@@ -260,6 +262,7 @@ in the full batch (90 ml pour, 90 ml soda):
 | 40 : 15 | 320 ml pisco, 120 ml Medium | 10.4%, 1.55 std | Pisco-led; caramel and cocoa only a hint |
 | 37.5 : 17.5 (start here) | 300 ml pisco, 140 ml Medium | 10.1%, 1.50 std | Balanced: grape and strawberry up front, toasted caramel and cocoa in the middle |
 | 35 : 20 | 280 ml pisco, 160 ml Medium | 9.7%, 1.45 std | Sherry-led; pisco recedes (below the 2:1 hero line) |
+| **40 : 17.5 (chosen)** | 320 ml pisco, 140 ml Medium | 10.3%, 1.54 std | Pisco stays the hero (2.3:1) with more caramel and cocoa; fills the rail exactly |
 
 Pick the split where you can still name the pisco on the first sip and find the cocoa on the
 finish. If the cocoa is still shy at the split you like, add it without more sherry:
