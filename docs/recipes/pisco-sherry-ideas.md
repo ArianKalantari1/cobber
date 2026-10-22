@@ -265,7 +265,11 @@ already oxidised; a fino or manzanilla would fade within weeks.
    hours, because fresh berries give up juice more slowly than frozen.
 5. **Keep the aroma in:** never heat the shrub, fill bottles to the top, and keep everything cold.
    The freeze-dried garnish puts strawberry on the nose, which is most of what we taste.
-Garnish: 2–3 freeze-dried strawberry slices. About 185 ml, 10% ABV, 1.5 standard drinks.
+Garnish: 2–3 freeze-dried strawberry slices and one light twist of black pepper over the top.
+The pepper in the shrub is warmth through the sip; the fresh grind is the first thing on the
+nose, and fresh-ground pepper loses its aroma fast, so it does more on top than in a bottle.
+One twist only: more gets sneezy and sticks to lips and straw. On a slammed night, skip the
+grind; the shrub still carries the pepper. About 185 ml, 10% ABV, 1.5 standard drinks.
 
 Later tests, one at a time, only after this works: La Guita instead of the Medium, then the
 strawberry boosters below. No blender: the strained maceration keeps better and leaves no pulp in
