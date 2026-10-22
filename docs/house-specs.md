@@ -209,8 +209,8 @@ blend, vitamin C and salt. No dried apricot, no cooking, no agave, no sieve
 |---|---|---|
 | Canned apricot halves | all of the fruit (about 480 g) | body and flavour |
 | Can syrup | **half** of it (about 170 g); discard the rest | less sugar, more apricot |
-| Malic acid | 5 g | apricot's own main acid, which tastes like fresh fruit |
-| Citric acid | 2 g | brightness, and a lower pH (aim for 3.5 or below; check with cheap pH strips) |
+| Malic acid | 5–6 g | apricot's own main acid, which tastes like fresh fruit |
+| Citric acid | 2–3 g | brightness, and a lower pH (aim for 3.5 or below; check with cheap pH strips) |
 | Ascorbic acid (vitamin C), optional | 1 g | colour only; skip unless a test batch browns (check the can label first: many canned fruits already list antioxidant 300). Two crushed plain 500 mg tablets (not chewable or effervescent) do the job |
 | Salt | 1 g | lifts the fruit |
 | Potassium sorbate (optional) | 0.5 g, dissolved in a little warm water | yeast and mould control; roughly doubles fridge life |
@@ -247,8 +247,9 @@ liqueur : 5 agave, at about 14% less spirit cost per drink than a 70 ml pour.
 | 4.25 ml | 47.5 ml | agave nectar, straight (95 ml if your agave is cut 1:1) |
 | **60 ml** | **660 ml** | |
 
-**Into the tin:** 60 ml batch + 30 ml apricot purée + 17.5 ml lime (the purée
-now carries more acid: about +0.15 g per drink, the same as 2.5 ml of lime). Shake hard and short (6–8 s; the ice in the glass does
+**Into the tin:** 60 ml batch + 30 ml apricot purée + 15–20 ml lime. With 7 g
+of acid per can, use 17.5 ml lime; with 9 g, use 15 ml. Each extra 2 g of acid
+per can is about 1.6 ml less lime per drink. Set the lime by taste. Shake hard and short (6–8 s; the ice in the glass does
 the rest of the dilution) and single-strain (Hawthorne only) over fresh
 cubed ice in a rocks glass.
 
