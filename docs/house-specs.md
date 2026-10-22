@@ -190,56 +190,51 @@ replacement for Averna, and choose plain cocoa over mole-style.
 
 ---
 
-## Summer Fling: apricot cordial
+## Summer Fling: apricot purée
 
-**Problem:** with canned apricot in syrup, the apricot didn't come through and
-the drink didn't taste fresh. Apricot brandy helped.
+**Build:** three things go into the tin: the batch (tequila, agave, mezcal,
+Floc de Gascogne, and apricot brandy if needed), the apricot purée, and lime
+juice. This section covers only the purée.
 
-**Fix:** replace half the can syrup with agave, add dried apricot and a little
-peach for depth and colour, and add a fresh-fruit acid blend plus salt.
+**Problem:** canned apricot in its full syrup tasted flat and not fresh, and
+the apricot didn't come through.
+
+**Fix:** a raw purée (no cooking, no agave; the agave lives in the batch).
+Use half the can syrup for less sugar and more apricot per ml. Add cold-soaked
+dried apricot and a little peach for depth and colour, a fresh-fruit acid
+blend, vitamin C to stop browning, and salt.
 
 **What Cobber found:** peach is apricot's closest partner (harmony 0.36). They
-share the "stone fruit" lactones (gamma- and delta-decalactone) and
-beta-ionone. A small amount of the Monin peach already stocked for Sangria
-Branco makes the apricot taste riper, with no new prep. Elderflower (0.18,
-through linalool and nerol oxide) is an optional floral lift. Cobber's
-tequila, mezcal and agave profiles are placeholders, so it can't score those
-links.
+share the stone-fruit lactones (gamma- and delta-decalactone) and
+beta-ionone, so a little peach makes the apricot read riper.
 
-**Batch (one 825 g can, makes about 700 ml):**
+**One 825 g can, makes about 650–700 ml:**
 
 | Ingredient | Amount | Why |
 |---|---|---|
 | Canned apricot halves | all of the fruit (about 480 g) | body and flavour |
-| Can syrup | **half** of it (about 170 g) | sugar and apricot |
-| Agave syrup | the same weight as the syrup removed (about 170 g) | rich texture; the menu already lists agave |
-| Dried apricots (bright orange, sulphured) | 50 g | concentrated apricot flavour and a deeper orange colour |
-| Monin peach purée | 30 ml | stone-fruit lactones make the apricot read riper |
-| Malic acid | 4 g | apricot's own main acid, which tastes like fresh fruit |
-| Citric acid | 2 g | brightness |
-| Ascorbic acid (vitamin C) | 1 g | antioxidant that keeps the colour from browning |
-| Salt | 1 g | lifts the fruit and rounds the sweetness |
+| Can syrup | **half** of it (about 170 g); discard the rest | less sugar, more apricot |
+| Dried apricots (bright orange) | 50 g, soaked **cold** in that syrup for 2 h or overnight in the fridge | concentrated apricot flavour and deeper colour |
+| Monin peach purée (optional) | 30 ml | makes the apricot read riper |
+| Malic acid | 3 g | apricot's own main acid, which tastes like fresh fruit |
+| Citric acid | 1 g | brightness (the lime in the tin does the real souring) |
+| Ascorbic acid (vitamin C) | 1 g | stops browning and keeps the orange bright |
+| Salt | 1 g | lifts the fruit |
 
-**Method:**
+**Method:** soak the dried apricots cold in the reserved syrup. Blend
+everything on high for 1–2 min until very smooth, then pass through a fine
+sieve to remove skin and fibre while keeping the body. Pour into a squeeze
+bottle and label and date it.
 
-1. Drain the can and weigh the syrup. Keep half of it.
-2. Warm that syrup with the agave to about 60 °C (don't boil it, or it tastes
-   cooked). Add the dried apricots and steep for 30 min.
-3. Blend everything except the acids and salt until smooth.
-4. Add the malic, citric and ascorbic acids and the salt, then blend again.
-5. Fine-strain through a chinois or fine sieve. A coffee filter is too fine
-   for purée.
-6. Bottle in an opaque bottle, then label and date it. Keep it in the fridge
-   and use within 10–14 days, or freeze portions.
+**Storage:** fridge, and use within 5 days, since it is raw and lower in sugar
+than the old full-syrup version. Freeze extra portions in an ice-cube tray to
+keep it for weeks.
 
-The batch lands at roughly 24–28 °Brix: a fruit-forward cordial, less sweet
-than Monin purées.
+**Sweetness:** roughly 15–18% sugar, so it is less sweet than the full-syrup
+version or a Monin purée. The sweetness comes from the agave in the batch.
 
-**In the drink:** the cordial now carries acid and agave, so on a first build
-take **5 ml off the lime** and drop any separate agave, then taste. 30 ml of
-cordial per drink gives about 23 drinks per batch. Keep the apricot brandy if
-the owner likes it. For smoke, a 5 ml mezcal float works (the menu base is
-tequila).
+**In the drink:** 30 ml per drink gives about 22 drinks a batch. Taste the
+first build and balance with the lime.
 
 ---
 
