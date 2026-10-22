@@ -200,8 +200,9 @@ didn't come through.
 
 **Fix:** the apricot liqueur in the batch carries the apricot intensity, so
 the purée stays simple: canned fruit, half the syrup, a fresh-fruit acid
-blend, vitamin C and salt. No dried apricot, no cooking, no agave, no sieve
-(the texture is like a frozen margarita).
+blend and salt. No dried apricot, no cooking, no agave, no sieve (the
+texture is like a frozen margarita). Generous acid because the starting pH of
+the canned fruit is unknown; the lime in the tin is set by taste to match.
 
 **One 825 g can, makes about 600–650 ml:**
 
@@ -211,7 +212,7 @@ blend, vitamin C and salt. No dried apricot, no cooking, no agave, no sieve
 | Can syrup | **half** of it (about 170 g); discard the rest | less sugar, more apricot |
 | Malic acid | 5–6 g | apricot's own main acid, which tastes like fresh fruit |
 | Citric acid | 2–3 g | brightness, and a lower pH (aim for 3.5 or below; check with cheap pH strips) |
-| Ascorbic acid (vitamin C), optional | 1 g | colour only; skip unless a test batch browns (check the can label first: many canned fruits already list antioxidant 300). Two crushed plain 500 mg tablets (not chewable or effervescent) do the job |
+| Vitamin C, optional | 1 g = 2 crushed Cenovis Sugarless C 500 mg tablets (supermarket) | colour only; skip unless a test batch browns (check the can label first: many canned fruits already list antioxidant 300). The orange chewable flavour doesn't show at this dose |
 | Salt | 1 g | lifts the fruit |
 | Potassium sorbate (optional) | 0.5 g, dissolved in a little warm water | yeast and mould control; roughly doubles fridge life |
 | Monin peach purée (optional) | 30 ml | stone-fruit lactones make the apricot read riper (harmony 0.36) |
@@ -222,8 +223,15 @@ jug, and label and date it (note "contains preservative 202" if you use
 sorbate). Never add sodium benzoate alongside the vitamin C.
 
 **Storage:** fridge or ice well. Use within 5 days, or 10–14 days with
-sorbate. Frozen portions keep 2–3 months. Out of temperature control, the
-4-hour rule applies.
+sorbate. Out of temperature control, the 4-hour rule applies.
+
+**Freezing (once weekly sales are known):** make big batches, freeze flat in
+Ziploc bags sized to service (e.g. 300 ml = 10 drinks), and label them
+"apricot purée" with the date. They keep 2–3 months frozen. Thaw in the
+fridge and never refreeze. Freezing pauses the clock but doesn't reset it:
+fridge days before freezing plus after thawing must stay within 5 days (or
+10–14 with sorbate). Freeze on the day you make it. Cans per week = drinks
+sold ÷ 20.
 
 **Apricot liqueur in the batch:** it brings sugar as well as apricot, so for
 every 10 ml of apricot liqueur per drink, take about 3 ml of agave out of the
