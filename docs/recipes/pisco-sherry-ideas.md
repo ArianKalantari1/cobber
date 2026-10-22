@@ -251,6 +251,25 @@ one lift. About 190 ml, 10.4% ABV, 1.55 standard drinks; 7 pours per 700 ml rail
 sweet or strong, drop to 80 ml; if it's thin, go to 100 ml. Elegante Medium suits the drum because it's
 already oxidised; a fino or manzanilla would fade within weeks.
 
+**Balancing pisco and Elegante (target: juicy strawberry with caramel and cocoa underneath):**
+Keep the spirits at 55 ml a drink so the strength barely moves, and test three splits side by side
+in the full batch (90 ml pour, 90 ml soda):
+
+| Split (pisco : Medium) | Per 700 ml rail (+240 ml shrub) | Drink | Expect |
+|---|---|---|---|
+| 40 : 15 | 320 ml pisco, 120 ml Medium | 10.4%, 1.55 std | Pisco-led; caramel and cocoa only a hint |
+| 37.5 : 17.5 (start here) | 300 ml pisco, 140 ml Medium | 10.1%, 1.50 std | Balanced: grape and strawberry up front, toasted caramel and cocoa in the middle |
+| 35 : 20 | 280 ml pisco, 160 ml Medium | 9.7%, 1.45 std | Sherry-led; pisco recedes (below the 2:1 hero line) |
+
+Pick the split where you can still name the pisco on the first sip and find the cocoa on the
+finish. If the cocoa is still shy at the split you like, add it without more sherry:
+
+- **Cacao nib pisco:** 10 g lightly toasted cacao nibs per 700 ml pisco for 24 hours, then
+  coffee-filter (taste at 12 hours). Cocoa and roast with no sugar and no vanilla, so the pisco can
+  stay forward. It also fits the name: Ferrero's Mon Chéri is a chocolate. Buy nibs without a "may
+  contain nuts" warning.
+- **More caramel:** 300 g of the shrub's 600 g sugar as demerara (browns the colour a little).
+
 **More strawberry (try in this order):**
 1. **Freeze-dried strawberry powder in the shrub:** 15 g per litre (blitz the garnish slices).
    Freeze-dried fruit is about a tenth of its fresh weight, so that's roughly 150 g extra
