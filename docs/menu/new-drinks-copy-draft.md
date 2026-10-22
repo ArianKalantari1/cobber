@@ -9,7 +9,7 @@ Tall, Juicy, Tangy
 
 Mando Raspberry Fizz
 Bourbon, Raspberry, Mandarin, Balsamic, Lemon
-Fruity, Silky, Fizzy
+Fruity, Silky, Warming
 
 Kiwi Gimlet
 Gin, Kiwi, Makrut Lime, Lime
@@ -23,8 +23,11 @@ Pisco, Mon Sherry: see [../recipes/pisco-mon-sherry.md](../recipes/pisco-mon-she
 **Mando Raspberry Fizz:** 60 bourbon, 30 raspberry mandarin balsamic shrub, 20 lemon, 4 drops
 Wonderfoam; dry shake, dump, ice, top with soda. Apéritif Cosmo glass; thyme on the side with a peg.
 The shrub is currently the leftover mandarin shrub with raspberries and balsamic added.
-- Descriptors: Fruity (raspberry, mandarin), Silky (the foam), Fizzy (the soda). "Red Berry" is
-  already the Clover Club's and Very Sexy Martini's; "Juicy, Tangy" are Pisco, Mon Sherry's.
+- Tasted 2026-10-22: surprisingly fruity, silky, with a subtle bourbon warmth coming through; very
+  good. Descriptors follow that order: Fruity (raspberry, mandarin), Silky (the foam), Warming (the
+  bourbon). "Fizz" in the name covers the soda. "Boozy" would scare off the fruity crowd and "Oaky"
+  reads heavy. "Red Berry" is the Clover Club's and Very Sexy Martini's; "Juicy, Tangy" are Pisco,
+  Mon Sherry's.
 - The ingredient line leaves out soda (the name says Fizz) and the foamer. No egg mark: Wonderfoam
   replaces egg white.
 - Third raspberry drink after the Clover Club and Very Sexy Martini.
