@@ -8,88 +8,110 @@ None of it has been taste-tested yet unless a section says so.
 
 ## Olivia (venue owner's signature)
 
-**Original:** 45 gin · 7.5 amaretto · 7.5 honey syrup · 7.5 olive oil · 10 lemon ·
-foamer · basil leaf garnish.
-**As made in practice:** 45 gin · 7.5 amaretto · 15 honey syrup · 20 lemon · foamer.
+**On the menu now:** Olive Oil Washed Gin, Amaretto, Honey, Lemon.
+**As made in practice:** 45 washed gin · 7.5 amaretto · 15 honey syrup · 20 lemon ·
+5 ml extra-virgin olive oil · foamer. The shaken oil gives a thick foam, but very
+little olive flavour.
 
-**What Cobber found:** amaretto with olive is the signature. It is a pairing the
-classic recipes never use (tradition 0) that still shares compounds (harmony 0.18).
-Whole-drink harmony was low (0.08). Of the single additions tested, French dry
-vermouth raised it most (to 0.114) and orange bitters also helped (0.104).
+**Where it's going:** a nutty, savoury, bright gin sour with the olive forward.
+The changes so far:
 
-### v2 service spec (pending owner tasting)
+- **No gin wash.** Plain house gin. The wash is too much work, and the olive now
+  comes from brine, oil and the garnish.
+- **No basil.** Drops of basil oil sank through the foam and you couldn't smell
+  them. Basil is out of the drink.
+- **Green olive brine for the olive.** It replaces the saline: no salt and no
+  saline once the brine is in. Brine brings the olive itself, which is what guests
+  recognise, not olive oil.
+- **One more liqueur next to the amaretto.** Maraschino or crème de pêche,
+  never both.
+- **Less gin (30 ml).** 45 ml of gin with the liqueurs came to about 2.2 standard
+  drinks. At 30 ml it is about 1.6–1.7.
+- **No orange bitters.** They made no difference in any scoring.
 
-| Per serve | ×8 (700 ml bottle) | |
-|---|---|---|
-| 45 ml | 360 ml | gin washed with olive oil |
-| 15 ml | 120 ml | French dry vermouth (Dolin / Noilly Prat) |
-| 7.5 ml | 60 ml | amaretto |
-| 12.5 ml | 100 ml | honey syrup |
-| 1 dash | 7 ml | orange bitters |
-| 2 drops | 1 ml | saline (20%) |
-| ≈ 81 ml | ≈ 648 ml | **batch** |
+### Testing versions (per serve)
 
-**Service:** 80 ml batch + 22.5 ml fresh lemon + foamer. Shake hard (a reverse dry
-shake gives a taller foam layer), double-strain into a chilled 180–220 ml coupe,
-then 3 drops of basil oil on the foam. If a guest wants more olive, add 2.5–5 ml
-olive oil to the shake.
+| | M1: maraschino + vermouth | M2: maraschino + vanilla | P: pêche + vanilla |
+|---|---|---|---|
+| Cobber (corrected) | 0.111 | 0.111 | 0.105 |
+| Style | drier, longer | softer, close to the Oliveto | the peach option |
+| House gin | 30 ml | 30 ml | 30 ml |
+| French dry vermouth | 15 ml | none | none |
+| Amaretto | 15 ml | 15 ml | 15 ml |
+| Maraschino | 7.5 ml (don't go higher) | 7.5 ml | none |
+| Crème de pêche | none | none | 10 ml |
+| Vanilla syrup | none | 2.5 ml | 2.5 ml |
+| Green olive brine | 7.5 ml | 7.5 ml | 7.5 ml |
+| **Batch pour** | **75 ml** | **62.5 ml** | **65 ml** |
 
-If the vermouth is too noticeable, use 10 ml vermouth and 25 ml lemon. The volume
-stays about the same.
+**Service (all versions):** batch pour + 20 ml lemon + foamer + 5 ml extra-virgin
+olive oil. Reverse dry shake, double-strain into a chilled 150–180 ml coupe.
+Garnish with a green olive on a pick across the rim and 1 pump of extra-virgin
+olive oil from an oil mister (e.g. the Cuisine::Pro Savor Oil Mister,
+Woolworths).
 
-**Batch storage:** about 28% alcohol, fine on the rail all shift, cool room
-overnight. Vermouth fades once opened, so make bottles to last about a week.
-Shake the bottle before service.
+**Tasting order:**
+1. M1 against M2 (drier with vermouth, or softer with vanilla). Bring in P only
+   if you'd rather have peach than maraschino. Make single serves; don't batch yet.
+2. Brine on the winner: 7.5 ml for Castelvetrano brine, 5 ml for ordinary green
+   olive brine (it's saltier). Go up by taste. If it tastes flat, add more brine,
+   not salt.
+3. Olive oil on the winner: 5 ml against 10 ml.
 
-### Gin washed with olive oil
-- 100 ml extra-virgin olive oil per 700 ml gin (up to about 140 ml for more olive).
-- A buttery oil (e.g. Arbequina) gives a rounder drink; a peppery oil
-  (Picual / Coratina) gives a more divisive peppery catch at the back of the throat.
-- Shake hard, rest 4–24 h at room temperature, freeze overnight, lift off the
-  solid oil, then **filter through a coffee filter** so the gin doesn't go
-  cloudy in the cool room.
-- Label and date it. The olive aroma fades after about 2–4 weeks.
+### Batch (the winner only)
 
-### Basil oil garnish (shelf-stable)
-Fresh basil in oil is a botulism risk at room temperature: low acid, sealed
-from air, and spores live on herbs. A good green colour doesn't mean it's safe.
-The safe version uses **fully dried basil**:
+| | M1 (9 serves, 675 ml) | M2 (10 serves, 625 ml) | P (10 serves, 650 ml) |
+|---|---|---|---|
+| House gin | 270 | 300 | 300 |
+| French dry vermouth | 135 | none | none |
+| Amaretto | 135 | 150 | 150 |
+| Maraschino | 67.5 | 75 | none |
+| Crème de pêche | none | none | 100 |
+| Vanilla syrup | none | 25 | 25 |
+| Green olive brine, coffee-filtered | 67.5 | 75 | 75 |
+| Keeps | about a week (the vermouth) | weeks | weeks |
 
-1. Microwave about 100 g fresh basil leaves in a single layer between paper towels,
-   in 30 s bursts (1.5–3 min total), until the leaves **crumble to dust** and are
-   still green. Any bendy or leathery leaf is not dry enough. Blanching first is
-   optional, and the leaves must still end up completely crisp.
-2. Crush the leaves (about 8–10 g dried) into 200 ml of 50/50 mild olive oil and
-   grapeseed oil. Optional: 1 tsp spinach powder for colour.
-3. Warm to about 60 °C, no hotter. Blend 1 min, steep 1–2 h, then strain through a
-   coffee filter and let it drip.
-4. Amber dropper bottle, on the rail, out of direct sun. Make 200 ml at a time.
+Change the brine line once the dose is set. Use one brand of brine (or mix
+several jars together) so the salt stays the same. Shake the bottle before
+pouring. **Never put olive oil in the batch:** it floats, pours unevenly and
+clouds in the cool room.
 
-Never use fresh leaves, water, or "lightly dried" tube basil (it still has
-moisture). Worth confirming with the council's food-safety officer.
+**Menu line:** the wash is gone, so it needs rewriting, e.g. *Gin, Olive,
+Amaretto, Maraschino, Lemon*.
 
-### Olivia: current direction
+### How Cobber scored it (and the three mistakes to avoid)
 
-- **Batch:** olive-oil-washed gin, French dry vermouth, amaretto, honey syrup,
-  orange bitters (not tried yet) and saline.
-- **At service:** batch, lemon, foamer and 5 ml extra-virgin olive oil. The
-  shaken oil thickens the foam, which the team liked.
-- **Olive oil can't go in the batch.** Oil doesn't dissolve in a spirit batch:
-  it floats as a layer, pours unevenly, and clouds or solidifies in the cool
-  room. Keep it as a 5 ml squeeze from a small bottle at service.
-- **Test:** plain gin + 5 ml oil at service against washed gin + 5 ml oil. If
-  most of the texture and olive character comes from the shaken oil, drop the
-  wash and save a prep.
-- **Garnish:** a basil tincture spray, not basil oil plus vodka (oil and vodka
-  separate and clog an atomiser). Blanch 30 g basil for 10 s, ice-bath it,
-  squeeze dry, blend with 200 ml high-proof vodka (50%+ if available), rest
-  30 min, and coffee-filter it. It is safe at room temperature, because the
-  botulism risk is in oil, not alcohol. Keep it in an amber atomiser; the green
-  fades in light over a few weeks. The spray adds aroma and a faint green
-  speckle. For bold green dots, keep the dried-basil oil drops instead.
-- **Leftover oil from the gin wash** can be reused as the 5 ml service oil or
-  as the base for the basil oil. Keep it in the fridge and use it within a
-  week.
+The "corrected" scores above leave out redundant matches, so they sit lower than
+the early numbers (the current restaurant spec scores 0.072 on this scale).
+
+1. **Citrus is not a bridge.** The house gin is very citrus-forward. Cobber's gin,
+   limoncello, lemon, lime and dry vermouth all carry lemon compounds, so raw
+   harmony rewards citrus on citrus. That is why limoncello first looked good
+   (0.198 → 0.302) and then fell to the bottom once citrus was ignored.
+2. **No duplicates, and nothing already inside another ingredient.** Amaretto and
+   almond are the same profile in Cobber. Orgeat is a subset of amaretto. Coriander
+   seed is a gin botanical.
+3. **Stop when it stops being Olivia.** Maximising average harmony pulls the drink
+   toward whatever links to amaretto (brandy, coffee). Gin stays the only base
+   spirit, and nothing dark goes in.
+
+Under these rules, olive's only real partner is amaretto (0.18). Maraschino and
+crème de pêche are the bottles on the bar that link to both olive and amaretto.
+Manzanilla is the best olive match (0.27), but it lowered the whole drink;
+Cobber's sherry is generic, so it's still worth one taste. The loop scripts are
+not in the repo.
+
+### Precedents
+- **Oliveto** (Pip Hanson, Marvel Bar, Minneapolis, around 2011): a gin sour with
+  Licor 43, extra-virgin olive oil and egg white. It's the family's best-known
+  drink. Its vanilla matches the M2 and P versions.
+- **"The Olivia"** (a published home recipe on Finding Time for Cooking): gin,
+  amaretto, honey, lemon, olive oil and egg white. It's almost the original Olivia,
+  with the same name, which is one more reason to move on.
+- **Olive brine with lemon:** Olive Sour (Great British Chefs), Safe Passage
+  (Essex, Seattle: 7.5 ml Castelvetrano brine).
+- Neither Cobber's recipe data nor a web search found olive paired with amaretto,
+  maraschino or peach. The direction looks new.
 
 ---
 
