@@ -3,7 +3,7 @@
 New signatures for the spring/summer menu, one per base: rum (Watermelon Reviver), pisco
 (La Pasión) and tequila (C'est Chamoy). Also the reinvented Olivia, which is already on the menu.
 Each drink has its current spec, batch and service, then tests, tasting notes and why.
-Last updated: 2026-10-21.
+Last updated: 2026-10-22.
 
 House rules these follow:
 - Every prep keeps about a month (freezing half is fine).
@@ -21,7 +21,7 @@ House rules these follow:
 
 | Drink | Status | Next step |
 |---|---|---|
-| Watermelon Reviver | Trimmed to fit the coupe; H2melon freeze-concentrate cordial chosen | Cucumber steep and saline tests |
+| Watermelon Reviver | Trimmed to fit the coupe; H2melon freeze-concentrate cordial chosen | Cucumber rum and saline tests |
 | La Pasión | Simplified to pisco, passionfruit and one sherry (optimisation loop) | Taste the five versions side by side |
 | C'est Chamoy | Batch and chamoy settled | Fire bitters and Tajín levels |
 | Olivia, reinvented | Rebalanced with 1:1 honey syrup | Lemon 12.5 or 10 ml; basil dot colour |
@@ -57,9 +57,9 @@ preservatives, which almost always means heat treatment (the brand doesn't say),
 slightly cooked note that freeze-concentration concentrates along with everything else. Don't
 reduce it with heat: that adds more cooked notes. The cucumber rum offsets it: much of fresh-cut
 watermelon's green smell comes from the same aldehydes that make cucumber smell like cucumber, and
-those are the first notes processing strips out, so the cucumber puts them back. Keep the cucumber
-steep cold, strain at 24–48 hours and check it weekly. (Cobber has no watermelon or cucumber profile
-yet, so this is from flavour chemistry, not Cobber.)
+those are the first notes processing strips out, so the cucumber puts them back. Method under
+[Cucumber rum](#cucumber-rum). (Cobber has no watermelon or cucumber profile yet, so this is from
+flavour chemistry, not Cobber.)
 
 **About H2melon:** watermelon juice with cane juice, not from concentrate, 9.5 g sugar and 40 mg
 sodium per 100 ml. Use it within 3 days of opening, so freeze it the day you open it. Sold at
@@ -85,7 +85,7 @@ concentrate; taste against the full 60 ml.
 
 | Ingredient | B (main test) | A (comparison) |
 |---|---|---|
-| White rum | 25 ml | 25 ml |
+| Cucumber rum (or plain white rum) | 25 ml | 25 ml |
 | Lillet Rosé | 20 ml | 20 ml |
 | Orange curaçao | 10 ml | 15 ml |
 | Rose watermelon cordial | 30 ml | 30 ml |
@@ -94,13 +94,14 @@ concentrate; taste against the full 60 ml.
 | 20% saline | 0–3 drops, only if it tastes flat | same |
 
 Shake hard for about 10 seconds with good, dry ice and double-strain into a chilled coupe. About
-100 ml before shaking, about 125 ml in the glass, about 1.5 standard drinks.
+100 ml before shaking, about 125 ml in the glass, about 1.4 standard drinks (1.5 for A, with its
+extra curaçao).
 
 ### Batch (700 ml, 8 drinks)
 
 | Ingredient | Bottle |
 |---|---|
-| White rum | 200 ml |
+| Cucumber rum (or plain white rum) | 200 ml |
 | Lillet Rosé | 160 ml |
 | Orange curaçao | 80 ml |
 | Rose watermelon cordial | 240 ml |
@@ -116,15 +117,32 @@ saline), so taste before adding saline.
 **Keeping:** in the fridge (Lillet and watermelon), 3–4 weeks. The watermelon aroma fades first,
 so make one bottle at a time.
 
-**Cucumber, for a fresher smell (optional):** heat-treatment strips watermelon's fresh, green
-notes, and cucumber shares them.
-- 5-minute pre-test: three glasses of cold H2melon: plain; with one thin cucumber slice muddled
-  in for 5 minutes, then strained; and the same plus a pinch of salt. If plain doesn't taste
-  cooked, skip the cucumber.
-- Small trial: 3 thin slices (about 15 g) in 200 ml batch, fridge overnight, taste against plain
-  batch, strain.
-- Full bottle: about 50 g (a third of a Lebanese cucumber), 12–24 hours in the fridge, then strain
-  it out. Never leave it in the bottle: it turns bitter, varies drink to drink and blocks the pour.
+### Cucumber rum
+
+The cucumber goes into the rum, not the batch (2026-10-22): strong spirit extracts it cleanly, it's
+made once for three batches, and every batch gets the same level. It puts back the fresh, green
+watermelon notes that heat treatment strips out, and cucumber with rose is a proven pairing.
+
+Per 700 ml bottle of white rum (3 batches, 24 drinks, plus 100 ml spare):
+1. Wash one Lebanese cucumber (about 150–175 g). Cut 2 cm off the stem end and trim the other end.
+2. Peel it and slice it thin, about 3 mm.
+3. Leave the slices on the board for 5 minutes. The cucumber smell forms in the minutes after
+   cutting, made by the cucumber's own enzymes, and strong alcohol stops them.
+4. Into the rum, capped, in the cool room. Taste at 24 hours; strain by 48 hours at the latest
+   through a fine sieve, without pressing the slices. Longer turns it bitter and pickle-like.
+5. Label and date it, keep it in the fridge and use it within 3 weeks: the fresh note fades
+   first. If a bottle lasts longer than that, make half (350 ml, half a cucumber) next time.
+
+Why peeled: the skin's green chlorophyll dissolves in strong alcohol and turns olive-brown in an
+acidic drink, which would dull the pink, and the skin and stem end carry most of the bitterness.
+Cold rather than room temperature slows the bitterness, so the 24–48 hour window is forgiving.
+This is the same cucumber per drink as the earlier batch steep (about 50 g per batch bottle).
+
+**Small trial first:** split 50 g of cucumber: 25 g peeled in 100 ml rum, 25 g skin-on in another
+100 ml, both in the cool room for 24 hours, then strain. Make three B drinks: plain rum, peeled,
+skin-on. Keep the cucumber if a drink tastes more like fresh watermelon without tasting of cucumber,
+and check its colour in the coupe against the plain one. Peeled wins a tie. If neither beats plain
+rum, the menu line goes back to "Rum" (it currently says Cucumber Rum).
 
 **If you use fresh watermelon instead:** buy whole and seedless, scrub the rind before cutting,
 use clean gear, cut away the green and white layers, and cut, blend, strain, bottle and freeze
@@ -641,7 +659,8 @@ basil tincture (drag a toothpick through them for hearts).
 
 - La Pasión: which of the five versions; coral (hibiscus colour drops or natural colour) or golden;
   160 or 180 g sugar per can; the purée's sugar level.
-- Reviver: A or B; cucumber in or out; whether it needs any saline with H2melon.
+- Reviver: A or B; cucumber rum in or out, peeled or skin-on; whether it needs any saline with
+  H2melon.
 - C'est Chamoy: fire bitters; Tajín level.
 - Olivia: lemon 12.5 or 10 ml; dried or fresh basil for the dots.
 - Prices ($23–24) and the nut mark on the menu.

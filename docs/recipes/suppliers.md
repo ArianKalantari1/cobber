@@ -53,7 +53,7 @@ The Osborne Bailén Oloroso and Osborne Fino Quinta are no longer listed.
 | Apricot halves in syrup, 825 g | Woolworths | C'est Chamoy | The full-can chamoy recipe |
 | Goulburn Valley apricots in juice, 700 g | Supermarket | C'est Chamoy (alternative) | Less sweet, Australian apricots |
 | H2melon, 1.25 L (also 500 ml cans) | Dan Murphy's, IGA, Chemist Warehouse | Watermelon Reviver | Watermelon and cane juice; use within 3 days of opening |
-| Lebanese cucumber | Anywhere | Reviver cucumber steep | |
+| Lebanese cucumber | Anywhere | Reviver cucumber rum | One per 700 ml bottle of rum |
 | Cacao nibs | Supermarket health-food aisle | La Pasión (parked idea) | Buy a pack with no "may contain nuts" warning |
 | Roasted and salted macadamias, 400 g | Woolworths | Macadamia vodka (retired) | 385 mg sodium per 100 g |
 | Koo guava halves | Coles | Pisco Disco (retired) | |
