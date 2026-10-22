@@ -184,6 +184,26 @@ pistachio allergy asks.
 **Seasons:** strawberries are at their best in Sydney through spring; Kensington Pride mangoes run
 November to March.
 
+## Mon Chéri: menu copy (draft for the owner, 2026-10-22)
+
+The strawberry pisco highball goes on the menu as **Mon Chéri**. The line stays general until the
+test picks between the shrub (Fresa y Jerez) and the hybrid (Fresa Tostada); both fit it unchanged.
+
+```
+Mon Chéri 23
+Pisco, Sherry, Strawberry, Soda
+Tall, Juicy, Tangy
+```
+
+Once a version wins, the line can get more specific:
+- Shrub: `Pisco, Sherry, Strawberry Shrub, Soda` · `Tall, Juicy, Tangy`
+- Hybrid: `Pisco, Sherry, Toasted Strawberry, Soda` · `Tall, Juicy, Toasted`
+
+Notes: no "Nutty" in the descriptors. There are no nuts in the drink, and the menu is adding a nut
+mark, so the word would mislead; "Toasted" carries that character instead. "Strawberry Shrub"
+rather than "Sherry Vinegar", because the vinegar may be FORVM Chardonnay. 23 matches the other
+spring signatures; pisco and sherry cost about $3.40 a drink.
+
 ## Strawberry highballs: one prep day
 
 Refined 2026-10-21; Fresa Tostada (the hybrid) is the spring/summer pick. Two strawberry highballs from one bag of frozen strawberries and one overnight
