@@ -109,4 +109,4 @@ Our gin and tequila are by Spirits of Newtown.
 - Descriptors for Apple Pie Spritz, Nutty Old Fashioned and Olivia are from the old menu; the
   Reviver's are new: Fresh, Floral, Crisp ("Cooling" dropped: it reads as mint, and Crisp is free
   now the Sangria is Sweet).
-- The drink is now named Pisco Ma Chérie on the menu (the recipe file still says Pisco, Mon Sherry).
+- The drink is now named Pisco Ma Chérie; its prep spec is `docs/recipes/pisco-ma-cherie.md`.

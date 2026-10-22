@@ -30,7 +30,7 @@ Notes:
 - Groups are 4, 3 and 3, and follow an evening: fresh to start, bitter before dinner, rich after.
 - Coffee prices to set. "Vanilla" is left out of the Carajillo's descriptors because vanilla is
   already on three signatures.
-- The same groups can carry the Signatures: Watermelon Reviver and Pisco Mon Sherry under Fresh &
+- The same groups can carry the Signatures: Watermelon Reviver and Pisco Ma Chérie under Fresh &
   Fruity, White Flower Negroni under Bitter & Herbal, Nutty Old Fashioned under Rich & Roasted.
 
 ## Coffee classics: specs
