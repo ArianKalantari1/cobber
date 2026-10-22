@@ -20,10 +20,22 @@ aroma by amount (reasons in the last section).
 ## 1. Put the redundancy rules into the engine
 Reference prototype: `scripts/prototypes/olivia_loop2.py` (scoring rules) and
 `olivia_loop3.py` (loop, identity guards, exhaustive check).
-- [ ] **Citrus isn't a bridge once the drink already has it.** Pairs touching a citrus-family
-      item are scored with citrus compounds masked out; citrus–citrus pairs are skipped; no
-      new citrus can be added. Add an option to mark the base spirit as citrus-forward
-      (house gin = gin + lemon + orange compounds).
+- [ ] **Citrus is a bridge, but with diminishing returns.** Ari's correction (22 Oct): lemon,
+      lime, pink grapefruit and limoncello each have their own roundness, and one citrus
+      link does a real job. The problem is stacking them: citrus-forward gin + limoncello +
+      lemon is "way too bright".
+      - Count the first citrus link in full, and discount each further citrus source
+        sharply (for example, halve it each time).
+      - Don't mask citrus compounds completely the way the prototype does. That erases the
+        real differences between lemon, lime and grapefruit.
+      - How much citrus the base brings depends on the gin. **The house gin is Spirits of
+        Newtown** (confirmed by Ari): very citrus-forward with little juniper. Model it as
+        its own composite, so its citrus counts as the drink's first citrus source.
+- [ ] **The target note has to win, or at least compete.** If the drink is meant to be
+      nutty (or any named note), check the balance of flavour families (via
+      `data/flavor_families.json` and `engine.flavor_wheel`). Weighted by ml once step 2
+      exists, the nutty family must come out at least level with the bright/citrus family.
+      Warn when brightness outweighs it.
 - [ ] **No credit for duplicates.** Block a candidate if its profile overlaps an ingredient
       already in the drink by 80% or more (amaretto = almond), if it's a botanical inside a
       composite already present (coriander in gin), or if it brings less than 20% new
@@ -37,7 +49,12 @@ Reference prototype: `scripts/prototypes/olivia_loop2.py` (scoring rules) and
       - restaurant Olivia (gin, dry vermouth, amaretto, honey, lemon, olive) = **0.072**;
       - amaretto + maraschino + dry vermouth = **0.111**;
       - gin, amaretto, Bénédictine, vanilla, lemon, olive = **0.149**;
-      - limoncello no longer ranks above honey.
+      - limoncello no longer ranks above honey;
+      - citrus-forward gin + limoncello + lemon triggers the "too bright" warning, while a
+        single lemon link still counts.
+
+      The first three numbers come from the prototype's full citrus masking. Expect small
+      shifts under diminishing returns, and record the new values.
 - [ ] Write the three rules into `docs/cobber-design-notes.md`, under section 9 (known gaps).
 
 ## 2. ml-weighted taste, texture and strength
@@ -69,8 +86,9 @@ matches go to `unmatched_ingredients.txt`.
       - Bénédictine (checking the existing entry), Floc de Gascogne, Lillet Rosé, Italicus,
         Salers, pommeau, Skrewball;
       - yuzu (47), kumquat (7), macadamia (3).
-- [ ] **House gin:** the menu's House Gin Martini uses Spirits of Newtown Gin. **Confirm
-      with Ari** that this is the citrus-forward house gin, then add it as its own composite.
+- [ ] **House gin = Spirits of Newtown Gin** (confirmed by Ari: very citrus-forward, little
+      juniper). Research its botanicals and add it as its own composite, kept separate from
+      the generic London dry `gin`.
 
 ## 4. After 1–3: amounts for Olivia B
 - [ ] Run the loop over amounts: gin 30–35, amaretto 10–15, Bénédictine 5–10, vanilla
