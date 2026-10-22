@@ -230,6 +230,11 @@ whichever is colder and fizzier on the night. Bottled soda's dissolved minerals 
 saltiness that suits the shrub; on-site sparkling can run softer, so check its fizz before a busy
 service. Try both side by side in the first tasting.
 
+Warmth comes from the shrub, not the top: ginger ale on top of the pepper is too much, and 2 L
+bottles go flat fast. Pour one comparison glass with ginger ale to learn whether ginger's warmth is
+wanted. If it is, put 20 g thinly sliced fresh ginger in the maceration instead of the pepper (not
+both; adjust in 10 g steps) and keep the soda top, so the drink stays fully fizzy.
+
 Also considered: Mon Sherry (pisco left to the ingredient line), Fraise, Mon Sherry (sells the
 fruit, loses the pisco), Mon Sherry Chilcano (Peru's pisco highball, but obscure in Sydney), Ma Fraise Chérie (correct French, loses the sherry pun), and
 Raisin, Mon Sherry (raisin is French for grape, but reads as dried fruit in English).
