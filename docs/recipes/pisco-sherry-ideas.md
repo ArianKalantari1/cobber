@@ -208,23 +208,24 @@ spring signatures; pisco and sherry cost about $3.40 a drink.
 
 Everything else in this file is background; this is the one to make.
 
-**Shrub (blitz, about 1.6 L, 45 drinks):**
-1. 250 ml hot water over 500 g white sugar, 250 g demerara and 1 kg frozen strawberries in the
-   blender. Blitz until no grit.
-2. Fine-sieve, pressing lightly.
-3. Whisk in 150 ml FORVM Chardonnay vinegar, 21 g citric, 7 g malic, 1.5 g salt and 2 ml sorbate
-   stock.
+**Shrub (overnight maceration, about 1.1 L, 37 drinks), changed from the blitz 2026-10-22 because
+it keeps better without sorbate:**
+1. The day before: 1 kg frozen strawberries, 400 g white sugar and 200 g demerara, covered, in
+   the cool room for 24 hours. Stir once if you pass.
+2. Strain, pressing lightly: about 1 L syrup. Bin the pulp.
+3. Whisk in 120 ml FORVM Chardonnay vinegar, 21 g citric, 7 g malic and 1.5 g salt.
 4. Taste 15 ml with 45 ml cold soda. If it's flat, add 3 g citric and 1 g malic, taste again; at
    most twice.
 5. Bottle, fridge, rest 2 days. Shake before each round.
-6. **Without sorbate:** about 2 weeks in the fridge (5 °C or below; not yet tested). Freeze half
-   the day you make it to reach the house's month, and thaw it overnight in the fridge. Throw it
-   out early if it fizzes or hisses when opened, grows a film, or smells yeasty or boozy. It keeps
-   less well than a classic shrub, which is about a third vinegar; this one is about 9%.
+6. **Keeping, without sorbate:** about 3–4 weeks in the fridge (5 °C or below; not yet tested).
+   Freeze half on day 0 if it sells slowly. Throw it out early if it fizzes or hisses when
+   opened, grows a film, or smells yeasty or boozy. With 2 ml sorbate stock, a month or more.
+   It keeps better than the blitz (about 2 weeks) because it's sweeter (about 0.57 g sugar per
+   ml against 0.47), has more vinegar (11% against 9%) and has no pulp.
 
 **Batch (700 ml rail, 12 drinks):** 510 ml pisco, 190 ml Elegante Medium.
 
-**Build:** highball full of cubes, 55 ml batch, 35 ml shrub, top with 85 ml soda, one lift.
+**Build:** highball full of cubes, 55 ml batch, 30 ml shrub, top with 90 ml soda, one lift.
 Garnish: 2–3 freeze-dried strawberry slices. About 185 ml, 10% ABV, 1.5 standard drinks.
 
 Later tests, one at a time, only after this works: hojicha as the hot liquid, La Guita instead of
