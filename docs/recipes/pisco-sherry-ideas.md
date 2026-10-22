@@ -204,6 +204,28 @@ mark, so the word would mislead; "Toasted" carries that character instead. "Stra
 rather than "Sherry Vinegar", because the vinegar may be FORVM Chardonnay. 23 matches the other
 spring signatures; pisco and sherry cost about $3.40 a drink.
 
+## Mon Chéri: the spec to test (decided 2026-10-22)
+
+Everything else in this file is background; this is the one to make.
+
+**Shrub (blitz, about 1.6 L, 45 drinks):**
+1. 250 ml hot water over 500 g white sugar, 250 g demerara and 1 kg frozen strawberries in the
+   blender. Blitz until no grit.
+2. Fine-sieve, pressing lightly.
+3. Whisk in 150 ml FORVM Chardonnay vinegar, 21 g citric, 7 g malic, 1.5 g salt and 2 ml sorbate
+   stock.
+4. Taste 15 ml with 45 ml cold soda. If it's flat, add 3 g citric and 1 g malic, taste again; at
+   most twice.
+5. Bottle, fridge, rest 2 days. Shake before each round.
+
+**Batch (700 ml rail, 12 drinks):** 510 ml pisco, 190 ml Elegante Medium.
+
+**Build:** highball full of cubes, 55 ml batch, 35 ml shrub, top with 85 ml soda, one lift.
+Garnish: 2–3 freeze-dried strawberry slices. About 185 ml, 10% ABV, 1.5 standard drinks.
+
+Later tests, one at a time, only after this works: hojicha as the hot liquid, La Guita instead of
+the Medium, black pepper instead of the garnish.
+
 ## Strawberry highballs: one prep day
 
 Refined 2026-10-21; Fresa Tostada (the hybrid) is the spring/summer pick. Two strawberry highballs from one bag of frozen strawberries and one overnight
