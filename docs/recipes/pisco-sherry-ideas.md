@@ -223,6 +223,14 @@ it keeps better without sorbate:**
    It keeps better than the blitz (about 2 weeks) because it's sweeter (about 0.57 g sugar per
    ml against 0.47), has more vinegar (11% against 9%) and has no pulp.
 
+**Cross-check, the old bar's raspberry shrub:** 250 g raspberries and 500 g caster sugar muddled
+and left overnight in the fridge, strained, then 125 ml water and 125 ml champagne vinegar. Same
+method as ours. Their 2:1 sugar to fruit suits intense raspberry but would bury strawberry, so ours
+stays fruit-heavy. The water is only there because two punnets don't make enough juice to
+dissolve 500 g sugar; frozen strawberries do. There's no citric because their drinks got citrus
+at service. Champagne vinegar (Chardonnay and Pinot wines, FORVM's cousin) is the swap if FORVM
+is too sharp.
+
 **Batch (700 ml rail, 12 drinks):** 510 ml pisco, 190 ml Elegante Medium.
 
 **Build:** highball full of cubes, 55 ml batch, 30 ml shrub, top with 90 ml soda, one lift.
