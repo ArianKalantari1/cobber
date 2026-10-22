@@ -439,6 +439,25 @@ this pairing, since neither watermelon nor hibiscus is in its data.
 shows. At 45 ml the cordial's acid equals about 9 ml of lemon, so cut the
 lemon to match. If the rose syrup is in the cordial, drop it at service.
 
+### Watermelon Reviver: proposed build (from 7 items in the tin down to 3)
+
+I don't have the current amounts; this is a consolidated proposal.
+
+| Into the tin | Amount | |
+|---|---|---|
+| **Batch** | 54.5 ml | cucumber rum 30 + Lillet Rosé 15 + Cointreau 7.5 + absinthe 2 |
+| **Watermelon–rose cordial** | 45 ml | concentrate, with the rose syrup inside |
+| **Lemon** | 10 ml | |
+| **Total** | **about 110 ml** | |
+
+Shake hard. You get about 134 ml at about 14% ABV (about 1.5 standard drinks),
+with an estimated 7.7 g sugar per 100 ml and 0.9% acid. With 60 ml cordial and
+7.5 ml lemon: about 149 ml at 12.6%, still balanced but a bigger drink.
+
+**Batch per 700 ml bottle (12 pours of 54.5 ml):** cucumber rum 385 ml, Lillet
+Rosé 193 ml, Cointreau 96 ml, absinthe 26 ml. Keep it in the fridge (it has
+fresh cucumber and an aromatised wine in it) and use within about 1–2 weeks.
+
 ### Cucumber-infused rum (700 ml)
 
 | Ingredient | Amount |
