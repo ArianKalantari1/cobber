@@ -385,30 +385,39 @@ shelf life.
 
 ## Watermelon Reviver preps (A Refreshing Indulgence)
 
-### Concentrated watermelon cordial (makes about 1.3 L per 1 L of juice)
+### Watermelon cordial (from bottled H2melon juice, about 1.3 L)
 
-| Ingredient | Per 1 L strained watermelon juice |
-|---|---|
-| Watermelon juice (about 1.4 kg flesh, black seeds removed) | 1 L |
-| Caster sugar | 500 g |
-| Citric acid | 8 g |
-| Malic acid | 4 g |
-| Salt | 1 g |
-| Potassium sorbate | 0.6 g (0.05%), dissolved in a little warm water |
-| Vitamin C (optional, for colour) | 2 crushed Cenovis 500 mg tablets |
+The base is bottled, heat-treated watermelon juice (H2melon) with little
+preservative, so this cordial needs both acid and potassium sorbate. The
+cucumber rum brings the freshness.
 
-**Method:** blend the flesh for 20–30 s (don't crush the black seeds; they turn
-it bitter). Strain through a fine sieve, then a cloth. Add the sugar, acids,
-salt and sorbate, and blend or stir cold until dissolved. Never heat it, or it
-tastes cooked. Bottle, label "preservative 202", and keep in the fridge.
+| Ingredient | Per 1 L H2melon juice | Why |
+|---|---|---|
+| H2melon watermelon juice | 1 L | base |
+| Caster sugar | 500 g | cordial strength (about 43 g sugar per 100 ml) |
+| Citric acid | 10 g | watermelon has almost no acid (pH about 5.5); brings it to about 3.5 |
+| Malic acid | 5 g | rounder, fresh-fruit sourness |
+| Salt | 1 g | watermelon and salt: lifts the fruit |
+| Potassium sorbate | 1 g (about 0.075%), dissolved in 10 ml warm water | yeast and mould control; only works once the acid has brought the pH down |
+| Vitamin C (optional) | 2 crushed Cenovis 500 mg tablets | helps hold the pink colour |
 
-**Optional, more concentrated:** freeze the strained juice solid, then let it
-melt upside down over a jug in the fridge and keep the first ~50% of the melt
-(most of the sugar and flavour comes out first). Make the cordial with that,
-using 300 g sugar per litre.
+**Method (cold, 10 min):** pour the juice into a tub, add the sugar, acids and
+salt, and whisk or stick-blend until fully dissolved. Add the dissolved
+sorbate last and stir. Don't heat it: the juice is already heat-treated, and
+more heat dulls the flavour. Check that the pH is 3.8 or below (pH strips).
+Bottle full to the top in opaque bottles, and label it "contains
+preservative 202" with the date.
 
-**Storage:** fridge, up to 7 days with sorbate (about 3 without). Freeze
-portions for longer. **Use:** 20–25 ml per drink.
+**Storage:** fridge. About 2–3 weeks with sorbate (untested; date it and check
+before each service). Freeze portions if it's selling slowly. Make the cordial
+on the day you open the H2melon. Throw it out if it fizzes, hisses, grows a
+film or smells yeasty.
+
+**Optional, more concentrated:** freeze the juice solid, let it melt upside
+down over a jug in the fridge, and keep the first ~50% of the melt. Make the
+cordial with that, using 300 g sugar per litre.
+
+**Use:** 20–25 ml per drink.
 
 ### Cucumber-infused rum (700 ml)
 
