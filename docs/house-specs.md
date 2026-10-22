@@ -128,7 +128,7 @@ cool-room routine before adopting it. If it passes, make bottles that last
 
 ---
 
-## Carajillo Amer (espresso-martini twist)
+## Orient Espresso (espresso-martini twist; working name was Carajillo Amer)
 
 **Idea:** a bittersweet espresso martini made only from stock already on hand.
 No cream, no egg; the espresso makes the foam.
@@ -195,7 +195,7 @@ replacement for Averna, and choose plain cocoa over mole-style.
 - Basil oil: microwave-dried with and without blanching; colour on the foam.
 - Strawberry Alexander: Monin in the batch, 3-day stability test.
 - Strawberry Alexander: 10 against 12.5 ml Monin; strawberry level in the infusion.
-- Carajillo Amer: blind head-to-head against the current espresso martini;
+- Orient Espresso: blind head-to-head against the current espresso martini;
   Averna at 10 ml against none; sweetness (as specced against vanilla
   tincture against Licor 43 at 12.5); foam hold at 5 min; batch on day 1
   against day 7; service speed; a 2-week soft launch; cocoa bitters (none
