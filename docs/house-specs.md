@@ -128,8 +128,49 @@ cool-room routine before adopting it. If it passes, make bottles that last
 
 ---
 
+## Carajillo Amer (espresso-martini twist)
+
+**Idea:** a bittersweet espresso martini made only from stock already on hand.
+No cream, no egg; the espresso makes the foam.
+
+**What Cobber found:** two rounds of 10 refinement loops. Adding Mr Black was
+the biggest gain (harmony 0.212 → 0.283). Averna won every bitter slot
+(0.283, against 0.186 for Montenegro and 0.180 for Fernet). Brandy was the
+best base (0.283; rye 0.263, bourbon 0.258, vodka 0.180).
+
+| Per drink | ×11 (700 ml bottle) | |
+|---|---|---|
+| 20 ml | 220 ml | VS brandy |
+| 15 ml | 165 ml | Mr Black |
+| 15 ml | 165 ml | Averna |
+| 10 ml | 110 ml | Licor 43 |
+| 2 drops | about 1 ml | saline (20%) |
+
+**Service:** 60 ml batch + 35 ml fresh espresso. Shake hard for 12–15 s,
+fine-strain into a chilled coupe, garnish with 3 coffee beans. About 95 ml
+goes into the tin, giving 115–120 ml in the glass at about 16% ABV and about
+9.4 g sugar per 100 ml. The batch is shelf-stable.
+
+**Sugar and ABV data used:** Mr Black 25% / 25.1 g per 100 ml (producer FAQ);
+Averna 29% / 23 g per 100 ml (label data); Licor 43 31% / about 40 g per
+100 ml (worked out from the label's calories, so unverified).
+
+**Coffee-tequila (Mexican) edition, to clear stock:** if it is a dry
+flavoured tequila, swap it 1:1 for the brandy. If it is a sweet liqueur, use
+20 coffee tequila · 10 Mr Black · 15 Averna · 5 Licor 43 · 35 espresso ·
+saline. The brand is still to be confirmed.
+
+**More vanilla without more sugar:** 2 dashes of vanilla tincture, not more
+Licor 43.
+
+---
+
 ## Open tests
 - Olivia v2 against the current spec, side by side (and 10 against 15 ml vermouth).
 - Basil oil: microwave-dried with and without blanching; colour on the foam.
 - Strawberry Alexander: Monin in the batch, 3-day stability test.
 - Strawberry Alexander: 10 against 12.5 ml Monin; strawberry level in the infusion.
+- Carajillo Amer: blind head-to-head against the current espresso martini;
+  20 against 25 ml brandy; sweetness (as specced against vanilla tincture
+  against Licor 43 at 12.5); foam hold at 5 min; batch on day 1 against day 7;
+  service speed; a 2-week soft launch.
