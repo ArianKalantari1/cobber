@@ -200,7 +200,7 @@ juice. This section covers only the purée.
 the apricot didn't come through.
 
 **Fix:** a raw purée (no cooking, no agave; the agave lives in the batch).
-Use half the can syrup for less sugar and more apricot per ml. Add cold-soaked
+Use half the can syrup for less sugar and more apricot per ml, and leave it unstrained for a frozen-margarita texture. Add cold-soaked
 dried apricot and a little peach for depth and colour, a fresh-fruit acid
 blend, vitamin C to stop browning, and salt.
 
@@ -221,10 +221,15 @@ beta-ionone, so a little peach makes the apricot read riper.
 | Ascorbic acid (vitamin C) | 1 g | stops browning and keeps the orange bright |
 | Salt | 1 g | lifts the fruit |
 
-**Method:** soak the dried apricots cold in the reserved syrup. Blend
-everything on high for 1–2 min until very smooth, then pass through a fine
-sieve to remove skin and fibre while keeping the body. Pour into a squeeze
-bottle and label and date it.
+**Method:** soak the dried apricots cold in the reserved syrup (overnight is
+best, so no chewy bits survive). Blend everything on high for 2–3 min until
+thick and smooth. **No sieve:** the pulp stays in for a frozen-margarita
+texture. Use a wide-tip squeeze bottle or a pour jug (a thin nozzle clogs),
+and label and date it.
+
+**Service with pulp:** single-strain with a Hawthorne strainer only. A fine
+strainer catches the pulp you want in the glass. Scrape the jigger so the
+full 30 ml goes in.
 
 **Storage:** fridge, and use within 5 days, since it is raw and lower in sugar
 than the old full-syrup version. Freeze extra portions in an ice-cube tray to
