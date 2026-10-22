@@ -248,8 +248,17 @@ cool room. That's liqueur territory, so it's safe for well over a month. The lim
 strawberry's red and its fresh aroma fade faster in alcohol, drifting to orange-brown and jammy.
 Expect it at its best for about 2 weeks (not yet tested; check colour and taste on days 7, 14 and
 21), so make 2 weeks' worth at a time, keep it dark and the bottles full, and add no water.
-Service: highball full of cubes, 90 ml batch (a 60 and a 30 jigger), top with about 90 ml soda,
-one lift. About 190 ml, 10.3% ABV, 1.54 standard drinks; 7 pours per 700 ml rail, plus a short one. If it's too
+Service (the rail bottle sits at room temperature): highball full of cubes, 90 ml batch (a 60 and a
+30 jigger), 3–4 spins with the bar spoon to chill it, then top with 75 ml soda down the spoon and
+one lift. A 22 °C batch melts about 21 g of ice getting cold against about 4 g from the fridge, so
+75 ml soda here makes the same drink as 90 ml with a cold batch: about 190 ml, 10.2% ABV, 1.54
+standard drinks. With small cubes that keep melting while it's drunk, 60 ml soda (about 11% to
+start) is the stronger option. Chilling the batch before the soda keeps more fizz. 7 pours per 700
+ml rail, plus a short one.
+
+Rail bottle: warmth fades strawberry's colour and fresh aroma much faster than the cool room does,
+so fill the rail bottle with one or two shifts' worth from the drum, and don't pour warm leftovers
+back into the drum. If it's too
 sweet or strong, drop to 80 ml; if it's thin, go to 100 ml. Elegante Medium suits the drum because it's
 already oxidised; a fino or manzanilla would fade within weeks.
 
