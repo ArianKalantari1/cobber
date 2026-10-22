@@ -379,11 +379,13 @@ ice.
    plastic bottle, pour off a splash first, because it expands.
 2. Turn it upside down over a jug (a funnel or sieve helps) in the cool room,
    never at room temperature.
-3. Collect the melt until you have **500 ml** (about 6–10 h; watch it).
-   Discard the pale ice left behind.
-4. Optional: with a refractometer, aim for roughly 12–14 °Brix (the juice
-   starts around 7–8). For even stronger, refreeze the 500 ml and keep the
-   first 300 ml (but you lose more).
+3. Collect the melt until you have **500 ml**, measured on the jug (no
+   refractometer needed; the drips also turn pale near the end). Discard the
+   pale ice left behind.
+4. Timing: in a cool room at 2–4 °C, expect roughly **12–20 h**. The earlier
+   6–10 h figure was an optimistic estimate, and nothing here has been timed yet.
+   Start it at close and check it in the morning. Cutting the bottle off and
+   setting the bare block in a sieve over the jug speeds it up.
 
 **Step 2: cordial (no added sugar except the optional rose syrup)**
 
@@ -393,12 +395,12 @@ ice.
 | Citric acid | 4 g | brightness; replaces most of the lemon |
 | Malic acid | 2 g | rounder, fresh-fruit sourness |
 | Salt | 0.5 g | lifts the watermelon |
-| Potassium sorbate | 0.4 g (about 0.08%), dissolved in 5 ml warm water | needed: the juice has little preservative and the concentrate is low in sugar |
-| Rose syrup (optional) | 50 ml | pink colour and the drink's rose note in the same bottle, which removes the separate rose syrup at service |
-| Vitamin C (optional) | 1 crushed Cenovis 500 mg tablet | helps hold the colour |
+| Potassium sorbate | 4 ml of a 10% solution (= 0.4 g, about 0.08%) | needed: the juice has little preservative and the concentrate is low in sugar |
+| Rose syrup, optional | 50 ml | puts the pink and the drink's rose note in this one bottle, so there's no separate rose syrup at service. Leave it out if you'd rather control the rose per drink |
+| Vitamin C, optional | 1 crushed Blackmores Vitamin C 500 mg tablet (unflavoured; not the orange Cenovis chewable, whose flavour, sweetener and orange colour would show here) | small help holding the watermelon colour (opaque bottles and cold matter more). **Skip it if you use the hibiscus shot:** ascorbic acid speeds up the fading of hibiscus red |
 
 **Method:** stir everything into the cold concentrate until dissolved, adding
-the dissolved sorbate last. Check that the pH is 3.8 or below. Fill opaque
+the sorbate solution last. Check that the pH is 3.8 or below. Fill opaque
 bottles to the top and label "contains preservative 202" with the date. Keep
 it in the fridge for about 7–10 days (untested, and low in sugar, so check it
 before each service), or freeze portions.
