@@ -283,6 +283,37 @@ sour strawberry soda: if it's flat, add citric 2 g at a time; if it's sharp, giv
   vinegar does on its own. 240 ml FORVM per 950 ml syrup, then 22 g citric and 6 g malic, is the
   ceiling, not the start.
 
+**Blitz method (the old bar's way; same day, no overnight wait):**
+1. Make 250 ml hot liquid (water, or the tea below) and pour it over 750 g sugar and 1 kg frozen
+   strawberries in the blender.
+2. Blitz until smooth and the sugar has dissolved: rub a drop between your fingers, no grit. The
+   frozen berries keep it cold, so nothing cooks.
+3. Fine-sieve, pressing lightly; don't force the pulp through. About 1.45 L.
+4. Whisk in the salt, then the vinegar and acid from the bump test, and 2 ml sorbate stock.
+   Bottle, rest, shake before each round: whole-fruit shrub settles.
+
+Against the overnight maceration: done in one session, nothing thrown away, more strawberry and
+more body (it reads "juicy"), opaque pink rather than clear. The blender beats air in, which
+browns strawberry faster, so add the vinegar and acid as soon as it's sieved, and let any foam
+settle overnight before bottling. The whole fruit and the hot liquid dilute it, so pour 35 ml a
+drink instead of 30 and top with 85 ml soda (taste).
+
+**What else can go in the hot liquid** (pick one at most; the drink is already pisco, sherry,
+strawberry):
+- **Hojicha** (pick): Japanese green tea roasted over charcoal: toasty, caramel and nutty, with
+  little bitterness. 15 g in 250 ml water at 90–95 °C for 5 minutes, strained; make it strong,
+  it's seasoning. It brings the toasted note that meets the Elegante Medium, with no pan caramel,
+  and it fits strawberry's strongest flavour family in Cobber (roasted-nutty). Japanese grocers
+  or tea shops.
+- **Demerara for 250 g of the sugar:** caramel without an extra ingredient. It browns the pink
+  towards coral.
+- **Hibiscus:** a small amount for colour only (the colour drops, 5–10 ml per batch). Steeped as
+  the whole liquid, it's a fourth flavour, and it's the old bar's blackberry–hibiscus shrub.
+- **Black pepper:** 10 grinds in the blender, sieved out with the seeds.
+
+Not apple cider vinegar, even though the old bar used it: apple is an owner overlap. FORVM, set
+by the bump test, does the same job.
+
 **Bump test: vinegar first, then acid.** The vinegar brings the character (and the prickle); the
 citric and malic bring clean brightness. So find the vinegar first, then top up the sourness.
 
