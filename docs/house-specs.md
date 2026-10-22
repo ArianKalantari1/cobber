@@ -196,28 +196,33 @@ the canned fruit is unknown; the lime in the tin is set by taste to match.
 | Ingredient | Amount | Why |
 |---|---|---|
 | Canned apricot halves | all of the fruit (about 480 g) | body and flavour |
-| Can syrup | **half** of it (about 170 g); discard the rest | less sugar, more apricot |
-| Malic acid | 5–6 g | apricot's own main acid, which tastes like fresh fruit |
-| Citric acid | 2–3 g | brightness, and a lower pH (aim for 3.5 or below; check with cheap pH strips) |
-| Vitamin C, optional | 1 g = 2 crushed Cenovis Sugarless C 500 mg tablets (supermarket) | colour only; skip unless a test batch browns (check the can label first: many canned fruits already list antioxidant 300). The orange chewable flavour doesn't show at this dose |
+| Can syrup | about 170 g (roughly half): drain all the syrup into a jug, put the blender jug on the scale and pour 170 g back in (150–200 g is fine); discard the rest | less sugar, more apricot |
+| Malic acid | 6 g | apricot's own main acid, which tastes like fresh fruit |
+| Citric acid | 3 g | brightness, and a lower pH (aim for 3.5 or below; check with cheap pH strips) |
+| Vitamin C, optional | 1 g = 2 crushed 500 mg tablets (Blackmores Vitamin C 500 is unflavoured; Cenovis Sugarless C, the orange chewable, also works here) | stops browning. Make the first batch without it: the fruit is already heat-treated, the acid slows browning, and many cans already list antioxidant 300. Add it next time only if the purée looks duller or browner than fresh by day 3–5. Tablet binders can leave a faint haze, so crush them fine; plain ascorbic acid powder is cleanest |
 | Salt | 1 g | lifts the fruit |
-| Potassium sorbate (optional) | 0.5 g, dissolved in a little warm water | yeast and mould control; roughly doubles fridge life |
-| Monin peach purée (optional) | 30 ml | stone-fruit lactones make the apricot read riper (harmony 0.36) |
+| Potassium sorbate | 5 ml of a 10% solution (= 0.5 g; recalculate if your solution is a different strength) | yeast and mould control; roughly doubles fridge life |
+| Monin peach purée, optional | 30 ml | makes the apricot read riper (harmony 0.36). Skip it while the apricot liqueur is in the batch; use it if you drop the liqueur |
 
 **Method:** blend everything on high for about 1 min. Canned apricots are
 soft, so it blends quickly. No sieve. Use a wide-tip squeeze bottle or a pour
 jug, and label and date it (note "contains preservative 202" if you use
 sorbate). Never add sodium benzoate alongside the vitamin C.
 
-**Storage:** fridge or ice well. Use within 5 days, or 10–14 days with
-sorbate. Out of temperature control, the 4-hour rule applies.
+**Storage and label:** "Made [date] · Use by [date + 10 days]". 10 days is the
+cautious end of the 10–14 days sorbate gives; it hasn't been lab-tested.
+Without sorbate it's 5 days. During service, keep it in the esky with the bottle
+in ice up to its neck (not resting on top), top up the ice through the shift,
+and put it back in the fridge at close. If the ice has gone and the bottle
+feels warm, don't keep it past that shift. Throw it out if it fizzes, smells
+yeasty or boozy, or grows mould.
 
 **Freezing (once weekly sales are known):** make big batches, freeze flat in
 Ziploc bags sized to service (e.g. 300 ml = 10 drinks), and label them
 "apricot purée" with the date. They keep 2–3 months frozen. Thaw in the
 fridge and never refreeze. Freezing pauses the clock but doesn't reset it:
-fridge days before freezing plus after thawing must stay within 5 days (or
-10–14 with sorbate). Freeze on the day you make it. Cans per week = drinks
+fridge days before freezing plus after thawing count toward the same 10
+days (5 without sorbate). Freeze on the day you make it. Cans per week = drinks
 sold ÷ 20.
 
 **Apricot liqueur in the batch:** it brings sugar as well as apricot, so for
@@ -242,9 +247,9 @@ liqueur : 5 agave, at about 14% less spirit cost per drink than a 70 ml pour.
 | 4.25 ml | 47.5 ml | agave nectar, straight (95 ml if your agave is cut 1:1) |
 | **60 ml** | **660 ml** | |
 
-**Into the tin:** 60 ml batch + 30 ml apricot purée + 15–20 ml lime. With 7 g
-of acid per can, use 17.5 ml lime; with 9 g, use 15 ml. Each extra 2 g of acid
-per can is about 1.6 ml less lime per drink. Set the lime by taste. Shake hard and short (6–8 s; the ice in the glass does
+**Into the tin:** 60 ml batch + 30 ml apricot purée + 15 ml lime. The purée
+now has a fixed 9 g of acid per can (6 malic + 3 citric), which works out to 15 ml
+lime; fine-tune by taste. Shake hard and short (6–8 s; the ice in the glass does
 the rest of the dilution) and single-strain (Hawthorne only) over fresh
 cubed ice in a rocks glass.
 
