@@ -204,6 +204,31 @@ mark, so the word would mislead; "Toasted" carries that character instead. "Stra
 rather than "Sherry Vinegar", because the vinegar may be FORVM Chardonnay. 23 matches the other
 spring signatures; pisco and sherry cost about $3.40 a drink.
 
+## Name: Pisco, Mon Sherry (proposed 2026-10-22)
+
+"Pisco, my darling": Chéri respelled as Sherry (they sound almost the same), with pisco in front as
+the one being spoken to, so the hero leads and the sherry shows at a glance. "Mon" fits pisco,
+which is masculine in French and Spanish. The spelling also distances it from Ferrero's Mon Chéri
+(cherry chocolate); the drink's cocoa note becomes a nod, not a promise of cherry. Say it
+"PEES-koh, mon SHEH-ree".
+
+```
+Pisco, Mon Sherry 23
+Pisco, Sherry, Strawberry, Black Pepper, Soda
+Tall, Juicy, Tangy
+```
+
+Staff story: pisco's main grape, Quebranta, is most likely a natural cross of Listán Prieto (the
+vine Spanish settlers brought to Peru) and Negramoll; that rests on a small DNA marker set, so say
+"most likely". Sherry is about 95% Palomino, which the Canary Islands call Listán Blanco. Two
+Listán grapes in one glass. Check which grape your pisco is: Quebranta for most, Italia or a blend
+for some.
+
+Also considered: Mon Sherry (pisco left to the ingredient line), Fraise, Mon Sherry (sells the
+fruit, loses the pisco), Mon Sherry Chilcano (Peru's pisco highball, but obscure in Sydney and it
+implies ginger ale, El Diablito's), Ma Fraise Chérie (correct French, loses the sherry pun), and
+Raisin, Mon Sherry (raisin is French for grape, but reads as dried fruit in English).
+
 ## Mon Chéri: the spec to test (decided 2026-10-22)
 
 Everything else in this file is background; this is the one to make.
@@ -525,5 +550,9 @@ thirst-quenching. Strawberries with balsamic under a crème-brûlée crust, in a
   [Sous Chef](https://www.souschef.co.uk/products/forum-chardonnay-vinegar-500ml)
 - Caramelised vinegar make-up: [Pukara Estate](https://pukaraestate.com.au/products/caramelised-balsamic-vinegar)
 - Sherry vinegar acidity: [Quill & Pad](https://quillandpad.com/2023/05/11/sherry-vinegar-a-truly-wonderful-indulgence-for-your-kitchen/)
+- Grapes: [Quebranta (Wein-Plus)](https://glossary.wein-plus.eu/quebranta),
+  [Listán Prieto (Wein-Plus)](https://glossary.wein-plus.eu/listan-prieto),
+  [Palomino (Wikipedia)](https://en.wikipedia.org/wiki/Palomino_(grape)),
+  [Palomino Fino (Jancis Robinson)](https://jancisrobinson.com/zh-hans/taxonomy/term/529)
 - Mango and cashew cross-reactivity: [AAAAI](https://www.aaaai.org/ask-the-expert/cross-reactivity-papaya-mango-cashew.aspx),
   [Karger](https://karger.com/iaa/article/178/1/19/168275)
