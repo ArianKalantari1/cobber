@@ -234,6 +234,30 @@ is too sharp.
 **Batch (700 ml rail, 12 drinks):** 510 ml pisco, 190 ml Elegante Medium.
 
 **Build:** highball full of cubes, 55 ml batch, 30 ml shrub, top with 90 ml soda, one lift.
+
+**Full batch option (shrub in the bottle):** per 700 ml rail, 320 ml pisco, 120 ml Elegante Medium
+and 240 ml shrub (8 drinks, 680 ml). About 22% ABV and 20 g sugar per 100 ml, acidic, kept in the
+cool room. That's liqueur territory, so it's safe for well over a month. The limit is quality:
+strawberry's red and its fresh aroma fade faster in alcohol, drifting to orange-brown and jammy.
+Expect it at its best for about 2 weeks (not yet tested; check colour and taste on days 7, 14 and
+21), so make 2 weeks' worth at a time, keep it dark and the bottles full, and add no water.
+Service: cubes, 85 ml batch, 90 ml soda, one lift. Elegante Medium suits the drum because it's
+already oxidised; a fino or manzanilla would fade within weeks.
+
+**More strawberry (try in this order):**
+1. **Freeze-dried strawberry powder in the shrub:** 15 g per litre (blitz the garnish slices).
+   Freeze-dried fruit is about a tenth of its fresh weight, so that's roughly 150 g extra
+   strawberry per litre. A little haze; shake before pouring.
+2. **More fruit in the maceration:** 1.25 kg strawberries to the same 600 g sugar. Fruitier, a
+   little less sweet; taste the acid again.
+3. **Put the pulp to work:** steep the strained pulp in the batch's pisco for 24 hours in the
+   fridge, then strain through a fine sieve, pressing. Strawberry in the spirit too, a pink
+   tint, nothing thrown away.
+4. **Riper fruit when it's in season:** ripe local strawberries smell far more than frozen
+   processing berries. Hull, halve, muddle lightly (as on the old raspberry card) and allow 24–36
+   hours, because fresh berries give up juice more slowly than frozen.
+5. **Keep the aroma in:** never heat the shrub, fill bottles to the top, and keep everything cold.
+   The freeze-dried garnish puts strawberry on the nose, which is most of what we taste.
 Garnish: 2–3 freeze-dried strawberry slices. About 185 ml, 10% ABV, 1.5 standard drinks.
 
 Later tests, one at a time, only after this works: hojicha as the hot liquid, La Guita instead of
