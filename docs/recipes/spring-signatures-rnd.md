@@ -75,6 +75,12 @@ Per 500 ml concentrate:
 
 Keeps 4–6 weeks in the fridge; freeze the extra.
 
+The rose stays (2026-10-22). Even with the concentrate's extra sugar, the 60 ml Monin Rose is about
+40% of the cordial's sugar (estimated from typical Monin sugar levels). Without it the drink drops
+from about 8 to 6.5 parts sugar per part acid, noticeably sharper, and loses what earns "Floral" on
+the menu. For less rose with the same balance: 30 ml rose plus about 25 g white sugar per 500 ml
+concentrate; taste against the full 60 ml.
+
 ### Per drink
 
 | Ingredient | B (main test) | A (comparison) |
