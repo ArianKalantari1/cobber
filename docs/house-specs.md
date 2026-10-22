@@ -422,6 +422,19 @@ bottles to the top and label "contains preservative 202" with the date. Keep
 it in the fridge for about 7–10 days (untested, and low in sugar, so check it
 before each service), or freeze portions.
 
+**If the colour is pale: hibiscus.** Watermelon and hibiscus is a classic
+pairing (Mexican agua fresca de jamaica y sandía). Hibiscus brings a deep red
+and a tart, cranberry-like edge. Its anthocyanin pigments stay bright red at
+low pH, and this cordial is acidified to about 3.5, so the colour holds well.
+Make a small colouring shot rather than steeping into the cordial: 2 g dried
+hibiscus (or one hibiscus–rooibos tea bag) in 30 ml just-boiled water for
+5 min, then strain and cool. Add it to the cordial a few ml at a time until
+the colour is right. Hibiscus is tart, so taste before adding all the citric
+acid. Pure dried hibiscus (flor de jamaica) is better than the rooibos blend:
+rooibos adds woody, honey notes and a brick-brown tint that can dull the pink.
+At a few ml per 500 ml, though, the blend won't take over. Cobber can't score
+this pairing, since neither watermelon nor hibiscus is in its data.
+
 **Use:** a decent pour of 45–60 ml per drink (not 20–25 ml) so the watermelon
 shows. At 45 ml the cordial's acid equals about 9 ml of lemon, so cut the
 lemon to match. If the rose syrup is in the cordial, drop it at service.
