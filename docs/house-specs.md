@@ -314,6 +314,75 @@ the purée (about 16 g/100 ml) are estimates, so check the bottle labels.
 
 ---
 
+## Pisco Ma Chérie (spec as supplied by Ari)
+
+### 1. Strawberry shrub (about 1.1 L, enough for 4 rail bottles)
+
+**The day before (5 min):** put these in a lidded tub in the cool room for
+24 h, stirring once if you pass.
+
+| Ingredient | Amount |
+|---|---|
+| Frozen strawberries | 1 kg |
+| White sugar | 400 g |
+| Demerara sugar | 200 g |
+| Black peppercorns, coarsely cracked (not ground) | 3 g |
+
+**Prep day (15 min):** strain through a sieve, pressing lightly (about 1 L of
+syrup). Throw out the pulp and pepper. Whisk these in until dissolved:
+
+| Ingredient | Amount |
+|---|---|
+| FORVM Chardonnay vinegar | 120 ml |
+| Citric acid | 21 g |
+| Malic acid | 7 g |
+| Salt | 1.5 g |
+
+**Taste check:** 15 ml shrub with 45 ml cold soda. If it tastes flat, add 3 g
+citric and 1 g malic and taste again (at most twice). It should taste like a
+bright strawberry soda, with no sharp prickle in the nose. Bottle it full to
+the top, label and date it, and rest it in the fridge for 2 days before
+batching.
+
+**Keeps:** about 3–4 weeks in the fridge without sorbate (untested; freeze half
+on day 0 if it's selling slowly). Throw it out if it fizzes or hisses when
+opened, grows a film, or smells yeasty or boozy.
+
+### 2. Batch (per 700 ml rail bottle)
+
+| Ingredient | Amount |
+|---|---|
+| Pisco | 320 ml |
+| Elegante Medium sherry (Summer Hill Wine Shop) | 140 ml |
+| Strawberry shrub | 240 ml |
+
+Exactly 700 ml at about 22% ABV, with no water added. One shrub batch makes 4
+rail bottles, with about 140 ml of shrub to spare. Best within about 2 weeks;
+colour and fresh aroma fade first. Keep the drum dark in the cool room, fill
+the rail bottle with one or two shifts' worth at a time, and never pour warm
+leftovers back into the drum.
+
+### 3. Service
+
+Fill a highball to the top with cubes. Pour 90 ml of batch (a 60 and a 30
+jigger), shaking the bottle first if it has settled. Give it 3–4 spins with
+the bar spoon, then pour 75 ml cold soda (or Purezza sparkling) down the spoon
+and lift once. Garnish with a dehydrated orange wheel stood against the inside
+of the glass, plus one twist of black pepper over the top.
+
+**Finished drink:** about 190 ml, 10.2% ABV, 1.54 standard drinks. Each rail
+bottle gives 7 full pours.
+
+**Checked:** the maths holds. Pisco at 40–42% plus the sherry gives 21–22% ABV
+in the batch, and 90 ml of batch with 75 ml soda and stirring melt comes to
+about 190 ml at about 10%. Estimated sugar is about 9.7 g per 100 ml in the
+glass, which suits a highball. The dehydrated orange wheel is shared with
+Orient Espresso, so it is one prep for two drinks. Optional: 0.5 g potassium
+sorbate per shrub batch (about 0.05%) would back up the untested 3–4 week
+shelf life.
+
+---
+
 ## Watermelon Reviver preps (A Refreshing Indulgence)
 
 ### Concentrated watermelon cordial (makes about 1.3 L per 1 L of juice)
