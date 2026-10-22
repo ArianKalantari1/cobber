@@ -225,11 +225,10 @@ Listán grapes in one glass. Check which grape your pisco is: Quebranta for most
 for some.
 
 Placement: it replaces El Diablito, taking the Signatures' tall, fruit-forward slot (decided
-2026-10-22). That frees ginger ale: one test round with a Chilcano-style top (Peru's own pisco
-highball), half soda and half dry ginger ale (about 40 ml and 35 ml). That adds about 3 g sugar, so
-give the shrub one more acid bump. Full ginger ale adds about 7 g and pushes the drink to nearly
-13 g sugar per 100 ml, which is too sweet. Keep plain soda if the pepper already gives enough
-warmth.
+2026-10-22). No ginger ale (decided): the top is bottled soda water or Purezza sparkling. Use
+whichever is colder and fizzier on the night. Bottled soda's dissolved minerals add a faint
+saltiness that suits the shrub; on-site sparkling can run softer, so check its fizz before a busy
+service. Try both side by side in the first tasting.
 
 Also considered: Mon Sherry (pisco left to the ingredient line), Fraise, Mon Sherry (sells the
 fruit, loses the pisco), Mon Sherry Chilcano (Peru's pisco highball, but obscure in Sydney), Ma Fraise Chérie (correct French, loses the sherry pun), and
