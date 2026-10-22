@@ -140,16 +140,24 @@ best base (0.283; rye 0.263, bourbon 0.258, vodka 0.180).
 
 | Per drink | ×11 (700 ml bottle) | |
 |---|---|---|
-| 20 ml | 220 ml | VS brandy |
+| 25 ml | 275 ml | VS brandy |
 | 15 ml | 165 ml | Mr Black |
-| 15 ml | 165 ml | Averna |
+| 10 ml | 110 ml | Averna |
 | 10 ml | 110 ml | Licor 43 |
 | 2 drops | about 1 ml | saline (20%) |
 
 **Service:** 60 ml batch + 35 ml fresh espresso. Shake hard for 12–15 s,
-fine-strain into a chilled coupe, garnish with 3 coffee beans. About 95 ml
-goes into the tin, giving 115–120 ml in the glass at about 16% ABV and about
-9.4 g sugar per 100 ml. The batch is shelf-stable.
+fine-strain into a chilled coupe, garnish with a dehydrated orange wheel.
+About 95 ml goes into the tin, giving about 119 ml in the glass at about
+16.6% ABV (about 1.6 standard drinks) and about 8.5 g sugar per 100 ml. The
+batch is shelf-stable.
+
+Brandy went up to 25 and Averna down to 10 at Ari's call. The orange stays
+dried, not a fresh expressed zest: in Cobber, fresh orange oil drops harmony
+from 0.424 to 0.302. If the drink tastes too dry, take Licor 43 to 12.5
+(about 9.1 g sugar per 100 ml). On aroma alone Averna is close to neutral
+(0.424 with it, 0.444 without), so whether to keep it is a taste call (test
+it at 10 ml against none).
 
 **Sugar and ABV data used:** Mr Black 25% / 25.1 g per 100 ml (producer FAQ);
 Averna 29% / 23 g per 100 ml (label data); Licor 43 31% / about 40 g per
@@ -157,7 +165,7 @@ Averna 29% / 23 g per 100 ml (label data); Licor 43 31% / about 40 g per
 
 **Coffee-tequila (Mexican) edition, to clear stock:** if it is a dry
 flavoured tequila, swap it 1:1 for the brandy. If it is a sweet liqueur, use
-20 coffee tequila · 10 Mr Black · 15 Averna · 5 Licor 43 · 35 espresso ·
+25 coffee tequila · 10 Mr Black · 10 Averna · 5 Licor 43 · 35 espresso ·
 saline. The brand is still to be confirmed.
 
 **More vanilla without more sugar:** 2 dashes of vanilla tincture, not more
@@ -171,6 +179,6 @@ Licor 43.
 - Strawberry Alexander: Monin in the batch, 3-day stability test.
 - Strawberry Alexander: 10 against 12.5 ml Monin; strawberry level in the infusion.
 - Carajillo Amer: blind head-to-head against the current espresso martini;
-  20 against 25 ml brandy; sweetness (as specced against vanilla tincture
-  against Licor 43 at 12.5); foam hold at 5 min; batch on day 1 against day 7;
-  service speed; a 2-week soft launch.
+  Averna at 10 ml against none; sweetness (as specced against vanilla
+  tincture against Licor 43 at 12.5); foam hold at 5 min; batch on day 1
+  against day 7; service speed; a 2-week soft launch.
