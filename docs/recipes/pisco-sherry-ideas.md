@@ -241,6 +241,8 @@ Raisin, Mon Sherry (raisin is French for grape, but reads as dried fruit in Engl
 
 ## Mon Chéri: the spec to test (decided 2026-10-22)
 
+**Final prep spec: [pisco-mon-sherry.md](pisco-mon-sherry.md).** The notes below are the working.
+
 Everything else in this file is background; this is the one to make.
 
 **Shrub (overnight maceration, about 1.1 L, 37 drinks), changed from the blitz 2026-10-22 because
