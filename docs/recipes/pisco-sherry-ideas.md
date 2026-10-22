@@ -210,8 +210,13 @@ Everything else in this file is background; this is the one to make.
 
 **Shrub (overnight maceration, about 1.1 L, 37 drinks), changed from the blitz 2026-10-22 because
 it keeps better without sorbate:**
-1. The day before: 1 kg frozen strawberries, 400 g white sugar and 200 g demerara, covered, in
-   the cool room for 24 hours. Stir once if you pass.
+1. The day before: 1 kg frozen strawberries, 400 g white sugar, 200 g demerara and 3 g coarsely
+   cracked black pepper (cracked, not ground: ground clouds it and turns harsh), covered, in the
+   cool room for 24 hours. Stir once if you pass. The pepper strains out with the pulp. Its heat
+   barely dissolves in syrup, so in the shrub it reads as aroma (woody, a little citrus) with a
+   gentle warmth. Taste the syrup when you strain: if you can't find the pepper, use 5 g next
+   batch. Cobber: black pepper's main flavour family is woody-resinous, strawberry's second
+   strongest partner family (NPMI +0.30, above chance).
 2. Strain, pressing lightly: about 1 L syrup. Bin the pulp.
 3. Whisk in 120 ml FORVM Chardonnay vinegar, 21 g citric, 7 g malic and 1.5 g salt.
 4. Taste 15 ml with 45 ml cold soda. If it's flat, add 3 g citric and 1 g malic, taste again; at
@@ -262,8 +267,9 @@ already oxidised; a fino or manzanilla would fade within weeks.
    The freeze-dried garnish puts strawberry on the nose, which is most of what we taste.
 Garnish: 2–3 freeze-dried strawberry slices. About 185 ml, 10% ABV, 1.5 standard drinks.
 
-Later tests, one at a time, only after this works: hojicha as the hot liquid, La Guita instead of
-the Medium, black pepper instead of the garnish.
+Later tests, one at a time, only after this works: La Guita instead of the Medium, then the
+strawberry boosters below. No blender: the strained maceration keeps better and leaves no pulp in
+the batch drum.
 
 ## Strawberry highballs: one prep day
 
