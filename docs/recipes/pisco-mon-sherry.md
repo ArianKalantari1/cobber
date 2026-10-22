@@ -1,6 +1,7 @@
 # Pisco, Mon Sherry: prep spec
 
-Tall strawberry pisco highball for the Signatures, replacing El Diablito. Background and the tests
+Tall strawberry pisco highball for the Signatures, replacing El Diablito. (L'Apéritif Cosmo is also
+leaving the menu, as of 2026-10-22.) Background and the tests
 behind it are in [pisco-sherry-ideas.md](pisco-sherry-ideas.md).
 Last updated: 2026-10-22. Not yet tasted as a full build: run the first-tasting checks below.
 
@@ -69,7 +70,7 @@ back into the drum.
    dehydrated lemon wheel, brighter, and strawberry and lemon is the classic (10 bar drinks); put
    both on the first tasting glass and pick by eye. Skip pineapple and apple (owner overlaps), lime
    (green on red reads Christmas, weakest link to strawberry), and rosemary or thyme (no herbs on
-   new signatures; rosemary is the Cosmo's).
+   new signatures).
 
 **Optional visual, at no extra cost:** spread the strained shrub pulp thin on a lined dehydrator
 tray (about 5 minutes), dry overnight, and snap it into shards; rest one on the ice. It's waste
