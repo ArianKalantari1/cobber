@@ -190,6 +190,59 @@ replacement for Averna, and choose plain cocoa over mole-style.
 
 ---
 
+## Summer Fling: apricot cordial
+
+**Problem:** with canned apricot in syrup, the apricot didn't come through and
+the drink didn't taste fresh. Apricot brandy helped.
+
+**Fix:** replace half the can syrup with agave, add dried apricot and a little
+peach for depth and colour, and add a fresh-fruit acid blend plus salt.
+
+**What Cobber found:** peach is apricot's closest partner (harmony 0.36). They
+share the "stone fruit" lactones (gamma- and delta-decalactone) and
+beta-ionone. A small amount of the Monin peach already stocked for Sangria
+Branco makes the apricot taste riper, with no new prep. Elderflower (0.18,
+through linalool and nerol oxide) is an optional floral lift. Cobber's
+tequila, mezcal and agave profiles are placeholders, so it can't score those
+links.
+
+**Batch (one 825 g can, makes about 700 ml):**
+
+| Ingredient | Amount | Why |
+|---|---|---|
+| Canned apricot halves | all of the fruit (about 480 g) | body and flavour |
+| Can syrup | **half** of it (about 170 g) | sugar and apricot |
+| Agave syrup | the same weight as the syrup removed (about 170 g) | rich texture; the menu already lists agave |
+| Dried apricots (bright orange, sulphured) | 50 g | concentrated apricot flavour and a deeper orange colour |
+| Monin peach purée | 30 ml | stone-fruit lactones make the apricot read riper |
+| Malic acid | 4 g | apricot's own main acid, which tastes like fresh fruit |
+| Citric acid | 2 g | brightness |
+| Ascorbic acid (vitamin C) | 1 g | antioxidant that keeps the colour from browning |
+| Salt | 1 g | lifts the fruit and rounds the sweetness |
+
+**Method:**
+
+1. Drain the can and weigh the syrup. Keep half of it.
+2. Warm that syrup with the agave to about 60 °C (don't boil it, or it tastes
+   cooked). Add the dried apricots and steep for 30 min.
+3. Blend everything except the acids and salt until smooth.
+4. Add the malic, citric and ascorbic acids and the salt, then blend again.
+5. Fine-strain through a chinois or fine sieve. A coffee filter is too fine
+   for purée.
+6. Bottle in an opaque bottle, then label and date it. Keep it in the fridge
+   and use within 10–14 days, or freeze portions.
+
+The batch lands at roughly 24–28 °Brix: a fruit-forward cordial, less sweet
+than Monin purées.
+
+**In the drink:** the cordial now carries acid and agave, so on a first build
+take **5 ml off the lime** and drop any separate agave, then taste. 30 ml of
+cordial per drink gives about 23 drinks per batch. Keep the apricot brandy if
+the owner likes it. For smoke, a 5 ml mezcal float works (the menu base is
+tequila).
+
+---
+
 ## Open tests
 - Olivia v2 against the current spec, side by side (and 10 against 15 ml vermouth).
 - Basil oil: microwave-dried with and without blanching; colour on the foam.
