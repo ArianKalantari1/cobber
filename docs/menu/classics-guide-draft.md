@@ -21,15 +21,15 @@ Bitter & Herbal: for Negroni and amaro drinkers
   Hanky Panky 25        Gin, Sweet Vermouth, Fernet-Branca        Herbal, Bittersweet, Boozy
 
 Rich & Roasted: coffee and spirit-forward, for after dinner
-  Carajillo ––          Licor 43, Espresso                        Roasted, Sweet, Silky
+  Carajillo ––          Brandy, Licor 43, Coffee Liqueur, Espresso  Roasted, Rich, Silky
   Espresso Martini ––   Vodka, Coffee Liqueur, Espresso           Roasted, Velvety, Bittersweet
   Old Fashioned 24      Rum or Rye Whisky, Sugar, Bitters         Rich, Smooth, Boozy
 ```
 
 Notes:
 - Groups are 4, 3 and 3, and follow an evening: fresh to start, bitter before dinner, rich after.
-- Coffee prices to set. Carajillo written Mexican-style (Licor 43); the Spanish style uses brandy.
-  "Vanilla" left out of its descriptors because vanilla is already on three signatures.
+- Coffee prices to set. "Vanilla" is left out of the Carajillo's descriptors because vanilla is
+  already on three signatures.
 - The same groups can carry the Signatures: Watermelon Reviver and Pisco Mon Sherry under Fresh &
   Fruity, White Flower Negroni under Bitter & Herbal, Nutty Old Fashioned under Rich & Roasted.
 
@@ -37,9 +37,16 @@ Notes:
 
 Classic names kept: guests look for "Espresso Martini" by name.
 
-**Carajillo (Mexican style):** 45 ml Licor 43, 45 ml fresh espresso (a double shot). Shake hard with
-ice; strain over fresh cubes in a rocks glass. Garnish: dehydrated orange wheel (in stock).
-Menu: `Licor 43, Espresso` · `Roasted, Sweet, Silky`. The Spanish style is brandy and coffee instead.
+**Carajillo (the house version: brandy, Licor 43 and coffee liqueur, no added sugar):** 30 ml brandy,
+20 ml Licor 43, 15 ml coffee liqueur, 40 ml fresh espresso (a long double). Shake hard with ice;
+strain over fresh cubes in a rocks glass. Garnish: dehydrated orange wheel (in stock). The two
+liqueurs bring about 8–11 g sugar, close to an Espresso Martini, so no syrup; a dry coffee liqueur
+(Mr Black) lands at the drier end. About 16% ABV, 1.7 standard drinks.
+Batch per 700 ml rail (10 drinks): 300 ml brandy, 200 ml Licor 43, 150 ml coffee liqueur; nothing
+perishable. Service: 65 ml pour plus a fresh espresso.
+Menu: `Brandy, Licor 43, Coffee Liqueur, Espresso` · `Roasted, Rich, Silky`.
+Optional: a Spanish brandy, especially Brandy de Jerez (aged in sherry casks), ties it to the menu's
+sherry thread; Summer Hill sells wine only, so it comes from elsewhere.
 
 **Espresso Martini:** 40 ml vodka, 30 ml coffee liqueur, 30 ml fresh espresso, 5–10 ml sugar syrup
 to taste (the higher end with a drier liqueur such as Mr Black). Shake hard, double-strain into a
