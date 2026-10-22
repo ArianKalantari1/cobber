@@ -115,64 +115,6 @@ not in the repo.
 
 ---
 
-## Strawberry Alexander (Ari): retired; Pisco Ma Chérie takes the strawberry slot
-
-**Idea:** a twist on the Alexander, with brandy, cream liqueur, chocolate, vanilla
-and strawberry. No fresh cream (shelf life) and no foamer.
-
-**What Cobber found:** the core drink scores high harmony (0.395 with vanilla from
-the Licor 43). Every one of the 16 additions tested lowered it, so don't add new
-flavours: make the strawberry stronger instead.
-
-### Strawberry and cacao brandy
-- 700 ml brandy (a cheaper VS is fine, since the nibs cover the difference),
-  25 g cacao nibs (optionally toasted 2 min), and 250–300 g strawberries, hulled
-  and quartered (slightly overripe is cheaper and has more flavour).
-- Put the nibs in a muslin or tea bag and pull them at about 24 h, before they
-  turn bitter. Leave the strawberries in for 48 h, shaking daily.
-- Strain through a coffee filter and **don't press the fruit**. It stays above 30%
-  alcohol and keeps at room temperature. Colour and flavour soften over a few
-  weeks, so store it out of light.
-
-### Batch (no dairy)
-
-| Per serve | ×15 | |
-|---|---|---|
-| 40 ml | 600 ml | brandy infused with strawberry and cacao |
-| 5 ml | 75 ml | Licor 43 |
-| 2 drops | 1.5 ml | saline (20%) |
-
-**Service:** 45 ml batch + 20 ml cream liqueur (from a squeeze bottle on ice) +
-10 ml Monin strawberry. Add the cream liqueur last, shake hard right away, and
-strain into a chilled 150–180 ml coupe. About 95 ml.
-
-**Garnish:** 3–4 drops of Monin strawberry on top, dragged into hearts with a
-toothpick. Optional: a light dusting of cocoa on half.
-
-**Never batch the cream liqueur with the strawberry brandy.** Over days, fruit
-acid plus the higher alcohol (about 30% against the liqueur's 17%) can curdle it.
-In the shaker the contact is a few minutes and the acid is small, about 2 ml of
-lemon juice equivalent per serve.
-
-**Squeeze bottle:** empty and wash it daily, never top up old cream liqueur with
-new, and squeeze into the jigger so the 20 ml stays accurate.
-
-### Optional: Monin in the batch
-×12 bottle: 480 brandy · 120 Monin · 60 Licor 43 · 1.2 saline. Service: 55 ml
-batch + 20 ml cream liqueur. Alcohol isn't the risk (about 30%). The risks are
-**pectin clumping** (stringy bits that won't shake back in), settling, and the
-colour dulling. Test a 3–4 serve bottle through 3 days of the normal rail and
-cool-room routine before adopting it. If it passes, make bottles that last
-3–4 days and shake before every pour.
-
-### If the strawberry tastes weak, in this order
-1. More strawberries in the infusion (300–350 g per 700 ml), which adds no sugar.
-2. Swap 5 ml of Monin for crème de framboise. Raspberry had the smallest negative
-   effect of the fruits tested (−0.06), and the sugar stays the same.
-3. Only then add more Monin.
-
----
-
 ## Orient Espresso (espresso-martini twist; working name was Carajillo Amer)
 
 **Idea:** a bittersweet espresso martini made only from stock already on hand.
@@ -497,10 +439,8 @@ pickle-like.
 ---
 
 ## Open tests
-- Olivia v2 against the current spec, side by side (and 10 against 15 ml vermouth).
-- Basil oil: microwave-dried with and without blanching; colour on the foam.
-- Strawberry Alexander: Monin in the batch, 3-day stability test.
-- Strawberry Alexander: 10 against 12.5 ml Monin; strawberry level in the infusion.
+- Olivia: M1 against M2 (P only if peach is preferred); then brine dose (5 / 7.5 / 10 ml)
+  and olive oil (5 against 10 ml) on the winner. See the Olivia section.
 - Orient Espresso: blind head-to-head against the current espresso martini;
   Averna at 10 ml against none; sweetness (as specced against vanilla
   tincture against Licor 43 at 12.5); foam hold at 5 min; batch on day 1
