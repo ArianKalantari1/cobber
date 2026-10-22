@@ -211,7 +211,7 @@ blend, vitamin C and salt. No dried apricot, no cooking, no agave, no sieve
 | Can syrup | **half** of it (about 170 g); discard the rest | less sugar, more apricot |
 | Malic acid | 3 g | apricot's own main acid, which tastes like fresh fruit |
 | Citric acid | 1 g | brightness (the lime does the real souring) |
-| Ascorbic acid (vitamin C) | 1 g | stops browning |
+| Ascorbic acid (vitamin C), optional | 1 g | colour only; skip unless a test batch browns (check the can label first: many canned fruits already list antioxidant 300) |
 | Salt | 1 g | lifts the fruit |
 | Potassium sorbate (optional) | 0.5 g, dissolved in a little warm water | yeast and mould control; roughly doubles fridge life |
 | Monin peach purée (optional) | 30 ml | stone-fruit lactones make the apricot read riper (harmony 0.36) |
