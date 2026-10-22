@@ -62,21 +62,14 @@ back into the drum.
 2. 90 ml batch (a 60 and a 30 jigger). Shake the bottle first if it has settled.
 3. 3–4 spins with the bar spoon to chill it.
 4. Top with 75 ml cold bottled soda or Purezza sparkling, poured down the spoon. One lift.
-5. Garnish: 2–3 peppered strawberry chips (below) on top of the ice. Backup: freeze-dried
-   strawberry slices with one light twist of black pepper.
+5. Garnish: one twist of black pepper over the top. A second's work and a fraction of a cent; fresh
+   pepper on the nose, tied to the pepper in the shrub. The coral-red colour is the visual.
 
-**Peppered strawberry chips (one 250 g punnet, 60–100 chips, about 25–30 drinks):**
-1. Hull and slice 3 mm thick, evenly (a mandoline helps); thick slices stay chewy.
-2. Dip 1 minute in 1 tsp citric acid in 250 ml water, and drain. It keeps the red bright and the
-   damp surface holds the pepper.
-3. Lay on the dehydrator trays and grind black pepper over them, medium-fine and lightly.
-4. Dry at about 57 °C for 6–10 hours, until they snap rather than bend.
-5. Airtight jar, with a food-safe silica sachet if you have one. They go soft fast in humid air:
-   keep a small jar on the bar and refill it from sealed stock.
-
-Drying drives off much of the pepper's fresh aroma but keeps its heat, so the chip gives warmth and
-a peppery first sip rather than a fresh-ground nose; the shrub's pepper carries the rest. Fresh
-strawberries stay at prep, never behind the bar.
+**Optional visual, at no extra cost:** spread the strained shrub pulp thin on a lined dehydrator
+tray (about 5 minutes), dry overnight, and snap it into shards; rest one on the ice. It's waste
+already paid for, pepper included. It's sugary, so it goes sticky in humid air: keep it sealed.
+(Freeze-dried strawberries are the expensive route; chips cut from fresh punnets are cheap but cost
+slicing time and go soft fast.)
 
 About 190 ml, 10.2% ABV, 1.54 standard drinks. 7 full pours per rail bottle.
 
@@ -87,12 +80,10 @@ About 190 ml, 10.2% ABV, 1.54 standard drinks. 7 full pours per rail bottle.
 | Elegante Medium sherry | Summer Hill Wine Shop | $25, $19.99 in any six; 140 ml per rail |
 | FORVM Chardonnay vinegar, 250 ml | Supermarket gourmet vinegar shelf | About $23–26; 120 ml per shrub batch |
 | Frozen strawberries, 1 kg | Supermarket | One bag per shrub batch |
-| Fresh strawberries, 250 g punnet | Supermarket or market | For the peppered chips |
-| Freeze-dried strawberry slices (backup garnish) | Bulk-food or health-food shops | Airtight jar; check the label for nut warnings |
 | Pisco, demerara, white sugar, black peppercorns, citric, malic, salt, soda | Bar stock | |
 
 Cost: pisco and sherry about $3.40 a drink, shrub about 60c (mostly the FORVM), soda and garnish
-about 45c: roughly $4.50 a drink, assuming frozen strawberries at about $8 a kilo.
+about 20c: roughly $4.20 a drink, assuming frozen strawberries at about $8 a kilo.
 
 **Allergens:** sulphites (sherry and vinegar). No nuts; the nutty taste comes from the sherry.
 
@@ -101,7 +92,7 @@ about 45c: roughly $4.50 a drink, assuming frozen strawberries at about $8 a kil
 1. The acid taste-up (prep step 3).
 2. Soda: 75 ml against 60 ml, and bottled soda against Purezza.
 3. Can you name the pisco on the first sip? If not, try 340 ml pisco and 120 ml Medium per rail.
-4. The peppered chips: enough pepper, still crisp after a shift on the bar?
+4. The pepper twist: enough on the nose? If the owner wants a visual, try the pulp shards.
 5. One comparison glass with ginger ale. If ginger's warmth wins, 20 g sliced fresh ginger replaces
    the pepper in the maceration; the top stays soda.
 6. Batch drum on days 7 and 14 against a fresh one: colour and aroma.
