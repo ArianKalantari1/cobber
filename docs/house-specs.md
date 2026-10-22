@@ -385,39 +385,46 @@ shelf life.
 
 ## Watermelon Reviver preps (A Refreshing Indulgence)
 
-### Watermelon cordial (from bottled H2melon juice, about 1.3 L)
+### Watermelon concentrate cordial (freeze-concentrated H2melon, about 550 ml)
 
-The base is bottled, heat-treated watermelon juice (H2melon) with little
-preservative, so this cordial needs both acid and potassium sorbate. The
-cucumber rum brings the freshness.
+The point is concentration: plain bottled juice gets lost in the drink. Freeze
+1 L of H2melon and slowly thaw it upside down. The first melt carries most of
+the sugar, flavour and colour, so keep the first 500 ml and discard the pale
+ice.
 
-| Ingredient | Per 1 L H2melon juice | Why |
+**Step 1: freeze-concentrate (1 L → 500 ml)**
+
+1. Freeze the 1 L of H2melon solid (about 24 h). If it is still in its
+   plastic bottle, pour off a splash first, because it expands.
+2. Turn it upside down over a jug (a funnel or sieve helps) in the cool room,
+   never at room temperature.
+3. Collect the melt until you have **500 ml** (about 6–10 h; watch it).
+   Discard the pale ice left behind.
+4. Optional: with a refractometer, aim for roughly 12–14 °Brix (the juice
+   starts around 7–8). For even stronger, refreeze the 500 ml and keep the
+   first 300 ml (but you lose more).
+
+**Step 2: cordial (no added sugar except the optional rose syrup)**
+
+| Ingredient | Per 500 ml concentrate | Why |
 |---|---|---|
-| H2melon watermelon juice | 1 L | base |
-| Caster sugar | 500 g | cordial strength (about 43 g sugar per 100 ml) |
-| Citric acid | 10 g | watermelon has almost no acid (pH about 5.5); brings it to about 3.5 |
-| Malic acid | 5 g | rounder, fresh-fruit sourness |
-| Salt | 1 g | watermelon and salt: lifts the fruit |
-| Potassium sorbate | 1 g (about 0.075%), dissolved in 10 ml warm water | yeast and mould control; only works once the acid has brought the pH down |
-| Vitamin C (optional) | 2 crushed Cenovis 500 mg tablets | helps hold the pink colour |
+| Watermelon concentrate | 500 ml | base |
+| Citric acid | 4 g | brightness; replaces most of the lemon |
+| Malic acid | 2 g | rounder, fresh-fruit sourness |
+| Salt | 0.5 g | lifts the watermelon |
+| Potassium sorbate | 0.4 g (about 0.08%), dissolved in 5 ml warm water | needed: the juice has little preservative and the concentrate is low in sugar |
+| Rose syrup (optional) | 50 ml | pink colour and the drink's rose note in the same bottle, which removes the separate rose syrup at service |
+| Vitamin C (optional) | 1 crushed Cenovis 500 mg tablet | helps hold the colour |
 
-**Method (cold, 10 min):** pour the juice into a tub, add the sugar, acids and
-salt, and whisk or stick-blend until fully dissolved. Add the dissolved
-sorbate last and stir. Don't heat it: the juice is already heat-treated, and
-more heat dulls the flavour. Check that the pH is 3.8 or below (pH strips).
-Bottle full to the top in opaque bottles, and label it "contains
-preservative 202" with the date.
+**Method:** stir everything into the cold concentrate until dissolved, adding
+the dissolved sorbate last. Check that the pH is 3.8 or below. Fill opaque
+bottles to the top and label "contains preservative 202" with the date. Keep
+it in the fridge for about 7–10 days (untested, and low in sugar, so check it
+before each service), or freeze portions.
 
-**Storage:** fridge. About 2–3 weeks with sorbate (untested; date it and check
-before each service). Freeze portions if it's selling slowly. Make the cordial
-on the day you open the H2melon. Throw it out if it fizzes, hisses, grows a
-film or smells yeasty.
-
-**Optional, more concentrated:** freeze the juice solid, let it melt upside
-down over a jug in the fridge, and keep the first ~50% of the melt. Make the
-cordial with that, using 300 g sugar per litre.
-
-**Use:** 20–25 ml per drink.
+**Use:** a decent pour of 45–60 ml per drink (not 20–25 ml) so the watermelon
+shows. At 45 ml the cordial's acid equals about 9 ml of lemon, so cut the
+lemon to match. If the rose syrup is in the cordial, drop it at service.
 
 ### Cucumber-infused rum (700 ml)
 
