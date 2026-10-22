@@ -21,7 +21,7 @@ House rules these follow:
 
 | Drink | Status | Next step |
 |---|---|---|
-| Watermelon Reviver | Trimmed to fit the coupe; H2melon freeze-concentrate cordial chosen | Cucumber steep and saline tests |
+| Watermelon Reviver | Spec C: 90 ml batch and 15 ml lemon, about 1.6 standard drinks; owner wants a new name | Cucumber rum trial; pick the name |
 | La Pasión | Passionfruit base settled; macadamia dropped for allergy reasons | Choose the nut-free accent: fino or Topaque |
 | C'est Chamoy | Batch and chamoy settled | Fire bitters and Tajín levels |
 | Olivia, reinvented | Rebalanced with 1:1 honey syrup | Lemon 12.5 or 10 ml; basil dot colour |
@@ -40,7 +40,56 @@ House rules these follow:
 
 ## 1. Watermelon Reviver (white rum), coupe
 
-### Freeze-concentrated H2melon
+**Name:** the owner passed on "Watermelon Reviver" (2026-10-22), so a new name is still to be
+picked. Song shortlist: Watermelon Sugar, La Vie en Rose, Padam Padam, Sympathique.
+
+### Spec (C, chosen 2026-10-22)
+
+Per drink: **90 ml batch and 15 ml lemon** (12.5 ml if it tastes sharp).
+
+| What's in one drink | Amount |
+|---|---|
+| Cucumber rum (or plain white rum) | about 33 ml |
+| Lillet Rosé | about 19 ml |
+| Orange curaçao | about 9 ml |
+| Rose watermelon cordial | about 28 ml |
+| Absinthe | 1 dash (about 0.7 ml) |
+| Lemon, fresh | 15 ml |
+
+Tip the batch bottle gently, pour 90 ml batch and 15 ml lemon into the tin, shake exactly like the
+French Martini (same ice, same time: hard, about 10 seconds, good dry ice) and double-strain into a
+chilled coupe. 105 ml before shaking, about 1.6 standard drinks (a classic Corpse Reviver No. 2 is
+about 1.75). That assumes a 40% curaçao; with a 25% one it's about 1.5.
+
+- **Lemon:** the cordial already carries acid, about 7–8 ml of lemon's worth per 30 ml. Even so,
+  the drink sits at about 8 parts sugar to 1 part acid, sweeter than the classic's 6 to 1, so 10 ml
+  lemon is too sweet. If it tastes flat or sweet, add lemon 2.5 ml at a time and keep the cordial
+  the same.
+- **The coupe:** the French Martini (40 vodka, 25 Chambord, 45 pineapple, 10 lime, 5 sugar: 125 ml
+  before shaking) fits, so 105 ml has room. Both drinks carry about the same alcohol, so they take
+  on about the same water; the 115 ml version that overflowed on 2026-10-21 most likely got a long
+  shake or wet ice.
+
+### Batch (700 ml, 7 drinks at 90 ml)
+
+| Ingredient | Bottle |
+|---|---|
+| Cucumber rum (or plain white rum) | 230 ml |
+| Lillet Rosé | 135 ml |
+| Orange curaçao | 65 ml |
+| Rose watermelon cordial | 200 ml |
+| Absinthe | 5 ml |
+| 20% saline | none at first; up to 1 ml if it tastes flat |
+
+About 635 ml, which leaves room to tip and mix. The lemon stays fresh and separate: in the bottle,
+fresh lemon loses its brightness within about a day.
+
+**Keeping:** in the fridge (Lillet and watermelon), 3–4 weeks. The watermelon aroma fades first,
+so make one bottle at a time.
+
+### Rose watermelon cordial (about 560 ml, about 20 drinks)
+
+**Freeze-concentrate the H2melon** (one 1.25 L bottle):
 
 1. Pour about 10% (about 125 ml) off a 1.25 L bottle; it makes room for the ice and is your test
    juice. Use the original bottle, never glass.
@@ -65,15 +114,21 @@ flavour chemistry, not Cobber.)
 sodium per 100 ml. Use it within 3 days of opening, so freeze it the day you open it. Sold at
 Dan Murphy's, IGA and Chemist Warehouse (1.25 L bottles and 500 ml cans).
 
-### Rose watermelon cordial (about 560 ml, 18 drinks)
-
-Per 500 ml concentrate:
+**The cordial,** per 500 ml concentrate:
 - 60 ml Monin Rose
 - 4.5 g malic and 4.5 g citric
 - 2 ml sorbate stock
 - Check with a pH strip that it's 3.5 or lower.
 
-Keeps 4–6 weeks in the fridge; freeze the extra.
+- **No salt:** H2melon has 40 mg sodium per 100 ml and freezing concentrates it, so each 30 ml of
+  cordial already carries about 4 drops' worth of 20% saline. Any extra salt goes in the batch,
+  so the cordial stays the same every time.
+- **Yield:** one H2melon bottle makes about 560 ml: 2 batch bottles (400 ml, 14 drinks) and about
+  160 ml to freeze for the next round. Collect the full 550 ml of concentrate and it makes about
+  610 ml, enough for 3 batch bottles (21 drinks), slightly less concentrated.
+- **Keeping:** 4–6 weeks in the fridge; months frozen.
+- **Rose syrup:** this uses the two bottles of Monin Rose already in stock that nothing else uses.
+  At about 3 ml a drink, they cover roughly 460 drinks.
 
 The rose stays (2026-10-22). Even with the concentrate's extra sugar, the 60 ml Monin Rose is about
 40% of the cordial's sugar (estimated from typical Monin sugar levels). Without it the drink drops
@@ -81,49 +136,13 @@ from about 8 to 6.5 parts sugar per part acid, noticeably sharper, and loses wha
 the menu. For less rose with the same balance: 30 ml rose plus about 25 g white sugar per 500 ml
 concentrate; taste against the full 60 ml.
 
-### Per drink
-
-| Ingredient | B (main test) | A (comparison) |
-|---|---|---|
-| Cucumber rum (or plain white rum) | 25 ml | 25 ml |
-| Lillet Rosé | 20 ml | 20 ml |
-| Orange curaçao | 10 ml | 15 ml |
-| Rose watermelon cordial | 30 ml | 30 ml |
-| Lemon | 15 ml | 10 ml |
-| Absinthe (optional) | 1 dash | 1 dash |
-| 20% saline | 0–3 drops, only if it tastes flat | same |
-
-Shake hard for about 10 seconds with good, dry ice and double-strain into a chilled coupe. About
-100 ml before shaking, about 125 ml in the glass, about 1.4 standard drinks (1.5 for A, with its
-extra curaçao).
-
-### Batch (700 ml, 8 drinks)
-
-| Ingredient | Bottle |
-|---|---|
-| Cucumber rum (or plain white rum) | 200 ml |
-| Lillet Rosé | 160 ml |
-| Orange curaçao | 80 ml |
-| Rose watermelon cordial | 240 ml |
-| Absinthe | 7 ml |
-| 20% saline | none at first; up to 1.2 ml if it tastes flat |
-
-H2melon is already salty (concentrated, each 30 ml of cordial carries about 4 drops' worth of
-saline), so taste before adding saline.
-
-**Service:** tip the bottle gently to mix, pour 85 ml batch and 15 ml lemon, shake hard for about
-10 seconds and double-strain into a chilled coupe.
-
-**Keeping:** in the fridge (Lillet and watermelon), 3–4 weeks. The watermelon aroma fades first,
-so make one bottle at a time.
-
 ### Cucumber rum
 
 The cucumber goes into the rum, not the batch (2026-10-22): strong spirit extracts it cleanly, it's
 made once for three batches, and every batch gets the same level. It puts back the fresh, green
 watermelon notes that heat treatment strips out, and cucumber with rose is a proven pairing.
 
-Per 700 ml bottle of white rum (3 batches, 24 drinks, plus 100 ml spare):
+Per 700 ml bottle of white rum (3 batches, 21 drinks, plus about 10 ml spare):
 1. Wash one Lebanese cucumber (about 150–175 g). Cut 2 cm off the stem end and trim the other end.
 2. Peel it and slice it thin, about 3 mm.
 3. Leave the slices on the board for 5 minutes. The cucumber smell forms in the minutes after
@@ -136,13 +155,23 @@ Per 700 ml bottle of white rum (3 batches, 24 drinks, plus 100 ml spare):
 Why peeled: the skin's green chlorophyll dissolves in strong alcohol and turns olive-brown in an
 acidic drink, which would dull the pink, and the skin and stem end carry most of the bitterness.
 Cold rather than room temperature slows the bitterness, so the 24–48 hour window is forgiving.
-This is the same cucumber per drink as the earlier batch steep (about 50 g per batch bottle).
+Each drink now carries about a third more cucumber than the old 25 ml rum spec. If the cucumber
+gets loud, use about 120 g per bottle.
 
 **Small trial first:** split 50 g of cucumber: 25 g peeled in 100 ml rum, 25 g skin-on in another
-100 ml, both in the cool room for 24 hours, then strain. Make three B drinks: plain rum, peeled,
-skin-on. Keep the cucumber if a drink tastes more like fresh watermelon without tasting of cucumber,
-and check its colour in the coupe against the plain one. Peeled wins a tie. If neither beats plain
-rum, the menu line goes back to "Rum" (it currently says Cucumber Rum).
+100 ml, both in the cool room for 24 hours, then strain. Make one C drink of each: plain rum,
+peeled, skin-on. Keep the cucumber if a drink tastes more like fresh watermelon without tasting of
+cucumber, and check its colour in the coupe against the plain one. Peeled wins a tie. If neither
+beats plain rum, the menu line goes back to "Rum" (it currently says Cucumber Rum).
+
+### Earlier versions
+
+| Version | Per drink (ml) | Before shaking | Standard drinks | Why not |
+|---|---|---|---|---|
+| B | 25 rum, 20 Lillet Rosé, 10 curaçao, 30 cordial, 15 lemon | 100 ml | 1.4 | Weaker than the classic |
+| A | As B, with 15 curaçao and 10 lemon | 100 ml | 1.5 | Comparison only |
+| C at 95 ml | 35 rum, 20 Lillet Rosé, 10 curaçao, 30 cordial, 15 lemon | 110 ml | 1.7 | 90 ml is an easier pour; 1.6 accepted |
+| D | 30 rum, 20 Lillet Rosé, 15 curaçao, 30 cordial, 20 lemon | 115 ml | 1.7 | The cordial already carries acid, so lemon stays at 15 |
 
 **If you use fresh watermelon instead:** buy whole and seedless, scrub the rind before cutting,
 use clean gear, cut away the green and white layers, and cut, blend, strain, bottle and freeze
@@ -165,6 +194,8 @@ cool room. The raw cordial keeps about 2 weeks.
   rounder and less like a lemon drink.
 - **Acid in the cordial:** brings the drink close to the classic Reviver's brightness without
   adding volume.
+- **Strength:** close to a classic Corpse Reviver No. 2 (about 1.75 standard drinks). The 90 ml
+  pour gives about 1.6, accepted for an easier pour.
 
 ---
 
@@ -473,7 +504,8 @@ basil tincture (drag a toothpick through them for hearts).
 
 - La Pasión: fino or Topaque (or oloroso); burnt or plain syrup; Peychaud's; soda or half
   lemonade; the purée's sugar level.
-- Reviver: A or B; cucumber in or out; whether it needs any saline with H2melon.
+- Reviver: the new name; cucumber rum in or out, peeled or skin-on; lemon 15 or 12.5 ml; whether
+  it needs any saline with H2melon.
 - C'est Chamoy: fire bitters; Tajín level.
 - Olivia: lemon 12.5 or 10 ml; dried or fresh basil for the dots.
 - Prices ($23–24) and the nut mark on the menu.
