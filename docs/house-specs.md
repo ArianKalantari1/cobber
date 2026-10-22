@@ -302,10 +302,24 @@ syrup). Throw out the pulp and pepper. Whisk these in until dissolved:
 
 | Ingredient | Amount |
 |---|---|
-| FORVM Chardonnay vinegar | 120 ml |
+| Vinegar (pick one, below) | 120 ml |
 | Citric acid | 21 g |
 | Malic acid | 7 g |
 | Salt | 1.5 g |
+| Potassium sorbate, optional | 5 ml of a 10% solution (= 0.5 g) |
+
+**Vinegar options:**
+- **FORVM Chardonnay vinegar** is the default. It's clean and fruity and lets the
+  strawberry lead.
+- **Sherry vinegar from Woolworths** (Ari thinks the brand is Moro) is nuttier and
+  woodier, and links to the Elegante sherry in the batch. It can push the shrub
+  slightly savoury and darken the colour.
+- **A 60/60 split** gets some of each.
+- **Check the acidity %** on both labels. If the sherry vinegar is stronger, start
+  at 100 ml and top up by taste.
+
+**Sorbate** backs up the untested 3–4 week fridge life. Skip it if a batch is
+always finished within about 2 weeks.
 
 **Taste check:** 15 ml shrub with 45 ml cold soda. If it tastes flat, add 3 g
 citric and 1 g malic and taste again (at most twice). It should taste like a
@@ -346,9 +360,7 @@ bottle gives 7 full pours.
 in the batch, and 90 ml of batch with 75 ml soda and stirring melt comes to
 about 190 ml at about 10%. Estimated sugar is about 9.7 g per 100 ml in the
 glass, which suits a highball. The dehydrated orange wheel is shared with
-Orient Espresso, so it is one prep for two drinks. Optional: 0.5 g potassium
-sorbate per shrub batch (about 0.05%) would back up the untested 3–4 week
-shelf life.
+Orient Espresso, so it is one prep for two drinks.
 
 ---
 
