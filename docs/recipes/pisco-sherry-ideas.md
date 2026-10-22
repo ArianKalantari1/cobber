@@ -224,9 +224,15 @@ vine Spanish settlers brought to Peru) and Negramoll; that rests on a small DNA 
 Listán grapes in one glass. Check which grape your pisco is: Quebranta for most, Italia or a blend
 for some.
 
+Placement: it replaces El Diablito, taking the Signatures' tall, fruit-forward slot (decided
+2026-10-22). That frees ginger ale: one test round with a Chilcano-style top (Peru's own pisco
+highball), half soda and half dry ginger ale (about 40 ml and 35 ml). That adds about 3 g sugar, so
+give the shrub one more acid bump. Full ginger ale adds about 7 g and pushes the drink to nearly
+13 g sugar per 100 ml, which is too sweet. Keep plain soda if the pepper already gives enough
+warmth.
+
 Also considered: Mon Sherry (pisco left to the ingredient line), Fraise, Mon Sherry (sells the
-fruit, loses the pisco), Mon Sherry Chilcano (Peru's pisco highball, but obscure in Sydney and it
-implies ginger ale, El Diablito's), Ma Fraise Chérie (correct French, loses the sherry pun), and
+fruit, loses the pisco), Mon Sherry Chilcano (Peru's pisco highball, but obscure in Sydney), Ma Fraise Chérie (correct French, loses the sherry pun), and
 Raisin, Mon Sherry (raisin is French for grape, but reads as dried fruit in English).
 
 ## Mon Chéri: the spec to test (decided 2026-10-22)
