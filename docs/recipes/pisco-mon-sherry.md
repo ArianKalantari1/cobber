@@ -62,8 +62,14 @@ back into the drum.
 2. 90 ml batch (a 60 and a 30 jigger). Shake the bottle first if it has settled.
 3. 3–4 spins with the bar spoon to chill it.
 4. Top with 75 ml cold bottled soda or Purezza sparkling, poured down the spoon. One lift.
-5. Garnish: one twist of black pepper over the top. A second's work and a fraction of a cent; fresh
-   pepper on the nose, tied to the pepper in the shrub. The coral-red colour is the visual.
+5. Garnish: a dehydrated orange wheel stood inside the glass against the side, then one twist of
+   black pepper over the top. Both are in stock, need no prep and take seconds. Orange on coral-red
+   looks warm and echoes the Medium's amber and the demerara; orange and sherry are a classic pair
+   (Cobber tradition 0.36) and orange lifts the cocoa note (chocolate and orange). Runner-up: a
+   dehydrated lemon wheel, brighter, and strawberry and lemon is the classic (10 bar drinks); put
+   both on the first tasting glass and pick by eye. Skip pineapple and apple (owner overlaps), lime
+   (green on red reads Christmas, weakest link to strawberry), and rosemary or thyme (no herbs on
+   new signatures; rosemary is the Cosmo's).
 
 **Optional visual, at no extra cost:** spread the strained shrub pulp thin on a lined dehydrator
 tray (about 5 minutes), dry overnight, and snap it into shards; rest one on the ice. It's waste
@@ -92,7 +98,7 @@ about 20c: roughly $4.20 a drink, assuming frozen strawberries at about $8 a kil
 1. The acid taste-up (prep step 3).
 2. Soda: 75 ml against 60 ml, and bottled soda against Purezza.
 3. Can you name the pisco on the first sip? If not, try 340 ml pisco and 120 ml Medium per rail.
-4. The pepper twist: enough on the nose? If the owner wants a visual, try the pulp shards.
+4. Garnish: dehydrated orange against lemon wheel, by eye; is the pepper twist enough on the nose?
 5. One comparison glass with ginger ale. If ginger's warmth wins, 20 g sliced fresh ginger replaces
    the pepper in the maceration; the top stays soda.
 6. Batch drum on days 7 and 14 against a fresh one: colour and aroma.
