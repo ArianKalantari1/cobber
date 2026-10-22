@@ -232,6 +232,40 @@ batch.
 **Service:** 30 ml purée per drink, single-strain with a Hawthorne strainer
 only, and scrape the jigger.
 
+### Summer Fling batch
+
+| Per drink | ×9 (700 ml bottle) | ×10 (1 L bottle) | |
+|---|---|---|---|
+| 35 ml | 315 ml | 350 ml | blanco tequila |
+| 10 ml | 90 ml | 100 ml | mezcal (enough to actually taste the smoke) |
+| 15 ml | 135 ml | 150 ml | Floc de Gascogne (honey, grape) |
+| 5 ml | 45 ml | 50 ml | apricot liqueur |
+| 5 ml | 45 ml | 50 ml | agave nectar, straight (use 10 ml if your agave is cut 1:1 with water) |
+| **70 ml** | **630 ml** | **700 ml** | |
+
+**Into the tin:** 70 ml batch + 30 ml apricot purée + 20 ml lime. Shake hard
+and single-strain (Hawthorne only).
+
+**The drink (estimated):** 120 ml into the tin gives about 146 ml in the glass
+at about 15% ABV (about 1.7 standard drinks), with about 9.4 g sugar per
+100 ml and about 1.1% acid. The batch is about 31% ABV, so it is
+shelf-stable. Floc's fresh grape notes fade, so make bottles to last about
+1–2 weeks and keep them in the cool room overnight.
+
+**Why these numbers:** Floc, apricot liqueur and the purée all bring sugar,
+so the agave drops to 5 ml. The old build (45 tequila + 10 agave + purée +
+lime) worked out at about 11.8 g sugar per 100 ml; this one is drier and
+more layered. 35 tequila + 10 mezcal keeps the same 45 ml of agave spirit
+and cost, but the smoke comes through. Tequila 40 + mezcal 10 is stronger
+(about 1.9 standard drinks). Tequila 40 + mezcal 5 is the same strength as
+the spec but with less smoke.
+
+**Options:** without apricot liqueur, put 30 ml of Monin peach in the purée
+batch instead (about 8.8 g sugar per 100 ml, slightly drier). Tune the agave
+in 2.5 ml steps: 7.5 ml gives about 10.9 g sugar per 100 ml. The sugar
+figures for Floc (about 15 g/100 ml), apricot liqueur (about 28 g/100 ml) and
+the purée (about 16 g/100 ml) are estimates, so check the bottle labels.
+
 ---
 
 ## Open tests
