@@ -241,7 +241,9 @@ cool room. That's liqueur territory, so it's safe for well over a month. The lim
 strawberry's red and its fresh aroma fade faster in alcohol, drifting to orange-brown and jammy.
 Expect it at its best for about 2 weeks (not yet tested; check colour and taste on days 7, 14 and
 21), so make 2 weeks' worth at a time, keep it dark and the bottles full, and add no water.
-Service: cubes, 85 ml batch, 90 ml soda, one lift. Elegante Medium suits the drum because it's
+Service: highball full of cubes, 90 ml batch (a 60 and a 30 jigger), top with about 90 ml soda,
+one lift. About 190 ml, 10.4% ABV, 1.55 standard drinks; 7 pours per 700 ml rail. If it's too
+sweet or strong, drop to 80 ml; if it's thin, go to 100 ml. Elegante Medium suits the drum because it's
 already oxidised; a fino or manzanilla would fade within weeks.
 
 **More strawberry (try in this order):**
