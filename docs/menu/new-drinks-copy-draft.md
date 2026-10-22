@@ -11,8 +11,8 @@ Mando Raspberry Fizz
 Bourbon, Raspberry, Mandarin, Balsamic, Lemon
 Fruity, Silky, Warming
 
-Kiwi Gimlet
-Gin, Kiwi, Makrut Lime, Lime
+Kaffi Gimlet
+Gin, Kiwi, Kaffir Lime Leaf, Lime
 Zesty, Tart, Fragrant
 ```
 
@@ -36,8 +36,8 @@ The shrub is currently the leftover mandarin shrub with raspberries and balsamic
 
 **Kiwi Gimlet** (proposed as "Kiwi-Kaffir Gimlet" or "Kaffi Gimlet"): 60 gin, 30 lime, 20 kiwi purée
 (or 15 kiwi syrup), 3–4 dashes makrut lime tincture.
-- "Kaffir" is a racial slur in South Africa; Australian venues increasingly write makrut lime. Name
-  it the Kiwi Gimlet (or Kiwi & Makrut Gimlet).
+- Decided 2026-10-22: the name stays Kaffi Gimlet and the line says Kaffir Lime Leaf (the tincture
+  is made from the leaf).
 - "Fragrant" is what the lime-leaf tincture adds.
 
 Owner's call: the spring-signatures house rules say "nothing Thai" (makrut lime) and "no herby
@@ -57,8 +57,8 @@ APPLE PIE SPRITZ   Apéritif Favourite!   24
 Pommeau, Spiced Vodka, Vanilla, Lemon, French Sparkling
 Spiced, Fizzy, Moreish
 
-KIWI GIMLET                     ––
-Gin, Kiwi, Makrut Lime, Lime
+KAFFI GIMLET                    ––
+Gin, Kiwi, Kaffir Lime Leaf, Lime
 Zesty, Tart, Fragrant
 
 MANDO RASPBERRY FIZZ            ––
@@ -67,7 +67,7 @@ Fruity, Silky, Warming
 
 NUTTY OLD FASHIONED             24
 Skrewball Peanut Butter Whiskey, Walnut, Demerara
-Nutty, Rich, Boozy
+Nutty, Rich, Sweet
 
 OLIVIA                          24
 Gin, Amaretto, Olive Oil, Honey, Lemon
@@ -79,7 +79,7 @@ Tall, Juicy, Tangy
 
 SANGRIA BRANCO                  24
 Gin, White Wine, Peach, Vanilla, Citrus
-Tropical, Crisp, Refreshing
+Tropical, Sweet, Refreshing
 
 SUMMER FLING                    25
 Tequila, Apricot, Floc de Gascogne, Lime, Agave
@@ -87,7 +87,7 @@ Fruity, Spicy, Juicy
 
 WHITE FLOWER NEGRONI            25
 Gin, Salers, White Flower Liqueur
-Delicate, Botanical, Balanced
+Delicate, Botanical, Boozy
 
 Our gin and tequila are by Spirits of Newtown.
 ```
@@ -96,9 +96,15 @@ Our gin and tequila are by Spirits of Newtown.
   only (no "juice", "syrup", "purée", "homemade", "infused"); the Apéritif Favourite! tag on the name
   line; the same three-line layout for every drink.
 - Fixes: "Stawberries" to Strawberries; "Tall, Juice & Tangy" to Tall, Juicy, Tangy; "Liquor" to
-  "Liqueur"; Kaffi Gimlet to Kiwi Gimlet with makrut lime; "A Refreshing Indulgence" to Watermelon
+  "Liqueur"; Kaffi Gimlet keeps its name, with Kaffir Lime Leaf; "A Refreshing Indulgence" to Watermelon
   Reviver (owner's call).
-- Prices to set: Watermelon Reviver, Kiwi Gimlet, Mando Raspberry Fizz, Pisco Ma Chérie.
+- Prices to set: Watermelon Reviver, Kaffi Gimlet, Mando Raspberry Fizz, Pisco Ma Chérie.
+- Ari's feedback (2026-10-22): Kaffi Gimlet name and Kaffir Lime Leaf; Mando line approved; Nutty Old
+  Fashioned is Nutty, Rich, Sweet (not that boozy); Olivia confirmed; Pisco Ma Chérie confirmed;
+  Sangria Branco is on the sweet side (peach purée and vanilla syrup), so Tropical, Sweet, Refreshing;
+  Summer Fling confirmed; White Flower Negroni is Delicate, Botanical, Boozy.
+- Pisco Ma Chérie's vinegar stays off the line: "Tangy" signals it, "vinegar" puts guests off, and
+  the shrub's sulphites are already declared with the sherry.
 - Mando's vegan foamer is off the line; a small "V" mark if egg-free should show.
 - Descriptors for Apple Pie Spritz, Nutty Old Fashioned and Olivia are from the old menu; the
   Reviver's are new.
