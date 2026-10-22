@@ -43,3 +43,63 @@ The shrub is currently the leftover mandarin shrub with raspberries and balsamic
 Owner's call: the spring-signatures house rules say "nothing Thai" (makrut lime) and "no herby
 flavours" (the thyme garnish). They were written for the spring signatures; check whether they
 apply to these.
+
+## Signatures page, compacted for the May 2026 A5 menu (2026-10-22)
+
+From the Canva draft: three lines per drink (name and price, key ingredients, three descriptors).
+
+```
+WATERMELON REVIVER              ––
+Cucumber Rum, Lillet Rosé, Watermelon, Rose, Absinthe
+Fresh, Floral, Cooling
+
+APPLE PIE SPRITZ   Apéritif Favourite!   24
+Pommeau, Spiced Vodka, Vanilla, Lemon, French Sparkling
+Spiced, Fizzy, Moreish
+
+KIWI GIMLET                     ––
+Gin, Kiwi, Makrut Lime, Lime
+Zesty, Tart, Fragrant
+
+MANDO RASPBERRY FIZZ            ––
+Maker's Mark, Raspberry, Mandarin, Balsamic, Lemon
+Fruity, Silky, Warming
+
+NUTTY OLD FASHIONED             24
+Skrewball Peanut Butter Whiskey, Walnut, Demerara
+Nutty, Rich, Boozy
+
+OLIVIA                          24
+Gin, Amaretto, Olive Oil, Honey, Lemon
+Velvety, Savoury, Sour
+
+PISCO MA CHÉRIE                 ––
+Pisco, Sherry, Strawberry, Black Pepper, Soda
+Tall, Juicy, Tangy
+
+SANGRIA BRANCO                  24
+Gin, White Wine, Peach, Vanilla, Citrus
+Tropical, Crisp, Refreshing
+
+SUMMER FLING                    25
+Tequila, Apricot, Floc de Gascogne, Lime, Agave
+Fruity, Spicy, Juicy
+
+WHITE FLOWER NEGRONI            25
+Gin, Salers, White Flower Liqueur
+Delicate, Botanical, Balanced
+
+Our gin and tequila are by Spirits of Newtown.
+```
+
+- Space: one Spirits of Newtown footnote instead of five mentions (about four lines); key ingredients
+  only (no "juice", "syrup", "purée", "homemade", "infused"); the Apéritif Favourite! tag on the name
+  line; the same three-line layout for every drink.
+- Fixes: "Stawberries" to Strawberries; "Tall, Juice & Tangy" to Tall, Juicy, Tangy; "Liquor" to
+  "Liqueur"; Kaffi Gimlet to Kiwi Gimlet with makrut lime; "A Refreshing Indulgence" to Watermelon
+  Reviver (owner's call).
+- Prices to set: Watermelon Reviver, Kiwi Gimlet, Mando Raspberry Fizz, Pisco Ma Chérie.
+- Mando's vegan foamer is off the line; a small "V" mark if egg-free should show.
+- Descriptors for Apple Pie Spritz, Nutty Old Fashioned and Olivia are from the old menu; the
+  Reviver's are new.
+- The drink is now named Pisco Ma Chérie on the menu (the recipe file still says Pisco, Mon Sherry).
