@@ -190,56 +190,47 @@ replacement for Averna, and choose plain cocoa over mole-style.
 
 ---
 
-## Summer Fling: apricot purée
+## Summer Fling: apricot purée (simplified)
 
 **Build:** three things go into the tin: the batch (tequila, agave, mezcal,
-Floc de Gascogne, and apricot brandy if needed), the apricot purée, and lime
-juice. This section covers only the purée.
+Floc de Gascogne and apricot liqueur), the apricot purée, and lime juice.
 
-**Problem:** canned apricot in its full syrup tasted flat and not fresh, and
-the apricot didn't come through.
+**Problem:** canned apricot in its full syrup tasted flat, and the apricot
+didn't come through.
 
-**Fix:** a raw purée (no cooking, no agave; the agave lives in the batch).
-Use half the can syrup for less sugar and more apricot per ml, and leave it unstrained for a frozen-margarita texture. Add cold-soaked
-dried apricot and a little peach for depth and colour, a fresh-fruit acid
-blend, vitamin C to stop browning, and salt.
+**Fix:** the apricot liqueur in the batch carries the apricot intensity, so
+the purée stays simple: canned fruit, half the syrup, a fresh-fruit acid
+blend, vitamin C and salt. No dried apricot, no cooking, no agave, no sieve
+(the texture is like a frozen margarita).
 
-**What Cobber found:** peach is apricot's closest partner (harmony 0.36). They
-share the stone-fruit lactones (gamma- and delta-decalactone) and
-beta-ionone, so a little peach makes the apricot read riper.
-
-**One 825 g can, makes about 650–700 ml:**
+**One 825 g can, makes about 600–650 ml:**
 
 | Ingredient | Amount | Why |
 |---|---|---|
 | Canned apricot halves | all of the fruit (about 480 g) | body and flavour |
 | Can syrup | **half** of it (about 170 g); discard the rest | less sugar, more apricot |
-| Dried apricots (bright orange) | 50 g, soaked **cold** in that syrup for 2 h or overnight in the fridge | concentrated apricot flavour and deeper colour |
-| Monin peach purée (optional) | 30 ml | makes the apricot read riper |
 | Malic acid | 3 g | apricot's own main acid, which tastes like fresh fruit |
-| Citric acid | 1 g | brightness (the lime in the tin does the real souring) |
-| Ascorbic acid (vitamin C) | 1 g | stops browning and keeps the orange bright |
+| Citric acid | 1 g | brightness (the lime does the real souring) |
+| Ascorbic acid (vitamin C) | 1 g | stops browning |
 | Salt | 1 g | lifts the fruit |
+| Potassium sorbate (optional) | 0.5 g, dissolved in a little warm water | yeast and mould control; roughly doubles fridge life |
+| Monin peach purée (optional) | 30 ml | stone-fruit lactones make the apricot read riper (harmony 0.36) |
 
-**Method:** soak the dried apricots cold in the reserved syrup (overnight is
-best, so no chewy bits survive). Blend everything on high for 2–3 min until
-thick and smooth. **No sieve:** the pulp stays in for a frozen-margarita
-texture. Use a wide-tip squeeze bottle or a pour jug (a thin nozzle clogs),
-and label and date it.
+**Method:** blend everything on high for about 1 min. Canned apricots are
+soft, so it blends quickly. No sieve. Use a wide-tip squeeze bottle or a pour
+jug, and label and date it (note "contains preservative 202" if you use
+sorbate). Never add sodium benzoate alongside the vitamin C.
 
-**Service with pulp:** single-strain with a Hawthorne strainer only. A fine
-strainer catches the pulp you want in the glass. Scrape the jigger so the
-full 30 ml goes in.
+**Storage:** fridge or ice well. Use within 5 days, or 10–14 days with
+sorbate. Frozen portions keep 2–3 months. Out of temperature control, the
+4-hour rule applies.
 
-**Storage:** fridge, and use within 5 days, since it is raw and lower in sugar
-than the old full-syrup version. Freeze extra portions in an ice-cube tray to
-keep it for weeks.
+**Apricot liqueur in the batch:** it brings sugar as well as apricot, so for
+every 10 ml of apricot liqueur per drink, take about 3 ml of agave out of the
+batch.
 
-**Sweetness:** roughly 15–18% sugar, so it is less sweet than the full-syrup
-version or a Monin purée. The sweetness comes from the agave in the batch.
-
-**In the drink:** 30 ml per drink gives about 22 drinks a batch. Taste the
-first build and balance with the lime.
+**Service:** 30 ml purée per drink, single-strain with a Hawthorne strainer
+only, and scrape the jigger.
 
 ---
 
