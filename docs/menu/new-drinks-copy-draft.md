@@ -51,7 +51,7 @@ From the Canva draft: three lines per drink (name and price, key ingredients, th
 ```
 WATERMELON REVIVER              ––
 Cucumber Rum, Lillet Rosé, Watermelon, Rose, Absinthe
-Fresh, Floral, Cooling
+Fresh, Floral, Crisp
 
 APPLE PIE SPRITZ   Apéritif Favourite!   24
 Pommeau, Spiced Vodka, Vanilla, Lemon, French Sparkling
@@ -107,5 +107,6 @@ Our gin and tequila are by Spirits of Newtown.
   the shrub's sulphites are already declared with the sherry.
 - Mando's vegan foamer is off the line; a small "V" mark if egg-free should show.
 - Descriptors for Apple Pie Spritz, Nutty Old Fashioned and Olivia are from the old menu; the
-  Reviver's are new.
+  Reviver's are new: Fresh, Floral, Crisp ("Cooling" dropped: it reads as mint, and Crisp is free
+  now the Sangria is Sweet).
 - The drink is now named Pisco Ma Chérie on the menu (the recipe file still says Pisco, Mon Sherry).
