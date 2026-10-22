@@ -217,6 +217,10 @@ Everything else in this file is background; this is the one to make.
 4. Taste 15 ml with 45 ml cold soda. If it's flat, add 3 g citric and 1 g malic, taste again; at
    most twice.
 5. Bottle, fridge, rest 2 days. Shake before each round.
+6. **Without sorbate:** about 2 weeks in the fridge (5 °C or below; not yet tested). Freeze half
+   the day you make it to reach the house's month, and thaw it overnight in the fridge. Throw it
+   out early if it fizzes or hisses when opened, grows a film, or smells yeasty or boozy. It keeps
+   less well than a classic shrub, which is about a third vinegar; this one is about 9%.
 
 **Batch (700 ml rail, 12 drinks):** 510 ml pisco, 190 ml Elegante Medium.
 
