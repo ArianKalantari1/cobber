@@ -32,3 +32,22 @@ Notes:
   "Vanilla" left out of its descriptors because vanilla is already on three signatures.
 - The same groups can carry the Signatures: Watermelon Reviver and Pisco Mon Sherry under Fresh &
   Fruity, White Flower Negroni under Bitter & Herbal, Nutty Old Fashioned under Rich & Roasted.
+
+## Coffee classics: specs
+
+Classic names kept: guests look for "Espresso Martini" by name.
+
+**Carajillo (Mexican style):** 45 ml Licor 43, 45 ml fresh espresso (a double shot). Shake hard with
+ice; strain over fresh cubes in a rocks glass. Garnish: dehydrated orange wheel (in stock).
+Menu: `Licor 43, Espresso` · `Roasted, Sweet, Silky`. The Spanish style is brandy and coffee instead.
+
+**Espresso Martini:** 40 ml vodka, 30 ml coffee liqueur, 30 ml fresh espresso, 5–10 ml sugar syrup
+to taste (the higher end with a drier liqueur such as Mr Black). Shake hard, double-strain into a
+coupe; three coffee beans. Menu: `Vodka, Coffee Liqueur, Espresso` · `Roasted, Velvety, Bittersweet`.
+
+Optional sherry touch: 10 ml Valdespino PX (Yellow Label, Summer Hill Wine Shop) in place of the
+sugar syrup in the Espresso Martini. Coffee and Pedro Ximénez is a classic Spanish dessert pairing;
+it adds raisin and fig depth. If used, list it: `Vodka, Coffee Liqueur, PX Sherry, Espresso`.
+
+Speed: batch the Espresso Martini's vodka, coffee liqueur and syrup in one bottle, so service is one
+pour plus a fresh espresso.
