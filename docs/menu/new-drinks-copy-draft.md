@@ -16,7 +16,7 @@ Gin, Kiwi, Kaffir Lime Leaf, Lime
 Zesty, Tart, Fragrant
 ```
 
-Pisco, Mon Sherry: see [../recipes/pisco-mon-sherry.md](../recipes/pisco-mon-sherry.md).
+Pisco, Mon Sherry: see [../recipes/pisco-ma-cherie.md](../recipes/pisco-ma-cherie.md).
 
 ## Bea's two drinks (specs from her email)
 

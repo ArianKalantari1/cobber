@@ -1,12 +1,13 @@
-# Pisco, Mon Sherry: prep spec
+# Pisco Ma Chérie: prep spec
 
 Tall strawberry pisco highball for the Signatures, replacing El Diablito. (L'Apéritif Cosmo is also
 leaving the menu, as of 2026-10-22.) Background and the tests
 behind it are in [pisco-sherry-ideas.md](pisco-sherry-ideas.md).
+Named Pisco Ma Chérie on the menu (working title was Pisco, Mon Sherry).
 Last updated: 2026-10-22. Not yet tasted as a full build: run the first-tasting checks below.
 
 ```
-Pisco, Mon Sherry 23
+PISCO MA CHÉRIE 23 (price to confirm)
 Pisco, Sherry, Strawberry, Black Pepper, Soda
 Tall, Juicy, Tangy
 ```
