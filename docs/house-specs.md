@@ -171,6 +171,23 @@ saline. The brand is still to be confirmed.
 **More vanilla without more sugar:** 2 dashes of vanilla tincture, not more
 Licor 43.
 
+**Chocolate bitters (still to test):** Cobber has no cocoa ingredient, so I
+scored a provisional proxy made of cocoa's key odorants that are in its
+vocabulary (pyrazine, 2-acetylpyrrole, phenylacetaldehyde, furaneol, linalool,
+vanillin, ethyl 2-methylbutyrate). The proxy is not in the data.
+
+| Version | Harmony |
+|---|---|
+| Current spec | 0.424 |
+| + 2 dashes cocoa bitters | 0.334 |
+| Cocoa bitters in place of Averna | 0.326 |
+| Mole (spiced) bitters | 0.329 |
+
+The drop reflects the proxy's limits more than a real clash: Cobber is
+missing most of the roast compounds that coffee and cocoa share. Use cocoa
+bitters as an accent (2 dashes, or drops on the foam), never as a
+replacement for Averna, and choose plain cocoa over mole-style.
+
 ---
 
 ## Open tests
@@ -181,4 +198,5 @@ Licor 43.
 - Carajillo Amer: blind head-to-head against the current espresso martini;
   Averna at 10 ml against none; sweetness (as specced against vanilla
   tincture against Licor 43 at 12.5); foam hold at 5 min; batch on day 1
-  against day 7; service speed; a 2-week soft launch.
+  against day 7; service speed; a 2-week soft launch; cocoa bitters (none
+  against 2 dashes in the shake against 3 drops on the foam).
