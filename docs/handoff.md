@@ -6,6 +6,20 @@ notes + a self-contained HTML visualiser — on branch
 Supersedes the original Copilot handoff. Read `docs/cobber-design-notes.md`
 first for the project's thinking; this file is "where we are and what's next".*
 
+## NEXT: scoring upgrade, approved (22 October 2026)
+
+- **Start with `docs/todo-scoring-upgrade.md`.** Ari approved:
+  1. redundancy rules in the engine;
+  2. ml-weighted taste, texture and strength;
+  3. back-bar research as a review proposal;
+  4. then the amounts for Olivia B.
+- **Why:** Olivia R&D showed that harmony rewards redundant overlap (citrus on citrus,
+  amaretto against almond) and that amounts never enter the score.
+- **Reference prototypes:** `scripts/prototypes/olivia_loop2.py` and `olivia_loop3.py`.
+- **House specs:** `docs/house-specs.md` is now on this branch. It has the new Olivia
+  direction (no wash, no basil, brine, test versions) and the prep corrections.
+  `claude/gava-nectar-syrup-59ddrp` has an older copy; keep this one.
+
 ## Bar R&D saved, and the data gaps it showed (21 October 2026)
 
 - **Where it lives:** Ari's spring R&D is in `docs/recipes/`.
