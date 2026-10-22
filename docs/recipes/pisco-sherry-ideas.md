@@ -246,6 +246,42 @@ separate sugar caramel, and there's no miso.
   so the sherry shows up twice. Strawberry's strongest flavour family in Cobber's recipe corpus
   is roasted-nutty (NPMI +0.46, above chance), hence the Medium.
 
+### Making the shrub version (Mon Chéri) better: things to test
+
+In order of payoff for the effort:
+
+1. **Rest the shrub 2–3 days before using it.** Shrubs mellow as they sit: the vinegar's sharp edge
+   softens and folds into the fruit. Same prep, just made earlier; it keeps a month.
+2. **Season it: 1.5 g salt per batch.** Not enough to taste salty; it lifts the fruit and the
+   sweetness, the same way salt works in a fruit salad.
+3. **Swap some citric for malic.** Strawberry's own acids are mostly citric with some malic, and
+   malic gives a rounder, longer sourness. Use about 3 parts citric to 1 part malic (amounts
+   below).
+4. **Use FORVM Chardonnay for all of the shrub's vinegar** (it's raw, so its flavour survives)
+   if real sherry vinegar isn't available. It's milder, so raise the acids as below.
+5. **Cold, full, gentle.** Batch, shrub and soda straight from the fridge, the glass filled to
+   the top with cubes (less melt), soda poured down a bar spoon, one lift only. Most flat
+   highballs are warm or over-stirred. Use bottled soda if the gun runs weak.
+6. **Protect the pink.** Strawberry's red pigment is happiest in acid, cold and dark: keep the
+   shrub in the fridge in a dark or covered bottle, and out of the spirit batch. If it dulls by
+   week 3, 1–2 ml hibiscus colour drops per batch bring it back.
+7. **Test the sherry:** Elegante Medium (toasty, the current pick) against La Guita Manzanilla
+   (salty, brighter) in the batch. If the Medium wins but hides, take it to 20 ml.
+8. **Optional:** a grind of black pepper over the top (strawberry's classic partner), tasted
+   against the freeze-dried strawberry garnish. One or the other, not both.
+
+**QC:** taste each new batch of shrub 1:3 with cold soda before service. It should taste like a
+sour strawberry soda: if it's flat, add citric 2 g at a time; if it's sharp, give it another day.
+
+**Shrub-only batch** (if the shrub wins, all the syrup goes into it):
+- Day before: 1 kg frozen strawberries and 600 g sugar, covered, cool room.
+- Strain without pressing (about 950 ml syrup). Press the leftover fruit gently for another
+  100 ml or so if you don't mind a hazier shrub.
+- Whisk in 240 ml vinegar, 1.5 g salt and the acids, then 2 ml sorbate stock. About 1.2 L,
+  40 drinks.
+- **Acids:** with sherry vinegar (7%), 18 g citric and 5 g malic; with FORVM Chardonnay (milder),
+  about 22 g citric and 6 g malic. Taste and adjust.
+
 ### Fresa Caramelo (the deep one)
 
 - **Per drink:** the same build with 30 ml caramel cordial.
