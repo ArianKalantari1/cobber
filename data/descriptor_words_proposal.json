@@ -1,0 +1,528 @@
+{
+  "_meta": {
+    "status": "PROPOSAL, awaiting Ari's approval. Nothing reads this file. Once approved, append the approved words to their families in data/flavor_families.json.",
+    "why": "The stacking and target-note notices (engine.notices) take an ingredient's flavour families from its curated descriptor words. Only 240 of 445 descriptor uses map to a family today, so gin's 'juniper', whisky's 'oak' and mint's 'cool' count for nothing.",
+    "rules": "Approved by Ari on 23 October 2026: aroma words map to the family they name; taste words stay out because they are taste axes, not smells; words for style, colour, texture or strength are ignored.",
+    "effect_on_iba": {
+      "now": "citrus: 8 (Casino, Cosmopolitan, Lemon Drop Martini, Long Island Iced Tea, Ramos Fizz, Singapore Sling, Tuxedo, White Lady)",
+      "with_map": "citrus: 8 (Casino, Cosmopolitan, Lemon Drop Martini, Long Island Iced Tea, Ramos Fizz, Singapore Sling, Tuxedo, White Lady); fruity: 2 (Mary Pickford, Singapore Sling)",
+      "with_map_and_proposed_open_calls": "citrus: 8 (Casino, Cosmopolitan, Lemon Drop Martini, Long Island Iced Tea, Ramos Fizz, Singapore Sling, Tuxedo, White Lady); fruity: 2 (Mary Pickford, Singapore Sling); spice: 1 (Sazerac)"
+    },
+    "effect_on_coverage": "The map adds 89 descriptor uses to the 240 that count today."
+  },
+  "map": {
+    "lime": {
+      "family": "citrus",
+      "used_by": [
+        "lime",
+        "finger_lime",
+        "desert_lime",
+        "lime_vodka",
+        "falernum"
+      ]
+    },
+    "spice": {
+      "family": "spice",
+      "used_by": [
+        "cinnamon",
+        "cassia",
+        "clove",
+        "ginger",
+        "black_pepper",
+        "cardamom",
+        "nutmeg",
+        "allspice",
+        "caraway",
+        "coriander_seed",
+        "cinnamon_myrtle",
+        "muntries",
+        "dark_rum",
+        "angostura_bitters",
+        "orange_bitters"
+      ]
+    },
+    "spiced": {
+      "family": "spice",
+      "used_by": [
+        "cola",
+        "worcestershire",
+        "falernum",
+        "allspice_dram",
+        "spiced_rum"
+      ]
+    },
+    "liquorice": {
+      "family": "spice",
+      "used_by": [
+        "star_anise",
+        "anise",
+        "anise_myrtle"
+      ]
+    },
+    "pepper": {
+      "family": "spice",
+      "used_by": [
+        "pepperberry"
+      ]
+    },
+    "saffron": {
+      "family": "spice",
+      "used_by": [
+        "yellow_chartreuse"
+      ]
+    },
+    "oak": {
+      "family": "woody_resinous",
+      "used_by": [
+        "bourbon",
+        "rye_whiskey",
+        "brandy",
+        "scotch",
+        "irish_whiskey",
+        "calvados"
+      ]
+    },
+    "juniper": {
+      "family": "woody_resinous",
+      "used_by": [
+        "gin"
+      ]
+    },
+    "woodsy": {
+      "family": "woody_resinous",
+      "used_by": [
+        "mushroom"
+      ]
+    },
+    "tropical": {
+      "family": "fruity",
+      "used_by": [
+        "pineapple",
+        "passionfruit",
+        "mango",
+        "tamarind"
+      ]
+    },
+    "berry": {
+      "family": "fruity",
+      "used_by": [
+        "cranberry",
+        "blackcurrant",
+        "sloe_gin"
+      ]
+    },
+    "stone-fruit": {
+      "family": "fruity",
+      "used_by": [
+        "apricot",
+        "apricot_brandy",
+        "sloe_gin"
+      ]
+    },
+    "stone": {
+      "family": "fruity",
+      "used_by": [
+        "peach",
+        "cherry"
+      ]
+    },
+    "plum": {
+      "family": "fruity",
+      "used_by": [
+        "davidson_plum",
+        "sloe_gin"
+      ]
+    },
+    "apricot": {
+      "family": "fruity",
+      "used_by": [
+        "quandong",
+        "apricot"
+      ]
+    },
+    "blackcurrant": {
+      "family": "fruity",
+      "used_by": [
+        "blackcurrant",
+        "creme_de_cassis"
+      ]
+    },
+    "pomegranate": {
+      "family": "fruity",
+      "used_by": [
+        "pomegranate",
+        "grenadine"
+      ]
+    },
+    "passionfruit": {
+      "family": "fruity",
+      "used_by": [
+        "strawberry_gum"
+      ]
+    },
+    "dark-fruit": {
+      "family": "fruity",
+      "used_by": [
+        "tamarind"
+      ]
+    },
+    "orchard": {
+      "family": "fruity",
+      "used_by": [
+        "calvados"
+      ]
+    },
+    "tomato": {
+      "family": "fruity",
+      "used_by": [
+        "bush_tomato"
+      ]
+    },
+    "chocolate": {
+      "family": "roasted_nutty",
+      "used_by": [
+        "coffee",
+        "wattleseed",
+        "creme_de_cacao"
+      ]
+    },
+    "marzipan": {
+      "family": "roasted_nutty",
+      "used_by": [
+        "almond",
+        "amaretto"
+      ]
+    },
+    "malt": {
+      "family": "roasted_nutty",
+      "used_by": [
+        "scotch",
+        "irish_whiskey"
+      ]
+    },
+    "corn": {
+      "family": "roasted_nutty",
+      "used_by": [
+        "bourbon"
+      ]
+    },
+    "grain": {
+      "family": "roasted_nutty",
+      "used_by": [
+        "rye_whiskey"
+      ]
+    },
+    "oxidative": {
+      "family": "roasted_nutty",
+      "used_by": [
+        "sherry"
+      ]
+    },
+    "molasses": {
+      "family": "sweet_creamy",
+      "used_by": [
+        "brown_sugar",
+        "dark_rum"
+      ]
+    },
+    "custard": {
+      "family": "sweet_creamy",
+      "used_by": [
+        "egg_yolk"
+      ]
+    },
+    "dairy": {
+      "family": "sweet_creamy",
+      "used_by": [
+        "cream",
+        "milk"
+      ]
+    },
+    "honeyed": {
+      "family": "floral",
+      "used_by": [
+        "benedictine",
+        "yellow_chartreuse"
+      ]
+    },
+    "powdery": {
+      "family": "floral",
+      "used_by": [
+        "orris_root"
+      ]
+    },
+    "rosy": {
+      "family": "floral",
+      "used_by": [
+        "amaro_montenegro"
+      ]
+    },
+    "vegetal": {
+      "family": "green_herbal",
+      "used_by": [
+        "tequila",
+        "cynar"
+      ]
+    },
+    "agave": {
+      "family": "green_herbal",
+      "used_by": [
+        "tequila",
+        "mezcal"
+      ]
+    },
+    "cool": {
+      "family": "mint_cooling",
+      "used_by": [
+        "mint",
+        "native_river_mint",
+        "creme_de_menthe"
+      ]
+    },
+    "briny": {
+      "family": "savoury",
+      "used_by": [
+        "olive"
+      ]
+    }
+  },
+  "needs_ari": {
+    "warm": {
+      "options": [
+        "spice",
+        "ignore (alcohol heat)"
+      ],
+      "proposed": "spice",
+      "note": "Used on twelve warming spices and dark rum, so it reads as warming spice here.",
+      "used_by": [
+        "cinnamon",
+        "cassia",
+        "clove",
+        "ginger",
+        "cardamom",
+        "nutmeg",
+        "allspice",
+        "cinnamon_myrtle",
+        "dark_rum",
+        "brandy",
+        "angostura_bitters",
+        "allspice_dram",
+        "spiced_rum"
+      ]
+    },
+    "smoke": {
+      "options": [
+        "woody_resinous",
+        "roasted_nutty",
+        "a new 11th family, smoky"
+      ],
+      "proposed": "woody_resinous",
+      "note": "None of the ten approved families is smoky. Peat smoke reads medicinal and resinous, which sit in woody_resinous; a smoky family is cleaner if smoke matters on menus.",
+      "used_by": [
+        "mezcal",
+        "scotch"
+      ]
+    },
+    "cane": {
+      "options": [
+        "green_herbal (grassy cane juice)",
+        "sweet_creamy (sugar, molasses)"
+      ],
+      "proposed": "green_herbal",
+      "note": "Fresh sugar cane in white rum and cachaca reads grassy; molasses has its own word.",
+      "used_by": [
+        "white_rum",
+        "cachaca",
+        "lemon_rum"
+      ]
+    },
+    "bright": {
+      "options": [
+        "citrus",
+        "ignore (a quality word)"
+      ],
+      "proposed": "ignore",
+      "note": "Only on pink peppercorn. You use 'bright' for citrus, so mapping it would make pink peppercorn a citrus source.",
+      "used_by": [
+        "pink_peppercorn"
+      ]
+    }
+  },
+  "keep_out_taste": {
+    "bitter": [
+      "grapefruit",
+      "bitter_orange_peel",
+      "gentian",
+      "wormwood",
+      "coffee",
+      "tonic_water",
+      "sweet_vermouth",
+      "campari",
+      "aperol",
+      "angostura_bitters",
+      "peychauds_bitters",
+      "orange_bitters",
+      "cynar",
+      "fernet",
+      "averna",
+      "celery_bitters"
+    ],
+    "tart": [
+      "passionfruit",
+      "davidson_plum",
+      "quandong",
+      "cranberry",
+      "blackcurrant",
+      "pomegranate",
+      "cranberry_vodka"
+    ],
+    "umami": [
+      "tomato",
+      "miso",
+      "shio_koji",
+      "soy_sauce",
+      "worcestershire",
+      "fish_sauce",
+      "mushroom"
+    ],
+    "sour": [
+      "lemon",
+      "lime",
+      "finger_lime",
+      "desert_lime"
+    ],
+    "salty": [
+      "salt",
+      "miso",
+      "soy_sauce"
+    ],
+    "pungent": [
+      "clove",
+      "ginger",
+      "black_pepper",
+      "pepperberry"
+    ],
+    "tangy": [
+      "worcestershire",
+      "tamarind"
+    ],
+    "quinine": [
+      "tonic_water"
+    ],
+    "tannic": [
+      "red_wine"
+    ],
+    "hot": [
+      "hot_sauce"
+    ],
+    "piquant": [
+      "hot_sauce"
+    ],
+    "saline": [
+      "fish_sauce"
+    ],
+    "vinegar": [
+      "hot_sauce"
+    ],
+    "lactic": [
+      "butter"
+    ],
+    "fermented": [
+      "miso"
+    ],
+    "funky": [
+      "fish_sauce",
+      "cachaca"
+    ],
+    "sweet-ferment": [
+      "shio_koji"
+    ],
+    "soft-bitter": [
+      "amaro_montenegro"
+    ],
+    "dry": [
+      "dry_vermouth"
+    ]
+  },
+  "ignore_not_flavour": {
+    "clean": [
+      "vodka",
+      "cointreau",
+      "citron_vodka",
+      "lime_vodka",
+      "peach_vodka",
+      "raspberry_vodka",
+      "cranberry_vodka",
+      "vanilla_vodka",
+      "pepper_vodka",
+      "pisco"
+    ],
+    "carbonated": [
+      "soda_water",
+      "tonic_water",
+      "cola",
+      "ginger_ale"
+    ],
+    "red": [
+      "cranberry",
+      "pomegranate",
+      "cranberry_vodka",
+      "grenadine"
+    ],
+    "fresh": [
+      "apple",
+      "tomato",
+      "celery"
+    ],
+    "neutral": [
+      "egg_white",
+      "soda_water",
+      "vodka"
+    ],
+    "rich": [
+      "egg_yolk",
+      "butter",
+      "whole_egg"
+    ],
+    "crisp": [
+      "apple",
+      "sparkling_wine"
+    ],
+    "effervescent": [
+      "sparkling_wine"
+    ],
+    "fortified": [
+      "port"
+    ],
+    "gentle": [
+      "shio_koji"
+    ],
+    "high-proof": [
+      "absinthe"
+    ],
+    "light": [
+      "white_rum"
+    ],
+    "milder": [
+      "yellow_chartreuse"
+    ],
+    "silky": [
+      "whole_egg"
+    ],
+    "smooth": [
+      "irish_whiskey"
+    ],
+    "soft": [
+      "pear"
+    ],
+    "complex": [
+      "green_chartreuse"
+    ],
+    "dark": [
+      "cherry_liqueur"
+    ],
+    "scotch": [
+      "drambuie"
+    ]
+  }
+}
