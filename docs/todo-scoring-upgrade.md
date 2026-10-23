@@ -1,111 +1,314 @@
-# To-do: Cobber scoring upgrade (approved by Ari, 22 October 2026)
+# To-do: Cobber scoring upgrade (reviewed and refined, 23 October 2026)
 
-Start here in the new chat. Branch: `claude/festive-einstein-3322ky` (house specs and the
-prototypes are on it). Follow CLAUDE.md: commit and push after each step, and Ari approves
-all data before it goes in.
+This refines the list Ari approved on 22 October (commit `3cdd239`). The goals stand: stop
+rewarding redundant overlap, put amounts into the maths, and fill the back bar. What changed
+is *how*. Checked against the data, several parts would not work as written. Items marked
+**(changed)** or **(new)** need Ari's OK; the decisions are listed at the end. Unmarked items
+are as approved.
 
-## Why
-Working on Olivia showed three problems with how Cobber scores:
-- **Harmony counts redundant overlap as a good match.** It rewarded citrus on citrus with a
-  citrus-forward house gin (limoncello, then lime), and amaretto against almond as a perfect
-  pair.
-- **Amounts never enter the maths,** so 2.5 ml of vanilla counts as much as 35 ml of gin.
-  Strength and sugar had to be worked out by hand, and v3/v4 reached about 2.2 standard
-  drinks before anyone caught it.
-- **Half the back bar is missing or generic** in the data.
+Branch: `claude/eager-turing-giasrj` (it carries the house specs and the prototypes). Follow
+CLAUDE.md: commit and push after each step, and Ari approves all data before it goes in.
+Every number about Cobber's data and recipes below comes from
+`python3 scripts/prototypes/review_scoring_todo.py`. Outside facts (the gin listing, Arnold's
+dilution, the EU sugar minimums) are sourced where they appear.
 
-Decision: fix the counting and add ml-weighted taste, texture and strength. Don't weight
-aroma by amount (reasons in the last section).
+## What the review found
+1. **Two of the three target scores don't hold.** Olivia B's 0.149 comes mostly from one
+   pair, Bénédictine + vanilla, which scores 1.000 because Cobber models Bénédictine as
+   vanilla alone (a provisional entry). Without that pair B scores 0.084, below M1 and M2
+   (0.111). B also fails the prototype's own duplicate check, so its search could never have
+   produced it. "Restaurant Olivia = 0.072" includes dry vermouth, which the restaurant
+   doesn't use; the menu spec scores 0.043. All three numbers come from the full citrus
+   masking that the plan itself rejects.
+2. **As hard blocks, the redundancy rules break ordinary drinks.** They would forbid 31 of
+   75 IBA classics (41%) and 35% of the whole canon, including the Negroni, Dry Martini,
+   Aviation, Clover Club, French 75 and White Lady. Cobber's gin lists lemon as a botanical,
+   so "botanical inside a composite" and "under 20% new compounds" both block lemon in every
+   gin drink. The prototype only looked safe because anchors and citrus were exempt.
+3. **An 80% overlap threshold calls lemon and lime the same thing** (0.818), which
+   contradicts Ari's correction. The data has a natural gap between 0.909 and 0.867.
+4. **The citrus problem is a general counting bug.** Averaging over pairs counts a compound
+   shared by k ingredients k(k−1)/2 times. The most widespread compounds in the data are
+   citrus terpenes: sabinene, β-pinene, limonene and α-pinene each appear in about a third of
+   the 152 profiled ingredients.
+5. **Most duplicates are a data-model problem.** 37 composites are a single botanical. Some
+   are fair (limoncello = lemon, amaretto = almond). Others are wrong: white rum, Scotch,
+   Irish whiskey, crème de cacao and Bénédictine are all `[vanilla]`, so to Cobber they are
+   one and the same.
+6. **The olive–amaretto bridge rests on two compounds,** cinnamaldehyde and menthone, in a
+   provisional olive profile. Olive isn't on the research list, though the whole Olivia
+   direction depends on it.
+7. **"Nutty must come out level with citrus" can't work as written.** Weighting flavour
+   families by ml is weighting aroma by amount, which the plan rules out. Family weights are
+   compound counts, so gin alone (9 citrus compounds) outweighs amaretto (2 nutty ones) in
+   every gin sour. The compound wheel even puts amaretto's top family as "fruity".
+8. **Smaller gaps.**
+   - The prototype's fourth rule was dropped: sugar, salt, soda and foamer are structure,
+     not aroma. It is the biggest single fix (a Gin Fizz goes from 0.09 to 0.56).
+   - The rules and the ml-weighted step need data the plan left to the research step: the
+     house gin, vanilla syrup, brine, olive oil and foamer.
+   - "About 18% ABV" assumes about 30% dilution, with no model stated.
+   - A fresh install pulls `mcp` 2.x, where FastMCP was renamed, so the server and its test
+     no longer import.
 
-## 1. Put the redundancy rules into the engine
-Reference prototype: `scripts/prototypes/olivia_loop2.py` (scoring rules) and
-`olivia_loop3.py` (loop, identity guards, exhaustive check).
-- [ ] **Citrus is a bridge, but with diminishing returns.** Ari's correction (22 Oct): lemon,
-      lime, pink grapefruit and limoncello each have their own roundness, and one citrus
-      link does a real job. The problem is stacking them: citrus-forward gin + limoncello +
-      lemon is "way too bright".
-      - Count the first citrus link in full, and discount each further citrus source
-        sharply (for example, halve it each time).
-      - Don't mask citrus compounds completely the way the prototype does. That erases the
-        real differences between lemon, lime and grapefruit.
-      - How much citrus the base brings depends on the gin. **The house gin is Spirits of
-        Newtown** (confirmed by Ari): very citrus-forward with little juniper. Model it as
-        its own composite, so its citrus counts as the drink's first citrus source.
-- [ ] **The target note has to win, or at least compete.** If the drink is meant to be
-      nutty (or any named note), check the balance of flavour families (via
-      `data/flavor_families.json` and `engine.flavor_wheel`). Weighted by ml once step 2
-      exists, the nutty family must come out at least level with the bright/citrus family.
-      Warn when brightness outweighs it.
-- [ ] **No credit for duplicates.** Block a candidate if its profile overlaps an ingredient
-      already in the drink by 80% or more (amaretto = almond), if it's a botanical inside a
-      composite already present (coriander in gin), or if it brings less than 20% new
-      compounds.
-- [ ] **Identity guards** (optional arguments): fixed anchors, one base spirit only, no
-      dark modifiers, a maximum number of ingredients. Without these, the loop drifted
-      Olivia into a brandy and coffee drink.
-- [ ] Add these as options to the scoring and `build_around` functions, and expose them in
-      the server tools. Write tests.
-- [ ] **Done when** these numbers reproduce, all with corrected harmony:
-      - restaurant Olivia (gin, dry vermouth, amaretto, honey, lemon, olive) = **0.072**;
-      - amaretto + maraschino + dry vermouth = **0.111**;
-      - gin, amaretto, Bénédictine, vanilla, lemon, olive = **0.149**;
-      - limoncello no longer ranks above honey;
-      - citrus-forward gin + limoncello + lemon triggers the "too bright" warning, while a
-        single lemon link still counts.
+**What held up:** the three problems are real. 1.55 standard drinks is right under its
+assumptions (1.56). The research counts (Licor 43: 77, yuzu: 47 and so on) are accurate. Not
+weighting aroma by amount is the right call.
 
-      The first three numbers come from the prototype's full citrus masking. Expect small
-      shifts under diminishing returns, and record the new values.
-- [ ] Write the three rules into `docs/cobber-design-notes.md`, under section 9 (known gaps).
+## 0. Before changing any scoring (new)
+- [ ] **Pin `mcp>=1,<2`** in `pyproject.toml`. Migrating to mcp 2's `MCPServer` is its own
+  task.
 
-## 2. ml-weighted taste, texture and strength
-- [ ] Add per-ingredient data fields: `abv`, `sugar_g_per_100ml`, `acid_g_per_100ml`
-      (citric-acid equivalent) and `salt_g_per_100ml`. Each gets a source citation or a
-      provisional flag in `notes`.
-- [ ] Add an engine function that takes `{id: ml}` plus the method (shake or stir; dry
-      shake with foamer) and returns:
-      - ml in the tin and estimated ml in the glass after dilution;
-      - ABV, and standard drinks (Australian: 10 g alcohol);
-      - sugar g/100 ml, acid %, sugar-to-acid ratio, and salt.
-- [ ] Combine it with the existing taste axes and role balance, then add a server tool and
-      tests.
-- [ ] **Done when** Olivia B (35 house gin / 10 amaretto / 7.5 Bénédictine / 2.5 vanilla
-      syrup / 7.5 brine / 17.5 lemon / 5 olive oil) gives about **1.55 standard drinks**
-      and about **18% ABV** in the glass, assuming 40% gin. Check the hand maths in the
-      house specs against it.
+  *Why:* a fresh `pip install -e .` gets mcp 2.x, and `tests/test_server.py` fails to import.
+  Step 1 adds a server tool, which couldn't be tested.
+- [ ] **Regression panel** (`scripts/eval_scoring.py`). It covers the Olivia versions, all 75
+  IBA drinks (score and rank), and a list of known pairs: duplicates such as amaretto/almond
+  and limoncello/lemon, distinct pairs such as lemon/lime and gin/lemon. Commit the baseline
+  output, and rerun it after each rule.
 
-## 3. Back-bar research (sub-agents allowed)
-Write the results to a **review proposal** (for example `data/backbar_proposal.json`).
-Don't edit `ingredients.json` or `composites.json` until Ari approves. Unconfident
-matches go to `unmatched_ingredients.txt`.
-- [ ] **ABV, sugar and acid for every bottle** on the Aperitif Co bar (`docs/menu/menu.json`)
-      and in `docs/house-specs.md`, from labels and producer specs. Cite every number.
-- [ ] **Profiles for missing or generic items:**
-      - Licor 43 (77 recipes in the unmatched list), Frangelico (57), walnut bitters and
-        nocino (more than 60), Massenez Popcorn, Violet and Cassis;
-      - manzanilla, fino and oloroso as separate sherry styles;
-      - Bénédictine (checking the existing entry), Floc de Gascogne, Lillet Rosé, Italicus,
-        Salers, pommeau, Skrewball;
-      - yuzu (47), kumquat (7), macadamia (3).
-- [ ] **House gin = Spirits of Newtown Gin** (confirmed by Ari: very citrus-forward, little
-      juniper). Research its botanicals and add it as its own composite, kept separate from
-      the generic London dry `gin`.
+  *Why:* the rules were designed on one drink that hasn't been tasted, and every rule changes
+  every score. The block rules would have broken 41% of IBA without anyone noticing. The
+  design notes already ask for this ("eval harness", §8).
 
-## 4. After 1–3: amounts for Olivia B
-- [ ] Run the loop over amounts: gin 30–35, amaretto 10–15, Bénédictine 5–10, vanilla
-      2.5–5, brine 5–10, lemon 17.5–20. Use the redundancy rules plus the ml-weighted
-      balance, with targets of about 1.5–1.7 standard drinks and a sour's sugar-to-acid
-      balance.
-- [ ] Give Ari a shortlist of 2–3 amount sets to taste.
-- [ ] Update the Olivia section of `docs/house-specs.md`: Olivia B leads, with M1 and M2 as
-      backups.
+## 1. Fix the counting (engine)
+- [ ] **Structure items aren't scored for aroma (new).** Ingredients with no aroma profile
+  (sugar syrup, salt, soda, egg white, foamer, vodka) are left out of harmony. They still
+  count in balance.
 
-## 5. Later: tasting log (Ari)
-- [ ] Record each tasting's verdict. Use them to correct the provisional data (sugar and
-      strength) and to check what the scores predict.
+  *Why:* today each one adds pairs that score 0 and drag the average down, so a Gin Fizz
+  scores 0.09 instead of 0.56. It was rule 4 in the prototype and got lost in the to-do.
+- [ ] **Diminishing returns per compound, not a citrus list (changed).** Inside a drink, the
+  first pair that shares a compound counts in full. Each further ingredient carrying the same
+  compound adds half as much as the one before. Pair scores don't change.
+
+  *Why:* this is Ari's rule (first citrus link in full, further sources halved), applied to
+  what actually repeats: the molecules. Lemon, lime and grapefruit keep their differences,
+  because their own compounds still count. No hand-kept citrus list is needed (yuzu,
+  Italicus or the house gin would make one stale). It also stops vanilla-on-vanilla and
+  almond-on-almond stacks. Checked: gin + lemon stays at 0.556, gin + lemon + lime falls from
+  0.62 to 0.32, and the IBA ordering mostly holds (rank correlation 0.76).
+- [ ] **Same voice, not a block (changed).** Two ingredients count as one voice, with no
+  bridge credit between them, when either:
+  - their profiles are at least 90% the same; or
+  - one is an aroma botanical (aromatic, herb or bitter role) already on the bill of a
+    composite in the drink, such as coriander seed with gin.
+
+  Juices, fruit and syrups on a bill still bridge (lemon with gin). Nothing is blocked, and
+  the output names the voice ("amaretto and almond: same aroma").
+
+  *Why:* 90% sits in the data's gap. Lemon and lime stay separate (0.818), while every exact
+  copy and orange/triple sec (0.909) merge. The role test keeps the to-do's "coriander in
+  gin" without killing gin + lemon (282 canon drinks). Reinforcing a note is a real technique
+  (coffee liqueur with espresso; triple sec with orange, in 93 canon drinks), so it gets no
+  credit rather than a ban.
+- [ ] **Suggestions only offer new voices (new).** In `build_around`, a candidate that would
+  merge into a voice already in the drink isn't offered as a new idea.
+
+  *Why:* an average can't penalise a pure copy, so without this limoncello still ranks first
+  as an addition to the Olivia core. With it, limoncello and almond drop out and honey stays
+  in (checked).
+- [ ] **Identity guards on `build_around` and `suggest_from_pantry` (changed).** Add:
+  - `locked`: must-keep items, any number (anchors stay at 2–3);
+  - `exclude`: ids never to add;
+  - `max_spirits`: how many `spirit`-role items are allowed;
+  - `max_additions`, replacing the fixed 2.
+
+  Rank every candidate first, then work out balance, template and technique only for the top
+  n.
+
+  *Why:* Olivia has four fixed items, but anchors are capped at three. Cobber has no colour
+  data, so "no dark modifiers" has to be an exclude list from the host Claude, who knows
+  Averna is dark. A colour field on 163 entries isn't worth it for one drink. `build_around`
+  already searches exhaustively, and the prototype's exhaustive check reached the same answer
+  as its hill-climb loop, so don't port the loop. With four additions from a 40-bottle pool
+  there are about 100,000 candidates, and today every one is fully annotated before sorting.
+- [ ] **Notices for stacking and for the target note (changed).** Count *sources* per flavour
+  family, using each ingredient's curated `descriptors`.
+  - Notice when 3 or more ingredients are sources of one family ("3 citrus sources: house
+    gin, limoncello, lemon").
+  - With an optional `target_family`, notice when the target has fewer sources than the
+    strongest family.
+
+  It is a notice, not a score change.
+
+  *Why:* counting sources is exactly Ari's complaint, and it doesn't weight aroma by amount.
+  Curated descriptors read like a bartender (amaretto: nutty and sweet; Bénédictine: herbal
+  and sweet), while compound counts follow how much data an entry has. On IBA it flags 8 of
+  75 drinks, all citrus-heavy (White Lady, Cosmopolitan, Lemon Drop and others). For Olivia,
+  M2 is the only version where the nutty sources (amaretto, maraschino) match the citrus
+  sources (gin, lemon). About half the descriptor words ("lime", "spice", "oak" and others)
+  aren't in the family map yet, and adding them needs Ari's OK.
+- [ ] **`score_drink` engine function and server tool (new).** It scores an exact drink:
+  harmony under the new rules, the voices and why they merged, the bridges per pair, the
+  notices, and provisional flags. Step 3's numbers plug in here.
+
+  *Why:* the Olivia work was all about scoring specific drinks, and today there is no tool
+  for that, only pairs (`score_pairing`) and suggestions (`suggest_from_pantry`).
+- [ ] **Done when (changed):** ordering checks plus snapshots, not golden numbers.
+  - Gin + lemon is still a bridge (0.556), and lemon + lime are two voices.
+  - House gin + lemon + limoncello gets the stacking notice and scores no higher than house
+    gin + lemon.
+  - Amaretto + almond, limoncello + lemon and gin + coriander seed are one voice each. So is
+    Bénédictine + vanilla, until Bénédictine's bill is fixed.
+  - Limoncello isn't offered as an addition to the Olivia core; honey is.
+  - No IBA drink is blocked. Ari looks over the biggest movers (in the review run, Tommy's
+    Margarita and White Lady fall; Gin Fizz and John Collins rise).
+  - The new Olivia scores are recorded as regression snapshots.
+
+  *Why:* the old numbers can't come from rules we've decided not to build, and one of them
+  contains the duplicate these rules remove. Orderings carry the bartender's judgement, and
+  snapshots catch drift.
+- [ ] Write the rules into `docs/cobber-design-notes.md`, section 9 (known gaps). Delete the
+  prototypes once this step is built; their headers say so.
+
+## 2. Data the checks depend on (moved up; review proposal, Ari approves)
+- [ ] **House gin: confirm the bottle first (changed).** Get a label photo from Ari (name and
+  ABV), then ask the distillery for the botanical bill. The only public listing found for
+  Spirits of Newtown (a third-party delivery menu) shows a "Triple Juniper Gin" at 38%, made
+  with juniper, coriander and angelica. That doesn't fit "very citrus-forward, little
+  juniper". Until the bill is in, model the gin from Ari's description as a PROVISIONAL
+  `house_gin` composite.
+
+  *Why:* step 1's stacking test and step 3's strength test need it. At 38% rather than 40%,
+  Olivia B is 1.51 standard drinks, not 1.56.
+- [ ] **Fix the wrong single-botanical composites, Bénédictine first (new).** These are:
+  - Bénédictine, white rum, Scotch, Irish whiskey and crème de cacao (all `[vanilla]`);
+  - Cynar (`[gentian]`) and sloe gin (`[juniper]`);
+  - pisco and sherry (`[grape]`);
+  - mezcal (`[agave]`, with no smoke).
+
+  Leave the fair ones as they are (limoncello, amaretto, crème de cassis and so on).
+
+  *Why:* with the same-voice rule, these would quietly merge into "vanilla", and Scotch +
+  Bénédictine (the Bobby Burns) would get no credit. Olivia B's lead came from exactly this.
+- [ ] **Verify the olive profile (new).** It is provisional and enriched from FlavorDB. The
+  olive–amaretto bridge (0.18) is just cinnamaldehyde and menthone, both odd for olive.
+
+  *Why:* the whole Olivia direction ("olive's only real partner is amaretto") rests on these
+  two compounds.
+- [ ] **Add what Olivia uses (new):** vanilla syrup (101 recipes in the unmatched list), olive
+  brine, olive oil and foamer.
+
+  *Why:* step 3's Olivia B test can't run without them.
+
+## 3. ml-weighted strength, sugar and acid
+- [ ] Add the per-ingredient fields `abv`, `sugar_g_per_100ml`, `acid_g_per_100ml`
+  (citric-acid equivalent) and `salt_g_per_100ml`. Each gets a source citation or a
+  provisional flag in `notes`. Missing data is reported as missing, never assumed to be 0.
+- [ ] Add an engine function that takes `{id: ml}` plus the method (shake, stir, or reverse
+  dry shake with foamer). It returns ml in the tin and in the glass, ABV, Australian standard
+  drinks (10 g of alcohol), sugar g/100 ml, acid %, the sugar-to-acid ratio, and salt.
+- [ ] **Dilution model, cited (changed).** Use Dave Arnold's equations from *Liquid
+  Intelligence* (stirred and shaken). Check them against the book and cite the page. The
+  output says which model it used.
+
+  *Why:* "about 18% ABV in the glass" quietly assumes about 30% dilution. Even the stirred
+  equation (as quoted secondhand) gives 37% dilution for this drink, about 17% ABV, and
+  shaking dilutes more. The target has to come from the model, not from a number in a chat.
+- [ ] **One reading for sweet and sour (new).** When amounts are given, grams of sugar and acid
+  replace the summed 0–1 sweet and sour axes. Bitter, umami, fat and funk stay as they are.
+  The output says which was used.
+
+  *Why:* otherwise the axes can say "sour-balanced" while the grams say "too sweet".
+- [ ] **Texture: define it or drop the word (new).** The smallest honest version is dissolved
+  solids (sugar + acid, g/100 ml), foam yes or no, and fat in ml, all flagged as proxies.
+
+  *Why:* the step promises texture, but nothing in the plan computed it.
+- [ ] Expose it through `score_drink` and write tests.
+- [ ] **Done when (changed):**
+  - From label strengths, Olivia B gives 1.56 standard drinks at 40% gin and 28% amaretto
+    (1.51 at 38% gin), within ±0.05.
+  - Its ABV in the glass is whatever the cited model gives. Expect roughly 15–17%, not 18%.
+  - The house-spec hand maths checks out. M1 comes to 2.15 standard drinks with 45 ml of gin
+    (the specs said "about 2.2") and 1.68 with 30 ml. M2 and P come to 1.47 and 1.42 with
+    30 ml, because they drop the vermouth, so the specs' "about 1.6–1.7" only holds for M1.
+
+## 4. Back-bar research (sub-agents allowed)
+- [ ] Write the results to a review proposal (for example `data/backbar_proposal.json`).
+  Don't edit `ingredients.json` or `composites.json` until Ari approves. Unconfident matches
+  go to `unmatched_ingredients.txt`.
+- [ ] **Order (changed):**
+  1. Step 2's items.
+  2. By recipe count in the unmatched list (summed across spellings):
+     - Suze, Salers, Bonal and other gentian aperitifs (195);
+     - walnut bitters and nocino (118);
+     - crème de violette (103);
+     - sherry by style: amontillado (102) and PX (96) as well as oloroso (62), manzanilla
+       (52) and fino (7);
+     - Licor 43 (77);
+     - Frangelico (62);
+     - yuzu (47).
+  3. The rest of the bar: Massenez Popcorn and Cassis, Floc de Gascogne, Lillet Rosé,
+     Italicus, pommeau, Skrewball, kumquat and macadamia.
+
+  *Why:* the data the tests need comes first. After that, recipe count is how much of the
+  corpus each entry unlocks. Amontillado and PX each out-count fino more than ten to one, but
+  they weren't on the list.
+- [ ] **Where sugar numbers come from (new).** Use producer tech sheets first, then Arnold's
+  measured table. As a last resort, use the EU legal minimums, flagged "legal minimum, not
+  measured": liqueur 100 g/L; cherry-spirit liqueurs such as maraschino 70; gentian liqueurs
+  such as Salers and Suze 80; "crème de" 250; crème de cassis 400 (Regulation (EU) 2019/787,
+  Annex I; check the text).
+
+  *Why:* most producers don't publish sugar. "Cite every number" needs a ladder of sources
+  that also says how good each number is.
+- [ ] ABV, sugar and acid for every bottle on the Apéritif & Co bar (`docs/menu/menu.json`)
+  and in `docs/house-specs.md`, from labels and producer specs.
+
+## 5. Olivia amounts (after 1–4)
+- [ ] **Re-score before choosing a lead (changed).** Score M1, M2, P and B with the new rules
+  and the fixed Bénédictine. In the review run the four sit within 0.02 of each other
+  (0.095–0.113), so Cobber can't pick between them on aroma, and the tasting decides. Put B
+  into the tasting next to M1 and M2 rather than making it the lead in the house specs.
+
+  *Why:* B's lead rested on the Bénédictine = vanilla duplicate.
+- [ ] **The amount search is a small grid, not a loop (changed).** Ranges: gin 30–35, amaretto
+  10–15, Bénédictine 5–10, vanilla 2.5–5, brine 5–10, lemon 17.5–20, in 2.5 ml steps (324
+  sets). Keep the sets at 1.5–1.7 standard drinks with a sour's sugar-to-acid balance, and
+  give Ari 2–3 to taste. This is a script, not an engine feature.
+
+  *Why:* by the plan's own decision, amounts don't change the aroma score, so only the
+  structure numbers move.
+- [ ] Update the Olivia section of `docs/house-specs.md` after Ari's tasting verdict.
+
+## 6. Tasting log (Ari): start now, not later (changed)
+- [ ] Keep a committed R&D log (for example `docs/tasting-log.md`, or `data/tasting_log.json`
+  once the regression panel reads it). Each entry has the date, the spec with amounts, the
+  verdict and notes. This isn't `record_tasting_feedback`, which is personal and local and is
+  never committed, by design.
+- [ ] Taste M1 against M2 (and B) now; the open tests in the house specs already list them.
+  The verdicts become step 1's real check: do the new scores put the drinks in the same order
+  as Ari's palate does?
+
+  *Why:* nothing on Olivia has been tasted, and the scoring is being tuned on that one
+  untasted drink. The tasting is the only ground truth, and it needs no code.
+- [ ] Later: use the verdicts to correct the provisional data (sugar and strength).
 
 ## Decided against (don't build)
-- **Weighting aroma by amount.** It would need compound concentrations, and those barely
-  exist: FooDB has measured values for about 5% of entries, and spirits are the worst
-  covered. "Shared compounds = good pairing" is also contested (Ahn et al. 2011: Western
-  cuisines pair shared compounds, East Asian ones avoid them; critics note it ignores odour
-  thresholds). Keep aroma harmony for finding ideas, not for judging amounts.
+- **Weighting aroma by amount** (as approved). It would need compound concentrations, and
+  those barely exist: FooDB has measured values for about 5% of entries, and spirits are the
+  worst covered. "Shared compounds = good pairing" is also contested (Ahn et al. 2011:
+  Western cuisines pair shared compounds, East Asian ones avoid them; critics note it ignores
+  odour thresholds). Keep aroma harmony for finding ideas, not for judging amounts.
+- **A hand-kept citrus list with full masking.** Masking erases what makes lemon, lime and
+  grapefruit different, and a list goes stale. Replaced by per-compound diminishing returns.
+- **Hard blocks for redundancy.** As blocks they forbid 41% of IBA. Replaced by same-voice
+  merging and notices.
+- **A colour field for "no dark modifiers".** The host Claude passes an exclude list instead.
+- **Porting the hill-climb loop.** `build_around` is already exhaustive, and in the prototype
+  the exhaustive check matched the loop.
+- **Weighting compounds by how rare they are across the pantry, for now.** It would also cut
+  a single classic link like gin + lemon (limonene is everywhere), which goes against "one
+  citrus link does a real job". Revisit it with the regression panel.
+
+## Decisions for Ari
+1. Redundancy earns no credit and raises a notice, but is never blocked (the approved plan
+   blocked it).
+2. Per-compound diminishing returns instead of a citrus list.
+3. "Same aroma" at 90%, so lemon and lime stay different.
+4. "Too bright" and the target note as source counts from the curated descriptors, shown as a
+   notice.
+5. Fix Bénédictine (and the other `[vanilla]` spirits) before trusting B's score. B joins the
+   tasting rather than leading.
+6. Confirm the house gin bottle (label photo) and its ABV.
+7. Start the tasting log now, with M1 against M2 (and B).

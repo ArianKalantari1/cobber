@@ -6,16 +6,25 @@ notes + a self-contained HTML visualiser — on branch
 Supersedes the original Copilot handoff. Read `docs/cobber-design-notes.md`
 first for the project's thinking; this file is "where we are and what's next".*
 
-## NEXT: scoring upgrade, approved (22 October 2026)
+## NEXT: scoring upgrade, reviewed and refined (23 October 2026)
 
-- **Start with `docs/todo-scoring-upgrade.md`.** Ari approved:
-  1. redundancy rules in the engine;
-  2. ml-weighted taste, texture and strength;
-  3. back-bar research as a review proposal;
-  4. then the amounts for Olivia B.
-- **Why:** Olivia R&D showed that harmony rewards redundant overlap (citrus on citrus,
-  amaretto against almond) and that amounts never enter the score.
-- **Reference prototypes:** `scripts/prototypes/olivia_loop2.py` and `olivia_loop3.py`.
+- **Start with `docs/todo-scoring-upgrade.md`.** The list Ari approved on 22 October was
+  checked against the data and refined. Its "Decisions for Ari" section needs his OK before
+  step 1 starts.
+- **What the review found:**
+  - Olivia B's 0.149 is mostly a duplicate: Bénédictine is modelled as vanilla alone.
+  - As hard blocks, the redundancy rules would forbid 41% of IBA classics.
+  - The citrus problem is a general counting bug. The fix is per-compound diminishing
+    returns, not a citrus list.
+  - 37 composites are a single botanical; five spirits are `[vanilla]`.
+- **Order:** regression panel, then the counting rules, then the data those checks need
+  (house gin label, Bénédictine and the other `[vanilla]` spirits, olive profile, Olivia's
+  preps), then ml-weighted strength, sugar and acid, then the wider back-bar research, then
+  Olivia's amounts. The tasting log starts now, in parallel.
+- **Why the upgrade:** Olivia R&D showed that harmony rewards redundant overlap (citrus on
+  citrus, amaretto against almond) and that amounts never enter the score.
+- **Reference prototypes:** `scripts/prototypes/olivia_loop2.py` and `olivia_loop3.py`;
+  `review_scoring_todo.py` reproduces every number in the review.
 - **House specs:** `docs/house-specs.md` is now on this branch. It has the new Olivia
   direction (no wash, no basil, brine, test versions) and the prep corrections.
   `claude/gava-nectar-syrup-59ddrp` has an older copy; keep this one.
