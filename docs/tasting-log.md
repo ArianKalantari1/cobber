@@ -168,3 +168,41 @@ this bridge, so this round is the palate's call.
 
 **Next, on the winner (from the house specs):** brine at 5 / 7.5 / 10 ml (more brine is the
 first lever if the olive or salt still hides), then olive oil at 5 / 7.5 (Ari's dose) / 10 ml.
+
+---
+
+## Session 2 (planned): Pisco Ma Chérie, the caramel against the fruit
+
+**Brief (Ari, 23 October):** rework the drink by re-scoring it, and lay out the options. The
+working, the options and the sources are in `docs/recipes/pisco-ma-cherie-rework.md`. The
+question for this session is whether the caramel (now in three parts of the drink: the Medium,
+the demerara and the Moro vinegar) sits under the strawberry or on top of it.
+
+**Glasses** (single serves: 41 ml pisco, 18 ml Elegante Medium, 31 ml shrub, then 75 ml soda,
+built as in the prep spec):
+- **A:** today's spec.
+- **B:** the same, with the white-sugar half shrub (500 g strawberries, 300 g white sugar, no
+  demerara; the full recipe is in the rework doc).
+- **C (if strawberry gum is in):** B with 0.5 g strawberry gum in the half shrub's maceration.
+
+**Cobber's predictions** (on the sourced data in `data/pisco_sherry_proposal.json`, which isn't
+applied yet):
+- **A:** harmony 0.047. *"The target, fruity, has 2 sources against 3 sweet/creamy sources: it
+  may not come through."* Expect the caramel on top of the strawberry.
+- **B:** harmony 0.060, with no notices. Expect the strawberry first and a redder colour, with the
+  toffee finish still there from the Medium and the Moro vinegar.
+- **C:** harmony 0.059 and *"3 fruity sources"*. Expect the strawberry louder still. Check it
+  doesn't read as cinnamon or eucalyptus.
+
+### Results (Ari)
+
+| | A | B | C |
+|---|---|---|---|
+| Verdict | | | |
+| Strawberry first? | | | |
+| Caramel under the fruit or on top? | | | |
+| Can you name the pisco? | | | |
+| Colour | | | |
+| Sweet / sour / strong | | | |
+
+**Pick and changes:**
