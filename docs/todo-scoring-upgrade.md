@@ -173,6 +173,47 @@ Built on 23 October, along with step 0: see the status note under "Done when".
 - [x] Delete the prototypes in `scripts/prototypes/` once Ari has looked over the movers.
   They are recoverable from git history (commit `a528bce`).
 
+## 1b. Amplification engine (new; Ari, 23 October; confirm this reading before building)
+
+Ari's point: stacking a flavour is a deliberate technique, flavour amplification, not a
+mistake.
+- Tommy's Margarita stacks agave (tequila + agave syrup) to be agave-forward.
+- The Lemon Drop stacks lemon (citron vodka + lemon).
+- The Espresso Martini stacks coffee (espresso + coffee liqueur).
+
+Balance always matters as well. Step 1 reads bridges between different notes correctly, but
+it has no positive reading for amplification: a same-voice pair just earns no credit, and the
+stacking notice treats every stack as a risk.
+
+How I read it:
+- **Amplification is one note carried through different parts of the drink**, the parts the
+  drink needs anyway: Tommy's agave syrup *is* the sweetener, the Lemon Drop's citron vodka
+  *is* the base, and the Espresso Martini's coffee liqueur *is* the sweetener. The note gets
+  louder without adding sugar or acid, so the balance holds. Olivia already does it with the
+  olive: brine in the salt slot, olive oil for texture, an olive on the rim.
+- **It costs balance** when two carriers fill the same part, e.g. two sweet liqueurs (the
+  amaretto and maraschino carrying nutty in M1) add sugar.
+- **It crowds** when a note that isn't the hero picks up carriers, e.g. citrus in M1 (gin,
+  vermouth, lemon) drowning the nutty note.
+
+What the engine would do:
+- [ ] Detect amplified notes (same-voice groups, and families with 2+ sources), and which
+  part of the drink each carrier fills (base, sweetener, acid, bitter, modifier, seasoning,
+  texture, garnish).
+- [ ] Read intent. With a hero note named, amplifying it is good ("agave-forward: base +
+  sweetener"), and another note amplified past it is crowding. This replaces the blanket
+  stacking notice.
+- [ ] Read the balance cost. Carriers in different parts are free; two in the same part add
+  sugar, acid or bitterness. Step 3's grams make it exact.
+- [ ] Suggest amplifiers. For a hero note, offer pantry items that carry it in a part the
+  drink already needs (agave syrup instead of sugar syrup, olive brine instead of saline),
+  alongside the bridge suggestions.
+- [ ] Keep harmony as it is: amplification is a second reading next to it, so Tommy's and the
+  Espresso Martini read as amplification drinks, not weak ones.
+
+Needs from step 2: olive brine, olive oil and the other preps as their own entries, so
+Olivia's amplification is visible to Cobber.
+
 ## 2. Data the checks depend on (moved up; review proposal, Ari approves)
 - [ ] **House gin: confirm the bottle first (changed).** Get a label photo from Ari (name and
   ABV), then ask the distillery for the botanical bill. The only public listing found for

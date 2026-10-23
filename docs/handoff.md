@@ -22,13 +22,16 @@ first for the project's thinking; this file is "where we are and what's next".*
 
   The tests went from 68 to 110.
 - **Waiting on Ari:**
-  - a look at the panel's movers (`python3 scripts/eval_scoring.py`);
-  - the word list in `data/descriptor_words_proposal.json`;
-  - the M1/M2/B tasting (Cobber's predictions are already in the tasting log);
-  - the gin label;
+  - confirming the amplification reading (to-do step 1b), Ari's idea from 23 October:
+    stacking one note on purpose (agave in Tommy's, coffee in the Espresso Martini) is a
+    technique, with balance kept;
+  - the M1/M2/B tasting, once back at work (Cobber's predictions are already in the tasting
+    log);
+  - the gin label, also at work;
   - the suggested task on the 22 entries whose "TODO: verify" sits only in `source`.
 
-  Then step 2, the data proposals.
+  The movers and the word list are approved: the baseline is re-saved and the words are
+  applied. Next: step 1b once confirmed, then step 2, the data proposals.
 - **What the review found:**
   - Olivia B's 0.149 is mostly a duplicate: Bénédictine is modelled as vanilla alone.
   - As hard blocks, the redundancy rules would forbid 41% of IBA classics.
