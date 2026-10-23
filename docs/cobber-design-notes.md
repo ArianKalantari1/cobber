@@ -172,6 +172,26 @@ the original guesses here.*
   by contrast. Harmony is a useful heuristic that can be confidently wrong.
 - Onboarding friction: an MCP server suits AI builders, not working bartenders. A
   bartender-friendly surface is a future concern.
+- **Redundant overlap (rules added 23 October 2026, approved by Ari).** Averaging Jaccard
+  over every pair counted a compound shared by k ingredients k(k−1)/2 times, and scored a
+  copy as a perfect pair (amaretto with almond), so drink harmony rewarded stacking one
+  note. The Olivia R&D exposed it: limoncello looked like the best addition to a gin and
+  lemon drink. Drink harmony is now counted by aroma voice (`engine.voices`,
+  `engine.score_drink`):
+  - ingredients with no aroma profile (sugar, soda, egg white) are structure, not scored;
+  - same-aroma ingredients are one voice, with no bridge credit between them and never a
+    block. That means a profile overlap of at least 0.9, or an aroma botanical already on a
+    composite's bill (coriander seed with gin). Juice on a bill (lemon with gin) still
+    bridges;
+  - a compound repeated across voices earns 1, ½, ¼ … credit, so the first link counts in
+    full and stacks fall off;
+  - suggestions only offer additions that bring a new voice;
+  - stacked notes raise notices (3+ sources of one flavour family, read from curated
+    descriptors), never score changes.
+
+  Pair scores are unchanged. Still open: notices count sources, not intensity (there is no
+  concentration data), and some copies are data artefacts until their bills are fixed (37
+  composites are a single botanical; Bénédictine is modelled as vanilla).
 
 ## 10. Data sources & the food-graph rationale
 
