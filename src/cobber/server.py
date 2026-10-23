@@ -66,6 +66,12 @@ tastants. For where to take a drink, `harmonious_notes` gives the flavour
 families that complement it, mined from Cobber's own recipe corpus. Both are
 honest about thin data (unknown / partial / provisional) — pass that honesty on.
 
+To compare versions of one drink (R&D on a house spec), call `score_drink` on
+each version. It scores the whole drink, shows which ingredients only repeat
+each other, and flags stacked notes; pass `target_family` for the note the
+drink should lead with. Differences of a few hundredths are noise: say the
+versions are close and let the tasting decide.
+
 Workflow when someone tells you what they have:
 1. Call `resolve_ingredients` on their free-text list to turn it into known ids.
    Mention anything that came back unknown and offer to work around it. If the
@@ -263,6 +269,33 @@ def score_pairing(a: str, b: str) -> dict:
     if provisional:
         result["provisional"] = provisional
     return result
+
+
+@mcp.tool()
+def score_drink(ingredients: list[str], target_family: str | None = None) -> dict:
+    """Score one exact drink as a whole: use it to compare versions of a drink.
+
+    ``ingredients`` are ids (resolve names first). Harmony and novelty are
+    counted by aroma voice: ingredients with the same aroma (amaretto and
+    almond, coriander seed in a gin drink) count once, no-aroma structure
+    (sugar, soda, egg white) is left out, and a compound shared by three or
+    more voices counts with diminishing returns. The result shows that working
+    (``voices``, ``structure_only``, ``bridges``, ``repeated``) plus the
+    ``balance`` reading.
+
+    ``notices`` flag stacked notes ("3 citrus sources ...: check it isn't too
+    bright"). Set ``target_family`` to the note the drink should lead with
+    (citrus, floral, fruity, green_herbal, woody_resinous, spice, mint_cooling,
+    sweet_creamy, roasted_nutty, savoury) to check it isn't outnumbered.
+    Notices count sources, not amounts: relay them as things to taste for, not
+    verdicts. Mention anything listed under ``provisional``.
+
+    Returns the scored drink, or ``{"error": message}`` for an unknown family.
+    """
+    try:
+        return engine.score_drink(ingredients, target_family)
+    except ValueError as exc:
+        return {"error": str(exc)}
 
 
 @mcp.tool()

@@ -183,3 +183,66 @@ def test_same_voice_anchors_are_reported_not_rejected():
     for result in results:
         assert {"amaretto", "almond"} in [set(voice["ingredients"]) for voice in result["same_voice"]]
         assert "amaretto+almond" not in result["why"]
+
+
+# ---------------------------------------------------------------------------
+# Notices and score_drink
+# ---------------------------------------------------------------------------
+
+OLIVIA = {
+    "M1": ["gin", "dry_vermouth", "amaretto", "maraschino", "lemon", "olive"],
+    "M2": ["gin", "amaretto", "maraschino", "vanilla", "lemon", "olive"],
+    "B": ["gin", "amaretto", "benedictine", "vanilla", "lemon", "olive"],
+}
+
+
+def test_three_citrus_sources_raise_the_brightness_notice():
+    """Ari's case: citrus-forward gin + limoncello + lemon is 'way too bright'; one link is fine."""
+    stacked = engine.notices(["gin", "limoncello", "lemon"])
+    assert len(stacked) == 1 and "3 citrus sources" in stacked[0] and "too bright" in stacked[0]
+    assert engine.notices(["gin", "lemon"]) == []
+
+
+def test_taste_words_and_no_aroma_items_are_not_sources():
+    """'sweet' on a liqueur is sugar, not smell; sugar syrup has no aroma at all."""
+    sources = engine.family_sources(["amaretto", "limoncello", "triple_sec", "sugar_syrup"])
+    assert "sweet_creamy" not in sources
+    assert "sugar_syrup" not in {i for members in sources.values() for i in members}
+    assert sources["roasted_nutty"] == ["amaretto"]
+
+
+def test_target_note_notice_on_the_olivia_versions():
+    """Nutty is level with citrus only in M2 (amaretto + maraschino against gin + lemon)."""
+    assert any("target" in n for n in engine.notices(OLIVIA["M1"], "roasted_nutty"))
+    assert engine.notices(OLIVIA["M2"], "roasted_nutty") == []
+    assert any("target" in n for n in engine.notices(OLIVIA["B"], "roasted_nutty"))
+    assert any("no carrier" in n for n in engine.notices(["gin", "lemon"], "roasted_nutty"))
+
+
+def test_unknown_target_family_is_refused():
+    with pytest.raises(ValueError, match="Unknown flavour family"):
+        engine.notices(["gin", "lemon"], "nutty")
+
+
+def test_score_drink_shows_its_working():
+    drink = engine.score_drink(["gin", "lemon", "limoncello", "sugar_syrup", "not_a_thing"])
+    assert drink["harmony"] == engine._score_combination(["gin", "lemon"])["harmony"]
+    assert drink["unknown"] == ["not_a_thing"]
+    assert drink["structure_only"] == ["sugar_syrup"]
+    merged = [v for v in drink["voices"] if len(v["ingredients"]) > 1]
+    assert merged and set(merged[0]["ingredients"]) == {"lemon", "limoncello"} and merged[0]["reasons"]
+    assert drink["bridges"][0]["between"] == [["gin"], ["lemon", "limoncello"]]
+    assert any("too bright" in n for n in drink["notices"])
+
+
+def test_score_drink_lists_decayed_repeats_and_provisional_data():
+    drink = engine.score_drink(OLIVIA["B"])
+    assert "benedictine" in drink["provisional"] and "olive" in drink["provisional"]
+    m1 = engine.score_drink(OLIVIA["M1"])
+    assert all(len(carriers) >= 3 for carriers in m1["repeated"].values())
+    assert set(m1["repeated"]["limonene"]) == {"gin", "dry_vermouth", "lemon"}
+
+
+def test_two_ingredient_score_drink_matches_score_pairing():
+    assert engine.score_drink(["gin", "lemon"])["harmony"] == round(engine.harmony("gin", "lemon")[0], 4)
+    assert engine.score_drink(["gin", "lemon"])["novelty"] == round(engine.novelty("gin", "lemon"), 4)

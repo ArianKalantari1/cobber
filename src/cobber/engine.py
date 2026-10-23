@@ -968,6 +968,154 @@ def _score_combination(ingredient_ids: list[str]) -> dict[str, float]:
     }
 
 
+# ---------------------------------------------------------------------------
+# Notices (stacked notes, the target note) and whole-drink scoring
+# ---------------------------------------------------------------------------
+
+# This many ingredients carrying one flavour family raise a stacking notice
+# ("3 citrus sources: ... check it isn't too bright"). On the IBA list it flags 8
+# of 75 drinks, all citrus-heavy. Approved by Ari, 23 October 2026.
+STACKING_SOURCES = 3
+
+
+def _family_label(family: str) -> str:
+    return family.replace("_", "/")
+
+
+def _aroma_families(ingredient_id: str) -> set[str]:
+    """The flavour families an ingredient is a source of, from its curated descriptors.
+
+    Descriptors are written per ingredient, the way a bartender describes it, and
+    map to families through the approved family map. Taste words ("sweet",
+    "sour" ...) are left out, because they are taste axes rather than smells, and
+    an ingredient with no aroma profile (sugar syrup) is no aroma source at all.
+    """
+    ingredient = PANTRY.get(ingredient_id)
+    if ingredient is None or not ingredient.compounds:
+        return set()
+    word_to_family = PANTRY.descriptor_word_to_family
+    return {
+        word_to_family[word]
+        for word in ingredient.descriptors
+        if word in word_to_family and word not in data.VALID_TASTE_AXES
+    }
+
+
+def family_sources(ingredient_ids: list[str]) -> dict[str, list[str]]:
+    """Map each flavour family to the drink's ingredients that are a source of it."""
+    sources: dict[str, list[str]] = {}
+    for ingredient_id in dict.fromkeys(ingredient_ids):
+        for family in sorted(_aroma_families(ingredient_id)):
+            sources.setdefault(family, []).append(ingredient_id)
+    return sources
+
+
+def notices(ingredient_ids: list[str], target_family: str | None = None) -> list[str]:
+    """Return plain-language notices about stacked notes and the target note.
+
+    A family with :data:`STACKING_SOURCES` or more sources gets a stacking notice.
+    With ``target_family`` (the note the drink should lead with), a notice also
+    fires when the target has fewer sources than the strongest other family.
+    Sources are counted, not weighed: two dashes and 30 ml count the same, so a
+    notice is something to taste for, not a verdict, and it never changes a
+    score. Raises ``ValueError`` for an unknown family.
+    """
+    if target_family is not None and target_family not in PANTRY.odor_families:
+        raise ValueError(
+            f"Unknown flavour family {target_family!r}; the families are "
+            f"{', '.join(sorted(PANTRY.odor_families))}."
+        )
+    sources = family_sources(ingredient_ids)
+
+    def names(ids: list[str]) -> str:
+        return ", ".join(PANTRY.get(i).display_name for i in ids)
+
+    found: list[str] = []
+    for family, members in sorted(sources.items(), key=lambda item: (-len(item[1]), item[0])):
+        if len(members) >= STACKING_SOURCES:
+            check = (
+                "check it isn't too bright"
+                if family == "citrus"
+                else f"check the {_family_label(family)} note isn't stacked too high"
+            )
+            found.append(f"{len(members)} {_family_label(family)} sources ({names(members)}): {check}.")
+    if target_family is not None:
+        target = sources.get(target_family, [])
+        rivals = {family: members for family, members in sources.items() if family != target_family}
+        strongest = max((len(members) for members in rivals.values()), default=0)
+        label = _family_label(target_family)
+        if not target:
+            found.append(f"Nothing in the drink is a {label} source, so the target note has no carrier.")
+        elif len(target) < strongest:
+            leader = min(family for family, members in rivals.items() if len(members) == strongest)
+            sources_word = "source" if len(target) == 1 else "sources"
+            found.append(
+                f"The target, {label}, has {len(target)} {sources_word} ({names(target)}) against "
+                f"{strongest} {_family_label(leader)} sources ({names(rivals[leader])}): it may not "
+                "come through."
+            )
+    return found
+
+
+def score_drink(ingredient_ids: list[str], target_family: str | None = None) -> dict:
+    """Score one exact drink as a whole: the tool for comparing versions of a drink.
+
+    Harmony and novelty are counted over aroma voices (see
+    :func:`_score_combination`), so a two-ingredient drink scores exactly like
+    :func:`harmony`. The result shows the working: which ingredients count as one
+    voice and why, which are structure only, the bridges between voices
+    (strongest first), the compounds counted on a decay because three or more
+    voices carry them, the flavour-family sources, the notices, the balance
+    reading, and any provisional data. Raises ``ValueError`` for an unknown
+    ``target_family``.
+
+    Returns::
+
+        {
+          "ingredients": [...known ids], "unknown": [...],
+          "harmony": float, "novelty": float,
+          "voices": [{"ingredients": [...], "reasons": [...]}],
+          "structure_only": [...],
+          "bridges": [{"between": [[...], [...]], "harmony": float, "shared": [...]}],
+          "repeated": {compound: [voices carrying it]},
+          "family_sources": {family: [...]},
+          "notices": [...],
+          "balance": {...},
+          "provisional": [...],
+        }
+    """
+    drink_notices = notices(ingredient_ids, target_family)
+    known = [i for i in dict.fromkeys(ingredient_ids) if PANTRY.get(i) is not None]
+    drink_voices, structure_only = voices(known)
+    scored = _score_voices(drink_voices, detail=True)
+    bridges = sorted(
+        (
+            {"between": [list(a), list(b)], "harmony": round(pair["harmony"], 4), "shared": sorted(pair["shared"])}
+            for pair in scored["pairs"]
+            if pair["shared"]
+            for a, b in [pair["voices"]]
+        ),
+        key=lambda bridge: -bridge["harmony"],
+    )
+    return {
+        "ingredients": known,
+        "unknown": [i for i in dict.fromkeys(ingredient_ids) if PANTRY.get(i) is None],
+        "harmony": round(scored["harmony"], 4),
+        "novelty": round(scored["novelty"], 4),
+        "voices": [{"ingredients": v["ingredients"], "reasons": v["reasons"]} for v in drink_voices],
+        "structure_only": structure_only,
+        "bridges": bridges,
+        "repeated": {
+            compound: [v["ingredients"][0] for v in drink_voices if compound in v["compounds"]]
+            for compound in sorted(scored["repeated"], key=lambda c: (-scored["repeated"][c], c))
+        },
+        "family_sources": family_sources(known),
+        "notices": drink_notices,
+        "balance": balance(known),
+        "provisional": sorted(i for i in known if PANTRY.get(i).provisional),
+    }
+
+
 def _is_spirit(ingredient_id: str) -> bool:
     ingredient = PANTRY.get(ingredient_id)
     return ingredient is not None and ingredient.role == "spirit"

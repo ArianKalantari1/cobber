@@ -61,3 +61,9 @@ def test_suggest_from_pantry_passes_the_identity_guards():
     assert not {"honey", "brandy"} & offered
     refused = server.suggest_from_pantry(pantry, ["gin", "amaretto"], locked=["lemon"], exclude=["lemon"])
     assert "error" in refused
+
+
+def test_score_drink_tool_scores_a_whole_drink_and_relays_errors():
+    drink = server.score_drink(["gin", "limoncello", "lemon"], target_family="citrus")
+    assert any("too bright" in notice for notice in drink["notices"])
+    assert "error" in server.score_drink(["gin", "lemon"], target_family="nutty")
