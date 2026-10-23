@@ -14,6 +14,7 @@ Run from the repo root: python3 scripts/prototypes/review_scoring_todo.py
 import importlib.util
 import json
 import math
+import re
 from collections import Counter
 from itertools import combinations
 from pathlib import Path
@@ -172,6 +173,12 @@ if __name__ == "__main__":
         per_rule = Counter(r for d in drinks for r in blocked_by(d["literal"]))
         any_hit = sum(1 for d in drinks if blocked_by(d["literal"]))
         print(f"  {label}: {any_hit}/{len(drinks)} ({any_hit / len(drinks):.0%}) blocked; by rule: {dict(per_rule)}")
+    inside = Counter()
+    for d in RECIPES:
+        if d["source"] in CANON:
+            ids = known(d["literal"])
+            inside.update(f"{x}+{y} ({entry(y).role})" for x in ids for y in ids if y in entry(x).botanicals)
+    print(f"  canon drinks pairing a composite with its own botanical: {inside.most_common(6)}")
     print("  IBA casualties include:", ", ".join(d["drink"] for d in IBA if blocked_by(d["literal"]) and d["drink"] in {
         "Negroni", "Dry Martini", "Aviation", "Clover Club", "French 75", "White Lady", "Espresso Martini", "Tommy's Margarita"}))
 
@@ -201,13 +208,21 @@ if __name__ == "__main__":
         print(f"  {name:55s} current {current(s):.3f}  refined {refined(s):.3f}")
     cur_iba, ref_iba = [current(d["literal"]) for d in IBA], [refined(d["literal"]) for d in IBA]
     print(f"  IBA rank correlation, current vs refined: {spearman(cur_iba, ref_iba):.2f} over {len(IBA)} drinks; none blocked")
+    print(f"  build_around candidates with up to 4 additions from a 40-bottle pool: {sum(math.comb(40, k) for k in range(5)):,}")
     moves = sorted(zip([r - c for c, r in zip(cur_iba, ref_iba)], [d["drink"] for d in IBA], cur_iba, ref_iba))
     print("  biggest falls: " + "; ".join(f"{n} {c:.2f}->{r:.2f}" for _, n, c, r in moves[:4]))
     print("  biggest rises: " + "; ".join(f"{n} {c:.2f}->{r:.2f}" for _, n, c, r in moves[-4:]))
 
     header("5. Source counts for the 'too bright' and target-note notice (curated descriptors)")
+    def wheel_weight(i, family):
+        return next((f["weight"] for f in e.flavor_wheel(i)["families"] if f["family"] == family), 0)
+    print(f"  compound-count family weights: gin citrus {wheel_weight('gin', 'citrus')}, amaretto nutty {wheel_weight('amaretto', 'roasted_nutty')}")
     for i in ("amaretto", "benedictine", "maraschino"):
         print(f"  {i}: compound wheel says {e.flavor_wheel(i)['dominant']!r}; curated descriptors say {sorted(families(i))}")
+    words = Counter(d for ing in P.ingredients.values() for d in ing.descriptors)
+    unmapped = Counter({w: n for w, n in words.items() if w not in W2F})
+    print(f"  curated descriptor uses with no family yet: {sum(unmapped.values())}/{sum(words.values())}; "
+          f"commonest: {[w for w, _ in unmapped.most_common(8)]}")
     for name, s in OLIVIA.items():
         print(f"  {name:55s} citrus sources {sources(s, 'citrus')}, nutty sources {sources(s, 'roasted_nutty')}")
     bright = [d["drink"] for d in IBA if len(sources(d["literal"], "citrus")) >= 3]
@@ -231,3 +246,16 @@ if __name__ == "__main__":
         for gin_ml in (30, 45):
             ethanol = gin_ml * 0.40 + sum(ml * abv for ml, abv in rest.values())
             print(f"  {name} with {gin_ml} ml gin: {ethanol * 0.789 / 10:.2f} standard drinks")
+    steps = lambda lo, hi: int((hi - lo) / 2.5) + 1  # 2.5 ml steps
+    grid = math.prod(steps(lo, hi) for lo, hi in ((30, 35), (10, 15), (5, 10), (2.5, 5), (5, 10), (17.5, 20)))
+    print(f"  step 5 amount grid in 2.5 ml steps: {grid} sets")
+
+    header("7. Research priorities: recipe counts in data/unmatched_ingredients.txt")
+    lines = (ROOT / "data" / "unmatched_ingredients.txt").read_text(encoding="utf-8").splitlines()
+    rows = [(int(n), name) for n, name in (l.split("\t", 1) for l in lines if "\t" in l) if n.strip().isdigit()]
+    for label, pattern in (("gentian aperitifs (Suze, Salers, Bonal)", r"salers|suze|gentian"), ("walnut / nocino", r"walnut|nocino"),
+                           ("creme de violette", r"violet"), ("vanilla syrup", r"vanilla syrup"), ("Licor 43", r"licor\s*43"),
+                           ("PX sherry", r"pedro ximenez"), ("amontillado", r"amontillado"), ("oloroso", r"oloroso"),
+                           ("Frangelico", r"frangelico"), ("manzanilla", r"manzanilla"), ("yuzu (exact)", r"^yuzu$"),
+                           ("fino", r"\bfino\b"), ("kumquat", r"kumquat"), ("macadamia (exact)", r"^macadamia$")):
+        print(f"  {label:42s} {sum(n for n, name in rows if re.search(pattern, name, re.I))}")
