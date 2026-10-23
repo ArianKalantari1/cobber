@@ -318,6 +318,35 @@ with the specs as published (none tasted here).
   keeping the Medium and the Moro together.
 - Nutty Solera is a second medium sherry from the same bodega, if Elegante Medium is ever out.
 
+**Strawberry, vinegar and black pepper in a glass** (the Italian strawberries-with-balsamic-and-
+pepper idea; Ari found there's a cocktail like it, 23 October):
+- **Strawberry on Acid (Difford's Guide):** muddled strawberries, Ketel One, Giffard Fraise des Bois,
+  balsamic vinegar of Modena and one grind of black pepper, topped with brut Champagne. Adapted
+  from a drink found in 2010 at Bordeaux Quay, Bristol.
+- **Strawberry Fields (Difford's Guide):** vodka, strawberry, lemon and honey, with drops of
+  balsamic and a dusting of black pepper (full spec not read).
+- **Paraíso (Michael Dietsch, *Shrubs*, 2014):** 1½ oz blanco tequila, ½ oz Campari, ½ oz lemon and
+  ¾ oz strawberry and black pepper shrub. The shrub is strawberries macerated with sugar and
+  coarse pepper, then cider vinegar, rested a week.
+- **Food Republic's strawberry black pepper shrub:** strawberries macerated with sugar and coarse
+  pepper, then white balsamic, rested 2 days and strained; keeps a month.
+- **Strawberry Daiquiri (JL Remix), Fraser Hamilton, Sweet Liberty (Miami, 2020):** 1½ oz white rum,
+  ¾ oz simple syrup, ½ oz Manzanilla, ½ oz lime, 2 strawberries and a pinch of salt and pepper,
+  with a pepper-dusted strawberry half. One drinker on Kindred Cocktails found it jammy, with the
+  sherry lost.
+- **Margaritaville, Bec Bayley, Tucano's (Surry Hills, 2024):** Patrón Silver, Lillet Rosé,
+  amontillado, clarified strawberry, sugar and malic acid. Strawberry with an amontillado-style
+  sherry, already on a Sydney menu.
+
+**What they mean for this drink:**
+- The shrub is the standard strawberry and black pepper shrub (the same maceration and rest as
+  Dietsch and Food Republic), so the prep is proven. What's new is pisco, the Medium and the
+  highball.
+- Sherry can vanish behind strawberry and sugar (the JL Remix note). With R1's white-sugar shrub,
+  check at the tasting that the Medium still shows.
+- Tucano's is a few streets away with strawberry and amontillado, but as a tequila drink in a
+  different format. The pisco, the pepper and the tall highball keep this one distinct.
+
 ## Sources
 
 - **Pisco:**
@@ -364,3 +393,11 @@ with the specs as published (none tasted here).
   - [Pisces Rising (Imbibe)](https://imbibemagazine.com/?p=27396);
     [Herencia de Jerez (Difford's)](https://www.diffordsguide.com/cocktails/recipe/41718/herencia-de-jerez);
     [Uncle Al (Punch)](https://punchdrink.com/recipes/uncle-al/).
+- **Strawberry, vinegar and pepper drinks (section 8):**
+  [Strawberry on Acid (Difford's)](https://www.diffordsguide.com/cocktails/recipe/2952/strawberry-on-acid);
+  [Strawberry Fields (Difford's)](https://www.diffordsguide.com/cocktails/recipe/3501/strawberry-fields);
+  [Paraíso (Kindred Cocktails)](https://kindredcocktails.com/cocktail/paraiso);
+  [Food Republic's shrub](https://www.foodrepublic.com/recipes/strawberry-black-pepper-shrub-recipe);
+  Strawberry Daiquiri (JL Remix): [Imbibe](https://imbibemagazine.com/recipe/strawberry-daiquiri-jl-remix),
+  [Kindred Cocktails](https://kindredcocktails.com/cocktail/strawberry-daiquiri-jl-remix);
+  [Margaritaville at Tucano's (Australian Bartender)](https://australianbartender.com.au/2024/01/18/margaritaville-get-around-this-sherry-forward-cocktail-on-the-new-list-at-tucanos/).

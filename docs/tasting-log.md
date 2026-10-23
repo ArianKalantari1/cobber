@@ -206,6 +206,7 @@ applied yet):
 | Caramel under the fruit or on top? | | | |
 | Can you name the pisco? | | | |
 | Pepper: can you smell it? Any heat? | | | |
+| Can you still find the sherry? | | | |
 | Colour | | | |
 | Sweet / sour / strong | | | |
 
