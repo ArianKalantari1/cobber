@@ -293,6 +293,10 @@ the purée (about 16 g/100 ml) are estimates, so check the bottle labels.
 
 ## Pisco Ma Chérie (spec as supplied by Ari)
 
+The full prep spec is `docs/recipes/pisco-ma-cherie.md` (on branch `claude/stoic-fermat-1l819l`
+until it merges). Since 22 October the shrub uses Moro sherry vinegar, updated below. Cobber's
+re-score and the options to taste are in `docs/recipes/pisco-ma-cherie-rework.md`.
+
 ### 1. Strawberry shrub (about 1.1 L, enough for 4 rail bottles)
 
 **The day before (5 min):** put these in a lidded tub in the cool room for
@@ -310,21 +314,16 @@ syrup). Throw out the pulp and pepper. Whisk these in until dissolved:
 
 | Ingredient | Amount |
 |---|---|
-| Vinegar (pick one, below) | 120 ml |
-| Citric acid | 21 g |
-| Malic acid | 7 g |
+| Moro Sherry Vinegar (Vinagre de Jerez D.O.P., 250 ml bottle) | 120 ml |
+| Citric acid | 18 g |
+| Malic acid | 6 g |
 | Salt | 1.5 g |
 | Potassium sorbate, optional | 5 ml of a 10% solution (= 0.5 g) |
 
-**Vinegar options:**
-- **FORVM Chardonnay vinegar** is the default. It's clean and fruity and lets the
-  strawberry lead.
-- **Sherry vinegar from Woolworths** (Ari thinks the brand is Moro) is nuttier and
-  woodier, and links to the Elegante sherry in the batch. It can push the shrub
-  slightly savoury and darken the colour.
-- **A 60/60 split** gets some of each.
-- **Check the acidity %** on both labels. If the sherry vinegar is stronger, start
-  at 100 ml and top up by taste.
+**Vinegar:** Moro sherry vinegar (decided 22 October) is nuttier and woodier than FORVM,
+and links to the Elegante sherry in the batch. It's sharper, hence the lower acids.
+**FORVM Chardonnay vinegar** is the gentler backup: with it, start at 21 g citric and
+7 g malic.
 
 **Sorbate** backs up the untested 3–4 week fridge life. Skip it if a batch is
 always finished within about 2 weeks.
