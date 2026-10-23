@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "status": "PROPOSAL, awaiting Ari's approval. Nothing reads this file. To apply: replace the benedictine entry in data/composites.json, append hazelnut to data/ingredients.json and frangelico to data/composites.json, then add aliases for Frangelico (62 recipes in data/unmatched_ingredients.txt) and rerun the build pipeline in CLAUDE.md.",
+    "why": "Ari (23 October 2026): Bénédictine is herbs, honey and saffron, not vanilla; Frangelico is a candidate for Olivia's nutty side. Step 2 of docs/todo-scoring-upgrade.md (approved decision 5) fixes the entries that are identical by accident, Bénédictine first.",
+    "method": "Bills use only botanicals Cobber already has and say what is left out; new compounds reuse Cobber's ids only where they are the same compound. Every entry is PROVISIONAL.",
+    "effect_on_olivia": {
+      "benedictine": "No longer a copy of vanilla. Links to olive weakly (0.077, via cinnamaldehyde, ethyl butyrate, linalool). Cobber's olive has no green or herbal compounds (those belong to olive oil, not yet its own entry), and a 27-botanical bill dilutes any overlap, so Cobber cannot yet see the herbal bridge Ari tastes. Olivia B scores 0.086 on this data.",
+      "frangelico": "Ties amaretto, not better: best Olivia fit is Frangelico + maraschino at 0.109 (amaretto + maraschino 0.127). Its olive link (0.143) comes from its coffee and vanilla. Hazelnut lacks benzaldehyde, the kernel compound that ties almond to cherry, peach and apricot.",
+      "best_fits_for_the_brief": "Olive core with amaretto and a stone fruit: crème de pêche (0.121), maraschino (0.127), apricot brandy with Manzanilla (0.105, olive linked to three partners). All within noise of each other; the tasting decides."
+    }
+  },
+  "replace": {
+    "benedictine": {
+      "id": "benedictine",
+      "display_name": "Bénédictine D.O.M.",
+      "type": "composite",
+      "role": "sweet",
+      "botanicals": ["angelica_root", "juniper", "cinnamon", "clove", "coriander_seed", "thyme", "sage", "lemon", "honey"],
+      "descriptors": ["herbal", "honeyed", "sweet"],
+      "is_native": false,
+      "season": null,
+      "notes": "PROVISIONAL — secret recipe of 27 herbs and spices; this bill uses the publicly named botanicals Cobber has. Not modelled because Cobber lacks them: hyssop, lemon balm, saffron, myrrh, aloe, arnica. Honey and saffron are blended in late. 40% ABV.",
+      "source": "Saveur (angelica, hyssop, lemon balm); retailer listings (juniper, cinnamon, cloves, coriander, thyme, sage, lemon; honey and saffron in the blend). The brand states only a secret recipe of 27 herbs and spices.",
+      "taste": {"sweet": 0.5, "bitter": 0.3}
+    }
+  },
+  "add": {
+    "hazelnut": {
+      "id": "hazelnut",
+      "display_name": "Hazelnut (roasted)",
+      "type": "raw",
+      "role": "aromatic",
+      "compounds": ["filbertone", "3_methyl_4_heptanone", "2_acetyl_1_pyrroline", "pyrazine", "2_furfurylthiol", "3_methylbutanal", "2_3_pentanedione"],
+      "descriptors": ["nutty", "roasted", "hazelnut"],
+      "is_native": false,
+      "season": null,
+      "notes": "PROVISIONAL — key odorants of roasted hazelnut (filbertone is the character compound). The alkylpyrazines map to Cobber's generic pyrazine. The new compound ids have no descriptor records yet, so its flavour wheel reads partial.",
+      "source": "Kiefl & Schieberle 2013 and Burdack-Freitag & Schieberle 2010, J. Agric. Food Chem. (TUM publication records)."
+    },
+    "frangelico": {
+      "id": "frangelico",
+      "display_name": "Frangelico",
+      "type": "composite",
+      "role": "sweet",
+      "botanicals": ["hazelnut", "coffee", "vanilla"],
+      "descriptors": ["hazelnut", "nutty", "roasted", "sweet"],
+      "is_native": false,
+      "season": null,
+      "notes": "PROVISIONAL — toasted Tonda Gentile hazelnut distillate flavoured with cocoa, coffee and vanilla (cocoa is not in Cobber). 20% ABV.",
+      "source": "Harvey Nichols and Punch (cocoa, coffee, vanilla); Ocado UK label (hazelnut distillate, flavours).",
+      "flavor_forward": ["hazelnut"],
+      "taste": {"sweet": 0.75}
+    }
+  }
+}
