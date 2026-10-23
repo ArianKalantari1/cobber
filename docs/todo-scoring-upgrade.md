@@ -6,11 +6,12 @@ is *how*. Checked against the data, several parts would not work as written. Ite
 **(changed)** or **(new)** differ from the 22 October list; Ari approved them on 23 October
 (the decisions are listed at the end). Unmarked items are as originally approved.
 
-Branch: `claude/eager-turing-giasrj` (it carries the house specs and the prototypes). Follow
-CLAUDE.md: commit and push after each step, and Ari approves all data before it goes in.
-Every number about Cobber's data and recipes below comes from
-`python3 scripts/prototypes/review_scoring_todo.py`. Outside facts (the gin listing, Arnold's
-dilution, the EU sugar minimums) are sourced where they appear.
+Branch: `claude/eager-turing-giasrj` (it carries the house specs). Follow CLAUDE.md: commit
+and push after each step, and Ari approves all data before it goes in. Every number about
+Cobber's data and recipes in the review came from `scripts/prototypes/review_scoring_todo.py`,
+which was removed once step 1 was built; check out commit `a528bce` to rerun it. Outside
+facts (the gin listing, Arnold's dilution, the EU sugar minimums) are sourced where they
+appear.
 
 ## What the review found
 1. **Two of the three target scores don't hold.** Olivia B's 0.149 comes mostly from one
@@ -163,14 +164,14 @@ Built on 23 October, along with step 0: see the status note under "Done when".
   snapshots catch drift.
 
   **Status (23 October):** every automated check passes (`tests/test_drink_scoring.py`).
-  Still to do: Ari looks over the movers (`python3 scripts/eval_scoring.py` compares against
-  the pre-change baseline), and approves or amends the word list in
-  `data/descriptor_words_proposal.json` (37 words to map, 4 open calls: warm, smoke, cane,
-  bright). After that, re-save the baseline with `--save-baseline`.
+  Ari looked over the movers and accepted them, and the baseline was re-saved. Ari also
+  approved the word list with the proposed open calls (warm → spice, smoke → woody,
+  cane → green/herbal, bright ignored); the words are in `data/flavor_families.json`. Ari's
+  reading of the falls (Tommy's, Lemon Drop, Espresso Martini) is that those drinks stack a
+  note on purpose, which leads to step 1b.
 - [x] Write the rules into `docs/cobber-design-notes.md`, section 9 (known gaps).
-- [ ] Delete the prototypes in `scripts/prototypes/` once Ari has looked over the movers;
-  their headers say so. The review numbers stay reproducible from git history (commit
-  `a528bce`).
+- [x] Delete the prototypes in `scripts/prototypes/` once Ari has looked over the movers.
+  They are recoverable from git history (commit `a528bce`).
 
 ## 2. Data the checks depend on (moved up; review proposal, Ari approves)
 - [ ] **House gin: confirm the bottle first (changed).** Get a label photo from Ari (name and

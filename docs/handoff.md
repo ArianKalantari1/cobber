@@ -41,8 +41,8 @@ first for the project's thinking; this file is "where we are and what's next".*
   Olivia's amounts. The tasting log starts now, in parallel.
 - **Why the upgrade:** Olivia R&D showed that harmony rewards redundant overlap (citrus on
   citrus, amaretto against almond) and that amounts never enter the score.
-- **Reference prototypes:** `scripts/prototypes/olivia_loop2.py` and `olivia_loop3.py`;
-  `review_scoring_todo.py` reproduces every number in the review.
+- **Prototypes:** the Olivia loops and the review script were removed once step 1 was built
+  and Ari accepted the movers. To rerun them, check out commit `a528bce`.
 - **House specs:** `docs/house-specs.md` is now on this branch. It has the new Olivia
   direction (no wash, no basil, brine, test versions) and the prep corrections.
   `claude/gava-nectar-syrup-59ddrp` has an older copy; keep this one.
