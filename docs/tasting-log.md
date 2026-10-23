@@ -31,81 +31,84 @@ afterwards.
 
 ---
 
-## Session 1 (planned): Olivia, M1 against S, then M2 and B
+## Session 1 (planned): Olivia, one slot at a time
 
-Specs per serve, from `docs/house-specs.md` (M1, M2), the scoring to-do (B), and the
-reimagining with the updated Cobber (S, 23 October). The house gin is the bar's gin. For
-strength maths the gin is taken as 40% until the label is in.
+**Brief (Ari, 23 October):** olives with fruit. The current restaurant spec tastes of very
+little olive, so it needs a little saltiness, nuttiness and fruit, with the olive forward.
+Every version below has 7.5 ml of green olive brine for the salt (the restaurant spec has
+none) and extra-virgin olive oil for texture. Each round changes one slot.
 
-| | M1: vermouth + maraschino | S: Manzanilla + maraschino | M2: maraschino + vanilla | B: Bénédictine + vanilla |
-|---|---|---|---|---|
-| House gin | 30 ml | 30 ml | 30 ml | 35 ml |
-| French dry vermouth | 15 ml | none | none | none |
-| Manzanilla | none | 15 ml | none | none |
-| Amaretto | 15 ml | 15 ml | 15 ml | 10 ml |
-| Maraschino | 7.5 ml | 7.5 ml | 7.5 ml | none |
-| Bénédictine | none | none | none | 7.5 ml |
-| Vanilla syrup | none | none | 2.5 ml | 2.5 ml |
-| Green olive brine | 7.5 ml | 7.5 ml | 7.5 ml | 7.5 ml |
-| Lemon | 20 ml | 20 ml | 20 ml | 17.5 ml |
-| Extra-virgin olive oil | 5 ml | 5 ml | 5 ml | 5 ml |
-| Foamer | yes | yes | yes | yes |
-| Standard drinks (gin 40%) | about 1.68 | about 1.65 | about 1.47 | about 1.56 |
+The house gin is the bar's gin, taken as 40% for strength maths until the label is in.
+Standard drinks assume Manzanilla at 15%, apricot brandy at 24% and crème de pêche at 18%.
 
-S's strength takes the Manzanilla at about 15%.
+**Shared by every glass:** 20 ml lemon (17.5 in B), 7.5 ml green olive brine, 5 ml
+extra-virgin olive oil and foamer. Reverse dry shake, double-strain into a chilled
+150–180 ml coupe, then a green olive on a pick and one pump of olive oil mist.
 
-**Method (all):** reverse dry shake, double-strain into a chilled 150–180 ml coupe, then a
-green olive on a pick and one pump of olive oil mist.
+### Round 1: what carries the olive best (the modifier)
 
-**Order:**
-1. M1 against S first. The only difference is the vermouth against the Manzanilla, so this
-   isolates the reimagining.
-2. The winner against M2 and B.
+| | M1: dry vermouth | S: Manzanilla | M2: no modifier |
+|---|---|---|---|
+| House gin | 30 ml | 30 ml | 30 ml |
+| Modifier | French dry vermouth 15 ml | Manzanilla 15 ml | none |
+| Amaretto | 15 ml | 15 ml | 15 ml |
+| Maraschino | 7.5 ml | 7.5 ml | 7.5 ml |
+| Vanilla syrup | none | none | 2.5 ml |
+| Standard drinks | about 1.68 | about 1.65 | about 1.47 |
 
-**Bring in P** (crème de pêche instead of maraschino) only if you'd rather have peach.
+**Cobber's predictions** (from `score_drink`; the house gin scored as a generic London dry gin):
+- **Aroma harmony:** M1 0.111, S 0.109, M2 0.102. That's within noise, so this round decides.
+- **M1:** "3 citrus sources (gin, dry vermouth, lemon): check it isn't too bright." The vermouth
+  is a third citrus carrier crowding the olive.
+- **S:** the citrus notice goes, and sherry is the olive's strongest partner in the data (0.27,
+  against 0.05 for dry vermouth). Manzanilla is dry, so the sugar and acid stay as in M1, and
+  briny, so it carries the olive in the modifier slot. Cobber warns of three nutty sources
+  (sherry, amaretto, maraschino): taste whether they cover the olive. Caveat: Cobber's sherry is
+  generic and provisional. It doesn't know Manzanilla is dry and briny, so expect M1's sweetness
+  whatever its balance reading says.
+- **M2:** no notices. The nutty note (amaretto, maraschino) is level with the citrus.
 
-**Why S (amplification).** The drink is meant to be nutty, savoury and bright, with the olive
-forward. In M1 the vermouth is a third citrus carrier (after the gin and lemon), so the
-brightness crowds the hero. S puts Manzanilla in the same slot. It is dry, so the sugar and
-acid stay as in M1. It is briny, so it carries the olive in the modifier slot alongside the
-brine (seasoning), the oil (texture) and the garnish (aroma). And its flor almond notes carry
-the nutty side next to the amaretto and maraschino.
+### Round 2: which fruit with the olive (on the round 1 winner)
 
-**Cobber's predictions** (from `score_drink`, 23 October; target `roasted_nutty`, and
-`savoury` for the olive; the house gin scored as a generic London dry gin until its label is
-in):
-- **Aroma harmony:** M1 0.111, S 0.109, M2 0.102, B 0.119. That's within 0.02, so Cobber can't
-  pick a winner on aroma; this tasting decides.
-- **M1:** "3 citrus sources (gin, dry vermouth, lemon): check it isn't too bright." The nutty
-  note (amaretto, maraschino) is outnumbered by the citrus.
-- **S:** the citrus notice goes, with citrus back to gin and lemon. Sherry is the olive's
-  strongest partner in the data (0.27, against 0.05 for dry vermouth), and novelty rises from
-  0.048 to 0.065. A new notice: "3 nutty sources (sherry, amaretto, maraschino)". That's the
-  support note amplified, but taste whether it crowds the olive. Caveat: Cobber's sherry is
-  generic and provisional. It doesn't know Manzanilla is dry and briny, so its balance reading
-  (a little sweeter than M1) is wrong; expect M1's sweetness.
-- **M2:** no notices. The nutty note (amaretto, maraschino) is level with the citrus (gin,
-  lemon).
-- **B:** the nutty note rests on amaretto alone, against two citrus sources. B's score isn't
-  trustworthy yet: Cobber has Bénédictine as vanilla only (provisional).
-- **Olive (all four):** Cobber sees one olive source, because the brine, oil and garnish
-  aren't separate entries yet (step 2 of the scoring upgrade). So its "the olive may not come
-  through" is partly a data gap, and question 3 is the real test.
-- **Strength:** M1 1.68, S 1.65, M2 1.47 and B 1.56 standard drinks (gin at 40%). Sugar and
-  acid predictions come with step 3 of the scoring upgrade.
+If S wins, swap the 7.5 ml of maraschino:
 
-**Results:** to be filled in by Ari.
+| | S (maraschino, cherry) | S-apricot | S-pêche |
+|---|---|---|---|
+| Fruit liqueur, 7.5 ml | maraschino | apricot brandy | crème de pêche |
+| Standard drinks | about 1.65 | about 1.60 | about 1.56 |
 
-| | M1 | S | M2 | B |
-|---|---|---|---|---|
-| Verdict | | | | |
-| Too bright? | | | | |
-| Nutty note level with citrus? | | | | |
-| Olive there? | | | | |
-| Sweet / sour / strong | | | | |
+**Cobber's predictions:**
+- **Harmony:** 0.109, 0.105 and 0.099, a tie. With the Manzanilla in, none of the three gets a
+  notice, because sherry and amaretto keep the nutty side level with the citrus.
+- **Why stone fruit:** cherry, apricot and peach all share the almond-kernel note with
+  amaretto (benzaldehyde), so the fruit and the nut tie together. In S-apricot the olive links
+  to three partners (Manzanilla 0.23, amaretto 0.18, apricot 0.07).
+- **If M2 wins instead,** swapping its maraschino for apricot or peach leaves amaretto alone
+  against the citrus. In that case keep the maraschino.
+
+### Round 3: does Bénédictine lift it (the winner against B)
+
+B: 35 ml house gin, 10 ml amaretto, 7.5 ml Bénédictine, 2.5 ml vanilla syrup, plus the shared
+items with 17.5 ml lemon. About 1.56 standard drinks.
+
+**Cobber's prediction:** none worth trusting yet. Ari's case is that Bénédictine's herbs, honey
+and saffron meet the olive's herbal side. Cobber's olive entry has no green or herbal
+compounds (those belong to the olive oil, which isn't its own entry yet), and the proposed
+Bénédictine bill (`data/backbar_proposal.json`) links to olive only weakly. Cobber can't see
+this bridge, so this round is the palate's call.
+
+### Results (Ari)
+
+| | M1 | S | M2 | S-apricot | S-pêche | B |
+|---|---|---|---|---|---|---|
+| Verdict | | | | | | |
+| Too bright? | | | | | | |
+| Nutty note level with citrus? | | | | | | |
+| Olive there? | | | | | | |
+| Fruit with the olive? | | | | | | |
+| Sweet / sour / strong | | | | | | |
 
 **Menu pick and changes:**
 
-**Next, on the winner (from the house specs):** brine at 5 / 7.5 / 10 ml, then olive oil at
-5 against 10 ml. If the olive still hides, the next amplifier to try is a dash of celery
-bitters (to buy), which carries the savoury note in the bitters slot.
+**Next, on the winner (from the house specs):** brine at 5 / 7.5 / 10 ml (more brine is the
+first lever if the olive or salt still hides), then olive oil at 5 against 10 ml.
