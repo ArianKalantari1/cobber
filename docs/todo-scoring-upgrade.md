@@ -3,8 +3,8 @@
 This refines the list Ari approved on 22 October (commit `3cdd239`). The goals stand: stop
 rewarding redundant overlap, put amounts into the maths, and fill the back bar. What changed
 is *how*. Checked against the data, several parts would not work as written. Items marked
-**(changed)** or **(new)** need Ari's OK; the decisions are listed at the end. Unmarked items
-are as approved.
+**(changed)** or **(new)** differ from the 22 October list; Ari approved them on 23 October
+(the decisions are listed at the end). Unmarked items are as originally approved.
 
 Branch: `claude/eager-turing-giasrj` (it carries the house specs and the prototypes). Follow
 CLAUDE.md: commit and push after each step, and Ari approves all data before it goes in.
@@ -167,8 +167,12 @@ weighting aroma by amount is the right call.
   ABV), then ask the distillery for the botanical bill. The only public listing found for
   Spirits of Newtown (a third-party delivery menu) shows a "Triple Juniper Gin" at 38%, made
   with juniper, coriander and angelica. That doesn't fit "very citrus-forward, little
-  juniper". Until the bill is in, model the gin from Ari's description as a PROVISIONAL
-  `house_gin` composite.
+  juniper".
+
+  **Interim (Ari, 23 October):** until the label arrives, the house gin is Cobber's generic
+  London dry `gin` at 40%. It already carries lemon, so it counts as a citrus source, and it
+  sits between Ari's description and the listing without inventing a bill. Add a proper
+  `house_gin` composite once the label and bill are in.
 
   *Why:* step 1's stacking test and step 3's strength test need it. At 38% rather than 40%,
   Olivia B is 1.51 standard drinks, not 1.56.
@@ -308,14 +312,19 @@ weighting aroma by amount is the right call.
   a single classic link like gin + lemon (limonene is everywhere), which goes against "one
   citrus link does a real job". Revisit it with the regression panel.
 
-## Decisions for Ari
-1. Redundancy earns no credit and raises a notice, but is never blocked (the approved plan
-   blocked it).
-2. Per-compound diminishing returns instead of a citrus list.
-3. "Same aroma" at 90%, so lemon and lime stay different.
-4. "Too bright" and the target note as source counts from the curated descriptors, shown as a
-   notice.
-5. Fix Bénédictine (and the other entries that are identical by accident) before trusting
-   B's score. B joins the tasting rather than leading.
-6. Confirm the house gin bottle (label photo) and its ABV.
-7. Start the tasting log now, with M1 against M2 (and B).
+## Decisions (Ari, 23 October 2026)
+1. **Approved.** Redundancy earns no credit and raises a notice, but is never blocked (the
+   22 October plan blocked it).
+2. **Approved.** Per-compound diminishing returns instead of a citrus list, starting at ½.
+3. **Approved.** "Same aroma" at 90%, so lemon and lime stay different. Orange with triple
+   sec counts as one orange note, reinforced.
+4. **Approved.** "Too bright" and the target note as source counts from the curated
+   descriptors, shown as a notice, triggered at 3 sources. Taste words (sweet, sour, bitter,
+   salty, umami) don't count as aroma sources. Still open: the word-list proposal, including
+   where "smoke", "warm" and "cane" go.
+5. **Approved.** Fix Bénédictine (and the other entries that are identical by accident)
+   before trusting B's score. B joins the tasting rather than leading. Bénédictine gets a
+   provisional bill from what the producer discloses.
+6. **Pending.** Ari sends the gin label once back at work. Until then the house gin is the
+   generic London dry `gin` at 40% (see step 2).
+7. **Approved.** The tasting log starts now (`docs/tasting-log.md`), with M1 against M2 and B.

@@ -9,8 +9,9 @@ first for the project's thinking; this file is "where we are and what's next".*
 ## NEXT: scoring upgrade, reviewed and refined (23 October 2026)
 
 - **Start with `docs/todo-scoring-upgrade.md`.** The list Ari approved on 22 October was
-  checked against the data and refined. Its "Decisions for Ari" section needs Ari's OK before
-  step 1 starts.
+  checked against the data and refined, and Ari approved the refinements on 23 October. The
+  gin label is still to come; until then the house gin is the generic London dry `gin` at
+  40%. The tasting log is `docs/tasting-log.md`.
 - **What the review found:**
   - Olivia B's 0.149 is mostly a duplicate: Bénédictine is modelled as vanilla alone.
   - As hard blocks, the redundancy rules would forbid 41% of IBA classics.
