@@ -16,6 +16,8 @@ why the public signatures take plain ids rather than a pantry argument.
 from __future__ import annotations
 
 import math
+from collections import Counter
+from functools import lru_cache
 from itertools import combinations
 
 from . import data
@@ -808,16 +810,143 @@ def _native_swap_for(anchors: list[str]) -> dict | None:
     return best
 
 
-def _score_combination(ingredient_ids: list[str]) -> dict[str, float]:
-    """Return the mean pairwise harmony and novelty for a combination."""
-    harmonies = []
-    novelties = []
-    for a, b in combinations(ingredient_ids, 2):
-        harmonies.append(harmony(a, b)[0])
-        novelties.append(novelty(a, b))
+# ---------------------------------------------------------------------------
+# Drink-level harmony: aroma voices and diminishing returns
+# ---------------------------------------------------------------------------
+
+# Two ingredients whose compound profiles overlap at least this much carry the
+# same aroma and count as one voice. 0.9 sits in a gap in the data: every exact
+# copy, and orange with triple sec (0.909), sit above it; coffee liqueur with
+# Irish cream (0.867) and lemon with lime (0.818) sit below. Approved by Ari,
+# 23 October 2026.
+SAME_VOICE_JACCARD = 0.9
+
+# Roles of ingredients that go in for their smell. One of these on the bill of a
+# composite already in the drink (coriander seed with gin) repeats that
+# composite's aroma. Juice, fruit and syrup on a bill (lemon with gin) still
+# bridge: they go in for structure as much as for smell.
+AROMA_ROLES = frozenset({"aromatic", "herb", "bitter"})
+
+# Inside one drink, the first pair of voices to share a compound gets full
+# credit for it, and each further voice carrying it adds this fraction of the
+# previous one's credit (1, 1/2, 1/4, ...). Averaging over pairs without this
+# counts a compound shared by k voices k(k-1)/2 times, which is what rewarded
+# citrus stacked on citrus. Pair scores are unaffected.
+REPEAT_DECAY = 0.5
+
+
+@lru_cache(maxsize=None)
+def _same_voice_sorted(a: str, b: str) -> str | None:
+    """same_voice for an id pair in sorted order (cached: the pantry is static)."""
+    if PANTRY.get(a) is None or PANTRY.get(b) is None:
+        return None
+    if harmony(a, b)[0] >= SAME_VOICE_JACCARD:
+        return f"{a} and {b} have the same aroma profile"
+    for composite_id, botanical_id in ((a, b), (b, a)):
+        composite, botanical = PANTRY.get(composite_id), PANTRY.get(botanical_id)
+        if botanical_id in composite.botanicals and botanical.role in AROMA_ROLES:
+            return f"{botanical_id} is already on {composite_id}'s bill"
+    return None
+
+
+def same_voice(a: str, b: str) -> str | None:
+    """Return why two ingredients count as one aroma voice, or ``None``.
+
+    Two cases: their profiles are near-identical (amaretto and almond), or one is
+    an aroma ingredient already on the other's botanical bill (coriander seed
+    with gin). Same-voice ingredients reinforce one note instead of bridging two,
+    so they earn no bridge credit between them. Nothing is ever blocked for it.
+    """
+    if a == b:
+        return None
+    return _same_voice_sorted(*sorted((a, b)))
+
+
+def voices(ingredient_ids: list[str]) -> tuple[list[dict], list[str]]:
+    """Group a drink's ingredients into aroma voices.
+
+    Returns ``(voices, structure_only)``. Each voice is
+    ``{"ingredients": [...], "compounds": set, "reasons": [...]}``; an ingredient
+    joins the first voice it shares a voice with, in the order given, and
+    ``reasons`` says why each joined. ``structure_only`` lists known ingredients
+    with no aroma profile (sugar syrup, salt, soda, egg white): they shape
+    balance, not harmony. Unknown ids are skipped.
+    """
+    drink_voices: list[dict] = []
+    structure_only: list[str] = []
+    for ingredient_id in dict.fromkeys(ingredient_ids):
+        if PANTRY.get(ingredient_id) is None:
+            continue
+        compounds = profile(ingredient_id)
+        if not compounds:
+            structure_only.append(ingredient_id)
+            continue
+        for voice in drink_voices:
+            reason = next(
+                (r for member in voice["ingredients"] if (r := same_voice(ingredient_id, member))),
+                None,
+            )
+            if reason is not None:
+                voice["ingredients"].append(ingredient_id)
+                voice["compounds"] |= compounds
+                voice["reasons"].append(reason)
+                break
+        else:
+            drink_voices.append({"ingredients": [ingredient_id], "compounds": compounds, "reasons": []})
+    return drink_voices, structure_only
+
+
+def _score_voices(drink_voices: list[dict]) -> dict:
+    """Score every pair of voices, with repeated compounds counted on a decay.
+
+    Each compound's credit is ``1 + REPEAT_DECAY + REPEAT_DECAY**2 + ...`` (one
+    term per voice carrying it beyond the first), spread evenly over the pairs
+    that share it. A pair's harmony is its shared credit over the size of its
+    union, so a two-voice drink scores exactly its Jaccard. A pair's novelty
+    discounts that by the most traditional link between the two voices.
+
+    Returns ``{"harmony", "novelty", "pairs": [...], "repeated": {compound:
+    carriers}}``; ``repeated`` lists compounds carried by three or more voices,
+    the ones whose credit was decayed.
+    """
+    carriers = Counter(c for voice in drink_voices for c in voice["compounds"])
+    weights = {
+        c: sum(REPEAT_DECAY**j for j in range(k - 1)) / math.comb(k, 2)
+        for c, k in carriers.items()
+        if k >= 2
+    }
+    pairs: list[dict] = []
+    for a, b in combinations(drink_voices, 2):
+        shared = a["compounds"] & b["compounds"]
+        value = sum(weights[c] for c in shared) / len(a["compounds"] | b["compounds"])
+        classic = max(tradition(x, y) for x in a["ingredients"] for y in b["ingredients"])
+        pairs.append(
+            {
+                "voices": (a["ingredients"], b["ingredients"]),
+                "harmony": value,
+                "novelty": value * (1.0 - classic),
+                "shared": shared,
+            }
+        )
     return {
-        "harmony": round(_mean(harmonies), 4),
-        "novelty": round(_mean(novelties), 4),
+        "harmony": _mean([p["harmony"] for p in pairs]),
+        "novelty": _mean([p["novelty"] for p in pairs]),
+        "pairs": pairs,
+        "repeated": {c: k for c, k in carriers.items() if k >= 3},
+    }
+
+
+def _score_combination(ingredient_ids: list[str]) -> dict[str, float]:
+    """Return a drink's harmony and novelty, counted over its aroma voices.
+
+    Structure-only ingredients are left out, same-voice ingredients count once,
+    and compounds repeated across voices count with diminishing returns (see
+    :func:`_score_voices`). A drink with fewer than two voices scores 0.
+    """
+    scored = _score_voices(voices(ingredient_ids)[0])
+    return {
+        "harmony": round(scored["harmony"], 4),
+        "novelty": round(scored["novelty"], 4),
     }
 
 
