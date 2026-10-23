@@ -289,6 +289,23 @@ in 2.5 ml steps: 7.5 ml gives about 10.9 g sugar per 100 ml. The sugar
 figures for Floc (about 15 g/100 ml), apricot liqueur (about 28 g/100 ml) and
 the purée (about 16 g/100 ml) are estimates, so check the bottle labels.
 
+### Checked 23 October (Ari asked: is it balanced?)
+
+- **Balance holds on paper.** A drink is about 12 g of sugar against 1.5 g of acid (about 8:1),
+  roughly 9 g of sugar per 100 ml and 1.1% acid, at 1.5 standard drinks. That's margarita
+  territory, a little drier than a Tommy's. Set the lime by taste for each new can of apricots.
+- **Two notes are stacked on purpose,** each across different parts of the drink, so neither
+  costs balance. Agave is in the base, the mezcal and the sweetener, as in a Tommy's. Apricot is
+  in the purée and the liqueur, with the Floc's stone fruit behind them.
+- **The menu says "Spicy", but nothing in this spec is hot.** Either add Tajín to the outside of
+  half the rim, as in the C'est Chamoy R&D (chilli warmth and salt, which a margarita wants, and
+  the guest chooses each sip), or add one dash of fire bitters, or take "Spicy" off the line.
+- **Cobber's reading:** harmony 0.038, low because Cobber has tequila, mezcal and agave as one
+  entry (mezcal's smoke isn't modelled) and has no Floc. With a rough stand-in for the Floc
+  (grape and brandy) it rises to 0.092, and the Floc becomes the bridge to the apricot, which
+  backs keeping it at 13 ml. The pairings are familiar ones (tradition: tequila and apricot 0.26,
+  apricot and lime 0.60), which makes it an easy sell.
+
 ---
 
 ## Pisco Ma Chérie (spec as supplied by Ari)
