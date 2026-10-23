@@ -189,7 +189,8 @@ standard drinks at about 10% ABV.
 
 This adds to the first-tasting checks in the prep spec.
 - **Make a half shrub with white sugar only,** on the same day as the main one: 500 g frozen
-  strawberries, 300 g white sugar and 1.5 g cracked pepper for 24 hours. Then add 60 ml Moro
+  strawberries, 300 g white sugar and 1.5 g cracked pepper in a tea bag for 24 hours. Lift the
+  bag out, strain, then add 60 ml Moro
   vinegar, 9 g citric, 3 g malic and 0.75 g salt. Rest both shrubs 2 days.
 - **Glass A:** today's spec. **Glass B:** the same, with the white-sugar shrub. For a single
   serve, mix 41 ml pisco, 18 ml Elegante Medium and 31 ml shrub (one 90 ml pour of batch), chill
@@ -214,6 +215,7 @@ they'll notice. The batch and the strength stay as they are.
 |---|---|---|---|
 | Shrub sugar | 400 g white and 200 g demerara | 600 g white | Strawberry first and a redder glass. The Medium and the Moro still give the toffee underneath. |
 | Strawberry gum (if glass C wins) | none | 1 g in the maceration | Strawberry on the nose. Cleared by Ari: the "no herby flavours" rule is Ari's own. |
+| Pepper in the maceration | 3 g cracked, loose | the same 3 g in a tea bag or muslin, lifted out before straining | No pepper bits slip through into the shrub. In the batch the alcohol would keep pulling heat out of them, so the rail bottle would get hotter over its 2 weeks. It also leaves the fruit clean for the kitchen. |
 | Rail bottle | room temperature | kept cold (under-bench fridge or the ice well) | A cold batch melts about 4 g of ice instead of 21 g. That makes room for 90 ml of soda instead of 75: more fizz in the same drink. Cold also keeps the colour and fresh aroma longer. |
 | Soda | 75 ml | 90 ml | As above. |
 | Batch, glass, garnish | 320 ml pisco, 140 ml Medium, 240 ml shrub; highball full of cubes; dehydrated orange wheel and a pepper twist | unchanged | |
@@ -241,12 +243,15 @@ Neither:
 - **Fruit in the glass:** the strained berries come out pale and soft, sink, cloud the bottom and
   block the straw. They keep only a few days unless cooked or frozen, and they add a step to every
   drink.
-- **If the pulp shouldn't go to waste:** steep it in the batch's pisco (1.28 L per shrub batch)
-  for 24 hours in the fridge, then strain through a fine sieve and a coffee filter. That puts
-  strawberry in the spirit as well. Bag the 3 g of cracked pepper (tea bag or muslin) in the
-  maceration so it comes out clean: alcohol pulls far more heat from pepper than syrup does. The
-  pulp carries some syrup across, about 2 g of sugar a drink, so taste the first batch. Optional:
-  the drink doesn't need it.
+- **The leftover fruit goes to the kitchen** (Ari's plan, 23 October). It's already sweet, so it
+  needs no more sugar: a few minutes in a pan with a squeeze of lemon makes a strawberry jam or
+  compote (fridge, in a clean jar) for toast, cheese or desserts. Add fresh-cracked pepper to
+  taste if you want strawberry and black pepper jam; with the pepper bagged, the fruit starts
+  clean.
+- **Or steep it in the pisco:** 24 hours in the fridge in the batch's pisco (1.28 L per shrub
+  batch), then strain through a fine sieve and a coffee filter. That puts strawberry in the spirit
+  as well. The pulp carries some syrup across, about 2 g of sugar a drink, so taste the first
+  batch. Optional: the drink doesn't need it.
 
 A picture of the three builds: [Pisco Ma Chérie in the Glass](https://claude.ai/artifact/4hDK34xsSmYb4okDtBcYKP)
 (private to Ari until shared).
