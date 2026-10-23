@@ -231,6 +231,26 @@ that's the Mando Raspberry Fizz.
 **Taste it as:** glass B in Session 2 of the tasting log. Pour every glass in that session from a
 cold batch with 90 ml soda, so the glasses differ only in the shrub.
 
+**The shrub stays strained, with no fruit in the glass (decided for Ari, 23 October).** Ari
+asked whether to blend the strawberries into the shrub, or keep the macerated fruit in the glass.
+Neither:
+- **Blended shrub:** opaque and pink, so it hides the ice and the bubbles. The pulp makes the soda
+  foam on the pour and go flat sooner, it settles in the rail bottle, and it keeps about 2 weeks
+  rather than 3–4 (blending whips in air that browns strawberry). The blitz was dropped on
+  22 October for the same reasons.
+- **Fruit in the glass:** the strained berries come out pale and soft, sink, cloud the bottom and
+  block the straw. They keep only a few days unless cooked or frozen, and they add a step to every
+  drink.
+- **If the pulp shouldn't go to waste:** steep it in the batch's pisco (1.28 L per shrub batch)
+  for 24 hours in the fridge, then strain through a fine sieve and a coffee filter. That puts
+  strawberry in the spirit as well. Bag the 3 g of cracked pepper (tea bag or muslin) in the
+  maceration so it comes out clean: alcohol pulls far more heat from pepper than syrup does. The
+  pulp carries some syrup across, about 2 g of sugar a drink, so taste the first batch. Optional:
+  the drink doesn't need it.
+
+A picture of the three builds: [Pisco Ma Chérie in the Glass](https://claude.ai/artifact/4hDK34xsSmYb4okDtBcYKP)
+(private to Ari until shared).
+
 ## 8. Pisco with medium sherry elsewhere (web search, 23 October)
 
 Ari asked for drinks that pair pisco with a medium sherry. Few do; these are the closest,
