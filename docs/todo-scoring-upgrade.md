@@ -34,7 +34,8 @@ dilution, the EU sugar minimums) are sourced where they appear.
 5. **Most duplicates are a data-model problem.** 37 composites are a single botanical. Some
    are fair (limoncello = lemon, amaretto = almond). Others are wrong: white rum, Scotch,
    Irish whiskey, crème de cacao and Bénédictine are all `[vanilla]`, so to Cobber they are
-   one and the same.
+   one and the same. A few fuller entries are identical by accident too: Amaro Montenegro
+   has exactly Aperol's bill.
 6. **The olive–amaretto bridge rests on two compounds,** cinnamaldehyde and menthone, in a
    provisional olive profile. Olive isn't on the research list, though the whole Olivia
    direction depends on it.
@@ -171,13 +172,19 @@ weighting aroma by amount is the right call.
 
   *Why:* step 1's stacking test and step 3's strength test need it. At 38% rather than 40%,
   Olivia B is 1.51 standard drinks, not 1.56.
-- [ ] **Fix the wrong single-botanical composites, Bénédictine first (new).** These are:
+- [ ] **Fix the entries that are identical by accident, Bénédictine first (new).** These are:
   - Bénédictine, white rum, Scotch, Irish whiskey and crème de cacao (all `[vanilla]`);
   - Cynar (`[gentian]`) and sloe gin (`[juniper]`);
   - pisco and sherry (`[grape]`);
-  - mezcal (`[agave]`, with no smoke).
+  - mezcal (`[agave]`, with no smoke);
+  - Amaro Montenegro, which has exactly Aperol's bill (bitter orange peel, gentian, orange);
+  - dark rum, which has exactly spiced rum's bill (vanilla, clove, cinnamon);
+  - demerara, maple syrup and brown sugar (each is sotolon alone);
+  - lemon aspen and lemon myrtle (the same compound list; both natives are still to be
+    verified).
 
-  Leave the fair ones as they are (limoncello, amaretto, crème de cassis and so on).
+  Leave the fair ones as they are (limoncello, amaretto, crème de cassis, and Cointreau =
+  triple sec = blue curaçao).
 
   *Why:* with the same-voice rule, these would quietly merge into "vanilla", and Scotch +
   Bénédictine (the Bobby Burns) would get no credit. Olivia B's lead came from exactly this.
@@ -308,7 +315,7 @@ weighting aroma by amount is the right call.
 3. "Same aroma" at 90%, so lemon and lime stay different.
 4. "Too bright" and the target note as source counts from the curated descriptors, shown as a
    notice.
-5. Fix Bénédictine (and the other `[vanilla]` spirits) before trusting B's score. B joins the
-   tasting rather than leading.
+5. Fix Bénédictine (and the other entries that are identical by accident) before trusting
+   B's score. B joins the tasting rather than leading.
 6. Confirm the house gin bottle (label photo) and its ABV.
 7. Start the tasting log now, with M1 against M2 (and B).

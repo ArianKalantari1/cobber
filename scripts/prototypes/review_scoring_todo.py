@@ -186,6 +186,9 @@ if __name__ == "__main__":
     single = sorted(i for i, ing in P.ingredients.items() if len(ing.botanicals) == 1)
     vanillas = [i for i in single if P.get(i).botanicals == ("vanilla",)]
     print(f"  {len(single)} composites are a single botanical; modelled as [vanilla]: {', '.join(vanillas)}")
+    twins = [(x, y) for x, y in combinations(P.all_ids(), 2)
+             if prof(x) and prof(x) == prof(y) and len(entry(x).botanicals) != 1 and len(entry(y).botanicals) != 1]
+    print(f"  identical without being a single botanical: {twins}")
     pairs = sorted(((jac(prof(x), prof(y)), x, y) for x, y in combinations([i for i in P.all_ids() if prof(i)], 2)), reverse=True)
     near = [(round(j, 3), x, y) for j, x, y in pairs if 0.8 <= j < 1.0]
     print(f"  pairs between 0.8 and 1.0 (the gap sits between 0.909 and 0.867): {near}")
