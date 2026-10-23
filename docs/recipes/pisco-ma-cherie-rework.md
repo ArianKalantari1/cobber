@@ -164,6 +164,14 @@ Untested.
 - **Pink peppercorn:** Cobber's entry hasn't been re-sourced, so it can't be compared fairly. It
   does have strawberry precedents (Aster's METEOR in Sydney, and Ari's own strawberry and pink
   peppercorn sour), but black pepper is on the menu line.
+- **Strawberry teas** (Ari asked, 23 October): skip them.
+  - T2 Strawberries & Cream is mostly apple, hibiscus and rosehip, with about 5% strawberry
+    granules and yoghurt pieces. Apple is an owner overlap, and the yoghurt would add milk to the
+    allergens.
+  - Dilmah Strawberry is black tea with strawberry flavouring. It would brown the red and add
+    tannin.
+  - The shrub already has a kilo of real strawberries. For more strawberry use strawberry gum or
+    freeze-dried strawberry; for more colour, a pinch of dried hibiscus in the maceration.
 
 **Balance:** options 1 to 4 don't change the sugar, acid or strength. A drink is about 17 g of
 sugar and 1.1 g of acid (the vinegar's acetic acid tastes sharper than its grams suggest), 1.54
