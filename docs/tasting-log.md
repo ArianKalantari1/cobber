@@ -55,7 +55,21 @@ green olive on a pick and one pump of olive oil mist.
 
 **Bring in P** (crème de pêche instead of maraschino) only if you'd rather have peach.
 
-**Cobber's predictions:** to be filled in from `score_drink` before the tasting.
+**Cobber's predictions** (from `score_drink` with target `roasted_nutty`, 23 October; the house
+gin scored as a generic London dry gin until its label is in):
+- **Aroma harmony:** M1 0.111, M2 0.102, B 0.119. That's within 0.02, so Cobber can't pick a
+  winner on aroma; this tasting decides.
+- **M1:** "3 citrus sources (gin, dry vermouth, lemon): check it isn't too bright." The nutty
+  note (amaretto, maraschino) is outnumbered by the citrus.
+- **M2:** no notices. The nutty note (amaretto, maraschino) is level with the citrus (gin,
+  lemon).
+- **B:** the nutty note rests on amaretto alone, against two citrus sources. B's score isn't
+  trustworthy yet: Cobber has Bénédictine as vanilla only (provisional).
+- **Olive (all three):** olive links only to amaretto, through two compounds in an unverified
+  profile. If the olive comes through, the brine and oil are doing it, not a chemistry
+  bridge.
+- **Strength:** M1 1.68, M2 1.47 and B 1.56 standard drinks (gin at 40%). Sugar and acid
+  predictions come with step 3 of the scoring upgrade.
 
 **Results:** to be filled in by Ari.
 
