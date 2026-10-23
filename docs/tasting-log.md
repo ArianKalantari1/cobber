@@ -58,6 +58,29 @@ against two citrus (gin, lemon). For reference, the owner's original (45 regular
 amaretto, 7.5 honey syrup, 10 lemon, 7.5 olive oil, foamer, basil leaf) scores 0.075: it is
 shorter and lighter, and the basil links only weakly to the rest.
 
+### Ari's version (tasting 23 October)
+
+40 ml house gin, 15 ml Manzanilla, 7.5 ml amaretto, 7.5 ml pear liqueur, 20 ml lemon, 7.5 ml
+green olive brine, 7.5 ml extra-virgin olive oil and foamer. It's S-pear (round 2) with more gin
+and half the amaretto. About 1.75 standard drinks, taking the pear liqueur as 25%.
+
+**Cobber's prediction:** harmony 0.101 and novelty 0.068, with no notices. These are S-pear's
+scores, because the bottles are the same and Cobber doesn't weigh doses yet (step 3 of the scoring
+upgrade). Nutty has two sources (Manzanilla, amaretto), level with the two citrus (gin, lemon).
+
+**Balance (arithmetic, not Cobber):**
+- **Sugar:** about 4 g, from the amaretto and pear liqueur at about 0.25 g/ml each. The Manzanilla
+  is dry.
+- **Acid:** about 1.2 g, from the lemon.
+- **Ratio:** about 3:1, against about 8:1 in today's spec (15 ml honey syrup plus the amaretto,
+  about 10 g of sugar). Expect it much tarter and drier than today's.
+
+If it's too tart, try these in order:
+1. **7.5 ml honey syrup.** It's on the bar today and keeps the menu's honey. That makes about 8 g of
+   sugar, around 7:1.
+2. **7.5 ml house pear syrup,** once it's made. Same sweetness, with more pear.
+3. **15 ml lemon,** if you'd rather keep it dry.
+
 ### Round 1: what carries the olive best (the modifier)
 
 | | M1: dry vermouth | S: Manzanilla | M2: no modifier |
@@ -132,14 +155,14 @@ this bridge, so this round is the palate's call.
 
 ### Results (Ari)
 
-| | Today's | M1 | S | M2 | S-pear | B |
-|---|---|---|---|---|---|---|
-| Verdict | | | | | | |
-| Too bright? | | | | | | |
-| Nutty note level with citrus? | | | | | | |
-| Olive there? | | | | | | |
-| Fruit with the olive? | | | | | | |
-| Sweet / sour / strong | | | | | | |
+| | Today's | Ari's | M1 | S | M2 | S-pear | B |
+|---|---|---|---|---|---|---|---|
+| Verdict | | | | | | | |
+| Too bright? | | | | | | | |
+| Nutty note level with citrus? | | | | | | | |
+| Olive there? | | | | | | | |
+| Fruit with the olive? | | | | | | | |
+| Sweet / sour / strong | | | | | | | |
 
 **Menu pick and changes:**
 
