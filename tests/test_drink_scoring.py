@@ -243,6 +243,23 @@ def test_score_drink_lists_decayed_repeats_and_provisional_data():
     assert set(m1["repeated"]["limonene"]) == {"gin", "dry_vermouth", "lemon"}
 
 
+@pytest.mark.parametrize(
+    "ingredients, expected",
+    [
+        (["gin", "amaretto", "honey", "lemon", "olive"], 0.1014),  # restaurant, as on the menu
+        (OLIVIA["M1"], 0.1110),
+        (OLIVIA["M2"], 0.1015),
+        (["gin", "amaretto", "peach_schnapps", "vanilla", "lemon", "olive"], 0.0986),  # P
+        (OLIVIA["B"], 0.1191),
+    ],
+)
+def test_olivia_snapshots(ingredients, expected):
+    """Regression snapshots, not targets: the versions sit within 0.02 of each other,
+    so the tasting decides between them. The house gin is the generic London dry
+    gin until its label is in; B moves once Benedictine's bill is fixed."""
+    assert engine.score_drink(ingredients)["harmony"] == pytest.approx(expected, abs=5e-4)
+
+
 def test_two_ingredient_score_drink_matches_score_pairing():
     assert engine.score_drink(["gin", "lemon"])["harmony"] == round(engine.harmony("gin", "lemon")[0], 4)
     assert engine.score_drink(["gin", "lemon"])["novelty"] == round(engine.novelty("gin", "lemon"), 4)
