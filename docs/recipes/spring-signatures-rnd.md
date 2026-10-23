@@ -9,7 +9,8 @@ House rules these follow:
 - Every prep keeps about a month (freezing half is fine).
 - Service is batch plus at most 2 fresh items.
 - All batches are for 700 ml rail bottles.
-- No herby or medicinal flavours, nothing Thai, no saffron.
+- No herby or medicinal flavours, nothing Thai, no saffron. The herby rule is Ari's own, not the
+  owner's, and Ari is fine to break it where an ingredient earns its place (23 October).
 - No owner overlaps: vanilla (already in the Pop Star, Apple Pie Spritz and Sangria Branco),
   pineapple, peach, apple, honey, elderflower, Chartreuse, egg-white sours, Prosecco spritzes,
   Old Fashioned formats, lychee martinis. Passionfruit is approved for La Pasión only.

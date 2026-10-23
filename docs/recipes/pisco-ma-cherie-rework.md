@@ -136,7 +136,7 @@ dried fruit, not fresh fruit.
 | # | Change | Cobber (sourced data) | Balance | Why, and the catch |
 |---|---|---|---|---|
 | 1 | Shrub with 600 g white sugar and no demerara | 0.047 to 0.060, and the crowding notice goes | Same sugar | Puts the caramel back under the fruit. The red stays redder, and it's one less stock item. Catch: less molasses, so check that the Medium and the Moro still give the toffee finish. |
-| 2 | Strawberry gum in the maceration, next to the pepper | 0.047 to 0.048, and fruity goes to 3 sources | No change: it's a dried leaf | Carries the hero in a second part of the drink. Strawberry gum shares five compounds with strawberry (0.50, Cobber's closest match to strawberry), and it also links to the pisco (0.20) and the Medium (0.14). Harmony doesn't reward an ingredient that repeats a note, so the number stays flat; that's the case step 1b is for. Catch: it's a eucalyptus leaf, so the owner's "no herby flavours" rule needs a nod (it smells of strawberry and cinnamon, not menthol), and Cobber's entry for it is provisional. |
+| 2 | Strawberry gum in the maceration, next to the pepper | 0.047 to 0.048, and fruity goes to 3 sources | No change: it's a dried leaf | Carries the hero in a second part of the drink. Strawberry gum shares five compounds with strawberry (0.50, Cobber's closest match to strawberry), and it also links to the pisco (0.20) and the Medium (0.14). Harmony doesn't reward an ingredient that repeats a note, so the number stays flat; that's the case step 1b is for. It's a eucalyptus leaf, but it smells of strawberry and cinnamon, not menthol. The "no herby flavours" rule is Ari's own, and Ari is fine to break it (23 October). Catch: Cobber's entry for it is provisional. |
 | 3 | Both 1 and 2 | 0.059: fruity 3 sources, caramel 2 | Same sugar | The strawberry-forward version. |
 | 4 | Cacao nib pisco (10 g per 700 ml, 24 hours, from the R&D notes) | 0.044. It has the strongest links of any addition: Medium 0.21, strawberry 0.14 (through furaneol, strawberry's own caramel note), pepper 0.13 | No change | Only if the cocoa is shy once 1 is settled. It deepens the malty-cocoa thread rather than adding a new one, which is why harmony dips. Buy nibs without a "may contain nuts" warning, because the drink is sold as nut-free. |
 
@@ -213,7 +213,7 @@ they'll notice. The batch and the strength stay as they are.
 | | Today's spec | R1 | Why it sells |
 |---|---|---|---|
 | Shrub sugar | 400 g white and 200 g demerara | 600 g white | Strawberry first and a redder glass. The Medium and the Moro still give the toffee underneath. |
-| Strawberry gum (optional) | none | 1 g in the maceration | Strawberry on the nose. Needs the owner's nod. |
+| Strawberry gum (if glass C wins) | none | 1 g in the maceration | Strawberry on the nose. Cleared by Ari: the "no herby flavours" rule is Ari's own. |
 | Rail bottle | room temperature | kept cold (under-bench fridge or the ice well) | A cold batch melts about 4 g of ice instead of 21 g. That makes room for 90 ml of soda instead of 75: more fizz in the same drink. Cold also keeps the colour and fresh aroma longer. |
 | Soda | 75 ml | 90 ml | As above. |
 | Batch, glass, garnish | 320 ml pisco, 140 ml Medium, 240 ml shrub; highball full of cubes; dehydrated orange wheel and a pepper twist | unchanged | |
