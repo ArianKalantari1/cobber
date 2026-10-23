@@ -6,12 +6,29 @@ notes + a self-contained HTML visualiser — on branch
 Supersedes the original Copilot handoff. Read `docs/cobber-design-notes.md`
 first for the project's thinking; this file is "where we are and what's next".*
 
-## NEXT: scoring upgrade, reviewed and refined (23 October 2026)
+## NEXT: scoring upgrade, steps 0 and 1 built (23 October 2026)
 
 - **Start with `docs/todo-scoring-upgrade.md`.** The list Ari approved on 22 October was
   checked against the data and refined, and Ari approved the refinements on 23 October. The
   gin label is still to come; until then the house gin is the generic London dry `gin` at
   40%. The tasting log is `docs/tasting-log.md`.
+- **Built (steps 0 and 1):**
+  - `mcp` pinned below 2;
+  - the regression panel `scripts/eval_scoring.py`, with its pre-change baseline;
+  - drink harmony counted by aroma voice, with repeats on a decay;
+  - `build_around` offers only new voices and takes identity guards (`locked`, `exclude`,
+    `max_spirits`, `max_additions`);
+  - stacking and target-note notices, and a `score_drink` tool.
+
+  The tests went from 68 to 110.
+- **Waiting on Ari:**
+  - a look at the panel's movers (`python3 scripts/eval_scoring.py`);
+  - the word list in `data/descriptor_words_proposal.json`;
+  - the M1/M2/B tasting (Cobber's predictions are already in the tasting log);
+  - the gin label;
+  - the suggested task on the 22 entries whose "TODO: verify" sits only in `source`.
+
+  Then step 2, the data proposals.
 - **What the review found:**
   - Olivia B's 0.149 is mostly a duplicate: Bénédictine is modelled as vanilla alone.
   - As hard blocks, the redundancy rules would forbid 41% of IBA classics.

@@ -57,12 +57,12 @@ assumptions (1.56). The research counts (Licor 43: 77, yuzu: 47 and so on) are a
 weighting aroma by amount is the right call.
 
 ## 0. Before changing any scoring (new)
-- [ ] **Pin `mcp>=1,<2`** in `pyproject.toml`. Migrating to mcp 2's `MCPServer` is its own
+- [x] **Pin `mcp>=1,<2`** in `pyproject.toml`. Migrating to mcp 2's `MCPServer` is its own
   task.
 
   *Why:* a fresh `pip install -e .` gets mcp 2.x, and `tests/test_server.py` fails to import.
   Step 1 adds a server tool, which couldn't be tested.
-- [ ] **Regression panel** (`scripts/eval_scoring.py`). It covers the Olivia versions, all 75
+- [x] **Regression panel** (`scripts/eval_scoring.py`). It covers the Olivia versions, all 75
   IBA drinks (score and rank), and a list of known pairs: duplicates such as amaretto/almond
   and limoncello/lemon, distinct pairs such as lemon/lime and gin/lemon. Commit the baseline
   output, and rerun it after each rule.
@@ -72,13 +72,15 @@ weighting aroma by amount is the right call.
   design notes already ask for this ("eval harness", §8).
 
 ## 1. Fix the counting (engine)
-- [ ] **Structure items aren't scored for aroma (new).** Ingredients with no aroma profile
+
+Built on 23 October, along with step 0: see the status note under "Done when".
+- [x] **Structure items aren't scored for aroma (new).** Ingredients with no aroma profile
   (sugar syrup, salt, soda, egg white, foamer, vodka) are left out of harmony. They still
   count in balance.
 
   *Why:* today each one adds pairs that score 0 and drag the average down, so a Gin Fizz
   scores 0.09 instead of 0.56. It was rule 4 in the prototype and got lost in the to-do.
-- [ ] **Diminishing returns per compound, not a citrus list (changed).** Inside a drink, the
+- [x] **Diminishing returns per compound, not a citrus list (changed).** Inside a drink, the
   first pair that shares a compound counts in full. Each further ingredient carrying the same
   compound adds half as much as the one before. Pair scores don't change.
 
@@ -88,7 +90,7 @@ weighting aroma by amount is the right call.
   Italicus or the house gin would make one stale). It also stops vanilla-on-vanilla and
   almond-on-almond stacks. Checked: gin + lemon stays at 0.556, gin + lemon + lime falls from
   0.62 to 0.32, and the IBA ordering mostly holds (rank correlation 0.76).
-- [ ] **Same voice, not a block (changed).** Two ingredients count as one voice, with no
+- [x] **Same voice, not a block (changed).** Two ingredients count as one voice, with no
   bridge credit between them, when either:
   - their profiles are at least 90% the same; or
   - one is an aroma botanical (aromatic, herb or bitter role) already on the bill of a
@@ -102,13 +104,13 @@ weighting aroma by amount is the right call.
   gin" without killing gin + lemon (282 canon drinks). Reinforcing a note is a real technique
   (coffee liqueur with espresso; triple sec with orange, in 93 canon drinks), so it gets no
   credit rather than a ban.
-- [ ] **Suggestions only offer new voices (new).** In `build_around`, a candidate that would
+- [x] **Suggestions only offer new voices (new).** In `build_around`, a candidate that would
   merge into a voice already in the drink isn't offered as a new idea.
 
   *Why:* an average can't penalise a pure copy, so without this limoncello still ranks first
   as an addition to the Olivia core. With it, limoncello and almond drop out and honey stays
   in (checked).
-- [ ] **Identity guards on `build_around` and `suggest_from_pantry` (changed).** Add:
+- [x] **Identity guards on `build_around` and `suggest_from_pantry` (changed).** Add:
   - `locked`: must-keep items, any number (anchors stay at 2–3);
   - `exclude`: ids never to add;
   - `max_spirits`: how many `spirit`-role items are allowed;
@@ -123,7 +125,7 @@ weighting aroma by amount is the right call.
   already searches exhaustively, and the prototype's exhaustive check reached the same answer
   as its hill-climb loop, so don't port the loop. With four additions from a 40-bottle pool
   there are about 100,000 candidates, and today every one is fully annotated before sorting.
-- [ ] **Notices for stacking and for the target note (changed).** Count *sources* per flavour
+- [x] **Notices for stacking and for the target note (changed).** Count *sources* per flavour
   family, using each ingredient's curated `descriptors`.
   - Notice when 3 or more ingredients are sources of one family ("3 citrus sources: house
     gin, limoncello, lemon").
@@ -139,7 +141,7 @@ weighting aroma by amount is the right call.
   M2 is the only version where the nutty sources (amaretto, maraschino) match the citrus
   sources (gin, lemon). About half the descriptor words ("lime", "spice", "oak" and others)
   aren't in the family map yet, and adding them needs Ari's OK.
-- [ ] **`score_drink` engine function and server tool (new).** It scores an exact drink:
+- [x] **`score_drink` engine function and server tool (new).** It scores an exact drink:
   harmony under the new rules, the voices and why they merged, the bridges per pair, the
   notices, and provisional flags. Step 3's numbers plug in here.
 
@@ -159,8 +161,16 @@ weighting aroma by amount is the right call.
   *Why:* the old numbers can't come from rules we've decided not to build, and one of them
   contains the duplicate these rules remove. Orderings carry the bartender's judgement, and
   snapshots catch drift.
-- [ ] Write the rules into `docs/cobber-design-notes.md`, section 9 (known gaps). Delete the
-  prototypes once this step is built; their headers say so.
+
+  **Status (23 October):** every automated check passes (`tests/test_drink_scoring.py`).
+  Still to do: Ari looks over the movers (`python3 scripts/eval_scoring.py` compares against
+  the pre-change baseline), and approves or amends the word list in
+  `data/descriptor_words_proposal.json` (37 words to map, 4 open calls: warm, smoke, cane,
+  bright). After that, re-save the baseline with `--save-baseline`.
+- [x] Write the rules into `docs/cobber-design-notes.md`, section 9 (known gaps).
+- [ ] Delete the prototypes in `scripts/prototypes/` once Ari has looked over the movers;
+  their headers say so. The review numbers stay reproducible from git history (commit
+  `a528bce`).
 
 ## 2. Data the checks depend on (moved up; review proposal, Ari approves)
 - [ ] **House gin: confirm the bottle first (changed).** Get a label photo from Ari (name and
@@ -283,7 +293,7 @@ weighting aroma by amount is the right call.
 - [ ] Update the Olivia section of `docs/house-specs.md` after Ari's tasting verdict.
 
 ## 6. Tasting log (Ari): start now, not later (changed)
-- [ ] Keep a committed R&D log (for example `docs/tasting-log.md`, or `data/tasting_log.json`
+- [x] Keep a committed R&D log (for example `docs/tasting-log.md`, or `data/tasting_log.json`
   once the regression panel reads it). Each entry has the date, the spec with amounts, the
   verdict and notes. This isn't `record_tasting_feedback`, which is personal and local and is
   never committed, by design.
