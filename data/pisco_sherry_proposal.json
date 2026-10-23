@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "status": "PROPOSAL, awaiting Ari's approval. Nothing reads this file. To apply: replace the pisco, sherry and black_pepper entries (pisco and sherry move from composites.json to ingredients.json as raw entries with their own compounds); append medium_sherry, sherry_vinegar and cacao_nib to ingredients.json; optionally add linalool to strawberry; add descriptor records for the new compound ids to compound_descriptors.json; then add aliases (Elegante Medium, amontillado and medium sherry to medium_sherry; sherry vinegar and Vinagre de Jerez to sherry_vinegar; cacao nibs to cacao_nib), rerun the build pipeline in CLAUDE.md, and check the movers with scripts/eval_scoring.py.",
+    "why": "Pisco Ma Chérie is pisco, sherry and strawberry, and Cobber can't tell its pisco from its sherry: both are [grape], so they merge into one voice. Black pepper is three compounds, none shared with strawberry or grape, so the drink's pepper scores as a stranger. Step 2 of docs/todo-scoring-upgrade.md (approved decision 5) lists pisco and sherry among the entries that are identical by accident.",
+    "method": "Each entry keeps the key odorants a cited study names (highest odour activity or dilution factor), the same size as Cobber's other entries, so Jaccard stays comparable. Cobber's existing compound ids are reused only where they are the same compound (methional is 3-(methylthio)propanal). Every entry is PROVISIONAL.",
+    "caveat_new_compounds": "The new compound ids (below) exist only in the entries in this file and in the hazelnut proposal, so until the rest of the pantry is checked for them they can over-link these entries to each other. Malty Strecker aldehydes, for example, are also in whisky, rum, coffee and beer, which don't carry them yet. Compare versions of one drink on this data; don't compare its score with drinks scored on today's data.",
+    "new_compounds": {
+      "1_1_diethoxyethane": {"cas": "105-57-7", "odor": "fruity, green (acetal)", "in": ["sherry", "medium_sherry"]},
+      "acetaldehyde": {"cas": "75-07-0", "odor": "green apple, nutty (flor)", "in": ["sherry", "medium_sherry"]},
+      "3_methylbutanal": {"cas": "590-86-3", "odor": "malty, chocolate", "in": ["sherry", "medium_sherry", "black_pepper", "cacao_nib"], "note": "Studies report 2- and 3-methylbutanal together; this id stands for both. Same id as the hazelnut proposal in data/backbar_proposal.json."},
+      "2_methylpropanal": {"cas": "78-84-2", "odor": "malty", "in": ["pisco", "sherry", "medium_sherry", "black_pepper"]},
+      "2_phenylethanol": {"cas": "60-12-8", "odor": "rose, honey", "in": ["pisco", "medium_sherry", "cacao_nib"]},
+      "ethyl_isobutyrate": {"cas": "97-62-1", "odor": "fruity", "in": ["medium_sherry", "sherry_vinegar"]},
+      "guaiacol": {"cas": "90-05-1", "odor": "smoky, sweet", "in": ["pisco"]},
+      "rotundone": {"cas": "18374-76-3", "odor": "peppery, woody", "in": ["black_pepper"]},
+      "alpha_phellandrene": {"cas": "99-83-2", "odor": "citrus, peppery, terpene", "in": ["black_pepper"]},
+      "3_methylbutanoic_acid": {"cas": "503-74-2", "odor": "sweaty, cheesy (isovaleric acid)", "in": ["black_pepper", "sherry_vinegar", "cacao_nib"]},
+      "ethyl_acetate": {"cas": "141-78-6", "odor": "fruity, solvent", "in": ["sherry_vinegar"]},
+      "isoamyl_acetate": {"cas": "123-92-2", "odor": "banana, pear drop", "in": ["sherry_vinegar"]}
+    },
+    "effect_on_pisco_ma_cherie": "Filled in by docs/recipes/pisco-ma-cherie-rework.md."
+  },
+  "replace": {
+    "pisco": {
+      "id": "pisco",
+      "display_name": "Pisco",
+      "type": "raw",
+      "role": "spirit",
+      "compounds": ["beta_damascenone", "linalool", "geraniol", "ethyl_butyrate", "guaiacol", "2_phenylethanol", "2_methylpropanal"],
+      "descriptors": ["grape", "floral", "clean"],
+      "is_native": false,
+      "season": null,
+      "notes": "PROVISIONAL — modelled on Quebranta, the non-aromatic grape behind most pisco: a simple aroma of about 22 odorants, mostly from fermentation. Grape-derived: beta-damascenone, linalool, geraniol (perceptible, not high) and guaiacol. Very high 2-phenylethanol and isobutanal (2-methylpropanal) set it apart from grappa and marc. Left out: ethyl hexanoate, ethyl acetate and 2-phenylethyl acetate (other wines and spirits in Cobber don't carry them yet). Aromatic piscos (Italia, Torontel, Moscatel) carry far more linalool and geraniol. Taste: sweet 0.1, as before.",
+      "source": "Cacho, Culleré, Moncayo, Palma & Ferreira 2012, Flavour Fragr. J. 27(4):322-333 (Quebranta GC-O), via Moncayo's 2013 Zaragoza thesis record (zaguan.unizar.es/record/13513) and the group's conference abstract; ethyl butyrate from a Quebranta odour-activity table in J. Nutr. Food Sci. 3:245 (omicsonline.org, table 4).",
+      "taste": {"sweet": 0.1}
+    },
+    "sherry": {
+      "id": "sherry",
+      "display_name": "Sherry",
+      "type": "raw",
+      "role": "aromatic",
+      "compounds": ["1_1_diethoxyethane", "3_methylbutanal", "2_methylpropanal", "acetaldehyde", "methional", "ethyl_2_methylbutyrate"],
+      "descriptors": ["nutty", "oxidative", "grape"],
+      "is_native": false,
+      "season": null,
+      "notes": "PROVISIONAL — the odorants that Amontillado, Fino and Pedro Ximénez share among their top odour activity values; the styles differ in amounts, not in kind. Read as a dry, flor-aged sherry (fino, Manzanilla), the most common sherry in classic recipes. Left out: ethyl (2S,3S)-2-hydroxy-3-methylpentanoate (fino's second-strongest odorant; nothing else in Cobber has it). Oxidative styles: use medium_sherry.",
+      "source": "Marcq & Schieberle 2015, J. Agric. Food Chem. 63:4761-4770 (Amontillado); Marcq & Schieberle 2021, J. Agric. Food Chem. 69:5125-5133 (Fino and Pedro Ximénez; shared top odorants across the three).",
+      "taste": {"sweet": 0.35, "sour": 0.15, "bitter": 0.1}
+    },
+    "black_pepper": {
+      "id": "black_pepper",
+      "display_name": "Black pepper",
+      "type": "raw",
+      "role": "aromatic",
+      "compounds": ["rotundone", "linalool", "alpha_pinene", "beta_pinene", "myrcene", "limonene", "alpha_phellandrene", "3_methylbutanal", "2_methylpropanal", "3_methylbutanoic_acid", "beta_caryophyllene"],
+      "descriptors": ["pungent", "woody", "spice"],
+      "is_native": false,
+      "season": null,
+      "notes": "PROVISIONAL — rotundone is the peppery impact compound (odour activity 50,000-250,000 in peppercorns, about 10,000 times the level in peppery Shiraz). The rest are the potent odorants of black pepper by dilution analysis. Pungency (piperine) is a taste, not an aroma. Left out: butyric acid. Bridges to native pepperberry as before (pinenes, myrcene, limonene, caryophyllene).",
+      "source": "Jagella & Grosch 1999, Eur. Food Res. Technol. 209:16-21 (potent odorants, as summarised in the OENO One rotundone review); Wood et al. 2008, J. Agric. Food Chem. 56(10):3738-3744 (rotundone, University of Adelaide repository 2440/55602); beta-caryophyllene kept from the existing entry (characteristic by odour units in a 2006 study of Southeast Asian pepper, phtnet.org)."
+    }
+  },
+  "add": {
+    "medium_sherry": {
+      "id": "medium_sherry",
+      "display_name": "Medium sherry (amontillado style)",
+      "type": "raw",
+      "role": "aromatic",
+      "compounds": ["1_1_diethoxyethane", "3_methylbutanal", "2_methylpropanal", "acetaldehyde", "methional", "ethyl_2_methylbutyrate", "sotolon", "eugenol", "ethyl_butyrate", "ethyl_isobutyrate", "2_phenylethanol"],
+      "descriptors": ["nutty", "caramel", "oxidative"],
+      "is_native": false,
+      "season": null,
+      "notes": "PROVISIONAL — the shared sherry odorants plus the markers of oxidative ageing in oak: sotolon (caramel, curry, maple), eugenol, ethyl butanoate, ethyl isobutanoate and 2-phenylethanol. For Elegante Medium (González Byass): oxidatively aged Palomino blended with Pedro Ximénez, off-dry; producer grape split, sugar and ABV still to confirm from the label.",
+      "source": "Moyano, Zea, Moreno & Medina 2010, J. Agric. Food Chem. 58(11):6900-6904 (Amontillado: ethyl octanoate, ethyl butanoate, eugenol, ethyl isobutanoate, sotolon); Marcq & Schieberle 2015 (2-phenylethanol and ethyl methylpropanoate highest dilution factors); retailer listing for Elegante Medium Dry (unitedcellars.co.nz).",
+      "taste": {"sweet": 0.45, "sour": 0.1, "bitter": 0.1}
+    },
+    "sherry_vinegar": {
+      "id": "sherry_vinegar",
+      "display_name": "Sherry vinegar (Vinagre de Jerez)",
+      "type": "raw",
+      "role": "sour",
+      "compounds": ["diacetyl", "sotolon", "ethyl_acetate", "isoamyl_acetate", "ethyl_isobutyrate", "3_methylbutanoic_acid"],
+      "descriptors": ["caramel", "woody"],
+      "is_native": false,
+      "season": null,
+      "notes": "PROVISIONAL — diacetyl, ethyl acetate and sotolon together recreate its aroma in a 7% acetic acid model; isoamyl acetate, ethyl isobutyrate and isovaleric acid also reach high odour activity. Acetic acid is the sourness (a taste axis), not modelled as aroma. Moro's is Vinagre de Jerez D.O.P., at least 7% acidity.",
+      "source": "Callejón et al. 2008, J. Agric. Food Chem. (GC-olfactometry, AEDA and recombination of a representative Sherry vinegar); Morales, Callejón et al. 2008 (odour activity values).",
+      "taste": {"sour": 0.9}
+    },
+    "cacao_nib": {
+      "id": "cacao_nib",
+      "display_name": "Cacao nibs (roasted)",
+      "type": "raw",
+      "role": "aromatic",
+      "compounds": ["3_methylbutanal", "furaneol", "phenylacetaldehyde", "2_phenylethanol", "ethyl_2_methylbutyrate", "3_methylbutanoic_acid"],
+      "descriptors": ["chocolate", "roasted"],
+      "is_native": false,
+      "season": null,
+      "notes": "PROVISIONAL — roasting raises 3-methylbutanal (malty), phenylacetaldehyde (honey) and furaneol (caramel; also strawberry's impact compound); 2-phenylethanol, ethyl 2-methylbutanoate and 3-methylbutanoic acid are already there from fermentation. Left out: the alkylpyrazines (Cobber's generic pyrazine id would link it to coffee by name only). Bitterness is a taste.",
+      "source": "Frauendorfer & Schieberle 2008, J. Agric. Food Chem. 56:10244-10251 (Criollo beans, roasting); the same group's 2019 study of fermented Forastero beans (TUM publication records).",
+      "taste": {"bitter": 0.5}
+    }
+  },
+  "amend_optional": {
+    "strawberry": {
+      "add_compounds": ["linalool"],
+      "why": "In an aroma dilution analysis of cultivated strawberry ('Toyonoka'), linalool reached a dilution factor of 81, with trans-nerolidol; only furaneol was higher. Terpenoids are one of strawberry's characteristic classes, with furanones and esters. It is Cobber's only real link from strawberry to black pepper and to aromatic pisco. Strawberry is not a provisional entry, so this moves every strawberry drink: run scripts/eval_scoring.py before applying.",
+      "source": "Fukuhara et al. 2005, J. Japan. Soc. Hort. Sci. 74(4):300 (AEDA of 'Toyonoka': linalool and trans-nerolidol FD 81; furaneol highest); Frontiers in Plant Science 2022, doi 10.3389/fpls.2022.959155 (furanones, esters and terpenoids as strawberry's characteristic volatiles)."
+    }
+  }
+}
