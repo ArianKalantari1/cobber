@@ -26,9 +26,10 @@ The changes so far:
 - **Green olive brine for the olive.** It replaces the saline: no salt and no
   saline once the brine is in. Brine brings the olive itself, which is what guests
   recognise, not olive oil.
-- **One more fruit next to the amaretto.** Maraschino or fresh pear (23 October),
-  never both. Apricot is taken (the apricot spicy margarita), and peach is already in
-  the Sangria Branco.
+- **One more fruit next to the amaretto.** Maraschino or pear (23 October), never
+  both. The pear is the bar's pear liqueur, or a house pear syrup that keeps 3–4 weeks.
+  Apricot is taken (the apricot spicy margarita), and peach is already in the Sangria
+  Branco. Fig is a later test.
 - **Less gin (30 ml).** 45 ml of gin with the liqueurs came to about 2.2 standard
   drinks. At 30 ml it is about 1.6–1.7.
 - **No orange bitters.** They made no difference in any scoring.

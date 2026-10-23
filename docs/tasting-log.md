@@ -83,26 +83,39 @@ shorter and lighter, and the basil links only weakly to the rest.
 
 ### Round 2: which fruit with the olive (on the round 1 winner)
 
-If S wins, swap its 7.5 ml of maraschino for 10 ml of fresh pear syrup:
+If S wins, swap its 7.5 ml of maraschino for 7.5 ml of the bar's pear liqueur. It's the same
+slot and the same format, so only the fruit changes:
 
 | | S (maraschino, cherry) | S-pear |
 |---|---|---|
-| Fruit | maraschino 7.5 ml | fresh pear syrup 10 ml |
-| Standard drinks | about 1.65 | about 1.46 |
+| Fruit liqueur, 7.5 ml | maraschino | pear liqueur |
+| Standard drinks | about 1.65 | about 1.6 (check the bottle's ABV) |
 
-**Fresh pear syrup:** juice ripe pears (Packham or Williams) or blend and fine-strain, then stir
-in caster sugar 1:1 by weight until dissolved. About 1 g of vitamin C per 500 ml stops it
-browning, as in the watermelon cordial. It keeps about a week in the fridge.
+**Check the label** for the name, the ABV, and whether it's a sweet liqueur or a dry pear
+eau-de-vie (Poire Williams). A dry eau-de-vie brings no sugar and counts as a second spirit,
+which would change the balance.
+
+**Backup: house pear syrup, made to last.** Use 10 ml in place of the liqueur.
+- Macerate sliced ripe pears (Packham or Williams) in an equal weight of caster sugar
+  overnight in the fridge, then strain.
+- Per 500 ml of syrup, add 4–5 ml of the 10% potassium sorbate solution and 1 g of vitamin C
+  (2 crushed 500 mg Blackmores tablets, or plain ascorbic acid powder) against browning.
+- Check that the pH is 3.8 or below (add a little citric acid if not). Never add sodium
+  benzoate with the vitamin C.
+- Expect 3–4 weeks in the fridge, as with the strawberry shrub (untested).
 
 **Cobber's predictions:**
 - **S-pear:** harmony 0.101, novelty 0.068 (47% more novel than today's spec), no notices.
-- **Why pear:** Cobber's pear links to amaretto through the almond-kernel compound
-  (benzaldehyde, 0.23), so the fruit and the nut tie together. It links to the olive (0.13) and
-  the Manzanilla (0.10) as well, which makes it the connector of the drink. Pear's data is
-  verified, unlike the bottled fruit liqueurs. Nothing else on the menu uses it, and it keeps
-  the drink pale.
-- **Balance:** the syrup is sweeter than the maraschino it replaces and adds no alcohol, so
-  S-pear is a little lighter. If it reads sweet, use 7.5 ml; if thin, use 35 ml of gin.
+- **Why pear:** it links to amaretto through benzaldehyde, the almond-kernel note (0.23), and
+  to the Manzanilla through β-damascenone (0.13). That ties fruit, nut and sherry together.
+  Nothing else on the menu uses it, and it keeps the drink pale.
+- **Caveat:** pear's link to the olive (0.25) rests mostly on cinnamaldehyde and menthone. Those
+  are the same two unverified compounds behind the olive–amaretto link, so verifying the olive
+  profile (step 2 of the scoring upgrade) will firm up or weaken both.
+- **Fig, for a later round** (fresh figs from January, or a fig syrup). In Cobber's test fig
+  scores 0.093 against pear's 0.101. It ties to amaretto and Manzanilla, but Cobber sees no
+  fig–olive link, partly the same olive data gap. Fig and pear together trigger "3 fruity
+  sources".
 - **Other fruit:** grape scores higher, but Cobber's grape is its sherry data, so it can't be
   told apart from the Manzanilla. Cherry adds a third nutty source next to the Manzanilla.
 

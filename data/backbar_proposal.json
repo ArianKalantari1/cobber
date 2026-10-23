@@ -1,12 +1,14 @@
 {
   "_meta": {
-    "status": "PROPOSAL, awaiting Ari's approval. Nothing reads this file. To apply: replace the benedictine entry in data/composites.json, append hazelnut to data/ingredients.json and frangelico to data/composites.json, then add aliases for Frangelico (62 recipes in data/unmatched_ingredients.txt) and rerun the build pipeline in CLAUDE.md.",
+    "status": "PROPOSAL, awaiting Ari's approval. Nothing reads this file. To apply: replace the benedictine entry in data/composites.json; append hazelnut and fig to data/ingredients.json and frangelico and pear_liqueur to data/composites.json; then add aliases (Frangelico 62 recipes, pear liqueur 37 including Belle de Brillet, fig 36 in data/unmatched_ingredients.txt) and rerun the build pipeline in CLAUDE.md.",
     "why": "Ari (23 October 2026): Bénédictine is herbs, honey and saffron, not vanilla; Frangelico is a candidate for Olivia's nutty side. Step 2 of docs/todo-scoring-upgrade.md (approved decision 5) fixes the entries that are identical by accident, Bénédictine first.",
     "method": "Bills use only botanicals Cobber already has and say what is left out; new compounds reuse Cobber's ids only where they are the same compound. Every entry is PROVISIONAL.",
     "effect_on_olivia": {
       "benedictine": "No longer a copy of vanilla. Links to olive weakly (0.077, via cinnamaldehyde, ethyl butyrate, linalool). Cobber's olive has no green or herbal compounds (those belong to olive oil, not yet its own entry), and a 27-botanical bill dilutes any overlap, so Cobber cannot yet see the herbal bridge Ari tastes. Olivia B scores 0.086 on this data.",
       "frangelico": "Ties amaretto, not better: best Olivia fit is Frangelico + maraschino at 0.109 (amaretto + maraschino 0.127). Its olive link (0.143) comes from its coffee and vanilla. Hazelnut lacks benzaldehyde, the kernel compound that ties almond to cherry, peach and apricot.",
-      "best_fits_for_the_brief": "Olive core with amaretto and a stone fruit: crème de pêche (0.121), maraschino (0.127), apricot brandy with Manzanilla (0.105, olive linked to three partners). All within noise of each other; the tasting decides."
+      "best_fits_for_the_brief": "Olive core with amaretto and a stone fruit: crème de pêche (0.121), maraschino (0.127), apricot brandy with Manzanilla (0.105, olive linked to three partners). All within noise of each other; the tasting decides.",
+      "pear_liqueur": "Apricot and peach are taken on the menu, so pear replaces them. With Manzanilla, S-pear scores 0.101 harmony and 0.068 novelty, no notices. Pear ties to amaretto through benzaldehyde and to Manzanilla through beta-damascenone; its olive link rests mostly on cinnamaldehyde and menthone, the same unverified compounds as the olive-amaretto link.",
+      "fig": "Ari likes fig with olive. With Manzanilla it scores 0.093 harmony and 0.060 novelty (pear: 0.101 and 0.068). It ties to amaretto and Manzanilla, but Cobber sees no fig-olive link, partly the olive data gap. A later test."
     }
   },
   "replace": {
@@ -50,6 +52,32 @@
       "source": "Harvey Nichols and Punch (cocoa, coffee, vanilla); Ocado UK label (hazelnut distillate, flavours).",
       "flavor_forward": ["hazelnut"],
       "taste": {"sweet": 0.75}
+    },
+    "pear_liqueur": {
+      "id": "pear_liqueur",
+      "display_name": "Pear liqueur",
+      "type": "composite",
+      "role": "sweet",
+      "botanicals": ["pear"],
+      "descriptors": ["pear", "fruity", "sweet"],
+      "is_native": false,
+      "season": null,
+      "notes": "PROVISIONAL — generic sweet pear liqueur; ABV varies by brand (about 18–30%). The bar's bottle is still to be confirmed from its label (name, ABV, and liqueur rather than dry pear eau-de-vie).",
+      "source": "Aroma from Cobber's pear entry. Ari, 23 October 2026: a pear liqueur is on the bar.",
+      "flavor_forward": ["pear"],
+      "taste": {"sweet": 0.7}
+    },
+    "fig": {
+      "id": "fig",
+      "display_name": "Fig",
+      "type": "raw",
+      "role": "fruit",
+      "compounds": ["hexanal", "benzaldehyde", "beta_caryophyllene", "beta_damascenone", "furfural", "limonene"],
+      "descriptors": ["fruity", "jammy"],
+      "is_native": false,
+      "season": null,
+      "notes": "PROVISIONAL — fresh-fig aldehydes and benzaldehyde, plus the dried-fig and syrup notes (beta-damascenone, furfural). Not modelled because Cobber lacks the ids: (E)-2-hexenal, germacrene D.",
+      "source": "Frontiers in Plant Science 2021 (Moroccan cultivars: aldehydes dominant, fruity and green); Notulae Botanicae Horti Agrobotanici 2011 (Turkish cultivars: hexanal, benzaldehyde); Greek dried-fig study (beta-damascenone key odorant); Portuguese fig spirits (benzaldehyde, furfural, limonene)."
     }
   }
 }
