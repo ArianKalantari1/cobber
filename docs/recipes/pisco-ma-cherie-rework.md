@@ -230,6 +230,19 @@ one glass (pisco's Quebranta and sherry's Palomino), and Smuggler's Cove's Fog C
 style of sherry on pisco. Leave "vinegar" out of the pitch, as on the menu, and "balsamic" too:
 that's the Mando Raspberry Fizz.
 
+**How loud the pepper should be (Ari, 23 October):** noticeable, never hot. "Black Pepper" on the
+menu is the hook and what sets the drink apart from the Mando, so guests must find it, but the
+fruity crowd it's for won't want heat. The descriptors (Tall, Juicy, Tangy) already say it isn't
+spicy, and "Spicy" belongs to the Summer Fling.
+- **Target:** the guest sees pepper on the ice, smells it first, and feels a little warmth at the
+  end. No burn, no sneeze.
+- **Where it comes from:** the fresh twist on top is the aroma and the look; the 3 g in the
+  maceration is a background warmth (syrup takes up pepper's smell but little of its heat).
+- **To adjust at the tasting, in this order:** the twist (none, one or two); then the maceration
+  (5 g if you can't find it, 2 g if it's hot); and always keep loose bits out of the batch.
+- **If a guest asks "is it spicy?":** "No heat. You smell the pepper before you taste it, and it
+  makes the strawberry taste brighter."
+
 **Taste it as:** glass B in Session 2 of the tasting log. Pour every glass in that session from a
 cold batch with 90 ml soda, so the glasses differ only in the shrub.
 

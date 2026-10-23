@@ -205,6 +205,7 @@ applied yet):
 | Strawberry first? | | | |
 | Caramel under the fruit or on top? | | | |
 | Can you name the pisco? | | | |
+| Pepper: can you smell it? Any heat? | | | |
 | Colour | | | |
 | Sweet / sour / strong | | | |
 
