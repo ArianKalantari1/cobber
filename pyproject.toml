@@ -12,7 +12,8 @@ license = { text = "MIT" }
 authors = [{ name = "Arian Kalantari" }]
 keywords = ["mcp", "cocktails", "flavour", "chemistry", "bartending"]
 dependencies = [
-    "mcp>=1.0.0",
+    # mcp 2.x renamed FastMCP to MCPServer; server.py is written against 1.x.
+    "mcp>=1.0.0,<2",
 ]
 
 [project.optional-dependencies]
