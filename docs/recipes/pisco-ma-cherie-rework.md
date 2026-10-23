@@ -203,6 +203,55 @@ This adds to the first-tasting checks in the prep spec.
   - What colour is it?
 - Record the answers in [the tasting log](../tasting-log.md) (Session 2).
 
+## 7. Pisco with medium sherry elsewhere (web search, 23 October)
+
+Ari asked for drinks that pair pisco with a medium sherry. Few do; these are the closest,
+with the specs as published (none tasted here).
+
+**Pisco with medium or other oxidative sherry:**
+- **Fog Cutter, Smuggler's Cove (San Francisco, Martin Cate):** 1 oz pisco, 2 oz rum, ½ oz gin,
+  1½ oz lemon, 1½ oz orange juice and ½ oz orgeat, shaken, then a ½ oz float of González Byass
+  Nutty Solera. Nutty Solera is a medium oloroso from Elegante's bodega (Palomino with about 17%
+  Pedro Ximénez, about 62–72 g/L sugar). This is the one well-known pisco and medium sherry
+  drink. Trader Vic's original used brandy and cream sherry.
+- **The Greatest Punch on Earth, Morgan Schick, Jupiter Olympus (San Francisco):** 4 oz pisco,
+  2 oz oloroso, 1 oz sherry vinegar, 1 oz Luxardo Triplum, 4 oz apple cider, orange and Angostura
+  bitters. Sherry as wine and as vinegar, the same idea as Pisco Ma Chérie. (In Cobber's Hotaling
+  corpus.)
+- **Campo Cooler, The NoMad (New York, Leo Robitschek):** 1½ oz pisco, ½ oz amontillado (Lustau
+  Los Arcos), ½ oz unaged rum, ¾ oz honey syrup, ¾ oz lemon and 1 tsp raisin-infused Angostura.
+- **Pera Seca, a pisco cobbler (Ricardo Rodriguez, Lita, New Jersey):** 1½ oz pisco, 1 oz verjus,
+  ¾ oz spiced amontillado syrup (amontillado simmered with cinnamon and cardamom, sweetened with
+  brown or palm sugar) and ½ oz pear brandy over crushed ice, with a ½ oz ruby port float.
+- **Red, Red Room at The Connaught (London, June 2026 menu):** Courvoisier XO, pisco, Pedro
+  Ximénez, Pinot Noir infused with eucalyptus and white peach, verjus, and peach and jasmine soda.
+  (In Cobber's city menus.)
+- **A Kindred Cocktails original (2022, unrated):** Capel pisco, Galleano Rose of Peru sweet
+  sherry, prickly pear liqueur and Martini & Rossi 1872 Bitter.
+
+**The nearest drink to Pisco Ma Chérie:**
+- **The Laotong, Jeremy Buck, Coterie (Charleston):** chamomile-infused pisco and a strawberry and
+  tomato shrub made with sherry, rice wine and red wine vinegars, topped with soda. So a pisco
+  highball on a strawberry shrub with sherry vinegar already exists. Pisco Ma Chérie differs in
+  the Medium, the black pepper, and no tomato or chamomile, so don't sell the shrub highball as a
+  first.
+
+**Pisco with dry sherry, for format:**
+- **Pisces Rising, Leyenda (New York):** acholado pisco, Manzanilla, lemon, grapefruit, crème de
+  pêche, celery bitters and soda, in a Collins.
+- **Herencia de Jerez (a Difford's community recipe, unverified):** pisco, brandy de Jerez,
+  Manzanilla, sherry vinegar, lemon and sugar.
+- **Uncle Al (Punch):** 1½ oz gin, ½ oz pisco, ½ oz fino, ½ oz orgeat, ¾ oz lemon and thyme.
+
+**What it means for this drink:**
+- Pisco with a nutty, sweetened sherry works at about 2 parts pisco to 1 of sherry (Fog Cutter,
+  Greatest Punch). Pisco Ma Chérie's 40 : 17.5 is in that range.
+- Orange keeps turning up next to it (orange juice, triple sec, orange bitters), which backs the
+  orange wheel.
+- Sherry wine with sherry vinegar is a move a known bartender has already made, which backs
+  keeping the Medium and the Moro together.
+- Nutty Solera is a second medium sherry from the same bodega, if Elegante Medium is ever out.
+
 ## Sources
 
 - **Pisco:**
@@ -233,3 +282,19 @@ This adds to the first-tasting checks in the prep spec.
 - **Strawberry gum:** [Warndu](https://warndu.com/blogs/first-nations-food-guide/warndu-strawberry-gum);
   [Williamson Wines](https://williamsonwines.com/product/strawberry-gum) (a pinch of milled leaf;
   don't heat it for long).
+- **Pisco and sherry drinks (section 7):**
+  - Fog Cutter: [Classic Fog Cutter (Liq Culture)](https://liqculture.com/?p=4515),
+    [SFist on Smuggler's Cove](https://sfist.com/2009/11/13/sfist_drinks_the_fogcutter_from_smu.php);
+    Nutty Solera: [Difford's](https://www.diffordsguide.com/en-au/beer-wine-spirits/8510/gonzalez-byass-nutty-solera-medium-oloroso-sherry),
+    [LCBO](https://www.lcbo.com/en/gonz-lez-byass-nutty-solera-medium-oloroso-sherry-35204).
+  - The Greatest Punch on Earth: `data/raw/hotaling_cocktails.csv`.
+  - [Campo Cooler (Punch)](https://punchdrink.com/recipes/campo-cooler/).
+  - [Pera Seca (Imbibe)](https://imbibemagazine.com/recipe/pera-seca-a-pisco-cobbler).
+  - Red: `data/raw/city_bar_cocktails.json`, from the
+    [Red Room menu](https://dxp.maybourne.com/globalassets/our-hotels/the-connaught/rb/red-room/2026/6.-june/the-connaught-red-room-menu-june-2026.pdf).
+  - [Kindred Cocktails original](https://kindredcocktails.com/node/10649).
+  - The Laotong: [Imbibe](https://imbibemagazine.com/recipe/the-laotong-pisco-cocktail/),
+    [Cocktails Distilled](https://cocktailsdistilled.com/recipe/the-laotong/).
+  - [Pisces Rising (Imbibe)](https://imbibemagazine.com/?p=27396);
+    [Herencia de Jerez (Difford's)](https://www.diffordsguide.com/cocktails/recipe/41718/herencia-de-jerez);
+    [Uncle Al (Punch)](https://punchdrink.com/recipes/uncle-al/).
