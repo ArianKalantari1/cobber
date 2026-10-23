@@ -1,21 +1,21 @@
 {
   "_meta": {
-    "description": "Flavour-family buckets: each of the 71 odour descriptor words maps to exactly one of 10 families. The engine's flavor_wheel aggregates an ingredient's compound descriptors into these families. Taste-active classes (bitter/pungent) are a separate overlay, not odour families.",
-    "status": "Approved by Ari (bartender review, Phase 3 gate) — 10 families, as-is.",
+    "description": "Flavour-family buckets: each of the 71 odour descriptor words, and the 40 ingredient descriptor words Ari approved on 23 October 2026, maps to exactly one of 10 families. The engine's flavor_wheel aggregates an ingredient's compound descriptors into these families; engine.notices reads an ingredient's curated descriptors through the same map. Taste-active classes (bitter/pungent) are a separate overlay, not odour families.",
+    "status": "Approved by Ari (bartender review, Phase 3 gate) — 10 families, as-is. Ingredient descriptor words added with Ari's approval on 23 October 2026 (data/descriptor_words_proposal.json).",
     "odor_family_count": 10,
-    "coverage": "all 71 odour descriptor words in compound_descriptors.json are assigned; no orphans."
+    "coverage": "All 71 odour descriptor words in compound_descriptors.json are assigned; no orphans. Ingredient descriptor words for taste, style, colour or texture are left out on purpose (listed in data/descriptor_words_proposal.json)."
   },
   "odor_families": {
-    "citrus":         ["citrus", "lemon", "orange", "grapefruit", "bergamot", "waxy", "soapy"],
-    "floral":         ["floral", "rose", "violet", "lavender", "lilac", "honey", "chamomile"],
-    "fruity":         ["fruity", "apple", "pineapple", "peach", "pear", "strawberry", "raspberry", "cherry", "grape"],
-    "green_herbal":   ["herbal", "green", "grassy", "fatty", "mushroom", "earthy", "oregano", "thyme", "celery", "hay", "terpene"],
-    "woody_resinous": ["woody", "pine", "resinous", "camphor", "eucalyptus", "medicinal"],
-    "spice":          ["spicy", "clove", "cinnamon", "nutmeg", "ginger", "peppery", "anise", "licorice", "balsamic", "caraway"],
-    "mint_cooling":   ["mint", "minty", "menthol", "peppermint", "cooling"],
-    "sweet_creamy":   ["sweet", "vanilla", "caramel", "maple", "creamy", "buttery", "coconut"],
-    "roasted_nutty":  ["roasted", "nutty", "bready", "coffee", "almond", "musty"],
-    "savoury":        ["savoury", "sulfury", "potato"]
+    "citrus":         ["citrus", "lemon", "orange", "grapefruit", "bergamot", "waxy", "soapy", "lime"],
+    "floral":         ["floral", "rose", "violet", "lavender", "lilac", "honey", "chamomile", "honeyed", "powdery", "rosy"],
+    "fruity":         ["fruity", "apple", "pineapple", "peach", "pear", "strawberry", "raspberry", "cherry", "grape", "tropical", "berry", "stone-fruit", "stone", "plum", "apricot", "blackcurrant", "pomegranate", "passionfruit", "dark-fruit", "orchard", "tomato"],
+    "green_herbal":   ["herbal", "green", "grassy", "fatty", "mushroom", "earthy", "oregano", "thyme", "celery", "hay", "terpene", "vegetal", "agave", "cane"],
+    "woody_resinous": ["woody", "pine", "resinous", "camphor", "eucalyptus", "medicinal", "oak", "juniper", "woodsy", "smoke"],
+    "spice":          ["spicy", "clove", "cinnamon", "nutmeg", "ginger", "peppery", "anise", "licorice", "balsamic", "caraway", "spice", "spiced", "liquorice", "pepper", "saffron", "warm"],
+    "mint_cooling":   ["mint", "minty", "menthol", "peppermint", "cooling", "cool"],
+    "sweet_creamy":   ["sweet", "vanilla", "caramel", "maple", "creamy", "buttery", "coconut", "molasses", "custard", "dairy"],
+    "roasted_nutty":  ["roasted", "nutty", "bready", "coffee", "almond", "musty", "chocolate", "marzipan", "malt", "corn", "grain", "oxidative"],
+    "savoury":        ["savoury", "sulfury", "potato", "briny"]
   },
   "taste_overlay": {
     "description": "Non-volatile tastants have no odour; they colour a wheel as a separate taste ring rather than an odour family.",

@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "status": "PROPOSAL, awaiting Ari's approval. Nothing reads this file. Once approved, append the approved words to their families in data/flavor_families.json.",
+    "status": "APPROVED by Ari on 23 October 2026, with the proposed choice for each open call (warm -> spice, smoke -> woody_resinous, cane -> green_herbal, bright ignored). Applied to data/flavor_families.json. Kept as the record of what was mapped, kept out and ignored.",
     "why": "The stacking and target-note notices (engine.notices) take an ingredient's flavour families from its curated descriptor words. Only 240 of 445 descriptor uses map to a family today, so gin's 'juniper', whisky's 'oak' and mint's 'cool' count for nothing.",
     "rules": "Approved by Ari on 23 October 2026: aroma words map to the family they name; taste words stay out because they are taste axes, not smells; words for style, colour, texture or strength are ignored.",
     "effect_on_iba": {
