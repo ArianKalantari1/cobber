@@ -11,8 +11,8 @@
         "lemon",
         "olive"
       ],
-      "harmony": 0.1179,
-      "novelty": 0.052
+      "harmony": 0.1014,
+      "novelty": 0.046
     },
     "M1": {
       "ingredients": [
@@ -23,8 +23,8 @@
         "lemon",
         "olive"
       ],
-      "harmony": 0.2272,
-      "novelty": 0.0941
+      "harmony": 0.111,
+      "novelty": 0.0483
     },
     "M2": {
       "ingredients": [
@@ -35,8 +35,8 @@
         "lemon",
         "olive"
       ],
-      "harmony": 0.177,
-      "novelty": 0.1171
+      "harmony": 0.1015,
+      "novelty": 0.06
     },
     "P": {
       "ingredients": [
@@ -47,8 +47,8 @@
         "lemon",
         "olive"
       ],
-      "harmony": 0.1673,
-      "novelty": 0.1257
+      "harmony": 0.0986,
+      "novelty": 0.0653
     },
     "B": {
       "ingredients": [
@@ -59,8 +59,8 @@
         "lemon",
         "olive"
       ],
-      "harmony": 0.2092,
-      "novelty": 0.1538
+      "harmony": 0.1191,
+      "novelty": 0.0645
     }
   },
   "pairs": {
@@ -70,48 +70,48 @@
           "amaretto",
           "almond"
         ],
-        "harmony": 1.0,
-        "novelty": 1.0
+        "harmony": 0.0,
+        "novelty": 0.0
       },
       "limoncello+lemon": {
         "ingredients": [
           "limoncello",
           "lemon"
         ],
-        "harmony": 1.0,
-        "novelty": 1.0
+        "harmony": 0.0,
+        "novelty": 0.0
       },
       "gin+coriander_seed": {
         "ingredients": [
           "gin",
           "coriander_seed"
         ],
-        "harmony": 0.5,
-        "novelty": 0.4435
+        "harmony": 0.0,
+        "novelty": 0.0
       },
       "coffee_liqueur+coffee": {
         "ingredients": [
           "coffee_liqueur",
           "coffee"
         ],
-        "harmony": 0.6923,
-        "novelty": 0.6923
+        "harmony": 0.0,
+        "novelty": 0.0
       },
       "triple_sec+orange": {
         "ingredients": [
           "triple_sec",
           "orange"
         ],
-        "harmony": 0.9091,
-        "novelty": 0.9091
+        "harmony": 0.0,
+        "novelty": 0.0
       },
       "benedictine+vanilla": {
         "ingredients": [
           "benedictine",
           "vanilla"
         ],
-        "harmony": 1.0,
-        "novelty": 0.887
+        "harmony": 0.0,
+        "novelty": 0.0
       }
     },
     "distinct": {
@@ -172,8 +172,8 @@
         "lemon",
         "lime"
       ],
-      "harmony": 0.6158,
-      "novelty": 0.1385
+      "harmony": 0.3172,
+      "novelty": 0.07
     },
     "gin+lemon+limoncello": {
       "ingredients": [
@@ -181,8 +181,8 @@
         "lemon",
         "limoncello"
       ],
-      "harmony": 0.7037,
-      "novelty": 0.5123
+      "harmony": 0.5556,
+      "novelty": 0.0441
     },
     "gin+lemon+grapefruit": {
       "ingredients": [
@@ -190,8 +190,8 @@
         "lemon",
         "grapefruit"
       ],
-      "harmony": 0.3234,
-      "novelty": 0.0728
+      "harmony": 0.2417,
+      "novelty": 0.0476
     },
     "gin+dry_vermouth+lemon": {
       "ingredients": [
@@ -199,8 +199,8 @@
         "dry_vermouth",
         "lemon"
       ],
-      "harmony": 0.6269,
-      "novelty": 0.108
+      "harmony": 0.3468,
+      "novelty": 0.0579
     }
   },
   "iba": {
@@ -218,8 +218,8 @@
         "lime",
         "white_rum"
       ],
-      "harmony": 0.1388,
-      "novelty": 0.0366
+      "harmony": 0.1044,
+      "novelty": 0.0287
     },
     "Negroni": {
       "ingredients": [
@@ -236,8 +236,8 @@
         "bourbon",
         "sugar_syrup"
       ],
-      "harmony": 0.0808,
-      "novelty": 0.0226
+      "harmony": 0.2424,
+      "novelty": 0.0678
     },
     "Tuxedo": {
       "ingredients": [
@@ -247,8 +247,8 @@
         "maraschino",
         "orange_bitters"
       ],
-      "harmony": 0.2774,
-      "novelty": 0.0837
+      "harmony": 0.1188,
+      "novelty": 0.0352
     },
     "Mojito": {
       "ingredients": [
@@ -258,8 +258,8 @@
         "sugar_syrup",
         "white_rum"
       ],
-      "harmony": 0.0329,
-      "novelty": 0.0159
+      "harmony": 0.1097,
+      "novelty": 0.053
     },
     "Horse's Neck": {
       "ingredients": [
@@ -267,8 +267,8 @@
         "brandy",
         "ginger_ale"
       ],
-      "harmony": 0.0104,
-      "novelty": 0.0028
+      "harmony": 0.0312,
+      "novelty": 0.0083
     },
     "Planter's Punch": {
       "ingredients": [
@@ -280,8 +280,8 @@
         "pineapple",
         "sugar_syrup"
       ],
-      "harmony": 0.1285,
-      "novelty": 0.0431
+      "harmony": 0.0893,
+      "novelty": 0.0303
     },
     "Sea Breeze": {
       "ingredients": [
@@ -299,8 +299,8 @@
         "pisco",
         "sugar_syrup"
       ],
-      "harmony": 0.0098,
-      "novelty": 0.0087
+      "harmony": 0.0588,
+      "novelty": 0.0522
     },
     "Long Island Iced Tea": {
       "ingredients": [
@@ -313,8 +313,8 @@
         "vodka",
         "white_rum"
       ],
-      "harmony": 0.0644,
-      "novelty": 0.0123
+      "harmony": 0.1023,
+      "novelty": 0.0207
     },
     "Clover Club": {
       "ingredients": [
@@ -323,8 +323,8 @@
         "lemon",
         "raspberry"
       ],
-      "harmony": 0.1152,
-      "novelty": 0.0201
+      "harmony": 0.2052,
+      "novelty": 0.0308
     },
     "Angel Face": {
       "ingredients": [
@@ -332,8 +332,8 @@
         "calvados",
         "gin"
       ],
-      "harmony": 0.1153,
-      "novelty": 0.0578
+      "harmony": 0.0918,
+      "novelty": 0.046
     },
     "Mimosa": {
       "ingredients": [
@@ -349,8 +349,8 @@
         "lemon",
         "sugar_syrup"
       ],
-      "harmony": 0.0494,
-      "novelty": 0.0127
+      "harmony": 0.1481,
+      "novelty": 0.0382
     },
     "Screwdriver": {
       "ingredients": [
@@ -366,8 +366,8 @@
         "lime",
         "white_rum"
       ],
-      "harmony": 0.0208,
-      "novelty": 0.0013
+      "harmony": 0.0625,
+      "novelty": 0.0038
     },
     "Manhattan": {
       "ingredients": [
@@ -375,8 +375,8 @@
         "rye_whiskey",
         "sweet_vermouth"
       ],
-      "harmony": 0.4067,
-      "novelty": 0.2311
+      "harmony": 0.3086,
+      "novelty": 0.1759
     },
     "Porto Flip": {
       "ingredients": [
@@ -384,8 +384,8 @@
         "egg_yolk",
         "port"
       ],
-      "harmony": 0.0256,
-      "novelty": 0.0165
+      "harmony": 0.0769,
+      "novelty": 0.0494
     },
     "Gin Fizz": {
       "ingredients": [
@@ -394,8 +394,8 @@
         "soda_water",
         "sugar_syrup"
       ],
-      "harmony": 0.0926,
-      "novelty": 0.0073
+      "harmony": 0.5556,
+      "novelty": 0.0441
     },
     "Espresso Martini": {
       "ingredients": [
@@ -404,8 +404,8 @@
         "sugar_syrup",
         "vodka"
       ],
-      "harmony": 0.1154,
-      "novelty": 0.1154
+      "harmony": 0.0,
+      "novelty": 0.0
     },
     "Margarita": {
       "ingredients": [
@@ -423,8 +423,8 @@
         "sparkling_wine",
         "sugar_syrup"
       ],
-      "harmony": 0.11,
-      "novelty": 0.015
+      "harmony": 0.1933,
+      "novelty": 0.0216
     },
     "Yellow Bird": {
       "ingredients": [
@@ -433,8 +433,8 @@
         "triple_sec",
         "white_rum"
       ],
-      "harmony": 0.1915,
-      "novelty": 0.1104
+      "harmony": 0.1513,
+      "novelty": 0.0883
     },
     "Pina Colada": {
       "ingredients": [
@@ -451,8 +451,8 @@
         "lemon",
         "maraschino"
       ],
-      "harmony": 0.281,
-      "novelty": 0.0473
+      "harmony": 0.2338,
+      "novelty": 0.0363
     },
     "Bellini": {
       "ingredients": [
@@ -486,8 +486,8 @@
         "sugar_syrup",
         "white_rum"
       ],
-      "harmony": 0.0208,
-      "novelty": 0.0013
+      "harmony": 0.0625,
+      "novelty": 0.0038
     },
     "Rusty Nail": {
       "ingredients": [
@@ -503,8 +503,8 @@
         "irish_cream",
         "triple_sec"
       ],
-      "harmony": 0.3167,
-      "novelty": 0.2112
+      "harmony": 0.2917,
+      "novelty": 0.1938
     },
     "Stinger": {
       "ingredients": [
@@ -521,8 +521,8 @@
         "orange",
         "triple_sec"
       ],
-      "harmony": 0.1799,
-      "novelty": 0.1736
+      "harmony": 0.0278,
+      "novelty": 0.0205
     },
     "God Mother": {
       "ingredients": [
@@ -538,8 +538,8 @@
         "soda_water",
         "sparkling_wine"
       ],
-      "harmony": 0.0175,
-      "novelty": 0.0156
+      "harmony": 0.0526,
+      "novelty": 0.0467
     },
     "Bramble": {
       "ingredients": [
@@ -547,8 +547,8 @@
         "lemon",
         "sugar_syrup"
       ],
-      "harmony": 0.1852,
-      "novelty": 0.0147
+      "harmony": 0.5556,
+      "novelty": 0.0441
     },
     "Alexander": {
       "ingredients": [
@@ -565,8 +565,8 @@
         "lemon",
         "triple_sec"
       ],
-      "harmony": 0.6667,
-      "novelty": 0.473
+      "harmony": 0.5,
+      "novelty": 0.0777
     },
     "French Martini": {
       "ingredients": [
@@ -574,8 +574,8 @@
         "raspberry_liqueur",
         "vodka"
       ],
-      "harmony": 0.0196,
-      "novelty": 0.0106
+      "harmony": 0.0588,
+      "novelty": 0.0317
     },
     "Black Russian": {
       "ingredients": [
@@ -595,8 +595,8 @@
         "vodka",
         "worcestershire"
       ],
-      "harmony": 0.0195,
-      "novelty": 0.0106
+      "harmony": 0.0409,
+      "novelty": 0.0222
     },
     "Mai-tai": {
       "ingredients": [
@@ -606,8 +606,8 @@
         "triple_sec",
         "white_rum"
       ],
-      "harmony": 0.1092,
-      "novelty": 0.0377
+      "harmony": 0.0867,
+      "novelty": 0.0308
     },
     "Barracuda": {
       "ingredients": [
@@ -617,8 +617,8 @@
         "pineapple",
         "sparkling_wine"
       ],
-      "harmony": 0.1354,
-      "novelty": 0.096
+      "harmony": 0.0948,
+      "novelty": 0.0668
     },
     "Sex on the Beach": {
       "ingredients": [
@@ -627,8 +627,8 @@
         "peach_schnapps",
         "vodka"
       ],
-      "harmony": 0.0119,
-      "novelty": 0.0092
+      "harmony": 0.0238,
+      "novelty": 0.0184
     },
     "Monkey Gland": {
       "ingredients": [
@@ -637,8 +637,8 @@
         "grenadine",
         "orange"
       ],
-      "harmony": 0.1973,
-      "novelty": 0.062
+      "harmony": 0.11,
+      "novelty": 0.0319
     },
     "Derby": {
       "ingredients": [
@@ -654,8 +654,8 @@
         "lemon",
         "triple_sec"
       ],
-      "harmony": 0.2129,
-      "novelty": 0.0355
+      "harmony": 0.1858,
+      "novelty": 0.0303
     },
     "Irish Coffee": {
       "ingredients": [
@@ -674,8 +674,8 @@
         "peychauds_bitters",
         "sugar_syrup"
       ],
-      "harmony": 0.0971,
-      "novelty": 0.0509
+      "harmony": 0.1942,
+      "novelty": 0.1018
     },
     "Americano": {
       "ingredients": [
@@ -696,8 +696,8 @@
         "lime",
         "pineapple"
       ],
-      "harmony": 0.1448,
-      "novelty": 0.0817
+      "harmony": 0.0548,
+      "novelty": 0.0318
     },
     "French Connection": {
       "ingredients": [
@@ -723,8 +723,8 @@
         "soda_water",
         "sugar_syrup"
       ],
-      "harmony": 0.0926,
-      "novelty": 0.0073
+      "harmony": 0.5556,
+      "novelty": 0.0441
     },
     "Mint Julep": {
       "ingredients": [
@@ -732,8 +732,8 @@
         "mint",
         "sugar_syrup"
       ],
-      "harmony": 0.037,
-      "novelty": 0.0253
+      "harmony": 0.1111,
+      "novelty": 0.0759
     },
     "Tommy's Margarita": {
       "ingredients": [
@@ -741,8 +741,8 @@
         "lime",
         "tequila"
       ],
-      "harmony": 0.375,
-      "novelty": 0.2328
+      "harmony": 0.0625,
+      "novelty": 0.0124
     },
     "Paradise": {
       "ingredients": [
@@ -750,8 +750,8 @@
         "gin",
         "orange"
       ],
-      "harmony": 0.1909,
-      "novelty": 0.039
+      "harmony": 0.1671,
+      "novelty": 0.0322
     },
     "Dirty Martini": {
       "ingredients": [
@@ -759,8 +759,8 @@
         "olive",
         "vodka"
       ],
-      "harmony": 0.0159,
-      "novelty": 0.0123
+      "harmony": 0.0476,
+      "novelty": 0.0369
     },
     "Champagne Cocktail": {
       "ingredients": [
@@ -769,8 +769,8 @@
         "sparkling_wine",
         "sugar_syrup"
       ],
-      "harmony": 0.0741,
-      "novelty": 0.0336
+      "harmony": 0.1482,
+      "novelty": 0.0672
     },
     "Mary Pickford": {
       "ingredients": [
@@ -779,8 +779,8 @@
         "pineapple",
         "white_rum"
       ],
-      "harmony": 0.1452,
-      "novelty": 0.0638
+      "harmony": 0.0985,
+      "novelty": 0.0422
     },
     "Hemingway Special": {
       "ingredients": [
@@ -789,8 +789,8 @@
         "maraschino",
         "white_rum"
       ],
-      "harmony": 0.1127,
-      "novelty": 0.0442
+      "harmony": 0.0838,
+      "novelty": 0.0336
     },
     "Dark 'n' Stormy": {
       "ingredients": [
@@ -811,8 +811,8 @@
         "sugar_syrup",
         "vanilla"
       ],
-      "harmony": 0.0735,
-      "novelty": 0.0205
+      "harmony": 0.1003,
+      "novelty": 0.027
     },
     "Russian Spring Punch": {
       "ingredients": [
@@ -821,8 +821,8 @@
         "sugar_syrup",
         "vodka"
       ],
-      "harmony": 0.0208,
-      "novelty": 0.0171
+      "harmony": 0.125,
+      "novelty": 0.1026
     },
     "God Father": {
       "ingredients": [
@@ -839,8 +839,8 @@
         "cranberry",
         "lime"
       ],
-      "harmony": 0.3086,
-      "novelty": 0.2375
+      "harmony": 0.1754,
+      "novelty": 0.1352
     },
     "Dry Martini": {
       "ingredients": [
@@ -857,8 +857,8 @@
         "triple_sec",
         "white_rum"
       ],
-      "harmony": 0.2066,
-      "novelty": 0.0584
+      "harmony": 0.1775,
+      "novelty": 0.0513
     },
     "Casino": {
       "ingredients": [
@@ -867,8 +867,8 @@
         "maraschino",
         "orange_bitters"
       ],
-      "harmony": 0.2967,
-      "novelty": 0.0714
+      "harmony": 0.1727,
+      "novelty": 0.0407
     },
     "Caipirinha": {
       "ingredients": [
@@ -888,8 +888,8 @@
         "tomato",
         "worcestershire"
       ],
-      "harmony": 0.0487,
-      "novelty": 0.0191
+      "harmony": 0.0614,
+      "novelty": 0.0245
     },
     "Kamikaze": {
       "ingredients": [
@@ -897,8 +897,8 @@
         "triple_sec",
         "vodka"
       ],
-      "harmony": 0.1333,
-      "novelty": 0.0213
+      "harmony": 0.4,
+      "novelty": 0.064
     },
     "White Lady": {
       "ingredients": [
@@ -906,8 +906,8 @@
         "lemon",
         "triple_sec"
       ],
-      "harmony": 0.5019,
-      "novelty": 0.0733
+      "harmony": 0.2954,
+      "novelty": 0.0425
     },
     "Harvey Wallbanger": {
       "ingredients": [
@@ -915,8 +915,8 @@
         "orange",
         "vodka"
       ],
-      "harmony": 0.029,
-      "novelty": 0.0214
+      "harmony": 0.087,
+      "novelty": 0.0641
     }
   }
 }
