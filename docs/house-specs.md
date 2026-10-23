@@ -255,7 +255,8 @@ liqueur : 5 agave, at about 14% less spirit cost per drink than a 70 ml pour.
 | 4.25 ml | 47.5 ml | agave nectar, straight (95 ml if your agave is cut 1:1) |
 | **60 ml** | **660 ml** | |
 
-**Into the tin:** 60 ml batch + 30 ml apricot purée + 15 ml lime. The purée
+**Into the tin:** 60 ml batch + 30 ml apricot purée + 15 ml lime + fire bitters (the drink's
+spice; number of dashes to confirm with Ari). The purée
 now has a fixed 9 g of acid per can (6 malic + 3 citric), which works out to 15 ml
 lime; fine-tune by taste. Shake hard and short (6–8 s; the ice in the glass does
 the rest of the dilution) and single-strain (Hawthorne only) over fresh
@@ -297,9 +298,10 @@ the purée (about 16 g/100 ml) are estimates, so check the bottle labels.
 - **Two notes are stacked on purpose,** each across different parts of the drink, so neither
   costs balance. Agave is in the base, the mezcal and the sweetener, as in a Tommy's. Apricot is
   in the purée and the liqueur, with the Floc's stone fruit behind them.
-- **The menu says "Spicy", but nothing in this spec is hot.** Either add Tajín to the outside of
-  half the rim, as in the C'est Chamoy R&D (chilli warmth and salt, which a margarita wants, and
-  the guest chooses each sip), or add one dash of fire bitters, or take "Spicy" off the line.
+- **The spice is the fire bitters** (Ari, 23 October; they were missing from this spec), so
+  "Spicy" on the menu is covered. For the same heat in every drink, the dashes can go into the
+  batch instead of the tin: dashes per drink × 11 per 700 ml bottle, at about 0.8 ml a dash. A
+  Tajín half-rim stays optional, for salt rather than heat.
 - **Cobber's reading:** harmony 0.038, low because Cobber has tequila, mezcal and agave as one
   entry (mezcal's smoke isn't modelled) and has no Floc. With a rough stand-in for the Floc
   (grape and brandy) it rises to 0.092, and the Floc becomes the bridge to the apricot, which
