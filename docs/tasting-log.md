@@ -178,12 +178,15 @@ working, the options and the sources are in `docs/recipes/pisco-ma-cherie-rework
 question for this session is whether the caramel (now in three parts of the drink: the Medium,
 the demerara and the Moro vinegar) sits under the strawberry or on top of it.
 
-**Glasses** (single serves: 41 ml pisco, 18 ml Elegante Medium, 31 ml shrub, then 75 ml soda,
-built as in the prep spec):
+**Glasses** (single serves: 41 ml pisco, 18 ml Elegante Medium and 31 ml shrub, mixed and
+chilled in the fridge, then 90 ml soda, built as in the prep spec; the cold batch and 90 ml soda
+are R1's service, in section 7 of the rework doc):
 - **A:** today's spec.
 - **B:** the same, with the white-sugar half shrub (500 g strawberries, 300 g white sugar, no
   demerara; the full recipe is in the rework doc).
 - **C (if strawberry gum is in):** B with 0.5 g strawberry gum in the half shrub's maceration.
+- **To see the fizz difference (optional):** one more A from a room-temperature batch with 75 ml
+  soda, today's service.
 
 **Cobber's predictions** (on the sourced data in `data/pisco_sherry_proposal.json`, which isn't
 applied yet):

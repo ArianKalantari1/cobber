@@ -192,8 +192,9 @@ This adds to the first-tasting checks in the prep spec.
   strawberries, 300 g white sugar and 1.5 g cracked pepper for 24 hours. Then add 60 ml Moro
   vinegar, 9 g citric, 3 g malic and 0.75 g salt. Rest both shrubs 2 days.
 - **Glass A:** today's spec. **Glass B:** the same, with the white-sugar shrub. For a single
-  serve, use 41 ml pisco, 18 ml Elegante Medium and 31 ml shrub (one 90 ml pour of batch), then
-  75 ml soda.
+  serve, mix 41 ml pisco, 18 ml Elegante Medium and 31 ml shrub (one 90 ml pour of batch), chill
+  it in the fridge, then top with 90 ml soda (R1's service, section 7). With a room-temperature
+  batch, use 75 ml soda as in the prep spec.
 - **If you have strawberry gum:** glass C is B with 0.5 g strawberry gum in the half shrub's
   maceration.
 - **For each glass:**
@@ -203,7 +204,34 @@ This adds to the first-tasting checks in the prep spec.
   - What colour is it?
 - Record the answers in [the tasting log](../tasting-log.md) (Session 2).
 
-## 7. Pisco with medium sherry elsewhere (web search, 23 October)
+## 7. Making it sell: the highball, version R1 (Ari, 23 October)
+
+Ari: the idea is valid, now make it more sellable, as the highball we've been discussing.
+Guests order it for strawberry, a tall cold fizz and a good colour. R1 changes only the things
+they'll notice. The batch and the strength stay as they are.
+
+| | Today's spec | R1 | Why it sells |
+|---|---|---|---|
+| Shrub sugar | 400 g white and 200 g demerara | 600 g white | Strawberry first and a redder glass. The Medium and the Moro still give the toffee underneath. |
+| Strawberry gum (optional) | none | 1 g in the maceration | Strawberry on the nose. Needs the owner's nod. |
+| Rail bottle | room temperature | kept cold (under-bench fridge or the ice well) | A cold batch melts about 4 g of ice instead of 21 g. That makes room for 90 ml of soda instead of 75: more fizz in the same drink. Cold also keeps the colour and fresh aroma longer. |
+| Soda | 75 ml | 90 ml | As above. |
+| Batch, glass, garnish | 320 ml pisco, 140 ml Medium, 240 ml shrub; highball full of cubes; dehydrated orange wheel and a pepper twist | unchanged | |
+
+Both make about 185–190 ml at about 10% ABV, 1.54 standard drinks and about 9 g of sugar per
+100 ml, close to a soft drink. It costs about $4 against a $23 price, and it's a quick build:
+batch, soda and garnish.
+
+**The line for staff:** "A tall pisco highball: fresh strawberry first, nutty sherry underneath,
+and a crack of black pepper on top." For anyone who asks more: most likely two Listán grapes in
+one glass (pisco's Quebranta and sherry's Palomino), and Smuggler's Cove's Fog Cutter floats this
+style of sherry on pisco. Leave "vinegar" out of the pitch, as on the menu, and "balsamic" too:
+that's the Mando Raspberry Fizz.
+
+**Taste it as:** glass B in Session 2 of the tasting log. Pour every glass in that session from a
+cold batch with 90 ml soda, so the glasses differ only in the shrub.
+
+## 8. Pisco with medium sherry elsewhere (web search, 23 October)
 
 Ari asked for drinks that pair pisco with a medium sherry. Few do; these are the closest,
 with the specs as published (none tasted here).
@@ -282,7 +310,7 @@ with the specs as published (none tasted here).
 - **Strawberry gum:** [Warndu](https://warndu.com/blogs/first-nations-food-guide/warndu-strawberry-gum);
   [Williamson Wines](https://williamsonwines.com/product/strawberry-gum) (a pinch of milled leaf;
   don't heat it for long).
-- **Pisco and sherry drinks (section 7):**
+- **Pisco and sherry drinks (section 8):**
   - Fog Cutter: [Classic Fog Cutter (Liq Culture)](https://liqculture.com/?p=4515),
     [SFist on Smuggler's Cove](https://sfist.com/2009/11/13/sfist_drinks_the_fogcutter_from_smu.php);
     Nutty Solera: [Difford's](https://www.diffordsguide.com/en-au/beer-wine-spirits/8510/gonzalez-byass-nutty-solera-medium-oloroso-sherry),
