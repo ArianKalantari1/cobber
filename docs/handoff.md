@@ -25,9 +25,17 @@ first for the project's thinking; this file is "where we are and what's next".*
   - confirming the amplification reading (to-do step 1b), Ari's idea from 23 October:
     stacking one note on purpose (agave in Tommy's, coffee in the Espresso Martini) is a
     technique, with balance kept;
-  - the M1/M2/B tasting, once back at work (Cobber's predictions are already in the tasting
-    log);
-  - the gin label, also at work;
+  - the Olivia tasting, once back at work: Ari's own 40-gin version (Manzanilla, amaretto, pear
+    liqueur, brine), then the rounds (Cobber's predictions are already in the tasting log);
+  - the gin label and the pear liqueur label, also at work;
+  - two data proposals, both PROVISIONAL and read by nothing yet:
+    - `data/backbar_proposal.json`: Bénédictine's bill, hazelnut, Frangelico, pear liqueur
+      and fig;
+    - `data/pisco_sherry_proposal.json`: sourced pisco, sherry, Medium sherry, sherry vinegar,
+      black pepper and cacao nibs (step 2's pisco = sherry fix), plus an optional linalool for
+      strawberry;
+  - the Pisco Ma Chérie tasting (Session 2 in the tasting log): a white-sugar shrub against
+    today's, with the re-score and options in `docs/recipes/pisco-ma-cherie-rework.md`;
   - the suggested task on the 22 entries whose "TODO: verify" sits only in `source`.
 
   The movers and the word list are approved: the baseline is re-saved and the words are
@@ -48,7 +56,10 @@ first for the project's thinking; this file is "where we are and what's next".*
   and Ari accepted the movers. To rerun them, check out commit `a528bce`.
 - **House specs:** `docs/house-specs.md` is now on this branch. It has the new Olivia
   direction (no wash, no basil, brine, test versions) and the prep corrections.
-  `claude/gava-nectar-syrup-59ddrp` has an older copy; keep this one.
+  `claude/gava-nectar-syrup-59ddrp` has an older copy; keep this one. Pisco Ma Chérie's full
+  prep spec and more spring R&D are on `claude/stoic-fermat-1l819l`. Section 4 of
+  `docs/recipes/spring-signatures-rnd.md` (Olivia with basil dots and 1:1 honey syrup) predates
+  the new Olivia direction here; mark it superseded when the branches merge.
 
 ## Bar R&D saved, and the data gaps it showed (21 October 2026)
 
