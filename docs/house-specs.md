@@ -9,9 +9,9 @@ None of it has been taste-tested yet unless a section says so.
 ## Olivia (venue owner's signature)
 
 **On the menu now:** Olive Oil Washed Gin, Amaretto, Honey, Lemon.
-**As made in practice:** 45 washed gin · 7.5 amaretto · 15 honey syrup · 20 lemon ·
-5 ml extra-virgin olive oil · foamer. The shaken oil gives a thick foam, but very
-little olive flavour.
+**As made in practice (Ari, 23 October):** 45 regular gin · 7.5 amaretto · 7.5 honey syrup ·
+10 lemon · 7.5 ml extra-virgin olive oil · foamer, with a basil leaf on the foam. There's no
+brine, so no salt. The shaken oil gives a thick foam, but very little olive flavour.
 
 **Where it's going:** a nutty, savoury, bright gin sour with the olive forward.
 The changes so far:
@@ -81,8 +81,9 @@ Amaretto, Maraschino, Lemon*.
 
 ### How Cobber scored it (and the three mistakes to avoid)
 
-The "corrected" scores above leave out redundant matches, so they sit lower than
-the early numbers (the current restaurant spec scores 0.072 on this scale).
+The "corrected" scores above are prototype numbers from 22 October. Cobber's counting has
+since been fixed (`docs/todo-scoring-upgrade.md`). For current scores of every version, and of
+the owner's original as made (0.075), see `docs/tasting-log.md`.
 
 1. **Citrus is not a bridge.** The house gin is very citrus-forward. Cobber's gin,
    limoncello, lemon, lime and dry vermouth all carry lemon compounds, so raw

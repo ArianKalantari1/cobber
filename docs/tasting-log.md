@@ -45,6 +45,19 @@ Standard drinks assume Manzanilla at 15%, apricot brandy at 24% and crème de p�
 extra-virgin olive oil and foamer. Reverse dry shake, double-strain into a chilled
 150–180 ml coupe, then a green olive on a pick and one pump of olive oil mist.
 
+### Control: the owner's original, as made
+
+45 ml regular gin, 7.5 ml amaretto, 7.5 ml honey syrup, 10 ml lemon, 7.5 ml extra-virgin
+olive oil and foamer, with a basil leaf on the foam. There's no brine. About 1.59 standard
+drinks. Taste it next to every round, so each change is judged against what's served today.
+
+**Cobber's prediction:** harmony 0.075 and novelty 0.042, the lowest of the session. The basil
+leaf links only weakly to the rest (lemon 0.09, gin 0.09, olive 0.04): without it the original
+scores 0.101. Every new version beats it by 0.024 to 0.044 on harmony and by 16% to 65% on
+novelty. Two differences Cobber doesn't score but you will taste: it has no salt, and with
+10 ml lemon against 15 ml of sweet it is gentler and more spirit-forward than the new
+versions, which are full sours at 20 ml lemon.
+
 ### Round 1: what carries the olive best (the modifier)
 
 | | M1: dry vermouth | S: Manzanilla | M2: no modifier |
@@ -99,16 +112,17 @@ this bridge, so this round is the palate's call.
 
 ### Results (Ari)
 
-| | M1 | S | M2 | S-apricot | S-pêche | B |
-|---|---|---|---|---|---|---|
-| Verdict | | | | | | |
-| Too bright? | | | | | | |
-| Nutty note level with citrus? | | | | | | |
-| Olive there? | | | | | | |
-| Fruit with the olive? | | | | | | |
-| Sweet / sour / strong | | | | | | |
+| | Original | M1 | S | M2 | S-apricot | S-pêche | B |
+|---|---|---|---|---|---|---|---|
+| Verdict | | | | | | | |
+| Too bright? | | | | | | | |
+| Nutty note level with citrus? | | | | | | | |
+| Olive there? | | | | | | | |
+| Fruit with the olive? | | | | | | | |
+| Sweet / sour / strong | | | | | | | |
 
 **Menu pick and changes:**
 
 **Next, on the winner (from the house specs):** brine at 5 / 7.5 / 10 ml (more brine is the
-first lever if the olive or salt still hides), then olive oil at 5 against 10 ml.
+first lever if the olive or salt still hides), then olive oil at 5 / 7.5 (the owner's dose) /
+10 ml.
