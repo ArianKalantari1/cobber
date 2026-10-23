@@ -9,9 +9,12 @@ None of it has been taste-tested yet unless a section says so.
 ## Olivia (venue owner's signature)
 
 **On the menu now:** Olive Oil Washed Gin, Amaretto, Honey, Lemon.
-**As made in practice (Ari, 23 October):** 45 regular gin · 7.5 amaretto · 7.5 honey syrup ·
-10 lemon · 7.5 ml extra-virgin olive oil · foamer, with a basil leaf on the foam. There's no
-brine, so no salt. The shaken oil gives a thick foam, but very little olive flavour.
+**The owner's original:** 45 regular gin · 7.5 amaretto · 7.5 honey syrup · 10 lemon ·
+7.5 ml extra-virgin olive oil · foamer, with a basil leaf on the foam. It comes out short
+and light on flavour.
+**As Ari makes it now:** 45 olive-oil-washed gin · 7.5 amaretto · 15 honey syrup · 20 lemon ·
+7.5 ml extra-virgin olive oil · foamer. That gives more volume and more flavour. There's no
+brine, so no salt, and the shaken oil gives a thick foam but very little olive flavour.
 
 **Where it's going:** a nutty, savoury, bright gin sour with the olive forward.
 The changes so far:
@@ -23,8 +26,9 @@ The changes so far:
 - **Green olive brine for the olive.** It replaces the saline: no salt and no
   saline once the brine is in. Brine brings the olive itself, which is what guests
   recognise, not olive oil.
-- **One more liqueur next to the amaretto.** Maraschino or crème de pêche,
-  never both.
+- **One more fruit next to the amaretto.** Maraschino or fresh pear (23 October),
+  never both. Apricot is taken (the apricot spicy margarita), and peach is already in
+  the Sangria Branco.
 - **Less gin (30 ml).** 45 ml of gin with the liqueurs came to about 2.2 standard
   drinks. At 30 ml it is about 1.6–1.7.
 - **No orange bitters.** They made no difference in any scoring.
@@ -44,8 +48,10 @@ The changes so far:
 | Green olive brine | 7.5 ml | 7.5 ml | 7.5 ml |
 | **Batch pour** | **75 ml** | **62.5 ml** | **65 ml** |
 
-**Service (all versions):** batch pour + 20 ml lemon + foamer + 5 ml extra-virgin
-olive oil. Reverse dry shake, double-strain into a chilled 150–180 ml coupe.
+For the current tasting plan, with S (Manzanilla) and S-pear, see `docs/tasting-log.md`.
+
+**Service (all versions):** batch pour + 20 ml lemon + foamer + 7.5 ml extra-virgin
+olive oil (Ari's dose). Reverse dry shake, double-strain into a chilled 150–180 ml coupe.
 Garnish with a green olive on a pick across the rim and 1 pump of extra-virgin
 olive oil from an oil mister (e.g. the Cuisine::Pro Savor Oil Mister,
 Woolworths).
@@ -56,7 +62,7 @@ Woolworths).
 2. Brine on the winner: 7.5 ml for Castelvetrano brine, 5 ml for ordinary green
    olive brine (it's saltier). Go up by taste. If it tastes flat, add more brine,
    not salt.
-3. Olive oil on the winner: 5 ml against 10 ml.
+3. Olive oil on the winner: 5, 7.5 (Ari's dose) and 10 ml.
 
 ### Batch (the winner only)
 
@@ -82,8 +88,8 @@ Amaretto, Maraschino, Lemon*.
 ### How Cobber scored it (and the three mistakes to avoid)
 
 The "corrected" scores above are prototype numbers from 22 October. Cobber's counting has
-since been fixed (`docs/todo-scoring-upgrade.md`). For current scores of every version, and of
-the owner's original as made (0.075), see `docs/tasting-log.md`.
+since been fixed (`docs/todo-scoring-upgrade.md`). For current scores of every version, Ari's
+current spec (0.101) and the owner's original (0.075), see `docs/tasting-log.md`.
 
 1. **Citrus is not a bridge.** The house gin is very citrus-forward. Cobber's gin,
    limoncello, lemon, lime and dry vermouth all carry lemon compounds, so raw
