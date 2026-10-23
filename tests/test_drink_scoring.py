@@ -46,7 +46,7 @@ def test_repeats_decay_first_link_full_then_half():
         return {"ingredients": [name], "compounds": {"x"}, "reasons": []}
 
     for k, total_credit in ((2, 1.0), (3, 1.5), (4, 1.75)):
-        scored = engine._score_voices([voice(f"v{i}") for i in range(k)])
+        scored = engine._score_voices([voice(f"v{i}") for i in range(k)], detail=True)
         assert sum(pair["harmony"] for pair in scored["pairs"]) == pytest.approx(total_credit)
 
 
@@ -95,3 +95,91 @@ def test_every_iba_drink_scores_without_blocking():
         scores = engine._score_combination(row["literal"])
         assert 0.0 <= scores["harmony"] <= 1.0, row["drink"]
         assert 0.0 <= scores["novelty"] <= scores["harmony"], row["drink"]
+
+
+# ---------------------------------------------------------------------------
+# build_around: only new voices are offered, and identity guards hold
+# ---------------------------------------------------------------------------
+
+OLIVIA_BAR = [
+    "gin", "amaretto", "lemon", "olive", "limoncello", "honey", "almond", "maraschino",
+    "peach_schnapps", "vanilla", "dry_vermouth", "sugar_syrup", "brandy", "coffee_liqueur",
+    "coriander_seed",
+]
+
+
+def _olivia(**guards):
+    """Develop Olivia: gin and amaretto as anchors, lemon and olive locked."""
+    return engine.build_around(OLIVIA_BAR, ["gin", "amaretto"], n=100, locked=["lemon", "olive"], **guards)
+
+
+def _offered(results):
+    return {ingredient for result in results for ingredient in result["ingredients"]}
+
+
+def test_copies_are_not_offered_as_new_ideas():
+    """Limoncello only repeats the lemon, almond the amaretto, coriander the gin. Honey is new."""
+    offered = _offered(_olivia(max_additions=1))
+    assert not {"limoncello", "almond", "coriander_seed"} & offered
+    assert "honey" in offered
+
+
+def test_structure_items_are_not_offered():
+    assert "sugar_syrup" not in _offered(_olivia())
+
+
+def test_locked_items_are_always_kept():
+    for result in _olivia():
+        assert {"gin", "amaretto", "lemon", "olive"} <= set(result["ingredients"])
+
+
+def test_excluded_items_are_never_added():
+    results = _olivia(exclude=["brandy", "coffee_liqueur"])
+    assert results
+    assert not {"brandy", "coffee_liqueur"} & _offered(results)
+
+
+def test_max_spirits_keeps_a_single_base():
+    assert "brandy" in _offered(_olivia())
+    assert "brandy" not in _offered(_olivia(max_spirits=1))
+
+
+def test_max_additions_sets_how_far_the_drink_grows():
+    assert max(len(result["ingredients"]) for result in _olivia(max_additions=3)) == 7
+    assert [len(result["ingredients"]) for result in _olivia(max_additions=0)] == [4]
+
+
+def test_suggestion_scores_match_the_drink_score():
+    for result in _olivia()[:10]:
+        assert result["scores"] == engine._score_combination(result["ingredients"])
+
+
+@pytest.mark.parametrize(
+    "guards, message",
+    [
+        ({"exclude": ["lemon"]}, "excluded"),
+        ({"max_spirits": 0}, "max_spirits"),
+        ({"max_additions": -1}, "max_additions"),
+    ],
+)
+def test_contradictory_guards_are_refused(guards, message):
+    with pytest.raises(ValueError, match=message):
+        _olivia(**guards)
+
+
+def test_locked_items_must_be_in_the_pantry():
+    with pytest.raises(ValueError, match="Locked ingredient"):
+        engine.build_around(["gin", "amaretto"], ["gin", "amaretto"], locked=["olive"])
+
+
+def test_oversized_search_is_refused_not_sampled():
+    with pytest.raises(ValueError, match="combinations"):
+        engine.build_around(engine.PANTRY.all_ids(), ["gin", "lemon"], max_additions=4)
+
+
+def test_same_voice_anchors_are_reported_not_rejected():
+    results = engine.build_around(["amaretto", "almond", "lemon"], ["amaretto", "almond"], n=3)
+    assert results
+    for result in results:
+        assert {"amaretto", "almond"} in [set(voice["ingredients"]) for voice in result["same_voice"]]
+        assert "amaretto+almond" not in result["why"]

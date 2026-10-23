@@ -48,3 +48,16 @@ def test_bar_menu_examples_cite_the_venue():
         " by Kevin Diedrich"
     )
     assert server._attribution({"drink": "Untitled"}) == ""
+
+
+def test_suggest_from_pantry_passes_the_identity_guards():
+    """locked/exclude/max_spirits reach the engine; contradictions come back as errors."""
+    pantry = ["gin", "amaretto", "lemon", "olive", "honey", "brandy", "maraschino"]
+    result = server.suggest_from_pantry(
+        pantry, ["gin", "amaretto"], n=20, locked=["lemon", "olive"], exclude=["honey"], max_spirits=1
+    )
+    offered = {i for suggestion in result["suggestions"] for i in suggestion["ingredients"]}
+    assert {"gin", "amaretto", "lemon", "olive"} <= offered
+    assert not {"honey", "brandy"} & offered
+    refused = server.suggest_from_pantry(pantry, ["gin", "amaretto"], locked=["lemon"], exclude=["lemon"])
+    assert "error" in refused

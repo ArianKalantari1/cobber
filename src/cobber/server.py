@@ -76,7 +76,9 @@ Workflow when someone tells you what they have:
 3. Call `suggest_from_pantry` with the full pantry and the anchors. Offer the
    native twist if they didn't ask for it. Each suggestion's `balance` includes
    a `structure` reading and `taste_notes` — relay any hazard notes (split risk,
-   savoury counterweights) as practical bar advice, not fine print.
+   savoury counterweights) as practical bar advice, not fine print. When
+   developing an existing drink, keep its identity with the guards (`locked`,
+   `exclude`, `max_spirits`) rather than letting the search wander off it.
 4. When a suggestion scores high on novelty, call `frontier_support` on its key
    pair: if craft bartenders have done it, cite the named example; if not, say
    it's genuinely untried as far as the data knows. That distinction is the
@@ -269,6 +271,10 @@ def suggest_from_pantry(
     anchors: list[str],
     native_twist: bool = False,
     n: int = 5,
+    locked: list[str] | None = None,
+    exclude: list[str] | None = None,
+    max_spirits: int | None = None,
+    max_additions: int = engine.MAX_ADDITIONS,
 ) -> dict:
     """Suggest drink combinations built around 2-3 nominated anchors.
 
@@ -277,12 +283,33 @@ def suggest_from_pantry(
     harmony and novelty, each with a chemistry rationale and a balance check. Set
     ``native_twist`` to prefer Australian natives or attach a bridging native.
 
+    Additions are new aroma ideas only: sugar, soda and other no-aroma items, and
+    anything that just repeats an aroma already in the drink, are never offered
+    (``same_voice`` on each suggestion shows repeats among the anchors). Add
+    structure yourself when writing the recipe.
+
+    Identity guards, for developing an existing drink without losing it:
+    ``locked`` ids are always kept (any number), ``exclude`` ids are never added
+    (e.g. dark modifiers for a pale drink), ``max_spirits`` caps base spirits
+    (1 keeps a single base), and ``max_additions`` sets how many ingredients may
+    be added (default 2; 3-4 for R&D, which is slower).
+
     Returns ``{"suggestions": [...]}`` on success, or ``{"error": message}`` if
-    the anchor list is not 2-3 ids or an anchor is not in the pantry — in which
-    case relay the message and ask the user to pick 2-3 anchors.
+    the anchor list is not 2-3 ids, an anchor or locked id is not in the pantry,
+    the guards contradict each other, or the search is too large. Relay the
+    message: ask the user to pick 2-3 anchors, or narrow the search.
     """
     try:
-        suggestions = engine.build_around(pantry, anchors, native_twist, n)
+        suggestions = engine.build_around(
+            pantry,
+            anchors,
+            native_twist,
+            n,
+            locked=locked,
+            exclude=exclude,
+            max_spirits=max_spirits,
+            max_additions=max_additions,
+        )
     except ValueError as exc:
         return {"error": str(exc)}
     # Personal layer (additive): score each suggestion against this install's

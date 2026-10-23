@@ -27,8 +27,13 @@ from . import data
 PANTRY = data.load_pantry()
 
 # How many extra pantry ingredients (beyond the anchors) a suggested drink may
-# add. Real drinks are short, so we keep candidate combinations small.
+# add by default. Real drinks are short, so we keep candidate combinations small.
 MAX_ADDITIONS = 2
+
+# build_around searches exhaustively rather than sampling, so it refuses a
+# search too big to answer quickly instead of quietly cutting corners. The fix
+# is a narrower pantry (`exclude`) or fewer additions.
+MAX_CANDIDATES = 150_000
 
 
 def profile(ingredient_id: str) -> set[str]:
@@ -767,10 +772,13 @@ def _why(ingredient_ids: list[str]) -> dict[str, list[str]]:
 
     Returns a mapping of ``"a+b" -> [shared, compounds]`` for every pair in the
     combination that actually shares something. Pairs that share nothing are
-    omitted so the host Claude only sees the bridges that exist.
+    omitted so the host Claude only sees the bridges that exist, and so are
+    same-voice pairs: they reinforce one note rather than bridge two.
     """
     rationale: dict[str, list[str]] = {}
     for a, b in combinations(ingredient_ids, 2):
+        if same_voice(a, b) is not None:
+            continue
         _, shared = harmony(a, b)
         if shared:
             rationale[f"{a}+{b}"] = sorted(shared)
@@ -896,7 +904,13 @@ def voices(ingredient_ids: list[str]) -> tuple[list[dict], list[str]]:
     return drink_voices, structure_only
 
 
-def _score_voices(drink_voices: list[dict]) -> dict:
+@lru_cache(maxsize=None)
+def _repeat_weight(carriers: int) -> float:
+    """Per-pair credit for a compound carried by this many voices (see REPEAT_DECAY)."""
+    return sum(REPEAT_DECAY**j for j in range(carriers - 1)) / math.comb(carriers, 2)
+
+
+def _score_voices(drink_voices: list[dict], detail: bool = False) -> dict:
     """Score every pair of voices, with repeated compounds counted on a decay.
 
     Each compound's credit is ``1 + REPEAT_DECAY + REPEAT_DECAY**2 + ...`` (one
@@ -905,35 +919,39 @@ def _score_voices(drink_voices: list[dict]) -> dict:
     union, so a two-voice drink scores exactly its Jaccard. A pair's novelty
     discounts that by the most traditional link between the two voices.
 
-    Returns ``{"harmony", "novelty", "pairs": [...], "repeated": {compound:
-    carriers}}``; ``repeated`` lists compounds carried by three or more voices,
-    the ones whose credit was decayed.
+    Returns ``{"harmony", "novelty"}`` (means over the voice pairs). With
+    ``detail`` it adds ``"pairs"`` (per voice pair: voices, harmony, novelty,
+    shared compounds) and ``"repeated"`` (compound -> carriers, for compounds
+    carried by three or more voices: the ones whose credit was decayed).
     """
     carriers = Counter(c for voice in drink_voices for c in voice["compounds"])
-    weights = {
-        c: sum(REPEAT_DECAY**j for j in range(k - 1)) / math.comb(k, 2)
-        for c, k in carriers.items()
-        if k >= 2
-    }
+    weights = {c: _repeat_weight(k) for c, k in carriers.items() if k >= 2}
+    harmony_total = novelty_total = 0.0
+    pair_count = 0
     pairs: list[dict] = []
     for a, b in combinations(drink_voices, 2):
+        pair_count += 1
         shared = a["compounds"] & b["compounds"]
+        if not shared:
+            if detail:
+                pairs.append({"voices": (a["ingredients"], b["ingredients"]),
+                              "harmony": 0.0, "novelty": 0.0, "shared": shared})
+            continue
         value = sum(weights[c] for c in shared) / len(a["compounds"] | b["compounds"])
         classic = max(tradition(x, y) for x in a["ingredients"] for y in b["ingredients"])
-        pairs.append(
-            {
-                "voices": (a["ingredients"], b["ingredients"]),
-                "harmony": value,
-                "novelty": value * (1.0 - classic),
-                "shared": shared,
-            }
-        )
-    return {
-        "harmony": _mean([p["harmony"] for p in pairs]),
-        "novelty": _mean([p["novelty"] for p in pairs]),
-        "pairs": pairs,
-        "repeated": {c: k for c, k in carriers.items() if k >= 3},
+        harmony_total += value
+        novelty_total += value * (1.0 - classic)
+        if detail:
+            pairs.append({"voices": (a["ingredients"], b["ingredients"]),
+                          "harmony": value, "novelty": value * (1.0 - classic), "shared": shared})
+    scored = {
+        "harmony": harmony_total / pair_count if pair_count else 0.0,
+        "novelty": novelty_total / pair_count if pair_count else 0.0,
     }
+    if detail:
+        scored["pairs"] = pairs
+        scored["repeated"] = {c: k for c, k in carriers.items() if k >= 3}
+    return scored
 
 
 def _score_combination(ingredient_ids: list[str]) -> dict[str, float]:
@@ -950,25 +968,45 @@ def _score_combination(ingredient_ids: list[str]) -> dict[str, float]:
     }
 
 
+def _is_spirit(ingredient_id: str) -> bool:
+    ingredient = PANTRY.get(ingredient_id)
+    return ingredient is not None and ingredient.role == "spirit"
+
+
 def build_around(
     pantry_ids: list[str],
     anchor_ids: list[str],
     native_twist: bool = False,
     n: int = 5,
+    locked: list[str] | None = None,
+    exclude: list[str] | None = None,
+    max_spirits: int | None = None,
+    max_additions: int = MAX_ADDITIONS,
 ) -> list[dict]:
     """Suggest drink combinations built around the nominated anchors.
 
-    Only combinations that contain *every* anchor are considered. Each candidate
-    is the anchors plus up to :data:`MAX_ADDITIONS` other pantry ingredients,
-    scored by a blend of mean pairwise harmony and novelty. The balance heuristic
-    annotates each result; the top ``n`` are returned.
+    Every candidate holds all the anchors and any ``locked`` ingredients, plus up
+    to ``max_additions`` other pantry ingredients, and is ranked by its
+    drink-level harmony plus novelty (see :func:`_score_combination`). The
+    search is exhaustive; only the top ``n`` are annotated and returned.
+
+    An addition must bring a new aroma voice. An ingredient with no aroma
+    profile (sugar, soda, salt), or one that only repeats something already in
+    the drink (limoncello next to lemon, coriander seed next to gin), is not
+    offered as an idea. Anchors and locked ingredients are never second-guessed.
+
+    Identity guards keep a drink itself: ``locked`` ingredients are always in
+    (any number; the 2-3 anchors stay the heart of the brief), ``exclude`` ids
+    are never added (the host decides what is off-identity, such as a dark
+    modifier), and ``max_spirits`` caps the ``spirit``-role ingredients.
 
     When ``native_twist`` is on, combinations that already include an Australian
     native are nudged up the ranking, and any combination without one gets a
     ``native_swap`` suggestion: a native that bridges to the anchors.
 
-    Raises ``ValueError`` if the anchor count is not 2 or 3, or if an anchor is
-    not present in ``pantry_ids``.
+    Raises ``ValueError`` if the anchor count is not 2 or 3, if an anchor or a
+    locked ingredient is not in ``pantry_ids``, if the guards contradict each
+    other, or if the search would exceed :data:`MAX_CANDIDATES`.
 
     Each result item is::
 
@@ -976,7 +1014,10 @@ def build_around(
             "ingredients": [...ids],
             "scores": {"harmony": float, "novelty": float},
             "why": {"a+b": ["shared", "compounds"], ...},
+            "same_voice": [{"ingredients": [...], "reasons": [...]}],
             "balance": {...},
+            "template": {...} | None,
+            "technique": {...} | None,
             "native_swap": {...} | None,
         }
     """
@@ -990,48 +1031,90 @@ def build_around(
                 f"Anchor {anchor!r} is not in the pantry; anchors must be a "
                 "subset of what the user actually has."
             )
+    for item in locked or []:
+        if item not in pantry_ids:
+            raise ValueError(
+                f"Locked ingredient {item!r} is not in the pantry; locked "
+                "ingredients must be a subset of what the user actually has."
+            )
+    fixed = list(dict.fromkeys([*anchor_ids, *(locked or [])]))
+    excluded = set(exclude or [])
+    clash = [item for item in fixed if item in excluded]
+    if clash:
+        raise ValueError(f"{clash} are both kept (anchor or locked) and excluded; pick one.")
+    if max_additions < 0:
+        raise ValueError("max_additions must be 0 or more.")
+    fixed_spirits = sum(1 for item in fixed if _is_spirit(item))
+    if max_spirits is not None and fixed_spirits > max_spirits:
+        raise ValueError(
+            f"The anchors and locked ingredients already hold {fixed_spirits} spirits, "
+            f"more than max_spirits={max_spirits}."
+        )
 
-    additions = [pid for pid in pantry_ids if pid not in anchor_ids]
+    # Only ingredients that would bring a new voice to the fixed core are offered.
+    pool = [
+        pid
+        for pid in dict.fromkeys(pantry_ids)
+        if pid not in fixed
+        and pid not in excluded
+        and profile(pid)
+        and not any(same_voice(pid, item) for item in fixed)
+    ]
+    total = sum(math.comb(len(pool), k) for k in range(max_additions + 1))
+    if total > MAX_CANDIDATES:
+        raise ValueError(
+            f"That search has {total:,} combinations (the limit is {MAX_CANDIDATES:,}). "
+            "Narrow the pantry with `exclude`, or lower `max_additions`."
+        )
 
-    candidates: list[dict] = []
-    # The anchors alone are a valid drink, as are the anchors plus 1..MAX_ADDITIONS
-    # bridging ingredients from the rest of the pantry.
-    for k in range(0, MAX_ADDITIONS + 1):
-        for extra in combinations(additions, k):
-            ingredient_ids = anchor_ids + list(extra)
-            scores = _score_combination(ingredient_ids)
+    # Every addition is its own voice, so a candidate's voices are the core's plus
+    # one per addition: the core is grouped once, not per candidate.
+    base_voices, _ = voices(fixed)
+    single_voices = {pid: {"ingredients": [pid], "compounds": profile(pid), "reasons": []} for pid in pool}
+    ranked: list[tuple[float, list[str], dict[str, float], bool]] = []
+    # The fixed core alone is a valid drink, as is the core plus 1..max_additions
+    # new voices from the rest of the pantry.
+    for k in range(0, max_additions + 1):
+        for extra in combinations(pool, k):
+            if any(same_voice(a, b) for a, b in combinations(extra, 2)):
+                continue
+            ingredient_ids = fixed + list(extra)
+            if max_spirits is not None and fixed_spirits + sum(map(_is_spirit, extra)) > max_spirits:
+                continue
+            scored = _score_voices(base_voices + [single_voices[pid] for pid in extra])
+            scores = {"harmony": round(scored["harmony"], 4), "novelty": round(scored["novelty"], 4)}
             has_native = any(
                 (ing := PANTRY.get(i)) is not None and ing.is_native
                 for i in ingredient_ids
             )
-
             # The ranking key blends harmony and novelty. Under native-twist we
             # add a bonus for combinations that already contain a native.
             rank = scores["harmony"] + scores["novelty"]
             if native_twist and has_native:
                 rank += 0.5
+            ranked.append((rank, ingredient_ids, scores, has_native))
 
-            native_swap = None
-            if native_twist and not has_native:
-                native_swap = _native_swap_for(anchor_ids)
-
-            candidates.append(
-                {
-                    "ingredients": ingredient_ids,
-                    "scores": scores,
-                    "why": _why(ingredient_ids),
-                    "balance": balance(ingredient_ids),
-                    "template": suggest_template(ingredient_ids),
-                    "technique": suggest_technique(ingredient_ids),
-                    "native_swap": native_swap,
-                    "_rank": rank,
-                }
-            )
-
-    # Highest combined score first; drop the private ranking key from the output.
-    candidates.sort(key=lambda c: c["_rank"], reverse=True)
+    # Highest combined score first (a stable sort, so ties keep search order).
+    # Annotation is the costly part, so only the top n get it.
+    ranked.sort(key=lambda item: item[0], reverse=True)
     results = []
-    for candidate in candidates[:n]:
-        candidate.pop("_rank", None)
-        results.append(candidate)
+    for _, ingredient_ids, scores, has_native in ranked[:n]:
+        results.append(
+            {
+                "ingredients": ingredient_ids,
+                "scores": scores,
+                "why": _why(ingredient_ids),
+                "same_voice": [
+                    {"ingredients": voice["ingredients"], "reasons": voice["reasons"]}
+                    for voice in voices(ingredient_ids)[0]
+                    if len(voice["ingredients"]) > 1
+                ],
+                "balance": balance(ingredient_ids),
+                "template": suggest_template(ingredient_ids),
+                "technique": suggest_technique(ingredient_ids),
+                "native_swap": (
+                    _native_swap_for(anchor_ids) if native_twist and not has_native else None
+                ),
+            }
+        )
     return results
