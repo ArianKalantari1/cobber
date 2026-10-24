@@ -292,6 +292,9 @@ the purée (about 16 g/100 ml) are estimates, so check the bottle labels.
 
 ### Checked 23 October (Ari asked: is it balanced?)
 
+These numbers are for the proposed batch above. The build Ari actually pours is in the next
+section.
+
 - **Balance holds on paper.** A drink is about 12 g of sugar against 1.5 g of acid (about 8:1),
   roughly 9 g of sugar per 100 ml and 1.1% acid, at 1.5 standard drinks. That's margarita
   territory, a little drier than a Tommy's. Set the lime by taste for each new can of apricots.
@@ -307,6 +310,34 @@ the purée (about 16 g/100 ml) are estimates, so check the bottle labels.
   (grape and brandy) it rises to 0.092, and the Floc becomes the bridge to the apricot, which
   backs keeping it at 13 ml. The pairings are familiar ones (tradition: tequila and apricot 0.26,
   apricot and lime 0.60), which makes it an easy sell.
+
+### As Ari makes it (24 October)
+
+40 ml tequila, 10 ml mezcal, 15 ml Floc de Gascogne, 3 dashes fire bitters, the apricot purée
+(citric and malic boosted) and 20 ml lime. Shaken, on the rocks, with a Tajín rim. No apricot
+liqueur and no agave syrup. To confirm with Ari: the purée dose (30 ml assumed below) and whether
+agave goes in, since the menu line names it.
+
+**The numbers** (estimates; tequila 40%, mezcal 45%, bitters 45% at 0.8 ml a dash):
+
+| | Standard drinks | Sugar | Acid | Sugar : acid | Sugar per 100 ml |
+|---|---|---|---|---|---|
+| As made | 1.9 | about 7 g | about 1.7 g | about 4 : 1 | about 5 g |
+| + 5 ml agave | 1.9 | about 12 g | about 1.7 g | about 7 : 1 | about 8 g |
+| + 5 ml agave, lime 15 ml | 1.9 | about 12 g | about 1.4 g | about 8.5 : 1 | about 8 g |
+| Tequila 30 ml, + 5 ml agave | 1.6 | about 12 g | about 1.7 g | about 7 : 1 | about 9 g |
+
+**Reading:**
+- **As made, it's a strong, tart margarita.** About 4 : 1 is sharper than a triple-sec Margarita
+  (about 5 : 1) and well short of a Tommy's (about 8 : 1). The Tajín's salt softens the acid a
+  little, but the chilli and bitters make it read drier still. "Juicy" on the menu points the other
+  way.
+- **The quickest fix is the agave the menu already names:** 5 ml takes it to about 7 : 1, and
+  dropping the lime to 15 ml as well takes it to about 8.5 : 1. More purée doesn't sweeten it much,
+  because the purée is acid-boosted too.
+- **At 1.9 standard drinks it's the strongest signature on the list**, where the others sit around
+  1.5. If it should match them, 30 ml tequila brings it to 1.6. If it's meant to be the punchy one
+  at $25, keep the 40.
 
 ---
 
