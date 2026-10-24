@@ -271,8 +271,16 @@ Neither:
   clean.
 - **Or steep it in the pisco:** 24 hours in the fridge in the batch's pisco (1.28 L per shrub
   batch), then strain through a fine sieve and a coffee filter. That puts strawberry in the spirit
-  as well. The pulp carries some syrup across, about 2 g of sugar a drink, so taste the first
-  batch. Optional: the drink doesn't need it.
+  as well. Optional: the drink doesn't need it. What changes in the pisco:
+  - **Aroma:** alcohol pulls out strawberry aroma the syrup left behind, so the strawberry is in the
+    spirit too.
+  - **Colour:** the pisco turns pink, but strawberry's red is less stable in a spirit than in the
+    acidic shrub and fades towards orange-brown over a couple of weeks. Make it per batch and keep
+    it cold and dark. Once it's mixed with the shrub in the batch, the acid helps hold the colour.
+  - **Sugar and strength:** the pulp's syrup and juice go in with it. That's about 2 g of sugar a
+    drink, and the pisco drops a few points of ABV (about 1.45 standard drinks a serve instead of
+    1.54). Taste the first batch.
+  - **Clarity:** press lightly and filter, or the pisco turns cloudy and the highball loses fizz.
 
 A picture of the three builds: [Pisco Ma Chérie in the Glass](https://claude.ai/artifact/4hDK34xsSmYb4okDtBcYKP)
 (private to Ari until shared).
