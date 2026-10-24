@@ -344,6 +344,20 @@ about 35 g of sugar per 100 ml):
 - **Strength is right for a margarita** (Ari): a Tommy's is about 1.9 standard drinks, and this is
   1.7.
 
+**Brighter apricot (Ari's worry, 24 October).** The idea is an apricot and honey spicy Tommy's,
+with the honey coming from the Floc instead of honey itself. The risk is the apricot reading dull.
+- **Why:** canning cooks off most of fresh apricot's aroma, so the purée gives body, sweetness and
+  acid but little apricot smell. Acid and salt brighten the taste, not the smell.
+- **Fix: the apricot liqueur goes back in the batch.** Ari's earlier test with it tasted much
+  brighter, though that was on the chamoy purée. It's the bar's apricot brandy (from the Charlie
+  Chaplin), so there's no new bottle. Batch ratio 40 tequila : 10 mezcal : 15 Floc : 5 apricot
+  liqueur : 3 dashes fire bitters, still poured at 60 ml (about 4 ml of liqueur a drink).
+- **Keep the balance:** the liqueur adds about 1 g of sugar a drink, so take the purée's agave from
+  200 ml to about 160 ml a can. That holds it at about 8 : 1, at about 1.65 standard drinks.
+- **Test before re-batching:** two glasses from today's batch and purée, one with 4 ml apricot
+  liqueur added in the tin. Does the apricot come through? Is the Floc's honey still there? Too
+  sweet? If the liqueur wins, re-batch and cut the agave in the next purée.
+
 ---
 
 ## Pisco Ma Chérie (spec as supplied by Ari)
