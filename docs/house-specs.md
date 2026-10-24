@@ -187,6 +187,10 @@ replacement for Averna, and choose plain cocoa over mole-style.
 
 ## Summer Fling: apricot purée (simplified)
 
+**Ari's live build (24 October) differs from the proposal below:** no apricot liqueur, the agave
+(200 ml a can) goes in the purée, and the batch is 40 tequila : 10 mezcal : 15 Floc : 3 dashes fire
+bitters. See "As Ari makes it" at the end of this section.
+
 **Build:** three things go into the tin: the batch (tequila, agave, mezcal,
 Floc de Gascogne and apricot liqueur), the apricot purée, and lime juice.
 
@@ -199,7 +203,7 @@ blend and salt. No dried apricot, no cooking, no agave, no sieve (the
 texture is like a frozen margarita). Generous acid because the starting pH of
 the canned fruit is unknown; the lime in the tin is set by taste to match.
 
-**One 825 g can, makes about 600–650 ml:**
+**One 825–835 g can, makes about 800–850 ml with the agave:**
 
 | Ingredient | Amount | Why |
 |---|---|---|
@@ -209,6 +213,7 @@ the canned fruit is unknown; the lime in the tin is set by taste to match.
 | Citric acid | 3 g | brightness, and a lower pH (aim for 3.5 or below; check with cheap pH strips) |
 | Vitamin C, optional | 1 g = 2 crushed 500 mg tablets (Blackmores Vitamin C 500 is unflavoured; Cenovis Sugarless C, the orange chewable, also works here) | stops browning. Make the first batch without it: the fruit is already heat-treated, the acid slows browning, and many cans already list antioxidant 300. Add it next time only if the purée looks duller or browner than fresh by day 3–5. Tablet binders can leave a faint haze, so crush them fine; plain ascorbic acid powder is cleanest |
 | Salt | 1 g | lifts the fruit |
+| Agave syrup | 200 ml | the drink's sweetener in Ari's live build (24 October); none goes in the batch |
 | Potassium sorbate | 5 ml of a 10% solution (= 0.5 g; recalculate if your solution is a different strength) | yeast and mould control; roughly doubles fridge life |
 | Monin peach purée, optional | 30 ml | makes the apricot read riper (harmony 0.36). Skip it while the apricot liqueur is in the batch; use it if you drop the liqueur |
 
@@ -316,32 +321,28 @@ section.
 **Batch:** 40 tequila : 10 mezcal : 15 Floc de Gascogne : 3 dashes fire bitters. No apricot liqueur
 and no agave in the batch.
 
-**Purée:** the canned apricot flesh, half the can's syrup and agave syrup, boosted with citric and
-malic acid. The agave lives here, not in the batch.
+**Purée:** one 835 g can of apricots with half its syrup drained off, blended with 200 ml agave
+syrup, citric and malic acid and a little salt (the table above). The agave lives here.
 
 **Per drink:** 60 ml batch, 30–40 ml purée and 20 ml lime. Shaken, on the rocks, with a Tajín rim.
-The 60 ml pour holds about 35.5 ml tequila, 9 ml mezcal, 13.5 ml Floc and 2.7 dashes of bitters:
-about 1.7 standard drinks (tequila 40%, mezcal 45%, bitters 45% at 0.8 ml a dash).
+The 60 ml pour holds about 35.5 ml tequila, 9 ml mezcal, 13.5 ml Floc and 2.7 dashes of bitters.
 
-**Balance depends on the agave per can of purée** (still to confirm with Ari). Estimates, with the
-can at about 480 g flesh and 170 g syrup:
+**The numbers** (estimates; tequila 40%, mezcal 45%, bitters 45% at 0.8 ml a dash; the purée at
+about 35 g of sugar per 100 ml):
 
-| Agave per can | Purée 30 ml: sugar : acid | Purée 40 ml: sugar : acid |
-|---|---|---|
-| 50 ml | about 5 : 1 | about 5.5 : 1 |
-| 100 ml | about 6 : 1 | about 7 : 1 |
-| 150 ml | about 7 : 1 | about 8 : 1 |
-| 200 ml | about 8 : 1 | about 9 : 1 |
+| | Standard drinks | Sugar | Acid | Sugar : acid |
+|---|---|---|---|---|
+| 30 ml purée | 1.7 | about 13 g | about 1.7 g | about 8 : 1 |
+| 40 ml purée | 1.7 | about 16.5 g | about 1.8 g | about 9 : 1 |
+| Tommy's (60 tequila, 30 lime, 15 agave), for scale | 1.9 | about 15 g | about 1.8 g | about 8 : 1 |
 
-For scale, a triple-sec Margarita is about 5 : 1 and a Tommy's about 8 : 1, so with 100–150 ml of
-agave per can it sits between the two: balanced, and juicier the more purée goes in.
-
-**The thing to fix is the 30–40 ml range.** Ten ml more purée adds about 3 g of sugar a drink,
-roughly a quarter more sweetness, so the drink changes with whoever pours it. Pick one dose (30 ml,
-the standard jigger, scraped) and tune the agave in the purée to that dose by taste.
-
-**Strength:** 1.7 standard drinks, a little above the other signatures (about 1.5). Fine for the $25
-drink; 35 ml tequila in the batch ratio brings it to about 1.6.
+**Reading:**
+- **At 30 ml of purée it has a Tommy's balance,** about 8 : 1. At 40 ml it tips sweeter, about
+  9 : 1, because the purée is a quarter agave: the purée dose is the sweetener dose.
+- **Lock the purée at 30 ml** (the standard jigger, scraped) so every drink matches. 40 ml is for
+  a guest who asks for it sweeter.
+- **Strength is right for a margarita** (Ari): a Tommy's is about 1.9 standard drinks, and this is
+  1.7.
 
 ---
 
