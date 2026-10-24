@@ -30,7 +30,7 @@ reds go uncooked into the **House Rosso** for the Negroni batch instead (section
 | Tartness | Rhubarb | Citric to pH 3.3 or below (clean, no flavour). Hibiscus optional, for pale or soft reds |
 | Sweetness | 450 g plain sugar | Lemon-husk oleo, off the heat |
 | Fruit | None | Four variants (section 4) |
-| Finish | Unfortified, 2–3 weeks | Vodka, saline, pH 3.3 or below, a bitters pattern: ~18%, 2–3 months |
+| Finish | Reduction kept unfortified, 2–3 weeks; fortified afterwards with vodka, sweet vermouth and an Australian plum liqueur (amounts not on the card; from Ari's memory) | Vodka, saline, pH 3.3 or below, a bitters pattern: ~18%, 2–3 months |
 
 Allspice tastes of clove, cinnamon and nutmeg in one berry, so the clove note stays without
 10 cloves turning medicinal.
