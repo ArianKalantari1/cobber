@@ -132,7 +132,7 @@ Same pours as the whites:
 
 | Drink | Spec (ml) | Std drinks | Best with |
 |---|---|---|---|
-| Red Kalimotxo | 60 batch · 30 vodka · 10 lime · top 90 cola | 1.75 | Cherry, plum |
+| Red Kalimotxo | Batch + cola only, 2:3, ice. Medium glass (HH): 60 batch · top 90 cola. Long glass (Normal): 100 batch · top 150 cola. ~6.8%, classic Kalimotxo strength | 0.8 / 1.3 | Cherry, plum |
 | Red Whiskey Sour | 45 bourbon · 45 batch · 20 lemon, shake, rocks | 2.05 | Cherry, blackberry |
 | Red Manhattan | 45 bourbon · 45 batch, stir, coupe (pre-batch with 20 water per serve) | 2.05 | Cherry, plum |
 | Red Negroni | 30 gin · 30 Campari · 30 batch | 1.9 | Cherry, pomegranate. Owner's call (Negroni family) |
