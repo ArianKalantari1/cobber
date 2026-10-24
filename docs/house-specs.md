@@ -313,31 +313,35 @@ section.
 
 ### As Ari makes it (24 October)
 
-40 ml tequila, 10 ml mezcal, 15 ml Floc de Gascogne, 3 dashes fire bitters, the apricot purée
-(citric and malic boosted) and 20 ml lime. Shaken, on the rocks, with a Tajín rim. No apricot
-liqueur and no agave syrup. To confirm with Ari: the purée dose (30 ml assumed below) and whether
-agave goes in, since the menu line names it.
+**Batch:** 40 tequila : 10 mezcal : 15 Floc de Gascogne : 3 dashes fire bitters. No apricot liqueur
+and no agave in the batch.
 
-**The numbers** (estimates; tequila 40%, mezcal 45%, bitters 45% at 0.8 ml a dash):
+**Purée:** the canned apricot flesh, half the can's syrup and agave syrup, boosted with citric and
+malic acid. The agave lives here, not in the batch.
 
-| | Standard drinks | Sugar | Acid | Sugar : acid | Sugar per 100 ml |
-|---|---|---|---|---|---|
-| As made | 1.9 | about 7 g | about 1.7 g | about 4 : 1 | about 5 g |
-| + 5 ml agave | 1.9 | about 12 g | about 1.7 g | about 7 : 1 | about 8 g |
-| + 5 ml agave, lime 15 ml | 1.9 | about 12 g | about 1.4 g | about 8.5 : 1 | about 8 g |
-| Tequila 30 ml, + 5 ml agave | 1.6 | about 12 g | about 1.7 g | about 7 : 1 | about 9 g |
+**Per drink:** 60 ml batch, 30–40 ml purée and 20 ml lime. Shaken, on the rocks, with a Tajín rim.
+The 60 ml pour holds about 35.5 ml tequila, 9 ml mezcal, 13.5 ml Floc and 2.7 dashes of bitters:
+about 1.7 standard drinks (tequila 40%, mezcal 45%, bitters 45% at 0.8 ml a dash).
 
-**Reading:**
-- **As made, it's a strong, tart margarita.** About 4 : 1 is sharper than a triple-sec Margarita
-  (about 5 : 1) and well short of a Tommy's (about 8 : 1). The Tajín's salt softens the acid a
-  little, but the chilli and bitters make it read drier still. "Juicy" on the menu points the other
-  way.
-- **The quickest fix is the agave the menu already names:** 5 ml takes it to about 7 : 1, and
-  dropping the lime to 15 ml as well takes it to about 8.5 : 1. More purée doesn't sweeten it much,
-  because the purée is acid-boosted too.
-- **At 1.9 standard drinks it's the strongest signature on the list**, where the others sit around
-  1.5. If it should match them, 30 ml tequila brings it to 1.6. If it's meant to be the punchy one
-  at $25, keep the 40.
+**Balance depends on the agave per can of purée** (still to confirm with Ari). Estimates, with the
+can at about 480 g flesh and 170 g syrup:
+
+| Agave per can | Purée 30 ml: sugar : acid | Purée 40 ml: sugar : acid |
+|---|---|---|
+| 50 ml | about 5 : 1 | about 5.5 : 1 |
+| 100 ml | about 6 : 1 | about 7 : 1 |
+| 150 ml | about 7 : 1 | about 8 : 1 |
+| 200 ml | about 8 : 1 | about 9 : 1 |
+
+For scale, a triple-sec Margarita is about 5 : 1 and a Tommy's about 8 : 1, so with 100–150 ml of
+agave per can it sits between the two: balanced, and juicier the more purée goes in.
+
+**The thing to fix is the 30–40 ml range.** Ten ml more purée adds about 3 g of sugar a drink,
+roughly a quarter more sweetness, so the drink changes with whoever pours it. Pick one dose (30 ml,
+the standard jigger, scraped) and tune the agave in the purée to that dose by taste.
+
+**Strength:** 1.7 standard drinks, a little above the other signatures (about 1.5). Fine for the $25
+drink; 35 ml tequila in the batch ratio brings it to about 1.6.
 
 ---
 
