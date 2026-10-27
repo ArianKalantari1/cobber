@@ -694,3 +694,22 @@ raspberry, cherry, Davidson plum and muntries. Pairings only, no specs.
 | Sesame shochu (e.g. Beniotome) | roasted-sesame aroma (audited as a strong roast bridge) | high | buy; check availability at Japanese liquor stores |
 | Pineapple liqueur | furaneol-type caramel note (not audited) | medium | buy |
 | Davidson plum (native) | beta-damascenone in Cobber; tart, Australian | high | check bottled options |
+
+### Follow-up audit: verification (27 October 2026)
+
+The follow-up audit came back as an infographic. Its citations are **unreliable**. Crossref is
+blocked here, so four key claims were spot-checked by web search:
+
+| Claim in the infographic | Check | Verdict |
+|---|---|---|
+| Blackcurrant–coffee bridge via the thiol 4-methoxy-2-methyl-2-butanethiol ("Kenyan coffee", Fredesdorff 2016) | The thiol is confirmed in blackcurrant (Jung, Fastowski & Engel, Flavour Fragr. J. 2016). No source found for it in coffee | **Coffee side unverified.** Cassis stays a tasting-note story, not a proven bridge |
+| Sesame shochu carries roasted-sesame odorants | The evidence found is for Chinese **sesame-flavour baijiu** (zhimaxiang), not Japanese shochu: 2-furfurylthiol OAV 1182, beta-damascenone OAV 116, methional OAV 99, confirmed by omission and recombination. Roasted sesame itself: 2-furfurylthiol "coffee-like" (Schieberle 1996) | **Strongly supported, for baijiu.** Three of coffee's key odorants at high OAV. Shochu (Beniotome) is unverified |
+| Mezcal–coffee bridge via guaiacol, "Yes" | Guaiacol is present in mezcal (GC-MS, not olfactometry) and has a very low odour threshold (Schranz et al., Food Chem. 2017). No mezcal OAV study found | **Partial,** not yes |
+| Davidson plum citation, DOI 10.1111/fwb.13373 | A Freshwater Biology DOI, unrelated to Davidson plum | **Wrong citation** |
+
+Also: the infographic says guaiacol is not detected in pisco, but the first audit listed guaiacol
+among pisco's grape-derived odorants. **Unresolved.**
+
+Use for Cobber data only what is verified above. The new lead: **sesame-flavour baijiu** is a
+bottled carrier of 2-furfurylthiol, beta-damascenone and methional, i.e. coffee's own key
+odorants. Check availability in Sydney (Chinese liquor stores).
