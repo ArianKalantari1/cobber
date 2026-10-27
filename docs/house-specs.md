@@ -589,3 +589,39 @@ Rum or whisky with banana and caramel is not novel. None of these uses **agave**
 so the novel angle is mezcal and cardamom bitters (still all bottled): 380 mezcal (or 190 mezcal
 + 190 aged rum) · 240 banana liqueur · 80 Monin Salted Caramel · 10 ml cardamom bitters per 700 ml
 bottle. Garnish with smoked sea-salt flakes.
+
+## Coffee pairing exploration: food science (27 October 2026)
+
+No specs or batch amounts; this is for tasting. "Cobber" figures are shared-compound harmony with
+coffee and recipe tradition (0 = never seen together, i.e. novel). Other chemistry notes are
+general food-science knowledge, not Cobber data.
+
+| Bridge | Pairing with coffee | Why | Cobber |
+|---|---|---|---|
+| Roast on roast | Wattleseed | Shares coffee's roasted compounds (pyrazine, 2-furfurylthiol, furfural) | 0.40, tradition 0 |
+| Roast on roast | Toasted / black sesame | Roasted sesame is known for the same "roasted coffee" thiol | not in Cobber |
+| Roast on roast | Roasted barley or hojicha | Roasted-grain pyrazines | not in Cobber |
+| Earthy | Mushroom (porcini, shiitake) | 1-octen-3-ol (earthy) is in both; mushroom adds umami | 0.23, tradition 0 |
+| Earthy and briny | Olive / olive brine | Shares 1-octen-3-ol and fruity esters; brine adds salt | 0.25, tradition 0 |
+| Fruity esters | Mango | Shares fruity and roasted notes; echoes Ethiopian and Kenyan coffees | 0.20, tradition 0 |
+| Fruity esters | Grape, pisco, sparkling wine | Winey esters, like natural-process coffees | 0.14–0.21, tradition 0 |
+| Floral | Lemon myrtle | Shares geraniol and myrcene (coffee's floral side) | 0.17, tradition 0 |
+| Sour caramel | Tamarind | Caramel-like furfural plus fruit acidity | 0.14, tradition 0 |
+
+Banana (not in Cobber): ripe banana's aroma is mainly fruity esters (isoamyl acetate), with a
+clove-like note (eugenol). Partners by mechanism:
+- clove or allspice: the same clove note, as in banana bread;
+- rum or mezcal: fruity esters, and smoke;
+- sesame or tahini: roast plus fat;
+- miso: salt and umami against sweet;
+- wattleseed: roast that bridges to the coffee;
+- cardamom.
+
+Taste levers:
+- Salt suppresses bitterness and lifts sweetness.
+- A little acid makes coffee read "bright", like specialty coffee.
+- Fat carries aroma and rounds the drink.
+- Umami deepens caramel.
+
+Method: bench-test pairs first (a splash of espresso with one element), then build drinks only
+from pairs that work.
