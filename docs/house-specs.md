@@ -625,3 +625,55 @@ Taste levers:
 
 Method: bench-test pairs first (a splash of espresso with one element), then build drinks only
 from pairs that work.
+
+### Research audit results (ChatGPT deep research, 27 October 2026)
+
+An odour-threshold and novelty audit of the pairing map above. Its rule: a bridge only counts if
+the shared compound is odour-active in both foods (OAV, AEDA or recombination evidence). Its
+citations haven't all been checked here.
+
+**Corrections to Cobber's bridges:**
+- **Olive:** the real link is guaiacol (smoky-phenolic), not the esters Cobber listed. Dose-
+  sensitive: guaiacol can read as a "bad olive" note.
+- **Mango:** the real link is beta-damascenone (one of coffee's strongest odorants). Mango's very
+  potent fruity esters add contrast.
+- **Porcini:** linked through methional (cooked-potato, savoury) more than 1-octen-3-ol.
+- **Miso:** the strongest chemistry of all (2-furfurylthiol, the core roasted-coffee odorant,
+  plus methional), but low novelty.
+- **Wattleseed, lemon myrtle and tamarind:** unproven bridges. Treat them as sensory hypotheses
+  and contrasts.
+- **Cardamom:** a contrast pairing, low novelty.
+
+**Taste corrections:**
+- Salt suppressing bitterness is solid (Breslin & Beauchamp, Nature 1997), but test it on the
+  house espresso.
+- Umami does **not** reliably boost sweetness; it depends on concentration.
+- Fat (milk, tahini, oil) can **reduce** coffee's roasted top note rather than carry it.
+- Aromatic brightness (mango, citrus aroma) is safer than added sourness against 30 ml espresso.
+
+**Novelty notes:**
+- Banana + coffee is crowded in Sydney: add Arms Length (Potts Point) Banana Espresso Martini,
+  2026.
+- Miso, cardamom and wattleseed espresso drinks already exist.
+- Olive brine + espresso, hojicha + espresso and mango appear least occupied.
+
+**Recommended ranking for this brief:**
+1. Green olive brine (bridge plus salt; apéritif-style). Crawley's Dirty Martini Olive Brine is
+   bottled; it could be the same bottle as Olivia's, but that makes two olive drinks on the menu.
+2. Roasted sesame (aroma rather than tahini texture).
+3. Hojicha or roasted barley (the most elegant roast-on-roast).
+4. Mango (Monin Mango; bench the actual bottle).
+5. Banana + salt: the safest crowd-pleaser and the commercial control. Make salt the twist; don't
+   stack more flavours.
+
+**Bench flights** (same espresso, plain-espresso reference each round):
+1. Mango, then banana with and without salt, then hojicha or barley.
+2. Sesame, then olive brine, then miso (miso as the "positive control" for a real roast bridge).
+3. Lemon myrtle, pisco, wattleseed, tamarind, mushroom (last: biggest carry-over).
+
+Score each 1–5:
+- coffee integrity, integration, distinctiveness, bitterness balance;
+- brightness against sourness, aroma lift, finish;
+- recognition, crowd appeal, novelty, operational fit.
+
+Weight integration, coffee integrity, finish and crowd appeal above novelty.
