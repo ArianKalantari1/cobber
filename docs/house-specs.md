@@ -465,3 +465,16 @@ pickle-like.
   tincture against Licor 43 at 12.5); foam hold at 5 min; batch on day 1
   against day 7; service speed; a 2-week soft launch; cocoa bitters (none
   against 2 dashes in the shake against 3 drops on the foam).
+
+---
+
+## Tasting log
+
+### 27 October 2026 (Ari, served to guests)
+
+| Drink | Verdict | Next test |
+|---|---|---|
+| **Orient Espresso** | Too much coffee, and too strong. | 50 ml batch + 30 ml espresso (was 60 + 35). Less coffee and less alcohol, same sweetness balance, no re-batching. |
+| **Pisco Ma Chérie** | Very good. More sherry would help. | Per serve: 35 pisco · 25 Elegante Medium · 30 shrub · 75 soda. Batch per 700 ml: 270 pisco · 195 sherry · 235 shrub. |
+| **Watermelon Reviver** (R&D sheet version B) | Too syrupy. | Rose watermelon cordial 30 → 22.5 ml, lemon unchanged. If it's still sweet, curaçao 10 → 7.5 ml. Spec: `docs/recipes/spring-signatures-rnd.md`. |
+| **Cherry cobbler** (layers: vodka, sweet vermouth, Aperol) | Shaken with lemon and bitters: not nice, probably too much lemon. **Built: bang on, guests loved it.** | Make the built serve the default: muddle an orange slice and a lemon slice with a little lemon juice, add the batch, fill with cubes. Optional Coca-Cola top. Write down the lemon juice amount next time. Spec: `docs/recipes/rescued-red-wine-cobblers.md`. |
