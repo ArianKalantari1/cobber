@@ -865,3 +865,28 @@ Bench order:
 2. P1.
 3. P3 and B2 (the most novel crowd-pleasers).
 4. The rest.
+
+### More Espresso Martini flavour directions (27 October 2026)
+
+New directions not covered above, mostly from coffee cultures around the world. Pairings only.
+Availability is "commonly stocked" but not checked this session.
+
+| Direction | Ingredient (bottled where possible) | Story | Note |
+|---|---|---|---|
+| Tiramisu | Marsala (e.g. Florio) + cocoa dust; optional salted mascarpone foam | Tiramisu is made with Marsala; salted mascarpone is a current Australian café drink | Fortified wine, shelf-stable |
+| Qahwa | Date syrup (silan) + cardamom bitters | Arabic coffee is served with dates and cardamom | Supermarket date syrup |
+| Lebanese white coffee | Orange-blossom water (drops) | Floral, very light | Dose by the drop |
+| Turkish delight | Rose water + pistachio crumb | Turkish coffee with lokum; uses the pistachio kernels | Floral, dose carefully |
+| Halva | Tahini or halva-style sesame | Levantine coffee and halva | Fat mutes aroma; texture |
+| Fig | Dried-fig syrup or fig liqueur, with PX | Mediterranean dried fig with coffee | |
+| Vietnamese | Sweetened condensed milk (+ egg yolk for an "egg coffee" foam) | Cà phê sữa đá / cà phê trứng | Egg allergen; a texture idea |
+| Hong Kong yuenyeung | Strong black tea + espresso + condensed milk | The classic HK coffee–tea mix | Novel in cocktails |
+| Palm sugar | Gula melaka or jaggery syrup | Southeast Asian and Indian coffee sweeteners | Swap for demerara |
+| Smoked tea | Lapsang souchong tea syrup | Smoke without mezcal | |
+| Mexican chilli | Ancho Reyes (ancho chilli liqueur) | Mole / Mexican chocolate with coffee | Gentle heat |
+| Horchata | Cinnamon rice-milk (or a horchata cream liqueur) | The US café "dirty horchata" | Dairy-style |
+| Breakfast | Maple syrup + smoked salt, with bourbon | Maple and coffee breakfast | Cobber maple–coffee 0.11 |
+| Spice | Black pepper or Sichuan pepper tincture | A tingle and lift | Dose by the drop |
+
+Top three to explore first: **Tiramisu (Marsala)**, **Qahwa (date + cardamom)** and **HK
+yuenyeung (tea + coffee)**.
