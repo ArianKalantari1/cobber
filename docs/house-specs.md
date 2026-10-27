@@ -770,3 +770,38 @@ Not found in Australia:
 - a hojicha liqueur (one exists only in the UK).
 
 Caveat: cream liqueurs (pistachio, ube) add fat, which can mute coffee's roasted top note.
+
+### Pistachio option and the banana stacking question (27 October 2026)
+
+**Pistachio:** the bar has plenty of pistachio kernels. Make a **toasted pistachio spirit**, not a
+fat wash or a cream. It's shelf-stable, it keeps nut fat (which mutes coffee aroma) mostly out of
+the drink, and toasting builds the roasted-nut notes that sit next to coffee's roast. Pistachio
+isn't in Cobber's data.
+1. Toast 150 g kernels at 160 °C for 8–10 min (or in a dry pan) until fragrant and lightly golden,
+   not brown. Cool, then crush roughly.
+2. Infuse in 700 ml vodka (or white rum) for 48–72 h at room temperature, shaking daily. Taste at
+   48 h.
+3. Strain through a sieve, then a coffee filter. If it's hazy, freeze it overnight and filter
+   again.
+4. Yields about 650 ml. Shelf-stable (about 40% ABV); best within 2–3 months.
+
+Salted kernels add a little salt for free. Alternative with body: pistachio orgeat (fridge about
+2 weeks, about 3–4 weeks with sorbate). **Allergen:** tree nut; flag it on the menu and in the
+allergen protocol.
+
+**Banana: stack or not?**
+- Default to **banana + salt only**. The research says salt should be the twist, and Sydney's
+  banana–coffee drinks all stack more flavours.
+- Add a layer only if the bench shows a specific gap: a thin mid-palate (try toasted pistachio),
+  or too sweet or flat (more salt before any new flavour).
+- Rule: at most two flavours, plus coffee and salt. Each must be named by tasters without being
+  told, and must raise the integration score.
+
+**Bench (single serves, house espresso, same base spirit):**
+1. House Espresso Martini, as the control.
+2. Banana + salt.
+3. Toasted pistachio + salt.
+4. Banana + toasted pistachio + salt.
+
+If 4 beats both 2 and 3 on integration and crowd appeal, the stack has earned its place;
+otherwise keep the single-flavour winner.
