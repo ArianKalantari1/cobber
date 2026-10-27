@@ -478,3 +478,20 @@ pickle-like.
 | **Pisco Ma Chérie** | Very good. More sherry would help. | Per serve: 35 pisco · 25 Elegante Medium · 30 shrub · 75 soda. Batch per 700 ml: 270 pisco · 195 sherry · 235 shrub. |
 | **Watermelon Reviver** (R&D sheet version B) | Too syrupy. | Rose watermelon cordial 30 → 22.5 ml, lemon unchanged. If it's still sweet, curaçao 10 → 7.5 ml. Spec: `docs/recipes/spring-signatures-rnd.md`. |
 | **Cherry cobbler** (layers: vodka, sweet vermouth, Aperol) | Shaken with lemon and bitters: not nice, probably too much lemon. **Built: bang on, guests loved it.** | Make the built serve the default: muddle an orange slice and a lemon slice with a little lemon juice, add the batch, fill with cubes. Optional Coca-Cola top. Write down the lemon juice amount next time. Spec: `docs/recipes/rescued-red-wine-cobblers.md`. |
+
+### Orient Espresso: round 2 tasting plan (27 October 2026)
+
+All three use VS brandy and 25 ml espresso, shaken, fine-strained, chilled coupe. Keep the
+brandy, coffee, dilution and temperature the same, and score each 1–5 for coffee clarity, brandy
+visibility, sweetness, finish and "want another sip".
+
+| | A: Nightcap-style | B: Black Forest | C: Salted caramel |
+|---|---|---|---|
+| Inspired by | Blue Nightcap (Vito Nicotra, 2015: Cognac, amontillado, PX, espresso, honey, walnut bitters) | Matriarch Martini (Haley Traub, 2024: cherry and espresso, no coffee liqueur) | House burnt-sugar technique (La Pasión R&D) |
+| Brandy | 35 ml | 30 ml | 35 ml |
+| Second element | 25 ml Elegante Medium sherry (stands in for amontillado + PX in one bottle) | 25 ml cherry cobbler batch | 15 ml salted burnt-sugar syrup |
+| Accent | 2.5 ml honey syrup · 1 dash walnut bitters, if the bar's walnut is bitters | optional 5 ml crème de cacao | none |
+| Std drinks (approx.) | 1.45 | 1.3 | 1.1 |
+
+Parked: prune–Armagnac (new bottle plus prep), brown-butter-washed brandy (Ari doesn't want washes),
+Massenez Popcorn (Pop Star Martini owns it).
