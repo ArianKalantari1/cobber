@@ -543,20 +543,20 @@ and fine-strained into a chilled coupe. Banana liqueur means e.g. Giffard Banane
 
 #### Banana: balance rethink (27 October 2026)
 
-Checked against the house Espresso Martini (45 vodka · 20 Kahlúa · 30 espresso; about 7 g sugar
-per drink, estimated). The first Miso Banana spec (30 aged rum · 15 banana liqueur · 5 miso
+Checked against the house Espresso Martini (45 vodka · 20 Kahlúa · 5–10 ml sugar syrup · 30 espresso;
+about 10–13 g sugar per drink, estimated, assuming 1:1 syrup). The first Miso Banana spec (30 aged rum · 15 banana liqueur · 5 miso
 caramel) comes to about 6–7 g of sugar on paper. Deep caramel tastes less sweet than its sugar,
 and there's no coffee liqueur to round the espresso, so it would likely drink **drier and heavier**
 than the Espresso Martini. Revised options (sugar figures are estimates; check labels):
 
 | | Per serve (+ 30 espresso) | Sugar (est.) | Std drinks |
 |---|---|---|---|
-| **V1 Miso Banana, balanced** | 30 aged rum · 20 banana liqueur · 7.5 miso caramel | about 9–10 g | 1.35 |
-| **V2 Lighter body** | 15 white rum · 15 aged rum · 20 banana liqueur · 7.5 miso caramel | about 9–10 g | 1.35 |
-| **V3 Salted caramel, no miso** | 30 aged rum · 20 banana liqueur · 7.5 salted burnt-sugar syrup | about 9–10 g | 1.35 |
+| **V1 Miso Banana, balanced** | 30 aged rum · 20 banana liqueur · 10 miso caramel | about 11 g | 1.35 |
+| **V2 Lighter body** | 15 white rum · 15 aged rum · 20 banana liqueur · 10 miso caramel | about 11 g | 1.35 |
+| **V3 Salted caramel, no miso** | 30 aged rum · 20 banana liqueur · 10 salted burnt-sugar syrup | about 11 g | 1.35 |
 
-V1 batch, 12 serves (690 ml): 360 aged rum · 240 banana liqueur · 90 miso caramel. About 30% ABV,
-so it's stable; best within about 4 weeks. Pour 57.5 ml batch + 30 ml espresso.
+V1 batch, 11 serves (660 ml): 330 aged rum · 220 banana liqueur · 110 miso caramel. About 28% ABV,
+so it's stable; best within about 4 weeks. Pour 60 ml batch + 30 ml espresso.
 
 Adjust in this order: too bitter, +2.5 ml caramel; too sweet, −2.5 ml banana liqueur; too heavy,
 swap half the aged rum for white rum (V2); flat, +1 drop saline.
