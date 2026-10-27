@@ -576,3 +576,16 @@ standard drinks. The batch is about 30% ABV, so it's shelf-stable; best within a
 
 If it drinks too sweet, cut the Monin to 60 ml per bottle. Too dry: add 5 ml sugar syrup at
 service, as with the house Espresso Martini.
+
+**Novelty check (Cobber's bar-menu corpus):** banana with coffee is already common, especially in
+Sydney:
+- Midnight Monkey (Bar Ombré, Sydney): whisky, banana liqueur, Tia Maria, espresso, caramelised banana.
+- Monkey Business (Employees Only Sydney): miso-butter-washed dark rum, coffee honey, banana, walnut bitters.
+- Second Wave (Shell House, Sydney): scotch, coffee liqueur, banana liqueur, rosso, amaro, coconut.
+- James Gandolfini (Apollonia, Sydney): bourbon, aperitivo, bitter, vermouth, banana, chocolate, coffee.
+- Chicory (SOMA Soho, London): banana-peel rum, cognac, jaggery and almond, chicory foam.
+
+Rum or whisky with banana and caramel is not novel. None of these uses **agave** or **cardamom**,
+so the novel angle is mezcal and cardamom bitters (still all bottled): 380 mezcal (or 190 mezcal
++ 190 aged rum) · 240 banana liqueur · 80 Monin Salted Caramel · 10 ml cardamom bitters per 700 ml
+bottle. Garnish with smoked sea-salt flakes.
