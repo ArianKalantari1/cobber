@@ -560,3 +560,19 @@ so it's stable; best within about 4 weeks. Pour 60 ml batch + 30 ml espresso.
 
 Adjust in this order: too bitter, +2.5 ml caramel; too sweet, −2.5 ml banana liqueur; too heavy,
 swap half the aged rum for white rum (V2); flat, +1 drop saline.
+
+#### Banana: all-bottled version, no house preps (27 October 2026)
+
+Ari prefers shelf-stable bottles only, so batching stays simple. No miso caramel and no burnt-sugar
+syrup.
+
+**Salted Banana (lead).** Bottle, 700 ml: 380 aged rum · 240 banana liqueur (e.g. Giffard Banane du
+Brésil) · 80 Monin Salted Caramel syrup. Pour **60 ml batch + 30 ml espresso**, shake hard,
+fine-strain, chilled coupe; optional sea-salt flakes on the foam. Per drink that's about 11 g
+sugar (estimate: Monin syrups are roughly 0.85 g sugar per ml; check the label) and about 1.4
+standard drinks. The batch is about 30% ABV, so it's shelf-stable; best within about 6 weeks.
+
+**Smoky version:** the same bottle with mezcal instead of aged rum (or half and half).
+
+If it drinks too sweet, cut the Monin to 60 ml per bottle. Too dry: add 5 ml sugar syrup at
+service, as with the house Espresso Martini.
