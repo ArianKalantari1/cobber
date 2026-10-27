@@ -827,3 +827,41 @@ sweetener. No-alcohol route: pistachio orgeat.
 
 Stack plan: first add pistachio as a **garnish** (crushed toasted, salted kernels on half the
 foam); move it into the liquid (pistachio brandy) only if it earns its place.
+
+### Me.. Espresso: 5 banana + 5 pistachio specs (27 October 2026)
+
+All shaken hard 12–15 s, fine-strained into a chilled coupe, with 30 ml fresh espresso (no
+coffee liqueur). Pistachio brandy = the house toasted-pistachio infusion (150 g per 700 ml).
+
+Assumptions (check labels):
+- base spirits 40%, banana liqueur 25%, chestnut liqueur 25%, white cacao 25%, umeshu 14%,
+  Chambord 16.5%, Paesano pistachio cream 17%, yuzu liqueur 10%;
+- standard drinks are Australian (10 g alcohol);
+- sugar is estimated at about 8–12 g; tune with demerara syrup in 2.5 ml steps against the house
+  Espresso Martini.
+
+**Banana**
+
+| # | Name (working) | Spec (ml) | Garnish | Std drinks | Why it's different |
+|---|---|---|---|---|---|
+| B1 | Salted Banana Caramel | 30 aged rum · 20 banana liqueur · 7.5 Monin Salted Caramel | sea-salt flakes | 1.35 | The control: salt is the twist, nothing stacked |
+| B2 | Ume Banana | 30 white rum · 15 banana liqueur · 15 umeshu · 5 demerara syrup · 2 drops saline | none | 1.4 | Umeshu's marzipan (kernel) note bridges to coffee; Japanese |
+| B3 | Smoked Banana | 25 mezcal · 20 banana liqueur · 7.5 Monin Salted Caramel · 2 dashes cardamom bitters | smoked salt flakes | 1.2 | Agave and cardamom: no Sydney banana–coffee drink uses them |
+| B4 | Banana Mont Blanc | 25 brandy · 15 banana liqueur · 15 chestnut liqueur · 2 drops saline | grated chestnut or nutmeg | 1.4 | French chestnut dessert meets banana |
+| B5 | Banana Yuzu Espresso Tonic | 20 white rum · 15 banana liqueur · 15 yuzu liqueur · 30 espresso, built over ice in a highball, topped with 90 tonic | yuzu or lemon zest | 1.05 | Long and light: the café espresso tonic |
+
+**Pistachio** (tree-nut allergen: flag it)
+
+| # | Name (working) | Spec (ml) | Garnish | Std drinks | Why it's different |
+|---|---|---|---|---|---|
+| P1 | Salted Pistachio | 40 pistachio brandy · 12.5 Monin Salted Caramel | crushed salted pistachio on half the foam | 1.25 | The core pistachio idea |
+| P2 | Pistachio Latte | 30 pistachio brandy · 20 Paesano pistachio cream · 5 demerara syrup | pistachio crumb | 1.2 | The viral pistachio latte as a cocktail (cream mutes aroma a little) |
+| P3 | Dubai | 30 pistachio brandy · 15 white crème de cacao · 7.5 demerara syrup | toasted kataifi + pistachio crumb, or dark chocolate shavings | 1.25 | Pistachio, chocolate, crunch |
+| P4 | Ume Pistachio | 30 pistachio brandy · 20 umeshu · 5 Giffard Vanille · 7.5 demerara syrup · 2 drops saline | none | 1.25 | Sicilian nut meets Japanese plum; almond and coffee bridge |
+| P5 | Pistachio Framboise | 30 pistachio brandy · 15 Chambord · 5 demerara syrup | pistachio crumb, optional freeze-dried raspberry | 1.15 | French pâtisserie (pistachio–raspberry) with coffee |
+
+Bench order:
+1. B1 against the house Espresso Martini.
+2. P1.
+3. P3 and B2 (the most novel crowd-pleasers).
+4. The rest.
