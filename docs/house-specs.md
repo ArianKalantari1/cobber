@@ -495,3 +495,33 @@ visibility, sweetness, finish and "want another sip".
 
 Parked: prune–Armagnac (new bottle plus prep), brown-butter-washed brandy (Ari doesn't want washes),
 Massenez Popcorn (Pop Star Martini owns it).
+
+## Me.. Espresso: idea bank (27 October 2026)
+
+Brief: lighter and enjoyable, not too boozy (about 1.1–1.4 standard drinks, against 1.75 for
+the house Espresso Martini of 45 vodka + 20 Kahlúa). Coffee comes from 30 ml espresso only; no
+coffee liqueur. Shake hard 12–15 s, fine-strain, chilled coupe. "Coffee link" is Cobber's
+strongest score between that flavour and coffee (shared compounds or recipe tradition). Liqueur
+strengths are typical values: check the labels.
+
+| # | Idea | Stack | Spec (ml) | Std drinks | Coffee link | Stock |
+|---|---|---|---|---|---|---|
+| 1 | Me.. Espresso (juice) | white rum · pineapple · almond | 40 white rum · 20 pineapple juice · 10 orgeat · 2 drops saline | 1.25 | pineapple 0.26, almond 0.41 | bar |
+| 2 | Me.. Espresso (liqueur) | rum · pineapple liqueur · a little juice for foam | 30 white rum · 15 pineapple liqueur (e.g. Giffard Caribbean Pineapple) · 10 pineapple juice · 5 orgeat | 1.25 | pineapple–rum 0.75 | buy liqueur |
+| 3 | Me.. Espresso (pineapple rum) | pineapple rum · pineapple · almond | 40 pineapple rum (e.g. Plantation Stiggins' Fancy) · 15 pineapple juice · 7.5 orgeat | 1.25 | as above | buy rum |
+| 4 | Jaffa | vodka · white cacao · orange | 30 vodka · 15 white crème de cacao · 5 Cointreau, orange zest | 1.4 | orange 0.46, cacao 0.32 | buy cacao |
+| 5 | Wattleseed | rum or brandy · roasted wattleseed · cacao | 35 spiced rum or brandy · 10 wattleseed–demerara syrup · 5 crème de cacao | 1.2 | wattleseed 0.40 | buy wattleseed |
+| 6 | Noisette | brandy · hazelnut · salt | 30 brandy · 15 Frangelico · 2 drops saline | 1.2 | not in Cobber | buy Frangelico |
+| 7 | Raspberry truffle | vodka · raspberry · white cacao | 30 vodka · 10 Chambord · 10 white crème de cacao | 1.25 | raspberry 0.23, cacao 0.32 | Chambord on bar |
+| 8 | Banana & salt | spiced rum · banana · salt | 30 spiced rum · 15 banana liqueur (e.g. Giffard Banane du Brésil) · 2 drops saline | 1.25 | not in Cobber | buy liqueur |
+| 9 | Qahwa | vodka or brandy · cardamom · honey | 40 vodka or brandy · 10 cardamom–honey syrup, optional 2 drops rosewater | 1.25 | cardamom 0.18, honey 0.26 | buy cardamom |
+| 10 | Café Romano | vodka · anise accent | 35 vodka · 5 sambuca · 5 demerara syrup, 3 coffee beans | 1.25 | anise 0.26 | buy sambuca |
+| 11 | Irish cream float | Irish whiskey · demerara · cream | 40 Irish whiskey · 10 demerara syrup, 15 lightly whipped cream floated on top | 1.25 | cream 0.67 | buy whiskey |
+| 12 | Smoked Cherry (light) | mezcal · cherry · maraschino | 25 mezcal · 20 cherry cobbler batch · 5 maraschino | 1.2 | cherry 0.12 (agave–cherry 0.60) | bar |
+| 13 | Highland (light) | scotch · Averna · honey | 30 blended scotch · 10 Averna · 5 honey syrup | 1.2 | scotch–Averna 0.54 | bar |
+| 14 | Normandy | brandy · Pommeau · honey | 25 brandy · 20 Pommeau · 7.5 honey syrup | 1.1 | apple 0.12, honey 0.26 | bar |
+| 15 | Pera Negra (light) | tequila · pear · maraschino | 35 blanco tequila · 10 pear liqueur · 5 maraschino | 1.4 | pear 0.12 | bar |
+
+All amounts are per serve plus 30 ml espresso. Syrups: wattleseed (10 g roasted ground
+wattleseed steeped 20 min in 250 ml hot 1:1 syrup, coffee-filtered) and cardamom–honey (10 crushed
+pods simmered 5 min in 250 ml 1:1 honey syrup, strained). Both keep 2–3 weeks in the fridge.
