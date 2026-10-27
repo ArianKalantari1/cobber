@@ -739,3 +739,34 @@ Evidence tiers:
 
 Bench order: 1, 2, 3 (the strongest evidence and novelty), then 8 against 9 (banana with and
 without sesame), then the rest.
+
+### Wider sourcing research: liqueurs available in Australia (27 October 2026)
+
+Web research for the Me.. Espresso exploration. Prices and ABV are as listed by retailers on
+the day; check before buying. No specs.
+
+| Flavour | Bottle (ABV) | Where (AU) | Coffee idea | Evidence | Novelty |
+|---|---|---|---|---|---|
+| Chestnut | Gabriel Boudier Liqueur de Châtaigne (25%); also Vedrenne, Briottet, Massenez | Nicks ($64.99); Luca Collections ships to AU | Brandy · chestnut · salt: Mont Blanc, French | sensory/roast (unaudited) | high |
+| Wattleseed toffee | Tamborine Mountain Wattle Toffee Liqueur (20%, 375 ml) | Dan Murphy's; distillery ($55) | Aged rum or brandy · wattle toffee · salt. Label notes "coffee hints"; the producer suggests it for Espresso Martinis | label + Cobber 0.40 (bridge unaudited) | medium (wattleseed EMs exist) |
+| Walnut (Australian nocino) | Marionette Nocino (28%, walnut + lemon myrtle + wattleseed); Boatrocker (33%); Autonomy (22%); Underground Spirits (16%) | Nicks; Dan Murphy's | Brandy · nocino: Italian coffee-and-nocino digestif | culinary | medium (walnut is in the Nutty Old Fashioned) |
+| Pistachio | Paesano Pistachio Liqueur (17%, cream) | Dan Murphy's | Vodka · pistachio · salt: Sicilian café | culinary | medium |
+| Ube | Destileria Barako Ube Cream Liqueur | Dan Murphy's (2026, via 7000 Islands) | White rum · ube: Filipino ube latte culture | culinary | medium–high |
+| Hojicha | Komasa Hojicha Gin (40%, 500 ml) | Nicks ($99.99) | Hojicha gin as base · demerara: bottled roast-on-roast | first audit (roasted tea/barley) | medium–high |
+| Matcha | Gabriel Boudier Matcha (20%, French); Tia Maria Matcha (17%); Kyoto Matcha Sake Liqueur (6%) | Caravan Wines ($68); Nicks ($69.99) | Matcha · espresso: the café "dirty matcha" | café trend | medium |
+| Ume (plum) | Choya and other umeshu; Ozeki Yuzu Umeshu (12%) | Dan Murphy's | Umeshu · espresso: ume kernels give an almond (marzipan) note, and almond–coffee is a strong pair | culinary chemistry (unaudited) | high |
+| Yuzu | Kikuyasaka Yuzuyuzu (10%, shochu base); Choya Yuzu (14.7%); Umenoyado Yuzu (8–9%) | Dan Murphy's; BWS | Yuzu espresso tonic, long and low-ABV: aromatic brightness | first audit (aromatic brightness over sourness) | medium |
+| Strega | Strega (40%: saffron, mint, fennel) | Nicks ($94.99); BWS | A small accent with brandy · honey: caffè corretto | culinary | high (polarising) |
+| Mastiha | Skinos (30%) | via Tirnavos Wines (distributor) | Vodka · mastiha · vanilla: Greek | hypothesis | high (risky) |
+| Mirto | Osare Mirto (Hobart; myrtle + Tasmanian honey) | Osare (seasonal) | Coffee then mirto: the Sardinian digestif ritual | culinary | high |
+| Hazelnut | Giffard Classic Noisette (25%) | Nicks | Café noisette | culinary | low–medium |
+| Vanilla / caramel | Giffard Vanille de Madagascar; Giffard Caramel Toffee; Cognac & Caramel | AU retailers (check) | Bottled sweeteners instead of house syrups | — | — |
+
+Not found in Australia:
+- sesame-flavour baijiu (Jingzhi);
+- kokuto spirits (Kokuto De Lequio);
+- osmanthus liqueur;
+- black sesame liqueur;
+- a hojicha liqueur (one exists only in the UK).
+
+Caveat: cream liqueurs (pistachio, ube) add fat, which can mute coffee's roasted top note.
