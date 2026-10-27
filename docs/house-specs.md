@@ -525,3 +525,18 @@ strengths are typical values: check the labels.
 All amounts are per serve plus 30 ml espresso. Syrups: wattleseed (10 g roasted ground
 wattleseed steeped 20 min in 250 ml hot 1:1 syrup, coffee-filtered) and cardamom–honey (10 crushed
 pods simmered 5 min in 250 ml 1:1 honey syrup, strained). Both keep 2–3 weeks in the fridge.
+
+### Banana & salt family (27 October 2026)
+
+Ari's favourite from the idea bank. Banana isn't in Cobber's data (it's on the unmatched list),
+so these are bar judgement. Each is about 1.1–1.35 standard drinks, plus 30 ml espresso, shaken
+and fine-strained into a chilled coupe. Banana liqueur means e.g. Giffard Banane du Brésil.
+
+| Idea | Spec (ml) | Salt | Garnish |
+|---|---|---|---|
+| Salted Banana (core) | 30 aged rum · 15 banana liqueur · 5 salted burnt-sugar syrup | in the syrup | a few flakes of sea salt on the foam |
+| Café Foster (Bananas Foster, New Orleans) | 30 spiced rum · 15 banana liqueur · 5 cinnamon–brown-sugar syrup | 2 drops saline | brûléed banana coin |
+| Banana Bread | 30 bourbon · 15 banana liqueur · 5 demerara syrup · 1 dash walnut bitters | 2 drops saline | grated nutmeg |
+| Smoky Plátano | 25 mezcal · 15 banana liqueur · 5 demerara syrup | smoked salt flakes on top | none |
+| Choc-Banana | 30 white rum or vodka · 10 banana liqueur · 10 white crème de cacao | 2 drops saline | cacao dust on half |
+| Miso Banana (wildcard) | 30 aged rum · 15 banana liqueur · 5 miso caramel syrup | from the miso | sesame on half |
