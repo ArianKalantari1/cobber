@@ -713,3 +713,29 @@ among pisco's grape-derived odorants. **Unresolved.**
 Use for Cobber data only what is verified above. The new lead: **sesame-flavour baijiu** is a
 bottled carrier of 2-furfurylthiol, beta-damascenone and methional, i.e. coffee's own key
 odorants. Check availability in Sydney (Chinese liquor stores).
+
+### Ten combinations to bench (27 October 2026)
+
+Combinations only, no amounts. All are built on fresh espresso with no coffee liqueur, lighter
+than the house Espresso Martini.
+
+Evidence tiers:
+- **V:** verified in this session.
+- **A:** from the first audit (its citations weren't individually checked).
+- **S:** sensory or culinary tradition only.
+
+| # | Combination | Why | Evidence | Novelty | Carrier |
+|---|---|---|---|---|---|
+| 1 | Vodka or white rum · **sesame-flavour baijiu accent** · demerara · salt | The baijiu carries coffee's own key odorants (2-furfurylthiol, beta-damascenone, methional) | V | high | bottle (check Sydney stock) |
+| 2 | Vodka or blanco tequila · **green olive brine** · demerara | Guaiacol bridge, plus salt suppressing bitterness | A + V (salt) | high | bottle (Crawley's brine); a second olive drink next to Olivia |
+| 3 | White rum · **mango** · salt | Beta-damascenone bridge, potent fruity esters | A | medium–high | bottle (Monin Mango) |
+| 4 | Brandy · **pear liqueur or Pommeau** · honey | Beta-damascenone in pear and apple; Normandy story | A | medium | bar |
+| 5 | Brandy or vodka · **crème de cassis** | Kenyan coffees taste of blackcurrant; French | S | medium–high | bar |
+| 6 | Vodka · **hojicha** · demerara | Roast on roast; roasted barley/tea is well evidenced | A | medium–high | prep (tea infusion) |
+| 7 | Brandy · **crème de châtaigne** · salt | Roasted chestnut, Mont Blanc; French | S | high | buy |
+| 8 | Aged rum · **banana liqueur** · **toasted sesame (baijiu accent)** · salt | Sesame and coffee share roast; coffee bridges to banana; not on the Sydney banana list | V (sesame) + S | medium–high | bottles |
+| 9 | Aged rum · banana liqueur · salted caramel | The crowd-pleaser and commercial control | S + V (salt) | low | bottles |
+| 10 | Vodka · Chambord · white crème de cacao | Beta-damascenone in raspberry; familiar dessert | A | low | bar + buy cacao |
+
+Bench order: 1, 2, 3 (the strongest evidence and novelty), then 8 against 9 (banana with and
+without sesame), then the rest.
