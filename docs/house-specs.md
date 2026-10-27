@@ -890,3 +890,42 @@ Availability is "commonly stocked" but not checked this session.
 
 Top three to explore first: **Tiramisu (Marsala)**, **Qahwa (date + cardamom)** and **HK
 yuenyeung (tea + coffee)**.
+
+### 20 espresso cocktails (27 October 2026)
+
+Unless noted: 30 ml fresh espresso, no coffee liqueur, shaken hard 12–15 s, fine-strained into a
+chilled coupe.
+
+Assumptions (check labels):
+- base spirits 40%; Marsala 18%; umeshu 14%; chestnut, banana and pear liqueurs 25%; ube cream
+  17%; matcha liqueur 20%; Wattle Toffee 20%; nocino 28%; mirto and mastiha 30%; Strega 40%;
+  Ancho Reyes 40%; white cacao 25%; yuzu liqueur 10%;
+- standard drinks are Australian;
+- sugar estimated at about 9–12 g; tune with demerara in 2.5 ml steps against the house
+  Espresso Martini.
+
+| # | Name | Spec (ml) | Garnish / note | Std |
+|---|---|---|---|---|
+| 1 | Tiramisù | 30 brandy · 20 Marsala · 7.5 demerara | cocoa dust; optional salted mascarpone foam (dairy) | 1.25 |
+| 2 | Qahwa | 40 brandy or vodka · 10 date syrup · 2 dashes cardamom bitters | date sliver | 1.25 |
+| 3 | Yuenyeung | 35 vodka · 20 cold double-strength black tea · 15 sweetened condensed milk | none (dairy) | 1.1 |
+| 4 | Egg Coffee | 40 aged rum · 15 sweetened condensed milk · 1 pasteurised egg yolk; dry shake first | cinnamon dust (egg, dairy) | 1.25 |
+| 5 | Ume Café | 30 white rum · 25 umeshu · 5 demerara · 2 drops saline | none | 1.2 |
+| 6 | Mont Blanc | 30 brandy · 20 chestnut liqueur · 2 drops saline | grated nutmeg | 1.35 |
+| 7 | Hojicha Café | 40 Komasa Hojicha Gin · 10 demerara (or gula melaka syrup) | none | 1.25 |
+| 8 | Ube | 30 white rum · 25 ube cream liqueur | none (dairy-style) | 1.3 |
+| 9 | Yuzu Espresso Tonic | 30 vodka · 20 yuzu liqueur · 30 espresso, built over ice in a highball (no shake), topped with 100 tonic | yuzu or lemon zest | 1.1 |
+| 10 | Wattle Toffee | 30 aged rum · 20 Wattle Toffee Liqueur · 2 drops saline | none | 1.25 |
+| 11 | Nocino Café | 35 brandy · 15 nocino · 5 demerara | none (walnut: tree nut) | 1.45 |
+| 12 | Mirto Café | 35 vodka · 15 mirto · 5 honey syrup | myrtle leaf if available | 1.45 |
+| 13 | Strega Corretto | 40 brandy · 5 Strega · 10 honey syrup | none | 1.4 |
+| 14 | Mastiha | 30 vodka · 15 mastiha · 5 Giffard Vanille | none | 1.4 |
+| 15 | Dirty Matcha | 30 vodka · 20 matcha liqueur · 2 drops saline | matcha dust on half | 1.25 |
+| 16 | Ancho Mocha | 30 reposado tequila · 10 Ancho Reyes · 10 white crème de cacao · 5 demerara | cacao dust | 1.45 |
+| 17 | Levant | 40 vodka · 10 demerara · 2 drops rose water (or 3 drops orange-blossom water) | pistachio crumb (tree nut) | 1.25 |
+| 18 | Dirty Olive | 40 vodka · 7.5 green olive brine · 10 demerara | green olive on a pick | 1.25 |
+| 19 | Mango | 40 white rum · 12.5 Monin Mango · 2 drops saline | none | 1.25 |
+| 20 | Maple Breakfast | 40 bourbon · 10 maple syrup | smoked salt flakes | 1.25 |
+
+Suggested first bench (novel, bottled, crowd-safe): 1 Tiramisù, 5 Ume Café, 6 Mont Blanc,
+3 Yuenyeung, 18 Dirty Olive, with the house Espresso Martini as the control.
