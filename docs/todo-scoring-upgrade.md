@@ -106,6 +106,13 @@ Write these into the review proposal as well. Ari approves everything before it 
       - hojicha / roasted barley (guaiacol, 3-methylbutanal, 2-acetylpyrazine,
         2-acetyl-1-pyrroline);
       - banana liqueur (unmatched in more than 100 recipes).
+- [ ] **Verified sources only.** The follow-up infographic audit had unreliable citations; see the
+      verification table in `docs/house-specs.md`. Usable so far:
+      - 4-methoxy-2-methyl-2-butanethiol in blackcurrant (Jung et al. 2016);
+      - sesame-flavour baijiu odorants with OAVs;
+      - roasted sesame (Schieberle 1996);
+      - guaiacol thresholds (Schranz et al. 2017) and its presence in mezcal (GC-MS only).
+      Re-check every other citation from either audit before it goes into the data.
 - [ ] **Proposal, not yet approved:** an "impact odorant" flag per compound per ingredient (with
       OAV/AEDA evidence), so harmony can count only compounds that matter perceptually. This is a
       cheap middle ground between binary presence and the concentration data that doesn't exist.
