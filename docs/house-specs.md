@@ -677,3 +677,20 @@ Score each 1–5:
 - recognition, crowd appeal, novelty, operational fit.
 
 Weight integration, coffee integrity, finish and crowd appeal above novelty.
+
+### Liqueur shortlist beyond banana (27 October 2026)
+
+Built on the audit's strongest finding: beta-damascenone is one of coffee's most intense
+odorants. In Cobber's data the fruits that carry it are grape, apple, pear, strawberry,
+raspberry, cherry, Davidson plum and muntries. Pairings only, no specs.
+
+| Liqueur | Link to coffee | Novelty | Status |
+|---|---|---|---|
+| Crème de framboise / Chambord | beta-damascenone (raspberry); also an ionone floral note | medium | Chambord on the bar |
+| Crème de cassis | Kenyan coffees are described as blackcurrant; French | medium–high | Massenez Cassis on the bar (El Diablito) |
+| Mango liqueur or Monin Mango | beta-damascenone; very potent fruity esters for contrast | medium–high | Monin Mango in Australia; check liqueur brands |
+| Pear liqueur / Pommeau | beta-damascenone (pear, apple); Normandy story | medium | on the bar |
+| Crème de châtaigne (chestnut) | roast-on-roast (not audited); French Mont Blanc dessert | high | buy; check availability |
+| Sesame shochu (e.g. Beniotome) | roasted-sesame aroma (audited as a strong roast bridge) | high | buy; check availability at Japanese liquor stores |
+| Pineapple liqueur | furaneol-type caramel note (not audited) | medium | buy |
+| Davidson plum (native) | beta-damascenone in Cobber; tart, Australian | high | check bottled options |
