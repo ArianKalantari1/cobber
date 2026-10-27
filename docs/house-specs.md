@@ -840,7 +840,7 @@ Assumptions (check labels):
 - sugar is estimated at about 8–12 g; tune with demerara syrup in 2.5 ml steps against the house
   Espresso Martini.
 
-**Banana**
+**Banana: BANKED (27 Oct).** Kept for later; B1 is still the first bench test.
 
 | # | Name (working) | Spec (ml) | Garnish | Std drinks | Why it's different |
 |---|---|---|---|---|---|
@@ -850,7 +850,7 @@ Assumptions (check labels):
 | B4 | Banana Mont Blanc | 25 brandy · 15 banana liqueur · 15 chestnut liqueur · 2 drops saline | grated chestnut or nutmeg | 1.4 | French chestnut dessert meets banana |
 | B5 | Banana Yuzu Espresso Tonic | 20 white rum · 15 banana liqueur · 15 yuzu liqueur · 30 espresso, built over ice in a highball, topped with 90 tonic | yuzu or lemon zest | 1.05 | Long and light: the café espresso tonic |
 
-**Pistachio** (tree-nut allergen: flag it)
+**Pistachio** (tree-nut allergen: flag it). Ari: hard to make. Simplest paths: P1 with one prep (pistachio brandy), or bottled Paesano pistachio cream plus a crushed-pistachio garnish with no prep.
 
 | # | Name (working) | Spec (ml) | Garnish | Std drinks | Why it's different |
 |---|---|---|---|---|---|
