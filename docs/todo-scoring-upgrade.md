@@ -90,6 +90,26 @@ matches go to `unmatched_ingredients.txt`.
       juniper). Research its botanicals and add it as its own composite, kept separate from
       the generic London dry `gin`.
 
+## 3b. Coffee and pairing data gaps found by the 27 Oct research audit
+Write these into the review proposal as well. Ari approves everything before it goes in.
+- [ ] **Coffee's profile is missing its strongest odorants.** Add beta-damascenone, methional and
+      furaneol (already in Cobber's vocabulary) and guaiacol, 4-vinylguaiacol and
+      3-methylbutanal (new, need descriptor entries). Cite coffee AEDA/OAV studies.
+- [ ] **Fix partner profiles:**
+      - olive: add guaiacol;
+      - mango: add beta-damascenone;
+      - miso: add 2-furfurylthiol and methional;
+      - mushroom: add methional and 1-octen-3-one.
+- [ ] **Add new ingredients:**
+      - banana (isoamyl acetate, 3-methylbutanal, eugenol);
+      - roasted sesame;
+      - hojicha / roasted barley (guaiacol, 3-methylbutanal, 2-acetylpyrazine,
+        2-acetyl-1-pyrroline);
+      - banana liqueur (unmatched in more than 100 recipes).
+- [ ] **Proposal, not yet approved:** an "impact odorant" flag per compound per ingredient (with
+      OAV/AEDA evidence), so harmony can count only compounds that matter perceptually. This is a
+      cheap middle ground between binary presence and the concentration data that doesn't exist.
+
 ## 4. After 1–3: amounts for Olivia B
 - [ ] Run the loop over amounts: gin 30–35, amaretto 10–15, Bénédictine 5–10, vanilla
       2.5–5, brine 5–10, lemon 17.5–20. Use the redundancy rules plus the ml-weighted
