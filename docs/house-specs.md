@@ -815,3 +815,15 @@ otherwise keep the single-flavour winner.
 Keep the spirit at about 35–40% for good extraction and shelf life. Optional: sweeten the infused
 spirit into a house pistachio liqueur (dissolve sugar to taste), so one bottle is base, flavour and
 sweetener. No-alcohol route: pistachio orgeat.
+
+**Pistachio × coffee trends (October 2026 search):**
+- Pistachio lattes at the big chains: Starbucks brought back its pistachio latte and added a
+  pistachio cortado for winter 2026; Tim Hortons launched a chocolate–pistachio line.
+- The viral TikTok pistachio latte: espresso poured over pistachio cream.
+- Dubai chocolate (pistachio, chocolate, crunchy kataifi): the craze is fading, but pistachio has
+  outlasted it.
+- Pistachio tiramisu and affogato: mostly a recipe trend.
+- No pistachio Espresso Martini found on Sydney or Melbourne bar menus: an opening.
+
+Stack plan: first add pistachio as a **garnish** (crushed toasted, salted kernels on half the
+foam); move it into the liquid (pistachio brandy) only if it earns its place.
