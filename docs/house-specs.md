@@ -805,3 +805,13 @@ allergen protocol.
 
 If 4 beats both 2 and 3 on integration and crowd appeal, the stack has earned its place;
 otherwise keep the single-flavour winner.
+
+**No vodka? Infuse the drink's own base spirit** (same recipe: 150 g toasted kernels per 700 ml,
+48–72 h). Then the pistachio is the base itself and nothing is added.
+- **Brandy:** French pâtisserie (pistachio macaron, Paris–Brest); the most on-brand.
+- **White rum:** the lightest.
+- **Aged rum:** if it joins the banana.
+
+Keep the spirit at about 35–40% for good extraction and shelf life. Optional: sweeten the infused
+spirit into a house pistachio liqueur (dissolve sugar to taste), so one bottle is base, flavour and
+sweetener. No-alcohol route: pistachio orgeat.
