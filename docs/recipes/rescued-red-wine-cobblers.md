@@ -109,38 +109,41 @@ Check one sample with a pH strip: if it reads above 3.3, add citric to the base,
 
 ### Cherry v2: current house build (per 1 L rescued red; scale freely)
 
-Status: **R&D**, tasted by Ari 2026-11. No Heering in the fortifier, half sweet + half morello
-cherries, single orange peel so the cherry shows. Makes ~800 ml base → ~1.55 L batch at ~17%.
+Status: **R&D**, tasted by Ari 2026-11. No Heering in the fortifier, frozen sweet cherries for
+body plus pure sour cherry juice (~$6.99/L) for cherry flavour, single orange peel so the cherry
+shows. Makes ~830 ml base → ~1.6 L batch at ~17%.
 
 | Part | Amount per 1 L wine | When |
 |---|---|---|
 | Rescued red (soft or big; blend big with soft) | 1 L | Start |
-| Allspice, cracked | 3 berries (no allspice: 1 extra clove + a pinch of nutmeg + an extra ⅙ cinnamon quill) | Start |
+| Cloves | 2 (allspice substitute; or 1 clove + 3 allspice berries) | Start |
+| Nutmeg, grated | A small pinch (skip if using allspice) | Start |
+| Cinnamon quill | 4–5 cm (3 cm if using allspice) | Start |
 | Fresh ginger, sliced | 5 g | Start |
-| Cinnamon quill | 3 cm | Start |
-| Clove | 1 | Start |
 | Orange | Peel of ⅔ orange (no pith), then its juice | Start |
 | SPC plums in juice (optional) | ⅓ can, stones out, juice in | Start |
-| Frozen sweet cherries | ~165 g, **mashed** halfway | At the ~730 ml mark, gentle simmer 30–40 min |
 | Reduce to | **~600 ml mark** (500 ml wine + ~100 ml plum juice) | |
-| Jarred morello cherries **in syrup** | ~115 g fruit + its syrup (~⅓ jar) | Last 10–15 min, or off the heat |
-| Sugar | ~40 g (less the jar syrup's sugar), more to taste after fortifying | Off the heat |
+| Pure sour cherry juice | 200 ml | At the 600 ml mark, then reduce to the **~700 ml mark** (~10–15 min) |
+| Frozen sweet cherries | ~165 g | At the 700 ml mark: lid on, gentle simmer 30–40 min, **mash** halfway |
+| Sugar | ~60 g, more to taste after fortifying (the juice is tart) | Off the heat |
 | 20% saline | 1.3 ml | Off the heat |
 
 Strain hard (push some pulp through), cool, measure the base, then fortify per 100 ml base:
 
-| Fortifier | Per 100 ml base | For ~800 ml base |
+| Fortifier | Per 100 ml base | For ~830 ml base |
 |---|---|---|
-| Sweet vermouth (house, ~16%) | 15 ml | 120 ml |
+| Sweet vermouth (house, ~16%) | 15 ml | 125 ml |
 | Campari (or Aperol) | 5 ml | 40 ml |
-| Vodka (37.5%) | 72 ml | ~575 ml |
-| Cherry Heering (optional top-up) | 30–50 ml per litre of finished batch | 45–75 ml |
-| Peychaud's + Angostura (optional) | ~3 ml each per litre of finished batch | ~4.5 ml each |
+| Vodka (37.5%) | 72 ml | ~600 ml |
+| Cherry Heering (optional, taste first) | ~30 ml per litre of finished batch | ~50 ml |
+| Angostura (optional) | ~3 ml per litre of finished batch | ~5 ml |
 
 - Vodka assumes ~2% alcohol left in the base after a 90 min simmer (estimate range 1.6–3.7%);
   if more survived, the batch just lands a little above 17%.
-- Acid last: skip at first (morellos bring their own). If flat, malic 2 : citric 1 solution
-  (0.3 g/ml), 0.3 ml per 100 ml = 1 g/L, in half-gram steps. Stop at bright, not sharp.
+- No oranges: orange bitters ~3 ml per litre of finished batch instead (orange bitters–cherry
+  0.52 classic), but it adds bitterness on top of the Campari and none of the juicy body.
+- Acid last: skip at first (the sour cherry juice brings its own). If flat, malic 2 : citric 1
+  solution (0.3 g/ml), 0.3 ml per 100 ml = 1 g/L, in half-gram steps. Stop at bright, not sharp.
 - No pH meter: 4 weeks in the cool room. With pH 3.3 or below confirmed: 2–3 months.
 
 ## 5. Bitters patterns
