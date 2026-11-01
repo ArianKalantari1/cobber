@@ -115,7 +115,7 @@ cherries, single orange peel so the cherry shows. Makes ~800 ml base → ~1.55 L
 | Part | Amount per 1 L wine | When |
 |---|---|---|
 | Rescued red (soft or big; blend big with soft) | 1 L | Start |
-| Allspice, cracked | 3 berries (none? 1 extra clove + pinch nutmeg + extra ⅙ cinnamon quill) | Start |
+| Allspice, cracked | 3 berries (no allspice: 1 extra clove + a pinch of nutmeg + an extra ⅙ cinnamon quill) | Start |
 | Fresh ginger, sliced | 5 g | Start |
 | Cinnamon quill | 3 cm | Start |
 | Clove | 1 | Start |
