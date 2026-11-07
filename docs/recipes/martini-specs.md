@@ -22,9 +22,22 @@ Last updated: 2026-11-07.
 
 TBC (menu: Spirits of Newtown Gin, Dry Vermouth, Manzanilla).
 
-## Cornichon Martini · 22
+## Cornichon (Pickle) Martini · 22
 
-TBC (menu: Cornichon Vodka, Manzanilla, Pickle Brine).
+Tested by Ari 2026-11: "turned out good".
+
+| Ingredient | ml |
+|---|---|
+| Pickle-infused vodka | 35 |
+| Yellow Chartreuse | 4–5 |
+| Pickle brine | 5–7 |
+| 20% saline | A few drops (count TBC) |
+
+- Method, glass, garnish: TBC.
+- About **1.2 standard drinks**, ~46 ml before dilution: lighter than the House Vodka Martini
+  (~1.9 std, 71 ml) at a higher price. To match it, scale to 50 vodka, 6–7 Chartreuse, 7–10 brine.
+- The menu line reads "Cornichon Vodka, Manzanilla, Pickle Brine": update Manzanilla to
+  Yellow Chartreuse if this is the house spec.
 
 ## Tomato Martini · 22
 
