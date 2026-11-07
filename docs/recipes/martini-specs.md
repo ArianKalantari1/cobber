@@ -51,7 +51,7 @@ Sakura Martini spec isn't recorded here yet; the sakura element below is a draft
 | Lillet Rosé | 15 (10 if adding the sakura liqueur or syrup) |
 | Sakura liqueur or syrup (optional, TBC) | 5 |
 
-- Stirred, chilled coupe. Garnish: salted sakura blossom or grapefruit twist (TBC).
+- **Shaken** (Vesper style), fine strained into a chilled coupe. Garnish: salted sakura blossom or grapefruit twist (TBC).
 - About **1.9 standard drinks**. Classic-leaning alternative: 45 gin, 15 vodka, 10 Lillet Rosé.
 
 ## Tomato Martini · 22
