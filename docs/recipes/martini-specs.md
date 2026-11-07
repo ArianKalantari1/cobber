@@ -39,20 +39,9 @@ Tested by Ari 2026-11: "turned out good".
 - The menu line reads "Cornichon Vodka, Manzanilla, Pickle Brine": update Manzanilla to
   Yellow Chartreuse if this is the house spec.
 
-## Sakura Vesper (Lillet Rosé) · price TBC
+## Sakura Vesper (Lillet Rosé): retired
 
-Status: **R&D**. Agreed 2026-11: a Vesper with Lillet Rosé, **70 ml service portion**. The original
-Sakura Martini spec isn't recorded here yet; the sakura element below is a draft.
-
-| Ingredient | ml |
-|---|---|
-| Gin (Roku suggested: it carries sakura flower and leaf) | 40 |
-| Vodka | 15 |
-| Lillet Rosé | 15 (10 if adding the sakura liqueur or syrup) |
-| Sakura liqueur or syrup (optional, TBC) | 5 |
-
-- **Shaken** (Vesper style), fine strained into a chilled coupe. Garnish: salted sakura blossom or grapefruit twist (TBC).
-- About **1.9 standard drinks**. Classic-leaning alternative: 45 gin, 15 vodka, 10 Lillet Rosé.
+Tested 2026-11 (40 gin, 15 vodka, 15 Lillet Rosé, shaken, 70 ml) and dropped: it tasted awful.
 
 ## Tomato Martini · 22
 
