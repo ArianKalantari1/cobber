@@ -154,13 +154,14 @@ Strain hard (push some pulp through), cool, measure the base, then fortify per 1
 | Cognac VS (40%) | 150 ml | 150 ml | 150 ml |
 | Guignolet Kirsch (~16%, check label) | 150 ml | — | 100 ml |
 | Maraschino (32%) | — | 20 ml | 10 ml |
-| Campari (24%, suggested) | 50 ml | 50 ml | 50 ml |
+| Campari (24%, optional: can read too bitter) | 50 ml | 50 ml | 50 ml |
 | Vodka (37.5%) | 560 ml | 535 ml | 545 ml |
 | Yield | ~2.0 L | ~1.85 L | ~1.95 L |
 
 - Guignolet sits close to 17%, so changing its dose barely moves the vodka (~5 ml vodka per
   100 ml Guignolet). It is sweet: taste before adding any extra sugar.
 - Fuller brandy: 350 ml cognac + 335 ml vodka in place of 150 + 560 (column A).
+- No Campari: add ~20 ml more vodka (any column). Softer options: 20 ml Campari (vodka −5 ml), or 50 ml Aperol (+35 ml vodka).
 - Optional bitters per ~2 L: 6 ml Peychaud's (cherry 0.36 shared) and/or 6 ml Angostura.
 
 ## 5. Bitters patterns
