@@ -252,3 +252,4 @@ choices rest on classic pairings. Red wine data is provisional.
 - [ ] Cherry clashes with Sang et Sable if that wins the pisco slot; plum is the swap.
 - [ ] House Rosso: first batch for the Negroni; owner sign-off before it replaces the
       bought vermouth in the HH Negroni.
+- [ ] Sangria Rossa (100 batch + soda + fruit, $23): kept on file but **not pursuing for now** (Ari, 2026-11). Focus is the Cherry Cobbler (120 ml shaken, $22) and Kalimotxo, with 90 ml HH builds at $14.
