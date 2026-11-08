@@ -162,6 +162,8 @@ Strain hard (push some pulp through), cool, measure the base, then fortify per 1
   100 ml Guignolet). It is sweet: taste before adding any extra sugar.
 - Fuller brandy: 350 ml cognac + 335 ml vodka in place of 150 + 560 (column A).
 - No Campari: add ~20 ml more vodka (any column). Softer options: 20 ml Campari (+15 ml vodka), or 50 ml Aperol (+35 ml vodka).
+- Amaro instead of Campari (per 1 L base, no-Campari column C as start): Averna (29%) 40 ml,
+  vodka 540 (brandy 0.37 shared); or Montenegro (23%) 40 ml, vodka 555 (orange 0.77 shared).
 - Optional bitters per ~2 L: 6 ml Peychaud's (cherry 0.36 shared) and/or 6 ml Angostura.
 
 ## 5. Bitters patterns
