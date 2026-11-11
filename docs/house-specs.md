@@ -966,3 +966,39 @@ brine is milder, so it may need the higher dose.
 
 **Menu-overlap warning:** brine already appears in Olivia (planned), the Cornichon Martini, the
 Dirty Olive espresso idea, and "dirty on request" house martinis. Pick where olive lives.
+
+### Martini Corner: where a Dirty Martini Spritz fits (11 November 2026)
+
+The corner as planned:
+- House Gin Martini (Spirits of Newtown gin, dry vermouth, Manzanilla);
+- House Vodka Martini (vodka, Italicus, Manzanilla);
+- Cornichon Gibson (cornichon vodka, Manzanilla, pickle brine);
+- Tomato Martini (sun-dried tomato gin, artichoke vermouth, sea salt).
+
+**Gaps the spritz should fill:**
+1. **Olive.** The corner has pickle (Cornichon) and umami (Tomato), but no classic olive "dirty".
+   The spritz takes the olive slot and gives "dirty" a menu item of its own.
+2. **Long and lighter.** Every other drink is a short, strong, stirred martini; this is the
+   sessionable one.
+3. **No Manzanilla.** Three of the four already use it, so leave it out for contrast.
+
+**Lead: Dirty Martini Spritz.** A dirty martini made long.
+- 20 Spirits of Newtown gin · 30 dry vermouth · 10 green olive brine, built over cubed ice in a wine
+  glass.
+- Top with 60 French sparkling and 30 soda, and lift once.
+- Garnish: 3 Castelvetrano olives on a pick and a lemon twist.
+- About 1.6 standard drinks (estimated), lighter than the stirred martinis (about 1.8–2.2).
+- Batch the gin, vermouth and brine (fridge, about 1 week because of the vermouth); build with the
+  sparkling and soda at service.
+- Menu line: *Spirits of Newtown Gin, Dry Vermouth, Green Olive, French Sparkling — Briny, Bright,
+  Fizzy*.
+
+**Alternatives:**
+- **Dirty Italicus Spritz** (30 Italicus · 15 dry vermouth · 10 brine · 90 sparkling): shares the
+  Italicus bottle with the House Vodka Martini and nods to Italicus's olive serve, but it's
+  sweeter.
+- **Dirty Vermouth Spritz** (45 dry vermouth · 15 brine · 90 sparkling · 30 soda): the lowest ABV;
+  apéritif-hour.
+
+**Overlap to decide:** Olivia (Signatures) is also moving to olive brine. With a Dirty Martini
+Spritz on the menu, consider keeping Olivia's olive in the oil and garnish only.
