@@ -1003,3 +1003,26 @@ The corner as planned:
 
 **Overlap to decide:** Olivia (Signatures) is also moving to olive brine. With a Dirty Martini
 Spritz on the menu, consider keeping Olivia's olive in the oil and garnish only.
+
+**Dirty Martini Spritz: twist options (11 November 2026)**
+
+Flavour:
+- **Provençal:** 5 ml pastis (Ricard/Pernod). In Provence, pastis is served with olives, so this is
+  very French apéritif.
+- **Bergamot lift:** 5 ml Italicus or an expressed grapefruit zest. Citrus aroma brightens without
+  sourness.
+- **Blanc vermouth** (e.g. Dolin Blanc) instead of dry: softer and floral.
+- **Bubbles:** Crémant for a French story, or tonic for a "dirty tonic" bitter edge.
+
+Garnish and food:
+- **Gilda pick:** olive, guindilla pepper and (optional) anchovy, the Basque pintxo; a snack and a
+  garnish in one. Anchovy is fish (allergen); vegetarian without it.
+- **Caperberry with the olives** on the pick: more brine, a Mediterranean look.
+- **Herb:** a thyme or rosemary sprig (herbes de Provence); cracked pink pepper on top.
+
+Technique:
+- **Brine ice:** one large cube frozen from 1 part brine to 3 parts water, so the drink stays dirty
+  as it dilutes.
+- Avoid tomato (the Tomato Martini owns it) and Manzanilla (three corner drinks already use it).
+
+Top three to bench: Gilda pick, Provençal pastis, brine ice.
