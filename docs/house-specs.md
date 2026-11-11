@@ -1057,3 +1057,22 @@ into each twist.
 The menu line (`docs/menu/menu.json`) currently reads "Sun-Dried Tomato Gin, Artichoke Vermouth,
 Sea Salt" and doesn't mention rosemary. Proposed: "Sun-Dried Tomato & Rosemary Gin, Artichoke
 Vermouth, Sea Salt" ("Sea Salt" still describes saline accurately).
+
+### Martini Corner: owner's Canva draft (11 November 2026)
+
+"The Martini Corner, $27":
+- **Aperitif Martini:** Vodka/Gin, Manzanilla, Italicus, olive brine.
+- **Cornichon Gibson:** Pickled Vodka, Yellow Chartreuse, Dry Vermouth, cornichon Brine.
+- **Tomato Martini:** description still missing (the draft heading has a stray "Cornichon").
+- **Dirty Martini Spritz:** Gin, Dry Vermouth, soda, olive brine, Orange Bitter.
+
+**Notes on the spritz:**
+- **The core is right.** Orange bitters is a good classic martini touch with olive.
+- **Soda only makes it a highball,** not a spritz. "Spritz" implies sparkling wine. Soda also
+  thins the brine, and $27 needs some sparkle. Suggest French sparkling, or half sparkling and half
+  soda.
+- **Two drinks now share olive brine** (Aperitif Martini and the spritz), and the Gibson has pickle
+  brine: 3 of 4 are briny. Either drop the brine from the Aperitif Martini, or give the spritz a
+  twist so they don't read alike.
+- **Copy fixes:** "Orange Bitter" → "Orange Bitters"; consistent capitals ("Soda", "Olive Brine",
+  "Cornichon Brine").
