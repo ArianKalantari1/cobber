@@ -1076,3 +1076,62 @@ Vermouth, Sea Salt" ("Sea Salt" still describes saline accurately).
   twist so they don't read alike.
 - **Copy fixes:** "Orange Bitter" → "Orange Bitters"; consistent capitals ("Soda", "Olive Brine",
   "Cornichon Brine").
+
+## Shopping and prep list: new cocktails (11 November 2026)
+
+Summer Fling, A Refreshing Indulgence (Watermelon Reviver, spring R&D version B), Pisco Ma
+Chérie, Tomato Martini.
+
+**Bottles**
+| Item | For |
+|---|---|
+| Blanco tequila | Summer Fling batch |
+| Mezcal | Summer Fling batch |
+| Floc de Gascogne | Summer Fling batch |
+| Apricot liqueur | Summer Fling batch |
+| White rum | Reviver |
+| Lillet Rosé | Reviver |
+| Orange curaçao | Reviver |
+| Absinthe | Reviver |
+| Pisco | Pisco Ma Chérie (+ the optional pepper tincture) |
+| Elegante Medium sherry (Summer Hill Wine Shop) | Pisco Ma Chérie (more of it after the 27 Oct tasting) |
+| Gin | Tomato Martini infusion |
+| Artichoke vermouth (brand to confirm) | Tomato Martini |
+| Soda water / Purezza sparkling | Pisco Ma Chérie |
+
+**Pantry and produce**
+| Item | For |
+|---|---|
+| Agave nectar | Summer Fling batch |
+| Canned apricot halves in syrup, 825 g (1 can ≈ 20 drinks) | Summer Fling purée |
+| Limes | Summer Fling service |
+| H2melon, 1.25 L bottles (Dan Murphy's, IGA, Chemist Warehouse) | Reviver cordial |
+| Monin Rose syrup | Reviver cordial |
+| Lemons | Reviver service |
+| Frozen strawberries (1 kg per full shrub) | Pisco shrub |
+| White sugar, demerara sugar | Pisco shrub |
+| Whole black peppercorns | Shrub + garnish |
+| FORVM Chardonnay vinegar or Woolworths sherry vinegar | Pisco shrub |
+| Oranges | Dehydrated orange wheels (Pisco garnish) |
+| Sun-dried tomatoes, fresh rosemary | Tomato Martini gin infusion |
+| Optional: Blackmores Vitamin C 500, Monin peach purée | Summer Fling purée |
+
+**Prep chemicals and kit**
+| Item | For |
+|---|---|
+| Malic acid, citric acid | Purée, cordial, shrub |
+| Salt; 20% saline | Purée, shrub, Tomato Martini |
+| Potassium sorbate (10% solution) | Purée, cordial, optional for the shrub |
+| pH strips | Purée (3.5 or below), cordial (3.5 or below) |
+| Coffee filters, fine sieve | Shrub, Tomato gin, tinctures |
+| Bottles, labels ("contains preservative 202"), squeeze bottle | All preps |
+
+**Preps to make**
+1. Apricot purée (Summer Fling).
+2. Summer Fling batch.
+3. Freeze-concentrated H2melon, then the rose watermelon cordial.
+4. Reviver batch.
+5. Black pepper strawberry shrub.
+6. Pisco Ma Chérie batch.
+7. Dehydrated orange wheels.
+8. Sun-dried tomato and rosemary gin.
