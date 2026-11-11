@@ -1136,3 +1136,11 @@ cucumber rum and Cointreau, i.e. the house-specs proposed build), Pisco Ma Chér
 6. Pisco Ma Chérie batch.
 7. Dehydrated orange wheels.
 8. Sun-dried tomato and rosemary gin.
+
+### Summer Fling: chilli bitters at service (11 November 2026)
+
+- **Service:** 60 ml batch + 30 ml apricot purée + 15 ml lime + **1 dash chilli bitters** (not in
+  the batch, so the dose can be tuned and left out on request). Shake hard and short, Hawthorne
+  single-strain over fresh cubed ice.
+- **Menu:** *Tequila & Mezcal, Floc de Gascogne, Apricot, Lime & Agave — Fruity, spicy & juicy.*
+  Consider adding "Chilli".
