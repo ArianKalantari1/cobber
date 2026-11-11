@@ -929,3 +929,40 @@ Assumptions (check labels):
 
 Suggested first bench (novel, bottled, crowd-safe): 1 Tiramisù, 5 Ume Café, 6 Mont Blanc,
 3 Yuenyeung, 18 Dirty Olive, with the house Espresso Martini as the control.
+
+## Dirty Martini Spritz: owner's trend check (11 November 2026)
+
+**Verdict: half right.**
+- **The two trends exist separately:**
+  - **dirty martinis** are a big 2026 trend (US/UK press; in Sydney, Bar Planet says its Dirty Gin
+    Martini outsells every other martini about 3 to 1);
+  - **spritz** is Europe's big trend (a Martini/Bacardi survey says two thirds of Europeans turn to
+    spritz in summer; Fyre's H1 2026 data puts spritz at about 10% of named-cocktail revenue in
+    France).
+- **The combined "Dirty Spritz" is documented mainly in the US:**
+  - Michael Timmons, Temple Bar, NYC (Punch recipe: olive brine with apricot eau de vie, apricot
+    liqueur and Amaro Nonino);
+  - Killjoy, Raleigh, summer 2025 (moscato base);
+  - Martha Stewart / Wine Enthusiast coverage.
+- **No source found for a "dirty spritz" trend in Europe** (Italy, London, Paris), and no Sydney
+  bar found serving one. On a Sydney menu it would be early, not late.
+
+Common formula (Martha Stewart coverage): about 1.5 oz (45 ml) base or aperitivo, 3 oz (90 ml)
+bubbles, ½–¾ oz (15–22.5 ml) brine depending on brine strength.
+
+**Options using the bar's stock** (wine glass, cubed ice, built; garnish 3 green olives on a pick plus a
+lemon twist; about 1.2–1.5 standard drinks):
+
+| Idea | Spec (ml) | Note |
+|---|---|---|
+| Dirty Italicus Spritz | 30 Italicus · 15 dry vermouth · 10 green olive brine · 90 French sparkling | Italicus's own signature serve is a spritz with green olives; adding brine makes it "dirty". Italicus is already on the bar |
+| Dirty Manzanilla Spritz | 45 Manzanilla · 15 dry vermouth · 10 green olive brine · 75 French sparkling · 30 soda | Sherry's salinity plus olive; links to the House Gin Martini's Manzanilla |
+| Dirty Vermouth Spritz | 45 dry vermouth (or Lillet Blanc) · 15 green olive brine · 90 French sparkling · 30 soda | The simplest, lowest ABV |
+| Dirty Salers Spritz | 30 Salers · 15 dry vermouth · 10 green olive brine · 90 French sparkling | Bitter, savoury, French |
+| Zero-proof | 45 non-alcoholic aperitivo · 10 green olive brine · top tonic | For the no/low list |
+
+Brine: use one consistent bottled brine (e.g. Crawley's Dirty Martini Olive Brine). Castelvetrano
+brine is milder, so it may need the higher dose.
+
+**Menu-overlap warning:** brine already appears in Olivia (planned), the Cornichon Martini, the
+Dirty Olive espresso idea, and "dirty on request" house martinis. Pick where olive lives.
