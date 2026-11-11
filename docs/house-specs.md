@@ -1026,3 +1026,23 @@ Technique:
 - Avoid tomato (the Tomato Martini owns it) and Manzanilla (three corner drinks already use it).
 
 Top three to bench: Gilda pick, Provençal pastis, brine ice.
+
+**Dirty Martini Spritz: twist specs (same olives: khaki Green Queens, the tub's brine strained
+and kept in the fridge).** Wine glass, cubed ice, build, top with the bubbles, lift once. Garnish
+3 Queens on a pick unless noted. Standard drinks are estimates (gin 40%, dry vermouth 17%, blanc
+16%, pastis 45%, Italicus 20%, sparkling 11.5%).
+
+| Twist | Spec (ml) | Garnish | Std |
+|---|---|---|---|
+| Base (control) | 20 gin · 30 dry vermouth · 20 brine · 75 French sparkling | 3 Queens + lemon twist | 1.7 |
+| Provençal | 15 gin · 30 dry vermouth · 5 pastis · 20 brine · 75 sparkling | 3 Queens + lemon twist | 1.75 |
+| Bergamot | 15 gin · 30 dry vermouth · 5 Italicus · 20 brine · 75 sparkling | 3 Queens + expressed grapefruit zest | 1.65 |
+| Blanc | 20 gin · 30 blanc vermouth · 20 brine · 75 sparkling | 3 Queens + lemon twist | 1.7 |
+| Dirty Tonic | 20 gin · 30 dry vermouth · 20 brine · 90 tonic | 3 Queens + lemon wheel | 1.05 |
+| Gilda | 20 gin · 30 dry vermouth · 15 olive brine + 5 guindilla brine · 75 sparkling | Gilda pick: 2 Queens, 1 guindilla, optional anchovy (fish allergen) | 1.7 |
+| Caperberry | 20 gin · 30 dry vermouth · 15 olive brine + 5 caper brine · 75 sparkling | 2 Queens + 1 caperberry | 1.7 |
+| Herb | Base | 3 Queens + clapped thyme or rosemary sprig + cracked pink pepper | 1.7 |
+| Brine ice | 20 gin · 30 dry vermouth · 15 brine · 75 sparkling, over one large brine cube (25 brine + 75 water, frozen) instead of cubed ice | 3 Queens + lemon twist | 1.7 |
+
+Queen brine is strong: bench the base at 15, 20 and 25 ml first, then carry the winning dose
+into each twist.
