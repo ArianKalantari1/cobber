@@ -983,11 +983,12 @@ The corner as planned:
 3. **No Manzanilla.** Three of the four already use it, so leave it out for contrast.
 
 **Lead: Dirty Martini Spritz.** A dirty martini made long.
-- 20 Spirits of Newtown gin · 30 dry vermouth · 10 green olive brine, built over cubed ice in a wine
-  glass.
-- Top with 60 French sparkling and 30 soda, and lift once.
+- 20 Spirits of Newtown gin · 30 dry vermouth · **20 green olive brine** (revised from 10 ml after
+  Ari's note: 10 ml in a long drink is barely dirty), built over cubed ice in a wine glass.
+- Top with **75 French sparkling** (soda dropped: it dilutes the brine), and lift once.
+- Bench the brine at 15, 20 and 25 ml; Castelvetrano brine is milder, so expect the high end.
 - Garnish: 3 Castelvetrano olives on a pick and a lemon twist.
-- About 1.6 standard drinks (estimated), lighter than the stirred martinis (about 1.8–2.2).
+- About 1.7 standard drinks (estimated), still lighter than the stirred martinis (about 1.8–2.2).
 - Batch the gin, vermouth and brine (fridge, about 1 week because of the vermouth); build with the
   sparkling and soda at service.
 - Menu line: *Spirits of Newtown Gin, Dry Vermouth, Green Olive, French Sparkling — Briny, Bright,
