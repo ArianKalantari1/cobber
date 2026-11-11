@@ -1046,3 +1046,14 @@ and kept in the fridge).** Wine glass, cubed ice, build, top with the bubbles, l
 
 Queen brine is strong: bench the base at 15, 20 and 25 ml first, then carry the winning dose
 into each twist.
+
+### Tomato Martini: build as Ari remembers it (11 November 2026)
+
+- **Gin infused with sun-dried tomato and rosemary.** Amounts and steep time to be confirmed.
+- **Artichoke vermouth.** The brand is to be confirmed from the bottle.
+- **A little saline**, not sea-salt flakes.
+- Stirred martini; amounts to be confirmed.
+
+The menu line (`docs/menu/menu.json`) currently reads "Sun-Dried Tomato Gin, Artichoke Vermouth,
+Sea Salt" and doesn't mention rosemary. Proposed: "Sun-Dried Tomato & Rosemary Gin, Artichoke
+Vermouth, Sea Salt" ("Sea Salt" still describes saline accurately).
