@@ -1079,8 +1079,8 @@ Vermouth, Sea Salt" ("Sea Salt" still describes saline accurately).
 
 ## Shopping and prep list: new cocktails (11 November 2026)
 
-Summer Fling, A Refreshing Indulgence (Watermelon Reviver, spring R&D version B), Pisco Ma
-Chérie, Tomato Martini.
+Summer Fling, A Refreshing Indulgence (Watermelon Reviver: Ari confirmed 11 Nov the menu build with
+cucumber rum and Cointreau, i.e. the house-specs proposed build), Pisco Ma Chérie, Tomato Martini.
 
 **Bottles**
 | Item | For |
@@ -1091,7 +1091,7 @@ Chérie, Tomato Martini.
 | Apricot liqueur | Summer Fling batch |
 | White rum | Reviver |
 | Lillet Rosé | Reviver |
-| Orange curaçao | Reviver |
+| Cointreau | Reviver |
 | Absinthe | Reviver |
 | Pisco | Pisco Ma Chérie (+ the optional pepper tincture) |
 | Elegante Medium sherry (Summer Hill Wine Shop) | Pisco Ma Chérie (more of it after the 27 Oct tasting) |
@@ -1108,6 +1108,7 @@ Chérie, Tomato Martini.
 | H2melon, 1.25 L bottles (Dan Murphy's, IGA, Chemist Warehouse) | Reviver cordial |
 | Monin Rose syrup | Reviver cordial |
 | Lemons | Reviver service |
+| Lebanese cucumbers (about 250 g per 700 ml rum) | Reviver cucumber rum |
 | Frozen strawberries (1 kg per full shrub) | Pisco shrub |
 | White sugar, demerara sugar | Pisco shrub |
 | Whole black peppercorns | Shrub + garnish |
