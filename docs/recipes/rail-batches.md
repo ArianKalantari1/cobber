@@ -15,7 +15,7 @@ overnight. Goal: every service is one jigger pour from the batch plus at most tw
   oil, fresh herbs. These are added at service. **Bitters are fine in a batch** (Ari, 12 Nov). **So is an acidified cordial**, as long as the mixed bottle stays at about 20% ABV or more (watermelon cordial in the A Rosy Invitation batch).
 - **Sugar may go in the batch only when the batch is high in alcohol** (about 20% ABV or more) and the
   sweetener is a bottled or shelf-stable syrup.
-- **Low-ABV batches stay on ice** (Ari, 12 Nov): Sangria Tinto (about 16%) and Pisco Ma Chérie (about 20%, has shrub). Stand the capped bottle in an ice-and-water bucket up to the neck, keep the ice topped up, and change the bucket every shift. The 8-hour rail limit is for the high-ABV bottles (Summer Fling, A Rosy Invitation). Everything goes back to the cool room at close.
+- **Low-ABV batches stay on ice** (Ari, 12 Nov): Sangria Tinto (about 16%) and Pisco Ma Chérie (about 20%, has shrub). Stand the capped bottle in an ice-and-water bucket up to the neck, keep the ice topped up, and change the bucket every shift. The 8-hour rail limit is for the high-ABV bottles kept at room temperature (Summer Fling). A Rosy Invitation can sit in the ice well all service (Ari, 12 Nov), which also slows its flavour and colour fade. Everything goes back to the cool room at close.
 - Fixed jigger pour for every batch, so no measuring at service. Shake the bottle first if it has
   settled. Label: drink, date made, use-by, pour size.
 - Batches are 700 ml rail bottles (Sangria Tinto: a 750 ml bottle).
