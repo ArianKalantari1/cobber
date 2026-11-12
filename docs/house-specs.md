@@ -1144,3 +1144,33 @@ cucumber rum and Cointreau, i.e. the house-specs proposed build), Pisco Ma Chér
   single-strain over fresh cubed ice.
 - **Menu:** *Tequila & Mezcal, Floc de Gascogne, Apricot, Lime & Agave — Fruity, spicy & juicy.*
   Consider adding "Chilli".
+
+## Menu wording and Reviver sharpness update (12 Nov 2026)
+
+Final signature lines, prices and descriptors after Ari's review. Prices are tier prices
+(signatures $24, spritz $22); only the five costed drinks have a calculated pour cost.
+
+| Drink | Price | Descriptor |
+|---|---|---|
+| A Refreshing Indulgence | $24 | Fresh, floral & crisp (was "delicate"; revisit after tasting) |
+| Olivia | $24 | Elegant, nutty & structured (more olive oil makes it nuttier, not silky) |
+| Apple Pie Spritz | $22 | Spiced, fizzy & moreish |
+| Pisco Ma Chérie | $24 | Tall, juicy & tangy |
+| Kaffi Gimlet | $24 | Zesty, tart & fragrant (ingredient is Kiwi syrup, so the line says "Kiwi") |
+| Sangria Branco | $24 | Fruity, sweet & refreshing |
+| Sangria Tinto | $24 | Fruity, spiced & refreshing |
+| Mando Raspberry Fizz | $24 | Fruity, silky & warming (needs other bartenders' feedback) |
+| Summer Fling | $24 | Fruity, spicy & juicy (spicy from chilli bitters; smoky would need more mezcal, which costs more) |
+| White Flower Negroni | $24 | Delicate, botanical & bittersweet |
+
+### A Refreshing Indulgence: sharper test build (Corpse Reviver style)
+Aim: sharp and bright like a Corpse Reviver No. 2 (gin, Lillet Blanc, Cointreau, absinthe, lemon).
+- 25 ml cucumber-infused rum
+- 20 ml Lillet Rosé
+- 15 ml Cointreau
+- 1-2 ml absinthe
+- 25 ml watermelon cordial (with a little rose syrup; citrus in the cordial raised)
+- 10 ml lemon (could drop to 5 ml, since the cordial already carries citric acid)
+
+Hand maths (to check by tasting): about 1.5 standard drinks. Lillet Rosé is softer and sweeter than
+Blanc, so the sharpness has to come from the cordial acid, lemon and absinthe. Taste, then adjust lemon.
