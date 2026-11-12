@@ -1198,8 +1198,9 @@ should land around pH 3 (well under the 3.8 safety line). Buy food pH strips (ra
 homebrew shop or online when you can, to confirm the first batch. Until then, the cordial should taste
 clearly sour, like lemon juice cut with water.
 
-**Easy routine for the cordial:** process 4 bottles of H2melon at a time (about 2.2 L of cordial, about 88
-drinks), freeze it in 500 ml portions (about 20 drinks each, one busy service), and keep only one
-portion in the fridge at a time. Move a frozen portion to the fridge to thaw overnight about every 5
-days. Shelf-life check, no extra work: taste a spoonful each morning from the first fridge portion and
-write down the day it first tastes dull, fizzy or off.
+**Easy routine for the cordial (corrected 12 Nov: about 10 drinks a week, not a busy service):** 250 ml is
+about 10 drinks at 25 ml, so one 250 ml portion in the fridge per week matches the 7-day estimate.
+Process 2 bottles of H2melon about once a month (about 1.1 L of cordial, 4 portions of 250 ml), freeze
+the portions, and move one to the fridge to thaw overnight each week. Stir before pouring. Shelf-life
+check, no extra work: taste a spoonful each morning from the first fridge portion and write down the
+day it first tastes dull, fizzy or off.
