@@ -114,3 +114,8 @@ Statistics use 445 current, named, full-size drinks. Old and unconfirmed listing
 
 This is consistent with section 3 and the costing above (a $24 core still gives about 19–22% pour
 cost on placeholder prices).
+
+**Verified by Ari from the venues' menus (12 November 2026):**
+- **Pistou (Newtown):** cocktails $24 (Provençal Paloma, French Negroni, Old Fashioned); spritzes
+  $22, Pastis Spritz $23.
+- **Piqu (Newtown):** signatures $23–24; classics $19–23; martinis $22–23 (classic martini $23).
