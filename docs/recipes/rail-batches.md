@@ -8,7 +8,7 @@ overnight. Goal: every service is one jigger pour from the batch plus at most tw
 - **Rail time: 8 hours out at most per day.** Write the time it went out on the bottle tag. At close
   it goes back to the cool room, capped. Don't top up a used bottle with fresh batch; finish it first.
 - **Never in a batch:** citrus juice, open fruit purée, watermelon cordial, soda or sparkling, olive
-  oil, bitters, fresh herbs. These are added at service.
+  oil, fresh herbs. These are added at service. **Bitters are fine in a batch** (Ari, 12 Nov).
 - **Sugar may go in the batch only when the batch is high in alcohol** (about 20% ABV or more) and the
   sweetener is a bottled or shelf-stable syrup.
 - Fixed jigger pour for every batch, so no measuring at service. Shake the bottle first if it has
@@ -19,14 +19,14 @@ overnight. Goal: every service is one jigger pour from the batch plus at most tw
 
 | Drink | Batch (per bottle) | Pour | Add at service | Bottle ABV | Std drinks | Keeps |
 |---|---|---|---|---|---|---|
-| **Summer Fling** | 380 tequila · 95 mezcal · 140 Floc de Gascogne · 45 agave (= 660 ml) | 60 ml | 30 apricot purée · 15 lime · 1 dash chilli bitters | about 33% | about 1.5 | 1–2 weeks (Floc fades first) |
+| **Summer Fling** | 380 tequila · 95 mezcal · 140 Floc de Gascogne · 45 agave · 8 chilli bitters (= about 668 ml) | 60 ml | 30 apricot purée · 15 lime | about 33% | about 1.5 | 1–2 weeks (Floc fades first) |
 | **Pisco Ma Chérie** | 270 pisco · 195 Elegante Medium sherry · 235 strawberry shrub (= 700 ml) | 90 ml (60 + 30) | highball of cubes, 75 soda, black pepper | about 20% | about 1.4 | about 2 weeks |
 | **A Rosy Invitation** (test build) | 270 cucumber rum · 215 Lillet Rosé · 160 Cointreau · 15 absinthe (= 660 ml) | 60 ml | 25 watermelon-rose cordial (fridge) · 10 lemon | about 32% | about 1.5 | 1–2 weeks (fridge) |
 | **Olivia B** (lead version) | 370 house gin · 105 amaretto · 80 Bénédictine · 25 vanilla syrup · 80 filtered green olive brine (= 660 ml) | 60 ml | 17.5 lemon · 5 extra-virgin olive oil · foamer | about 32% | about 1.5 | weeks (no vermouth) |
 | **Sangria Tinto** | 600 cherry cobbler batch · 90 sweet vermouth · 60 Aperol (= 750 ml) | 125 ml | muddled orange and lemon slice with a little lemon juice, cubes, optional Coca-Cola | about 16% | about 1.6 | fridge, best within 6 weeks |
 
 Notes:
-- **Summer Fling:** the apricot liqueur is out of the batch (tequila replaces it, per the earlier
+- **Summer Fling:** the chilli bitters are now in the batch (about 1 dash per pour; start at 8 ml per bottle and taste, then adjust). The apricot liqueur is out of the batch (tequila replaces it, per the earlier
   test). The batch is about 10 g sugar per 100 ml. If the drink reads dry, add 25 ml agave to the bottle.
 - **Pisco:** this uses the more-sherry version from the 27 October tasting (35 pisco · 25 sherry ·
   30 shrub per serve), not the first spec (320/140/240).
