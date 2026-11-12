@@ -1174,3 +1174,21 @@ Aim: sharp and bright like a Corpse Reviver No. 2 (gin, Lillet Blanc, Cointreau,
 
 Hand maths (to check by tasting): about 1.5 standard drinks. Lillet Rosé is softer and sweeter than
 Blanc, so the sharpness has to come from the cordial acid, lemon and absinthe. Taste, then adjust lemon.
+
+### Watermelon cordial: higher-acid version for shelf life, per 100 ml of concentrate (12 Nov 2026)
+
+Ari: sourness is not a problem because the lemon in the drink can be cut. So the acid goes up to
+protect the cordial. Untested; check pH with a strip and keep it cold and dark.
+
+| Per 100 ml concentrate | Amount | Per 500 ml |
+|---|---|---|
+| Citric acid | 1.5 g | 7.5 g |
+| Malic acid | 0.75 g | 3.75 g |
+| Salt | 0.1 g | 0.5 g |
+| Potassium sorbate (10% solution) | 0.8 ml (= 0.08 g) | 4 ml |
+| Rose syrup (optional) | 10 ml | 50 ml |
+| Vitamin C (optional, unflavoured) | 100 mg (1/5 of a 500 mg tablet) | 1 tablet |
+
+Target pH 3.3 or below (was 3.8). At 25 ml of cordial the acid equals about 9 ml of lemon, so cut the
+lemon in the drink to 0-5 ml. Still use within about 7 days in the fridge, or freeze in 200 ml portions,
+until a real shelf-life test (day 7, 14, 21) says otherwise.
