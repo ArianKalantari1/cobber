@@ -77,3 +77,40 @@ pour cost down.
 - Boothby NSW cocktail price survey (paywalled): https://boothby.com.au/whats-the-price-of-a-cocktail-nsw
 - Pour-cost targets: https://academy.getbackbar.com/2026-pour-cost-targets-bar-profitability
 - Sydney alcohol tax rise (Time Out): https://www.timeout.com/sydney/news/sydneys-alcohol-tax-is-rising-again-heres-what-it-means-for-your-drinks-bill-080526
+
+## 4. Update: Sydney price benchmark (ChatGPT research, 12 November 2026)
+
+571 menu records from 62 venues, each with a source link (not individually re-checked here).
+Statistics use 445 current, named, full-size drinks. Old and unconfirmed listings are excluded.
+
+| Area | Signature median (P75, max) | Spritz median | Martini median (P75) | Non-alc median |
+|---|---|---|---|---|
+| LOCAL (Inner West) | **$23** ($24, max $25) | $21 | $24 ($25) | $16 |
+| MIDDLE (Burwood, Concord, Rhodes…) | $23 ($23.50) | $21 | $23 ($25) | $16 |
+| CITY | **$26** ($27) | $22 | $25 ($25.25) | $17.50 |
+
+**Key facts:**
+- **Flat $26 is above every verified local signature price.** $26 is the city median.
+- **Close comparisons:**
+  - Pistou (Newtown, French wine bar): house cocktails $24, spritzes $22–23.
+  - Piqu: $23–24.
+  - Mali Ston (Dulwich Hill): $22–24.
+  - Marrickville Tavern: $21.
+- **Apéritif & Co's live website** lists signatures at $22–25 and French spritzes at $20–21. A
+  flat $26 is a rise of $1–4 a drink.
+- **Martinis:** the local median is $24, and Bar Planet (a martini specialist) charges $25–26. The
+  draft Martini Corner at $27 would be above the specialist.
+- **Tiers are the norm:** 8 of 10 assessable local venues use more than one signature price.
+- **Happy hour locally is $15.** Postino Osteria, Summer Hill, runs $15 cocktails Sun–Thu
+  5:30–6:30pm. Its regular cocktail prices were not verified.
+- **Boothby 2024** (NSW leading bars): average $23.29; CBD $24.29; Newtown $22.51.
+
+**Updated recommendation:**
+- Spritzes $20–22.
+- Core signatures **$24**.
+- Premium signatures and the premium martini **$26**.
+- Non-alc $14–17.
+- Optional apéritif hour at $15 on selected drinks.
+
+This is consistent with section 3 and the costing above (a $24 core still gives about 19–22% pour
+cost on placeholder prices).
