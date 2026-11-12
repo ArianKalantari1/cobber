@@ -1186,9 +1186,20 @@ protect the cordial. Untested; check pH with a strip and keep it cold and dark.
 | Malic acid | 0.75 g | 3.75 g |
 | Salt | 0.1 g | 0.5 g |
 | Potassium sorbate (10% solution) | 0.8 ml (= 0.08 g) | 4 ml |
-| Rose syrup (optional) | 10 ml | 50 ml |
+| Rose syrup (cut: the first version was too syrupy) | 5 ml | 25 ml |
 | Vitamin C (optional, unflavoured) | 100 mg (1/5 of a 500 mg tablet) | 1 tablet |
 
 Target pH 3.3 or below (was 3.8). At 25 ml of cordial the acid equals about 9 ml of lemon, so cut the
 lemon in the drink to 0-5 ml. Still use within about 7 days in the fridge, or freeze in 200 ml portions,
 until a real shelf-life test (day 7, 14, 21) says otherwise.
+
+**No pH strip?** The acid is by weight, so the pH is set by the dose: about 2.25 g of acid per 100 ml
+should land around pH 3 (well under the 3.8 safety line). Buy food pH strips (range 2-9) from a
+homebrew shop or online when you can, to confirm the first batch. Until then, the cordial should taste
+clearly sour, like lemon juice cut with water.
+
+**Easy routine for the cordial:** process 4 bottles of H2melon at a time (about 2.2 L of cordial, about 88
+drinks), freeze it in 500 ml portions (about 20 drinks each, one busy service), and keep only one
+portion in the fridge at a time. Move a frozen portion to the fridge to thaw overnight about every 5
+days. Shelf-life check, no extra work: taste a spoonful each morning from the first fridge portion and
+write down the day it first tastes dull, fizzy or off.
