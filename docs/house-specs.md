@@ -1204,3 +1204,9 @@ Process 2 bottles of H2melon about once a month (about 1.1 L of cordial, 4 porti
 the portions, and move one to the fridge to thaw overnight each week. Stir before pouring. Shelf-life
 check, no extra work: taste a spoonful each morning from the first fridge portion and write down the
 day it first tastes dull, fizzy or off.
+
+**Why the rum is cucumber-infused (Ari, 12 Nov):** the cucumber masks the cooked watermelon flavour from the
+pasteurised H2melon. So the cucumber rum has a job. When the cucumber note fades (1-2 weeks, then
+pickle-like), the cooked note comes back. Make cucumber rum in small, frequent batches, and judge the
+rail bottle's shelf life by the cucumber, not only the cordial. If the watermelon ever tastes cooked,
+more cucumber (more peel-striped cucumber per 700 ml, or a fresher infusion) is the first lever.
