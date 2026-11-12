@@ -452,8 +452,7 @@ fresh cucumber and an aromatised wine in it) and use within about 1–2 weeks.
 20–30 s, rest 20 min, then strain through a fine sieve and a coffee filter.
 Ready in about an hour, and bright green. **Slow method:** slice thin and
 infuse in the fridge for 12–24 h, then strain. **Storage:** fridge, amber
-bottle, use within 2 weeks; the fresh cucumber note fades and can turn
-pickle-like.
+bottle, use within 2 weeks; the fresh cucumber note may fade (untested; taste it weekly).
 
 ---
 
@@ -1206,7 +1205,6 @@ check, no extra work: taste a spoonful each morning from the first fridge portio
 day it first tastes dull, fizzy or off.
 
 **Why the rum is cucumber-infused (Ari, 12 Nov):** the cucumber masks the cooked watermelon flavour from the
-pasteurised H2melon. So the cucumber rum has a job. When the cucumber note fades (1-2 weeks, then
-pickle-like), the cooked note comes back. Make cucumber rum in small, frequent batches, and judge the
+pasteurised H2melon. So the cucumber rum has a job. When the cucumber note fades (untested; the 1-2 week figure is a cautious estimate), the cooked note comes back. Make cucumber rum in small, frequent batches, and judge the
 rail bottle's shelf life by the cucumber, not only the cordial. If the watermelon ever tastes cooked,
 more cucumber (more peel-striped cucumber per 700 ml, or a fresher infusion) is the first lever.
