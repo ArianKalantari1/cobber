@@ -9,8 +9,8 @@ overnight. Goal: every service is one jigger pour from the batch plus at most tw
 
 - **Rail time: 8 hours out at most per day.** Write the time it went out on the bottle tag. At close
   it goes back to the cool room, capped. Don't top up a used bottle with fresh batch; finish it first.
-- **Never in a batch:** citrus juice, open fruit purée, watermelon cordial, soda or sparkling, olive
-  oil, fresh herbs. These are added at service. **Bitters are fine in a batch** (Ari, 12 Nov).
+- **Never in a batch:** citrus juice, open fruit purée, soda or sparkling, olive
+  oil, fresh herbs. These are added at service. **Bitters are fine in a batch** (Ari, 12 Nov). **So is an acidified cordial**, as long as the mixed bottle stays at about 20% ABV or more (watermelon cordial in the A Rosy Invitation batch).
 - **Sugar may go in the batch only when the batch is high in alcohol** (about 20% ABV or more) and the
   sweetener is a bottled or shelf-stable syrup.
 - **Low-ABV batches stay on ice** (Ari, 12 Nov): Sangria Tinto (about 16%) and Pisco Ma Chérie (about 20%, has shrub). Stand the capped bottle in an ice-and-water bucket up to the neck, keep the ice topped up, and change the bucket every shift. The 8-hour rail limit is for the high-ABV bottles (Summer Fling, A Rosy Invitation). Everything goes back to the cool room at close.
@@ -24,7 +24,7 @@ overnight. Goal: every service is one jigger pour from the batch plus at most tw
 |---|---|---|---|---|---|---|
 | **Summer Fling** | 380 tequila · 95 mezcal · 140 Floc de Gascogne · 45 agave · 8 chilli bitters (= about 668 ml) | 60 ml | 30 apricot purée · 15 lime | about 33% | about 1.5 | 1–2 weeks (Floc fades first) |
 | **Pisco Ma Chérie** | 270 pisco · 195 Elegante Medium sherry · 235 strawberry shrub (= 700 ml) | 90 ml (60 + 30) | highball of cubes, 75 soda, black pepper | about 20% | about 1.4 | about 2 weeks |
-| **A Rosy Invitation** (test build) | 270 cucumber rum · 215 Lillet Rosé · 160 Cointreau · 15 absinthe (= 660 ml) | 60 ml | 25 watermelon-rose cordial (fridge) · 10 lemon | about 32% | about 1.5 | 1–2 weeks (fridge) |
+| **A Rosy Invitation** (test build) | 195 cucumber rum · 155 Lillet Rosé · 120 Cointreau · 10 absinthe · 200 watermelon-rose cordial (= 680 ml) | 85 ml (60 + 25) | 10 lemon | about 23% | about 1.5 | about 1 week (fridge, opaque bottle) |
 | **Sangria Tinto** | 600 cherry cobbler batch · 90 sweet vermouth · 60 Aperol (= 750 ml) | 125 ml | muddled orange and lemon slice with a little lemon juice, cubes, optional Coca-Cola | about 16% | about 1.6 | fridge, best within 6 weeks |
 
 Notes:
@@ -33,7 +33,11 @@ Notes:
 - **Pisco:** this uses the more-sherry version from the 27 October tasting (35 pisco · 25 sherry ·
   30 shrub per serve), not the first spec (320/140/240).
 - **A Rosy Invitation:** the amounts are the sharper test build, not yet tasted. The cordial is
-  perishable, so it stays in the fridge under the bar, not on the rail.
+  now in the bottle (Ari's idea), because its acid and the 23% ABV protect it. Risks to test on a small
+  batch first: watermelon pectin can haze or form strings in alcohol (shake the bottle, strain if needed),
+  and the fresh watermelon note and colour fade faster in alcohol. Use opaque bottles and keep it cold.
+  One 550 ml cordial batch fills about 2.75 bottles. Sorbate in the cordial is still worth keeping
+  while the cordial waits in the fridge before it is mixed.
 - **Sangria Tinto:** vermouth and Aperol go into the bottle so service is one 125 ml pour. This is
   a bigger drink than the others (about 1.6 standard drinks).
 - Strengths use label-strength assumptions: gin 40%, amaretto 28%, Bénédictine 40%, tequila 40%,
