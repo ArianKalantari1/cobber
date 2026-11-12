@@ -1,5 +1,7 @@
 # Rail batches for the signatures (12 November 2026)
 
+Olivia is left out for now while the recipe is still being worked on.
+
 Pre-batched signatures that sit on the spirit rail during service and go back to the cool room
 overnight. Goal: every service is one jigger pour from the batch plus at most two fresh items.
 
@@ -11,6 +13,7 @@ overnight. Goal: every service is one jigger pour from the batch plus at most tw
   oil, fresh herbs. These are added at service. **Bitters are fine in a batch** (Ari, 12 Nov).
 - **Sugar may go in the batch only when the batch is high in alcohol** (about 20% ABV or more) and the
   sweetener is a bottled or shelf-stable syrup.
+- **Low-ABV batches stay on ice** (Ari, 12 Nov): Sangria Tinto (about 16%) and Pisco Ma Chérie (about 20%, has shrub). Stand the capped bottle in an ice-and-water bucket up to the neck, keep the ice topped up, and change the bucket every shift. The 8-hour rail limit is for the high-ABV bottles (Summer Fling, A Rosy Invitation). Everything goes back to the cool room at close.
 - Fixed jigger pour for every batch, so no measuring at service. Shake the bottle first if it has
   settled. Label: drink, date made, use-by, pour size.
 - Batches are 700 ml rail bottles (Sangria Tinto: a 750 ml bottle).
@@ -22,7 +25,6 @@ overnight. Goal: every service is one jigger pour from the batch plus at most tw
 | **Summer Fling** | 380 tequila · 95 mezcal · 140 Floc de Gascogne · 45 agave · 8 chilli bitters (= about 668 ml) | 60 ml | 30 apricot purée · 15 lime | about 33% | about 1.5 | 1–2 weeks (Floc fades first) |
 | **Pisco Ma Chérie** | 270 pisco · 195 Elegante Medium sherry · 235 strawberry shrub (= 700 ml) | 90 ml (60 + 30) | highball of cubes, 75 soda, black pepper | about 20% | about 1.4 | about 2 weeks |
 | **A Rosy Invitation** (test build) | 270 cucumber rum · 215 Lillet Rosé · 160 Cointreau · 15 absinthe (= 660 ml) | 60 ml | 25 watermelon-rose cordial (fridge) · 10 lemon | about 32% | about 1.5 | 1–2 weeks (fridge) |
-| **Olivia B** (lead version) | 370 house gin · 105 amaretto · 80 Bénédictine · 25 vanilla syrup · 80 filtered green olive brine (= 660 ml) | 60 ml | 17.5 lemon · 5 extra-virgin olive oil · foamer | about 32% | about 1.5 | weeks (no vermouth) |
 | **Sangria Tinto** | 600 cherry cobbler batch · 90 sweet vermouth · 60 Aperol (= 750 ml) | 125 ml | muddled orange and lemon slice with a little lemon juice, cubes, optional Coca-Cola | about 16% | about 1.6 | fridge, best within 6 weeks |
 
 Notes:
@@ -32,8 +34,6 @@ Notes:
   30 shrub per serve), not the first spec (320/140/240).
 - **A Rosy Invitation:** the amounts are the sharper test build, not yet tasted. The cordial is
   perishable, so it stays in the fridge under the bar, not on the rail.
-- **Olivia:** the menu line still says honey, but Olivia B (Bénédictine and brine) is the lead
-  version in these specs. Confirm which is final before batching.
 - **Sangria Tinto:** vermouth and Aperol go into the bottle so service is one 125 ml pour. This is
   a bigger drink than the others (about 1.6 standard drinks).
 - Strengths use label-strength assumptions: gin 40%, amaretto 28%, Bénédictine 40%, tequila 40%,
