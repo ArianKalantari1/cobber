@@ -45,7 +45,7 @@ so make bottles to last 1-2 weeks, in the cool room overnight. 8-hour rail limit
 Hawthorne strainer over fresh cubed ice in a rocks glass. About 1.5 standard drinks. The lime matches the
 purée's acid (9 g per can); tune it by taste.
 
-**Cost per drink: about $4.09** (tequila $1.79, mezcal $0.88... batch $3.42 + purée $0.21 + lime $0.45).
+**Cost per drink: about $4.09** (batch pour $3.42: tequila $1.77, mezcal $0.89, Floc $0.61, agave $0.04, bitters $0.11; plus purée $0.21 and lime $0.45).
 At $25 (ex GST $22.73): **pour cost 18.0%**, gross profit about $18.64.
 
 ## 2. A ROSY INVITATION / A.R.I. ($25)
@@ -139,8 +139,7 @@ pour 75 ml cold soda down the bar spoon, lift once. Garnish: dehydrated orange w
 glass and one twist of black pepper. About 190 ml, about 9.5% ABV, **about 1.4 standard drinks**. Each
 bottle gives 7 full pours. Option: 100 ml pour for 1.6 standard drinks (exactly 7 pours per bottle).
 
-**Cost per drink: about $3.60** (batch $3.39 per 100 ml-equivalent... pisco $2.48, sherry $0.61, shrub
-$0.30, soda $0.11, orange wheel $0.10). At $25: **pour cost 15.8%**, gross profit about $19.1. With the
+**Cost per drink: about $3.60** (pisco $2.48, sherry $0.61, shrub $0.30, soda $0.11, orange wheel $0.10). At $25: **pour cost 15.8%**, gross profit about $19.1. With the
 100 ml pour: about $3.98, 17.5%.
 
 ## Still unconfirmed
