@@ -970,7 +970,7 @@ Dirty Olive espresso idea, and "dirty on request" house martinis. Pick where oli
 
 The corner as planned:
 - House Gin Martini (Spirits of Newtown gin, dry vermouth, Manzanilla);
-- House Vodka Martini (vodka, Italicus, Manzanilla);
+- House Vodka Martini (vodka, Italicus, dry vermouth; corrected by Ari 18 Nov, no Manzanilla);
 - Cornichon Gibson (cornichon vodka, Manzanilla, pickle brine);
 - Tomato Martini (sun-dried tomato gin, artichoke vermouth, sea salt).
 
@@ -1226,3 +1226,7 @@ This confirms the 40% ABV used in the strength maths.
 the signatures and the costing sheet use "Gin 2 Pound 10". Confirm which gin goes in which drink before the scoring upgrade models it.
 
 **House Gin Martini (Ari, 18 Nov):** Manzanilla may not be needed (spec was 55 gin, 15 dry vermouth, 5 Manzanilla). Bench with and without.
+
+**Gin change and Vodka Martini (Ari, 18 Nov 2026):** the house gin is changing (now 2 Pound 10). The House Vodka Martini is vodka,
+Italicus and dry vermouth, not Manzanilla. The costing sheet still has the old assumed spec (55 vodka, 10 Italicus, 5 Manzanilla): amounts
+for the dry vermouth are needed before it can be updated.

@@ -86,7 +86,7 @@ matches go to `unmatched_ingredients.txt`.
       - Bénédictine (checking the existing entry), Floc de Gascogne, Lillet Rosé, Italicus,
         Salers, pommeau, Skrewball;
       - yuzu (47), kumquat (7), macadamia (3).
-- [ ] **House gin = Spirits of Newtown Gin** (confirmed by Ari: very citrus-forward, little
+- [ ] **UPDATE 18 Nov: Ari says the house gin is changing to 2 Pound 10** (NSW dry gin, 40%, "standard botanicals", no botanical list; see house-specs). The citrus-forward assumption below was for Spirits of Newtown and may no longer apply: find 2 Pound 10's botanicals before modelling it. Original item: **House gin = Spirits of Newtown Gin** (confirmed by Ari: very citrus-forward, little
       juniper). Research its botanicals and add it as its own composite, kept separate from
       the generic London dry `gin`.
 
