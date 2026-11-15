@@ -74,45 +74,48 @@ Test build, not yet tasted. Full spec and reasoning: [a-rosy-invitation.md](a-ro
 ## 3. SANGRIA TINTO ($24)
 
 *Cherry & Spiced Wine Reduction, Brandy, Vodka, Apéritif & Citrus. Fruity, spiced & refreshing.*
-Source: [rescued-red-wine-cobblers.md](rescued-red-wine-cobblers.md) (cherry variant, Bright bitters).
+Based on [rescued-red-wine-cobblers.md](rescued-red-wine-cobblers.md) (cherry variant), changed 15 Nov: Angostura
+instead of Peychaud's, plain sugar instead of the lemon-husk oleo, citric acid for sourness.
 
-### Cobbler batch (per 3 L soft red wine; about 3.3 L at 16-18%)
+### Cobber batch (per 3 L soft red wine; about 3.2 L at 16-17%)
 
 | Part | Amount |
 |---|---|
 | Rescued soft red (Pinot, Grenache, Gamay, Merlot, Sangiovese); taste every bottle, bin corked or vinegary | 3 L |
 | Spices, simmered from the start | 8 allspice berries, cracked · 15 g fresh ginger, sliced · 1 cinnamon quill · peel of 2 oranges (no pith), then juice those 2 oranges into the pot (150-200 ml) |
-| Cherries, added for the last 20 min | 1 kg frozen pitted, or about 2 jars of morello cherries (jar fruit is in syrup, so cut the oleo sugar and taste: unconfirmed) |
-| Oleo, off the heat | 36 squeezed lemon halves + 350 g sugar, strained. Never cook the husks |
-| Spirit | 700 ml brandy + 700 ml house vodka (200 ml of it for the husk rinse) |
-| Bitters, Bright | 30 ml Peychaud's |
+| Cherries, added for the last 20 min | 1 kg frozen pitted, or about 2 jars of morello cherries |
+| Sugar, off the heat | 350 g white sugar stirred in until dissolved (jar cherries are in syrup: start at 300 g and taste) |
+| Spirit | 700 ml brandy ($43) + 700 ml house vodka ($30) |
+| Angostura bitters (Warm pattern) | 30 ml |
 | 20% saline | 4 ml |
-| Citric | to pH 3.3 or below (about 5 g in the costing; check with a pH strip) |
+| Citric acid | start at 10 g; the batch should taste tart on its own. Add 5 g at a time. Aim for pH 3.3 or below when you have strips |
 | Hibiscus, optional (pale or soft reds only) | 10 g dried, off the heat, lid on, 5 min |
 
 1. Simmer the wine with the spices, uncovered; add the cherries for the last 20 min. Reduce until the whole
    pot, fruit juice included, is **1.5 L**.
-2. Off the heat: stir in the strained oleo until the sugar dissolves (steep and remove hibiscus first if used).
+2. Off the heat: stir in the sugar until it dissolves (steep and remove hibiscus first if used).
 3. Fine strain, pressing the fruit hard; cool; fine strain again.
-4. Husk rinse with 200 ml of the spirit, strain it in, then add the rest of the brandy and vodka, the
-   Peychaud's and the saline.
-5. Citric to pH 3.3 or below. Bottle, label (variant, bitters, date, "HH 60 / Normal 100").
-6. Result about 3.3 L, 16-18%. Safe 2-3 months in the fridge, best within 6 weeks. If it's over 3.5 L the
-   pot was under-reduced: add 200 ml vodka (about +1%). Opened bottle: finish within 2 weeks.
+4. Add the brandy, vodka, Angostura and saline. Add the citric acid, then taste.
+5. Bottle, label (cherry, Angostura, date, "HH 60 / Normal 100"). About 3.2 L, 16-17%. Safe 2-3 months in the
+   fridge, best within 6 weeks. Opened bottle: finish within 2 weeks.
 
-The wine's own alcohol mostly cooks off, so the strength is set by the 1.4 L of spirit in 3.3 L.
+**The lemon-husk oleo is out** (Ari, 15 Nov): it risks bitterness from the pith, and the sugar does the
+sweetening on its own. The bitter side comes from the Aperol and the Angostura. If the lemon-peel aroma is
+missed, steep the yellow-only zest of 2 lemons (about 16 g) in 200 ml of the vodka for 12-24 h and use that
+vodka in step 4. The wine's own alcohol mostly cooks off, so the strength comes from the 1.4 L of spirit.
 
 ### Rail bottle (750 ml, 6 pours of 125)
-600 cobbler batch · 90 sweet vermouth · 60 Aperol. About 16% ABV, so it **stays on ice** in the well. Fridge,
-best within 6 weeks.
+600 batch · 90 sweet vermouth · 60 Aperol (Aperol is the apéritif, not Campari: milder and cheaper). About 16%
+ABV, so it **stays on ice** in the well. Fridge, best within 6 weeks.
 
 ### One cocktail (built, the version guests loved)
-125 ml bottle pour (100 batch + 15 sweet vermouth + 10 Aperol), a muddled orange slice and lemon slice
-with a little lemon juice (15 ml in the costing; write down the real amount), fill with cubes, optional
-Coca-Cola top. Happy hour 60 ml batch pour. About 1.6 standard drinks.
+125 ml bottle pour (100 batch + 15 sweet vermouth + 10 Aperol), a muddled orange slice and lemon slice with a
+little lemon juice (15 ml in the costing; write down the real amount), fill with cubes, optional Coca-Cola top.
+Happy hour 60 ml batch pour. About 1.6 standard drinks. To drop the lemon juice at service, add another 15-30 g
+of citric to the batch and taste a built drink against the current one.
 
-**Cost per drink: about $4.35** (batch $0.0277/ml, the brandy and vodka are $70 of the $92 batch).
-At $24 (ex GST $21.82): **pour cost 19.9%**, gross profit about $17.47.
+**Cost per drink: about $4.37** (batch about $0.028/ml: brandy $39.09 ex GST and vodka $30 are $69 of the $90
+batch; Angostura price is a placeholder). At $24 (ex GST $21.82): **pour cost 20.0%**, gross profit about $17.45.
 
 ## 4. PISCO MA CHÉRIE ($25)
 
