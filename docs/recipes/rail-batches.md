@@ -54,3 +54,17 @@ Notes:
 | Sangria Branco | Gin, white wine, vanilla (peach purée stays out) | peach purée, lime, lemon |
 | Mando Raspberry Fizz | Bourbon, balsamic, raspberry if it is a liqueur or syrup | mandarin, lemon, any fizz |
 | White Flower Negroni | The whole drink (gin, Suze, white flower liqueur), with water for dilution | nothing |
+
+## Dirty Martini Spritz batch (Ari, 17 Nov 2026)
+
+Whole batch in the fridge, vermouth included, sized to sales (low volume). Per drink: 20 gin · 30 dry vermouth · 20 olive brine ·
+a dash of orange bitters = 70 ml; then 75 ml French sparkling, olives and a lemon twist at service.
+
+| Bottle | Gin | Dry vermouth | Olive brine | Orange bitters | Pours of 70 ml |
+|---|---|---|---|---|---|
+| Small (about 355 ml) | 100 | 150 | 100 | 4 | 5 |
+| Standard (about 710 ml) | 200 | 300 | 200 | 8 | 10 |
+
+About 18.5% ABV. Fill the bottle to the top (little air), keep it in the fridge or on ice, label the date. Best within about
+2 weeks, and the vermouth fades first (untested). Smell and taste it weekly; remake when it goes flat or stale. If the drink
+sells slowly, make the small bottle.
