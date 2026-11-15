@@ -55,20 +55,31 @@ Notes:
 | Mando Raspberry Fizz | Bourbon, balsamic, raspberry if it is a liqueur or syrup | mandarin, lemon, any fizz |
 | White Flower Negroni | The whole drink (gin, Suze, white flower liqueur), with water for dilution | nothing |
 
-## Dirty Martini Spritz (Ari, 17 Nov 2026): $23
+## Dirty Martini Spritz: final spec to bench (18 Nov 2026): $23
 
-Per drink: **15 gin · 25 dry vermouth · 20 olive brine · 1 dash orange bitters · 60 French sparkling · 20 soda**, built in a wine
-glass over cubed ice, olives and a lemon twist. The first three are 60 ml, so one 60 ml jigger pours the batch.
-About 1.35 standard drinks (a typical spritz is 1.2 to 1.4). About $3.10 per drink, about 14.8% pour cost at $23
-(assumes dry vermouth costs about the same as the sweet vermouth in the costing sheet).
+Result of the 20-loop run plus review (docs/recipes/dirty-spritz-loop-review.md): the region is firm, the exact numbers are not. The
+model has no taste data and the brine salinity is unknown, so **bench the brine ladder before locking it** (12.5, 15, 17.5, 20, 22.5 ml
+of brine at a fixed 60 ml batch; pick the lowest that tastes dirty).
 
-Whole batch in the fridge, vermouth included, sized to sales (low volume):
+Per drink: **20 gin · 22.5 dry vermouth · 17.5 olive brine · 1 dash orange bitters · 50 French sparkling (brut nature or extra brut) ·
+20 soda**, built in a chilled wine glass over cubed ice, 3 Green Queen olives on a pick and a lemon twist, lifted once. The first three
+are 60 ml: one jigger. About 1.39 standard drinks, about 11.7% ABV in the glass, about $2.76 per drink before garnish (about 13% pour
+cost at $23).
 
-| Bottle | Gin | Dry vermouth | Olive brine | Orange bitters | Pours of 60 ml |
+| Bottle (fridge or ice well) | Gin | Dry vermouth | Olive brine | Orange bitters | Pours of 60 ml |
 |---|---|---|---|---|---|
-| Small (about 365 ml) | 90 | 150 | 120 | 5 | 6 |
-| Standard (about 608 ml) | 150 | 250 | 200 | 8 | 10 |
+| Small (about 365 ml) | 120 | 135 | 105 | 5 | 6 |
+| Standard (about 608 ml) | 200 | 225 | 175 | 8 | 10 |
 
-About 17% ABV, so keep it in the fridge or ice well. Fill the bottle to the top (little air), label the date. Best within about
-2 weeks; the vermouth fades first (untested). Smell and taste it weekly; remake when it goes flat or stale. If the drink sells
-slowly, make the small bottle. At service: 60 ml batch, 60 ml sparkling, 20 ml soda, lift once.
+About 19% ABV. Fill to the top, label the date, best within about 2 weeks (vermouth fades first; untested). Fallbacks: 17.5/22.5/20 batch with
+60 sparkling and 30 soda (1.40 std), or 17.5/27.5/15 with 50 sparkling and 20 soda (1.375 std) if the brine tastes salty; the
+previous spec was 15/25/20 with 60 sparkling and 20 soda (1.35 std).
+
+### House dirty brine (quick, pasteurised)
+150 g drained olives + 150 ml jar brine + 150 ml cold boiled water + 3 g citric acid. Blitz 30-60 s, strain through a fine sieve (then a coffee
+filter if wanted), skim any oil, heat the strained liquid to 72 C for 15 s (do not boil), cool in an ice bath, bottle in sanitised bottles
+filled to the top, fridge. About 2-3 weeks (estimate, untested); freeze in 20 ml portions for longer. Weigh 100 ml to estimate salinity
+(about 103-104 g is roughly 4-6% salt) and taste it against the jar brine. Check keeping times with the food safety supervisor.
+
+Ideas to bench after the brine: Manzanilla 2.5-5 ml (replace 5 ml of vermouth, keep the batch at 60 ml), a Gilda or caperberry garnish,
+brine ice, a few drops of 20% saline, olives marinated in the batch bottle.
