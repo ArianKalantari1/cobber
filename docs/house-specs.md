@@ -1230,3 +1230,6 @@ the signatures and the costing sheet use "Gin 2 Pound 10". Confirm which gin goe
 **Gin change and Vodka Martini (Ari, 18 Nov 2026):** the house gin is changing (now 2 Pound 10). The House Vodka Martini is vodka,
 Italicus and dry vermouth, not Manzanilla. The costing sheet still has the old assumed spec (55 vodka, 10 Italicus, 5 Manzanilla): amounts
 for the dry vermouth are needed before it can be updated.
+
+**House Vodka Martini spec (Ari, 18 Nov 2026):** 55 vodka · 7.5 Italicus · 7.5 dry vermouth, stirred. About 2.0 standard drinks (vodka 40%,
+Italicus 20%, dry vermouth 17%). Costing sheet updated: about $3.37 per drink, 16.1% pour cost at $23 (dry vermouth price is a placeholder).
