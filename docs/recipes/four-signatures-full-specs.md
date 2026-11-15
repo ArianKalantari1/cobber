@@ -88,7 +88,7 @@ instead of Peychaud's, plain sugar instead of the lemon-husk oleo, citric acid f
 | Spirit | 700 ml brandy ($43) + 700 ml house vodka ($30) |
 | Angostura bitters (Warm pattern) | 30 ml |
 | 20% saline | 4 ml |
-| Citric acid | start at 10 g; the batch should taste tart on its own. Add 5 g at a time. Aim for pH 3.3 or below when you have strips |
+| Citric acid | start at 10 g. Judge by a finished test drink, not the batch alone (morello cherries are already sour); see the citric test below. Aim for pH 3.3 or below when you have strips |
 | Hibiscus, optional (pale or soft reds only) | 10 g dried, off the heat, lid on, 5 min |
 
 1. Simmer the wine with the spices, uncovered; add the cherries for the last 20 min. Reduce until the whole
@@ -138,7 +138,10 @@ Aperol, citric acid. **No lemon juice.**
 
 About 1.5 standard drinks, about 200 ml in the glass (about 9-10% ABV). Happy hour pour: 60 ml batch.
 **Because the lemon juice is out, raise the citric acid in the batch** (4 L batch: from 10 g to about 30-35 g in
-total, in 5 g steps; the batch should taste tart on its own). Taste a finished drink against the old version.
+total, in small steps; morello cherries are already sour, so the real need may be lower).
+**Citric test (no pH strip):** make a 10% citric solution (5 g in 50 ml water). In a test glass: 120 ml batch + 45 ml soda + ice.
+If it tastes flat next to the old lemon version, add 1 ml of the solution (0.1 g) and taste again. Each 1 ml per 120 ml equals about
+3.3 g in the 4 L batch. Replacing all 15 ml of lemon juice would take about 9 ml (about 30 g per batch), which is the ceiling.
 
 **Cost per drink: about $4.00** (batch 120 ml $3.48, slices $0.30, soda $0.07, mint and cinnamon about $0.12; spices
 in the batch not counted). At $24 (ex GST $21.82): **pour cost about 18.3%**, gross profit about $17.80.
