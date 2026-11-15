@@ -1215,3 +1215,14 @@ more cucumber (more peel-striped cucumber per 700 ml, or a fresher infusion) is 
   Garnish: a cornichon. No "herbal": only 5 ml of Yellow Chartreuse, so it is a background note.
 - **Tomato Martini, $25:** Sun-Dried Tomato & Rosemary Gin, Artichoke Vermouth & Sea Salt. *Savoury, herbal & smooth.*
 - **Dirty Martini Spritz, $23:** Gin, Dry Vermouth, Olive Brine, Orange Bitters & French Sparkling. *Briny, bright & fizzy.*
+
+### House gin product note (Ari, 18 Nov 2026)
+
+**2 Pound 10 Gin** (Australia, New South Wales): dry gin, 40% ABV, bottle. Supplier description: "dry gin, with the standard botanicals
+that have made gin renowned the world over", an entry-level gin. No botanical list is given, so juniper and citrus levels are unknown.
+This confirms the 40% ABV used in the strength maths.
+
+**Open question:** `docs/todo-scoring-upgrade.md` says the house gin is Spirits of Newtown (very citrus-forward, little juniper), while
+the signatures and the costing sheet use "Gin 2 Pound 10". Confirm which gin goes in which drink before the scoring upgrade models it.
+
+**House Gin Martini (Ari, 18 Nov):** Manzanilla may not be needed (spec was 55 gin, 15 dry vermouth, 5 Manzanilla). Bench with and without.
