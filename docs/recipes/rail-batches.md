@@ -27,7 +27,7 @@ overnight. Goal: every service is one jigger pour from the batch plus at most tw
 | **Summer Fling** | 300 tequila · 150 mezcal · 150 Floc de Gascogne · 50 agave · 8 chilli bitters (= 658 ml, 10 drinks) | 65 ml | 30 apricot purée · 15 lime | about 32% | about 1.65 | 1–2 weeks (Floc fades first) |
 | **Pisco Ma Chérie** | 245 pisco · 245 Elegante Medium sherry · 210 strawberry shrub (= 700 ml, 7 pours) | 100 ml | highball of cubes, 75 soda, black pepper | about 20% | about 1.57 | about 2 weeks |
 | **A Rosy Invitation** (test build) | 245 cucumber rum · 195 Lillet Rosé · 150 Cointreau · 12 absinthe · 250 watermelon-rose concentrate (= 850 ml, 1 L bottle) | 85 ml (60 + 25) | 10 lemon | about 23% | about 1.5 | about 1 week (fridge, opaque bottle) |
-| **Sangria Tinto** | 600 cherry cobbler batch · 90 sweet vermouth · 60 Aperol (= 750 ml) | 125 ml | muddled orange and lemon slice with a little lemon juice, cubes, optional Coca-Cola | about 16% | about 1.6 | fridge, best within 6 weeks |
+| **Sangria Tinto** | 5 L barrel in the cool room (see four-signatures-full-specs.md); fill a 750 ml bottle per shift | 120 ml (2 x 60) | lemon juice, muddled orange and lemon slice, cubes | about 16% | about 1.5 | best within about 4 weeks |
 
 Notes:
 - **Summer Fling:** the chilli bitters are now in the batch (about 1 dash per pour; start at 8 ml per bottle and taste, then adjust). The apricot liqueur is out of the batch (tequila replaces it, per the earlier

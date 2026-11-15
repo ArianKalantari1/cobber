@@ -104,18 +104,35 @@ sweetening on its own. The bitter side comes from the Aperol and the Angostura. 
 missed, steep the yellow-only zest of 2 lemons (about 16 g) in 200 ml of the vodka for 12-24 h and use that
 vodka in step 4. The wine's own alcohol mostly cooks off, so the strength comes from the 1.4 L of spirit.
 
-### Rail bottle (750 ml, 6 pours of 125)
-600 batch · 90 sweet vermouth · 60 Aperol (Aperol is the apéritif, not Campari: milder and cheaper). About 16%
-ABV, so it **stays on ice** in the well. Fridge, best within 6 weeks.
+### 5 L barrel (Ari, 15 Nov): everything except the lemon juice, about 41 pours of 120 ml
+
+| In the barrel | Amount |
+|---|---|
+| Soft red wine, cooked down to 1.9 L with the spices and cherries | 3.75 L in |
+| Spices | 10 allspice berries · 19 g ginger · 1 cinnamon quill · peel and juice of 2-3 oranges |
+| Cherries (last 20 min) | 1.25 kg frozen pitted, or about 2.5 jars morello |
+| Sugar, off the heat | 440 g (less if jar cherries) |
+| Brandy | 875 ml |
+| Vodka | 875 ml |
+| Angostura bitters | 37 ml |
+| 20% saline | 5 ml |
+| Citric acid | start at 12 g, taste, add 5 g at a time |
+| Sweet vermouth | 600 ml |
+| Aperol | 400 ml |
+
+Make the reduction, strain and cool it, then add the rest. About 5 L at about 16% ABV. **The barrel lives in the
+cool room.** Each shift, fill a 750 ml bottle from it and stand that in the ice well. Plan on about 4 weeks for
+the best flavour (the vermouth and Aperol fade first; untested), and finish an opened barrel within about 2
+weeks, as air gets in. If you sell fewer than about 20 a week, make a half barrel.
 
 ### One cocktail (built, the version guests loved)
-125 ml bottle pour (100 batch + 15 sweet vermouth + 10 Aperol), a muddled orange slice and lemon slice with a
+120 ml barrel pour (two 60 ml jiggers), a muddled orange slice and lemon slice with a
 little lemon juice (15 ml in the costing; write down the real amount), fill with cubes, optional Coca-Cola top.
-Happy hour 60 ml batch pour. About 1.6 standard drinks. To drop the lemon juice at service, add another 15-30 g
+Happy hour 60 ml batch pour. About 1.5 standard drinks. To drop the lemon juice at service, add another 15-30 g
 of citric to the batch and taste a built drink against the current one.
 
-**Cost per drink: about $4.37** (batch about $0.028/ml: brandy $39.09 ex GST and vodka $30 are $69 of the $90
-batch; Angostura price is a placeholder). At $24 (ex GST $21.82): **pour cost 20.0%**, gross profit about $17.45.
+**Cost per drink: about $4.22** (barrel about $148, $0.030/ml; brandy $39.09 ex GST and vodka $30 per 700 ml are most of
+it; the Angostura price is a placeholder). At $24 (ex GST $21.82): **pour cost 19.3%**, gross profit about $17.60.
 
 ## 4. PISCO MA CHÉRIE ($25)
 

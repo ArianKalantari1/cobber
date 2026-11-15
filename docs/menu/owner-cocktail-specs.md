@@ -43,17 +43,17 @@ concentrate come pre-mixed in the batch (85 ml per drink). Test build, not yet t
 
 | Ingredient | ml per drink |
 |---|---|
-| Cherry and spiced red wine reduction, sweetened | 54 |
-| Brandy | 22 |
-| Vodka | 22 |
+| Cherry and spiced red wine reduction, sweetened | 52 |
+| Brandy | 21 |
+| Vodka | 21 |
 | Angostura bitters | 1 |
-| Sweet vermouth | 15 |
+| Sweet vermouth | 14 |
 | Aperol | 10 |
 | Lemon juice | 15 (to confirm) |
 | Orange slice and lemon slice | muddled |
 
-Optional Coca-Cola top. The first five lines (plus citric acid) are the 100 ml cobbler batch; the vermouth and Aperol
-come pre-mixed in the rail bottle (125 ml per drink). Glass: to confirm.
+Optional Coca-Cola top. Everything except the lemon juice and slices is pre-mixed in a 5 L barrel (120 ml per drink,
+two 60 ml jiggers). Glass: to confirm.
 
 ### What is in the 100 ml of batch (the recipe is 3 L of wine making about 3.2 L)
 
@@ -70,7 +70,7 @@ come pre-mixed in the rail bottle (125 ml per drink). Glass: to confirm.
 | 20% saline | about 0.1 ml |
 
 The wine's own alcohol mostly cooks off, so the strength comes from the brandy and vodka: about 16-17% ABV in the
-batch. Whole drink: about 1.6 standard drinks. Cost $4.37; pour cost 20.0%; gross profit about $17.45. Brandy $43 and
+batch. Whole drink: about 1.5 standard drinks. Cost $4.22; pour cost 19.3%; gross profit about $17.60. Brandy $43 and
 vodka $30 per 700 ml; the Angostura price is a placeholder. Volumes of the reduction are estimates.
 
 ## Pisco Ma Chérie: $25
