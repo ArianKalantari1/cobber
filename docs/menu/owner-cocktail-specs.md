@@ -81,11 +81,11 @@ Volumes of the reduction and oleo are estimates from the 1.5 L pot and the 3.3 L
 | Ingredient | ml per drink |
 |---|---|
 | Pisco | 35 |
-| Elegante Medium sherry | 25 |
+| Elegante Medium sherry | 35 |
 | Strawberry and black pepper shrub | 30 |
 | Soda water | 75 |
 
-Method: fill a highball with cubes, pour the 90 ml batch, 3-4 spins, soda down the bar spoon, lift once.
+Method: fill a highball with cubes, pour the 100 ml batch, 3-4 spins, soda down the bar spoon, lift once.
 Garnish: dehydrated orange wheel and a twist of black pepper. Glass: highball (about 190 ml total).
-Strength: about 1.4 standard drinks. Cost $3.60; pour cost 15.8%; gross profit about $19.10.
-The pisco, sherry and shrub come pre-mixed in the batch (90 ml per drink).
+Strength: about 1.57 standard drinks. Cost $3.86; pour cost 17.0%; gross profit about $18.87.
+The pisco, sherry and shrub come pre-mixed in the batch (100 ml per drink).

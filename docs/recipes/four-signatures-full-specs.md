@@ -129,18 +129,17 @@ prickle; if flat, add 3 g citric + 1 g malic (twice at most). Bottle full, label
 before batching. Keeps about 3-4 weeks in the fridge (untested); bin it if it fizzes, grows a film or smells
 yeasty.
 
-### Batch (700 ml rail bottle, the more-sherry version from the 27 Oct tasting)
-270 pisco · 195 Elegante Medium sherry · 235 shrub. About 20% ABV. **Stays on ice.** Best within about 2 weeks;
-keep the drum dark in the cool room; never pour leftovers back. (First version: 320 / 140 / 240, about 22%.)
+### Batch (700 ml rail bottle, 7 pours of 100 ml; Ari's 35/35/30, 15 Nov)
+245 pisco · 245 Elegante Medium sherry · 210 shrub. About 20% ABV. **Stays on ice.** Best within about 2 weeks;
+keep the drum dark in the cool room; never pour leftovers back. (Earlier versions: 320 / 140 / 240, then 270 / 195 / 235.)
 
 ### One cocktail
-Highball to the top with cubes. 90 ml batch (a 60 and a 30 jigger; shake the bottle first). Stir 3-4 spins,
+Highball to the top with cubes. 100 ml batch (35 pisco, 35 sherry, 30 shrub: a 60 and a 30 and a 10, or a 100 ml measure; shake the bottle first). Stir 3-4 spins,
 pour 75 ml cold soda down the bar spoon, lift once. Garnish: dehydrated orange wheel against the inside of the
-glass and one twist of black pepper. About 190 ml, about 9.5% ABV, **about 1.4 standard drinks**. Each
-bottle gives 7 full pours. Option: 100 ml pour for 1.6 standard drinks (exactly 7 pours per bottle).
+glass and one twist of black pepper. About 190 ml, about 9.5% ABV, **about 1.57 standard drinks**. Each
+bottle gives exactly 7 pours.
 
-**Cost per drink: about $3.60** (pisco $2.48, sherry $0.61, shrub $0.30, soda $0.11, orange wheel $0.10). At $25: **pour cost 15.8%**, gross profit about $19.1. With the
-100 ml pour: about $3.98, 17.5%.
+**Cost per drink: about $3.86** (pisco $2.50, sherry $0.85, shrub $0.30, soda $0.11, orange wheel $0.10). At $25: **pour cost 17.0%**, gross profit about $18.87.
 
 ## Still unconfirmed
 - Sangria Tinto: real lemon juice amount per drink; jar vs frozen cherries and the matching oleo sugar.
