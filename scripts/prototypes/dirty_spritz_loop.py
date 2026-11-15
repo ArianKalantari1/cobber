@@ -38,6 +38,15 @@ ADJ_MAX_ML = 5.0
 ADJ_AMOUNTS = (2.5, 5.0)
 START = dict(gin=15.0, vermouth=25.0, brine=20.0, sparkling=60.0, soda=20.0, adj=None, adj_ml=0.0)
 
+# --- Review additions (see docs/recipes/dirty-spritz-loop-review.md). Default = ORIGINAL behaviour.
+# VARIANT "honest" is a SECOND objective: no proxy-harmony term, sparkling >= 50 ml and >= soda,
+# soda <= 30 ml, final ABV >= 9 %, "dirty" scored on salt % in the glass (maximin over S) + brine share.
+# Select with `--honest`. Every number in it is still a design assumption, not science.
+VARIANT = "original"
+ADJ_ON = True                      # honest variant also runs with adjuncts switched off
+H_SPARKLING_MIN, H_SODA_MAX, H_ABV_MIN = 50.0, 30.0, 9.0
+W_HONEST = {"salt": 0.55, "brine": 0.35, "botanical": 0.10, "harmony": 0.0}
+
 # Objective weights and shapes (named; sensitivity-tested later)
 W = {"salt": 0.45, "brine": 0.25, "botanical": 0.20, "harmony": 0.10}
 SALT_PEAK, SALT_LO, SALT_HI = 0.55, 0.25, 0.95        # % salt in glass, triangular
@@ -108,6 +117,14 @@ def std(s):
     return ethanol_g(s) / 10.0
 
 
+def abv_pct(s):
+    """Final ABV % v/v INCLUDING adjunct alcohol (original line() omitted it). Bitters ABV ignored."""
+    alc = sum(s[k] * ABV[k] / 100 for k in ABV if k in s)
+    if s["adj"]:
+        alc += volumes(s)[2] * ADJUNCTS[s["adj"]]["abv"] / 100
+    return 100 * alc / volumes(s)[1]
+
+
 def salt_pct(s, S):
     _, final, adj_ml = volumes(s)
     g = s["brine"] * S / 100
@@ -159,12 +176,26 @@ def metrics(s, w=None):
     return dict(mean=sum(ds) / 3, min=min(ds), ds=ds)
 
 
+def objective_honest(s, w=None):
+    """Maximin over S of the dirty index (harmony weight 0): robust to unknown brine salinity."""
+    return metrics(s, w or W_HONEST)["min"]
+
+
 def objective(s, w=None):
+    if VARIANT == "honest":
+        return objective_honest(s, w)
     m = metrics(s, w)
     return m["mean"] - WORST_PENALTY * max(0.0, WORST_TARGET - m["min"])
 
 
 def feasible(s, batch=BATCH_ML):
+    if VARIANT == "honest":
+        if not ADJ_ON and s["adj"]:
+            return False
+        if s["sparkling"] < H_SPARKLING_MIN or s["sparkling"] < s["soda"] or s["soda"] > H_SODA_MAX:
+            return False
+        if abv_pct(s) < H_ABV_MIN - 1e-9:
+            return False
     if abs(s["gin"] + s["vermouth"] + s["brine"] - batch) > 1e-9:
         return False
     if s["gin"] < MIN_GIN_ML or s["vermouth"] < MIN_VERMOUTH_ML or s["brine"] < MIN_BRINE_ML:
@@ -288,13 +319,37 @@ def exhaustive(batch=BATCH_ML, adjuncts=False, w=None):
     return best, n_feas
 
 
-def exhaustive_unguarded():
-    """Same grid, but anchor minimums relaxed to 2.5 ml: shows what the objective WANTS."""
+def exhaustive_all(batch=BATCH_ML, adjuncts=False, w=None):
+    """Every feasible grid spec with its objective, best first (for plateau / tie inspection)."""
+    out = []
+    grid = [x * STEP for x in range(0, int(180 / STEP))]
+    adjs = [(None, 0.0)]
+    if adjuncts:
+        for n in ADJUNCTS:
+            adjs += [(n, 0.0)] if ADJUNCTS[n].get("zero_ml") else [(n, a) for a in ADJ_AMOUNTS]
+    for g in grid:
+        for v in grid:
+            b = batch - g - v
+            if b < 0:
+                continue
+            for sp in grid:
+                for so in grid:
+                    for a, am in adjs:
+                        s = dict(gin=g, vermouth=v, brine=b, sparkling=sp, soda=so, adj=a, adj_ml=am)
+                        if feasible(s, batch):
+                            out.append((objective(s, w), s))
+    out.sort(key=lambda x: (-x[0], str(key(x[1]))))
+    return out
+
+
+def exhaustive_unguarded(adjuncts=False):
+    """Same grid, but anchor minimums relaxed to 2.5 ml: shows what the objective WANTS.
+    NOTE: original ran with adjuncts=False only, so it did not test the adjunct winner unguarded."""
     global MIN_GIN_ML, MIN_VERMOUTH_ML, MIN_BRINE_ML
     old = (MIN_GIN_ML, MIN_VERMOUTH_ML, MIN_BRINE_ML)
     MIN_GIN_ML = MIN_VERMOUTH_ML = MIN_BRINE_ML = 2.5
     try:
-        return exhaustive()
+        return exhaustive(adjuncts=adjuncts)
     finally:
         MIN_GIN_ML, MIN_VERMOUTH_ML, MIN_BRINE_ML = old
 
@@ -302,7 +357,7 @@ def exhaustive_unguarded():
 def line(s, w=None):
     m = metrics(s, w)
     return (f"{desc(s)} | Dmean={m['mean']:.3f} Dmin={m['min']:.3f} (S3/5/7 {m['ds'][0]:.2f}/{m['ds'][1]:.2f}/{m['ds'][2]:.2f}) "
-            f"SD={std(s):.2f} ABV={100 * sum(s[k] * ABV[k] / 100 for k in ABV) / volumes(s)[1]:.1f}% "
+            f"SD={std(s):.2f} ABV={abv_pct(s):.1f}% "
             f"salt%(3/5/7)={salt_pct(s, 3):.2f}/{salt_pct(s, 5):.2f}/{salt_pct(s, 7):.2f} "
             f"brine%liq={100 * s['brine'] / volumes(s)[0]:.1f} gin/(g+v)={s['gin'] / (s['gin'] + s['vermouth']):.2f} "
             f"cost=${cost(s):.2f} sugar={sugar_g(s):.1f}g")
@@ -351,5 +406,63 @@ def main():
     print(f"  UNGUARDED anchors (min 2.5 ml; {nu} feasible): obj={ug[0]:.3f} {line(ug[1])}")
 
 
+def main_honest():
+    """Second objective (review fix). Prints loop, exhaustive plateau, edge sensitivity, ablations."""
+    global VARIANT, ADJ_ON, SALT_PEAK, SALT_LO, SALT_HI, BRINE_FULL, BRINE_ZERO, BOT_FULL, BOT_ZERO
+    VARIANT = "honest"
+    print("HONEST VARIANT: harmony weight 0; sparkling>=%g and >=soda; soda<=%g; final ABV>=%g%%; objective = "
+          "min over S of D (weights %s). Adjuncts have no scored benefit except salt." % (
+              H_SPARKLING_MIN, H_SODA_MAX, H_ABV_MIN, W_HONEST))
+    for adj_on in (False, True):
+        ADJ_ON = adj_on
+        print(f"\n=== adjuncts {'ON' if adj_on else 'OFF'} ===")
+        best, visited, log = run_loop(verbose=True)
+        print(f"LOOP BEST: obj={best[1]:.3f} {line(best[0], W_HONEST)}")
+        allr = exhaustive_all(adjuncts=adj_on)
+        top = allr[0][0]
+        near = [(o, s) for o, s in allr if o >= top - 0.01]
+        print(f"EXHAUSTIVE: {len(allr)} feasible; best obj={top:.3f}; {len(near)} specs within 0.01. Top 6:")
+        for o, s in allr[:6]:
+            print(f"  obj={o:.3f} {line(s, W_HONEST)}")
+        rng = lambda k: (min(s[k] for _, s in near), max(s[k] for _, s in near))
+        print("  near-optimal ranges:", {k: rng(k) for k in ("gin", "vermouth", "brine", "sparkling", "soda")})
+        print(f"  loop gap to exhaustive: {top - best[1]:+.3f}")
+    ADJ_ON = False
+    print("\nEDGE SENSITIVITY (adjuncts off; shape edges moved, exhaustive winner + top-ties count):")
+    base = (SALT_LO, SALT_PEAK, SALT_HI, BRINE_ZERO, BRINE_FULL, BOT_ZERO, BOT_FULL)
+    cases = {"base": {}, "salt peak 0.45": dict(SALT_PEAK=0.45), "salt peak 0.65": dict(SALT_PEAK=0.65),
+             "salt lo/hi 0.15/0.85": dict(SALT_LO=0.15, SALT_HI=0.85, SALT_PEAK=0.5),
+             "brine full 0.10": dict(BRINE_FULL=0.10), "brine full 0.14": dict(BRINE_FULL=0.14),
+             "botanical full 0.45": dict(BOT_FULL=0.45), "botanical full 0.65": dict(BOT_FULL=0.65)}
+    g = globals()
+    for name, ch in cases.items():
+        for k, v in ch.items():
+            g[k] = v
+        r = exhaustive_all()
+        near = [x for x in r if x[0] >= r[0][0] - 0.01]
+        print(f"  {name:22s} best obj={r[0][0]:.3f} {desc(r[0][1])} ABV={abv_pct(r[0][1]):.1f}% brine%liq={100*r[0][1]['brine']/volumes(r[0][1])[0]:.1f} (n_near={len(near)})")
+        (g["SALT_LO"], g["SALT_PEAK"], g["SALT_HI"], g["BRINE_ZERO"], g["BRINE_FULL"], g["BOT_ZERO"], g["BOT_FULL"]) = base
+    VARIANT = "original"
+
+
+def main_ablation():
+    """ORIGINAL objective with the harmony term removed: how much of the adjunct gain was harmony?"""
+    global W
+    old = dict(W)
+    W = {"salt": 0.45, "brine": 0.25, "botanical": 0.20, "harmony": 0.0}
+    tot = sum(W.values()); W = {k: v / tot for k, v in W.items()}
+    print("ABLATION: original constraints/objective, harmony weight 0 (renormalised)")
+    for adj in (False, True):
+        r = exhaustive_all(adjuncts=adj)
+        print(f" adjuncts {'ON ' if adj else 'OFF'}: best obj={r[0][0]:.3f} {line(r[0][1])}")
+    W = old
+
+
 if __name__ == "__main__":
-    main()
+    import sys
+    if "--honest" in sys.argv:
+        main_honest()
+    elif "--ablation" in sys.argv:
+        main_ablation()
+    else:
+        main()
