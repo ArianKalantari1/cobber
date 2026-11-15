@@ -55,16 +55,20 @@ Notes:
 | Mando Raspberry Fizz | Bourbon, balsamic, raspberry if it is a liqueur or syrup | mandarin, lemon, any fizz |
 | White Flower Negroni | The whole drink (gin, Suze, white flower liqueur), with water for dilution | nothing |
 
-## Dirty Martini Spritz batch (Ari, 17 Nov 2026)
+## Dirty Martini Spritz (Ari, 17 Nov 2026): $23
 
-Whole batch in the fridge, vermouth included, sized to sales (low volume). Per drink: 20 gin · 30 dry vermouth · 20 olive brine ·
-a dash of orange bitters = 70 ml; then 75 ml French sparkling, olives and a lemon twist at service.
+Per drink: **15 gin · 25 dry vermouth · 20 olive brine · 1 dash orange bitters · 60 French sparkling · 20 soda**, built in a wine
+glass over cubed ice, olives and a lemon twist. The first three are 60 ml, so one 60 ml jigger pours the batch.
+About 1.35 standard drinks (a typical spritz is 1.2 to 1.4). About $3.10 per drink, about 14.8% pour cost at $23
+(assumes dry vermouth costs about the same as the sweet vermouth in the costing sheet).
 
-| Bottle | Gin | Dry vermouth | Olive brine | Orange bitters | Pours of 70 ml |
+Whole batch in the fridge, vermouth included, sized to sales (low volume):
+
+| Bottle | Gin | Dry vermouth | Olive brine | Orange bitters | Pours of 60 ml |
 |---|---|---|---|---|---|
-| Small (about 355 ml) | 100 | 150 | 100 | 4 | 5 |
-| Standard (about 710 ml) | 200 | 300 | 200 | 8 | 10 |
+| Small (about 365 ml) | 90 | 150 | 120 | 5 | 6 |
+| Standard (about 608 ml) | 150 | 250 | 200 | 8 | 10 |
 
-About 18.5% ABV. Fill the bottle to the top (little air), keep it in the fridge or on ice, label the date. Best within about
-2 weeks, and the vermouth fades first (untested). Smell and taste it weekly; remake when it goes flat or stale. If the drink
-sells slowly, make the small bottle.
+About 17% ABV, so keep it in the fridge or ice well. Fill the bottle to the top (little air), label the date. Best within about
+2 weeks; the vermouth fades first (untested). Smell and taste it weekly; remake when it goes flat or stale. If the drink sells
+slowly, make the small bottle. At service: 60 ml batch, 60 ml sparkling, 20 ml soda, lift once.
