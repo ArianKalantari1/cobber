@@ -125,14 +125,23 @@ cool room.** Each shift, fill a 750 ml bottle from it and stand that in the ice 
 the best flavour (the vermouth and Aperol fade first; untested), and finish an opened barrel within about 2
 weeks, as air gets in. If you sell fewer than about 20 a week, make a half barrel.
 
-### One cocktail (built, the version guests loved)
-120 ml barrel pour (two 60 ml jiggers), a muddled orange slice and lemon slice with a
-little lemon juice (15 ml in the costing; write down the real amount), fill with cubes, optional Coca-Cola top.
-Happy hour 60 ml batch pour. About 1.5 standard drinks. To drop the lemon juice at service, add another 15-30 g
-of citric to the batch and taste a built drink against the current one.
+### One cocktail (Ari, 16 Nov)
+Batch here means everything except the fresh fruit: reduction, cherries, sugar, brandy, vodka, Angostura, vermouth,
+Aperol, citric acid. **No lemon juice.**
 
-**Cost per drink: about $4.22** (barrel about $148, $0.030/ml; brandy $39.09 ex GST and vodka $30 per 700 ml are most of
-it; the Angostura price is a placeholder). At $24 (ex GST $21.82): **pour cost 19.3%**, gross profit about $17.60.
+1. 120 ml batch (two 60 ml jiggers) into a tin with a lemon slice, an orange slice and ice.
+2. Shake gently (about 5-6 seconds, not hard).
+3. Dump everything (liquid, ice and slices) into a tall glass.
+4. Top up with soda water if it comes out short: about 45 ml, fixed, so every drink is the same. Coca-Cola
+   instead of soda makes it sweeter and spicier, in the kalimotxo style.
+5. Garnish a lemon slice and an orange slice with a sprig of mint, dust with ground cinnamon, serve with a straw.
+
+About 1.5 standard drinks, about 200 ml in the glass (about 9-10% ABV). Happy hour pour: 60 ml batch.
+**Because the lemon juice is out, raise the citric acid in the batch** (4 L batch: from 10 g to about 30-35 g in
+total, in 5 g steps; the batch should taste tart on its own). Taste a finished drink against the old version.
+
+**Cost per drink: about $4.00** (batch 120 ml $3.48, slices $0.30, soda $0.07, mint and cinnamon about $0.12; spices
+in the batch not counted). At $24 (ex GST $21.82): **pour cost about 18.3%**, gross profit about $17.80.
 
 ## 4. PISCO MA CHÉRIE ($25)
 

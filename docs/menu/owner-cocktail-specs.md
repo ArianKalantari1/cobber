@@ -49,11 +49,12 @@ concentrate come pre-mixed in the batch (85 ml per drink). Test build, not yet t
 | Angostura bitters | 1 |
 | Sweet vermouth | 14 |
 | Aperol | 10 |
-| Lemon juice | 15 (to confirm) |
-| Orange slice and lemon slice | muddled |
+| Orange slice and lemon slice | 1 each, in the tin |
+| Soda water (or Coca-Cola) to top up | about 45 |
 
-Optional Coca-Cola top. Everything except the lemon juice and slices is pre-mixed in a 5 L barrel (120 ml per drink,
-two 60 ml jiggers). Glass: to confirm.
+Method: 120 ml batch (two 60 ml jiggers) in a tin with the slices and ice, shake gently, dump everything into a tall glass, top
+with soda, garnish lemon and orange slice with mint, dust with ground cinnamon, serve with a straw. Everything except the
+fresh fruit is pre-mixed in the batch. No lemon juice: the citric acid in the batch makes it sour enough.
 
 ### What is in the 100 ml of batch (the recipe is 3 L of wine making about 3.2 L)
 
@@ -70,7 +71,7 @@ two 60 ml jiggers). Glass: to confirm.
 | 20% saline | about 0.1 ml |
 
 The wine's own alcohol mostly cooks off, so the strength comes from the brandy and vodka: about 16-17% ABV in the
-batch. Whole drink: about 1.5 standard drinks. Cost $4.22; pour cost 19.3%; gross profit about $17.60. Brandy $43 and
+batch. Whole drink: about 1.5 standard drinks. Cost about $4.00; pour cost about 18.3%; gross profit about $17.80. Brandy $43 and
 vodka $30 per 700 ml; the Angostura price is a placeholder. Volumes of the reduction are estimates.
 
 ## Pisco Ma Chérie: $25
