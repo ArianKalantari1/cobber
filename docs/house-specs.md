@@ -1208,3 +1208,10 @@ day it first tastes dull, fizzy or off.
 pasteurised H2melon. So the cucumber rum has a job. When the cucumber note fades (untested; the 1-2 week figure is a cautious estimate), the cooked note comes back. Make cucumber rum in small, frequent batches, and judge the
 rail bottle's shelf life by the cucumber, not only the cordial. If the watermelon ever tastes cooked,
 more cucumber (more peel-striped cucumber per 700 ml, or a fresher infusion) is the first lever.
+
+### Martini Corner: final menu lines (Ari, 16 Nov 2026)
+
+- **Cornichon Gibson, $26:** Cornichon Vodka, Yellow Chartreuse, Dry Vermouth & Pickle Brine. *Briny, tangy & crisp.*
+  Garnish: a cornichon. No "herbal": only 5 ml of Yellow Chartreuse, so it is a background note.
+- **Tomato Martini, $25:** Sun-Dried Tomato & Rosemary Gin, Artichoke Vermouth & Sea Salt. *Savoury, herbal & smooth.*
+- **Dirty Martini Spritz, $23:** Gin, Dry Vermouth, Olive Brine, Orange Bitters & French Sparkling. *Briny, bright & fizzy.*
