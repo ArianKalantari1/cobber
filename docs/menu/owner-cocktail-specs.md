@@ -8,17 +8,17 @@ no garnish extras, wastage, labour or overheads. A standard drink is 10 g of alc
 
 | Ingredient | ml per drink |
 |---|---|
-| Blanco tequila | 34 |
-| Mezcal | 8.5 |
-| Floc de Gascogne | 12.5 |
-| Agave nectar | 4 |
-| Chilli bitters | 1 dash (about 0.7) |
+| Blanco tequila | 30 |
+| Mezcal | 15 |
+| Floc de Gascogne | 15 |
+| Agave nectar | 5 |
+| Chilli bitters | 1 dash |
 | Apricot purée | 30 |
 | Lime juice | 15 |
 
 Method: shake hard and short (6-8 s), single-strain over fresh cubed ice. Glass: rocks.
-Strength: about 1.5 standard drinks. Cost $4.09; pour cost 18.0%; gross profit about $18.64.
-The tequila, mezcal, Floc, agave and bitters come pre-mixed in the batch (60 ml per drink).
+Strength: about 1.65 standard drinks. Cost $4.69; pour cost 20.6%; gross profit about $18.04.
+The tequila, mezcal, Floc, agave and bitters come pre-mixed in the batch (about 65 ml per drink).
 
 ## A Rosy Invitation (A.R.I.): $25
 *Cucumber Rum, Lillet Rosé, Cointreau, Absinthe, Watermelon, Rose & Lemon. Fresh, floral & crisp.*

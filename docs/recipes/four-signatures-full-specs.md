@@ -27,26 +27,26 @@ if it fizzes, smells yeasty or boozy, or grows mould. Freeze flat in 300 ml bags
 make it; 2-3 months frozen; thaw in the fridge and never refreeze; fridge days before freezing count toward
 the 10. Cans per week = drinks sold / 20.
 
-### Batch (700 ml bottle, about 668 ml, 11 pours of 60)
+### Batch (10 drinks, 658 ml, 10 pours of about 65; Ari's amounts, 15 Nov)
 
 | In the bottle | Amount |
 |---|---|
-| Blanco tequila | 380 |
-| Mezcal | 95 |
-| Floc de Gascogne | 140 |
-| Agave nectar, straight | 45 |
+| Blanco tequila | 300 |
+| Mezcal | 150 |
+| Floc de Gascogne | 150 |
+| Agave nectar, straight | 50 |
 | Chilli bitters | 8 (about 1 dash per pour; taste and adjust) |
 
-About 33% ABV. The apricot liqueur is out (tequila replaces it). If it reads dry, add 25 ml agave. Floc fades,
+About 32% ABV. The apricot liqueur is out. If it reads dry, add 10 ml agave to the bottle. Floc fades,
 so make bottles to last 1-2 weeks, in the cool room overnight. 8-hour rail limit at room temperature.
 
 ### One cocktail
-60 ml batch + 30 ml apricot purée + 15 ml lime. Shake hard and short (6-8 s). Single-strain with a
-Hawthorne strainer over fresh cubed ice in a rocks glass. About 1.5 standard drinks. The lime matches the
+65 ml batch (a 60 and a 5, or a 65 ml measure) + 30 ml apricot purée + 15 ml lime. Shake hard and short (6-8 s). Single-strain with a
+Hawthorne strainer over fresh cubed ice in a rocks glass. About 1.65 standard drinks (more mezcal and Floc than the first build). The lime matches the
 purée's acid (9 g per can); tune it by taste.
 
-**Cost per drink: about $4.09** (batch pour $3.42: tequila $1.77, mezcal $0.89, Floc $0.61, agave $0.04, bitters $0.11; plus purée $0.21 and lime $0.45).
-At $25 (ex GST $22.73): **pour cost 18.0%**, gross profit about $18.64.
+**Cost per drink: about $4.69** (tequila $1.56, mezcal $1.56, Floc $0.73, agave $0.05, bitters $0.12, purée $0.21, lime $0.45).
+At $25 (ex GST $22.73): **pour cost 20.6%**, gross profit about $18.04. At $26: 19.8%.
 
 ## 2. A ROSY INVITATION / A.R.I. ($25)
 
