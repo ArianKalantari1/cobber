@@ -1233,3 +1233,7 @@ for the dry vermouth are needed before it can be updated.
 
 **House Vodka Martini spec (Ari, 18 Nov 2026):** 55 vodka · 7.5 Italicus · 7.5 dry vermouth, stirred. About 2.0 standard drinks (vodka 40%,
 Italicus 20%, dry vermouth 17%). Costing sheet updated: about $3.37 per drink, 16.1% pour cost at $23 (dry vermouth price is a placeholder).
+
+**Strawberry shrub shelf-life observation (Ari, 17 Nov 2026):** a batch made more than 2 weeks earlier was still good (tasted by Ari; no sorbate
+status recorded). Keeps at least 14 days in the fridge. The 3-4 week figure is still an estimate: check again at day 21 and day 28 and record
+the day it first tastes dull, fizzes or smells yeasty.
