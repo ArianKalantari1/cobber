@@ -52,3 +52,19 @@ No amounts on file. It is a tincture, so it is made strong and dosed by the ml.
 - Real amounts for the tomato gin steep, the cornichon vodka and the house spice vodka.
 - Makrut lime tincture dose per drink, and leaf or zest.
 - Prices for the leaves, spices and vodka on invoice.
+
+## Small-batch method: infuse a concentrate on a timer, then dilute with plain spirit (Ari, 17 Nov 2026)
+
+Problem: infusions get left in too long and nobody else knows when to strain. Fix: make a concentrate in two-thirds of the final volume,
+strain it on a **fixed time with a labelled jar**, then top up with plain spirit. If it is over-infused, add more plain spirit (cannot fix
+one that is too weak, so the time is short on purpose). Sizes: 10 A Rosy Invitations and 8 of each martini.
+
+| Infusion | Concentrate (in the jar) | Time | After straining | Final | Serves |
+|---|---|---|---|---|---|
+| Cucumber rum | 180 ml white rum + 96 g cucumber (peel striped, stem end off) | strain at 24 h (max 36 h) | + 90 ml plain rum | about 270 ml | 10 A Rosy Invitations (24.5 ml each) |
+| Tomato and rosemary gin | 300 ml gin + 32 g sun-dried tomatoes, patted dry; add 6 g rosemary for the last 4 h | strain at 24 h | + 150 ml plain gin | about 450 ml | 8 Tomato Martinis (55 ml each) |
+| Cornichon vodka | 300 ml vodka + 64 g sliced cornichons, drained | strain at 24 h | + 150 ml plain vodka | about 450 ml | 8 Cornichon Gibsons (assumed 55 ml vodka each) |
+
+**If over-infused:** after straining, keep adding plain spirit in 25 ml steps (up to +100 ml per 450 ml) until it tastes right; the batch
+then makes more drinks. **If too weak:** steep up to 12 hours more, no longer. Solids soak up about 5% of the spirit, so expect about 430 ml from
+450 ml. Label the jar: what it is, time in, **STRAIN AT** date and time, and "then add [amount] plain spirit".
