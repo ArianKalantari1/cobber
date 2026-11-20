@@ -178,3 +178,25 @@ bottle gives exactly 7 pours.
 - All shelf lives marked "untested": cordial, shrub, purée, Floc batch, cucumber rum, rail bottles.
 - pH 3.3-3.5 targets need pH strips; none on hand.
 - Prices are retail placeholders; send invoice prices ex GST.
+
+## Sangria Tinto: batch from 550 ml of reduction (Ari, 20 Nov 2026)
+
+"Batch" = everything except the fresh slices and the soda top. Scaled from the standard recipe (1.5 L reduction makes about 4 L of batch):
+factor 550 / 1500 = 0.367. Assumes the 550 ml reduction came from about 1.1 L of rescued red, halved, as in the original (cherries and spices
+already simmered in and strained out). If it came from more wine it is more concentrated and can be stretched.
+
+| In the batch | Amount |
+|---|---|
+| Wine reduction | 550 ml |
+| White sugar (dissolve into the warm reduction; 100 g if the cherries were jar morello) | 130 g |
+| Brandy | 257 ml |
+| House vodka | 257 ml |
+| Angostura bitters | 11 ml |
+| Sweet vermouth | 176 ml |
+| Aperol | 117 ml |
+| 20% saline | 1.5 ml |
+| Citric acid | start at 4 g, test, ceiling about 11 g |
+
+About 1.45 L at about 16% ABV, 12 pours of 120 ml. Added ingredients cost about $37.50 ex GST (brandy $43 inc GST, vodka $30, Angostura a
+placeholder), about $43.50 if the reduction's cherries and spices are counted. Per drink about $3.10 to $3.60 for the batch plus about $0.50 for
+slices, soda, mint and cinnamon: about 17-19% pour cost at $24. Citric test (10% solution): 1 ml in a 120 ml test drink is about 1.2 g in this batch.
