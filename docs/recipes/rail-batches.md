@@ -16,6 +16,7 @@ overnight. Goal: every service is one jigger pour from the batch plus at most tw
 - **Sugar may go in the batch only when the batch is high in alcohol** (about 20% ABV or more) and the
   sweetener is a bottled or shelf-stable syrup.
 - **Low-ABV batches stay on ice** (Ari, 12 Nov): Sangria Tinto (about 16%) and Pisco Ma Chérie (about 20%, has shrub). Stand the capped bottle in an ice-and-water bucket up to the neck, keep the ice topped up, and change the bucket every shift. The 8-hour rail limit is for the high-ABV bottles kept at room temperature (Summer Fling). A Rosy Invitation can sit in the ice well all service (Ari, 12 Nov), which also slows its flavour and colour fade. Everything goes back to the cool room at close.
+- **Saline goes in the batch** (Ari, 22 Nov): any cocktail that needs saline gets it mixed into the batch bottle, not added at service. House Gin Martini 0.1 ml of 20% saline per drink (1 ml per 700 ml bottle), Tomato Martini 0.2 ml per drink (2 ml per bottle), House Vodka Martini 0.1 ml per drink (assumed, confirm). Dirty martinis then just add the brine on top; the saline in the batch is a negligible amount of salt next to 15 ml of brine.
 - Fixed jigger pour for every batch, so no measuring at service. Shake the bottle first if it has
   settled. Label: drink, date made, use-by, pour size.
 - Batches are 700 ml rail bottles (Sangria Tinto: a 750 ml bottle).
