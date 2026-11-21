@@ -200,3 +200,9 @@ already simmered in and strained out). If it came from more wine it is more conc
 About 1.45 L at about 16% ABV, 12 pours of 120 ml. Added ingredients cost about $37.50 ex GST (brandy $43 inc GST, vodka $30, Angostura a
 placeholder), about $43.50 if the reduction's cherries and spices are counted. Per drink about $3.10 to $3.60 for the batch plus about $0.50 for
 slices, soda, mint and cinnamon: about 17-19% pour cost at $24. Citric test (10% solution): 1 ml in a 120 ml test drink is about 1.2 g in this batch.
+
+### Pisco Ma Chérie: ideas parked (Ari, 22 Nov 2026: stick to the original for now)
+The spec above stands: shrub with the cracked pepper in the 24 h macerate, pressed gently, batch 35 pisco / 35 sherry / 30 shrub, one 700 ml bottle
+(245 / 245 / 210) at a time, shrub kept separate in the fridge. Parked to bench later: pepper tincture instead of pepper in the shrub; blitz and sieve
+the strawberries; infuse pisco with the leftover pressed strawberries (about 70 g per 200 ml, strain at 24 h, then top up with plain pisco); more
+shrub, less sherry (35 / 30 / 35); more vinegar (little effect on shelf life, more pungency); a smaller shrub batch (about 640 ml, 580 g strawberries).
