@@ -1,0 +1,75 @@
+﻿Batch,Bottle_size_ml,Ingredient,Amount_per_bottle,Unit,Pour_ml_per_drink,Pours_per_bottle,Add_at_service,Storage,Use_by_estimate,Status
+Summer Fling,700,Blanco tequila,319,ml,65,10,30 ml apricot purée + 15 ml lime,Cool room; 8 h on the rail is fine (about 32% ABV),1-2 weeks (Floc fades first),Ari's amounts
+Summer Fling,700,Mezcal,160,ml,65,10,30 ml apricot purée + 15 ml lime,Cool room; 8 h on the rail is fine (about 32% ABV),1-2 weeks (Floc fades first),Ari's amounts
+Summer Fling,700,Floc de Gascogne,160,ml,65,10,30 ml apricot purée + 15 ml lime,Cool room; 8 h on the rail is fine (about 32% ABV),1-2 weeks (Floc fades first),Ari's amounts
+Summer Fling,700,Agave nectar,53,ml,65,10,30 ml apricot purée + 15 ml lime,Cool room; 8 h on the rail is fine (about 32% ABV),1-2 weeks (Floc fades first),Ari's amounts
+Summer Fling,700,Chilli bitters,8.5,ml,65,10,30 ml apricot purée + 15 ml lime,Cool room; 8 h on the rail is fine (about 32% ABV),1-2 weeks (Floc fades first),Ari's amounts
+Summer Fling,1000,Blanco tequila,456,ml,65,15,30 ml apricot purée + 15 ml lime,Cool room; 8 h on the rail is fine (about 32% ABV),1-2 weeks (Floc fades first),Ari's amounts
+Summer Fling,1000,Mezcal,228,ml,65,15,30 ml apricot purée + 15 ml lime,Cool room; 8 h on the rail is fine (about 32% ABV),1-2 weeks (Floc fades first),Ari's amounts
+Summer Fling,1000,Floc de Gascogne,228,ml,65,15,30 ml apricot purée + 15 ml lime,Cool room; 8 h on the rail is fine (about 32% ABV),1-2 weeks (Floc fades first),Ari's amounts
+Summer Fling,1000,Agave nectar,76,ml,65,15,30 ml apricot purée + 15 ml lime,Cool room; 8 h on the rail is fine (about 32% ABV),1-2 weeks (Floc fades first),Ari's amounts
+Summer Fling,1000,Chilli bitters,12.0,ml,65,15,30 ml apricot purée + 15 ml lime,Cool room; 8 h on the rail is fine (about 32% ABV),1-2 weeks (Floc fades first),Ari's amounts
+A Rosy Invitation,700,Cucumber-infused white rum,201,ml,85,8,10 ml lemon juice,Ice well all service; cool room at close; opaque bottle,About 1 week (untested),Test build; run haze test first
+A Rosy Invitation,700,Lillet Rosé,160,ml,85,8,10 ml lemon juice,Ice well all service; cool room at close; opaque bottle,About 1 week (untested),Test build; run haze test first
+A Rosy Invitation,700,Cointreau,123,ml,85,8,10 ml lemon juice,Ice well all service; cool room at close; opaque bottle,About 1 week (untested),Test build; run haze test first
+A Rosy Invitation,700,Absinthe,10.0,ml,85,8,10 ml lemon juice,Ice well all service; cool room at close; opaque bottle,About 1 week (untested),Test build; run haze test first
+A Rosy Invitation,700,Watermelon-rose concentrate,205,ml,85,8,10 ml lemon juice,Ice well all service; cool room at close; opaque bottle,About 1 week (untested),Test build; run haze test first
+A Rosy Invitation,1000,Cucumber-infused white rum,288,ml,85,11,10 ml lemon juice,Ice well all service; cool room at close; opaque bottle,About 1 week (untested),Test build; run haze test first
+A Rosy Invitation,1000,Lillet Rosé,229,ml,85,11,10 ml lemon juice,Ice well all service; cool room at close; opaque bottle,About 1 week (untested),Test build; run haze test first
+A Rosy Invitation,1000,Cointreau,176,ml,85,11,10 ml lemon juice,Ice well all service; cool room at close; opaque bottle,About 1 week (untested),Test build; run haze test first
+A Rosy Invitation,1000,Absinthe,14.0,ml,85,11,10 ml lemon juice,Ice well all service; cool room at close; opaque bottle,About 1 week (untested),Test build; run haze test first
+A Rosy Invitation,1000,Watermelon-rose concentrate,293,ml,85,11,10 ml lemon juice,Ice well all service; cool room at close; opaque bottle,About 1 week (untested),Test build; run haze test first
+Pisco Ma Chérie,700,Pisco,245,ml,100,7,"75 ml soda, dehydrated orange wheel, black pepper",Ice well (about 20% ABV),About 2 weeks,Ari's 35/35/30
+Pisco Ma Chérie,700,Elegante Medium sherry,245,ml,100,7,"75 ml soda, dehydrated orange wheel, black pepper",Ice well (about 20% ABV),About 2 weeks,Ari's 35/35/30
+Pisco Ma Chérie,700,Strawberry & black pepper shrub,210,ml,100,7,"75 ml soda, dehydrated orange wheel, black pepper",Ice well (about 20% ABV),About 2 weeks,Ari's 35/35/30
+Pisco Ma Chérie,1000,Pisco,350,ml,100,10,"75 ml soda, dehydrated orange wheel, black pepper",Ice well (about 20% ABV),About 2 weeks,Ari's 35/35/30
+Pisco Ma Chérie,1000,Elegante Medium sherry,350,ml,100,10,"75 ml soda, dehydrated orange wheel, black pepper",Ice well (about 20% ABV),About 2 weeks,Ari's 35/35/30
+Pisco Ma Chérie,1000,Strawberry & black pepper shrub,300,ml,100,10,"75 ml soda, dehydrated orange wheel, black pepper",Ice well (about 20% ABV),About 2 weeks,Ari's 35/35/30
+Dirty Martini Spritz,700,Gin,230,ml,60,11,"50 ml French sparkling + 20 ml soda, 3 olives, lemon twist",Fridge or ice well (about 19% ABV),About 2 weeks; vermouth fades first,Final spec to bench
+Dirty Martini Spritz,700,Dry vermouth,259,ml,60,11,"50 ml French sparkling + 20 ml soda, 3 olives, lemon twist",Fridge or ice well (about 19% ABV),About 2 weeks; vermouth fades first,Final spec to bench
+Dirty Martini Spritz,700,Olive brine,201,ml,60,11,"50 ml French sparkling + 20 ml soda, 3 olives, lemon twist",Fridge or ice well (about 19% ABV),About 2 weeks; vermouth fades first,Final spec to bench
+Dirty Martini Spritz,700,Orange bitters,9.0,ml,60,11,"50 ml French sparkling + 20 ml soda, 3 olives, lemon twist",Fridge or ice well (about 19% ABV),About 2 weeks; vermouth fades first,Final spec to bench
+Dirty Martini Spritz,1000,Gin,329,ml,60,16,"50 ml French sparkling + 20 ml soda, 3 olives, lemon twist",Fridge or ice well (about 19% ABV),About 2 weeks; vermouth fades first,Final spec to bench
+Dirty Martini Spritz,1000,Dry vermouth,370,ml,60,16,"50 ml French sparkling + 20 ml soda, 3 olives, lemon twist",Fridge or ice well (about 19% ABV),About 2 weeks; vermouth fades first,Final spec to bench
+Dirty Martini Spritz,1000,Olive brine,288,ml,60,16,"50 ml French sparkling + 20 ml soda, 3 olives, lemon twist",Fridge or ice well (about 19% ABV),About 2 weeks; vermouth fades first,Final spec to bench
+Dirty Martini Spritz,1000,Orange bitters,13.0,ml,60,16,"50 ml French sparkling + 20 ml soda, 3 olives, lemon twist",Fridge or ice well (about 19% ABV),About 2 weeks; vermouth fades first,Final spec to bench
+House Gin Martini,700,Gin (2 Pound 10),544,ml,70,10,"Stir over ice; 2 drops saline; lemon twist (or 15 ml brine for dirty, skip saline)",Fridge or freezer; no water in the batch,About 2 weeks,Suggested spec
+House Gin Martini,700,Dry vermouth,148,ml,70,10,"Stir over ice; 2 drops saline; lemon twist (or 15 ml brine for dirty, skip saline)",Fridge or freezer; no water in the batch,About 2 weeks,Suggested spec
+House Gin Martini,700,Orange bitters,8.0,ml,70,10,"Stir over ice; 2 drops saline; lemon twist (or 15 ml brine for dirty, skip saline)",Fridge or freezer; no water in the batch,About 2 weeks,Suggested spec
+House Gin Martini,1000,Gin (2 Pound 10),777,ml,70,14,"Stir over ice; 2 drops saline; lemon twist (or 15 ml brine for dirty, skip saline)",Fridge or freezer; no water in the batch,About 2 weeks,Suggested spec
+House Gin Martini,1000,Dry vermouth,212,ml,70,14,"Stir over ice; 2 drops saline; lemon twist (or 15 ml brine for dirty, skip saline)",Fridge or freezer; no water in the batch,About 2 weeks,Suggested spec
+House Gin Martini,1000,Orange bitters,11.5,ml,70,14,"Stir over ice; 2 drops saline; lemon twist (or 15 ml brine for dirty, skip saline)",Fridge or freezer; no water in the batch,About 2 weeks,Suggested spec
+House Vodka Martini,700,Vodka,550,ml,70,10,Stir over ice,Fridge or freezer,About 2 weeks (vermouth),Optional batch
+House Vodka Martini,700,Italicus,75,ml,70,10,Stir over ice,Fridge or freezer,About 2 weeks (vermouth),Optional batch
+House Vodka Martini,700,Dry vermouth,75,ml,70,10,Stir over ice,Fridge or freezer,About 2 weeks (vermouth),Optional batch
+House Vodka Martini,1000,Vodka,786,ml,70,14,Stir over ice,Fridge or freezer,About 2 weeks (vermouth),Optional batch
+House Vodka Martini,1000,Italicus,107,ml,70,14,Stir over ice,Fridge or freezer,About 2 weeks (vermouth),Optional batch
+House Vodka Martini,1000,Dry vermouth,107,ml,70,14,Stir over ice,Fridge or freezer,About 2 weeks (vermouth),Optional batch
+Tomato Martini,700,Sun-dried tomato & rosemary gin,550,ml,70,10,0.2 ml saline; stir over ice,Fridge,About 2 weeks (vermouth),Optional batch
+Tomato Martini,700,Artichoke vermouth,150,ml,70,10,0.2 ml saline; stir over ice,Fridge,About 2 weeks (vermouth),Optional batch
+Tomato Martini,1000,Sun-dried tomato & rosemary gin,786,ml,70,14,0.2 ml saline; stir over ice,Fridge,About 2 weeks (vermouth),Optional batch
+Tomato Martini,1000,Artichoke vermouth,214,ml,70,14,0.2 ml saline; stir over ice,Fridge,About 2 weeks (vermouth),Optional batch
+Cornichon Gibson,700,Cornichon vodka,550,ml,70,10,5 ml cornichon brine; stir over ice; cornichon,Fridge,About 2 weeks (vermouth),"ASSUMED amounts, confirm"
+Cornichon Gibson,700,Yellow Chartreuse,50,ml,70,10,5 ml cornichon brine; stir over ice; cornichon,Fridge,About 2 weeks (vermouth),"ASSUMED amounts, confirm"
+Cornichon Gibson,700,Dry vermouth,100,ml,70,10,5 ml cornichon brine; stir over ice; cornichon,Fridge,About 2 weeks (vermouth),"ASSUMED amounts, confirm"
+Cornichon Gibson,1000,Cornichon vodka,786,ml,70,14,5 ml cornichon brine; stir over ice; cornichon,Fridge,About 2 weeks (vermouth),"ASSUMED amounts, confirm"
+Cornichon Gibson,1000,Yellow Chartreuse,71,ml,70,14,5 ml cornichon brine; stir over ice; cornichon,Fridge,About 2 weeks (vermouth),"ASSUMED amounts, confirm"
+Cornichon Gibson,1000,Dry vermouth,143,ml,70,14,5 ml cornichon brine; stir over ice; cornichon,Fridge,About 2 weeks (vermouth),"ASSUMED amounts, confirm"
+Sangria Tinto,700,Wine reduction,262,ml,120,5,"Tin: lemon + orange slice + ice, shake gently, dump, top 45 ml soda, mint, cinnamon, straw",Fridge or ice well; keep the main batch in the cool room,Best within about 4 weeks; open barrel within 2 weeks,Standard recipe scaled; about 16% ABV
+Sangria Tinto,700,White sugar,61,g,120,5,"Tin: lemon + orange slice + ice, shake gently, dump, top 45 ml soda, mint, cinnamon, straw",Fridge or ice well; keep the main batch in the cool room,Best within about 4 weeks; open barrel within 2 weeks,Standard recipe scaled; about 16% ABV
+Sangria Tinto,700,Brandy,122,ml,120,5,"Tin: lemon + orange slice + ice, shake gently, dump, top 45 ml soda, mint, cinnamon, straw",Fridge or ice well; keep the main batch in the cool room,Best within about 4 weeks; open barrel within 2 weeks,Standard recipe scaled; about 16% ABV
+Sangria Tinto,700,House vodka,122,ml,120,5,"Tin: lemon + orange slice + ice, shake gently, dump, top 45 ml soda, mint, cinnamon, straw",Fridge or ice well; keep the main batch in the cool room,Best within about 4 weeks; open barrel within 2 weeks,Standard recipe scaled; about 16% ABV
+Sangria Tinto,700,Angostura bitters,5.0,ml,120,5,"Tin: lemon + orange slice + ice, shake gently, dump, top 45 ml soda, mint, cinnamon, straw",Fridge or ice well; keep the main batch in the cool room,Best within about 4 weeks; open barrel within 2 weeks,Standard recipe scaled; about 16% ABV
+Sangria Tinto,700,Sweet vermouth,84,ml,120,5,"Tin: lemon + orange slice + ice, shake gently, dump, top 45 ml soda, mint, cinnamon, straw",Fridge or ice well; keep the main batch in the cool room,Best within about 4 weeks; open barrel within 2 weeks,Standard recipe scaled; about 16% ABV
+Sangria Tinto,700,Aperol,56,ml,120,5,"Tin: lemon + orange slice + ice, shake gently, dump, top 45 ml soda, mint, cinnamon, straw",Fridge or ice well; keep the main batch in the cool room,Best within about 4 weeks; open barrel within 2 weeks,Standard recipe scaled; about 16% ABV
+Sangria Tinto,700,20% saline,0.5,ml,120,5,"Tin: lemon + orange slice + ice, shake gently, dump, top 45 ml soda, mint, cinnamon, straw",Fridge or ice well; keep the main batch in the cool room,Best within about 4 weeks; open barrel within 2 weeks,Standard recipe scaled; about 16% ABV
+Sangria Tinto,700,Citric acid (start; test with 10% solution),2.0,g,120,5,"Tin: lemon + orange slice + ice, shake gently, dump, top 45 ml soda, mint, cinnamon, straw",Fridge or ice well; keep the main batch in the cool room,Best within about 4 weeks; open barrel within 2 weeks,Standard recipe scaled; about 16% ABV
+Sangria Tinto,1000,Wine reduction,375,ml,120,8,"Tin: lemon + orange slice + ice, shake gently, dump, top 45 ml soda, mint, cinnamon, straw",Fridge or ice well; keep the main batch in the cool room,Best within about 4 weeks; open barrel within 2 weeks,Standard recipe scaled; about 16% ABV
+Sangria Tinto,1000,White sugar,88,g,120,8,"Tin: lemon + orange slice + ice, shake gently, dump, top 45 ml soda, mint, cinnamon, straw",Fridge or ice well; keep the main batch in the cool room,Best within about 4 weeks; open barrel within 2 weeks,Standard recipe scaled; about 16% ABV
+Sangria Tinto,1000,Brandy,175,ml,120,8,"Tin: lemon + orange slice + ice, shake gently, dump, top 45 ml soda, mint, cinnamon, straw",Fridge or ice well; keep the main batch in the cool room,Best within about 4 weeks; open barrel within 2 weeks,Standard recipe scaled; about 16% ABV
+Sangria Tinto,1000,House vodka,175,ml,120,8,"Tin: lemon + orange slice + ice, shake gently, dump, top 45 ml soda, mint, cinnamon, straw",Fridge or ice well; keep the main batch in the cool room,Best within about 4 weeks; open barrel within 2 weeks,Standard recipe scaled; about 16% ABV
+Sangria Tinto,1000,Angostura bitters,7.5,ml,120,8,"Tin: lemon + orange slice + ice, shake gently, dump, top 45 ml soda, mint, cinnamon, straw",Fridge or ice well; keep the main batch in the cool room,Best within about 4 weeks; open barrel within 2 weeks,Standard recipe scaled; about 16% ABV
+Sangria Tinto,1000,Sweet vermouth,120,ml,120,8,"Tin: lemon + orange slice + ice, shake gently, dump, top 45 ml soda, mint, cinnamon, straw",Fridge or ice well; keep the main batch in the cool room,Best within about 4 weeks; open barrel within 2 weeks,Standard recipe scaled; about 16% ABV
+Sangria Tinto,1000,Aperol,80,ml,120,8,"Tin: lemon + orange slice + ice, shake gently, dump, top 45 ml soda, mint, cinnamon, straw",Fridge or ice well; keep the main batch in the cool room,Best within about 4 weeks; open barrel within 2 weeks,Standard recipe scaled; about 16% ABV
+Sangria Tinto,1000,20% saline,1.0,ml,120,8,"Tin: lemon + orange slice + ice, shake gently, dump, top 45 ml soda, mint, cinnamon, straw",Fridge or ice well; keep the main batch in the cool room,Best within about 4 weeks; open barrel within 2 weeks,Standard recipe scaled; about 16% ABV
+Sangria Tinto,1000,Citric acid (start; test with 10% solution),2.5,g,120,8,"Tin: lemon + orange slice + ice, shake gently, dump, top 45 ml soda, mint, cinnamon, straw",Fridge or ice well; keep the main batch in the cool room,Best within about 4 weeks; open barrel within 2 weeks,Standard recipe scaled; about 16% ABV
