@@ -3,9 +3,9 @@ Cornichon Gibson,A (now),55,5,10,5,1
 Cornichon Gibson,B,55,5,10,7.5,1
 Cornichon Gibson,C,55,5,10,10,1
 Cornichon Gibson,D,55,5,10,10,2.5
-House Gin Martini,G1 (now),55,15
-House Gin Martini,G2 wetter,50,20
-House Gin Martini,G3 drier,60,10
+House Gin Martini,M1,55,10,5
+House Gin Martini,M2 (old spec),55,15,5
+House Gin Martini,M3 more sherry,50,10,10
 House Vodka Martini,V1 (now),55,7.5,7.5
 House Vodka Martini,V2 more Italicus,55,10,5
 House Vodka Martini,V3 drier,60,5,5
