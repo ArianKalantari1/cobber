@@ -13,7 +13,7 @@ Summer Fling,25,Agave nectar,5,Batch,,,,1.65,Ari's amounts 15 Nov
 Summer Fling,25,Chilli bitters (1 dash),0.8,Fresh,,,,1.65,Ari's amounts 15 Nov
 Summer Fling,25,Apricot purée,30,Fresh,,,,1.65,Ari's amounts 15 Nov
 Summer Fling,25,Lime juice,15,Fresh,,,,1.65,Ari's amounts 15 Nov
-Pisco Ma Chérie,25,Pisco,35,Batch,"Pour the batch over cubes, top with soda",Highball,"Dehydrated orange wheel, twist of black pepper",1.57,Ari's 35/35/30
+Pisco Ma Chérie,25,Pisco,35,Batch,"Pour the batch over cubes, top with soda",Tall glass,"Dehydrated orange wheel, twist of black pepper",1.57,Ari's 35/35/30
 Pisco Ma Chérie,25,Elegante Medium sherry,35,Batch,,,,1.57,Ari's 35/35/30
 Pisco Ma Chérie,25,Strawberry & black pepper shrub,30,Batch,,,,1.57,Ari's 35/35/30
 Pisco Ma Chérie,25,Soda water,75,Top,,,,1.57,Ari's 35/35/30
@@ -25,17 +25,17 @@ Sangria Tinto,24,Sweet vermouth,15,Batch,,,,1.5,Pour 120 ml of batch; no lemon j
 Sangria Tinto,24,Aperol,10,Batch,,,,1.5,Pour 120 ml of batch; no lemon juice; citric acid in batch
 Sangria Tinto,24,Lemon slice + orange slice,1 each,Fresh (in tin),,,,1.5,Pour 120 ml of batch; no lemon juice; citric acid in batch
 Sangria Tinto,24,Soda water (or Coca-Cola),45,Top,,,,1.5,Pour 120 ml of batch; no lemon juice; citric acid in batch
-Dirty Martini Spritz,23,Gin,20,Batch,"Build over cubed ice: batch, sparkling, soda. Lift once",Wine glass,"3 Green Queen olives, lemon twist",1.48,"60 + 60 + 30 = 150 ml (Ari, 22 Nov). Brine ladder still to bench"
+Dirty Martini Spritz,23,Gin,20,Batch,"Build over cubed ice: batch, sparkling, soda. Lift once",Wine glass,Lemon wedge and 1 olive on a skewer,1.48,"60 + 60 + 30 = 150 ml (Ari, 22 Nov). Brine ladder still to bench"
 Dirty Martini Spritz,23,Dry vermouth,22.5,Batch,,,,1.48,"60 + 60 + 30 = 150 ml (Ari, 22 Nov). Brine ladder still to bench"
 Dirty Martini Spritz,23,Olive brine (house dirty brine),17.5,Batch,,,,1.48,"60 + 60 + 30 = 150 ml (Ari, 22 Nov). Brine ladder still to bench"
 Dirty Martini Spritz,23,Orange bitters (1 dash),0.8,Batch,,,,1.48,"60 + 60 + 30 = 150 ml (Ari, 22 Nov). Brine ladder still to bench"
 Dirty Martini Spritz,23,Sparkling,60,Top,,,,1.48,"60 + 60 + 30 = 150 ml (Ari, 22 Nov). Brine ladder still to bench"
 Dirty Martini Spritz,23,Soda water,30,Top,,,,1.48,"60 + 60 + 30 = 150 ml (Ari, 22 Nov). Brine ladder still to bench"
-House Gin Martini,TBC,Gin (2 Pound 10),55,Batch,"Stir over ice, strain. Dirty: 60 ml batch + 15 ml brine",Coupe,Lemon twist (dirty: 3 olives),1.95,Suggested spec; Manzanilla optional
+House Gin Martini,TBC,Gin (2 Pound 10),55,Batch,"Stir over ice, strain. Dirty: 60 ml batch + 15 ml brine",Coupe,Lemon twist or olive,1.95,Suggested spec; Manzanilla optional
 House Gin Martini,TBC,Dry vermouth,15,Batch,,,,1.95,Suggested spec; Manzanilla optional
 House Gin Martini,TBC,Orange bitters (1 dash),0.8,Batch,,,,1.95,Suggested spec; Manzanilla optional
 House Gin Martini,TBC,Saline 20%,0.1,Batch,,,,1.95,Suggested spec; Manzanilla optional
-House Vodka Martini,TBC,Vodka,55,Batch,"Stir over ice, strain",Coupe,,2.0,Ari 18 Nov
+House Vodka Martini,TBC,Vodka,55,Batch,"Stir over ice, strain",Coupe,Lemon twist or olive,2.0,Ari 18 Nov
 House Vodka Martini,TBC,Italicus,7.5,Batch,,,,2.0,Ari 18 Nov
 House Vodka Martini,TBC,Dry vermouth,7.5,Batch,,,,2.0,Ari 18 Nov
 House Vodka Martini,TBC,Saline 20%,0.1,Batch,,,,,
@@ -45,7 +45,7 @@ Tomato Martini,25,Saline 20%,0.2,Batch,,,,1.93,Garnish TBC; vermouth ABV assumed
 Cornichon Gibson,26,Cornichon vodka,55,Batch,"Stir over ice, strain",Coupe,Cornichon,,"ASSUMED amounts, confirm"
 Cornichon Gibson,26,Yellow Chartreuse,5,Batch,,,,,"ASSUMED amounts, confirm"
 Cornichon Gibson,26,Dry vermouth,10,Batch,,,,,"ASSUMED amounts, confirm"
-Cornichon Gibson,26,Cornichon (pickle) brine,5,Fresh,,,,,"ASSUMED amounts, confirm"
+Cornichon Gibson,26,Cornichon brine,5,Batch,,,,,"ASSUMED amounts, confirm"
 Kaffi Gimlet,23,Gin (2 Pound 10),,,,,,,AMOUNTS NEEDED from Ari
 Kaffi Gimlet,23,Kiwi syrup,,,,,,,AMOUNTS NEEDED from Ari
 Kaffi Gimlet,23,Makrut lime tincture,,,,,,,AMOUNTS NEEDED from Ari
