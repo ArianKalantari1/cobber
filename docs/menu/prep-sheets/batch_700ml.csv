@@ -1,38 +1,40 @@
-﻿Batch,Ingredient,Amount_for_700ml_bottle,Unit,Pour_ml_per_drink,Pours_per_bottle,Keep
-Summer Fling,Blanco tequila,319,ml,65,10,Cool room; 8 h on the rail is fine (about 32% ABV); use within: 1-2 weeks (Floc fades first)
-Summer Fling,Mezcal,160,ml,,,
-Summer Fling,Floc de Gascogne,160,ml,,,
-Summer Fling,Agave nectar,53,ml,,,
-Summer Fling,Chilli bitters,8.5,ml,,,
-A Rosy Invitation,Cucumber-infused white rum,201,ml,85,8,Ice well all service; cool room at close; opaque bottle; use within: About 1 week (untested)
-A Rosy Invitation,Lillet Rosé,160,ml,,,
-A Rosy Invitation,Cointreau,123,ml,,,
-A Rosy Invitation,Absinthe,10,ml,,,
-A Rosy Invitation,Watermelon-rose concentrate,205,ml,,,
-Pisco Ma Chérie,Pisco,245,ml,100,7,Ice well (about 20% ABV); use within: About 2 weeks
-Pisco Ma Chérie,Elegante Medium sherry,245,ml,,,
-Pisco Ma Chérie,Strawberry & black pepper shrub,210,ml,,,
-Dirty Martini Spritz,Gin,230,ml,60,11,Fridge or ice well (about 19% ABV); use within: About 2 weeks; vermouth fades first
-Dirty Martini Spritz,Dry vermouth,259,ml,,,
-Dirty Martini Spritz,Olive brine,201,ml,,,
-Dirty Martini Spritz,Orange bitters,9,ml,,,
-House Gin Martini,Gin (2 Pound 10),544,ml,70,10,Fridge or freezer; no water in the batch; use within: About 2 weeks
-House Gin Martini,Dry vermouth,148,ml,,,
-House Gin Martini,Orange bitters,8,ml,,,
-House Vodka Martini,Vodka,550,ml,70,10,Fridge or freezer; use within: About 2 weeks (vermouth)
-House Vodka Martini,Italicus,75,ml,,,
-House Vodka Martini,Dry vermouth,75,ml,,,
-Tomato Martini,Sun-dried tomato & rosemary gin,550,ml,70,10,Fridge; use within: About 2 weeks (vermouth)
-Tomato Martini,Artichoke vermouth,150,ml,,,
-Cornichon Gibson,Cornichon vodka,550,ml,70,10,Fridge; use within: About 2 weeks (vermouth)
-Cornichon Gibson,Yellow Chartreuse,50,ml,,,
-Cornichon Gibson,Dry vermouth,100,ml,,,
-Sangria Tinto,Wine reduction,262,ml,120,5,Fridge or ice well. Best within about 4 weeks.
-Sangria Tinto,White sugar,61,g,,,
-Sangria Tinto,Brandy,122,ml,,,
-Sangria Tinto,House vodka,122,ml,,,
-Sangria Tinto,Angostura bitters,5,ml,,,
-Sangria Tinto,Sweet vermouth,84,ml,,,
-Sangria Tinto,Aperol,56,ml,,,
-Sangria Tinto,20% saline,0.5,ml,,,
-Sangria Tinto,Citric acid (start; test with 10% solution),2,g,,,
+﻿Batch,Basis,Ingredient,Amount,Unit,Pour_ml_per_drink,Keep
+Summer Fling,10 drinks,Tequila,300,ml,65,Cool room
+Summer Fling,,Mezcal,150,ml,,
+Summer Fling,,Floc de Gascogne,150,ml,,
+Summer Fling,,Agave,50,ml,,
+A Rosy Invitation,10 drinks,Watermelon jerky rum,175,ml,60,Cool room
+A Rosy Invitation,,Cucumber rum,75,ml,,
+A Rosy Invitation,,Lillet Rosé,200,ml,,
+A Rosy Invitation,,Cointreau,150,ml,,
+A Rosy Invitation,,Absinthe,15,ml,,
+A Rosy Invitation,,Rose extract,2,ml,,
+Pisco Ma Chérie,700 ml bottle,Pisco,245,ml,100,Ice well
+Pisco Ma Chérie,,Elegante Medium sherry,245,ml,,
+Pisco Ma Chérie,,Strawberry & black pepper shrub,210,ml,,
+Dirty Martini Spritz,10 drinks,Gin,200,ml,60,Fridge
+Dirty Martini Spritz,,Dry vermouth,225,ml,,
+Dirty Martini Spritz,,Olive brine,175,ml,,
+Dirty Martini Spritz,,Orange bitters,8,ml,,
+House Gin Martini,10 drinks,Gin (2 Pound 10),550,ml,70,Fridge
+House Gin Martini,,Dry vermouth,150,ml,,
+House Gin Martini,,Orange bitters,8,ml,,
+House Gin Martini,,Saline 20%,1,ml,,
+House Vodka Martini,10 drinks,Vodka,550,ml,70,Fridge
+House Vodka Martini,,Italicus,75,ml,,
+House Vodka Martini,,Dry vermouth,75,ml,,
+House Vodka Martini,,Saline 20%,1,ml,,
+Tomato Martini,10 drinks,Sun-dried tomato & rosemary gin,550,ml,70,Fridge
+Tomato Martini,,Artichoke vermouth,150,ml,,
+Tomato Martini,,Saline 20%,2,ml,,
+Cornichon Gibson,10 drinks,Cornichon vodka,550,ml,70,Fridge
+Cornichon Gibson,,Yellow Chartreuse,50,ml,,
+Cornichon Gibson,,Dry vermouth,100,ml,,
+Sangria Tinto,per 500 ml wine reduction (sugar already in it),Wine reduction (with sugar),500,ml,120,Fridge
+Sangria Tinto,,Brandy,200,ml,,
+Sangria Tinto,,House vodka,200,ml,,
+Sangria Tinto,,Angostura bitters,9,ml,,
+Sangria Tinto,,Sweet vermouth,140,ml,,
+Sangria Tinto,,Aperol,95,ml,,
+Sangria Tinto,,20% saline,1,ml,,
+Sangria Tinto,,"Citric acid (start, then test)",3,g,,

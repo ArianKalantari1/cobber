@@ -1,15 +1,16 @@
 ﻿Cocktail,Price_$,Ingredient,ml_per_drink,From,Method_Glass_Garnish,Std_drinks,Status
-A Rosy Invitation (A.R.I.),25,Cucumber-infused white rum,24.5,Batch,"Shake hard, double-strain, chilled coupe",1.5,"Test build, not yet tasted"
-A Rosy Invitation (A.R.I.),25,Lillet Rosé,19.5,Batch,"Shake hard, double-strain, chilled coupe",1.5,"Test build, not yet tasted"
-A Rosy Invitation (A.R.I.),25,Cointreau,15,Batch,"Shake hard, double-strain, chilled coupe",1.5,"Test build, not yet tasted"
-A Rosy Invitation (A.R.I.),25,Absinthe,1.2,Batch,"Shake hard, double-strain, chilled coupe",1.5,"Test build, not yet tasted"
-A Rosy Invitation (A.R.I.),25,Watermelon-rose concentrate,25,Batch,"Shake hard, double-strain, chilled coupe",1.5,"Test build, not yet tasted"
-A Rosy Invitation (A.R.I.),25,Lemon juice,10,Fresh,"Shake hard, double-strain, chilled coupe",1.5,"Test build, not yet tasted"
+A Rosy Invitation (A.R.I.),25,Watermelon jerky rum,17.5,Batch,"Shake hard, double-strain, chilled coupe",1.55,"Bench version B, not yet tasted"
+A Rosy Invitation (A.R.I.),25,Cucumber rum,7.5,Batch,"Shake hard, double-strain, chilled coupe",1.55,"Bench version B, not yet tasted"
+A Rosy Invitation (A.R.I.),25,Lillet Rosé,20,Batch,"Shake hard, double-strain, chilled coupe",1.55,"Bench version B, not yet tasted"
+A Rosy Invitation (A.R.I.),25,Cointreau,15,Batch,"Shake hard, double-strain, chilled coupe",1.55,"Bench version B, not yet tasted"
+A Rosy Invitation (A.R.I.),25,Absinthe,1.5,Batch,"Shake hard, double-strain, chilled coupe",1.55,"Bench version B, not yet tasted"
+A Rosy Invitation (A.R.I.),25,Rose extract,0.2,Batch,"Shake hard, double-strain, chilled coupe",1.55,"Bench version B, not yet tasted"
+A Rosy Invitation (A.R.I.),25,Lemon juice,17.5,Fresh,"Shake hard, double-strain, chilled coupe",1.55,"Bench version B, not yet tasted"
 Summer Fling,25,Blanco tequila,30,Batch,"Shake hard and short (6-8 s), single-strain (Hawthorne) over fresh cubed ice, rocks glass",1.65,Ari's amounts 15 Nov
 Summer Fling,25,Mezcal,15,Batch,"Shake hard and short (6-8 s), single-strain (Hawthorne) over fresh cubed ice, rocks glass",1.65,Ari's amounts 15 Nov
 Summer Fling,25,Floc de Gascogne,15,Batch,"Shake hard and short (6-8 s), single-strain (Hawthorne) over fresh cubed ice, rocks glass",1.65,Ari's amounts 15 Nov
 Summer Fling,25,Agave nectar,5,Batch,"Shake hard and short (6-8 s), single-strain (Hawthorne) over fresh cubed ice, rocks glass",1.65,Ari's amounts 15 Nov
-Summer Fling,25,Chilli bitters (1 dash),0.8,Batch,"Shake hard and short (6-8 s), single-strain (Hawthorne) over fresh cubed ice, rocks glass",1.65,Ari's amounts 15 Nov
+Summer Fling,25,Chilli bitters (1 dash),0.8,Fresh,"Shake hard and short (6-8 s), single-strain (Hawthorne) over fresh cubed ice, rocks glass",1.65,Ari's amounts 15 Nov
 Summer Fling,25,Apricot purée,30,Fresh,"Shake hard and short (6-8 s), single-strain (Hawthorne) over fresh cubed ice, rocks glass",1.65,Ari's amounts 15 Nov
 Summer Fling,25,Lime juice,15,Fresh,"Shake hard and short (6-8 s), single-strain (Hawthorne) over fresh cubed ice, rocks glass",1.65,Ari's amounts 15 Nov
 Pisco Ma Chérie,25,Pisco,35,Batch,"Highball of cubes; pour batch, 3-4 spins, soda down the spoon, lift once; dehydrated orange wheel + twist of black pepper",1.57,Ari's 35/35/30
@@ -30,16 +31,17 @@ Dirty Martini Spritz,23,Olive brine (house dirty brine),17.5,Batch,"Build in chi
 Dirty Martini Spritz,23,Orange bitters (1 dash),0.8,Batch,"Build in chilled wine glass over cubed ice, lift once; 3 Green Queen olives + lemon twist",1.39,Final spec to bench: brine ladder 12.5-22.5 ml. Previous spec 15/25/20/60/20
 Dirty Martini Spritz,23,French sparkling (brut nature / extra brut),50,Top,"Build in chilled wine glass over cubed ice, lift once; 3 Green Queen olives + lemon twist",1.39,Final spec to bench: brine ladder 12.5-22.5 ml. Previous spec 15/25/20/60/20
 Dirty Martini Spritz,23,Soda water,20,Top,"Build in chilled wine glass over cubed ice, lift once; 3 Green Queen olives + lemon twist",1.39,Final spec to bench: brine ladder 12.5-22.5 ml. Previous spec 15/25/20/60/20
-House Gin Martini,TBC,Gin (2 Pound 10),55,Batch,"Stir ~30 s over ice, strain into chilled coupe; lemon twist. Dirty: 60 ml batch + 15 ml brine, skip saline, 3 olives",1.95,Suggested spec; Manzanilla optional
-House Gin Martini,TBC,Dry vermouth,15,Batch,"Stir ~30 s over ice, strain into chilled coupe; lemon twist. Dirty: 60 ml batch + 15 ml brine, skip saline, 3 olives",1.95,Suggested spec; Manzanilla optional
-House Gin Martini,TBC,Orange bitters (1 dash),0.8,Batch,"Stir ~30 s over ice, strain into chilled coupe; lemon twist. Dirty: 60 ml batch + 15 ml brine, skip saline, 3 olives",1.95,Suggested spec; Manzanilla optional
-House Gin Martini,TBC,Saline 20% (2 drops),0.1,Fresh,"Stir ~30 s over ice, strain into chilled coupe; lemon twist. Dirty: 60 ml batch + 15 ml brine, skip saline, 3 olives",1.95,Suggested spec; Manzanilla optional
+House Gin Martini,TBC,Gin (2 Pound 10),55,Batch,"Stir ~30 s over ice, strain into chilled coupe; lemon twist. Dirty: 60 ml batch + 15 ml brine, 3 olives",1.95,Suggested spec; Manzanilla optional
+House Gin Martini,TBC,Dry vermouth,15,Batch,"Stir ~30 s over ice, strain into chilled coupe; lemon twist. Dirty: 60 ml batch + 15 ml brine, 3 olives",1.95,Suggested spec; Manzanilla optional
+House Gin Martini,TBC,Orange bitters (1 dash),0.8,Batch,"Stir ~30 s over ice, strain into chilled coupe; lemon twist. Dirty: 60 ml batch + 15 ml brine, 3 olives",1.95,Suggested spec; Manzanilla optional
+House Gin Martini,TBC,Saline 20%,0.1,Batch,"Stir ~30 s over ice, strain into chilled coupe; lemon twist. Dirty: 60 ml batch + 15 ml brine, 3 olives",1.95,Suggested spec; Manzanilla optional
 House Vodka Martini,TBC,Vodka,55,Batch,"Stir over ice, strain into chilled coupe",2.0,Ari 18 Nov
 House Vodka Martini,TBC,Italicus,7.5,Batch,"Stir over ice, strain into chilled coupe",2.0,Ari 18 Nov
 House Vodka Martini,TBC,Dry vermouth,7.5,Batch,"Stir over ice, strain into chilled coupe",2.0,Ari 18 Nov
+House Vodka Martini,TBC,Saline 20%,0.1,Batch,,,
 Tomato Martini,25,Sun-dried tomato & rosemary gin,55,Batch,"Stir over ice, strain into chilled coupe",1.93,Garnish TBC; vermouth ABV assumed 16%
 Tomato Martini,25,Artichoke vermouth,15,Batch,"Stir over ice, strain into chilled coupe",1.93,Garnish TBC; vermouth ABV assumed 16%
-Tomato Martini,25,Saline 20%,0.2,Fresh,"Stir over ice, strain into chilled coupe",1.93,Garnish TBC; vermouth ABV assumed 16%
+Tomato Martini,25,Saline 20%,0.2,Batch,"Stir over ice, strain into chilled coupe",1.93,Garnish TBC; vermouth ABV assumed 16%
 Cornichon Gibson,26,Cornichon vodka,55,Batch,"Stir over ice, strain into chilled coupe; garnish a cornichon",,"ASSUMED amounts, confirm"
 Cornichon Gibson,26,Yellow Chartreuse,5,Batch,"Stir over ice, strain into chilled coupe; garnish a cornichon",,"ASSUMED amounts, confirm"
 Cornichon Gibson,26,Dry vermouth,10,Batch,"Stir over ice, strain into chilled coupe; garnish a cornichon",,"ASSUMED amounts, confirm"
