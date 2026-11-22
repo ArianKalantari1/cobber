@@ -1,12 +1,12 @@
 ﻿Cocktail,Price_$,Ingredient,ml_per_drink,From,Method,Glass,Garnish,Std_drinks,Status
-A Rosy Invitation (A.R.I.),25,Watermelon jerky rum,17.5,Batch,"Shake hard, double-strain",Coupe,,1.55,"Bench version B, not yet tasted"
+A Rosy Invitation (A.R.I.),25,Watermelon jerky rum,17.5,Batch,"Shake hard, double-strain",Coupe,Edible flower,1.55,"Bench version B, not yet tasted"
 A Rosy Invitation (A.R.I.),25,Cucumber rum,7.5,Batch,,,,1.55,"Bench version B, not yet tasted"
 A Rosy Invitation (A.R.I.),25,Lillet Rosé,20,Batch,,,,1.55,"Bench version B, not yet tasted"
 A Rosy Invitation (A.R.I.),25,Cointreau,15,Batch,,,,1.55,"Bench version B, not yet tasted"
 A Rosy Invitation (A.R.I.),25,Absinthe,1.5,Batch,,,,1.55,"Bench version B, not yet tasted"
 A Rosy Invitation (A.R.I.),25,Rose extract,0.2,Batch,,,,1.55,"Bench version B, not yet tasted"
 A Rosy Invitation (A.R.I.),25,Lemon juice,17.5,Fresh,,,,1.55,"Bench version B, not yet tasted"
-Summer Fling,25,Blanco tequila,30,Batch,"Shake hard and short (6-8 s), single-strain over fresh cubed ice",Rocks,Half chilli salt rim,1.65,Ari's amounts 15 Nov
+Summer Fling,25,Blanco tequila,30,Batch,"Shake hard and short (6-8 s), single-strain over fresh cubed ice",Rocks,Half chilli rim,1.65,Ari's amounts 15 Nov
 Summer Fling,25,Mezcal,15,Batch,,,,1.65,Ari's amounts 15 Nov
 Summer Fling,25,Floc de Gascogne,15,Batch,,,,1.65,Ari's amounts 15 Nov
 Summer Fling,25,Agave nectar,5,Batch,,,,1.65,Ari's amounts 15 Nov
@@ -31,7 +31,7 @@ Dirty Martini Spritz,23,Olive brine (house dirty brine),17.5,Batch,,,,1.48,"60 +
 Dirty Martini Spritz,23,Orange bitters (1 dash),0.8,Batch,,,,1.48,"60 + 60 + 30 = 150 ml (Ari, 22 Nov). Brine ladder still to bench"
 Dirty Martini Spritz,23,Sparkling,60,Top,,,,1.48,"60 + 60 + 30 = 150 ml (Ari, 22 Nov). Brine ladder still to bench"
 Dirty Martini Spritz,23,Soda water,30,Top,,,,1.48,"60 + 60 + 30 = 150 ml (Ari, 22 Nov). Brine ladder still to bench"
-House Gin Martini,TBC,Gin (2 Pound 10),55,Batch,"Stir briefly over ice, strain. Dirty: 60 ml batch + 15 ml brine",Coupe,Lemon twist (dirty: 3 olives),1.95,Suggested spec; Manzanilla optional
+House Gin Martini,TBC,Gin (2 Pound 10),55,Batch,"Stir over ice, strain. Dirty: 60 ml batch + 15 ml brine",Coupe,Lemon twist (dirty: 3 olives),1.95,Suggested spec; Manzanilla optional
 House Gin Martini,TBC,Dry vermouth,15,Batch,,,,1.95,Suggested spec; Manzanilla optional
 House Gin Martini,TBC,Orange bitters (1 dash),0.8,Batch,,,,1.95,Suggested spec; Manzanilla optional
 House Gin Martini,TBC,Saline 20%,0.1,Batch,,,,1.95,Suggested spec; Manzanilla optional

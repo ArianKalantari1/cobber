@@ -1,7 +1,7 @@
 ﻿Cocktail,Ingredient,ml,Method,Glass,Garnish
-A Rosy Invitation (A.R.I.),A Rosy Invitation batch,60,"Shake hard, double-strain",Coupe,
+A Rosy Invitation (A.R.I.),A Rosy Invitation batch,60,"Shake hard, double-strain",Coupe,Edible flower
 A Rosy Invitation (A.R.I.),Lemon juice,17.5,,,
-Summer Fling,Summer Fling batch,65,"Shake hard and short (6-8 s), single-strain over fresh cubed ice",Rocks,Half chilli salt rim
+Summer Fling,Summer Fling batch,65,"Shake hard and short (6-8 s), single-strain over fresh cubed ice",Rocks,Half chilli rim
 Summer Fling,Chilli bitters (1 dash),0.8,,,
 Summer Fling,Apricot purée,30,,,
 Summer Fling,Lime juice,15,,,
@@ -13,7 +13,7 @@ Sangria Tinto,Soda water (or Coca-Cola),45,,,
 Dirty Martini Spritz,Dirty Martini Spritz batch,60,"Build over cubed ice: batch, sparkling, soda. Lift once",Wine glass,"3 Green Queen olives, lemon twist"
 Dirty Martini Spritz,Sparkling,60,,,
 Dirty Martini Spritz,Soda water,30,,,
-House Gin Martini,House Gin Martini batch,70,"Stir briefly over ice, strain. Dirty: 60 ml batch + 15 ml brine",Coupe,Lemon twist (dirty: 3 olives)
+House Gin Martini,House Gin Martini batch,70,"Stir over ice, strain. Dirty: 60 ml batch + 15 ml brine",Coupe,Lemon twist (dirty: 3 olives)
 House Vodka Martini,House Vodka Martini batch,70,"Stir over ice, strain",Coupe,
 Tomato Martini,Tomato Martini batch,70,"Stir over ice, strain",Coupe,
 Cornichon Gibson,Cornichon Gibson batch,70,"Stir over ice, strain",Coupe,Cornichon
