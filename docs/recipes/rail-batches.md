@@ -91,5 +91,5 @@ brine ice, a few drops of 20% saline, olives marinated in the batch bottle.
 - A Rosy Invitation: no watermelon concentrate. Bench version B, 10 drinks: 175 watermelon jerky rum, 75 cucumber rum, 200 Lillet Rosé, 150 Cointreau, 15 absinthe, 2 ml rose extract; pour 60 ml, plus 17.5 ml lemon at service.
 - Saline is in the martini batches (Gin 1 ml, Vodka 1 ml assumed, Tomato 2 ml per 10 drinks).
 - Sangria Tinto is batched per 500 ml of wine reduction, with the sugar already in the reduction: 200 brandy, 200 vodka, 9 Angostura, 140 sweet vermouth, 95 Aperol, 1 ml saline, 3 g citric (start, test); about 9 pours of 120 ml.
-- Dirty Martini Spritz: pour kept at 60 ml (20 gin / 22.5 vermouth / 17.5 brine) while its strength is discussed.
+- Dirty Martini Spritz: keep the current spec (Ari, 22 Nov): 60 ml batch (20 gin / 22.5 vermouth / 17.5 brine) + 50 sparkling + 20 soda, about 1.39 standard drinks.
 - batch_bottles.csv (700 ml and 1 L) was retired; batch_700ml.csv replaces it.
