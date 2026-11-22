@@ -32,8 +32,8 @@
       "boxed": true,
       "note": "Either house martini can be made dirty on request.",
       "items": [
-        {"name": "House Gin Martini", "price": 21, "ing": "Spirits of Newtown Gin, Dry Vermouth, Manzanilla", "desc": "Crisp, Zesty, Boozy"},
-        {"name": "House Vodka Martini", "price": 21, "ing": "Vodka, Italicus, Dry Vermouth", "desc": "Smooth, Aromatic, Dry"},
+        {"name": "House Gin Martini", "price": 21, "ing": "Spirits of Newtown Gin, Dry Vermouth, Manzanilla", "desc": "Mediterranean, Delicate & Aromatic"},
+        {"name": "House Vodka Martini", "price": 21, "ing": "Vodka, Italicus, Dry Vermouth", "desc": "Mediterranean, Delicate & Aromatic"},
         {"name": "Cornichon Martini", "price": 22, "ing": "Cornichon Vodka, Manzanilla, Pickle Brine", "desc": "Briny, Tangy, Savoury"},
         {"name": "Tomato Martini", "price": 22, "ing": "Sun-Dried Tomato Gin, Artichoke Vermouth, Sea Salt", "desc": "Umami, Earthy, Dry"}
       ]
