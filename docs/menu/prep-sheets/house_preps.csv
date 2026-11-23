@@ -1,21 +1,15 @@
 ﻿Prep,Used_in,Ingredient,Amount,Unit,Method_notes,Time,Yield,Storage,Use_by_estimate,Status
-Cucumber rum (10-serve concentrate),A Rosy Invitation,White rum,180,ml,"Jar in cool room, capped. Strain through sieve then coffee filter, then add 90 ml plain rum",Strain at 24 h (max 36 h),About 270 ml,"Cool room, amber bottle, filled to the top",About 3 weeks (untested),On file
-Cucumber rum (10-serve concentrate),A Rosy Invitation,"Lebanese cucumber, sliced, peel striped, stem end off",96,g,,,,,,
-Cucumber rum (700 ml),A Rosy Invitation,White rum,700,ml,"Taste daily, strain at day 2-3, sieve then coffee filter",2-3 days,About 680 ml,"Cool room, amber bottle",About 3 weeks,On file
-Cucumber rum (700 ml),A Rosy Invitation,"Lebanese cucumber, sliced, peel striped, stem end off",250,g,,,,,,
 Sun-dried tomato & rosemary gin (450 ml),Tomato Martini,Gin (concentrate),300,ml,Strain through sieve then coffee filter; chill and refilter if cloudy,24 h (rosemary last 4 h),About 450 ml (8 martinis),Cool room,3-4 weeks,Starting point
 Sun-dried tomato & rosemary gin (450 ml),Tomato Martini,"Sun-dried tomatoes, patted dry",32,g,,,,,,
 Sun-dried tomato & rosemary gin (450 ml),Tomato Martini,Rosemary (last 4 h only),6,g,,,,,,
 Sun-dried tomato & rosemary gin (450 ml),Tomato Martini,Plain gin after straining,150,ml,,,,,,
-Cornichon vodka (450 ml),Cornichon Gibson,Vodka (concentrate),300,ml,"Strain through sieve then coffee filter. Taste: tangy, not harshly acidic. Mustard seed from the start, dill for the last 6 h",24 h,About 450 ml (8 Gibsons),Cool room,About 4 weeks,"On file (costing), steep time proposed"
-Cornichon vodka (450 ml),Cornichon Gibson,"Cornichons, sliced, drained",64,g,,,,,,
+Cornichon vodka (450 ml),Cornichon Gibson,Vodka (concentrate),300,ml,"Strain through sieve then coffee filter. Taste: tangy, not harshly acidic. Mustard seed from the start; dill skipped for now",24 h,About 450 ml (8 Gibsons),Cool room,About 4 weeks,Ari 23 Nov
+Cornichon vodka (450 ml),Cornichon Gibson,"Cornichons, lightly crushed",64,g,,,,,,
 Cornichon vodka (450 ml),Cornichon Gibson,"Mustard seeds, lightly cracked (from the start)",1,g,,,,,,
-Cornichon vodka (450 ml),Cornichon Gibson,Fresh dill (last 6 h only),2,g,,,,,,
 Cornichon vodka (450 ml),Cornichon Gibson,Plain vodka after straining,150,ml,,,,,,
-Strawberry shrub,Pisco Ma Chérie,Frozen strawberries,1000,g,"Day 1: macerate fruit, sugars and pepper 24 h in cool room. Day 2: strain (about 1 L), whisk in vinegar, acids, salt, sorbate. Taste: 15 ml shrub + 45 ml soda should taste like bright strawberry soda",24 h macerate + 2 days rest,About 1.1 L (4 rail bottles),"Fridge, filled to the top","At least 14 days (Ari), est. 3-4 weeks",Ari's spec
+Strawberry shrub,Pisco Ma Chérie,Frozen strawberries,1000,g,"Day 1: macerate fruit and sugars 24 h in cool room. Day 2: strain (about 1 L), whisk in vinegar, acids, salt, sorbate. Taste: 15 ml shrub + 45 ml soda should taste like bright strawberry soda. Black pepper comes from the black pepper vodka in the batch",24 h macerate + 2 days rest,About 1.1 L (4 rail bottles),"Fridge, filled to the top","At least 14 days (Ari), est. 3-4 weeks",Ari's spec
 Strawberry shrub,Pisco Ma Chérie,White sugar,400,g,,,,,,
 Strawberry shrub,Pisco Ma Chérie,Demerara sugar,200,g,,,,,,
-Strawberry shrub,Pisco Ma Chérie,"Black peppercorns, coarsely cracked",3,g,,,,,,
 Strawberry shrub,Pisco Ma Chérie,Vinegar (FORVM Chardonnay),120,ml,,,,,,
 Strawberry shrub,Pisco Ma Chérie,Citric acid,21,g,,,,,,
 Strawberry shrub,Pisco Ma Chérie,Malic acid,7,g,,,,,,
@@ -54,5 +48,9 @@ Sangria Tinto wine reduction (3 L wine),Sangria Tinto,Morello cherries (last 20 
 20% saline,"Tinto, martinis, spritz","Water, make up to 100 ml",100,ml,,,,,,
 Potassium sorbate 10% solution,"Shrub, purée, concentrate",Potassium sorbate,10,g,1 ml holds 0.1 g,5 min,100 ml,Fridge,Months,Standard
 Potassium sorbate 10% solution,"Shrub, purée, concentrate","Water, dissolve in about 80 ml then top up to 100 ml",100,ml,,,,,,
-Black pepper vodka,Pisco Ma Chérie,Vodka,200,ml,"Steep in a jar, capped, in the cool room. Strain through sieve then coffee filter",Strain at 12 h (max 24 h),About 190 ml,"Cool room, amber bottle, filled to the top",Untested,"Provisional, not tested"
-Black pepper vodka,Pisco Ma Chérie,"Black peppercorns, coarsely cracked",10,g,,,,,,
+Black pepper vodka,Pisco Ma Chérie,Vodka,100,ml,"Steep in a jar, capped, in the cool room. Strain through sieve then coffee filter",Strain at 12 h (max 24 h),About 95 ml,"Cool room, amber bottle, filled to the top",,Ari 23 Nov
+Black pepper vodka,Pisco Ma Chérie,"Black peppercorns, coarsely cracked",5,g,,,,,,
+Watermelon jerky,A Rosy Invitation,"Watermelon flesh, rind off, cut in 5 mm strips",as needed,,"Dehydrator trays, strips not touching. 60 C for 16 h, usually done",16 h,,,,Ari 23 Nov
+Watermelon & cucumber rum (1 L),A Rosy Invitation,White rum,1000,ml,"One jar, room temperature. Take the cucumber OUT at 24 h, keep the jerky in. Blitz rum + jerky about 5 s. Strain through sieve then coffee filter",24 h,About 4 A.R.I. batches,"Cool room, amber bottle, filled to the top",About 3 weeks,Ari 23 Nov; jerky weight to confirm
+Watermelon & cucumber rum (1 L),A Rosy Invitation,Watermelon jerky,TBC,g,,,,,,
+Watermelon & cucumber rum (1 L),A Rosy Invitation,"Cucumber, peeled, sliced thin",72,g,Derived from the old cucumber rum ratio (about 18 g per 250 ml batch share),,,,,
