@@ -1,15 +1,16 @@
 ﻿Batch,Basis,Ingredient,Amount,Unit,Pour_ml_per_drink,Keep
-Summer Fling,10 drinks,Tequila,300,ml,65,Cool room
+Summer Fling,about 11 drinks,Tequila,350,ml,60,Cool room
 Summer Fling,,Mezcal,150,ml,,
 Summer Fling,,Floc de Gascogne,150,ml,,
 Summer Fling,,Agave,50,ml,,
-A Rosy Invitation,10 drinks,Watermelon jerky rum,200,ml,65,Cool room
+Summer Fling,,Chilli bitters,10,ml,,
+A Rosy Invitation,10 drinks,Watermelon jerky rum,200,ml,60,Cool room
 A Rosy Invitation,,Cucumber rum,50,ml,,
 A Rosy Invitation,,Lillet Rosé,200,ml,,
 A Rosy Invitation,,Cointreau,150,ml,,
 A Rosy Invitation,,Absinthe,15,ml,,
 A Rosy Invitation,,Rose syrup,30,ml,,
-Pisco Ma Chérie,6 drinks,Pisco,180,ml,105,Ice well
+Pisco Ma Chérie,6 drinks,Pisco,180,ml,100,Ice well
 Pisco Ma Chérie,,Black pepper vodka,30,ml,,
 Pisco Ma Chérie,,Elegante Medium sherry,210,ml,,
 Pisco Ma Chérie,,Strawberry shrub,210,ml,,
@@ -24,16 +25,15 @@ House Vodka Martini,,Saline 20%,1,ml,,
 Tomato Martini,10 drinks,Sun-dried tomato & rosemary gin,550,ml,70,Fridge
 Tomato Martini,,Artichoke vermouth,150,ml,,
 Tomato Martini,,Saline 20%,2,ml,,
-Cornichon Gibson,10 drinks,Cornichon vodka,550,ml,75,Fridge
+Cornichon Gibson,10 drinks,Cornichon vodka,490,ml,70,Fridge
 Cornichon Gibson,,Yellow Chartreuse,50,ml,,
 Cornichon Gibson,,Dry vermouth,100,ml,,
 Cornichon Gibson,,Cornichon brine,50,ml,,
 Cornichon Gibson,,White wine vinegar,10,ml,,
-Sangria Tinto,per 500 ml wine reduction (sugar already in it),Wine reduction (with sugar),500,ml,120,Fridge
+Sangria Tinto,per 500 ml wine reduction (sugar already in it),Wine reduction (with sugar and a pinch of salt),500,ml,120,Fridge
 Sangria Tinto,,Brandy,200,ml,,
 Sangria Tinto,,House vodka,200,ml,,
 Sangria Tinto,,Angostura bitters,9,ml,,
 Sangria Tinto,,Sweet vermouth,140,ml,,
 Sangria Tinto,,Aperol,95,ml,,
-Sangria Tinto,,20% saline,1,ml,,
 Sangria Tinto,,"Citric acid (start, then test)",3,g,,

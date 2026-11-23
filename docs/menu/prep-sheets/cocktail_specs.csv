@@ -1,23 +1,23 @@
 ﻿Cocktail,Price_$,Ingredient,ml_per_drink,From,Method,Glass,Garnish,Std_drinks,Status
-A Rosy Invitation (A.R.I.),25,Watermelon jerky rum,20,Batch,"Shake hard, double-strain",Coupe,Edible flower,1.55,"Bench version B, not yet tasted"
-A Rosy Invitation (A.R.I.),25,Cucumber rum,5,Batch,,,,1.55,"Bench version B, not yet tasted"
-A Rosy Invitation (A.R.I.),25,Lillet Rosé,20,Batch,,,,1.55,"Bench version B, not yet tasted"
-A Rosy Invitation (A.R.I.),25,Cointreau,15,Batch,,,,1.55,"Bench version B, not yet tasted"
-A Rosy Invitation (A.R.I.),25,Absinthe,1.5,Batch,,,,1.55,"Bench version B, not yet tasted"
-A Rosy Invitation (A.R.I.),25,Rose syrup,3,Batch,,,,1.55,"Bench version B, not yet tasted"
-A Rosy Invitation (A.R.I.),25,Lemon juice,17.5,Fresh,,,,1.55,"Bench version B, not yet tasted"
-Summer Fling,25,Blanco tequila,30,Batch,"Shake hard and short (6-8 s), single-strain over fresh cubed ice",Rocks,Half chilli rim,1.65,Ari's amounts 15 Nov
-Summer Fling,25,Mezcal,15,Batch,,,,1.65,Ari's amounts 15 Nov
-Summer Fling,25,Floc de Gascogne,15,Batch,,,,1.65,Ari's amounts 15 Nov
-Summer Fling,25,Agave nectar,5,Batch,,,,1.65,Ari's amounts 15 Nov
-Summer Fling,25,Chilli bitters (1 dash),0.8,Fresh,,,,1.65,Ari's amounts 15 Nov
-Summer Fling,25,Apricot purée,30,Fresh,,,,1.65,Ari's amounts 15 Nov
-Summer Fling,25,Lime juice,15,Fresh,,,,1.65,Ari's amounts 15 Nov
-Pisco Ma Chérie,25,Pisco,30,Batch,"Pour the batch over cubes, top with soda",Tall glass,"Dehydrated orange wheel, twist of black pepper",1.57,"Ari 22 Nov: 30 pisco, 5 pepper vodka, 35 sherry, 35 shrub"
-Pisco Ma Chérie,25,Black pepper vodka,5,Batch,,,,1.57,"Ari 22 Nov: 30 pisco, 5 pepper vodka, 35 sherry, 35 shrub"
-Pisco Ma Chérie,25,Elegante Medium sherry,35,Batch,,,,1.57,"Ari 22 Nov: 30 pisco, 5 pepper vodka, 35 sherry, 35 shrub"
-Pisco Ma Chérie,25,Strawberry shrub,35,Batch,,,,1.57,"Ari 22 Nov: 30 pisco, 5 pepper vodka, 35 sherry, 35 shrub"
-Pisco Ma Chérie,25,Soda water,75,Top,,,,1.57,"Ari 22 Nov: 30 pisco, 5 pepper vodka, 35 sherry, 35 shrub"
+A Rosy Invitation (A.R.I.),25,Watermelon jerky rum,20,Batch,"Shake hard, double-strain",Coupe,Edible flower,1.55,Amounts confirmed by Ari 23 Nov; batch pour 60 ml
+A Rosy Invitation (A.R.I.),25,Cucumber rum,5,Batch,,,,1.55,Amounts confirmed by Ari 23 Nov; batch pour 60 ml
+A Rosy Invitation (A.R.I.),25,Lillet Rosé,20,Batch,,,,1.55,Amounts confirmed by Ari 23 Nov; batch pour 60 ml
+A Rosy Invitation (A.R.I.),25,Cointreau,15,Batch,,,,1.55,Amounts confirmed by Ari 23 Nov; batch pour 60 ml
+A Rosy Invitation (A.R.I.),25,Absinthe,1.5,Batch,,,,1.55,Amounts confirmed by Ari 23 Nov; batch pour 60 ml
+A Rosy Invitation (A.R.I.),25,Rose syrup,3,Batch,,,,1.55,Amounts confirmed by Ari 23 Nov; batch pour 60 ml
+A Rosy Invitation (A.R.I.),25,Lemon juice,17.5,Fresh,,,,1.55,Amounts confirmed by Ari 23 Nov; batch pour 60 ml
+Summer Fling,25,Blanco tequila,29.6,Batch,"Shake hard and short (6-8 s), single-strain over fresh cubed ice",Rocks,Half chilli rim,1.53,Ari 23 Nov: 60 batch / 25 purée / 20 lime; to taste-test
+Summer Fling,25,Mezcal,12.7,Batch,,,,1.53,Ari 23 Nov: 60 batch / 25 purée / 20 lime; to taste-test
+Summer Fling,25,Floc de Gascogne,12.7,Batch,,,,1.53,Ari 23 Nov: 60 batch / 25 purée / 20 lime; to taste-test
+Summer Fling,25,Agave nectar,4.2,Batch,,,,1.53,Ari 23 Nov: 60 batch / 25 purée / 20 lime; to taste-test
+Summer Fling,25,Chilli bitters (1 dash),0.8,Batch,,,,1.53,Ari 23 Nov: 60 batch / 25 purée / 20 lime; to taste-test
+Summer Fling,25,Apricot purée,25,Fresh,,,,1.53,Ari 23 Nov: 60 batch / 25 purée / 20 lime; to taste-test
+Summer Fling,25,Lime juice,20,Fresh,,,,1.53,Ari 23 Nov: 60 batch / 25 purée / 20 lime; to taste-test
+Pisco Ma Chérie,25,Pisco,30,Batch,"Pour the batch over cubes, top with soda",Tall glass,"Dehydrated orange wheel, twist of black pepper",1.57,Ari 22 Nov: 30 / 5 / 35 / 35; batch pour 100 ml
+Pisco Ma Chérie,25,Black pepper vodka,5,Batch,,,,1.57,Ari 22 Nov: 30 / 5 / 35 / 35; batch pour 100 ml
+Pisco Ma Chérie,25,Elegante Medium sherry,35,Batch,,,,1.57,Ari 22 Nov: 30 / 5 / 35 / 35; batch pour 100 ml
+Pisco Ma Chérie,25,Strawberry shrub,35,Batch,,,,1.57,Ari 22 Nov: 30 / 5 / 35 / 35; batch pour 100 ml
+Pisco Ma Chérie,25,Soda water,75,Top,,,,1.57,Ari 22 Nov: 30 / 5 / 35 / 35; batch pour 100 ml
 Sangria Tinto,24,Cherry & spiced red wine reduction (sweetened),52,Batch,"Tin: batch, lemon slice, orange slice, ice. Shake gently, dump into glass, top with soda",Tall glass,"Lemon slice, orange slice, mint, ground cinnamon, straw",1.5,Pour 120 ml of batch; no lemon juice; citric acid in batch
 Sangria Tinto,24,Brandy,21,Batch,,,,1.5,Pour 120 ml of batch; no lemon juice; citric acid in batch
 Sangria Tinto,24,House vodka,21,Batch,,,,1.5,Pour 120 ml of batch; no lemon juice; citric acid in batch
@@ -43,11 +43,11 @@ House Vodka Martini,21,Saline 20%,0.1,Batch,,,,1.96,"Locked, Ari 22 Nov"
 Tomato Martini,25,Sun-dried tomato & rosemary gin,55,Batch,"Stir over ice, strain",Coupe,,1.93,Garnish TBC; vermouth ABV assumed 16%
 Tomato Martini,25,Artichoke vermouth,15,Batch,,,,1.93,Garnish TBC; vermouth ABV assumed 16%
 Tomato Martini,25,Saline 20%,0.2,Batch,,,,1.93,Garnish TBC; vermouth ABV assumed 16%
-Cornichon Gibson,26,Cornichon vodka,55,Batch,"Stir over ice, strain",Coupe,Cornichon,,"ASSUMED amounts, confirm"
-Cornichon Gibson,26,Yellow Chartreuse,5,Batch,,,,,"ASSUMED amounts, confirm"
-Cornichon Gibson,26,Dry vermouth,10,Batch,,,,,"ASSUMED amounts, confirm"
-Cornichon Gibson,26,Cornichon brine,5,Batch,,,,,"ASSUMED amounts, confirm"
-Cornichon Gibson,26,White wine vinegar,1,Batch,,,,,"ASSUMED amounts, confirm"
+Cornichon Gibson,26,Cornichon vodka,49,Batch,"Stir over ice, strain",Coupe,Cornichon,1.84,Ari 23 Nov: serve 70 ml; brine and vinegar still to bench
+Cornichon Gibson,26,Yellow Chartreuse,5,Batch,,,,1.84,Ari 23 Nov: serve 70 ml; brine and vinegar still to bench
+Cornichon Gibson,26,Dry vermouth,10,Batch,,,,1.84,Ari 23 Nov: serve 70 ml; brine and vinegar still to bench
+Cornichon Gibson,26,Cornichon brine,5,Batch,,,,1.84,Ari 23 Nov: serve 70 ml; brine and vinegar still to bench
+Cornichon Gibson,26,White wine vinegar,1,Batch,,,,1.84,Ari 23 Nov: serve 70 ml; brine and vinegar still to bench
 Kaffi Gimlet,23,Gin (2 Pound 10),,,,,,,AMOUNTS NEEDED from Ari
 Kaffi Gimlet,23,Kiwi syrup,,,,,,,AMOUNTS NEEDED from Ari
 Kaffi Gimlet,23,Makrut lime tincture,,,,,,,AMOUNTS NEEDED from Ari
